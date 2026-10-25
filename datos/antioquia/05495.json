@@ -1,0 +1,345 @@
+{
+ "municipio": {
+  "cod_dane": "05495",
+  "cod_registraduria": "191",
+  "nombre": "Nechí",
+  "subregion": "Bajo Cauca",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 11283,
+   "votos_validos": 10753,
+   "margen_puntos": 1.07,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Marcos Javier Madera Camero",
+     "nombre_oficial": "MARCOS JAVIER MADERA CAMERO",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 2741,
+     "porcentaje": 25.49,
+     "posicion": 1
+    },
+    {
+     "nombre": "José Camilo Echeverri Díaz",
+     "nombre_oficial": "JOSE CAMILO ECHEVERRI DIAZ",
+     "partido": "Nechi Amor por Lo Nuestro",
+     "partido_oficial": "NECHI AMOR POR LO NUESTRO",
+     "familias": [],
+     "votos": 2626,
+     "porcentaje": 24.42,
+     "posicion": 2
+    },
+    {
+     "nombre": "Francisco Javier Arrieta Franco",
+     "nombre_oficial": "FRANCISCO JAVIER ARRIETA FRANCO",
+     "partido": "Partido Colombia Justa Libres",
+     "partido_oficial": "PARTIDO COLOMBIA JUSTA LIBRES",
+     "familias": [
+      "COL_JUSTA"
+     ],
+     "votos": 2018,
+     "porcentaje": 18.77,
+     "posicion": 3
+    },
+    {
+     "nombre": "Eneider Hoyos Crespo",
+     "nombre_oficial": "ENEIDER HOYOS CRESPO",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 1683,
+     "porcentaje": 15.65,
+     "posicion": 4
+    },
+    {
+     "nombre": "Elizabeth Builes Restrepo",
+     "nombre_oficial": "ELIZABETH BUILES RESTREPO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 1154,
+     "porcentaje": 10.73,
+     "posicion": 5
+    },
+    {
+     "nombre": "Fernando José Rodríguez Indaburo",
+     "nombre_oficial": "FERNANDO JOSE RODRIGUEZ INDABURO",
+     "partido": "Partido ADA",
+     "partido_oficial": "PARTIDO ADA",
+     "familias": [
+      "ADA"
+     ],
+     "votos": 307,
+     "porcentaje": 2.86,
+     "posicion": 6
+    },
+    {
+     "nombre": "César Augusto Paredes Benítez",
+     "nombre_oficial": "CESAR AUGUSTO PAREDES BENITEZ",
+     "partido": "Colombia Humana - Unión Patriotica",
+     "partido_oficial": "COLOMBIA HUMANA - UNION PATRIOTICA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 87,
+     "porcentaje": 0.81,
+     "posicion": 7
+    },
+    {
+     "nombre": "Yulieth del Carmen Palomino Chávez",
+     "nombre_oficial": "YULIETH DEL CARMEN PALOMINO CHAVEZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 55,
+     "porcentaje": 0.51,
+     "posicion": 8
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 361,
+    "VOTOS NULOS": 169,
+    "VOTOS EN BLANCO": 82
+   }
+  },
+  "2023": {
+   "votos_depositados": 13413,
+   "votos_validos": 13124,
+   "margen_puntos": 3.02,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Yumaris Patricia Henriquez Banquet",
+     "nombre_oficial": "YUMARIS PATRICIA HENRIQUEZ BANQUET",
+     "partido": "Nechi Primero 24/7",
+     "partido_oficial": "NECHI PRIMERO  24/7",
+     "familias": [],
+     "votos": 6718,
+     "porcentaje": 51.19,
+     "posicion": 1
+    },
+    {
+     "nombre": "José Camilo Echeverri Díaz",
+     "nombre_oficial": "JOSE CAMILO ECHEVERRI DIAZ",
+     "partido": "Unidos por Ti, Unidos por Nechí",
+     "partido_oficial": "UNIDOS POR TI, UNIDOS POR NECHÍ",
+     "familias": [],
+     "votos": 6321,
+     "porcentaje": 48.16,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 232,
+    "VOTOS EN BLANCO": 85,
+    "VOTOS NULOS": 57
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "U"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "NECHI|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 8.093391347534864,
+   "lon": -74.7751808166503,
+   "votos_total": 10587,
+   "votos_validos": 10357,
+   "ganador": "YUMARIS PATRICIA HENRIQUEZ BANQUET",
+   "empate": [],
+   "margen_puntos": 3.53,
+   "votos": {
+    "JOSE CAMILO ECHEVERRI DIAZ": 4961,
+    "VOTOS EN BLANCO": 69,
+    "VOTOS NO MARCADOS": 185,
+    "VOTOS NULOS": 45,
+    "YUMARIS PATRICIA HENRIQUEZ BANQUET": 5327
+   }
+  },
+  {
+   "id": "NECHI|99|06",
+   "nombre": "Bijagual",
+   "nombre_oficial": "BIJAGUAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.85757358784433,
+   "lon": -74.8092555999755,
+   "votos_total": 407,
+   "votos_validos": 402,
+   "ganador": "YUMARIS PATRICIA HENRIQUEZ BANQUET",
+   "empate": [],
+   "margen_puntos": 15.17,
+   "votos": {
+    "JOSE CAMILO ECHEVERRI DIAZ": 170,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 2,
+    "YUMARIS PATRICIA HENRIQUEZ BANQUET": 231
+   }
+  },
+  {
+   "id": "NECHI|99|12",
+   "nombre": "Colorado",
+   "nombre_oficial": "COLORADO",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.056713059,
+   "lon": -74.8750369299998,
+   "votos_total": 664,
+   "votos_validos": 659,
+   "ganador": "JOSE CAMILO ECHEVERRI DIAZ",
+   "empate": [],
+   "margen_puntos": 21.85,
+   "votos": {
+    "JOSE CAMILO ECHEVERRI DIAZ": 401,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 1,
+    "YUMARIS PATRICIA HENRIQUEZ BANQUET": 257
+   }
+  },
+  {
+   "id": "NECHI|99|15",
+   "nombre": "La Concha",
+   "nombre_oficial": "LA CONCHA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.94760203782503,
+   "lon": -74.8670604925564,
+   "votos_total": 764,
+   "votos_validos": 745,
+   "ganador": "YUMARIS PATRICIA HENRIQUEZ BANQUET",
+   "empate": [],
+   "margen_puntos": 1.48,
+   "votos": {
+    "JOSE CAMILO ECHEVERRI DIAZ": 362,
+    "VOTOS EN BLANCO": 10,
+    "VOTOS NO MARCADOS": 17,
+    "VOTOS NULOS": 2,
+    "YUMARIS PATRICIA HENRIQUEZ BANQUET": 373
+   }
+  },
+  {
+   "id": "NECHI|99|17",
+   "nombre": "Las Flores",
+   "nombre_oficial": "LAS FLORES",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.10103302013585,
+   "lon": -74.7584479511503,
+   "votos_total": 357,
+   "votos_validos": 347,
+   "ganador": "YUMARIS PATRICIA HENRIQUEZ BANQUET",
+   "empate": [],
+   "margen_puntos": 25.65,
+   "votos": {
+    "JOSE CAMILO ECHEVERRI DIAZ": 128,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 5,
+    "YUMARIS PATRICIA HENRIQUEZ BANQUET": 217
+   }
+  },
+  {
+   "id": "NECHI|99|24",
+   "nombre": "Los Cargueros",
+   "nombre_oficial": "LOS CARGUEROS",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.886182433,
+   "lon": -74.8091373999998,
+   "votos_total": 634,
+   "votos_validos": 614,
+   "ganador": "YUMARIS PATRICIA HENRIQUEZ BANQUET",
+   "empate": [],
+   "margen_puntos": 2.28,
+   "votos": {
+    "JOSE CAMILO ECHEVERRI DIAZ": 299,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 18,
+    "VOTOS NULOS": 2,
+    "YUMARIS PATRICIA HENRIQUEZ BANQUET": 313
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

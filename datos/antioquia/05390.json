@@ -1,0 +1,221 @@
+{
+ "municipio": {
+  "cod_dane": "05390",
+  "cod_registraduria": "170",
+  "nombre": "La Pintada",
+  "subregion": "Suroeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 5144,
+   "votos_validos": 5007,
+   "margen_puntos": 8.39,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Mary Luz Corrales Chalarca",
+     "nombre_oficial": "MARY LUZ CORRALES CHALARCA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 2475,
+     "porcentaje": 49.43,
+     "posicion": 1
+    },
+    {
+     "nombre": "Pablo de Jesús Cano Pulgarín",
+     "nombre_oficial": "PABLO DE JESUS CANO PULGARIN",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 2055,
+     "porcentaje": 41.04,
+     "posicion": 2
+    },
+    {
+     "nombre": "Juan Fernando Vásquez Gómez",
+     "nombre_oficial": "JUAN FERNANDO VASQUEZ GOMEZ",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 258,
+     "porcentaje": 5.15,
+     "posicion": 3
+    },
+    {
+     "nombre": "Janett Patricia Flórez Gallego",
+     "nombre_oficial": "JANETT PATRICIA FLOREZ GALLEGO",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 163,
+     "porcentaje": 3.26,
+     "posicion": 4
+    },
+    {
+     "nombre": "Miguel Ángel Moncada Gallego",
+     "nombre_oficial": "MIGUEL ANGEL MONCADA GALLEGO",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 17,
+     "porcentaje": 0.34,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NULOS": 90,
+    "VOTOS NO MARCADOS": 47,
+    "VOTOS EN BLANCO": 39
+   }
+  },
+  "2023": {
+   "votos_depositados": 4791,
+   "votos_validos": 4636,
+   "margen_puntos": 28.84,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Herman Antonio Correa Bedoya",
+     "nombre_oficial": "HERMAN ANTONIO CORREA BEDOYA",
+     "partido": "En Via al Desarrollo",
+     "partido_oficial": "EN VIA AL DESARROLLO",
+     "familias": [],
+     "votos": 2938,
+     "porcentaje": 63.37,
+     "posicion": 1
+    },
+    {
+     "nombre": "Pablo de Jesús Cano Pulgarín",
+     "nombre_oficial": "PABLO DE JESUS CANO PULGARIN",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRÁTICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 1601,
+     "porcentaje": 34.53,
+     "posicion": 2
+    },
+    {
+     "nombre": "Miguel Ángel Moncada Gallego",
+     "nombre_oficial": "MIGUEL ANGEL MONCADA GALLEGO",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 26,
+     "porcentaje": 0.56,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 89,
+    "VOTOS EN BLANCO": 71,
+    "VOTOS NULOS": 66
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CONS"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "LA PINTADA|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 5.747174076651679,
+   "lon": -75.6053352355957,
+   "votos_total": 4791,
+   "votos_validos": 4636,
+   "ganador": "HERMAN ANTONIO CORREA BEDOYA",
+   "empate": [],
+   "margen_puntos": 28.84,
+   "votos": {
+    "HERMAN ANTONIO CORREA BEDOYA": 2938,
+    "MIGUEL ANGEL MONCADA GALLEGO": 26,
+    "PABLO DE JESUS CANO PULGARIN": 1601,
+    "VOTOS EN BLANCO": 71,
+    "VOTOS NO MARCADOS": 89,
+    "VOTOS NULOS": 66
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

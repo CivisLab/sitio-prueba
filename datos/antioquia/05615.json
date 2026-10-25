@@ -1,0 +1,723 @@
+{
+ "municipio": {
+  "cod_dane": "05615",
+  "cod_registraduria": "214",
+  "nombre": "Rionegro",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 74877,
+   "votos_validos": 72024,
+   "margen_puntos": 1.94,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Rodrigo Hernández Alzate",
+     "nombre_oficial": "RODRIGO HERNANDEZ ALZATE",
+     "partido": "Unidos por Rionegro",
+     "partido_oficial": "UNIDOS POR RIONEGRO",
+     "familias": [],
+     "votos": 25756,
+     "porcentaje": 35.76,
+     "posicion": 1
+    },
+    {
+     "nombre": "Fernando Andrés Valencia Vallejo",
+     "nombre_oficial": "FERNANDO ANDRES VALENCIA VALLEJO",
+     "partido": "Rionegro Primero la Gente",
+     "partido_oficial": "RIONEGRO PRIMERO LA GENTE",
+     "familias": [],
+     "votos": 24361,
+     "porcentaje": 33.82,
+     "posicion": 2
+    },
+    {
+     "nombre": "Mauricio de Jesús Rendón González",
+     "nombre_oficial": "MAURICIO DE JESUS RENDON GONZALEZ",
+     "partido": "Partido de Reivindicacion Etnica Pre",
+     "partido_oficial": "PARTIDO DE REIVINDICACION ETNICA \"PRE\"",
+     "familias": [],
+     "votos": 8152,
+     "porcentaje": 11.32,
+     "posicion": 3
+    },
+    {
+     "nombre": "Laura Emilse Marulanda Tobón",
+     "nombre_oficial": "LAURA EMILSE MARULANDA TOBON",
+     "partido": "Rionegro Te Llevo en el Corazón",
+     "partido_oficial": "\"RIONEGRO TE LLEVO EN EL CORAZON\"",
+     "familias": [],
+     "votos": 4050,
+     "porcentaje": 5.62,
+     "posicion": 4
+    },
+    {
+     "nombre": "Carlos Mauricio Martínez Flórez",
+     "nombre_oficial": "CARLOS MAURICIO MARTINEZ FLOREZ",
+     "partido": "Más Oportunidades",
+     "partido_oficial": "MAS OPORTUNIDADES",
+     "familias": [],
+     "votos": 3793,
+     "porcentaje": 5.27,
+     "posicion": 5
+    },
+    {
+     "nombre": "Hernán de Jesús Ospina Sepúlveda",
+     "nombre_oficial": "HERNAN DE JESUS OSPINA SEPULVEDA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 822,
+     "porcentaje": 1.14,
+     "posicion": 6
+    },
+    {
+     "nombre": "Carlos Ignacio Osorno Uribe",
+     "nombre_oficial": "CARLOS IGNACIO OSORNO URIBE",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRATICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 600,
+     "porcentaje": 0.83,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 4490,
+    "VOTOS NULOS": 1592,
+    "VOTOS NO MARCADOS": 1261
+   }
+  },
+  "2023": {
+   "votos_depositados": 83333,
+   "votos_validos": 81303,
+   "margen_puntos": 12.57,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Jorge Humberto Rivas Urrea",
+     "nombre_oficial": "JORGE HUMBERTO RIVAS URREA",
+     "partido": "Rionegro Nos Une",
+     "partido_oficial": "RIONEGRO NOS UNE",
+     "familias": [],
+     "votos": 41095,
+     "porcentaje": 50.55,
+     "posicion": 1
+    },
+    {
+     "nombre": "Fernando Andrés Valencia Vallejo",
+     "nombre_oficial": "FERNANDO ANDRES VALENCIA VALLEJO",
+     "partido": "Tola Primero la Gente",
+     "partido_oficial": "TOLA PRIMERO LA GENTE",
+     "familias": [],
+     "votos": 30877,
+     "porcentaje": 37.98,
+     "posicion": 2
+    },
+    {
+     "nombre": "Mauricio de Jesús Rendón González",
+     "nombre_oficial": "MAURICIO DE JESUS RENDON GONZALEZ",
+     "partido": "Movimiento Alianza Democrática Amplia - Res. 2049 de 2021",
+     "partido_oficial": "MOVIMIENTO ALIANZA DEMOCRÁTICA AMPLIA - Res. 2049 de 2021",
+     "familias": [
+      "ADA"
+     ],
+     "votos": 4491,
+     "porcentaje": 5.52,
+     "posicion": 3
+    },
+    {
+     "nombre": "Ricardo Nieto Rizo",
+     "nombre_oficial": "RICARDO NIETO RIZO",
+     "partido": "Agrupación Política en Marcha",
+     "partido_oficial": "AGRUPACIÓN POLÍTICA EN MARCHA",
+     "familias": [],
+     "votos": 1017,
+     "porcentaje": 1.25,
+     "posicion": 4
+    },
+    {
+     "nombre": "Luis Ernesto Castaño Castaño",
+     "nombre_oficial": "LUIS ERNESTO CASTAÑO CASTAÑO",
+     "partido": "Partido Ecologista Colombiano",
+     "partido_oficial": "PARTIDO ECOLOGISTA COLOMBIANO",
+     "familias": [],
+     "votos": 658,
+     "porcentaje": 0.81,
+     "posicion": 5
+    },
+    {
+     "nombre": "Juan Carlos Vargas Arbeláez",
+     "nombre_oficial": "JUAN CARLOS VARGAS ARBELAEZ",
+     "partido": "Partido Verde Oxígeno",
+     "partido_oficial": "PARTIDO VERDE OXÍGENO",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 265,
+     "porcentaje": 0.33,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 2900,
+    "VOTOS NULOS": 1041,
+    "VOTOS NO MARCADOS": 989
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "RIONEGRO|01|01",
+   "nombre": "I.E. Julio Sanin",
+   "nombre_oficial": "I.E. JULIO SANIN",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.155316961704918,
+   "lon": -75.3690935511639,
+   "votos_total": 5582,
+   "votos_validos": 5363,
+   "ganador": "JORGE HUMBERTO RIVAS URREA",
+   "empate": [],
+   "margen_puntos": 2.11,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 2294,
+    "JORGE HUMBERTO RIVAS URREA": 2407,
+    "JUAN CARLOS VARGAS ARBELAEZ": 14,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 45,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 374,
+    "RICARDO NIETO RIZO": 59,
+    "VOTOS EN BLANCO": 170,
+    "VOTOS NO MARCADOS": 109,
+    "VOTOS NULOS": 110
+   }
+  },
+  {
+   "id": "RIONEGRO|01|02",
+   "nombre": "Oficina Valorizacion Alcaldia",
+   "nombre_oficial": "OFICINA VALORIZACION ALCALDIA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.155382761678493,
+   "lon": -75.3732352031799,
+   "votos_total": 5976,
+   "votos_validos": 5802,
+   "ganador": "JORGE HUMBERTO RIVAS URREA",
+   "empate": [],
+   "margen_puntos": 2.69,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 2492,
+    "JORGE HUMBERTO RIVAS URREA": 2648,
+    "JUAN CARLOS VARGAS ARBELAEZ": 15,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 51,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 361,
+    "RICARDO NIETO RIZO": 80,
+    "VOTOS EN BLANCO": 155,
+    "VOTOS NO MARCADOS": 100,
+    "VOTOS NULOS": 74
+   }
+  },
+  {
+   "id": "RIONEGRO|01|03",
+   "nombre": "Coliseo Rubén Darío Quintero",
+   "nombre_oficial": "COLISEO RUBEN DARIO QUINTERO",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.157457596821333,
+   "lon": -75.3726791806883,
+   "votos_total": 7512,
+   "votos_validos": 7350,
+   "ganador": "JORGE HUMBERTO RIVAS URREA",
+   "empate": [],
+   "margen_puntos": 6.68,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 2975,
+    "JORGE HUMBERTO RIVAS URREA": 3466,
+    "JUAN CARLOS VARGAS ARBELAEZ": 30,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 49,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 504,
+    "RICARDO NIETO RIZO": 98,
+    "VOTOS EN BLANCO": 228,
+    "VOTOS NO MARCADOS": 71,
+    "VOTOS NULOS": 91
+   }
+  },
+  {
+   "id": "RIONEGRO|02|01",
+   "nombre": "Escuela Unida",
+   "nombre_oficial": "ESCUELA UNIDA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.154287675873803,
+   "lon": -75.3723285731077,
+   "votos_total": 4260,
+   "votos_validos": 4112,
+   "ganador": "FERNANDO ANDRES VALENCIA VALLEJO",
+   "empate": [],
+   "margen_puntos": 1.73,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 1829,
+    "JORGE HUMBERTO RIVAS URREA": 1758,
+    "JUAN CARLOS VARGAS ARBELAEZ": 13,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 37,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 263,
+    "RICARDO NIETO RIZO": 54,
+    "VOTOS EN BLANCO": 158,
+    "VOTOS NO MARCADOS": 81,
+    "VOTOS NULOS": 67
+   }
+  },
+  {
+   "id": "RIONEGRO|02|02",
+   "nombre": "IE Josefina Muñoz González Sd Baldomero",
+   "nombre_oficial": "IE JOSEFINA MUÑOZ GONZALEZ SD BALDOMERO",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.1588343865835,
+   "lon": -75.3753312517992,
+   "votos_total": 6758,
+   "votos_validos": 6541,
+   "ganador": "FERNANDO ANDRES VALENCIA VALLEJO",
+   "empate": [],
+   "margen_puntos": 4.6,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 3038,
+    "JORGE HUMBERTO RIVAS URREA": 2737,
+    "JUAN CARLOS VARGAS ARBELAEZ": 16,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 59,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 379,
+    "RICARDO NIETO RIZO": 80,
+    "VOTOS EN BLANCO": 232,
+    "VOTOS NO MARCADOS": 99,
+    "VOTOS NULOS": 118
+   }
+  },
+  {
+   "id": "RIONEGRO|03|01",
+   "nombre": "IE San Antonio",
+   "nombre_oficial": "IE SAN ANTONIO",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.130062814935056,
+   "lon": -75.3811607604048,
+   "votos_total": 7654,
+   "votos_validos": 7559,
+   "ganador": "JORGE HUMBERTO RIVAS URREA",
+   "empate": [],
+   "margen_puntos": 37.82,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 2005,
+    "JORGE HUMBERTO RIVAS URREA": 4864,
+    "JUAN CARLOS VARGAS ARBELAEZ": 19,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 43,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 288,
+    "RICARDO NIETO RIZO": 80,
+    "VOTOS EN BLANCO": 260,
+    "VOTOS NO MARCADOS": 50,
+    "VOTOS NULOS": 45
+   }
+  },
+  {
+   "id": "RIONEGRO|03|02",
+   "nombre": "It Santiago de Arma",
+   "nombre_oficial": "IT SANTIAGO DE ARMA",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.155,
+   "lon": -75.3709999999998,
+   "votos_total": 4683,
+   "votos_validos": 4611,
+   "ganador": "JORGE HUMBERTO RIVAS URREA",
+   "empate": [],
+   "margen_puntos": 24.25,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 1468,
+    "JORGE HUMBERTO RIVAS URREA": 2586,
+    "JUAN CARLOS VARGAS ARBELAEZ": 19,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 44,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 221,
+    "RICARDO NIETO RIZO": 56,
+    "VOTOS EN BLANCO": 217,
+    "VOTOS NO MARCADOS": 26,
+    "VOTOS NULOS": 46
+   }
+  },
+  {
+   "id": "RIONEGRO|03|03",
+   "nombre": "Coliseo Iván Ramiro Córdoba",
+   "nombre_oficial": "COLISEO IVAN RAMIRO CORDOBA",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.1467467905521405,
+   "lon": -75.37396939403627,
+   "votos_total": 6513,
+   "votos_validos": 6344,
+   "ganador": "JORGE HUMBERTO RIVAS URREA",
+   "empate": [],
+   "margen_puntos": 7.77,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 2525,
+    "JORGE HUMBERTO RIVAS URREA": 3018,
+    "JUAN CARLOS VARGAS ARBELAEZ": 21,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 60,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 393,
+    "RICARDO NIETO RIZO": 114,
+    "VOTOS EN BLANCO": 213,
+    "VOTOS NO MARCADOS": 70,
+    "VOTOS NULOS": 99
+   }
+  },
+  {
+   "id": "RIONEGRO|03|04",
+   "nombre": "IE Josefina Muñoz González Sd Cuatro Esq",
+   "nombre_oficial": "IE JOSEFINA MUÑOZ GONZALEZ SD CUATRO ESQ",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.149535504450468,
+   "lon": -75.3600708779098,
+   "votos_total": 4564,
+   "votos_validos": 4444,
+   "ganador": "JORGE HUMBERTO RIVAS URREA",
+   "empate": [],
+   "margen_puntos": 7.13,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 1762,
+    "JORGE HUMBERTO RIVAS URREA": 2079,
+    "JUAN CARLOS VARGAS ARBELAEZ": 19,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 42,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 280,
+    "RICARDO NIETO RIZO": 66,
+    "VOTOS EN BLANCO": 196,
+    "VOTOS NO MARCADOS": 58,
+    "VOTOS NULOS": 62
+   }
+  },
+  {
+   "id": "RIONEGRO|04|01",
+   "nombre": "Esc Eduardo Uribe Botero",
+   "nombre_oficial": "ESC EDUARDO URIBE BOTERO",
+   "zona": "04",
+   "rural": false,
+   "lat": 6.147147120146054,
+   "lon": -75.3874325752258,
+   "votos_total": 5423,
+   "votos_validos": 5311,
+   "ganador": "JORGE HUMBERTO RIVAS URREA",
+   "empate": [],
+   "margen_puntos": 19.3,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 1844,
+    "JORGE HUMBERTO RIVAS URREA": 2869,
+    "JUAN CARLOS VARGAS ARBELAEZ": 28,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 48,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 290,
+    "RICARDO NIETO RIZO": 66,
+    "VOTOS EN BLANCO": 166,
+    "VOTOS NO MARCADOS": 50,
+    "VOTOS NULOS": 62
+   }
+  },
+  {
+   "id": "RIONEGRO|04|02",
+   "nombre": "Lic Consejo Municipal",
+   "nombre_oficial": "LIC CONSEJO MUNICIPAL",
+   "zona": "04",
+   "rural": false,
+   "lat": 6.150117912297727,
+   "lon": -75.3879207372664,
+   "votos_total": 6733,
+   "votos_validos": 6616,
+   "ganador": "JORGE HUMBERTO RIVAS URREA",
+   "empate": [],
+   "margen_puntos": 14.12,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 2433,
+    "JORGE HUMBERTO RIVAS URREA": 3367,
+    "JUAN CARLOS VARGAS ARBELAEZ": 31,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 67,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 362,
+    "RICARDO NIETO RIZO": 88,
+    "VOTOS EN BLANCO": 268,
+    "VOTOS NO MARCADOS": 39,
+    "VOTOS NULOS": 78
+   }
+  },
+  {
+   "id": "RIONEGRO|04|03",
+   "nombre": "Esc Pascuala Muñoz",
+   "nombre_oficial": "ESC PASCUALA MUÑOZ",
+   "zona": "04",
+   "rural": false,
+   "lat": 6.151099283437033,
+   "lon": -75.3793323040007,
+   "votos_total": 3260,
+   "votos_validos": 3203,
+   "ganador": "JORGE HUMBERTO RIVAS URREA",
+   "empate": [],
+   "margen_puntos": 7.77,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 1284,
+    "JORGE HUMBERTO RIVAS URREA": 1533,
+    "JUAN CARLOS VARGAS ARBELAEZ": 14,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 31,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 195,
+    "RICARDO NIETO RIZO": 35,
+    "VOTOS EN BLANCO": 111,
+    "VOTOS NO MARCADOS": 22,
+    "VOTOS NULOS": 35
+   }
+  },
+  {
+   "id": "RIONEGRO|99|A2",
+   "nombre": "I e Gilberto Echeverry Mejía",
+   "nombre_oficial": "I E GILBERTO ECHEVERRY MEJIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.120510588148762,
+   "lon": -75.4123489558696,
+   "votos_total": 5441,
+   "votos_validos": 5309,
+   "ganador": "JORGE HUMBERTO RIVAS URREA",
+   "empate": [],
+   "margen_puntos": 39.33,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 1412,
+    "JORGE HUMBERTO RIVAS URREA": 3500,
+    "JUAN CARLOS VARGAS ARBELAEZ": 7,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 21,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 170,
+    "RICARDO NIETO RIZO": 59,
+    "VOTOS EN BLANCO": 140,
+    "VOTOS NO MARCADOS": 80,
+    "VOTOS NULOS": 52
+   }
+  },
+  {
+   "id": "RIONEGRO|99|B1",
+   "nombre": "I e Antonio Donado Camacho",
+   "nombre_oficial": "I E ANTONIO DONADO CAMACHO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.143797625435874,
+   "lon": -75.4498744010925,
+   "votos_total": 1642,
+   "votos_validos": 1599,
+   "ganador": "JORGE HUMBERTO RIVAS URREA",
+   "empate": [],
+   "margen_puntos": 34.33,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 459,
+    "JORGE HUMBERTO RIVAS URREA": 1008,
+    "JUAN CARLOS VARGAS ARBELAEZ": 2,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 16,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 48,
+    "RICARDO NIETO RIZO": 5,
+    "VOTOS EN BLANCO": 61,
+    "VOTOS NO MARCADOS": 25,
+    "VOTOS NULOS": 18
+   }
+  },
+  {
+   "id": "RIONEGRO|99|B2",
+   "nombre": "Auditorio Aeropuerto CORR. J.M.C.",
+   "nombre_oficial": "AUDITORIO AEROPUERTO CORR. J.M.C.",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.17101965886099,
+   "lon": -75.4275798797607,
+   "votos_total": 1638,
+   "votos_validos": 1591,
+   "ganador": "JORGE HUMBERTO RIVAS URREA",
+   "empate": [],
+   "margen_puntos": 18.35,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 541,
+    "JORGE HUMBERTO RIVAS URREA": 833,
+    "JUAN CARLOS VARGAS ARBELAEZ": 4,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 13,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 88,
+    "RICARDO NIETO RIZO": 11,
+    "VOTOS EN BLANCO": 101,
+    "VOTOS NO MARCADOS": 29,
+    "VOTOS NULOS": 18
+   }
+  },
+  {
+   "id": "RIONEGRO|99|C1",
+   "nombre": "I e Barro Blanco",
+   "nombre_oficial": "I E BARRO BLANCO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.150155247102318,
+   "lon": -75.3946208953857,
+   "votos_total": 1032,
+   "votos_validos": 1015,
+   "ganador": "JORGE HUMBERTO RIVAS URREA",
+   "empate": [],
+   "margen_puntos": 12.61,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 396,
+    "JORGE HUMBERTO RIVAS URREA": 524,
+    "JUAN CARLOS VARGAS ARBELAEZ": 3,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 7,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 28,
+    "RICARDO NIETO RIZO": 10,
+    "VOTOS EN BLANCO": 47,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 7
+   }
+  },
+  {
+   "id": "RIONEGRO|99|C2",
+   "nombre": "Esc San José de las Cuchillas",
+   "nombre_oficial": "ESC SAN JOSE DE LAS CUCHILLAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.179478258587193,
+   "lon": -75.3938269615173,
+   "votos_total": 1181,
+   "votos_validos": 1153,
+   "ganador": "FERNANDO ANDRES VALENCIA VALLEJO",
+   "empate": [],
+   "margen_puntos": 28.62,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 676,
+    "JORGE HUMBERTO RIVAS URREA": 346,
+    "JUAN CARLOS VARGAS ARBELAEZ": 3,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 6,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 67,
+    "RICARDO NIETO RIZO": 12,
+    "VOTOS EN BLANCO": 43,
+    "VOTOS NO MARCADOS": 14,
+    "VOTOS NULOS": 14
+   }
+  },
+  {
+   "id": "RIONEGRO|99|D1",
+   "nombre": "Caseta Comunal Galicia",
+   "nombre_oficial": "CASETA COMUNAL GALICIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.2013547912878,
+   "lon": -75.3524351119994,
+   "votos_total": 1014,
+   "votos_validos": 986,
+   "ganador": "FERNANDO ANDRES VALENCIA VALLEJO",
+   "empate": [],
+   "margen_puntos": 4.87,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 473,
+    "JORGE HUMBERTO RIVAS URREA": 425,
+    "JUAN CARLOS VARGAS ARBELAEZ": 1,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 7,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 52,
+    "RICARDO NIETO RIZO": 16,
+    "VOTOS EN BLANCO": 12,
+    "VOTOS NO MARCADOS": 17,
+    "VOTOS NULOS": 11
+   }
+  },
+  {
+   "id": "RIONEGRO|99|D2",
+   "nombre": "IE Ana Gómez de Sierra",
+   "nombre_oficial": "IE ANA GOMEZ DE SIERRA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.202101414630893,
+   "lon": -75.3819823265074,
+   "votos_total": 2440,
+   "votos_validos": 2369,
+   "ganador": "JORGE HUMBERTO RIVAS URREA",
+   "empate": [],
+   "margen_puntos": 6.08,
+   "votos": {
+    "FERNANDO ANDRES VALENCIA VALLEJO": 967,
+    "JORGE HUMBERTO RIVAS URREA": 1111,
+    "JUAN CARLOS VARGAS ARBELAEZ": 5,
+    "LUIS ERNESTO CASTAÑO CASTAÑO": 12,
+    "MAURICIO DE JESUS RENDON GONZALEZ": 127,
+    "RICARDO NIETO RIZO": 28,
+    "VOTOS EN BLANCO": 119,
+    "VOTOS NO MARCADOS": 37,
+    "VOTOS NULOS": 34
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel Municipal",
+   "nombre_oficial": "CARCEL MUNICIPAL",
+   "votos": 27,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

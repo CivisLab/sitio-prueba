@@ -1,0 +1,198 @@
+{
+ "municipio": {
+  "cod_dane": "05652",
+  "cod_registraduria": "227",
+  "nombre": "San Francisco",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 4238,
+   "votos_validos": 4174,
+   "margen_puntos": 20.29,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Diego Alejandro Duque Valencia",
+     "nombre_oficial": "DIEGO ALEJANDRO DUQUE VALENCIA",
+     "partido": "Es Tiempo de Crecer",
+     "partido_oficial": "ES TIEMPO DE CRECER",
+     "familias": [],
+     "votos": 2506,
+     "porcentaje": 60.04,
+     "posicion": 1
+    },
+    {
+     "nombre": "Francisco Luis Duque Toro",
+     "nombre_oficial": "FRANCISCO LUIS DUQUE TORO",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1659,
+     "porcentaje": 39.75,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 43,
+    "VOTOS NULOS": 21,
+    "VOTOS EN BLANCO": 9
+   }
+  },
+  "2023": {
+   "votos_depositados": 4329,
+   "votos_validos": 4230,
+   "margen_puntos": 23.33,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Arturo Alexander Arias Duque",
+     "nombre_oficial": "ARTURO ALEXANDER ARIAS DUQUE",
+     "partido": "Con la Gente y para la Gente",
+     "partido_oficial": "CON LA GENTE Y PARA LA GENTE",
+     "familias": [],
+     "votos": 2593,
+     "porcentaje": 61.3,
+     "posicion": 1
+    },
+    {
+     "nombre": "Luis Emigdio Escobar Villegas",
+     "nombre_oficial": "LUIS EMIGDIO ESCOBAR VILLEGAS",
+     "partido": "Por Un San Francisco con Hechos",
+     "partido_oficial": "POR UN SAN FRANCISCO CON HECHOS",
+     "familias": [],
+     "votos": 1606,
+     "porcentaje": 37.97,
+     "posicion": 2
+    },
+    {
+     "nombre": "Ramiro de Jesús Ciro Daza",
+     "nombre_oficial": "RAMIRO DE JESUS CIRO DAZA",
+     "partido": "Independientes",
+     "partido_oficial": "INDEPENDIENTES",
+     "familias": [],
+     "votos": 7,
+     "porcentaje": 0.17,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 66,
+    "VOTOS NULOS": 33,
+    "VOTOS EN BLANCO": 24
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SAN FRANCISCO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 5.96521052738603,
+   "lon": -75.10222792625426,
+   "votos_total": 3416,
+   "votos_validos": 3345,
+   "ganador": "ARTURO ALEXANDER ARIAS DUQUE",
+   "empate": [],
+   "margen_puntos": 22.75,
+   "votos": {
+    "ARTURO ALEXANDER ARIAS DUQUE": 2039,
+    "LUIS EMIGDIO ESCOBAR VILLEGAS": 1278,
+    "RAMIRO DE JESUS CIRO DAZA": 7,
+    "VOTOS EN BLANCO": 21,
+    "VOTOS NO MARCADOS": 46,
+    "VOTOS NULOS": 25
+   }
+  },
+  {
+   "id": "SAN FRANCISCO|99|05",
+   "nombre": "Aquitania",
+   "nombre_oficial": "AQUITANIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.845229810620396,
+   "lon": -74.97138405986954,
+   "votos_total": 913,
+   "votos_validos": 885,
+   "ganador": "ARTURO ALEXANDER ARIAS DUQUE",
+   "empate": [],
+   "margen_puntos": 25.54,
+   "votos": {
+    "ARTURO ALEXANDER ARIAS DUQUE": 554,
+    "LUIS EMIGDIO ESCOBAR VILLEGAS": 328,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 20,
+    "VOTOS NULOS": 8
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

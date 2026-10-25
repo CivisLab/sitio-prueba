@@ -1,0 +1,584 @@
+{
+ "municipio": {
+  "cod_dane": "05887",
+  "cod_registraduria": "295",
+  "nombre": "Yarumal",
+  "subregion": "Norte",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 17936,
+   "votos_validos": 17304,
+   "margen_puntos": 21.63,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Miguel Ángel Peláez Henao",
+     "nombre_oficial": "MIGUEL ANGEL PELAEZ HENAO",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 8692,
+     "porcentaje": 50.23,
+     "posicion": 1
+    },
+    {
+     "nombre": "Carlos Guillermo Atehortua Quiceno",
+     "nombre_oficial": "CARLOS GUILLERMO ATEHORTUA QUICENO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 4949,
+     "porcentaje": 28.6,
+     "posicion": 2
+    },
+    {
+     "nombre": "Cristian David Cespedes Correa",
+     "nombre_oficial": "CRISTIAN DAVID CESPEDES CORREA",
+     "partido": "Yarumal Grande para Todos",
+     "partido_oficial": "YARUMAL GRANDE PARA TODOS",
+     "familias": [],
+     "votos": 3232,
+     "porcentaje": 18.68,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 431,
+    "VOTOS NO MARCADOS": 339,
+    "VOTOS NULOS": 293
+   }
+  },
+  "2023": {
+   "votos_depositados": 16839,
+   "votos_validos": 15947,
+   "margen_puntos": 13.17,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Cristian David Cespedes Correa",
+     "nombre_oficial": "CRISTIAN DAVID CESPEDES CORREA",
+     "partido": "Yarumal Nos Une",
+     "partido_oficial": "YARUMAL NOS UNE",
+     "familias": [],
+     "votos": 5794,
+     "porcentaje": 36.33,
+     "posicion": 1
+    },
+    {
+     "nombre": "Marta Isabel Palacio Moreno",
+     "nombre_oficial": "MARTA ISABEL PALACIO MORENO",
+     "partido": "Partido de la Unión por la Gente - Partido de la U",
+     "partido_oficial": "PARTIDO DE LA UNIÓN POR LA GENTE - PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 3693,
+     "porcentaje": 23.16,
+     "posicion": 2
+    },
+    {
+     "nombre": "Luis Fernando Espinosa Echavarría",
+     "nombre_oficial": "LUIS FERNANDO ESPINOSA ECHAVARRIA",
+     "partido": "Sumemos por Yarumal",
+     "partido_oficial": "SUMEMOS POR YARUMAL",
+     "familias": [],
+     "votos": 3469,
+     "porcentaje": 21.75,
+     "posicion": 3
+    },
+    {
+     "nombre": "Hubeimar Iván Bustamante Torres",
+     "nombre_oficial": "HUBEIMAR IVAN BUSTAMANTE TORRES",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1863,
+     "porcentaje": 11.68,
+     "posicion": 4
+    },
+    {
+     "nombre": "Fredy Alonso Mazo Chavarria",
+     "nombre_oficial": "FREDY ALONSO MAZO CHAVARRIA",
+     "partido": "Partido Nuevo Liberalismo",
+     "partido_oficial": "PARTIDO NUEVO LIBERALISMO",
+     "familias": [
+      "LIB",
+      "NL"
+     ],
+     "votos": 340,
+     "porcentaje": 2.13,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 788,
+    "VOTOS NULOS": 458,
+    "VOTOS NO MARCADOS": 434
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CONS"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "YARUMAL|01|01",
+   "nombre": "ESC. Epifanio Mejía",
+   "nombre_oficial": "ESC. EPIFANIO MEJIA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.960891620412684,
+   "lon": -75.4147240801977,
+   "votos_total": 1307,
+   "votos_validos": 1235,
+   "ganador": "CRISTIAN DAVID CESPEDES CORREA",
+   "empate": [],
+   "margen_puntos": 11.26,
+   "votos": {
+    "CRISTIAN DAVID CESPEDES CORREA": 400,
+    "FREDY ALONSO MAZO CHAVARRIA": 43,
+    "HUBEIMAR IVAN BUSTAMANTE TORRES": 210,
+    "LUIS FERNANDO ESPINOSA ECHAVARRIA": 261,
+    "MARTA ISABEL PALACIO MORENO": 256,
+    "VOTOS EN BLANCO": 65,
+    "VOTOS NO MARCADOS": 34,
+    "VOTOS NULOS": 38
+   }
+  },
+  {
+   "id": "YARUMAL|01|02",
+   "nombre": "INST. Educativa de María",
+   "nombre_oficial": "INST. EDUCATIVA DE MARIA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.963860700625416,
+   "lon": -75.4159461693113,
+   "votos_total": 3577,
+   "votos_validos": 3419,
+   "ganador": "CRISTIAN DAVID CESPEDES CORREA",
+   "empate": [],
+   "margen_puntos": 13.51,
+   "votos": {
+    "CRISTIAN DAVID CESPEDES CORREA": 1207,
+    "FREDY ALONSO MAZO CHAVARRIA": 87,
+    "HUBEIMAR IVAN BUSTAMANTE TORRES": 528,
+    "LUIS FERNANDO ESPINOSA ECHAVARRIA": 700,
+    "MARTA ISABEL PALACIO MORENO": 745,
+    "VOTOS EN BLANCO": 152,
+    "VOTOS NO MARCADOS": 69,
+    "VOTOS NULOS": 89
+   }
+  },
+  {
+   "id": "YARUMAL|01|03",
+   "nombre": "Esc María Auxiliadora",
+   "nombre_oficial": "ESC MARIA AUXILIADORA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.962691624285954,
+   "lon": -75.4138399067459,
+   "votos_total": 1202,
+   "votos_validos": 1155,
+   "ganador": "CRISTIAN DAVID CESPEDES CORREA",
+   "empate": [],
+   "margen_puntos": 16.54,
+   "votos": {
+    "CRISTIAN DAVID CESPEDES CORREA": 444,
+    "FREDY ALONSO MAZO CHAVARRIA": 23,
+    "HUBEIMAR IVAN BUSTAMANTE TORRES": 128,
+    "LUIS FERNANDO ESPINOSA ECHAVARRIA": 253,
+    "MARTA ISABEL PALACIO MORENO": 237,
+    "VOTOS EN BLANCO": 70,
+    "VOTOS NO MARCADOS": 21,
+    "VOTOS NULOS": 26
+   }
+  },
+  {
+   "id": "YARUMAL|01|04",
+   "nombre": "CDI Urb José María Córdoba",
+   "nombre_oficial": "CDI URB JOSE MARIA CORDOBA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.954477298878649,
+   "lon": -75.4172833701482,
+   "votos_total": 864,
+   "votos_validos": 823,
+   "ganador": "MARTA ISABEL PALACIO MORENO",
+   "empate": [],
+   "margen_puntos": 4.13,
+   "votos": {
+    "CRISTIAN DAVID CESPEDES CORREA": 259,
+    "FREDY ALONSO MAZO CHAVARRIA": 10,
+    "HUBEIMAR IVAN BUSTAMANTE TORRES": 59,
+    "LUIS FERNANDO ESPINOSA ECHAVARRIA": 168,
+    "MARTA ISABEL PALACIO MORENO": 293,
+    "VOTOS EN BLANCO": 34,
+    "VOTOS NO MARCADOS": 11,
+    "VOTOS NULOS": 30
+   }
+  },
+  {
+   "id": "YARUMAL|01|05",
+   "nombre": "Escuela Normal Superior la Merced",
+   "nombre_oficial": "ESCUELA NORMAL SUPERIOR LA MERCED",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.9594695,
+   "lon": -75.4157205,
+   "votos_total": 945,
+   "votos_validos": 917,
+   "ganador": "CRISTIAN DAVID CESPEDES CORREA",
+   "empate": [],
+   "margen_puntos": 22.46,
+   "votos": {
+    "CRISTIAN DAVID CESPEDES CORREA": 387,
+    "FREDY ALONSO MAZO CHAVARRIA": 20,
+    "HUBEIMAR IVAN BUSTAMANTE TORRES": 108,
+    "LUIS FERNANDO ESPINOSA ECHAVARRIA": 168,
+    "MARTA ISABEL PALACIO MORENO": 181,
+    "VOTOS EN BLANCO": 53,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 18
+   }
+  },
+  {
+   "id": "YARUMAL|02|01",
+   "nombre": "I.E. San Luis",
+   "nombre_oficial": "I.E. SAN LUIS",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.965480930442406,
+   "lon": -75.4154373802871,
+   "votos_total": 2333,
+   "votos_validos": 2217,
+   "ganador": "CRISTIAN DAVID CESPEDES CORREA",
+   "empate": [],
+   "margen_puntos": 11.91,
+   "votos": {
+    "CRISTIAN DAVID CESPEDES CORREA": 836,
+    "FREDY ALONSO MAZO CHAVARRIA": 32,
+    "HUBEIMAR IVAN BUSTAMANTE TORRES": 200,
+    "LUIS FERNANDO ESPINOSA ECHAVARRIA": 572,
+    "MARTA ISABEL PALACIO MORENO": 464,
+    "VOTOS EN BLANCO": 113,
+    "VOTOS NO MARCADOS": 58,
+    "VOTOS NULOS": 58
+   }
+  },
+  {
+   "id": "YARUMAL|02|02",
+   "nombre": "Capilla San Nicolás",
+   "nombre_oficial": "CAPILLA SAN NICOLAS",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.966778815,
+   "lon": -75.42189736,
+   "votos_total": 1792,
+   "votos_validos": 1660,
+   "ganador": "CRISTIAN DAVID CESPEDES CORREA",
+   "empate": [],
+   "margen_puntos": 1.87,
+   "votos": {
+    "CRISTIAN DAVID CESPEDES CORREA": 503,
+    "FREDY ALONSO MAZO CHAVARRIA": 29,
+    "HUBEIMAR IVAN BUSTAMANTE TORRES": 148,
+    "LUIS FERNANDO ESPINOSA ECHAVARRIA": 427,
+    "MARTA ISABEL PALACIO MORENO": 472,
+    "VOTOS EN BLANCO": 81,
+    "VOTOS NO MARCADOS": 65,
+    "VOTOS NULOS": 67
+   }
+  },
+  {
+   "id": "YARUMAL|02|03",
+   "nombre": "Colegio Catolico la Inmaculada",
+   "nombre_oficial": "COLEGIO CATOLICO LA INMACULADA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.965425,
+   "lon": -75.4191206,
+   "votos_total": 1153,
+   "votos_validos": 1102,
+   "ganador": "CRISTIAN DAVID CESPEDES CORREA",
+   "empate": [],
+   "margen_puntos": 7.17,
+   "votos": {
+    "CRISTIAN DAVID CESPEDES CORREA": 358,
+    "FREDY ALONSO MAZO CHAVARRIA": 24,
+    "HUBEIMAR IVAN BUSTAMANTE TORRES": 109,
+    "LUIS FERNANDO ESPINOSA ECHAVARRIA": 271,
+    "MARTA ISABEL PALACIO MORENO": 279,
+    "VOTOS EN BLANCO": 61,
+    "VOTOS NO MARCADOS": 19,
+    "VOTOS NULOS": 32
+   }
+  },
+  {
+   "id": "YARUMAL|90|01",
+   "nombre": "COL. Cubierto POLIDEP. del Cafe",
+   "nombre_oficial": "COL.CUBIERTO POLIDEP.DEL CAFE",
+   "zona": "90",
+   "rural": false,
+   "lat": 6.956824848634542,
+   "lon": -75.4146737876967,
+   "votos_total": 1681,
+   "votos_validos": 1575,
+   "ganador": "CRISTIAN DAVID CESPEDES CORREA",
+   "empate": [],
+   "margen_puntos": 2.1,
+   "votos": {
+    "CRISTIAN DAVID CESPEDES CORREA": 465,
+    "FREDY ALONSO MAZO CHAVARRIA": 46,
+    "HUBEIMAR IVAN BUSTAMANTE TORRES": 209,
+    "LUIS FERNANDO ESPINOSA ECHAVARRIA": 368,
+    "MARTA ISABEL PALACIO MORENO": 432,
+    "VOTOS EN BLANCO": 55,
+    "VOTOS NO MARCADOS": 59,
+    "VOTOS NULOS": 47
+   }
+  },
+  {
+   "id": "YARUMAL|99|09",
+   "nombre": "Cedeño",
+   "nombre_oficial": "CEDEÑO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.0720511,
+   "lon": -75.355727,
+   "votos_total": 413,
+   "votos_validos": 384,
+   "ganador": "CRISTIAN DAVID CESPEDES CORREA",
+   "empate": [],
+   "margen_puntos": 21.35,
+   "votos": {
+    "CRISTIAN DAVID CESPEDES CORREA": 173,
+    "FREDY ALONSO MAZO CHAVARRIA": 5,
+    "HUBEIMAR IVAN BUSTAMANTE TORRES": 59,
+    "LUIS FERNANDO ESPINOSA ECHAVARRIA": 91,
+    "MARTA ISABEL PALACIO MORENO": 45,
+    "VOTOS EN BLANCO": 11,
+    "VOTOS NO MARCADOS": 20,
+    "VOTOS NULOS": 9
+   }
+  },
+  {
+   "id": "YARUMAL|99|11",
+   "nombre": "El Pueblito",
+   "nombre_oficial": "EL PUEBLITO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.1807394,
+   "lon": -75.3577395,
+   "votos_total": 125,
+   "votos_validos": 119,
+   "ganador": "CRISTIAN DAVID CESPEDES CORREA",
+   "empate": [],
+   "margen_puntos": 50.42,
+   "votos": {
+    "CRISTIAN DAVID CESPEDES CORREA": 83,
+    "HUBEIMAR IVAN BUSTAMANTE TORRES": 4,
+    "LUIS FERNANDO ESPINOSA ECHAVARRIA": 7,
+    "MARTA ISABEL PALACIO MORENO": 23,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "YARUMAL|99|13",
+   "nombre": "El Cedro",
+   "nombre_oficial": "EL CEDRO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.190507,
+   "lon": -75.3593369999998,
+   "votos_total": 173,
+   "votos_validos": 165,
+   "ganador": "CRISTIAN DAVID CESPEDES CORREA",
+   "empate": [],
+   "margen_puntos": 73.94,
+   "votos": {
+    "CRISTIAN DAVID CESPEDES CORREA": 136,
+    "HUBEIMAR IVAN BUSTAMANTE TORRES": 2,
+    "LUIS FERNANDO ESPINOSA ECHAVARRIA": 8,
+    "MARTA ISABEL PALACIO MORENO": 14,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "YARUMAL|99|15",
+   "nombre": "Llanos de Cuiva",
+   "nombre_oficial": "LLANOS DE CUIVA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.81551675000842,
+   "lon": -75.4855855020158,
+   "votos_total": 919,
+   "votos_validos": 853,
+   "ganador": "CRISTIAN DAVID CESPEDES CORREA",
+   "empate": [],
+   "margen_puntos": 14.3,
+   "votos": {
+    "CRISTIAN DAVID CESPEDES CORREA": 343,
+    "FREDY ALONSO MAZO CHAVARRIA": 15,
+    "HUBEIMAR IVAN BUSTAMANTE TORRES": 65,
+    "LUIS FERNANDO ESPINOSA ECHAVARRIA": 139,
+    "MARTA ISABEL PALACIO MORENO": 221,
+    "VOTOS EN BLANCO": 70,
+    "VOTOS NO MARCADOS": 38,
+    "VOTOS NULOS": 28
+   }
+  },
+  {
+   "id": "YARUMAL|99|16",
+   "nombre": "Llano de Yarumal",
+   "nombre_oficial": "LLANO DE YARUMAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.89458281,
+   "lon": -75.44287011,
+   "votos_total": 113,
+   "votos_validos": 103,
+   "ganador": "CRISTIAN DAVID CESPEDES CORREA",
+   "empate": [],
+   "margen_puntos": 49.51,
+   "votos": {
+    "CRISTIAN DAVID CESPEDES CORREA": 67,
+    "FREDY ALONSO MAZO CHAVARRIA": 1,
+    "HUBEIMAR IVAN BUSTAMANTE TORRES": 15,
+    "MARTA ISABEL PALACIO MORENO": 16,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "YARUMAL|99|17",
+   "nombre": "Ochali",
+   "nombre_oficial": "OCHALI",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.002747,
+   "lon": -75.6110769999999,
+   "votos_total": 102,
+   "votos_validos": 92,
+   "ganador": "CRISTIAN DAVID CESPEDES CORREA",
+   "empate": [],
+   "margen_puntos": 63.04,
+   "votos": {
+    "CRISTIAN DAVID CESPEDES CORREA": 65,
+    "FREDY ALONSO MAZO CHAVARRIA": 1,
+    "HUBEIMAR IVAN BUSTAMANTE TORRES": 6,
+    "LUIS FERNANDO ESPINOSA ECHAVARRIA": 7,
+    "MARTA ISABEL PALACIO MORENO": 7,
+    "VOTOS EN BLANCO": 6,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 6
+   }
+  },
+  {
+   "id": "YARUMAL|99|50",
+   "nombre": "La Loma de Ochali",
+   "nombre_oficial": "LA LOMA DE OCHALI",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.0351903,
+   "lon": -75.6219639,
+   "votos_total": 106,
+   "votos_validos": 95,
+   "ganador": "CRISTIAN DAVID CESPEDES CORREA",
+   "empate": [],
+   "margen_puntos": 28.42,
+   "votos": {
+    "CRISTIAN DAVID CESPEDES CORREA": 54,
+    "FREDY ALONSO MAZO CHAVARRIA": 3,
+    "HUBEIMAR IVAN BUSTAMANTE TORRES": 2,
+    "LUIS FERNANDO ESPINOSA ECHAVARRIA": 27,
+    "MARTA ISABEL PALACIO MORENO": 6,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel",
+   "nombre_oficial": "CARCEL",
+   "votos": 34,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

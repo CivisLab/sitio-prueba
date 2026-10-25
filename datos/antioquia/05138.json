@@ -1,0 +1,335 @@
+{
+ "municipio": {
+  "cod_dane": "05138",
+  "cod_registraduria": "076",
+  "nombre": "Cañasgordas",
+  "subregion": "Occidente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 8840,
+   "votos_validos": 8555,
+   "margen_puntos": 18.56,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Aicardo Antonio Urrego Úsuga",
+     "nombre_oficial": "AICARDO ANTONIO URREGO USUGA",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 4585,
+     "porcentaje": 53.59,
+     "posicion": 1
+    },
+    {
+     "nombre": "Tomás Augusto Ospina Rojo",
+     "nombre_oficial": "TOMAS AUGUSTO OSPINA ROJO",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 2997,
+     "porcentaje": 35.03,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jorge Mario Osorio Muñoz",
+     "nombre_oficial": "JORGE MARIO OSORIO MUÑOZ",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 865,
+     "porcentaje": 10.11,
+     "posicion": 3
+    },
+    {
+     "nombre": "Maribel Guisao Díaz",
+     "nombre_oficial": "MARIBEL GUISAO DIAZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 12,
+     "porcentaje": 0.14,
+     "posicion": 4
+    },
+    {
+     "nombre": "Elsy del Socorro Cardona García",
+     "nombre_oficial": "ELSY DEL SOCORRO CARDONA GARCIA",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRATICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 5,
+     "porcentaje": 0.06,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NULOS": 159,
+    "VOTOS NO MARCADOS": 126,
+    "VOTOS EN BLANCO": 91
+   }
+  },
+  "2023": {
+   "votos_depositados": 10012,
+   "votos_validos": 9847,
+   "margen_puntos": 4.22,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Diego Alonso Vanegas Arango",
+     "nombre_oficial": "DIEGO ALONSO VANEGAS ARANGO",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 5065,
+     "porcentaje": 51.44,
+     "posicion": 1
+    },
+    {
+     "nombre": "Margarita del Rosario Lopera Cardona",
+     "nombre_oficial": "MARGARITA DEL ROSARIO LOPERA CARDONA",
+     "partido": "Amor por Cañasgordas",
+     "partido_oficial": "AMOR POR CAÑASGORDAS",
+     "familias": [],
+     "votos": 4649,
+     "porcentaje": 47.21,
+     "posicion": 2
+    },
+    {
+     "nombre": "Ramiro de Jesús Medina Pereira",
+     "nombre_oficial": "RAMIRO DE JESUS MEDINA PEREIRA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRÁTICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 33,
+     "porcentaje": 0.34,
+     "posicion": 3
+    },
+    {
+     "nombre": "Francisco Javier Giraldo Suárez",
+     "nombre_oficial": "FRANCISCO JAVIER GIRALDO SUAREZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 27,
+     "porcentaje": 0.27,
+     "posicion": 4
+    },
+    {
+     "nombre": "Camilo Adrián Úsuga Villa",
+     "nombre_oficial": "CAMILO ADRIAN USUGA VILLA",
+     "partido": "Independientes",
+     "partido_oficial": "INDEPENDIENTES",
+     "familias": [],
+     "votos": 25,
+     "porcentaje": 0.25,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NULOS": 86,
+    "VOTOS NO MARCADOS": 79,
+    "VOTOS EN BLANCO": 48
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": true,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "REN"
+  ],
+  "familias_2023": [
+   "REN"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "CANASGORDAS|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.750354457999989,
+   "lon": -76.0266764499998,
+   "votos_total": 7653,
+   "votos_validos": 7526,
+   "ganador": "DIEGO ALONSO VANEGAS ARANGO",
+   "empate": [],
+   "margen_puntos": 1.25,
+   "votos": {
+    "CAMILO ADRIAN USUGA VILLA": 24,
+    "DIEGO ALONSO VANEGAS ARANGO": 3764,
+    "FRANCISCO JAVIER GIRALDO SUAREZ": 18,
+    "MARGARITA DEL ROSARIO LOPERA CARDONA": 3670,
+    "RAMIRO DE JESUS MEDINA PEREIRA": 16,
+    "VOTOS EN BLANCO": 34,
+    "VOTOS NO MARCADOS": 56,
+    "VOTOS NULOS": 71
+   }
+  },
+  {
+   "id": "CANASGORDAS|99|05",
+   "nombre": "Cestillal",
+   "nombre_oficial": "CESTILLAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.750532696275585,
+   "lon": -76.0240173339844,
+   "votos_total": 957,
+   "votos_validos": 937,
+   "ganador": "DIEGO ALONSO VANEGAS ARANGO",
+   "empate": [],
+   "margen_puntos": 16.54,
+   "votos": {
+    "DIEGO ALONSO VANEGAS ARANGO": 534,
+    "FRANCISCO JAVIER GIRALDO SUAREZ": 9,
+    "MARGARITA DEL ROSARIO LOPERA CARDONA": 379,
+    "RAMIRO DE JESUS MEDINA PEREIRA": 12,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 8
+   }
+  },
+  {
+   "id": "CANASGORDAS|99|09",
+   "nombre": "Juntas de Uramita",
+   "nombre_oficial": "JUNTAS DE URAMITA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.923365130999998,
+   "lon": -76.0315257899999,
+   "votos_total": 485,
+   "votos_validos": 481,
+   "ganador": "DIEGO ALONSO VANEGAS ARANGO",
+   "empate": [],
+   "margen_puntos": 29.94,
+   "votos": {
+    "DIEGO ALONSO VANEGAS ARANGO": 309,
+    "MARGARITA DEL ROSARIO LOPERA CARDONA": 165,
+    "RAMIRO DE JESUS MEDINA PEREIRA": 5,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "CANASGORDAS|99|13",
+   "nombre": "La Balsa",
+   "nombre_oficial": "LA BALSA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.765485295999998,
+   "lon": -76.0709116299999,
+   "votos_total": 228,
+   "votos_validos": 224,
+   "ganador": "MARGARITA DEL ROSARIO LOPERA CARDONA",
+   "empate": [],
+   "margen_puntos": 1.79,
+   "votos": {
+    "DIEGO ALONSO VANEGAS ARANGO": 109,
+    "MARGARITA DEL ROSARIO LOPERA CARDONA": 113,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 1,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "CANASGORDAS|99|22",
+   "nombre": "San Pascual",
+   "nombre_oficial": "SAN PASCUAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.847537585,
+   "lon": -76.0463839799999,
+   "votos_total": 689,
+   "votos_validos": 679,
+   "ganador": "DIEGO ALONSO VANEGAS ARANGO",
+   "empate": [],
+   "margen_puntos": 3.98,
+   "votos": {
+    "CAMILO ADRIAN USUGA VILLA": 1,
+    "DIEGO ALONSO VANEGAS ARANGO": 349,
+    "MARGARITA DEL ROSARIO LOPERA CARDONA": 322,
+    "VOTOS EN BLANCO": 7,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 3
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

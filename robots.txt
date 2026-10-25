@@ -1,0 +1,3 @@
+# Sin indexar hasta que Carlos apruebe publicar (sitio/publico.py, INDEXABLE).
+User-agent: *
+Disallow: /

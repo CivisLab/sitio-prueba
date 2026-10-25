@@ -1,0 +1,360 @@
+{
+ "municipio": {
+  "cod_dane": "05051",
+  "cod_registraduria": "037",
+  "nombre": "Arboletes",
+  "subregion": "Urabá",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 15405,
+   "votos_validos": 15067,
+   "margen_puntos": 0.84,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Diana Stella Garrido Henao",
+     "nombre_oficial": "DIANA STELLA GARRIDO HENAO",
+     "partido": "Un Gobierno para Todos",
+     "partido_oficial": "UN GOBIERNO PARA TODOS",
+     "familias": [],
+     "votos": 7375,
+     "porcentaje": 48.95,
+     "posicion": 1
+    },
+    {
+     "nombre": "Álvaro González Ávila",
+     "nombre_oficial": "ALVARO GONZALEZ AVILA",
+     "partido": "Arboletes Asunto de Todos",
+     "partido_oficial": "ARBOLETES ASUNTO DE TODOS",
+     "familias": [],
+     "votos": 7249,
+     "porcentaje": 48.11,
+     "posicion": 2
+    },
+    {
+     "nombre": "Manuel José Petro Sánchez",
+     "nombre_oficial": "MANUEL JOSE PETRO SANCHEZ",
+     "partido": "Partido de Reivindicacion Etnica Pre",
+     "partido_oficial": "PARTIDO DE REIVINDICACION ETNICA \"PRE\"",
+     "familias": [],
+     "votos": 381,
+     "porcentaje": 2.53,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 205,
+    "VOTOS NULOS": 133,
+    "VOTOS EN BLANCO": 62
+   }
+  },
+  "2023": {
+   "votos_depositados": 15817,
+   "votos_validos": 15448,
+   "margen_puntos": 23.38,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Álvaro González Ávila",
+     "nombre_oficial": "ALVARO GONZALEZ AVILA",
+     "partido": "Arboletes Asunto de Todos",
+     "partido_oficial": "ARBOLETES ASUNTO DE TODOS",
+     "familias": [],
+     "votos": 9276,
+     "porcentaje": 60.05,
+     "posicion": 1
+    },
+    {
+     "nombre": "Jafet Londoño Monzon",
+     "nombre_oficial": "JAFET LONDOÑO MONZON",
+     "partido": "Partido de la Unión por la Gente - Partido de la U",
+     "partido_oficial": "PARTIDO DE LA UNIÓN POR LA GENTE - PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 5664,
+     "porcentaje": 36.66,
+     "posicion": 2
+    },
+    {
+     "nombre": "Alex de Jesús Pajaro Mosquera",
+     "nombre_oficial": "ALEX DE JESUS PAJARO MOSQUERA",
+     "partido": "Partido Político Gente en Movimiento",
+     "partido_oficial": "PARTIDO POLÍTICO GENTE EN MOVIMIENTO",
+     "familias": [],
+     "votos": 425,
+     "porcentaje": 2.75,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 306,
+    "VOTOS EN BLANCO": 83,
+    "VOTOS NULOS": 63
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "ARBOLETES|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 8.849064588481747,
+   "lon": -76.426293676647,
+   "votos_total": 8443,
+   "votos_validos": 8283,
+   "ganador": "ALVARO GONZALEZ AVILA",
+   "empate": [],
+   "margen_puntos": 17.84,
+   "votos": {
+    "ALEX DE JESUS PAJARO MOSQUERA": 373,
+    "ALVARO GONZALEZ AVILA": 4665,
+    "JAFET LONDOÑO MONZON": 3187,
+    "VOTOS EN BLANCO": 58,
+    "VOTOS NO MARCADOS": 128,
+    "VOTOS NULOS": 32
+   }
+  },
+  {
+   "id": "ARBOLETES|99|03",
+   "nombre": "Buenos Aires",
+   "nombre_oficial": "BUENOS AIRES",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.609828697,
+   "lon": -76.28036541,
+   "votos_total": 838,
+   "votos_validos": 795,
+   "ganador": "ALVARO GONZALEZ AVILA",
+   "empate": [],
+   "margen_puntos": 40.25,
+   "votos": {
+    "ALEX DE JESUS PAJARO MOSQUERA": 17,
+    "ALVARO GONZALEZ AVILA": 548,
+    "JAFET LONDOÑO MONZON": 228,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 39,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "ARBOLETES|99|05",
+   "nombre": "El Carmelo",
+   "nombre_oficial": "EL CARMELO",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.61293,
+   "lon": -76.3823582,
+   "votos_total": 893,
+   "votos_validos": 872,
+   "ganador": "ALVARO GONZALEZ AVILA",
+   "empate": [],
+   "margen_puntos": 22.59,
+   "votos": {
+    "ALEX DE JESUS PAJARO MOSQUERA": 2,
+    "ALVARO GONZALEZ AVILA": 532,
+    "JAFET LONDOÑO MONZON": 335,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 18,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "ARBOLETES|99|06",
+   "nombre": "Santafe de las Platas",
+   "nombre_oficial": "SANTAFE DE LAS PLATAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.580666375999998,
+   "lon": -76.4433793499999,
+   "votos_total": 836,
+   "votos_validos": 827,
+   "ganador": "ALVARO GONZALEZ AVILA",
+   "empate": [],
+   "margen_puntos": 32.04,
+   "votos": {
+    "ALEX DE JESUS PAJARO MOSQUERA": 6,
+    "ALVARO GONZALEZ AVILA": 543,
+    "JAFET LONDOÑO MONZON": 278,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "ARBOLETES|99|08",
+   "nombre": "Las Naranjitas",
+   "nombre_oficial": "LAS NARANJITAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.529332496,
+   "lon": -76.3347230599999,
+   "votos_total": 510,
+   "votos_validos": 499,
+   "ganador": "ALVARO GONZALEZ AVILA",
+   "empate": [],
+   "margen_puntos": 10.82,
+   "votos": {
+    "ALVARO GONZALEZ AVILA": 274,
+    "JAFET LONDOÑO MONZON": 220,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "ARBOLETES|99|12",
+   "nombre": "Guadual",
+   "nombre_oficial": "GUADUAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.486746186,
+   "lon": -76.3852505099999,
+   "votos_total": 1158,
+   "votos_validos": 1111,
+   "ganador": "ALVARO GONZALEZ AVILA",
+   "empate": [],
+   "margen_puntos": 27.18,
+   "votos": {
+    "ALEX DE JESUS PAJARO MOSQUERA": 16,
+    "ALVARO GONZALEZ AVILA": 696,
+    "JAFET LONDOÑO MONZON": 394,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 40,
+    "VOTOS NULOS": 7
+   }
+  },
+  {
+   "id": "ARBOLETES|99|20",
+   "nombre": "La Candelaria",
+   "nombre_oficial": "LA CANDELARIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.658594039,
+   "lon": -76.4518883299999,
+   "votos_total": 1254,
+   "votos_validos": 1235,
+   "ganador": "ALVARO GONZALEZ AVILA",
+   "empate": [],
+   "margen_puntos": 29.96,
+   "votos": {
+    "ALEX DE JESUS PAJARO MOSQUERA": 2,
+    "ALVARO GONZALEZ AVILA": 799,
+    "JAFET LONDOÑO MONZON": 429,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 17,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "ARBOLETES|99|75",
+   "nombre": "La Trinidad",
+   "nombre_oficial": "LA TRINIDAD",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.62533717252547,
+   "lon": -76.5102199931152,
+   "votos_total": 1307,
+   "votos_validos": 1262,
+   "ganador": "ALVARO GONZALEZ AVILA",
+   "empate": [],
+   "margen_puntos": 29.0,
+   "votos": {
+    "ALEX DE JESUS PAJARO MOSQUERA": 3,
+    "ALVARO GONZALEZ AVILA": 810,
+    "JAFET LONDOÑO MONZON": 444,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 38,
+    "VOTOS NULOS": 7
+   }
+  },
+  {
+   "id": "ARBOLETES|99|80",
+   "nombre": "Pajillal",
+   "nombre_oficial": "PAJILLAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.75697,
+   "lon": -76.441067,
+   "votos_total": 578,
+   "votos_validos": 564,
+   "ganador": "ALVARO GONZALEZ AVILA",
+   "empate": [],
+   "margen_puntos": 46.1,
+   "votos": {
+    "ALEX DE JESUS PAJARO MOSQUERA": 6,
+    "ALVARO GONZALEZ AVILA": 409,
+    "JAFET LONDOÑO MONZON": 149,
+    "VOTOS NO MARCADOS": 13,
+    "VOTOS NULOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

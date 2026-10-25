@@ -1,0 +1,299 @@
+{
+ "municipio": {
+  "cod_dane": "05120",
+  "cod_registraduria": "064",
+  "nombre": "Cáceres",
+  "subregion": "Bajo Cauca",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 10510,
+   "votos_validos": 10042,
+   "margen_puntos": 0.03,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Juan Carlos Rodríguez Blanco",
+     "nombre_oficial": "JUAN CARLOS RODRIGUEZ BLANCO",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 3838,
+     "porcentaje": 38.22,
+     "posicion": 1
+    },
+    {
+     "nombre": "Damiana María Monterrosa Pérez",
+     "nombre_oficial": "DAMIANA MARIA MONTERROSA PEREZ",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDIGENAS DE COLOMBIA AICO",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 3835,
+     "porcentaje": 38.19,
+     "posicion": 2
+    },
+    {
+     "nombre": "Javier Danilo Grisales Saavedra",
+     "nombre_oficial": "JAVIER DANILO GRISALES SAAVEDRA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 2147,
+     "porcentaje": 21.38,
+     "posicion": 3
+    },
+    {
+     "nombre": "Óscar de Jesús Jaramillo",
+     "nombre_oficial": "OSCAR DE JESUS JARAMILLO",
+     "partido": "Movimiento Alternativo Indigena y Social MAIS",
+     "partido_oficial": "MOVIMIENTO ALTERNATIVO INDIGENA Y SOCIAL MAIS",
+     "familias": [
+      "MAIS"
+     ],
+     "votos": 120,
+     "porcentaje": 1.19,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 280,
+    "VOTOS NULOS": 188,
+    "VOTOS EN BLANCO": 102
+   }
+  },
+  "2023": {
+   "votos_depositados": 12245,
+   "votos_validos": 11746,
+   "margen_puntos": 21.49,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Damiana María Monterrosa Pérez",
+     "nombre_oficial": "DAMIANA MARIA MONTERROSA PEREZ",
+     "partido": "Por la Gente",
+     "partido_oficial": "POR LA GENTE",
+     "familias": [],
+     "votos": 7087,
+     "porcentaje": 60.34,
+     "posicion": 1
+    },
+    {
+     "nombre": "Juan Alejandro MIRA Ortega",
+     "nombre_oficial": "JUAN ALEJANDRO MIRA ORTEGA",
+     "partido": "Unidos Podemos Cáceres",
+     "partido_oficial": "UNIDOS PODEMOS CÁCERES",
+     "familias": [],
+     "votos": 4563,
+     "porcentaje": 38.85,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 380,
+    "VOTOS NULOS": 119,
+    "VOTOS EN BLANCO": 96
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "LIB"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "CACERES|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 7.582044901831907,
+   "lon": -75.34749241620565,
+   "votos_total": 4321,
+   "votos_validos": 4130,
+   "ganador": "DAMIANA MARIA MONTERROSA PEREZ",
+   "empate": [],
+   "margen_puntos": 18.4,
+   "votos": {
+    "DAMIANA MARIA MONTERROSA PEREZ": 2423,
+    "JUAN ALEJANDRO MIRA ORTEGA": 1663,
+    "VOTOS EN BLANCO": 44,
+    "VOTOS NO MARCADOS": 150,
+    "VOTOS NULOS": 41
+   }
+  },
+  {
+   "id": "CACERES|99|01",
+   "nombre": "Guarumo",
+   "nombre_oficial": "GUARUMO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.854254671999998,
+   "lon": -75.2085971599999,
+   "votos_total": 2315,
+   "votos_validos": 2225,
+   "ganador": "JUAN ALEJANDRO MIRA ORTEGA",
+   "empate": [],
+   "margen_puntos": 11.01,
+   "votos": {
+    "DAMIANA MARIA MONTERROSA PEREZ": 983,
+    "JUAN ALEJANDRO MIRA ORTEGA": 1228,
+    "VOTOS EN BLANCO": 14,
+    "VOTOS NO MARCADOS": 66,
+    "VOTOS NULOS": 24
+   }
+  },
+  {
+   "id": "CACERES|99|05",
+   "nombre": "El Jardín",
+   "nombre_oficial": "EL JARDIN",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.754399028504478,
+   "lon": -75.25467238948723,
+   "votos_total": 3372,
+   "votos_validos": 3223,
+   "ganador": "DAMIANA MARIA MONTERROSA PEREZ",
+   "empate": [],
+   "margen_puntos": 39.06,
+   "votos": {
+    "DAMIANA MARIA MONTERROSA PEREZ": 2227,
+    "JUAN ALEJANDRO MIRA ORTEGA": 968,
+    "VOTOS EN BLANCO": 28,
+    "VOTOS NO MARCADOS": 115,
+    "VOTOS NULOS": 34
+   }
+  },
+  {
+   "id": "CACERES|99|07",
+   "nombre": "Manizales",
+   "nombre_oficial": "MANIZALES",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.836388889,
+   "lon": -75.4147222199999,
+   "votos_total": 461,
+   "votos_validos": 447,
+   "ganador": "DAMIANA MARIA MONTERROSA PEREZ",
+   "empate": [],
+   "margen_puntos": 19.02,
+   "votos": {
+    "DAMIANA MARIA MONTERROSA PEREZ": 265,
+    "JUAN ALEJANDRO MIRA ORTEGA": 180,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "CACERES|99|13",
+   "nombre": "Puerto Belgica",
+   "nombre_oficial": "PUERTO BELGICA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.665895272080941,
+   "lon": -75.28401523050877,
+   "votos_total": 984,
+   "votos_validos": 957,
+   "ganador": "DAMIANA MARIA MONTERROSA PEREZ",
+   "empate": [],
+   "margen_puntos": 20.27,
+   "votos": {
+    "DAMIANA MARIA MONTERROSA PEREZ": 573,
+    "JUAN ALEJANDRO MIRA ORTEGA": 379,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 21,
+    "VOTOS NULOS": 6
+   }
+  },
+  {
+   "id": "CACERES|99|29",
+   "nombre": "Piamonte",
+   "nombre_oficial": "PIAMONTE",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.783459156,
+   "lon": -75.20296005,
+   "votos_total": 792,
+   "votos_validos": 764,
+   "ganador": "DAMIANA MARIA MONTERROSA PEREZ",
+   "empate": [],
+   "margen_puntos": 61.65,
+   "votos": {
+    "DAMIANA MARIA MONTERROSA PEREZ": 616,
+    "JUAN ALEJANDRO MIRA ORTEGA": 145,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 18,
+    "VOTOS NULOS": 10
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

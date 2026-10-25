@@ -1,0 +1,402 @@
+{
+ "municipio": {
+  "cod_dane": "05197",
+  "cod_registraduria": "094",
+  "nombre": "Cocorná",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 9133,
+   "votos_validos": 8685,
+   "margen_puntos": 6.66,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Saúl Alberto Giraldo Gómez",
+     "nombre_oficial": "SAUL ALBERTO GIRALDO GOMEZ",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 3454,
+     "porcentaje": 39.77,
+     "posicion": 1
+    },
+    {
+     "nombre": "Juan Guillermo Gómez Aguirre",
+     "nombre_oficial": "JUAN GUILLERMO GOMEZ AGUIRRE",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 2876,
+     "porcentaje": 33.11,
+     "posicion": 2
+    },
+    {
+     "nombre": "María Dolly Zuluaga Gómez",
+     "nombre_oficial": "MARIA DOLLY ZULUAGA GOMEZ",
+     "partido": "Unete Cocorna",
+     "partido_oficial": "UNETE COCORNA",
+     "familias": [],
+     "votos": 2264,
+     "porcentaje": 26.07,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 265,
+    "VOTOS NULOS": 183,
+    "VOTOS EN BLANCO": 91
+   }
+  },
+  "2023": {
+   "votos_depositados": 9328,
+   "votos_validos": 8979,
+   "margen_puntos": 14.46,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "David Alejandro Gómez Hoyos",
+     "nombre_oficial": "DAVID ALEJANDRO GOMEZ HOYOS",
+     "partido": "Coalición Conservador, Liberal, ASI, Centro Democrático",
+     "partido_oficial": "COALICION CONSERVADOR, LIBERAL, ASI, CENTRO DEMOCRATICO",
+     "familias": [
+      "LIB",
+      "CONS",
+      "CD",
+      "ASI"
+     ],
+     "votos": 3647,
+     "porcentaje": 40.62,
+     "posicion": 1
+    },
+    {
+     "nombre": "Diana Yanneth Castaño Gómez",
+     "nombre_oficial": "DIANA YANNETH CASTAÑO GOMEZ",
+     "partido": "Movimiento Salvación Nacional",
+     "partido_oficial": "MOVIMIENTO SALVACIÓN NACIONAL",
+     "familias": [
+      "SALV"
+     ],
+     "votos": 2349,
+     "porcentaje": 26.16,
+     "posicion": 2
+    },
+    {
+     "nombre": "Johan Alberto Ramírez Mejía",
+     "nombre_oficial": "JOHAN ALBERTO RAMIREZ MEJIA",
+     "partido": "Aqui Seguimos por Cocorna",
+     "partido_oficial": "AQUI SEGUIMOS POR COCORNA",
+     "familias": [],
+     "votos": 2020,
+     "porcentaje": 22.5,
+     "posicion": 3
+    },
+    {
+     "nombre": "Daniel Gómez Peláez",
+     "nombre_oficial": "DANIEL GOMEZ PELAEZ",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDÍGENAS DE COLOMBIA \"AICO\"",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 612,
+     "porcentaje": 6.82,
+     "posicion": 4
+    },
+    {
+     "nombre": "Henry Eladio Usme Montoya",
+     "nombre_oficial": "HENRY ELADIO USME MONTOYA",
+     "partido": "Construyamos Juntos el Gobierno de la Gente",
+     "partido_oficial": "CONSTRUYAMOS JUNTOS EL GOBIERNO DE LA GENTE",
+     "familias": [],
+     "votos": 156,
+     "porcentaje": 1.74,
+     "posicion": 5
+    },
+    {
+     "nombre": "Wilmar Alberto Giraldo Usme",
+     "nombre_oficial": "WILMAR ALBERTO GIRALDO USME",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 114,
+     "porcentaje": 1.27,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 180,
+    "VOTOS NULOS": 169,
+    "VOTOS EN BLANCO": 81
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": false,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "CR"
+  ],
+  "familias_2023": [
+   "ASI",
+   "CD",
+   "CONS",
+   "LIB"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "COCORNA|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.06036159455505,
+   "lon": -75.18560924603251,
+   "votos_total": 7422,
+   "votos_validos": 7159,
+   "ganador": "DAVID ALEJANDRO GOMEZ HOYOS",
+   "empate": [],
+   "margen_puntos": 14.69,
+   "votos": {
+    "DANIEL GOMEZ PELAEZ": 312,
+    "DAVID ALEJANDRO GOMEZ HOYOS": 2967,
+    "DIANA YANNETH CASTAÑO GOMEZ": 1915,
+    "HENRY ELADIO USME MONTOYA": 138,
+    "JOHAN ALBERTO RAMIREZ MEJIA": 1666,
+    "VOTOS EN BLANCO": 64,
+    "VOTOS NO MARCADOS": 140,
+    "VOTOS NULOS": 123,
+    "WILMAR ALBERTO GIRALDO USME": 97
+   }
+  },
+  {
+   "id": "COCORNA|99|02",
+   "nombre": "Agualinda",
+   "nombre_oficial": "AGUALINDA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.965705652774702,
+   "lon": -75.17024874687183,
+   "votos_total": 54,
+   "votos_validos": 53,
+   "ganador": "DAVID ALEJANDRO GOMEZ HOYOS",
+   "empate": [],
+   "margen_puntos": 9.43,
+   "votos": {
+    "DAVID ALEJANDRO GOMEZ HOYOS": 25,
+    "DIANA YANNETH CASTAÑO GOMEZ": 8,
+    "JOHAN ALBERTO RAMIREZ MEJIA": 20,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "COCORNA|99|03",
+   "nombre": "La Piñuela",
+   "nombre_oficial": "LA PIÑUELA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.0112488588591555,
+   "lon": -75.14239364046699,
+   "votos_total": 899,
+   "votos_validos": 862,
+   "ganador": "DAVID ALEJANDRO GOMEZ HOYOS",
+   "empate": [],
+   "margen_puntos": 16.59,
+   "votos": {
+    "DANIEL GOMEZ PELAEZ": 187,
+    "DAVID ALEJANDRO GOMEZ HOYOS": 330,
+    "DIANA YANNETH CASTAÑO GOMEZ": 141,
+    "HENRY ELADIO USME MONTOYA": 9,
+    "JOHAN ALBERTO RAMIREZ MEJIA": 177,
+    "VOTOS EN BLANCO": 12,
+    "VOTOS NO MARCADOS": 14,
+    "VOTOS NULOS": 23,
+    "WILMAR ALBERTO GIRALDO USME": 6
+   }
+  },
+  {
+   "id": "COCORNA|99|04",
+   "nombre": "Cruces",
+   "nombre_oficial": "CRUCES",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.109988233562676,
+   "lon": -75.2301867743439,
+   "votos_total": 339,
+   "votos_validos": 322,
+   "ganador": "DIANA YANNETH CASTAÑO GOMEZ",
+   "empate": [],
+   "margen_puntos": 19.57,
+   "votos": {
+    "DANIEL GOMEZ PELAEZ": 3,
+    "DAVID ALEJANDRO GOMEZ HOYOS": 101,
+    "DIANA YANNETH CASTAÑO GOMEZ": 164,
+    "JOHAN ALBERTO RAMIREZ MEJIA": 45,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 9,
+    "VOTOS NULOS": 8,
+    "WILMAR ALBERTO GIRALDO USME": 5
+   }
+  },
+  {
+   "id": "COCORNA|99|13",
+   "nombre": "La Florida",
+   "nombre_oficial": "LA FLORIDA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.917329216513676,
+   "lon": -75.10338721466675,
+   "votos_total": 60,
+   "votos_validos": 58,
+   "ganador": "DAVID ALEJANDRO GOMEZ HOYOS",
+   "empate": [],
+   "margen_puntos": 51.72,
+   "votos": {
+    "DANIEL GOMEZ PELAEZ": 5,
+    "DAVID ALEJANDRO GOMEZ HOYOS": 37,
+    "DIANA YANNETH CASTAÑO GOMEZ": 5,
+    "HENRY ELADIO USME MONTOYA": 4,
+    "JOHAN ALBERTO RAMIREZ MEJIA": 7,
+    "VOTOS NO MARCADOS": 2
+   }
+  },
+  {
+   "id": "COCORNA|99|30",
+   "nombre": "La Granja",
+   "nombre_oficial": "LA GRANJA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.0066196646543,
+   "lon": -75.09152632028322,
+   "votos_total": 265,
+   "votos_validos": 254,
+   "ganador": "DAVID ALEJANDRO GOMEZ HOYOS",
+   "empate": [],
+   "margen_puntos": 1.18,
+   "votos": {
+    "DANIEL GOMEZ PELAEZ": 78,
+    "DAVID ALEJANDRO GOMEZ HOYOS": 81,
+    "DIANA YANNETH CASTAÑO GOMEZ": 49,
+    "HENRY ELADIO USME MONTOYA": 2,
+    "JOHAN ALBERTO RAMIREZ MEJIA": 39,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 8,
+    "WILMAR ALBERTO GIRALDO USME": 4
+   }
+  },
+  {
+   "id": "COCORNA|99|55",
+   "nombre": "La Primavera",
+   "nombre_oficial": "LA PRIMAVERA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.987229511288407,
+   "lon": -75.1746757698632,
+   "votos_total": 83,
+   "votos_validos": 76,
+   "ganador": "DAVID ALEJANDRO GOMEZ HOYOS",
+   "empate": [],
+   "margen_puntos": 1.32,
+   "votos": {
+    "DANIEL GOMEZ PELAEZ": 3,
+    "DAVID ALEJANDRO GOMEZ HOYOS": 28,
+    "DIANA YANNETH CASTAÑO GOMEZ": 27,
+    "HENRY ELADIO USME MONTOYA": 1,
+    "JOHAN ALBERTO RAMIREZ MEJIA": 16,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 3,
+    "WILMAR ALBERTO GIRALDO USME": 1
+   }
+  },
+  {
+   "id": "COCORNA|99|58",
+   "nombre": "Pailania",
+   "nombre_oficial": "PAILANIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.977586018294112,
+   "lon": -75.1153578337797,
+   "votos_total": 206,
+   "votos_validos": 195,
+   "ganador": "DAVID ALEJANDRO GOMEZ HOYOS",
+   "empate": [],
+   "margen_puntos": 14.36,
+   "votos": {
+    "DANIEL GOMEZ PELAEZ": 24,
+    "DAVID ALEJANDRO GOMEZ HOYOS": 78,
+    "DIANA YANNETH CASTAÑO GOMEZ": 40,
+    "HENRY ELADIO USME MONTOYA": 2,
+    "JOHAN ALBERTO RAMIREZ MEJIA": 50,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 3,
+    "WILMAR ALBERTO GIRALDO USME": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

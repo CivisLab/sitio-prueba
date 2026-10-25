@@ -1,0 +1,453 @@
+{
+ "municipio": {
+  "cod_dane": "05079",
+  "cod_registraduria": "043",
+  "nombre": "Barbosa",
+  "subregion": "Valle de Aburrá",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 22741,
+   "votos_validos": 21357,
+   "margen_puntos": 22.42,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Édgar Augusto Gallego Arias",
+     "nombre_oficial": "EDGAR AUGUSTO GALLEGO ARIAS",
+     "partido": "Barbosa Social para Volver a Creer.",
+     "partido_oficial": "BARBOSA SOCIAL PARA VOLVER A CREER.",
+     "familias": [],
+     "votos": 8716,
+     "porcentaje": 40.81,
+     "posicion": 1
+    },
+    {
+     "nombre": "Juan David Rojas Agudelo",
+     "nombre_oficial": "JUAN DAVID ROJAS AGUDELO",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 3927,
+     "porcentaje": 18.39,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jaime León Vanegas Vélez",
+     "nombre_oficial": "JAIME LEON VANEGAS VELEZ",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 3227,
+     "porcentaje": 15.11,
+     "posicion": 3
+    },
+    {
+     "nombre": "Fran Esteban García Gaviria",
+     "nombre_oficial": "FRAN ESTEBAN GARCIA GAVIRIA",
+     "partido": "Transformando el Territorio",
+     "partido_oficial": "TRANSFORMANDO EL TERRITORIO",
+     "familias": [],
+     "votos": 2329,
+     "porcentaje": 10.91,
+     "posicion": 4
+    },
+    {
+     "nombre": "Álvaro Rinaldi Martínez",
+     "nombre_oficial": "ALVARO RINALDI MARTINEZ",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 1018,
+     "porcentaje": 4.77,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 2140,
+    "VOTOS NO MARCADOS": 754,
+    "VOTOS NULOS": 630
+   }
+  },
+  "2023": {
+   "votos_depositados": 23837,
+   "votos_validos": 22903,
+   "margen_puntos": 1.36,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Juan David Rojas Agudelo",
+     "nombre_oficial": "JUAN DAVID ROJAS AGUDELO",
+     "partido": "¡Barbosa Nos Une!",
+     "partido_oficial": "¡BARBOSA NOS UNE!",
+     "familias": [],
+     "votos": 8029,
+     "porcentaje": 35.06,
+     "posicion": 1
+    },
+    {
+     "nombre": "Víctor Antonio Graciano Ramírez",
+     "nombre_oficial": "VICTOR ANTONIO GRACIANO RAMIREZ",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 7718,
+     "porcentaje": 33.7,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jaime León Vanegas Vélez",
+     "nombre_oficial": "JAIME LEON VANEGAS VELEZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 2874,
+     "porcentaje": 12.55,
+     "posicion": 3
+    },
+    {
+     "nombre": "Fredy Alberto Correa Cardona",
+     "nombre_oficial": "FREDY ALBERTO CORREA CARDONA",
+     "partido": "Barbosa de Primera",
+     "partido_oficial": "BARBOSA DE PRIMERA",
+     "familias": [],
+     "votos": 1542,
+     "porcentaje": 6.73,
+     "posicion": 4
+    },
+    {
+     "nombre": "Alina Marcela Restrepo Rodríguez",
+     "nombre_oficial": "ALINA MARCELA RESTREPO RODRIGUEZ",
+     "partido": "Agrupación Política en Marcha",
+     "partido_oficial": "AGRUPACIÓN POLÍTICA EN MARCHA",
+     "familias": [],
+     "votos": 677,
+     "porcentaje": 2.96,
+     "posicion": 5
+    },
+    {
+     "nombre": "Juan Camilo Tobón Olarte",
+     "nombre_oficial": "JUAN CAMILO TOBON OLARTE",
+     "partido": "Pacto Histórico",
+     "partido_oficial": "PACTO HISTORICO",
+     "familias": [
+      "PACTO"
+     ],
+     "votos": 661,
+     "porcentaje": 2.89,
+     "posicion": 6
+    },
+    {
+     "nombre": "Luis Javier Franco Agudelo",
+     "nombre_oficial": "LUIS JAVIER FRANCO AGUDELO",
+     "partido": "Partido Nuevo Liberalismo",
+     "partido_oficial": "PARTIDO NUEVO LIBERALISMO",
+     "familias": [
+      "LIB",
+      "NL"
+     ],
+     "votos": 501,
+     "porcentaje": 2.19,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 901,
+    "VOTOS NULOS": 470,
+    "VOTOS NO MARCADOS": 464
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "BARBOSA|01|01",
+   "nombre": "PBRO. Luis Eduardo Pérez Molin",
+   "nombre_oficial": "PBRO. LUIS EDUARDO PEREZ MOLIN",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.435092832535633,
+   "lon": -75.3290933874096,
+   "votos_total": 3571,
+   "votos_validos": 3415,
+   "ganador": "VICTOR ANTONIO GRACIANO RAMIREZ",
+   "empate": [],
+   "margen_puntos": 2.78,
+   "votos": {
+    "ALINA MARCELA RESTREPO RODRIGUEZ": 100,
+    "FREDY ALBERTO CORREA CARDONA": 252,
+    "JAIME LEON VANEGAS VELEZ": 370,
+    "JUAN CAMILO TOBON OLARTE": 110,
+    "JUAN DAVID ROJAS AGUDELO": 1162,
+    "LUIS JAVIER FRANCO AGUDELO": 74,
+    "VICTOR ANTONIO GRACIANO RAMIREZ": 1257,
+    "VOTOS EN BLANCO": 90,
+    "VOTOS NO MARCADOS": 87,
+    "VOTOS NULOS": 69
+   }
+  },
+  {
+   "id": "BARBOSA|01|02",
+   "nombre": "INST. EDUC. Manuel José Caiced",
+   "nombre_oficial": "INST. EDUC. MANUEL JOSE CAICED",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.434612574032017,
+   "lon": -75.3273106532788,
+   "votos_total": 3720,
+   "votos_validos": 3603,
+   "ganador": "VICTOR ANTONIO GRACIANO RAMIREZ",
+   "empate": [],
+   "margen_puntos": 1.08,
+   "votos": {
+    "ALINA MARCELA RESTREPO RODRIGUEZ": 134,
+    "FREDY ALBERTO CORREA CARDONA": 315,
+    "JAIME LEON VANEGAS VELEZ": 402,
+    "JUAN CAMILO TOBON OLARTE": 107,
+    "JUAN DAVID ROJAS AGUDELO": 1162,
+    "LUIS JAVIER FRANCO AGUDELO": 60,
+    "VICTOR ANTONIO GRACIANO RAMIREZ": 1201,
+    "VOTOS EN BLANCO": 222,
+    "VOTOS NO MARCADOS": 27,
+    "VOTOS NULOS": 90
+   }
+  },
+  {
+   "id": "BARBOSA|01|03",
+   "nombre": "IE Luis Eduardo Arias",
+   "nombre_oficial": "IE LUIS EDUARDO ARIAS",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.434708524745159,
+   "lon": -75.3286356651559,
+   "votos_total": 4173,
+   "votos_validos": 4011,
+   "ganador": "VICTOR ANTONIO GRACIANO RAMIREZ",
+   "empate": [],
+   "margen_puntos": 1.77,
+   "votos": {
+    "ALINA MARCELA RESTREPO RODRIGUEZ": 108,
+    "FREDY ALBERTO CORREA CARDONA": 290,
+    "JAIME LEON VANEGAS VELEZ": 503,
+    "JUAN CAMILO TOBON OLARTE": 117,
+    "JUAN DAVID ROJAS AGUDELO": 1360,
+    "LUIS JAVIER FRANCO AGUDELO": 93,
+    "VICTOR ANTONIO GRACIANO RAMIREZ": 1431,
+    "VOTOS EN BLANCO": 109,
+    "VOTOS NO MARCADOS": 86,
+    "VOTOS NULOS": 76
+   }
+  },
+  {
+   "id": "BARBOSA|02|01",
+   "nombre": "Centro de Educación Superior",
+   "nombre_oficial": "CENTRO DE EDUCACION SUPERIOR",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.439004120190032,
+   "lon": -75.3318246251449,
+   "votos_total": 1964,
+   "votos_validos": 1871,
+   "ganador": "VICTOR ANTONIO GRACIANO RAMIREZ",
+   "empate": [],
+   "margen_puntos": 5.56,
+   "votos": {
+    "ALINA MARCELA RESTREPO RODRIGUEZ": 56,
+    "FREDY ALBERTO CORREA CARDONA": 123,
+    "JAIME LEON VANEGAS VELEZ": 211,
+    "JUAN CAMILO TOBON OLARTE": 67,
+    "JUAN DAVID ROJAS AGUDELO": 606,
+    "LUIS JAVIER FRANCO AGUDELO": 40,
+    "VICTOR ANTONIO GRACIANO RAMIREZ": 710,
+    "VOTOS EN BLANCO": 58,
+    "VOTOS NO MARCADOS": 56,
+    "VOTOS NULOS": 37
+   }
+  },
+  {
+   "id": "BARBOSA|02|02",
+   "nombre": "COL. Cooperativo Simón Bolívar",
+   "nombre_oficial": "COL. COOPERATIVO SIMÓN BOLIVAR",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.436048931,
+   "lon": -75.3293259199999,
+   "votos_total": 1538,
+   "votos_validos": 1485,
+   "ganador": "VICTOR ANTONIO GRACIANO RAMIREZ",
+   "empate": [],
+   "margen_puntos": 4.58,
+   "votos": {
+    "ALINA MARCELA RESTREPO RODRIGUEZ": 51,
+    "FREDY ALBERTO CORREA CARDONA": 134,
+    "JAIME LEON VANEGAS VELEZ": 186,
+    "JUAN CAMILO TOBON OLARTE": 36,
+    "JUAN DAVID ROJAS AGUDELO": 462,
+    "LUIS JAVIER FRANCO AGUDELO": 35,
+    "VICTOR ANTONIO GRACIANO RAMIREZ": 530,
+    "VOTOS EN BLANCO": 51,
+    "VOTOS NO MARCADOS": 21,
+    "VOTOS NULOS": 32
+   }
+  },
+  {
+   "id": "BARBOSA|02|03",
+   "nombre": "C.A.S Diego Fernández Barbosa",
+   "nombre_oficial": "C.A.S DIEGO FERNANDEZ BARBOSA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.438062415412542,
+   "lon": -75.3337701103564,
+   "votos_total": 1488,
+   "votos_validos": 1408,
+   "ganador": "VICTOR ANTONIO GRACIANO RAMIREZ",
+   "empate": [],
+   "margen_puntos": 11.65,
+   "votos": {
+    "ALINA MARCELA RESTREPO RODRIGUEZ": 40,
+    "FREDY ALBERTO CORREA CARDONA": 111,
+    "JAIME LEON VANEGAS VELEZ": 148,
+    "JUAN CAMILO TOBON OLARTE": 29,
+    "JUAN DAVID ROJAS AGUDELO": 424,
+    "LUIS JAVIER FRANCO AGUDELO": 41,
+    "VICTOR ANTONIO GRACIANO RAMIREZ": 588,
+    "VOTOS EN BLANCO": 27,
+    "VOTOS NO MARCADOS": 42,
+    "VOTOS NULOS": 38
+   }
+  },
+  {
+   "id": "BARBOSA|02|04",
+   "nombre": "Unidad Deportiva los Bucaros",
+   "nombre_oficial": "UNIDAD DEPORTIVA LOS BUCAROS",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.440817381999998,
+   "lon": -75.33053467,
+   "votos_total": 4071,
+   "votos_validos": 3944,
+   "ganador": "VICTOR ANTONIO GRACIANO RAMIREZ",
+   "empate": [],
+   "margen_puntos": 2.54,
+   "votos": {
+    "ALINA MARCELA RESTREPO RODRIGUEZ": 156,
+    "FREDY ALBERTO CORREA CARDONA": 252,
+    "JAIME LEON VANEGAS VELEZ": 454,
+    "JUAN CAMILO TOBON OLARTE": 145,
+    "JUAN DAVID ROJAS AGUDELO": 1269,
+    "LUIS JAVIER FRANCO AGUDELO": 81,
+    "VICTOR ANTONIO GRACIANO RAMIREZ": 1369,
+    "VOTOS EN BLANCO": 218,
+    "VOTOS NO MARCADOS": 52,
+    "VOTOS NULOS": 75
+   }
+  },
+  {
+   "id": "BARBOSA|99|01",
+   "nombre": "El Hatillo",
+   "nombre_oficial": "EL HATILLO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.413508194126006,
+   "lon": -75.3921408215593,
+   "votos_total": 3300,
+   "votos_validos": 3156,
+   "ganador": "JUAN DAVID ROJAS AGUDELO",
+   "empate": [],
+   "margen_puntos": 30.26,
+   "votos": {
+    "ALINA MARCELA RESTREPO RODRIGUEZ": 32,
+    "FREDY ALBERTO CORREA CARDONA": 65,
+    "JAIME LEON VANEGAS VELEZ": 598,
+    "JUAN CAMILO TOBON OLARTE": 49,
+    "JUAN DAVID ROJAS AGUDELO": 1582,
+    "LUIS JAVIER FRANCO AGUDELO": 77,
+    "VICTOR ANTONIO GRACIANO RAMIREZ": 627,
+    "VOTOS EN BLANCO": 126,
+    "VOTOS NO MARCADOS": 93,
+    "VOTOS NULOS": 51
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel",
+   "nombre_oficial": "CARCEL",
+   "votos": 12,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "disponible"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

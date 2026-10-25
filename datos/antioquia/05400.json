@@ -1,0 +1,296 @@
+{
+ "municipio": {
+  "cod_dane": "05400",
+  "cod_registraduria": "169",
+  "nombre": "La Unión",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 12718,
+   "votos_validos": 12397,
+   "margen_puntos": 10.99,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Édgar Alexander Osorio Londoño",
+     "nombre_oficial": "EDGAR ALEXANDER OSORIO LONDOÑO",
+     "partido": "La Unión en Buenas Manos",
+     "partido_oficial": "LA UNION EN BUENAS MANOS",
+     "familias": [],
+     "votos": 4009,
+     "porcentaje": 32.34,
+     "posicion": 1
+    },
+    {
+     "nombre": "Eleuterio de Jesús Martínez Valencia",
+     "nombre_oficial": "ELEUTERIO DE JESUS MARTINEZ VALENCIA",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 2647,
+     "porcentaje": 21.35,
+     "posicion": 2
+    },
+    {
+     "nombre": "Diego Alexander Tibaquira Castrillon",
+     "nombre_oficial": "DIEGO ALEXANDER TIBAQUIRA CASTRILLON",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 2092,
+     "porcentaje": 16.88,
+     "posicion": 3
+    },
+    {
+     "nombre": "Carlos Andrés Marulanda García",
+     "nombre_oficial": "CARLOS ANDRES MARULANDA GARCIA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1840,
+     "porcentaje": 14.84,
+     "posicion": 4
+    },
+    {
+     "nombre": "Eduardo Antonio Castro Bedoya",
+     "nombre_oficial": "EDUARDO ANTONIO CASTRO BEDOYA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 1054,
+     "porcentaje": 8.5,
+     "posicion": 5
+    },
+    {
+     "nombre": "Carlos Mario Ríos Guzmán",
+     "nombre_oficial": "CARLOS MARIO RIOS GUZMAN",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 405,
+     "porcentaje": 3.27,
+     "posicion": 6
+    },
+    {
+     "nombre": "Sebastián Cardona Henao",
+     "nombre_oficial": "SEBASTIAN CARDONA HENAO",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRATICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 135,
+     "porcentaje": 1.09,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 215,
+    "VOTOS NULOS": 179,
+    "VOTOS NO MARCADOS": 142
+   }
+  },
+  "2023": {
+   "votos_depositados": 13895,
+   "votos_validos": 13628,
+   "margen_puntos": 24.1,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Carmen Judith Valencia Moreno",
+     "nombre_oficial": "CARMEN JUDITH VALENCIA MORENO",
+     "partido": "La Unión Somos Todos",
+     "partido_oficial": "LA UNION SOMOS TODOS",
+     "familias": [],
+     "votos": 6230,
+     "porcentaje": 45.71,
+     "posicion": 1
+    },
+    {
+     "nombre": "Diego Alexander Tibaquira Castrillon",
+     "nombre_oficial": "DIEGO ALEXANDER TIBAQUIRA CASTRILLON",
+     "partido": "Es Hora de Avanzar",
+     "partido_oficial": "ES HORA DE AVANZAR",
+     "familias": [],
+     "votos": 2946,
+     "porcentaje": 21.62,
+     "posicion": 2
+    },
+    {
+     "nombre": "Eleuterio de Jesús Martínez Valencia",
+     "nombre_oficial": "ELEUTERIO DE JESUS MARTINEZ VALENCIA",
+     "partido": "La Unión Es la Clave",
+     "partido_oficial": "LA UNION ES LA CLAVE",
+     "familias": [],
+     "votos": 2204,
+     "porcentaje": 16.17,
+     "posicion": 3
+    },
+    {
+     "nombre": "Hugo Botero López",
+     "nombre_oficial": "HUGO BOTERO LOPEZ",
+     "partido": "Partido de la Unión por la Gente - Partido de la U",
+     "partido_oficial": "PARTIDO DE LA UNIÓN POR LA GENTE - PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 2023,
+     "porcentaje": 14.84,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 225,
+    "VOTOS NULOS": 141,
+    "VOTOS NO MARCADOS": 126
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "LA UNION|00|01",
+   "nombre": "Coliseo Ernesto Ríos Arias",
+   "nombre_oficial": "COLISEO ERNESTO RIOS ARIAS",
+   "zona": "00",
+   "rural": false,
+   "lat": 5.971848999999998,
+   "lon": -75.3613818999998,
+   "votos_total": 9493,
+   "votos_validos": 9318,
+   "ganador": "CARMEN JUDITH VALENCIA MORENO",
+   "empate": [],
+   "margen_puntos": 25.31,
+   "votos": {
+    "CARMEN JUDITH VALENCIA MORENO": 4287,
+    "DIEGO ALEXANDER TIBAQUIRA CASTRILLON": 1929,
+    "ELEUTERIO DE JESUS MARTINEZ VALENCIA": 1631,
+    "HUGO BOTERO LOPEZ": 1369,
+    "VOTOS EN BLANCO": 102,
+    "VOTOS NO MARCADOS": 77,
+    "VOTOS NULOS": 98
+   }
+  },
+  {
+   "id": "LA UNION|00|02",
+   "nombre": "Inst Edu Feliz María Restrepo Londoño",
+   "nombre_oficial": "INST EDU FELIZ MARIA RESTREPO LONDOÑO",
+   "zona": "00",
+   "rural": false,
+   "lat": 5.974,
+   "lon": -75.3605,
+   "votos_total": 3892,
+   "votos_validos": 3812,
+   "ganador": "CARMEN JUDITH VALENCIA MORENO",
+   "empate": [],
+   "margen_puntos": 20.3,
+   "votos": {
+    "CARMEN JUDITH VALENCIA MORENO": 1716,
+    "DIEGO ALEXANDER TIBAQUIRA CASTRILLON": 942,
+    "ELEUTERIO DE JESUS MARTINEZ VALENCIA": 545,
+    "HUGO BOTERO LOPEZ": 495,
+    "VOTOS EN BLANCO": 114,
+    "VOTOS NO MARCADOS": 42,
+    "VOTOS NULOS": 38
+   }
+  },
+  {
+   "id": "LA UNION|99|01",
+   "nombre": "Mesopotamia",
+   "nombre_oficial": "MESOPOTAMIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.884725,
+   "lon": -75.31609444,
+   "votos_total": 510,
+   "votos_validos": 498,
+   "ganador": "CARMEN JUDITH VALENCIA MORENO",
+   "empate": [],
+   "margen_puntos": 13.65,
+   "votos": {
+    "CARMEN JUDITH VALENCIA MORENO": 227,
+    "DIEGO ALEXANDER TIBAQUIRA CASTRILLON": 75,
+    "ELEUTERIO DE JESUS MARTINEZ VALENCIA": 28,
+    "HUGO BOTERO LOPEZ": 159,
+    "VOTOS EN BLANCO": 9,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 5
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

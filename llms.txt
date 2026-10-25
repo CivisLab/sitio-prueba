@@ -1,0 +1,159 @@
+# CivisLab · Antioquia
+
+> Laboratorio de datos sobre política y territorio. Resultados oficiales de alcaldía 2019 y 2023 de los 125 municipios de Antioquia, por municipio y por puesto de votación, con su fuente.
+
+## Qué es
+- Plan abierto (gratis): resultados oficiales de la Registraduría, por municipio y puesto, con licencia CC BY 4.0. Porcentajes sobre votos válidos (candidaturas y voto en blanco). Atlas abierto (indicadores oficiales explicados) en los 10 municipios del Valle de Aburrá.
+- Suscripción: series desde el año 2000, radiografía de las casas políticas con prueba pública, reporte técnico de Atlas y Pulso semanal (a solicitud).
+- Personalizado: acompañamiento a una campaña en un municipio, bajo contrato de confidencialidad.
+
+## Qué NO es
+- No es una encuesta ni un sondeo. No publica intención de voto, probabilidades ni escenarios sobre candidaturas reales (Ley 2494 de 2025).
+- No perfila personas: todo está agregado por puesto, barrio o municipio.
+- No es una herramienta de campaña ni un medio de noticias.
+
+## Páginas
+- Inicio: index.html
+- Quiénes somos: quienes-somos/index.html
+- Qué hacemos: que-hacemos/index.html
+- Cómo lo hacemos: como-lo-hacemos/index.html
+- Servicios y planes: servicios/index.html, servicios/planes/index.html
+- Explorador de los municipios (mapa, buscador y lista): antioquia/index.html
+- Metodología y fuentes (cálculos y huellas sha256): metodologia/index.html
+- Aviso legal y rectificaciones: aviso-legal/index.html
+- Contacto (Hablemos): hablemos/index.html
+
+## Datos
+- Rutas relativas a la raíz del sitio, sin barra inicial.
+- Un JSON por municipio: datos/antioquia/<cod_dane>.json; índice: datos/antioquia/indice.json
+- CSV abierto: descargas/antioquia_alcaldias_2019_2023.csv
+- Corte: 2026-10-25. Contacto: info.civislab@gmail.com.
+- Rectificaciones: info.civislab@gmail.com, respuesta en 5 días hábiles.
+- Citar: «CivisLab, con datos de la Registraduría» (licencia CC BY 4.0).
+
+## Municipios
+- [Abejorral](antioquia/abejorral/): en 2023 ganó Manuel Alberto Guzmán Marín (Unidos Volvemos a Creer).
+- [Abriaquí](antioquia/abriaqui/): en 2023 ganó Daniel Alberto Salas Gallego (Partido Conservador Colombiano).
+- [Alejandría](antioquia/alejandria/): en 2023 ganó Gloria Cecilia Naranjo Osorio (Somos Más Pasion por Alejandria).
+- [Amagá](antioquia/amaga/): en 2023 ganó Wilser Darío Molina Molina (Coalición Amagá Enamora).
+- [Amalfi](antioquia/amalfi/): en 2023 ganó Wilmar Alonso Vélez Londoño (El Desarrollo Territorial Nos Junta).
+- [Andes](antioquia/andes/): en 2023 ganó Germán Alexander Vélez Orozco (Partido Centro Democrático).
+- [Angelópolis](antioquia/angelopolis/): en 2023 ganó José Luis Montoya Quiceno (Unidos por el Cambio).
+- [Angostura](antioquia/angostura/): en 2023 ganó Víctor Ignacio Medina Gómez (Partido Político Dignidad & Compromiso).
+- [Anorí](antioquia/anori/): en 2023 ganó Gustavo Alfredo Silva Gutiérrez (Firmes por Anori).
+- [Anzá](antioquia/anza/): en 2023 ganó Juan Guillermo Hincapie Figueroa (Agrupación Política en Marcha).
+- [Apartadó](antioquia/apartado/): en 2023 ganó Héctor Rangel Palacios Rodríguez (Unidos por la Vida).
+- [Arboletes](antioquia/arboletes/): en 2023 ganó Álvaro González Ávila (Arboletes Asunto de Todos).
+- [Argelia](antioquia/argelia/): en 2023 ganó Diego Alexander López Giraldo (Unidos el Desarrollo Es Posible).
+- [Armenia](antioquia/armenia/): en 2023 ganó Martha Libia Parra Gil (Partido de la Unión por la Gente - Partido de la U).
+- [Barbosa](antioquia/barbosa/): en 2023 ganó Juan David Rojas Agudelo (¡Barbosa Nos Une!).
+- [Bello](antioquia/bello/): en 2023 ganó Yulieth Lorena González Ospina (Bello Nos Une).
+- [Belmira](antioquia/belmira/): en 2023 ganó Darcy Esteban Arboleda Rua (Partido Conservador Colombiano).
+- [Betania](antioquia/betania/): en 2023 ganó Diego Arley de Jesús Guerra Gutiérrez (Betania Nos Une).
+- [Betulia](antioquia/betulia/): en 2023 ganó Néstor Camilo Serna Hernández (Betulia Avanza).
+- [Briceño](antioquia/briceno/): en 2023 ganó Noe de Jesús Espinosa Vásquez (Agrupación Política en Marcha).
+- [Buriticá](antioquia/buritica/): en 2023 ganó José Luis Rodríguez Úsuga (Partido Liberal Colombiano).
+- [Cáceres](antioquia/caceres/): en 2023 ganó Damiana María Monterrosa Pérez (Por la Gente).
+- [Caicedo](antioquia/caicedo/): en 2023 ganó Yuber Felipe Molina Murillo (Por el Caicedo Que Queremos).
+- [Caldas](antioquia/caldas/): en 2023 ganó Jorge Mario Rendón Vélez (Coalición Profe Piolo Creamos).
+- [Campamento](antioquia/campamento/): en 2023 ganó Cristian Andrés Agudelo Posada (Coalición Partido Cambio Radical - Conservador - A.D.A).
+- [Cañasgordas](antioquia/canasgordas/): en 2023 ganó Diego Alonso Vanegas Arango (Partido Colombia Renaciente).
+- [Caracolí](antioquia/caracoli/): en 2023 ganó Rodrigo Alveiro Cadavid Herrera (Movimiento Autoridades Indígenas de Colombia AICO).
+- [Caramanta](antioquia/caramanta/): en 2023 ganó Juan Esteban Correa Cárdenas (Caramanta Nuestra Pasion).
+- [Carepa](antioquia/carepa/): en 2023 ganó Agapito Murillo Palacios (Independientes).
+- [Carolina](antioquia/carolina/): en 2023 ganó Ana Isabel Avendaño Duque (Partido Conservador Colombiano).
+- [Caucasia](antioquia/caucasia/): en 2023 ganó Jhoan Oderis Montes Cortes (Coalición Hagamoslo Todos Juntos por Caucasia).
+- [Chigorodó](antioquia/chigorodo/): en 2023 ganó Tulia Irene Ruiz García (Partido Alianza Social Independiente ASI).
+- [Cisneros](antioquia/cisneros/): en 2023 ganó Lina María Correa Valencia (Juntos Somos el Futuro).
+- [Ciudad Bolívar](antioquia/ciudad-bolivar/): en 2023 ganó León Darío Acevedo Vargas (Pasion y Visión por Bolívar).
+- [Cocorná](antioquia/cocorna/): en 2023 ganó David Alejandro Gómez Hoyos (Coalición Conservador, Liberal, ASI, Centro Democrático).
+- [Concepción](antioquia/concepcion/): en 2023 ganó Adrián Henao Carvajal (En Concepción el Progreso Continua).
+- [Concordia](antioquia/concordia/): en 2023 ganó Alexandra María Herrera Quijano (Coalición Podemos Hacerlo).
+- [Copacabana](antioquia/copacabana/): en 2023 ganó Johnnatan Andrés Pineda Agudelo (Partido Político Creemos).
+- [Dabeiba](antioquia/dabeiba/): en 2023 ganó Daniel Higuita Herrera (Primero Dabeiba).
+- [Donmatías](antioquia/donmatias/): en 2023 ganó Javier Darío López Restrepo (Partido Centro Democrático).
+- [Ebéjico](antioquia/ebejico/): en 2023 ganó David Alonso Restrepo Castrillon (Unidos por Un Ebéjico Mejor).
+- [El Bagre](antioquia/el-bagre/): en 2023 ganó Marco Fidel Trespalacio Bulloso (Partido Alianza Verde).
+- [El Carmen de Viboral](antioquia/el-carmen-de-viboral/): en 2023 ganó Hugo Alfonso Jiménez Cuervo (El Carmen Prioridad de Todos).
+- [El Peñol](antioquia/el-penol/): en 2023 ganó Sandra Arelis Duque Velásquez (Avancemos por el Peñol).
+- [El Retiro](antioquia/el-retiro/): en 2023 ganó Santiago Montoya Giraldo (El Retiro Entre Todos).
+- [El Santuario](antioquia/el-santuario/): en 2023 ganó Martín Alberto Duque Gallo (Unidos con la Gente para Seguir Avanzando).
+- [Entrerríos](antioquia/entrerrios/): en 2023 ganó Julio César Lopera Posada (Partido Político Creemos).
+- [Envigado](antioquia/envigado/): en 2023 ganó Raúl Eduardo Cardona González (Envigado, Vamos Adelante).
+- [Fredonia](antioquia/fredonia/): en 2023 ganó Aldubar de Jesús Vanegas Marín (Por Amor a Fredonia).
+- [Frontino](antioquia/frontino/): en 2023 ganó Luz Gabriela Rivera Cano (Frontino Nos Une).
+- [Giraldo](antioquia/giraldo/): en 2023 ganó María Camila Manco Suárez (El Giraldo Que Queremos).
+- [Girardota](antioquia/girardota/): en 2023 ganó Kevin René Bernal Morales (Decencia en Lo Público).
+- [Gómez Plata](antioquia/gomez-plata/): en 2023 ganó Luis Guillermo Pérez Echeverri (Partido Conservador Colombiano).
+- [Granada](antioquia/granada/): en 2023 ganó Daniel Andrés Hoyos Yepes (Partido Conservador Colombiano).
+- [Guadalupe](antioquia/guadalupe/): en 2023 ganó José Fernando Salazar Ospina (Partido Liberal Colombiano).
+- [Guarne](antioquia/guarne/): en 2023 ganó Diego Mauricio Grisales Gallego (Por Todo Lo Que Nos Une).
+- [Guatapé](antioquia/guatape/): en 2023 ganó David Esteban Franco Vallejo (Juntos Construimos).
+- [Heliconia](antioquia/heliconia/): en 2023 ganó Jorge Alexander Álvarez Arango (Partido Alianza Verde).
+- [Hispania](antioquia/hispania/): en 2023 ganó Orlando Arturo Marín Atehortua (Somos Hispania de Corazón).
+- [Itagüí](antioquia/itagui/): en 2023 ganó Diego León Torres Sánchez (Itagüí Somos Todos - Partido Conservador).
+- [Ituango](antioquia/ituango/): en 2023 ganó Javier de Jesús Parias Posso (Ituango Nos Une).
+- [Jardín](antioquia/jardin/): en 2023 ganó Claudia Yaneth Naranjo Agudelo (Coalición Politica y Programatica: Unidos, Si Es Posible).
+- [Jericó](antioquia/jerico/): en 2023 ganó Sebastián Garces Piedrahita (Jericó Territorio de Oportunidades).
+- [La Ceja](antioquia/la-ceja/): en 2023 ganó María Ilbed Santa Santa (Alcaldesa Ilbed Santa #eselmomento).
+- [La Estrella](antioquia/la-estrella/): en 2023 ganó Carlos Mario Gutiérrez Arrubla (Coalición por el Camino Correcto).
+- [La Pintada](antioquia/la-pintada/): en 2023 ganó Herman Antonio Correa Bedoya (En Via al Desarrollo).
+- [La Unión](antioquia/la-union/): en 2023 ganó Carmen Judith Valencia Moreno (La Unión Somos Todos).
+- [Liborina](antioquia/liborina/): en 2023 ganó Nancy Amparo Avendaño Moreno (Partido Colombia Renaciente).
+- [Maceo](antioquia/maceo/): en 2023 ganó Carolina Andrea Sosa Gómez (Coalición Maceo Incluyente).
+- [Marinilla](antioquia/marinilla/): en 2023 ganó Julio César Serna Gómez (Partido Conservador Colombiano).
+- [Medellín](antioquia/medellin/): en 2023 ganó Federico Andrés Gutiérrez Zuluaga (Partido Político Creemos).
+- [Montebello](antioquia/montebello/): en 2023 ganó Óscar Ernesto Cuervo Villada (Yo Creo).
+- [Murindó](antioquia/murindo/): en 2023 ganó Emperatriz Mena Palacio (Partido Polo Democrático Alternativo).
+- [Mutatá](antioquia/mutata/): en 2023 ganó Jairo Enrique Ortiz Palacios (Mutatá... Lider).
+- [Nariño](antioquia/narino/): en 2023 ganó Erika Cardona Pérez (Nariño en Buenas Manos).
+- [Nechí](antioquia/nechi/): en 2023 ganó Yumaris Patricia Henriquez Banquet (Nechi Primero 24/7).
+- [Necoclí](antioquia/necocli/): en 2023 ganó Guillermo José Cardona Moreno (Acuerdo de Coalición Política y Programática).
+- [Olaya](antioquia/olaya/): en 2023 ganó Jesús David Hernández Londoño (Partido de la Unión por la Gente - Partido de la U).
+- [Peque](antioquia/peque/): en 2023 ganó Ermilson de Jesús Hernández Hernández (Partido Alianza Verde).
+- [Pueblorrico](antioquia/pueblorrico/): en 2023 ganó Cristian Camilo Zapata Ramírez (Comprometidos con la Gente).
+- [Puerto Berrío](antioquia/puerto-berrio/): en 2023 ganó Robinson Alberto Baena Zuluaga (Cercano a la Gente).
+- [Puerto Nare](antioquia/puerto-nare/): en 2023 ganó Juan Carlos Acevedo Alzate (Partido Liberal Colombiano).
+- [Puerto Triunfo](antioquia/puerto-triunfo/): en 2023 ganó Franklin Portillo Gómez (Diciendo y Haciendo por Puerto Triunfo).
+- [Remedios](antioquia/remedios/): en 2023 ganó Albeiro Arenas Molina (Partido Liberal Colombiano).
+- [Rionegro](antioquia/rionegro/): en 2023 ganó Jorge Humberto Rivas Urrea (Rionegro Nos Une).
+- [Sabanalarga](antioquia/sabanalarga/): en 2023 ganó César Alonso Cuadros George (Partido Conservador Colombiano).
+- [Sabaneta](antioquia/sabaneta/): en 2023 ganó Alder James Cruz Ocampo (Alder Cruz Alcalde).
+- [Salgar](antioquia/salgar/): en 2023 ganó Víctor Raúl Maya Ceballos (Es el Momento Salgar).
+- [San Andrés de Cuerquía](antioquia/san-andres-de-cuerquia/): en 2023 ganó José Fernando Chavarria Chavarria (Juntos Creemos).
+- [San Carlos](antioquia/san-carlos/): en 2023 ganó Santiago Daza Espinosa (Unidos por la Transformación).
+- [San Francisco](antioquia/san-francisco/): en 2023 ganó Arturo Alexander Arias Duque (Con la Gente y para la Gente).
+- [San Jerónimo](antioquia/san-jeronimo/): en 2023 ganó Donaldo Fernan Vivares Gallego (Juntos Hacemos Más).
+- [San José de la Montaña](antioquia/san-jose-de-la-montana/): en 2023 ganó Julián Andrés González Posada (Partido Conservador Colombiano).
+- [San Juan de Urabá](antioquia/san-juan-de-uraba/): en 2023 ganó Julia Esperanza Medrano Coa (Partido Liberal Colombiano).
+- [San Luis](antioquia/san-luis/): en 2023 ganó César Abad Buitrago Arias (Es el Momento).
+- [San Pedro de los Milagros](antioquia/san-pedro-de-los-milagros/): en 2023 ganó José Danilo Álvarez Rodríguez (Somos San Pedro).
+- [San Pedro de Urabá](antioquia/san-pedro-de-uraba/): en 2023 ganó Never Jacinto Carvajal Miranda (San Pedro de Urabá Grande y Sostenible).
+- [San Rafael](antioquia/san-rafael/): en 2023 ganó Eduin Aniceto Giraldo Quintana (Partido Centro Democrático).
+- [San Roque](antioquia/san-roque/): en 2023 ganó Luis Alejandro Villegas Cano (Volver a Creer San Roque).
+- [San Vicente](antioquia/san-vicente/): en 2023 ganó Nelson de Jesús Henao Zapata (Partido Conservador Colombiano).
+- [Santa Bárbara](antioquia/santa-barbara/): en 2023 ganó Jorge Mario Quintana Cañaveral (Para Volver a Creer).
+- [Santa Fé de Antioquia](antioquia/santa-fe-de-antioquia/): en 2023 ganó Yamid Carvajal Carvajal (Coalición Partido Liberal Renovación).
+- [Santa Rosa de Osos](antioquia/santa-rosa-de-osos/): en 2023 ganó Luis Bernardo Molina Granda (Partido de la Unión por la Gente - Partido de la U).
+- [Santo Domingo](antioquia/santo-domingo/): en 2023 ganó Fabio Ignacio MIRA Valencia (Partido de la Unión por la Gente - Partido de la U).
+- [Segovia](antioquia/segovia/): en 2023 ganó Edwin Alexander Castañeda Vahos (Segovia Somos Uno).
+- [Sonsón](antioquia/sonson/): en 2023 ganó Juan Diego Zuluaga Pulgarín (El Progreso Continua).
+- [Sopetrán](antioquia/sopetran/): en 2023 ganó Tatiana Alexandra Carballo Hoyos (Sopetran Es el Momento).
+- [Támesis](antioquia/tamesis/): en 2023 ganó Juan Pablo Pérez Ramírez (Támesis Avanza).
+- [Tarazá](antioquia/taraza/): en 2023 ganó Yomer Fabián Álvarez Correa (Soy Taraza).
+- [Tarso](antioquia/tarso/): en 2023 ganó Hugo Alexander Ocampo Ríos (El Tarso Que Queremos).
+- [Titiribí](antioquia/titiribi/): en 2023 ganó Alex David Restrepo Salazar (Coalición Somos Titiribi).
+- [Toledo](antioquia/toledo/): en 2023 ganó Jhonny Alberto Marín Muñetón (Partido Conservador-Partido Liberal-Partido Cambio Radical-Partido Colombia Renaciente).
+- [Turbo](antioquia/turbo/): en 2023 ganó Alejandro Abuchar González (Coalición Turbo Esperanza de Vida).
+- [Uramita](antioquia/uramita/): en 2023 ganó Leonardo Úsuga Correa (Partido Demócrata Colombiano).
+- [Urrao](antioquia/urrao/): en 2023 ganó Nilson Javier Barrera Holguin (Trabajemos por Urrao).
+- [Valdivia](antioquia/valdivia/): en 2023 ganó Carlos Danober Molina Betancur (Partido Alianza Verde).
+- [Valparaíso](antioquia/valparaiso/): en 2023 ganó José Mario Hernández Devia (Partido Conservador Colombiano).
+- [Vegachí](antioquia/vegachi/): en 2023 ganó José María Ochoa Muñoz (Vegachi en Buenas Manos).
+- [Venecia](antioquia/venecia/): en 2023 ganó Ferney Darío Fernández (Venecia Nos Une y Nos Unirá).
+- [Vigía del Fuerte](antioquia/vigia-del-fuerte/): en 2023 ganó Jhoselin Lozano Mena (Vigia Merece Más).
+- [Yalí](antioquia/yali/): en 2023 ganó Jhon Jairo Giraldo Posada (Partido Cambio Radical).
+- [Yarumal](antioquia/yarumal/): en 2023 ganó Cristian David Cespedes Correa (Yarumal Nos Une).
+- [Yolombó](antioquia/yolombo/): en 2023 ganó Jesús Amador Pérez Palacio (Más Humano Más Comunal).
+- [Yondó](antioquia/yondo/): en 2023 ganó Yerson Antonio Ariza Rivera (Yondo Avanza).
+- [Zaragoza](antioquia/zaragoza/): en 2023 ganó Andrés Emilio Lujan Monroy (Coalición Partido Liberal y Partido de la U).

@@ -1,0 +1,248 @@
+{
+ "municipio": {
+  "cod_dane": "05607",
+  "cod_registraduria": "211",
+  "nombre": "El Retiro",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 12561,
+   "votos_validos": 12264,
+   "margen_puntos": 17.56,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Nolber de Jesús Bedoya Puerta",
+     "nombre_oficial": "NOLBER DE JESUS BEDOYA PUERTA",
+     "partido": "El Cambio Que el Retiro Quiere",
+     "partido_oficial": "EL CAMBIO QUE EL RETIRO QUIERE",
+     "familias": [],
+     "votos": 6890,
+     "porcentaje": 56.18,
+     "posicion": 1
+    },
+    {
+     "nombre": "Nicolás Fernan Gutiérrez Villa",
+     "nombre_oficial": "NICOLAS FERNAN GUTIERREZ VILLA",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 4736,
+     "porcentaje": 38.62,
+     "posicion": 2
+    },
+    {
+     "nombre": "Héctor Alonso Rendón Montoya",
+     "nombre_oficial": "HECTOR ALONSO RENDON MONTOYA",
+     "partido": "Partido Colombia Justa Libres",
+     "partido_oficial": "PARTIDO COLOMBIA JUSTA LIBRES",
+     "familias": [
+      "COL_JUSTA"
+     ],
+     "votos": 161,
+     "porcentaje": 1.31,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 477,
+    "VOTOS NO MARCADOS": 184,
+    "VOTOS NULOS": 113
+   }
+  },
+  "2023": {
+   "votos_depositados": 14837,
+   "votos_validos": 14591,
+   "margen_puntos": 7.48,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Santiago Montoya Giraldo",
+     "nombre_oficial": "SANTIAGO MONTOYA GIRALDO",
+     "partido": "El Retiro Entre Todos",
+     "partido_oficial": "EL RETIRO ENTRE TODOS",
+     "familias": [],
+     "votos": 6277,
+     "porcentaje": 43.02,
+     "posicion": 1
+    },
+    {
+     "nombre": "Elkin Darío Villada Henao",
+     "nombre_oficial": "ELKIN DARIO VILLADA HENAO",
+     "partido": "El Retiro Que Queremos",
+     "partido_oficial": "EL RETIRO QUE QUEREMOS",
+     "familias": [],
+     "votos": 5185,
+     "porcentaje": 35.54,
+     "posicion": 2
+    },
+    {
+     "nombre": "Gloria Isabel Arroyave Monsalve",
+     "nombre_oficial": "GLORIA ISABEL ARROYAVE MONSALVE",
+     "partido": "Un Mejor Retiro Es Posible",
+     "partido_oficial": "UN MEJOR RETIRO ES POSIBLE",
+     "familias": [],
+     "votos": 2835,
+     "porcentaje": 19.43,
+     "posicion": 3
+    },
+    {
+     "nombre": "Carlos Mario Salazar Bermúdez",
+     "nombre_oficial": "CARLOS MARIO SALAZAR BERMUDEZ",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 88,
+     "porcentaje": 0.6,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 206,
+    "VOTOS NO MARCADOS": 144,
+    "VOTOS NULOS": 102
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "RETIRO|00|01",
+   "nombre": "Coliseo Mun Carlos Mauro Hoyos",
+   "nombre_oficial": "COLISEO MUN CARLOS MAURO HOYOS",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.062888499999998,
+   "lon": -75.5010522999998,
+   "votos_total": 10594,
+   "votos_validos": 10406,
+   "ganador": "SANTIAGO MONTOYA GIRALDO",
+   "empate": [],
+   "margen_puntos": 4.82,
+   "votos": {
+    "CARLOS MARIO SALAZAR BERMUDEZ": 73,
+    "ELKIN DARIO VILLADA HENAO": 3804,
+    "GLORIA ISABEL ARROYAVE MONSALVE": 2088,
+    "SANTIAGO MONTOYA GIRALDO": 4306,
+    "VOTOS EN BLANCO": 135,
+    "VOTOS NO MARCADOS": 107,
+    "VOTOS NULOS": 81
+   }
+  },
+  {
+   "id": "RETIRO|00|02",
+   "nombre": "IE Ignacio Botero Vallejo",
+   "nombre_oficial": "IE IGNACIO BOTERO VALLEJO",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.0622591,
+   "lon": -75.5019089,
+   "votos_total": 2144,
+   "votos_validos": 2128,
+   "ganador": "SANTIAGO MONTOYA GIRALDO",
+   "empate": [],
+   "margen_puntos": 4.04,
+   "votos": {
+    "CARLOS MARIO SALAZAR BERMUDEZ": 8,
+    "ELKIN DARIO VILLADA HENAO": 781,
+    "GLORIA ISABEL ARROYAVE MONSALVE": 448,
+    "SANTIAGO MONTOYA GIRALDO": 867,
+    "VOTOS EN BLANCO": 24,
+    "VOTOS NO MARCADOS": 11,
+    "VOTOS NULOS": 5
+   }
+  },
+  {
+   "id": "RETIRO|99|70",
+   "nombre": "IE Luis Eduardo Posada",
+   "nombre_oficial": "IE LUIS EDUARDO POSADA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.094,
+   "lon": -75.48929167,
+   "votos_total": 2099,
+   "votos_validos": 2057,
+   "ganador": "SANTIAGO MONTOYA GIRALDO",
+   "empate": [],
+   "margen_puntos": 24.5,
+   "votos": {
+    "CARLOS MARIO SALAZAR BERMUDEZ": 7,
+    "ELKIN DARIO VILLADA HENAO": 600,
+    "GLORIA ISABEL ARROYAVE MONSALVE": 299,
+    "SANTIAGO MONTOYA GIRALDO": 1104,
+    "VOTOS EN BLANCO": 47,
+    "VOTOS NO MARCADOS": 26,
+    "VOTOS NULOS": 16
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

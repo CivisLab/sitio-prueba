@@ -1,0 +1,338 @@
+{
+ "municipio": {
+  "cod_dane": "05656",
+  "cod_registraduria": "229",
+  "nombre": "San Jerónimo",
+  "subregion": "Occidente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 8057,
+   "votos_validos": 7817,
+   "margen_puntos": 15.2,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Mauricio Andrés Velásquez Serna",
+     "nombre_oficial": "MAURICIO ANDRES VELASQUEZ SERNA",
+     "partido": "Sigamos Creciendo",
+     "partido_oficial": "SIGAMOS CRECIENDO",
+     "familias": [],
+     "votos": 3981,
+     "porcentaje": 50.93,
+     "posicion": 1
+    },
+    {
+     "nombre": "Luis Alberto Pulgarín Cano",
+     "nombre_oficial": "LUIS ALBERTO PULGARIN CANO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 2793,
+     "porcentaje": 35.73,
+     "posicion": 2
+    },
+    {
+     "nombre": "Andrés Felipe Delgado Osorio",
+     "nombre_oficial": "ANDRES FELIPE DELGADO OSORIO",
+     "partido": "Bien por San Jerónimo",
+     "partido_oficial": "BIEN POR SAN JERONIMO",
+     "familias": [],
+     "votos": 898,
+     "porcentaje": 11.49,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 145,
+    "VOTOS NO MARCADOS": 126,
+    "VOTOS NULOS": 114
+   }
+  },
+  "2023": {
+   "votos_depositados": 8129,
+   "votos_validos": 7903,
+   "margen_puntos": 32.6,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Donaldo Fernan Vivares Gallego",
+     "nombre_oficial": "DONALDO FERNAN VIVARES GALLEGO",
+     "partido": "Juntos Hacemos Más",
+     "partido_oficial": "JUNTOS HACEMOS MÁS",
+     "familias": [],
+     "votos": 4815,
+     "porcentaje": 60.93,
+     "posicion": 1
+    },
+    {
+     "nombre": "Luis Alberto Pulgarín Cano",
+     "nombre_oficial": "LUIS ALBERTO PULGARIN CANO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRÁTICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 2239,
+     "porcentaje": 28.33,
+     "posicion": 2
+    },
+    {
+     "nombre": "Olga Lucía Ospina",
+     "nombre_oficial": "OLGA LUCIA OSPINA",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 353,
+     "porcentaje": 4.47,
+     "posicion": 3
+    },
+    {
+     "nombre": "Pedro Nel Ruiz Álvarez",
+     "nombre_oficial": "PEDRO NEL RUIZ ALVAREZ",
+     "partido": "Partido Político la Fuerza de la Paz",
+     "partido_oficial": "PARTIDO POLÍTICO LA FUERZA DE LA PAZ",
+     "familias": [],
+     "votos": 126,
+     "porcentaje": 1.59,
+     "posicion": 4
+    },
+    {
+     "nombre": "Orson Francisco Ramírez Agudelo",
+     "nombre_oficial": "ORSON FRANCISCO RAMIREZ AGUDELO",
+     "partido": "Partido Nuevo Liberalismo",
+     "partido_oficial": "PARTIDO NUEVO LIBERALISMO",
+     "familias": [
+      "LIB",
+      "NL"
+     ],
+     "votos": 113,
+     "porcentaje": 1.43,
+     "posicion": 5
+    },
+    {
+     "nombre": "Lucina Amparo González",
+     "nombre_oficial": "LUCINA AMPARO GONZALEZ",
+     "partido": "Independientes",
+     "partido_oficial": "INDEPENDIENTES",
+     "familias": [],
+     "votos": 63,
+     "porcentaje": 0.8,
+     "posicion": 6
+    },
+    {
+     "nombre": "Aurelio Carmona Villa",
+     "nombre_oficial": "AURELIO CARMONA VILLA",
+     "partido": "Movimiento Político Colombia Humana",
+     "partido_oficial": "MOVIMIENTO POLÍTICO COLOMBIA HUMANA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 59,
+     "porcentaje": 0.75,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 135,
+    "VOTOS NULOS": 120,
+    "VOTOS NO MARCADOS": 106
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SAN JERONIMO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.442082993999998,
+   "lon": -75.72817304,
+   "votos_total": 6791,
+   "votos_validos": 6591,
+   "ganador": "DONALDO FERNAN VIVARES GALLEGO",
+   "empate": [],
+   "margen_puntos": 29.16,
+   "votos": {
+    "AURELIO CARMONA VILLA": 50,
+    "DONALDO FERNAN VIVARES GALLEGO": 3871,
+    "LUCINA AMPARO GONZALEZ": 62,
+    "LUIS ALBERTO PULGARIN CANO": 1949,
+    "OLGA LUCIA OSPINA": 328,
+    "ORSON FRANCISCO RAMIREZ AGUDELO": 95,
+    "PEDRO NEL RUIZ ALVAREZ": 119,
+    "VOTOS EN BLANCO": 117,
+    "VOTOS NO MARCADOS": 89,
+    "VOTOS NULOS": 111
+   }
+  },
+  {
+   "id": "SAN JERONIMO|99|06",
+   "nombre": "Llano de Aguirre",
+   "nombre_oficial": "LLANO DE AGUIRRE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.458348416321847,
+   "lon": -75.74003755123314,
+   "votos_total": 550,
+   "votos_validos": 539,
+   "ganador": "DONALDO FERNAN VIVARES GALLEGO",
+   "empate": [],
+   "margen_puntos": 36.92,
+   "votos": {
+    "AURELIO CARMONA VILLA": 5,
+    "DONALDO FERNAN VIVARES GALLEGO": 349,
+    "LUCINA AMPARO GONZALEZ": 1,
+    "LUIS ALBERTO PULGARIN CANO": 150,
+    "OLGA LUCIA OSPINA": 15,
+    "ORSON FRANCISCO RAMIREZ AGUDELO": 11,
+    "PEDRO NEL RUIZ ALVAREZ": 1,
+    "VOTOS EN BLANCO": 7,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 5
+   }
+  },
+  {
+   "id": "SAN JERONIMO|99|13",
+   "nombre": "Los Cedros",
+   "nombre_oficial": "LOS CEDROS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.490919,
+   "lon": -75.687942,
+   "votos_total": 282,
+   "votos_validos": 278,
+   "ganador": "DONALDO FERNAN VIVARES GALLEGO",
+   "empate": [],
+   "margen_puntos": 72.3,
+   "votos": {
+    "AURELIO CARMONA VILLA": 1,
+    "DONALDO FERNAN VIVARES GALLEGO": 237,
+    "LUIS ALBERTO PULGARIN CANO": 36,
+    "OLGA LUCIA OSPINA": 2,
+    "PEDRO NEL RUIZ ALVAREZ": 1,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "SAN JERONIMO|99|18",
+   "nombre": "Llano de San Juan",
+   "nombre_oficial": "LLANO DE SAN JUAN",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.3956371890816825,
+   "lon": -75.72178576258457,
+   "votos_total": 249,
+   "votos_validos": 242,
+   "ganador": "DONALDO FERNAN VIVARES GALLEGO",
+   "empate": [],
+   "margen_puntos": 55.37,
+   "votos": {
+    "AURELIO CARMONA VILLA": 3,
+    "DONALDO FERNAN VIVARES GALLEGO": 175,
+    "LUIS ALBERTO PULGARIN CANO": 41,
+    "OLGA LUCIA OSPINA": 5,
+    "ORSON FRANCISCO RAMIREZ AGUDELO": 5,
+    "PEDRO NEL RUIZ ALVAREZ": 5,
+    "VOTOS EN BLANCO": 8,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "SAN JERONIMO|99|36",
+   "nombre": "Poleal",
+   "nombre_oficial": "POLEAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.455822,
+   "lon": -75.663939,
+   "votos_total": 257,
+   "votos_validos": 253,
+   "ganador": "DONALDO FERNAN VIVARES GALLEGO",
+   "empate": [],
+   "margen_puntos": 47.43,
+   "votos": {
+    "DONALDO FERNAN VIVARES GALLEGO": 183,
+    "LUIS ALBERTO PULGARIN CANO": 63,
+    "OLGA LUCIA OSPINA": 3,
+    "ORSON FRANCISCO RAMIREZ AGUDELO": 2,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

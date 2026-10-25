@@ -1,0 +1,432 @@
+{
+ "municipio": {
+  "cod_dane": "05234",
+  "cod_registraduria": "109",
+  "nombre": "Dabeiba",
+  "subregion": "Occidente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 10842,
+   "votos_validos": 10406,
+   "margen_puntos": 15.86,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Leyton Urrego Durango",
+     "nombre_oficial": "LEYTON URREGO DURANGO",
+     "partido": "Unidos por Dabeiba",
+     "partido_oficial": "UNIDOS POR DABEIBA",
+     "familias": [],
+     "votos": 4530,
+     "porcentaje": 43.53,
+     "posicion": 1
+    },
+    {
+     "nombre": "Daniel Higuita Herrera",
+     "nombre_oficial": "DANIEL HIGUITA HERRERA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 2880,
+     "porcentaje": 27.68,
+     "posicion": 2
+    },
+    {
+     "nombre": "Nairon de Jesús Durango Rodríguez",
+     "nombre_oficial": "NAIRON DE JESUS DURANGO RODRIGUEZ",
+     "partido": "Si Podemos",
+     "partido_oficial": "SI PODEMOS",
+     "familias": [],
+     "votos": 2603,
+     "porcentaje": 25.01,
+     "posicion": 3
+    },
+    {
+     "nombre": "Óscar Ramiro Ocampo Gaviria",
+     "nombre_oficial": "OSCAR RAMIRO OCAMPO GAVIRIA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 261,
+     "porcentaje": 2.51,
+     "posicion": 4
+    },
+    {
+     "nombre": "Carlos Andrés Palacio Moreno",
+     "nombre_oficial": "CARLOS ANDRES PALACIO MORENO",
+     "partido": "Partido ADA",
+     "partido_oficial": "PARTIDO ADA",
+     "familias": [
+      "ADA"
+     ],
+     "votos": 37,
+     "porcentaje": 0.36,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 279,
+    "VOTOS NULOS": 157,
+    "VOTOS EN BLANCO": 95
+   }
+  },
+  "2023": {
+   "votos_depositados": 11588,
+   "votos_validos": 11170,
+   "margen_puntos": 16.65,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Daniel Higuita Herrera",
+     "nombre_oficial": "DANIEL HIGUITA HERRERA",
+     "partido": "Primero Dabeiba",
+     "partido_oficial": "PRIMERO DABEIBA",
+     "familias": [],
+     "votos": 6159,
+     "porcentaje": 55.14,
+     "posicion": 1
+    },
+    {
+     "nombre": "Miguel Ignacio Restrepo",
+     "nombre_oficial": "MIGUEL IGNACIO RESTREPO",
+     "partido": "Coalición Dabeiba Unidos",
+     "partido_oficial": "COALICIÓN DABEIBA UNIDOS",
+     "familias": [],
+     "votos": 4299,
+     "porcentaje": 38.49,
+     "posicion": 2
+    },
+    {
+     "nombre": "Nairon de Jesús Durango Rodríguez",
+     "nombre_oficial": "NAIRON DE JESUS DURANGO RODRIGUEZ",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 550,
+     "porcentaje": 4.92,
+     "posicion": 3
+    },
+    {
+     "nombre": "Gloria Adveni Úsuga Vélez",
+     "nombre_oficial": "GLORIA ADVENI USUGA VELEZ",
+     "partido": "Partido de la Unión por la Gente - Partido de la U",
+     "partido_oficial": "PARTIDO DE LA UNIÓN POR LA GENTE - PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 56,
+     "porcentaje": 0.5,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 292,
+    "VOTOS NULOS": 126,
+    "VOTOS EN BLANCO": 106
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "DABEIBA|00|01",
+   "nombre": "Coliseo Municipal Destrezas Dabeibanas",
+   "nombre_oficial": "COLISEO MUNICIPAL DESTREZAS DABEIBANAS",
+   "zona": "00",
+   "rural": false,
+   "lat": 7.0023238,
+   "lon": -76.2649678,
+   "votos_total": 4823,
+   "votos_validos": 4699,
+   "ganador": "DANIEL HIGUITA HERRERA",
+   "empate": [],
+   "margen_puntos": 20.54,
+   "votos": {
+    "DANIEL HIGUITA HERRERA": 2668,
+    "GLORIA ADVENI USUGA VELEZ": 24,
+    "MIGUEL IGNACIO RESTREPO": 1703,
+    "NAIRON DE JESUS DURANGO RODRIGUEZ": 257,
+    "VOTOS EN BLANCO": 47,
+    "VOTOS NO MARCADOS": 84,
+    "VOTOS NULOS": 40
+   }
+  },
+  {
+   "id": "DABEIBA|00|02",
+   "nombre": "Esc Juan Henrique White",
+   "nombre_oficial": "ESC JUAN HENRIQUE WHITE",
+   "zona": "00",
+   "rural": false,
+   "lat": 7.0011805,
+   "lon": -76.2654718,
+   "votos_total": 3796,
+   "votos_validos": 3667,
+   "ganador": "DANIEL HIGUITA HERRERA",
+   "empate": [],
+   "margen_puntos": 18.38,
+   "votos": {
+    "DANIEL HIGUITA HERRERA": 2042,
+    "GLORIA ADVENI USUGA VELEZ": 21,
+    "MIGUEL IGNACIO RESTREPO": 1368,
+    "NAIRON DE JESUS DURANGO RODRIGUEZ": 191,
+    "VOTOS EN BLANCO": 45,
+    "VOTOS NO MARCADOS": 77,
+    "VOTOS NULOS": 52
+   }
+  },
+  {
+   "id": "DABEIBA|99|01",
+   "nombre": "Camparrusia",
+   "nombre_oficial": "CAMPARRUSIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.0006661,
+   "lon": -76.0366797,
+   "votos_total": 759,
+   "votos_validos": 743,
+   "ganador": "DANIEL HIGUITA HERRERA",
+   "empate": [],
+   "margen_puntos": 6.06,
+   "votos": {
+    "DANIEL HIGUITA HERRERA": 384,
+    "GLORIA ADVENI USUGA VELEZ": 3,
+    "MIGUEL IGNACIO RESTREPO": 339,
+    "NAIRON DE JESUS DURANGO RODRIGUEZ": 15,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 11,
+    "VOTOS NULOS": 5
+   }
+  },
+  {
+   "id": "DABEIBA|99|02",
+   "nombre": "Llano Grande la Nueva Habana",
+   "nombre_oficial": "LLANO GRANDE LA NUEVA HABANA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.0748082,
+   "lon": -76.244772,
+   "votos_total": 238,
+   "votos_validos": 229,
+   "ganador": "DANIEL HIGUITA HERRERA",
+   "empate": [],
+   "margen_puntos": 10.92,
+   "votos": {
+    "DANIEL HIGUITA HERRERA": 125,
+    "GLORIA ADVENI USUGA VELEZ": 1,
+    "MIGUEL IGNACIO RESTREPO": 100,
+    "NAIRON DE JESUS DURANGO RODRIGUEZ": 1,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "DABEIBA|99|03",
+   "nombre": "Escuela IE Madre Laura Sede Vallesi",
+   "nombre_oficial": "ESCUELA IE MADRE LAURA SEDE VALLESI",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.0443223,
+   "lon": -76.4089827,
+   "votos_total": 301,
+   "votos_validos": 261,
+   "ganador": "MIGUEL IGNACIO RESTREPO",
+   "empate": [],
+   "margen_puntos": 1.15,
+   "votos": {
+    "DANIEL HIGUITA HERRERA": 124,
+    "MIGUEL IGNACIO RESTREPO": 127,
+    "NAIRON DE JESUS DURANGO RODRIGUEZ": 9,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 34,
+    "VOTOS NULOS": 6
+   }
+  },
+  {
+   "id": "DABEIBA|99|04",
+   "nombre": "Cruces Urama",
+   "nombre_oficial": "CRUCES URAMA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.0184722,
+   "lon": -76.1996717,
+   "votos_total": 300,
+   "votos_validos": 287,
+   "ganador": "MIGUEL IGNACIO RESTREPO",
+   "empate": [],
+   "margen_puntos": 8.36,
+   "votos": {
+    "DANIEL HIGUITA HERRERA": 123,
+    "MIGUEL IGNACIO RESTREPO": 147,
+    "NAIRON DE JESUS DURANGO RODRIGUEZ": 16,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "DABEIBA|99|05",
+   "nombre": "Sede Boton - I.E. Juan H. White",
+   "nombre_oficial": "SEDE BOTON - I.E. JUAN H. WHITE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.9249601,
+   "lon": -76.2549235,
+   "votos_total": 119,
+   "votos_validos": 111,
+   "ganador": "DANIEL HIGUITA HERRERA",
+   "empate": [],
+   "margen_puntos": 54.05,
+   "votos": {
+    "DANIEL HIGUITA HERRERA": 84,
+    "MIGUEL IGNACIO RESTREPO": 24,
+    "NAIRON DE JESUS DURANGO RODRIGUEZ": 2,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "DABEIBA|99|09",
+   "nombre": "Uramagrande",
+   "nombre_oficial": "URAMAGRANDE",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.017146599,
+   "lon": -76.1442434499999,
+   "votos_total": 702,
+   "votos_validos": 675,
+   "ganador": null,
+   "empate": [
+    "DANIEL HIGUITA HERRERA",
+    "MIGUEL IGNACIO RESTREPO"
+   ],
+   "margen_puntos": 0.0,
+   "votos": {
+    "DANIEL HIGUITA HERRERA": 317,
+    "GLORIA ADVENI USUGA VELEZ": 6,
+    "MIGUEL IGNACIO RESTREPO": 317,
+    "NAIRON DE JESUS DURANGO RODRIGUEZ": 33,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 18,
+    "VOTOS NULOS": 9
+   }
+  },
+  {
+   "id": "DABEIBA|99|10",
+   "nombre": "La Balsita - Argelia",
+   "nombre_oficial": "LA BALSITA - ARGELIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.054473322999999,
+   "lon": -76.12481889,
+   "votos_total": 320,
+   "votos_validos": 312,
+   "ganador": "DANIEL HIGUITA HERRERA",
+   "empate": [],
+   "margen_puntos": 15.38,
+   "votos": {
+    "DANIEL HIGUITA HERRERA": 174,
+    "GLORIA ADVENI USUGA VELEZ": 1,
+    "MIGUEL IGNACIO RESTREPO": 126,
+    "NAIRON DE JESUS DURANGO RODRIGUEZ": 9,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "DABEIBA|99|70",
+   "nombre": "Santa Teresa",
+   "nombre_oficial": "SANTA TERESA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.170562,
+   "lon": -76.4063879999998,
+   "votos_total": 230,
+   "votos_validos": 186,
+   "ganador": "DANIEL HIGUITA HERRERA",
+   "empate": [],
+   "margen_puntos": 37.63,
+   "votos": {
+    "DANIEL HIGUITA HERRERA": 118,
+    "MIGUEL IGNACIO RESTREPO": 48,
+    "NAIRON DE JESUS DURANGO RODRIGUEZ": 17,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 41,
+    "VOTOS NULOS": 3
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

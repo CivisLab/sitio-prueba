@@ -1,0 +1,228 @@
+{
+ "municipio": {
+  "cod_dane": "05125",
+  "cod_registraduria": "067",
+  "nombre": "Caicedo",
+  "subregion": "Occidente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 4324,
+   "votos_validos": 4212,
+   "margen_puntos": 27.42,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Miguel Alfonso Martínez Gaviria",
+     "nombre_oficial": "MIGUEL ALFONSO MARTINEZ GAVIRIA",
+     "partido": "Caicedo Un Campo de Oportunidades",
+     "partido_oficial": "CAICEDO UN CAMPO DE OPORTUNIDADES",
+     "familias": [],
+     "votos": 2269,
+     "porcentaje": 53.87,
+     "posicion": 1
+    },
+    {
+     "nombre": "Yuber Felipe Molina Murillo",
+     "nombre_oficial": "YUBER FELIPE MOLINA MURILLO",
+     "partido": "Caicedo para Todos",
+     "partido_oficial": "CAICEDO PARA TODOS",
+     "familias": [],
+     "votos": 1114,
+     "porcentaje": 26.45,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jhon Gerardo Caro Varela",
+     "nombre_oficial": "JHON GERARDO CARO VARELA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 793,
+     "porcentaje": 18.83,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 60,
+    "VOTOS NULOS": 52,
+    "VOTOS EN BLANCO": 36
+   }
+  },
+  "2023": {
+   "votos_depositados": 4542,
+   "votos_validos": 4394,
+   "margen_puntos": 24.74,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Yuber Felipe Molina Murillo",
+     "nombre_oficial": "YUBER FELIPE MOLINA MURILLO",
+     "partido": "Por el Caicedo Que Queremos",
+     "partido_oficial": "POR EL CAICEDO QUE QUEREMOS",
+     "familias": [],
+     "votos": 2474,
+     "porcentaje": 56.3,
+     "posicion": 1
+    },
+    {
+     "nombre": "Belén Lucía Caro Varela",
+     "nombre_oficial": "BELEN LUCIA CARO VARELA",
+     "partido": "Partido Cambio Radical - Nuevo Liberalismo",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL - NUEVO LIBERALISMO",
+     "familias": [
+      "LIB",
+      "CR",
+      "NL"
+     ],
+     "votos": 1387,
+     "porcentaje": 31.57,
+     "posicion": 2
+    },
+    {
+     "nombre": "Juan de Dios Tabares Herrera",
+     "nombre_oficial": "JUAN DE DIOS TABARES HERRERA",
+     "partido": "Partido de la U - Partido Democrata Colombiano - Partido Liberal",
+     "partido_oficial": "PARTIDO DE LA U - PARTIDO DEMOCRATA COLOMBIANO - PARTIDO LIBERAL",
+     "familias": [
+      "LIB",
+      "U"
+     ],
+     "votos": 354,
+     "porcentaje": 8.06,
+     "posicion": 3
+    },
+    {
+     "nombre": "Víctor Daniel Gómez Rueda",
+     "nombre_oficial": "VICTOR DANIEL GOMEZ RUEDA",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 141,
+     "porcentaje": 3.21,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 82,
+    "VOTOS NULOS": 66,
+    "VOTOS EN BLANCO": 38
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "CAICEDO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.405055639999998,
+   "lon": -75.9824315799999,
+   "votos_total": 4362,
+   "votos_validos": 4216,
+   "ganador": "YUBER FELIPE MOLINA MURILLO",
+   "empate": [],
+   "margen_puntos": 25.0,
+   "votos": {
+    "BELEN LUCIA CARO VARELA": 1317,
+    "JUAN DE DIOS TABARES HERRERA": 352,
+    "VICTOR DANIEL GOMEZ RUEDA": 138,
+    "VOTOS EN BLANCO": 38,
+    "VOTOS NO MARCADOS": 80,
+    "VOTOS NULOS": 66,
+    "YUBER FELIPE MOLINA MURILLO": 2371
+   }
+  },
+  {
+   "id": "CAICEDO|99|23",
+   "nombre": "Coliseo Cubierto",
+   "nombre_oficial": "COLISEO CUBIERTO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.383888888999998,
+   "lon": -75.92694444,
+   "votos_total": 180,
+   "votos_validos": 178,
+   "ganador": "YUBER FELIPE MOLINA MURILLO",
+   "empate": [],
+   "margen_puntos": 18.54,
+   "votos": {
+    "BELEN LUCIA CARO VARELA": 70,
+    "JUAN DE DIOS TABARES HERRERA": 2,
+    "VICTOR DANIEL GOMEZ RUEDA": 3,
+    "VOTOS NO MARCADOS": 2,
+    "YUBER FELIPE MOLINA MURILLO": 103
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

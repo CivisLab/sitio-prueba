@@ -1,0 +1,454 @@
+{
+ "municipio": {
+  "cod_dane": "05490",
+  "cod_registraduria": "192",
+  "nombre": "Necoclí",
+  "subregion": "Urabá",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 20887,
+   "votos_validos": 19836,
+   "margen_puntos": 23.67,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Jorge Augusto Tobón Castro",
+     "nombre_oficial": "JORGE AUGUSTO TOBON CASTRO",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 11300,
+     "porcentaje": 56.97,
+     "posicion": 1
+    },
+    {
+     "nombre": "Guillermo José Cardona Moreno",
+     "nombre_oficial": "GUILLERMO JOSE CARDONA MORENO",
+     "partido": "Necocli con Futuro",
+     "partido_oficial": "NECOCLI CON FUTURO",
+     "familias": [],
+     "votos": 6604,
+     "porcentaje": 33.29,
+     "posicion": 2
+    },
+    {
+     "nombre": "Epifanio Babilonia Pérez",
+     "nombre_oficial": "EPIFANIO BABILONIA PEREZ",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 800,
+     "porcentaje": 4.03,
+     "posicion": 3
+    },
+    {
+     "nombre": "Fabio Luis Vivero Cordero",
+     "nombre_oficial": "FABIO LUIS VIVERO CORDERO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 704,
+     "porcentaje": 3.55,
+     "posicion": 4
+    },
+    {
+     "nombre": "Yuvis Moreno Berrío",
+     "nombre_oficial": "YUVIS MORENO BERRIO",
+     "partido": "Partido Colombia Justa Libres",
+     "partido_oficial": "PARTIDO COLOMBIA JUSTA LIBRES",
+     "familias": [
+      "COL_JUSTA"
+     ],
+     "votos": 218,
+     "porcentaje": 1.1,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 694,
+    "VOTOS NULOS": 357,
+    "VOTOS EN BLANCO": 210
+   }
+  },
+  "2023": {
+   "votos_depositados": 24068,
+   "votos_validos": 23260,
+   "margen_puntos": 4.76,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Guillermo José Cardona Moreno",
+     "nombre_oficial": "GUILLERMO JOSE CARDONA MORENO",
+     "partido": "Acuerdo de Coalición Política y Programática",
+     "partido_oficial": "ACUERDO DE COALICIÓN POLÍTICA Y PROGRAMÁTICA",
+     "familias": [],
+     "votos": 10846,
+     "porcentaje": 46.63,
+     "posicion": 1
+    },
+    {
+     "nombre": "Walther Mierth Herrera",
+     "nombre_oficial": "WALTHER MIERTH HERRERA",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 9738,
+     "porcentaje": 41.87,
+     "posicion": 2
+    },
+    {
+     "nombre": "Ana Teresa Ramos",
+     "nombre_oficial": "ANA TERESA RAMOS",
+     "partido": "Construyamos Juntos",
+     "partido_oficial": "CONSTRUYAMOS JUNTOS",
+     "familias": [],
+     "votos": 1886,
+     "porcentaje": 8.11,
+     "posicion": 3
+    },
+    {
+     "nombre": "Karina Mabel Herazo Díaz",
+     "nombre_oficial": "KARINA MABEL HERAZO DIAZ",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 193,
+     "porcentaje": 0.83,
+     "posicion": 4
+    },
+    {
+     "nombre": "Jhon Fredy Marín Aricapa",
+     "nombre_oficial": "JHON FREDY MARIN ARICAPA",
+     "partido": "Partido Nuevo Liberalismo",
+     "partido_oficial": "PARTIDO NUEVO LIBERALISMO",
+     "familias": [
+      "LIB",
+      "NL"
+     ],
+     "votos": 186,
+     "porcentaje": 0.8,
+     "posicion": 5
+    },
+    {
+     "nombre": "Rubiel Medina Romaña",
+     "nombre_oficial": "RUBIEL MEDINA ROMAÑA",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 126,
+     "porcentaje": 0.54,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 537,
+    "VOTOS EN BLANCO": 285,
+    "VOTOS NULOS": 271
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "U"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "NECOCLI|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 8.425847897,
+   "lon": -76.7842859999999,
+   "votos_total": 10530,
+   "votos_validos": 10237,
+   "ganador": "GUILLERMO JOSE CARDONA MORENO",
+   "empate": [],
+   "margen_puntos": 12.15,
+   "votos": {
+    "ANA TERESA RAMOS": 1007,
+    "GUILLERMO JOSE CARDONA MORENO": 4998,
+    "JHON FREDY MARIN ARICAPA": 88,
+    "KARINA MABEL HERAZO DIAZ": 131,
+    "RUBIEL MEDINA ROMAÑA": 82,
+    "VOTOS EN BLANCO": 177,
+    "VOTOS NO MARCADOS": 173,
+    "VOTOS NULOS": 120,
+    "WALTHER MIERTH HERRERA": 3754
+   }
+  },
+  {
+   "id": "NECOCLI|99|01",
+   "nombre": "Caribia",
+   "nombre_oficial": "CARIBIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.501705335,
+   "lon": -76.6724342299999,
+   "votos_total": 680,
+   "votos_validos": 667,
+   "ganador": "WALTHER MIERTH HERRERA",
+   "empate": [],
+   "margen_puntos": 8.85,
+   "votos": {
+    "ANA TERESA RAMOS": 16,
+    "GUILLERMO JOSE CARDONA MORENO": 292,
+    "JHON FREDY MARIN ARICAPA": 2,
+    "KARINA MABEL HERAZO DIAZ": 2,
+    "RUBIEL MEDINA ROMAÑA": 2,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 5,
+    "WALTHER MIERTH HERRERA": 351
+   }
+  },
+  {
+   "id": "NECOCLI|99|02",
+   "nombre": "Las Changas",
+   "nombre_oficial": "LAS CHANGAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.544955453,
+   "lon": -76.5739149899999,
+   "votos_total": 2323,
+   "votos_validos": 2238,
+   "ganador": "GUILLERMO JOSE CARDONA MORENO",
+   "empate": [],
+   "margen_puntos": 6.26,
+   "votos": {
+    "ANA TERESA RAMOS": 212,
+    "GUILLERMO JOSE CARDONA MORENO": 1063,
+    "JHON FREDY MARIN ARICAPA": 13,
+    "KARINA MABEL HERAZO DIAZ": 8,
+    "RUBIEL MEDINA ROMAÑA": 6,
+    "VOTOS EN BLANCO": 13,
+    "VOTOS NO MARCADOS": 52,
+    "VOTOS NULOS": 33,
+    "WALTHER MIERTH HERRERA": 923
+   }
+  },
+  {
+   "id": "NECOCLI|99|10",
+   "nombre": "El Mellito",
+   "nombre_oficial": "EL MELLITO",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.547294894,
+   "lon": -76.6724808,
+   "votos_total": 1639,
+   "votos_validos": 1568,
+   "ganador": "GUILLERMO JOSE CARDONA MORENO",
+   "empate": [],
+   "margen_puntos": 9.82,
+   "votos": {
+    "ANA TERESA RAMOS": 159,
+    "GUILLERMO JOSE CARDONA MORENO": 745,
+    "JHON FREDY MARIN ARICAPA": 21,
+    "KARINA MABEL HERAZO DIAZ": 12,
+    "RUBIEL MEDINA ROMAÑA": 18,
+    "VOTOS EN BLANCO": 22,
+    "VOTOS NO MARCADOS": 48,
+    "VOTOS NULOS": 23,
+    "WALTHER MIERTH HERRERA": 591
+   }
+  },
+  {
+   "id": "NECOCLI|99|12",
+   "nombre": "El Totumo",
+   "nombre_oficial": "EL TOTUMO",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.32900782,
+   "lon": -76.7501897599999,
+   "votos_total": 2033,
+   "votos_validos": 1932,
+   "ganador": "GUILLERMO JOSE CARDONA MORENO",
+   "empate": [],
+   "margen_puntos": 6.63,
+   "votos": {
+    "ANA TERESA RAMOS": 115,
+    "GUILLERMO JOSE CARDONA MORENO": 942,
+    "JHON FREDY MARIN ARICAPA": 19,
+    "KARINA MABEL HERAZO DIAZ": 15,
+    "RUBIEL MEDINA ROMAÑA": 4,
+    "VOTOS EN BLANCO": 23,
+    "VOTOS NO MARCADOS": 64,
+    "VOTOS NULOS": 37,
+    "WALTHER MIERTH HERRERA": 814
+   }
+  },
+  {
+   "id": "NECOCLI|99|15",
+   "nombre": "Mello Villavicencio",
+   "nombre_oficial": "MELLO VILLAVICENCIO",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.455382838,
+   "lon": -76.5662760499999,
+   "votos_total": 1174,
+   "votos_validos": 1154,
+   "ganador": "WALTHER MIERTH HERRERA",
+   "empate": [],
+   "margen_puntos": 18.28,
+   "votos": {
+    "ANA TERESA RAMOS": 26,
+    "GUILLERMO JOSE CARDONA MORENO": 451,
+    "JHON FREDY MARIN ARICAPA": 8,
+    "KARINA MABEL HERAZO DIAZ": 1,
+    "VOTOS EN BLANCO": 6,
+    "VOTOS NO MARCADOS": 15,
+    "VOTOS NULOS": 5,
+    "WALTHER MIERTH HERRERA": 662
+   }
+  },
+  {
+   "id": "NECOCLI|99|16",
+   "nombre": "Mulatos",
+   "nombre_oficial": "MULATOS",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.637429315,
+   "lon": -76.7209429499998,
+   "votos_total": 1311,
+   "votos_validos": 1233,
+   "ganador": "WALTHER MIERTH HERRERA",
+   "empate": [],
+   "margen_puntos": 23.84,
+   "votos": {
+    "ANA TERESA RAMOS": 47,
+    "GUILLERMO JOSE CARDONA MORENO": 432,
+    "JHON FREDY MARIN ARICAPA": 11,
+    "KARINA MABEL HERAZO DIAZ": 6,
+    "RUBIEL MEDINA ROMAÑA": 4,
+    "VOTOS EN BLANCO": 7,
+    "VOTOS NO MARCADOS": 64,
+    "VOTOS NULOS": 14,
+    "WALTHER MIERTH HERRERA": 726
+   }
+  },
+  {
+   "id": "NECOCLI|99|23",
+   "nombre": "Pueblo Nuevo",
+   "nombre_oficial": "PUEBLO NUEVO",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.416465863,
+   "lon": -76.64562653,
+   "votos_total": 3186,
+   "votos_validos": 3096,
+   "ganador": "WALTHER MIERTH HERRERA",
+   "empate": [],
+   "margen_puntos": 2.45,
+   "votos": {
+    "ANA TERESA RAMOS": 157,
+    "GUILLERMO JOSE CARDONA MORENO": 1402,
+    "JHON FREDY MARIN ARICAPA": 19,
+    "KARINA MABEL HERAZO DIAZ": 13,
+    "RUBIEL MEDINA ROMAÑA": 7,
+    "VOTOS EN BLANCO": 20,
+    "VOTOS NO MARCADOS": 64,
+    "VOTOS NULOS": 26,
+    "WALTHER MIERTH HERRERA": 1478
+   }
+  },
+  {
+   "id": "NECOCLI|99|27",
+   "nombre": "Zapata",
+   "nombre_oficial": "ZAPATA",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.681764612,
+   "lon": -76.6368020599998,
+   "votos_total": 1192,
+   "votos_validos": 1135,
+   "ganador": "GUILLERMO JOSE CARDONA MORENO",
+   "empate": [],
+   "margen_puntos": 7.22,
+   "votos": {
+    "ANA TERESA RAMOS": 147,
+    "GUILLERMO JOSE CARDONA MORENO": 521,
+    "JHON FREDY MARIN ARICAPA": 5,
+    "KARINA MABEL HERAZO DIAZ": 5,
+    "RUBIEL MEDINA ROMAÑA": 3,
+    "VOTOS EN BLANCO": 15,
+    "VOTOS NO MARCADOS": 49,
+    "VOTOS NULOS": 8,
+    "WALTHER MIERTH HERRERA": 439
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

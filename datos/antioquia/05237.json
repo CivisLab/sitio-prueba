@@ -1,0 +1,272 @@
+{
+ "municipio": {
+  "cod_dane": "05237",
+  "cod_registraduria": "112",
+  "nombre": "Donmatías",
+  "subregion": "Norte",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 10207,
+   "votos_validos": 9892,
+   "margen_puntos": 2.99,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Yeison Camilo Correa Álvarez",
+     "nombre_oficial": "YEISON CAMILO CORREA ALVAREZ",
+     "partido": "Coalición Alcaldia Don Matías",
+     "partido_oficial": "COALICION ALCALDIA DON MATIAS",
+     "familias": [],
+     "votos": 4028,
+     "porcentaje": 40.72,
+     "posicion": 1
+    },
+    {
+     "nombre": "Javier Darío López Restrepo",
+     "nombre_oficial": "JAVIER DARIO LOPEZ RESTREPO",
+     "partido": "Partido Conservador Colombiano - Centro Democrático",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO - CENTRO DEMOCRATICO",
+     "familias": [
+      "CONS",
+      "CD"
+     ],
+     "votos": 3732,
+     "porcentaje": 37.73,
+     "posicion": 2
+    },
+    {
+     "nombre": "Diana Girlesa Muñoz López",
+     "nombre_oficial": "DIANA GIRLESA MUÑOZ LOPEZ",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 1923,
+     "porcentaje": 19.44,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 209,
+    "VOTOS NULOS": 162,
+    "VOTOS NO MARCADOS": 153
+   }
+  },
+  "2023": {
+   "votos_depositados": 9456,
+   "votos_validos": 9137,
+   "margen_puntos": 29.27,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Javier Darío López Restrepo",
+     "nombre_oficial": "JAVIER DARIO LOPEZ RESTREPO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRÁTICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 4593,
+     "porcentaje": 50.27,
+     "posicion": 1
+    },
+    {
+     "nombre": "Yudy Marcela Peña Correa",
+     "nombre_oficial": "YUDY MARCELA PEÑA CORREA",
+     "partido": "Partido de la Unión por la Gente - Partido de la U",
+     "partido_oficial": "PARTIDO DE LA UNIÓN POR LA GENTE - PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 1919,
+     "porcentaje": 21.0,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jaime Andrés Vanegas Sepúlveda",
+     "nombre_oficial": "JAIME ANDRES VANEGAS SEPULVEDA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1479,
+     "porcentaje": 16.19,
+     "posicion": 3
+    },
+    {
+     "nombre": "Libardo Alfonso Yepes Ramírez",
+     "nombre_oficial": "LIBARDO ALFONSO YEPES RAMIREZ",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 685,
+     "porcentaje": 7.5,
+     "posicion": 4
+    },
+    {
+     "nombre": "Hernando Cuervo Tafur",
+     "nombre_oficial": "HERNANDO CUERVO TAFUR",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 246,
+     "porcentaje": 2.69,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 215,
+    "VOTOS NO MARCADOS": 164,
+    "VOTOS NULOS": 155
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [
+   "CD"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "DON MATIAS|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.484160556,
+   "lon": -75.39345556,
+   "votos_total": 8665,
+   "votos_validos": 8389,
+   "ganador": "JAVIER DARIO LOPEZ RESTREPO",
+   "empate": [],
+   "margen_puntos": 28.88,
+   "votos": {
+    "HERNANDO CUERVO TAFUR": 211,
+    "JAIME ANDRES VANEGAS SEPULVEDA": 1336,
+    "JAVIER DARIO LOPEZ RESTREPO": 4197,
+    "LIBARDO ALFONSO YEPES RAMIREZ": 666,
+    "VOTOS EN BLANCO": 205,
+    "VOTOS NO MARCADOS": 138,
+    "VOTOS NULOS": 138,
+    "YUDY MARCELA PEÑA CORREA": 1774
+   }
+  },
+  {
+   "id": "DON MATIAS|99|01",
+   "nombre": "Bellavista",
+   "nombre_oficial": "BELLAVISTA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.540066226999998,
+   "lon": -75.28537855,
+   "votos_total": 481,
+   "votos_validos": 455,
+   "ganador": "JAVIER DARIO LOPEZ RESTREPO",
+   "empate": [],
+   "margen_puntos": 18.02,
+   "votos": {
+    "HERNANDO CUERVO TAFUR": 20,
+    "JAIME ANDRES VANEGAS SEPULVEDA": 122,
+    "JAVIER DARIO LOPEZ RESTREPO": 204,
+    "LIBARDO ALFONSO YEPES RAMIREZ": 5,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 14,
+    "YUDY MARCELA PEÑA CORREA": 101
+   }
+  },
+  {
+   "id": "DON MATIAS|99|05",
+   "nombre": "Rio Grande",
+   "nombre_oficial": "RIO GRANDE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.528221997,
+   "lon": -75.3962675599999,
+   "votos_total": 310,
+   "votos_validos": 293,
+   "ganador": "JAVIER DARIO LOPEZ RESTREPO",
+   "empate": [],
+   "margen_puntos": 50.51,
+   "votos": {
+    "HERNANDO CUERVO TAFUR": 15,
+    "JAIME ANDRES VANEGAS SEPULVEDA": 21,
+    "JAVIER DARIO LOPEZ RESTREPO": 192,
+    "LIBARDO ALFONSO YEPES RAMIREZ": 14,
+    "VOTOS EN BLANCO": 7,
+    "VOTOS NO MARCADOS": 14,
+    "VOTOS NULOS": 3,
+    "YUDY MARCELA PEÑA CORREA": 44
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

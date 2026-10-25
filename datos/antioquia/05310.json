@@ -1,0 +1,289 @@
+{
+ "municipio": {
+  "cod_dane": "05310",
+  "cod_registraduria": "136",
+  "nombre": "Gómez Plata",
+  "subregion": "Norte",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 5326,
+   "votos_validos": 5173,
+   "margen_puntos": 14.67,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Jorge Adrián Pérez Atehortua",
+     "nombre_oficial": "JORGE ADRIAN PEREZ ATEHORTUA",
+     "partido": "Coalición Unidos por Gómez Plata",
+     "partido_oficial": "COALICION UNIDOS POR GOMEZ PLATA",
+     "familias": [],
+     "votos": 2707,
+     "porcentaje": 52.33,
+     "posicion": 1
+    },
+    {
+     "nombre": "John Fredy Álvarez Pineda",
+     "nombre_oficial": "JOHN FREDY ALVAREZ PINEDA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1948,
+     "porcentaje": 37.66,
+     "posicion": 2
+    },
+    {
+     "nombre": "Mario de Jesús Restrepo Pérez",
+     "nombre_oficial": "MARIO DE JESUS RESTREPO PEREZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 387,
+     "porcentaje": 7.48,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 131,
+    "VOTOS NO MARCADOS": 85,
+    "VOTOS NULOS": 68
+   }
+  },
+  "2023": {
+   "votos_depositados": 5628,
+   "votos_validos": 5386,
+   "margen_puntos": 7.28,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Luis Guillermo Pérez Echeverri",
+     "nombre_oficial": "LUIS GUILLERMO PEREZ ECHEVERRI",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 2018,
+     "porcentaje": 37.47,
+     "posicion": 1
+    },
+    {
+     "nombre": "Ronald Adriano Parra López",
+     "nombre_oficial": "RONALD ADRIANO PARRA LOPEZ",
+     "partido": "Gómez Plata para Todos",
+     "partido_oficial": "GOMEZ PLATA PARA TODOS",
+     "familias": [],
+     "votos": 1626,
+     "porcentaje": 30.19,
+     "posicion": 2
+    },
+    {
+     "nombre": "Laura Catalina Rojo Bermúdez",
+     "nombre_oficial": "LAURA CATALINA ROJO BERMUDEZ",
+     "partido": "Si Es el Momento, Gómez Plata",
+     "partido_oficial": "SI ES EL MOMENTO, GÓMEZ PLATA",
+     "familias": [],
+     "votos": 800,
+     "porcentaje": 14.85,
+     "posicion": 3
+    },
+    {
+     "nombre": "Juan Diego Palacio Villa",
+     "nombre_oficial": "JUAN DIEGO PALACIO VILLA",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 744,
+     "porcentaje": 13.81,
+     "posicion": 4
+    },
+    {
+     "nombre": "Juan David Londoño Martínez",
+     "nombre_oficial": "JUAN DAVID LONDOÑO MARTINEZ",
+     "partido": "Independientes",
+     "partido_oficial": "INDEPENDIENTES",
+     "familias": [],
+     "votos": 82,
+     "porcentaje": 1.52,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 155,
+    "VOTOS EN BLANCO": 116,
+    "VOTOS NULOS": 87
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [
+   "CONS"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "GOMEZ PLATA|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.679480103999998,
+   "lon": -75.22041174,
+   "votos_total": 4815,
+   "votos_validos": 4649,
+   "ganador": "LUIS GUILLERMO PEREZ ECHEVERRI",
+   "empate": [],
+   "margen_puntos": 5.94,
+   "votos": {
+    "JUAN DAVID LONDOÑO MARTINEZ": 72,
+    "JUAN DIEGO PALACIO VILLA": 639,
+    "LAURA CATALINA ROJO BERMUDEZ": 732,
+    "LUIS GUILLERMO PEREZ ECHEVERRI": 1688,
+    "RONALD ADRIANO PARRA LOPEZ": 1412,
+    "VOTOS EN BLANCO": 106,
+    "VOTOS NO MARCADOS": 101,
+    "VOTOS NULOS": 65
+   }
+  },
+  {
+   "id": "GOMEZ PLATA|99|01",
+   "nombre": "El Salto",
+   "nombre_oficial": "EL SALTO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.783350587,
+   "lon": -75.23791011,
+   "votos_total": 435,
+   "votos_validos": 391,
+   "ganador": "LUIS GUILLERMO PEREZ ECHEVERRI",
+   "empate": [],
+   "margen_puntos": 17.39,
+   "votos": {
+    "JUAN DAVID LONDOÑO MARTINEZ": 7,
+    "JUAN DIEGO PALACIO VILLA": 74,
+    "LAURA CATALINA ROJO BERMUDEZ": 27,
+    "LUIS GUILLERMO PEREZ ECHEVERRI": 174,
+    "RONALD ADRIANO PARRA LOPEZ": 106,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 30,
+    "VOTOS NULOS": 14
+   }
+  },
+  {
+   "id": "GOMEZ PLATA|99|05",
+   "nombre": "San Matías",
+   "nombre_oficial": "SAN MATIAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.769668871,
+   "lon": -75.1926962099999,
+   "votos_total": 238,
+   "votos_validos": 212,
+   "ganador": "LUIS GUILLERMO PEREZ ECHEVERRI",
+   "empate": [],
+   "margen_puntos": 14.15,
+   "votos": {
+    "JUAN DAVID LONDOÑO MARTINEZ": 1,
+    "JUAN DIEGO PALACIO VILLA": 14,
+    "LAURA CATALINA ROJO BERMUDEZ": 35,
+    "LUIS GUILLERMO PEREZ ECHEVERRI": 94,
+    "RONALD ADRIANO PARRA LOPEZ": 64,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 22,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "GOMEZ PLATA|99|20",
+   "nombre": "La Estrella",
+   "nombre_oficial": "LA ESTRELLA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.683703344568803,
+   "lon": -75.2137756347655,
+   "votos_total": 140,
+   "votos_validos": 134,
+   "ganador": "LUIS GUILLERMO PEREZ ECHEVERRI",
+   "empate": [],
+   "margen_puntos": 13.43,
+   "votos": {
+    "JUAN DAVID LONDOÑO MARTINEZ": 2,
+    "JUAN DIEGO PALACIO VILLA": 17,
+    "LAURA CATALINA ROJO BERMUDEZ": 6,
+    "LUIS GUILLERMO PEREZ ECHEVERRI": 62,
+    "RONALD ADRIANO PARRA LOPEZ": 44,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 4
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

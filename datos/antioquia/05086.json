@@ -1,0 +1,326 @@
+{
+ "municipio": {
+  "cod_dane": "05086",
+  "cod_registraduria": "046",
+  "nombre": "Belmira",
+  "subregion": "Norte",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 3387,
+   "votos_validos": 3319,
+   "margen_puntos": 21.51,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Francisco Luis Aguilar Gómez",
+     "nombre_oficial": "FRANCISCO LUIS AGUILAR GOMEZ",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1508,
+     "porcentaje": 45.44,
+     "posicion": 1
+    },
+    {
+     "nombre": "Efren de Jesús Londoño Medina",
+     "nombre_oficial": "EFREN DE JESUS LONDOÑO MEDINA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 794,
+     "porcentaje": 23.92,
+     "posicion": 2
+    },
+    {
+     "nombre": "Edison de Jesús Bustamante Ruiz",
+     "nombre_oficial": "EDISON DE JESUS BUSTAMANTE RUIZ",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 777,
+     "porcentaje": 23.41,
+     "posicion": 3
+    },
+    {
+     "nombre": "Gustavo Alexis Arias Aguilar",
+     "nombre_oficial": "GUSTAVO ALEXIS ARIAS AGUILAR",
+     "partido": "Movimiento Alternativo Indigena y Social MAIS",
+     "partido_oficial": "MOVIMIENTO ALTERNATIVO INDIGENA Y SOCIAL MAIS",
+     "familias": [
+      "MAIS"
+     ],
+     "votos": 161,
+     "porcentaje": 4.85,
+     "posicion": 4
+    },
+    {
+     "nombre": "Luis Fernando Uribe Londoño",
+     "nombre_oficial": "LUIS FERNANDO URIBE LONDOÑO",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 20,
+     "porcentaje": 0.6,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 59,
+    "VOTOS NULOS": 37,
+    "VOTOS NO MARCADOS": 31
+   }
+  },
+  "2023": {
+   "votos_depositados": 3741,
+   "votos_validos": 3640,
+   "margen_puntos": 29.67,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Darcy Esteban Arboleda Rua",
+     "nombre_oficial": "DARCY ESTEBAN ARBOLEDA RUA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 2013,
+     "porcentaje": 55.3,
+     "posicion": 1
+    },
+    {
+     "nombre": "Jorge Ignacio Londoño Londoño",
+     "nombre_oficial": "JORGE IGNACIO LONDOÑO LONDOÑO",
+     "partido": "Juntos Somos Más",
+     "partido_oficial": "JUNTOS SOMOS MAS",
+     "familias": [],
+     "votos": 933,
+     "porcentaje": 25.63,
+     "posicion": 2
+    },
+    {
+     "nombre": "Gloria Estella Mazo Rodríguez",
+     "nombre_oficial": "GLORIA ESTELLA MAZO RODRIGUEZ",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 463,
+     "porcentaje": 12.72,
+     "posicion": 3
+    },
+    {
+     "nombre": "Norma Olid del Rosario González Marín",
+     "nombre_oficial": "NORMA OLID DEL ROSARIO GONZALEZ MARIN",
+     "partido": "+ por Belmira",
+     "partido_oficial": "+ POR BELMIRA",
+     "familias": [],
+     "votos": 186,
+     "porcentaje": 5.11,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 65,
+    "VOTOS EN BLANCO": 45,
+    "VOTOS NULOS": 36
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": true,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "CONS"
+  ],
+  "familias_2023": [
+   "CONS"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "BELMIRA|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.60615,
+   "lon": -75.6664972199998,
+   "votos_total": 2268,
+   "votos_validos": 2220,
+   "ganador": "DARCY ESTEBAN ARBOLEDA RUA",
+   "empate": [],
+   "margen_puntos": 55.68,
+   "votos": {
+    "DARCY ESTEBAN ARBOLEDA RUA": 1546,
+    "GLORIA ESTELLA MAZO RODRIGUEZ": 211,
+    "JORGE IGNACIO LONDOÑO LONDOÑO": 310,
+    "NORMA OLID DEL ROSARIO GONZALEZ MARIN": 127,
+    "VOTOS EN BLANCO": 26,
+    "VOTOS NO MARCADOS": 29,
+    "VOTOS NULOS": 19
+   }
+  },
+  {
+   "id": "BELMIRA|99|01",
+   "nombre": "Labores",
+   "nombre_oficial": "LABORES",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.709724409533048,
+   "lon": -75.6123518943785,
+   "votos_total": 241,
+   "votos_validos": 230,
+   "ganador": "DARCY ESTEBAN ARBOLEDA RUA",
+   "empate": [],
+   "margen_puntos": 19.13,
+   "votos": {
+    "DARCY ESTEBAN ARBOLEDA RUA": 109,
+    "GLORIA ESTELLA MAZO RODRIGUEZ": 31,
+    "JORGE IGNACIO LONDOÑO LONDOÑO": 65,
+    "NORMA OLID DEL ROSARIO GONZALEZ MARIN": 21,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 7
+   }
+  },
+  {
+   "id": "BELMIRA|99|03",
+   "nombre": "C.E.R. Playas.",
+   "nombre_oficial": "C.E.R. PLAYAS.",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.549753518269162,
+   "lon": -75.62656844461796,
+   "votos_total": 839,
+   "votos_validos": 812,
+   "ganador": "JORGE IGNACIO LONDOÑO LONDOÑO",
+   "empate": [],
+   "margen_puntos": 22.66,
+   "votos": {
+    "DARCY ESTEBAN ARBOLEDA RUA": 227,
+    "GLORIA ESTELLA MAZO RODRIGUEZ": 147,
+    "JORGE IGNACIO LONDOÑO LONDOÑO": 411,
+    "NORMA OLID DEL ROSARIO GONZALEZ MARIN": 17,
+    "VOTOS EN BLANCO": 10,
+    "VOTOS NO MARCADOS": 21,
+    "VOTOS NULOS": 6
+   }
+  },
+  {
+   "id": "BELMIRA|99|04",
+   "nombre": "I.E.R. Carlos González.",
+   "nombre_oficial": "I.E.R. CARLOS GONZALEZ.",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.52634776095612,
+   "lon": -75.6018512304305,
+   "votos_total": 356,
+   "votos_validos": 344,
+   "ganador": "JORGE IGNACIO LONDOÑO LONDOÑO",
+   "empate": [],
+   "margen_puntos": 10.47,
+   "votos": {
+    "DARCY ESTEBAN ARBOLEDA RUA": 109,
+    "GLORIA ESTELLA MAZO RODRIGUEZ": 73,
+    "JORGE IGNACIO LONDOÑO LONDOÑO": 145,
+    "NORMA OLID DEL ROSARIO GONZALEZ MARIN": 13,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 9,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "BELMIRA|99|05",
+   "nombre": "C.E.R. Quebraditas",
+   "nombre_oficial": "C.E.R. QUEBRADITAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.750975921481574,
+   "lon": -75.64207077026349,
+   "votos_total": 37,
+   "votos_validos": 34,
+   "ganador": "DARCY ESTEBAN ARBOLEDA RUA",
+   "empate": [],
+   "margen_puntos": 41.18,
+   "votos": {
+    "DARCY ESTEBAN ARBOLEDA RUA": 22,
+    "GLORIA ESTELLA MAZO RODRIGUEZ": 1,
+    "JORGE IGNACIO LONDOÑO LONDOÑO": 2,
+    "NORMA OLID DEL ROSARIO GONZALEZ MARIN": 8,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

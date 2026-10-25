@@ -1,0 +1,410 @@
+{
+ "municipio": {
+  "cod_dane": "05893",
+  "cod_registraduria": "300",
+  "nombre": "Yondó",
+  "subregion": "Magdalena Medio",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 9799,
+   "votos_validos": 9524,
+   "margen_puntos": 27.86,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Fabián Antonio Echavarría Rangel",
+     "nombre_oficial": "FABIAN ANTONIO ECHAVARRIA RANGEL",
+     "partido": "Partido Conservador Colombiano - Partido de la U - AICO",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO - PARTIDO DE LA U - AICO",
+     "familias": [
+      "CONS",
+      "U",
+      "AICO"
+     ],
+     "votos": 4277,
+     "porcentaje": 44.91,
+     "posicion": 1
+    },
+    {
+     "nombre": "William Skey Figueroa Mosquera",
+     "nombre_oficial": "WILLIAM SKEY FIGUEROA MOSQUERA",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 1624,
+     "porcentaje": 17.05,
+     "posicion": 2
+    },
+    {
+     "nombre": "Yerson Antonio Ariza Rivera",
+     "nombre_oficial": "YERSON ANTONIO ARIZA RIVERA",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 1600,
+     "porcentaje": 16.8,
+     "posicion": 3
+    },
+    {
+     "nombre": "Mónica Tatiana Gamarra Rodríguez",
+     "nombre_oficial": "MONICA TATIANA GAMARRA RODRIGUEZ",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 1492,
+     "porcentaje": 15.67,
+     "posicion": 4
+    },
+    {
+     "nombre": "Myladis Morato Pedrozo",
+     "nombre_oficial": "MYLADIS MORATO PEDROZO",
+     "partido": "Partido ADA",
+     "partido_oficial": "PARTIDO ADA",
+     "familias": [
+      "ADA"
+     ],
+     "votos": 203,
+     "porcentaje": 2.13,
+     "posicion": 5
+    },
+    {
+     "nombre": "Johana Milena García Córdoba",
+     "nombre_oficial": "JOHANA MILENA GARCIA CORDOBA",
+     "partido": "Partido de Reivindicacion Etnica Pre",
+     "partido_oficial": "PARTIDO DE REIVINDICACION ETNICA \"PRE\"",
+     "familias": [],
+     "votos": 176,
+     "porcentaje": 1.85,
+     "posicion": 6
+    },
+    {
+     "nombre": "Damaris María Rodríguez Salcedo",
+     "nombre_oficial": "DAMARIS MARIA RODRIGUEZ SALCEDO",
+     "partido": "Partido Colombia Justa Libres",
+     "partido_oficial": "PARTIDO COLOMBIA JUSTA LIBRES",
+     "familias": [
+      "COL_JUSTA"
+     ],
+     "votos": 62,
+     "porcentaje": 0.65,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 149,
+    "VOTOS NULOS": 126,
+    "VOTOS EN BLANCO": 90
+   }
+  },
+  "2023": {
+   "votos_depositados": 11841,
+   "votos_validos": 11629,
+   "margen_puntos": 4.03,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Yerson Antonio Ariza Rivera",
+     "nombre_oficial": "YERSON ANTONIO ARIZA RIVERA",
+     "partido": "Yondo Avanza",
+     "partido_oficial": "YONDO AVANZA",
+     "familias": [],
+     "votos": 4195,
+     "porcentaje": 36.07,
+     "posicion": 1
+    },
+    {
+     "nombre": "Gibert Cartagena Rojas",
+     "nombre_oficial": "GIBERT CARTAGENA ROJAS",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 3726,
+     "porcentaje": 32.04,
+     "posicion": 2
+    },
+    {
+     "nombre": "William Skey Figueroa Mosquera",
+     "nombre_oficial": "WILLIAM SKEY FIGUEROA MOSQUERA",
+     "partido": "Unidos en la Tarea",
+     "partido_oficial": "UNIDOS EN LA TAREA",
+     "familias": [],
+     "votos": 1936,
+     "porcentaje": 16.65,
+     "posicion": 3
+    },
+    {
+     "nombre": "Carlos Julio Toro Cortes",
+     "nombre_oficial": "CARLOS JULIO TORO CORTES",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 1210,
+     "porcentaje": 10.41,
+     "posicion": 4
+    },
+    {
+     "nombre": "Diego Alexander Cabezas Palencia",
+     "nombre_oficial": "DIEGO ALEXANDER CABEZAS PALENCIA",
+     "partido": "Yondo Una Nueva Historia",
+     "partido_oficial": "YONDO UNA NUEVA HISTORIA",
+     "familias": [],
+     "votos": 435,
+     "porcentaje": 3.74,
+     "posicion": 5
+    },
+    {
+     "nombre": "Sergio Arboleda Baquero",
+     "nombre_oficial": "SERGIO ARBOLEDA BAQUERO",
+     "partido": "Independientes",
+     "partido_oficial": "INDEPENDIENTES",
+     "familias": [],
+     "votos": 54,
+     "porcentaje": 0.46,
+     "posicion": 6
+    },
+    {
+     "nombre": "Ana Mercedes Estrada Díaz",
+     "nombre_oficial": "ANA MERCEDES ESTRADA DIAZ",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 6,
+     "porcentaje": 0.05,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 116,
+    "VOTOS NULOS": 96,
+    "VOTOS EN BLANCO": 67
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "AICO",
+   "CONS",
+   "U"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "YONDO CASABE|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 7.007209999999998,
+   "lon": -73.910031,
+   "votos_total": 9794,
+   "votos_validos": 9626,
+   "ganador": "YERSON ANTONIO ARIZA RIVERA",
+   "empate": [],
+   "margen_puntos": 1.97,
+   "votos": {
+    "ANA MERCEDES ESTRADA DIAZ": 5,
+    "CARLOS JULIO TORO CORTES": 1053,
+    "DIEGO ALEXANDER CABEZAS PALENCIA": 388,
+    "GIBERT CARTAGENA ROJAS": 3122,
+    "SERGIO ARBOLEDA BAQUERO": 51,
+    "VOTOS EN BLANCO": 58,
+    "VOTOS NO MARCADOS": 91,
+    "VOTOS NULOS": 77,
+    "WILLIAM SKEY FIGUEROA MOSQUERA": 1637,
+    "YERSON ANTONIO ARIZA RIVERA": 3312
+   }
+  },
+  {
+   "id": "YONDO CASABE|99|25",
+   "nombre": "Cuatro Bocas",
+   "nombre_oficial": "CUATRO BOCAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.210278999999999,
+   "lon": -74.0044319999999,
+   "votos_total": 57,
+   "votos_validos": 53,
+   "ganador": "YERSON ANTONIO ARIZA RIVERA",
+   "empate": [],
+   "margen_puntos": 47.17,
+   "votos": {
+    "CARLOS JULIO TORO CORTES": 1,
+    "DIEGO ALEXANDER CABEZAS PALENCIA": 6,
+    "GIBERT CARTAGENA ROJAS": 3,
+    "VOTOS NO MARCADOS": 4,
+    "WILLIAM SKEY FIGUEROA MOSQUERA": 9,
+    "YERSON ANTONIO ARIZA RIVERA": 34
+   }
+  },
+  {
+   "id": "YONDO CASABE|99|32",
+   "nombre": "San Francisco",
+   "nombre_oficial": "SAN FRANCISCO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.133708999999998,
+   "lon": -74.0628159999998,
+   "votos_total": 276,
+   "votos_validos": 265,
+   "ganador": "GIBERT CARTAGENA ROJAS",
+   "empate": [],
+   "margen_puntos": 9.06,
+   "votos": {
+    "CARLOS JULIO TORO CORTES": 13,
+    "DIEGO ALEXANDER CABEZAS PALENCIA": 10,
+    "GIBERT CARTAGENA ROJAS": 110,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 3,
+    "WILLIAM SKEY FIGUEROA MOSQUERA": 46,
+    "YERSON ANTONIO ARIZA RIVERA": 86
+   }
+  },
+  {
+   "id": "YONDO CASABE|99|50",
+   "nombre": "Caño Blanco",
+   "nombre_oficial": "CAÑO BLANCO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.941170418249628,
+   "lon": -74.17569822627107,
+   "votos_total": 127,
+   "votos_validos": 124,
+   "ganador": "YERSON ANTONIO ARIZA RIVERA",
+   "empate": [],
+   "margen_puntos": 15.32,
+   "votos": {
+    "ANA MERCEDES ESTRADA DIAZ": 1,
+    "CARLOS JULIO TORO CORTES": 19,
+    "DIEGO ALEXANDER CABEZAS PALENCIA": 1,
+    "GIBERT CARTAGENA ROJAS": 26,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NULOS": 3,
+    "WILLIAM SKEY FIGUEROA MOSQUERA": 28,
+    "YERSON ANTONIO ARIZA RIVERA": 47
+   }
+  },
+  {
+   "id": "YONDO CASABE|99|60",
+   "nombre": "San Luis Beltrán",
+   "nombre_oficial": "SAN LUIS BELTRAN",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.065855,
+   "lon": -74.023448,
+   "votos_total": 332,
+   "votos_validos": 323,
+   "ganador": "YERSON ANTONIO ARIZA RIVERA",
+   "empate": [],
+   "margen_puntos": 17.65,
+   "votos": {
+    "CARLOS JULIO TORO CORTES": 31,
+    "DIEGO ALEXANDER CABEZAS PALENCIA": 14,
+    "GIBERT CARTAGENA ROJAS": 94,
+    "SERGIO ARBOLEDA BAQUERO": 1,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 2,
+    "WILLIAM SKEY FIGUEROA MOSQUERA": 29,
+    "YERSON ANTONIO ARIZA RIVERA": 151
+   }
+  },
+  {
+   "id": "YONDO CASABE|99|65",
+   "nombre": "San Miguel del Tigre",
+   "nombre_oficial": "SAN MIGUEL DEL TIGRE",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.088149999999998,
+   "lon": -73.9461469999998,
+   "votos_total": 1255,
+   "votos_validos": 1238,
+   "ganador": "YERSON ANTONIO ARIZA RIVERA",
+   "empate": [],
+   "margen_puntos": 15.67,
+   "votos": {
+    "CARLOS JULIO TORO CORTES": 93,
+    "DIEGO ALEXANDER CABEZAS PALENCIA": 16,
+    "GIBERT CARTAGENA ROJAS": 371,
+    "SERGIO ARBOLEDA BAQUERO": 2,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 11,
+    "WILLIAM SKEY FIGUEROA MOSQUERA": 187,
+    "YERSON ANTONIO ARIZA RIVERA": 565
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

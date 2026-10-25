@@ -1,0 +1,274 @@
+{
+ "municipio": {
+  "cod_dane": "05313",
+  "cod_registraduria": "139",
+  "nombre": "Granada",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 5179,
+   "votos_validos": 4973,
+   "margen_puntos": 18.06,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Freddy Castaño Aristizábal",
+     "nombre_oficial": "FREDDY CASTAÑO ARISTIZABAL",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 2854,
+     "porcentaje": 57.39,
+     "posicion": 1
+    },
+    {
+     "nombre": "Diego Alfonso Naranjo Gómez",
+     "nombre_oficial": "DIEGO ALFONSO NARANJO GOMEZ",
+     "partido": "Partido Conservador Colombiano - Centro Democrático",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO - CENTRO DEMOCRATICO",
+     "familias": [
+      "CONS",
+      "CD"
+     ],
+     "votos": 1956,
+     "porcentaje": 39.33,
+     "posicion": 2
+    },
+    {
+     "nombre": "Ramón Abelardo Parra Aristizábal",
+     "nombre_oficial": "RAMON ABELARDO PARRA ARISTIZABAL",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 18,
+     "porcentaje": 0.36,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 145,
+    "VOTOS NO MARCADOS": 122,
+    "VOTOS NULOS": 84
+   }
+  },
+  "2023": {
+   "votos_depositados": 5311,
+   "votos_validos": 5148,
+   "margen_puntos": 19.06,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Daniel Andrés Hoyos Yepes",
+     "nombre_oficial": "DANIEL ANDRES HOYOS YEPES",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 2496,
+     "porcentaje": 48.48,
+     "posicion": 1
+    },
+    {
+     "nombre": "Nelson Armando García Amaya",
+     "nombre_oficial": "NELSON ARMANDO GARCIA AMAYA",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 1515,
+     "porcentaje": 29.43,
+     "posicion": 2
+    },
+    {
+     "nombre": "Diego Alejandro Quintero Giraldo",
+     "nombre_oficial": "DIEGO ALEJANDRO QUINTERO GIRALDO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRÁTICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 526,
+     "porcentaje": 10.22,
+     "posicion": 3
+    },
+    {
+     "nombre": "Omar de Jesús Gómez Aristizábal",
+     "nombre_oficial": "OMAR DE JESUS GOMEZ ARISTIZABAL",
+     "partido": "Partido de la Unión por la Gente - Partido de la U",
+     "partido_oficial": "PARTIDO DE LA UNIÓN POR LA GENTE - PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 306,
+     "porcentaje": 5.94,
+     "posicion": 4
+    },
+    {
+     "nombre": "Raúl Alexander Vélez Tamayo",
+     "nombre_oficial": "RAUL ALEXANDER VELEZ TAMAYO",
+     "partido": "Movimiento Salvación Nacional",
+     "partido_oficial": "MOVIMIENTO SALVACIÓN NACIONAL",
+     "familias": [
+      "SALV"
+     ],
+     "votos": 223,
+     "porcentaje": 4.33,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 92,
+    "VOTOS EN BLANCO": 82,
+    "VOTOS NULOS": 71
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": false,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "CR"
+  ],
+  "familias_2023": [
+   "CONS"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "GRANADA|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.141973738351151,
+   "lon": -75.1841246524514,
+   "votos_total": 4945,
+   "votos_validos": 4811,
+   "ganador": "DANIEL ANDRES HOYOS YEPES",
+   "empate": [],
+   "margen_puntos": 18.08,
+   "votos": {
+    "DANIEL ANDRES HOYOS YEPES": 2309,
+    "DIEGO ALEJANDRO QUINTERO GIRALDO": 505,
+    "NELSON ARMANDO GARCIA AMAYA": 1439,
+    "OMAR DE JESUS GOMEZ ARISTIZABAL": 276,
+    "RAUL ALEXANDER VELEZ TAMAYO": 205,
+    "VOTOS EN BLANCO": 77,
+    "VOTOS NO MARCADOS": 72,
+    "VOTOS NULOS": 62
+   }
+  },
+  {
+   "id": "GRANADA|99|01",
+   "nombre": "Santa Ana",
+   "nombre_oficial": "SANTA ANA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.072919996,
+   "lon": -75.1014056999999,
+   "votos_total": 261,
+   "votos_validos": 243,
+   "ganador": "DANIEL ANDRES HOYOS YEPES",
+   "empate": [],
+   "margen_puntos": 42.39,
+   "votos": {
+    "DANIEL ANDRES HOYOS YEPES": 157,
+    "DIEGO ALEJANDRO QUINTERO GIRALDO": 7,
+    "NELSON ARMANDO GARCIA AMAYA": 54,
+    "OMAR DE JESUS GOMEZ ARISTIZABAL": 8,
+    "RAUL ALEXANDER VELEZ TAMAYO": 15,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 11,
+    "VOTOS NULOS": 7
+   }
+  },
+  {
+   "id": "GRANADA|99|40",
+   "nombre": "Los Medios",
+   "nombre_oficial": "LOS MEDIOS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.085,
+   "lon": -75.1383333299999,
+   "votos_total": 105,
+   "votos_validos": 94,
+   "ganador": "DANIEL ANDRES HOYOS YEPES",
+   "empate": [],
+   "margen_puntos": 8.51,
+   "votos": {
+    "DANIEL ANDRES HOYOS YEPES": 30,
+    "DIEGO ALEJANDRO QUINTERO GIRALDO": 14,
+    "NELSON ARMANDO GARCIA AMAYA": 22,
+    "OMAR DE JESUS GOMEZ ARISTIZABAL": 22,
+    "RAUL ALEXANDER VELEZ TAMAYO": 3,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 9,
+    "VOTOS NULOS": 2
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

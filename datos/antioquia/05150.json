@@ -1,0 +1,265 @@
+{
+ "municipio": {
+  "cod_dane": "05150",
+  "cod_registraduria": "085",
+  "nombre": "Carolina",
+  "subregion": "Norte",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 2784,
+   "votos_validos": 2722,
+   "margen_puntos": 1.65,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Carlos Andrés Pérez Vásquez",
+     "nombre_oficial": "CARLOS ANDRES PEREZ VASQUEZ",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 1036,
+     "porcentaje": 38.06,
+     "posicion": 1
+    },
+    {
+     "nombre": "Wilson Augusto Zapata Gil",
+     "nombre_oficial": "WILSON AUGUSTO ZAPATA GIL",
+     "partido": "Para Volver a Creer",
+     "partido_oficial": "PARA VOLVER A CREER",
+     "familias": [],
+     "votos": 991,
+     "porcentaje": 36.41,
+     "posicion": 2
+    },
+    {
+     "nombre": "Edwin de Jesús Restrepo Álvarez",
+     "nombre_oficial": "EDWIN DE JESUS RESTREPO ALVAREZ",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 478,
+     "porcentaje": 17.56,
+     "posicion": 3
+    },
+    {
+     "nombre": "Mauro Alberto Hincapie Palacio",
+     "nombre_oficial": "MAURO ALBERTO HINCAPIE PALACIO",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 154,
+     "porcentaje": 5.66,
+     "posicion": 4
+    },
+    {
+     "nombre": "Alba Nidia Pérez Martínez",
+     "nombre_oficial": "ALBA NIDIA PEREZ MARTINEZ",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDIGENAS DE COLOMBIA AICO",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 12,
+     "porcentaje": 0.44,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 51,
+    "VOTOS NULOS": 35,
+    "VOTOS NO MARCADOS": 27
+   }
+  },
+  "2023": {
+   "votos_depositados": 3116,
+   "votos_validos": 3064,
+   "margen_puntos": 1.7,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Ana Isabel Avendaño Duque",
+     "nombre_oficial": "ANA ISABEL AVENDAÑO DUQUE",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 969,
+     "porcentaje": 31.63,
+     "posicion": 1
+    },
+    {
+     "nombre": "Wilson Augusto Zapata Gil",
+     "nombre_oficial": "WILSON AUGUSTO ZAPATA GIL",
+     "partido": "Juntos Construimos Futuro",
+     "partido_oficial": "JUNTOS CONSTRUIMOS FUTURO",
+     "familias": [],
+     "votos": 917,
+     "porcentaje": 29.93,
+     "posicion": 2
+    },
+    {
+     "nombre": "Eliana María Jaramillo Rodríguez",
+     "nombre_oficial": "ELIANA MARIA JARAMILLO RODRIGUEZ",
+     "partido": "Unidad por Carolina del Principe",
+     "partido_oficial": "UNIDAD POR CAROLINA DEL PRINCIPE",
+     "familias": [],
+     "votos": 746,
+     "porcentaje": 24.35,
+     "posicion": 3
+    },
+    {
+     "nombre": "Duver Alberto González Macias",
+     "nombre_oficial": "DUVER ALBERTO GONZALEZ MACIAS",
+     "partido": "Coalición por Convicción",
+     "partido_oficial": "COALICIÓN POR CONVICCIÓN",
+     "familias": [],
+     "votos": 222,
+     "porcentaje": 7.25,
+     "posicion": 4
+    },
+    {
+     "nombre": "Natalia Andrea Osorio Rojo",
+     "nombre_oficial": "NATALIA ANDREA OSORIO ROJO",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 189,
+     "porcentaje": 6.17,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 35,
+    "VOTOS EN BLANCO": 21,
+    "VOTOS NULOS": 17
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": false,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "LIB"
+  ],
+  "familias_2023": [
+   "CONS"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "CAROLINA|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.725984205760043,
+   "lon": -75.2803587913513,
+   "votos_total": 3100,
+   "votos_validos": 3049,
+   "ganador": "ANA ISABEL AVENDAÑO DUQUE",
+   "empate": [],
+   "margen_puntos": 1.64,
+   "votos": {
+    "ANA ISABEL AVENDAÑO DUQUE": 964,
+    "DUVER ALBERTO GONZALEZ MACIAS": 219,
+    "ELIANA MARIA JARAMILLO RODRIGUEZ": 744,
+    "NATALIA ANDREA OSORIO ROJO": 187,
+    "VOTOS EN BLANCO": 21,
+    "VOTOS NO MARCADOS": 35,
+    "VOTOS NULOS": 16,
+    "WILSON AUGUSTO ZAPATA GIL": 914
+   }
+  },
+  {
+   "id": "CAROLINA|99|09",
+   "nombre": "Guanacas",
+   "nombre_oficial": "GUANACAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.69725886223039,
+   "lon": -75.3400572538375,
+   "votos_total": 16,
+   "votos_validos": 15,
+   "ganador": "ANA ISABEL AVENDAÑO DUQUE",
+   "empate": [],
+   "margen_puntos": 13.33,
+   "votos": {
+    "ANA ISABEL AVENDAÑO DUQUE": 5,
+    "DUVER ALBERTO GONZALEZ MACIAS": 3,
+    "ELIANA MARIA JARAMILLO RODRIGUEZ": 2,
+    "NATALIA ANDREA OSORIO ROJO": 2,
+    "VOTOS NULOS": 1,
+    "WILSON AUGUSTO ZAPATA GIL": 3
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

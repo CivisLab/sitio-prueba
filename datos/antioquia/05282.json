@@ -1,0 +1,453 @@
+{
+ "municipio": {
+  "cod_dane": "05282",
+  "cod_registraduria": "124",
+  "nombre": "Fredonia",
+  "subregion": "Suroeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 9695,
+   "votos_validos": 9164,
+   "margen_puntos": 5.86,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Gustavo de Jesús Guzmán Maldonado",
+     "nombre_oficial": "GUSTAVO DE JESUS GUZMAN MALDONADO",
+     "partido": "Fredonia para Todos",
+     "partido_oficial": "FREDONIA PARA TODOS",
+     "familias": [],
+     "votos": 3170,
+     "porcentaje": 34.59,
+     "posicion": 1
+    },
+    {
+     "nombre": "Elkin Alexander Hurtado Gómez",
+     "nombre_oficial": "ELKIN ALEXANDER HURTADO GOMEZ",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 2633,
+     "porcentaje": 28.73,
+     "posicion": 2
+    },
+    {
+     "nombre": "Duván Camilo Cortes Pareja",
+     "nombre_oficial": "DUVAN CAMILO CORTES PAREJA",
+     "partido": "Juntos Podemos",
+     "partido_oficial": "JUNTOS PODEMOS",
+     "familias": [],
+     "votos": 2497,
+     "porcentaje": 27.25,
+     "posicion": 3
+    },
+    {
+     "nombre": "Lina María Betancur Isaza",
+     "nombre_oficial": "LINA MARIA BETANCUR ISAZA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 185,
+     "porcentaje": 2.02,
+     "posicion": 4
+    },
+    {
+     "nombre": "Daniel Alejandro Marín Serna",
+     "nombre_oficial": "DANIEL ALEJANDRO MARIN SERNA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 170,
+     "porcentaje": 1.86,
+     "posicion": 5
+    },
+    {
+     "nombre": "Ferney Alexis Flórez Fernández",
+     "nombre_oficial": "FERNEY ALEXIS FLOREZ FERNANDEZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 162,
+     "porcentaje": 1.77,
+     "posicion": 6
+    },
+    {
+     "nombre": "Vicente Antonio Hurtado Monsalve",
+     "nombre_oficial": "VICENTE ANTONIO HURTADO MONSALVE",
+     "partido": "Partido de Reivindicacion Etnica Pre",
+     "partido_oficial": "PARTIDO DE REIVINDICACION ETNICA \"PRE\"",
+     "familias": [],
+     "votos": 112,
+     "porcentaje": 1.22,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 283,
+    "VOTOS NULOS": 248,
+    "VOTOS EN BLANCO": 235
+   }
+  },
+  "2023": {
+   "votos_depositados": 10341,
+   "votos_validos": 9905,
+   "margen_puntos": 7.77,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Aldubar de Jesús Vanegas Marín",
+     "nombre_oficial": "ALDUBAR DE JESUS VANEGAS MARIN",
+     "partido": "Por Amor a Fredonia",
+     "partido_oficial": "POR AMOR A FREDONIA",
+     "familias": [],
+     "votos": 4460,
+     "porcentaje": 45.03,
+     "posicion": 1
+    },
+    {
+     "nombre": "Duván Camilo Cortes Pareja",
+     "nombre_oficial": "DUVAN CAMILO CORTES PAREJA",
+     "partido": "Juntos Podemos",
+     "partido_oficial": "JUNTOS PODEMOS",
+     "familias": [],
+     "votos": 3690,
+     "porcentaje": 37.25,
+     "posicion": 2
+    },
+    {
+     "nombre": "Mauricio Alejandro Toro González",
+     "nombre_oficial": "MAURICIO ALEJANDRO TORO GONZALEZ",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 1141,
+     "porcentaje": 11.52,
+     "posicion": 3
+    },
+    {
+     "nombre": "Jaime de Jesús Carvajal Arenas",
+     "nombre_oficial": "JAIME DE JESUS CARVAJAL ARENAS",
+     "partido": "Independientes",
+     "partido_oficial": "INDEPENDIENTES",
+     "familias": [],
+     "votos": 252,
+     "porcentaje": 2.54,
+     "posicion": 4
+    },
+    {
+     "nombre": "Héctor Hernán Jiménez Arenas",
+     "nombre_oficial": "HECTOR HERNAN JIMENEZ ARENAS",
+     "partido": "Partido Político Gente en Movimiento",
+     "partido_oficial": "PARTIDO POLÍTICO GENTE EN MOVIMIENTO",
+     "familias": [],
+     "votos": 94,
+     "porcentaje": 0.95,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 306,
+    "VOTOS EN BLANCO": 268,
+    "VOTOS NULOS": 130
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "FREDONIA|00|01",
+   "nombre": "Esc Normal Superior Mariano Ospina Sec P",
+   "nombre_oficial": "ESC NORMAL SUPERIOR MARIANO OSPINA SEC P",
+   "zona": "00",
+   "rural": false,
+   "lat": 5.928347924541856,
+   "lon": -75.67178747668136,
+   "votos_total": 6369,
+   "votos_validos": 6111,
+   "ganador": "ALDUBAR DE JESUS VANEGAS MARIN",
+   "empate": [],
+   "margen_puntos": 12.34,
+   "votos": {
+    "ALDUBAR DE JESUS VANEGAS MARIN": 2930,
+    "DUVAN CAMILO CORTES PAREJA": 2176,
+    "HECTOR HERNAN JIMENEZ ARENAS": 57,
+    "JAIME DE JESUS CARVAJAL ARENAS": 164,
+    "MAURICIO ALEJANDRO TORO GONZALEZ": 622,
+    "VOTOS EN BLANCO": 162,
+    "VOTOS NO MARCADOS": 173,
+    "VOTOS NULOS": 85
+   }
+  },
+  {
+   "id": "FREDONIA|00|02",
+   "nombre": "Escuela Marco Fidel Suárez",
+   "nombre_oficial": "ESCUELA MARCO FIDEL SUAREZ",
+   "zona": "00",
+   "rural": false,
+   "lat": 5.925472836308797,
+   "lon": -75.67130281929614,
+   "votos_total": 2022,
+   "votos_validos": 1971,
+   "ganador": "DUVAN CAMILO CORTES PAREJA",
+   "empate": [],
+   "margen_puntos": 6.04,
+   "votos": {
+    "ALDUBAR DE JESUS VANEGAS MARIN": 760,
+    "DUVAN CAMILO CORTES PAREJA": 879,
+    "HECTOR HERNAN JIMENEZ ARENAS": 12,
+    "JAIME DE JESUS CARVAJAL ARENAS": 48,
+    "MAURICIO ALEJANDRO TORO GONZALEZ": 207,
+    "VOTOS EN BLANCO": 65,
+    "VOTOS NO MARCADOS": 31,
+    "VOTOS NULOS": 20
+   }
+  },
+  {
+   "id": "FREDONIA|99|01",
+   "nombre": "Minas",
+   "nombre_oficial": "MINAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.925614918271884,
+   "lon": -75.73652107979687,
+   "votos_total": 226,
+   "votos_validos": 211,
+   "ganador": "DUVAN CAMILO CORTES PAREJA",
+   "empate": [],
+   "margen_puntos": 23.7,
+   "votos": {
+    "ALDUBAR DE JESUS VANEGAS MARIN": 63,
+    "DUVAN CAMILO CORTES PAREJA": 113,
+    "JAIME DE JESUS CARVAJAL ARENAS": 2,
+    "MAURICIO ALEJANDRO TORO GONZALEZ": 27,
+    "VOTOS EN BLANCO": 6,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "FREDONIA|99|02",
+   "nombre": "La Garrucha",
+   "nombre_oficial": "LA GARRUCHA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.910141431999998,
+   "lon": -75.7050143099999,
+   "votos_total": 154,
+   "votos_validos": 145,
+   "ganador": "DUVAN CAMILO CORTES PAREJA",
+   "empate": [],
+   "margen_puntos": 20.0,
+   "votos": {
+    "ALDUBAR DE JESUS VANEGAS MARIN": 30,
+    "DUVAN CAMILO CORTES PAREJA": 66,
+    "HECTOR HERNAN JIMENEZ ARENAS": 1,
+    "JAIME DE JESUS CARVAJAL ARENAS": 7,
+    "MAURICIO ALEJANDRO TORO GONZALEZ": 37,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 9
+   }
+  },
+  {
+   "id": "FREDONIA|99|03",
+   "nombre": "Los Palomos",
+   "nombre_oficial": "LOS PALOMOS",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.968078693840401,
+   "lon": -75.6766084717452,
+   "votos_total": 374,
+   "votos_validos": 353,
+   "ganador": "ALDUBAR DE JESUS VANEGAS MARIN",
+   "empate": [],
+   "margen_puntos": 3.68,
+   "votos": {
+    "ALDUBAR DE JESUS VANEGAS MARIN": 167,
+    "DUVAN CAMILO CORTES PAREJA": 154,
+    "HECTOR HERNAN JIMENEZ ARENAS": 3,
+    "JAIME DE JESUS CARVAJAL ARENAS": 4,
+    "MAURICIO ALEJANDRO TORO GONZALEZ": 21,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 16,
+    "VOTOS NULOS": 5
+   }
+  },
+  {
+   "id": "FREDONIA|99|04",
+   "nombre": "Marsella",
+   "nombre_oficial": "MARSELLA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.863470733648445,
+   "lon": -75.6880009174706,
+   "votos_total": 266,
+   "votos_validos": 249,
+   "ganador": "ALDUBAR DE JESUS VANEGAS MARIN",
+   "empate": [],
+   "margen_puntos": 30.12,
+   "votos": {
+    "ALDUBAR DE JESUS VANEGAS MARIN": 140,
+    "DUVAN CAMILO CORTES PAREJA": 65,
+    "JAIME DE JESUS CARVAJAL ARENAS": 5,
+    "MAURICIO ALEJANDRO TORO GONZALEZ": 29,
+    "VOTOS EN BLANCO": 10,
+    "VOTOS NO MARCADOS": 16,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "FREDONIA|99|05",
+   "nombre": "Puente Iglesias",
+   "nombre_oficial": "PUENTE IGLESIAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.831686682991314,
+   "lon": -75.70909380912775,
+   "votos_total": 372,
+   "votos_validos": 349,
+   "ganador": "MAURICIO ALEJANDRO TORO GONZALEZ",
+   "empate": [],
+   "margen_puntos": 6.3,
+   "votos": {
+    "ALDUBAR DE JESUS VANEGAS MARIN": 112,
+    "DUVAN CAMILO CORTES PAREJA": 70,
+    "HECTOR HERNAN JIMENEZ ARENAS": 16,
+    "JAIME DE JESUS CARVAJAL ARENAS": 7,
+    "MAURICIO ALEJANDRO TORO GONZALEZ": 134,
+    "VOTOS EN BLANCO": 10,
+    "VOTOS NO MARCADOS": 17,
+    "VOTOS NULOS": 6
+   }
+  },
+  {
+   "id": "FREDONIA|99|20",
+   "nombre": "El Zancudo",
+   "nombre_oficial": "EL ZANCUDO",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.891401165363992,
+   "lon": -75.65741300582891,
+   "votos_total": 275,
+   "votos_validos": 245,
+   "ganador": "DUVAN CAMILO CORTES PAREJA",
+   "empate": [],
+   "margen_puntos": 4.9,
+   "votos": {
+    "ALDUBAR DE JESUS VANEGAS MARIN": 85,
+    "DUVAN CAMILO CORTES PAREJA": 97,
+    "HECTOR HERNAN JIMENEZ ARENAS": 3,
+    "JAIME DE JESUS CARVAJAL ARENAS": 9,
+    "MAURICIO ALEJANDRO TORO GONZALEZ": 49,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 23,
+    "VOTOS NULOS": 7
+   }
+  },
+  {
+   "id": "FREDONIA|99|70",
+   "nombre": "Piedra Verde",
+   "nombre_oficial": "PIEDRA VERDE",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.964110769,
+   "lon": -75.6376381299999,
+   "votos_total": 223,
+   "votos_validos": 212,
+   "ganador": "ALDUBAR DE JESUS VANEGAS MARIN",
+   "empate": [],
+   "margen_puntos": 27.36,
+   "votos": {
+    "ALDUBAR DE JESUS VANEGAS MARIN": 124,
+    "DUVAN CAMILO CORTES PAREJA": 66,
+    "HECTOR HERNAN JIMENEZ ARENAS": 2,
+    "JAIME DE JESUS CARVAJAL ARENAS": 6,
+    "MAURICIO ALEJANDRO TORO GONZALEZ": 11,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 9,
+    "VOTOS NULOS": 2
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel",
+   "nombre_oficial": "CARCEL",
+   "votos": 60,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

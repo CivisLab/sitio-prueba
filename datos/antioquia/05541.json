@@ -1,0 +1,273 @@
+{
+ "municipio": {
+  "cod_dane": "05541",
+  "cod_registraduria": "196",
+  "nombre": "El Peñol",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 10194,
+   "votos_validos": 9901,
+   "margen_puntos": 5.73,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Sorany Andrea Marín Marín",
+     "nombre_oficial": "SORANY ANDREA MARIN MARIN",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 3806,
+     "porcentaje": 38.44,
+     "posicion": 1
+    },
+    {
+     "nombre": "John Dairo Duque Zuluaga",
+     "nombre_oficial": "JOHN DAIRO DUQUE ZULUAGA",
+     "partido": "Unidos por el Peñol",
+     "partido_oficial": "UNIDOS POR EL PEÑOL",
+     "familias": [],
+     "votos": 3239,
+     "porcentaje": 32.71,
+     "posicion": 2
+    },
+    {
+     "nombre": "Alex Giraldo Montoya",
+     "nombre_oficial": "ALEX GIRALDO MONTOYA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 1280,
+     "porcentaje": 12.93,
+     "posicion": 3
+    },
+    {
+     "nombre": "Damián Garces Restrepo",
+     "nombre_oficial": "DAMIAN GARCES RESTREPO",
+     "partido": "Avanza Peñol",
+     "partido_oficial": "AVANZA PEÑOL",
+     "familias": [],
+     "votos": 676,
+     "porcentaje": 6.83,
+     "posicion": 4
+    },
+    {
+     "nombre": "Francy Lineidy Ramírez Arbeláez",
+     "nombre_oficial": "FRANCY LINEIDY RAMIREZ ARBELAEZ",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 406,
+     "porcentaje": 4.1,
+     "posicion": 5
+    },
+    {
+     "nombre": "Luis Guillermo Ciro Vergara",
+     "nombre_oficial": "LUIS GUILLERMO CIRO VERGARA",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 258,
+     "porcentaje": 2.61,
+     "posicion": 6
+    },
+    {
+     "nombre": "José Omar García García",
+     "nombre_oficial": "JOSE OMAR GARCIA GARCIA",
+     "partido": "Partido ADA",
+     "partido_oficial": "PARTIDO ADA",
+     "familias": [
+      "ADA"
+     ],
+     "votos": 36,
+     "porcentaje": 0.36,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 200,
+    "VOTOS NULOS": 149,
+    "VOTOS NO MARCADOS": 144
+   }
+  },
+  "2023": {
+   "votos_depositados": 11484,
+   "votos_validos": 11198,
+   "margen_puntos": 11.74,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Sandra Arelis Duque Velásquez",
+     "nombre_oficial": "SANDRA ARELIS DUQUE VELASQUEZ",
+     "partido": "Avancemos por el Peñol",
+     "partido_oficial": "AVANCEMOS POR EL PEÑOL",
+     "familias": [],
+     "votos": 4604,
+     "porcentaje": 41.11,
+     "posicion": 1
+    },
+    {
+     "nombre": "Yeison Rolando Valderrama Buriticá",
+     "nombre_oficial": "YEISON ROLANDO VALDERRAMA BURITICA",
+     "partido": "El Peñol Nos Une",
+     "partido_oficial": "EL PEÑOL NOS UNE",
+     "familias": [],
+     "votos": 3289,
+     "porcentaje": 29.37,
+     "posicion": 2
+    },
+    {
+     "nombre": "Alex Giraldo Montoya",
+     "nombre_oficial": "ALEX GIRALDO MONTOYA",
+     "partido": "+ Razones para Avanzar",
+     "partido_oficial": "+ RAZONES PARA AVANZAR",
+     "familias": [],
+     "votos": 3116,
+     "porcentaje": 27.83,
+     "posicion": 3
+    },
+    {
+     "nombre": "Omar Aníbal Orozco Ramírez",
+     "nombre_oficial": "OMAR ANIBAL OROZCO RAMIREZ",
+     "partido": "Movimiento Salvación Nacional",
+     "partido_oficial": "MOVIMIENTO SALVACIÓN NACIONAL",
+     "familias": [
+      "SALV"
+     ],
+     "votos": 14,
+     "porcentaje": 0.13,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 175,
+    "VOTOS NO MARCADOS": 160,
+    "VOTOS NULOS": 126
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "U"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "PENOL|00|01",
+   "nombre": "I.E. León Xiii",
+   "nombre_oficial": "I.E.LEON XIII",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.219790745277551,
+   "lon": -75.24489744536673,
+   "votos_total": 3894,
+   "votos_validos": 3736,
+   "ganador": "SANDRA ARELIS DUQUE VELASQUEZ",
+   "empate": [],
+   "margen_puntos": 13.78,
+   "votos": {
+    "ALEX GIRALDO MONTOYA": 960,
+    "OMAR ANIBAL OROZCO RAMIREZ": 4,
+    "SANDRA ARELIS DUQUE VELASQUEZ": 1633,
+    "VOTOS EN BLANCO": 21,
+    "VOTOS NO MARCADOS": 104,
+    "VOTOS NULOS": 54,
+    "YEISON ROLANDO VALDERRAMA BURITICA": 1118
+   }
+  },
+  {
+   "id": "PENOL|00|02",
+   "nombre": "Coliseo Municipal Inderpe",
+   "nombre_oficial": "COLISEO MUNICIPAL INDERPE",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.218723859644883,
+   "lon": -75.24395346567611,
+   "votos_total": 7590,
+   "votos_validos": 7462,
+   "ganador": "SANDRA ARELIS DUQUE VELASQUEZ",
+   "empate": [],
+   "margen_puntos": 10.72,
+   "votos": {
+    "ALEX GIRALDO MONTOYA": 2156,
+    "OMAR ANIBAL OROZCO RAMIREZ": 10,
+    "SANDRA ARELIS DUQUE VELASQUEZ": 2971,
+    "VOTOS EN BLANCO": 154,
+    "VOTOS NO MARCADOS": 56,
+    "VOTOS NULOS": 72,
+    "YEISON ROLANDO VALDERRAMA BURITICA": 2171
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

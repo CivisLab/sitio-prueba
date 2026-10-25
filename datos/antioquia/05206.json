@@ -1,0 +1,196 @@
+{
+ "municipio": {
+  "cod_dane": "05206",
+  "cod_registraduria": "097",
+  "nombre": "Concepción",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 2870,
+   "votos_validos": 2799,
+   "margen_puntos": 21.69,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Gustavo Alonso López Orrego",
+     "nombre_oficial": "GUSTAVO ALONSO LOPEZ ORREGO",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 1680,
+     "porcentaje": 60.02,
+     "posicion": 1
+    },
+    {
+     "nombre": "Elkin Alonso Vergara Franco",
+     "nombre_oficial": "ELKIN ALONSO VERGARA FRANCO",
+     "partido": "Unidos por Concepción",
+     "partido_oficial": "UNIDOS POR CONCEPCION",
+     "familias": [],
+     "votos": 1073,
+     "porcentaje": 38.34,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 46,
+    "VOTOS NO MARCADOS": 43,
+    "VOTOS NULOS": 28
+   }
+  },
+  "2023": {
+   "votos_depositados": 3274,
+   "votos_validos": 3180,
+   "margen_puntos": 7.2,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Adrián Henao Carvajal",
+     "nombre_oficial": "ADRIAN HENAO CARVAJAL",
+     "partido": "En Concepción el Progreso Continua",
+     "partido_oficial": "EN CONCEPCION EL PROGRESO CONTINUA",
+     "familias": [],
+     "votos": 1031,
+     "porcentaje": 32.42,
+     "posicion": 1
+    },
+    {
+     "nombre": "Elkin Alonso Vergara Franco",
+     "nombre_oficial": "ELKIN ALONSO VERGARA FRANCO",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 802,
+     "porcentaje": 25.22,
+     "posicion": 2
+    },
+    {
+     "nombre": "Lilliana María López Gallo",
+     "nombre_oficial": "LILLIANA MARIA LOPEZ GALLO",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 713,
+     "porcentaje": 22.42,
+     "posicion": 3
+    },
+    {
+     "nombre": "William Andrés Ceballos Sánchez",
+     "nombre_oficial": "WILLIAM ANDRES CEBALLOS SANCHEZ",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 619,
+     "porcentaje": 19.47,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 53,
+    "VOTOS NULOS": 41,
+    "VOTOS EN BLANCO": 15
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CR"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "CONCEPCION|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.394459987466807,
+   "lon": -75.2573776245117,
+   "votos_total": 3274,
+   "votos_validos": 3180,
+   "ganador": "ADRIAN HENAO CARVAJAL",
+   "empate": [],
+   "margen_puntos": 7.2,
+   "votos": {
+    "ADRIAN HENAO CARVAJAL": 1031,
+    "ELKIN ALONSO VERGARA FRANCO": 802,
+    "LILLIANA MARIA LOPEZ GALLO": 713,
+    "VOTOS EN BLANCO": 15,
+    "VOTOS NO MARCADOS": 53,
+    "VOTOS NULOS": 41,
+    "WILLIAM ANDRES CEBALLOS SANCHEZ": 619
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

@@ -1,0 +1,811 @@
+{
+ "municipio": {
+  "cod_dane": "05756",
+  "cod_registraduria": "262",
+  "nombre": "Sonsón",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 16368,
+   "votos_validos": 15592,
+   "margen_puntos": 26.53,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Edwin Andrés Montes Henao",
+     "nombre_oficial": "EDWIN ANDRES MONTES HENAO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 8333,
+     "porcentaje": 53.44,
+     "posicion": 1
+    },
+    {
+     "nombre": "Carlos Alberto Cardona Escobar",
+     "nombre_oficial": "CARLOS ALBERTO CARDONA ESCOBAR",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 4197,
+     "porcentaje": 26.92,
+     "posicion": 2
+    },
+    {
+     "nombre": "Carlos Alberto Ríos Jiménez",
+     "nombre_oficial": "CARLOS ALBERTO RIOS JIMENEZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 2076,
+     "porcentaje": 13.31,
+     "posicion": 3
+    },
+    {
+     "nombre": "César Augusto Molina Jiménez",
+     "nombre_oficial": "CESAR AUGUSTO MOLINA JIMENEZ",
+     "partido": "Unidos Sonson Avanza",
+     "partido_oficial": "UNIDOS SONSON AVANZA",
+     "familias": [],
+     "votos": 650,
+     "porcentaje": 4.17,
+     "posicion": 4
+    },
+    {
+     "nombre": "Rubén Suárez Bustamante",
+     "nombre_oficial": "RUBEN SUAREZ BUSTAMANTE",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 88,
+     "porcentaje": 0.56,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 398,
+    "VOTOS NULOS": 378,
+    "VOTOS EN BLANCO": 248
+   }
+  },
+  "2023": {
+   "votos_depositados": 15921,
+   "votos_validos": 15213,
+   "margen_puntos": 0.25,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Juan Diego Zuluaga Pulgarín",
+     "nombre_oficial": "JUAN DIEGO ZULUAGA PULGARIN",
+     "partido": "El Progreso Continua",
+     "partido_oficial": "EL PROGRESO CONTINUA",
+     "familias": [],
+     "votos": 6078,
+     "porcentaje": 39.95,
+     "posicion": 1
+    },
+    {
+     "nombre": "Nelson Fernando Gómez Gómez",
+     "nombre_oficial": "NELSON FERNANDO GOMEZ GOMEZ",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 6040,
+     "porcentaje": 39.7,
+     "posicion": 2
+    },
+    {
+     "nombre": "César Augusto Molina Jiménez",
+     "nombre_oficial": "CESAR AUGUSTO MOLINA JIMENEZ",
+     "partido": "Transformación Total",
+     "partido_oficial": "TRANSFORMACIÓN TOTAL",
+     "familias": [],
+     "votos": 2191,
+     "porcentaje": 14.4,
+     "posicion": 3
+    },
+    {
+     "nombre": "Adriana Patricia Patiño Hernández",
+     "nombre_oficial": "ADRIANA PATRICIA PATIÑO HERNANDEZ",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 594,
+     "porcentaje": 3.9,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 432,
+    "VOTOS EN BLANCO": 310,
+    "VOTOS NULOS": 276
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CD"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SONSON|01|01",
+   "nombre": "Rosa María Henao Pavas",
+   "nombre_oficial": "ROSA MARIA HENAO PAVAS",
+   "zona": "01",
+   "rural": false,
+   "lat": 5.7074100000000145,
+   "lon": -75.31235,
+   "votos_total": 3076,
+   "votos_validos": 2910,
+   "ganador": "NELSON FERNANDO GOMEZ GOMEZ",
+   "empate": [],
+   "margen_puntos": 9.35,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 150,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 483,
+    "JUAN DIEGO ZULUAGA PULGARIN": 976,
+    "NELSON FERNANDO GOMEZ GOMEZ": 1248,
+    "VOTOS EN BLANCO": 53,
+    "VOTOS NO MARCADOS": 89,
+    "VOTOS NULOS": 77
+   }
+  },
+  {
+   "id": "SONSON|01|02",
+   "nombre": "Rosa María Henao Sede 2",
+   "nombre_oficial": "ROSA MARIA HENAO SEDE 2",
+   "zona": "01",
+   "rural": false,
+   "lat": 5.709807,
+   "lon": -75.312131,
+   "votos_total": 2029,
+   "votos_validos": 1976,
+   "ganador": "NELSON FERNANDO GOMEZ GOMEZ",
+   "empate": [],
+   "margen_puntos": 9.92,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 102,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 256,
+    "JUAN DIEGO ZULUAGA PULGARIN": 689,
+    "NELSON FERNANDO GOMEZ GOMEZ": 885,
+    "VOTOS EN BLANCO": 44,
+    "VOTOS NO MARCADOS": 28,
+    "VOTOS NULOS": 25
+   }
+  },
+  {
+   "id": "SONSON|02|01",
+   "nombre": "Braulio Mejía",
+   "nombre_oficial": "BRAULIO MEJIA",
+   "zona": "02",
+   "rural": false,
+   "lat": 5.71561,
+   "lon": -75.30836,
+   "votos_total": 3984,
+   "votos_validos": 3845,
+   "ganador": "NELSON FERNANDO GOMEZ GOMEZ",
+   "empate": [],
+   "margen_puntos": 10.61,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 186,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 540,
+    "JUAN DIEGO ZULUAGA PULGARIN": 1302,
+    "NELSON FERNANDO GOMEZ GOMEZ": 1710,
+    "VOTOS EN BLANCO": 107,
+    "VOTOS NO MARCADOS": 76,
+    "VOTOS NULOS": 63
+   }
+  },
+  {
+   "id": "SONSON|02|02",
+   "nombre": "SENA",
+   "nombre_oficial": "SENA",
+   "zona": "02",
+   "rural": false,
+   "lat": 5.71067,
+   "lon": -75.30606,
+   "votos_total": 1756,
+   "votos_validos": 1711,
+   "ganador": "NELSON FERNANDO GOMEZ GOMEZ",
+   "empate": [],
+   "margen_puntos": 4.85,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 102,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 256,
+    "JUAN DIEGO ZULUAGA PULGARIN": 621,
+    "NELSON FERNANDO GOMEZ GOMEZ": 704,
+    "VOTOS EN BLANCO": 28,
+    "VOTOS NO MARCADOS": 26,
+    "VOTOS NULOS": 19
+   }
+  },
+  {
+   "id": "SONSON|99|01",
+   "nombre": "Alto de Sabanas",
+   "nombre_oficial": "ALTO DE SABANAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.71993,
+   "lon": -75.38575,
+   "votos_total": 405,
+   "votos_validos": 385,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 11.17,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 6,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 77,
+    "JUAN DIEGO ZULUAGA PULGARIN": 169,
+    "NELSON FERNANDO GOMEZ GOMEZ": 126,
+    "VOTOS EN BLANCO": 7,
+    "VOTOS NO MARCADOS": 11,
+    "VOTOS NULOS": 9
+   }
+  },
+  {
+   "id": "SONSON|99|02",
+   "nombre": "El Salto",
+   "nombre_oficial": "EL SALTO",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.750814,
+   "lon": -75.36313767193788,
+   "votos_total": 78,
+   "votos_validos": 78,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 21.79,
+   "votos": {
+    "CESAR AUGUSTO MOLINA JIMENEZ": 1,
+    "JUAN DIEGO ZULUAGA PULGARIN": 46,
+    "NELSON FERNANDO GOMEZ GOMEZ": 29,
+    "VOTOS EN BLANCO": 2
+   }
+  },
+  {
+   "id": "SONSON|99|04",
+   "nombre": "La Loma",
+   "nombre_oficial": "LA LOMA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.717256,
+   "lon": -75.422262,
+   "votos_total": 117,
+   "votos_validos": 114,
+   "ganador": "NELSON FERNANDO GOMEZ GOMEZ",
+   "empate": [],
+   "margen_puntos": 29.82,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 1,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 10,
+    "JUAN DIEGO ZULUAGA PULGARIN": 33,
+    "NELSON FERNANDO GOMEZ GOMEZ": 67,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 3
+   }
+  },
+  {
+   "id": "SONSON|99|05",
+   "nombre": "Llanada Santa Clara",
+   "nombre_oficial": "LLANADA SANTA CLARA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.7544,
+   "lon": -75.34017267990112,
+   "votos_total": 257,
+   "votos_validos": 250,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 32.0,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 3,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 16,
+    "JUAN DIEGO ZULUAGA PULGARIN": 153,
+    "NELSON FERNANDO GOMEZ GOMEZ": 73,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 7
+   }
+  },
+  {
+   "id": "SONSON|99|06",
+   "nombre": "Roblal Arriba",
+   "nombre_oficial": "ROBLAL ARRIBA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.71333,
+   "lon": -75.37879,
+   "votos_total": 126,
+   "votos_validos": 124,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 9.68,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 5,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 38,
+    "JUAN DIEGO ZULUAGA PULGARIN": 50,
+    "NELSON FERNANDO GOMEZ GOMEZ": 28,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 1,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "SONSON|99|07",
+   "nombre": "Dantas",
+   "nombre_oficial": "DANTAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.84044,
+   "lon": -74.8261,
+   "votos_total": 1209,
+   "votos_validos": 1113,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 1.53,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 5,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 135,
+    "JUAN DIEGO ZULUAGA PULGARIN": 488,
+    "NELSON FERNANDO GOMEZ GOMEZ": 471,
+    "VOTOS EN BLANCO": 14,
+    "VOTOS NO MARCADOS": 72,
+    "VOTOS NULOS": 24
+   }
+  },
+  {
+   "id": "SONSON|99|08",
+   "nombre": "La Mesa",
+   "nombre_oficial": "LA MESA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.91729,
+   "lon": -74.84987,
+   "votos_total": 43,
+   "votos_validos": 41,
+   "ganador": null,
+   "empate": [
+    "JUAN DIEGO ZULUAGA PULGARIN",
+    "NELSON FERNANDO GOMEZ GOMEZ"
+   ],
+   "margen_puntos": 0.0,
+   "votos": {
+    "CESAR AUGUSTO MOLINA JIMENEZ": 1,
+    "JUAN DIEGO ZULUAGA PULGARIN": 19,
+    "NELSON FERNANDO GOMEZ GOMEZ": 19,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 2
+   }
+  },
+  {
+   "id": "SONSON|99|09",
+   "nombre": "C.E.R la Linda",
+   "nombre_oficial": "C.E.R LA LINDA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.883814866985907,
+   "lon": -74.79317124551424,
+   "votos_total": 161,
+   "votos_validos": 148,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 70.95,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 1,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 9,
+    "JUAN DIEGO ZULUAGA PULGARIN": 121,
+    "NELSON FERNANDO GOMEZ GOMEZ": 16,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "SONSON|99|10",
+   "nombre": "San Miguel",
+   "nombre_oficial": "SAN MIGUEL",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.735072,
+   "lon": -74.72712,
+   "votos_total": 795,
+   "votos_validos": 709,
+   "ganador": "NELSON FERNANDO GOMEZ GOMEZ",
+   "empate": [],
+   "margen_puntos": 4.51,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 1,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 164,
+    "JUAN DIEGO ZULUAGA PULGARIN": 250,
+    "NELSON FERNANDO GOMEZ GOMEZ": 282,
+    "VOTOS EN BLANCO": 12,
+    "VOTOS NO MARCADOS": 57,
+    "VOTOS NULOS": 29
+   }
+  },
+  {
+   "id": "SONSON|99|11",
+   "nombre": "Los Medios",
+   "nombre_oficial": "LOS MEDIOS",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.62366,
+   "lon": -75.36581,
+   "votos_total": 334,
+   "votos_validos": 318,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 9.43,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 2,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 26,
+    "JUAN DIEGO ZULUAGA PULGARIN": 158,
+    "NELSON FERNANDO GOMEZ GOMEZ": 128,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 6
+   }
+  },
+  {
+   "id": "SONSON|99|13",
+   "nombre": "Las Cruces",
+   "nombre_oficial": "LAS CRUCES",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.58952,
+   "lon": -75.32843,
+   "votos_total": 75,
+   "votos_validos": 73,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 64.38,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 1,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 8,
+    "JUAN DIEGO ZULUAGA PULGARIN": 55,
+    "NELSON FERNANDO GOMEZ GOMEZ": 8,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "SONSON|99|15",
+   "nombre": "Arenillal",
+   "nombre_oficial": "ARENILLAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.61075,
+   "lon": -75.36319,
+   "votos_total": 89,
+   "votos_validos": 81,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 4.94,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 1,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 4,
+    "JUAN DIEGO ZULUAGA PULGARIN": 39,
+    "NELSON FERNANDO GOMEZ GOMEZ": 35,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "SONSON|99|20",
+   "nombre": "Los Planes",
+   "nombre_oficial": "LOS PLANES",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.66037,
+   "lon": -75.34505,
+   "votos_total": 59,
+   "votos_validos": 57,
+   "ganador": "CESAR AUGUSTO MOLINA JIMENEZ",
+   "empate": [],
+   "margen_puntos": 10.53,
+   "votos": {
+    "CESAR AUGUSTO MOLINA JIMENEZ": 25,
+    "JUAN DIEGO ZULUAGA PULGARIN": 13,
+    "NELSON FERNANDO GOMEZ GOMEZ": 19,
+    "VOTOS NO MARCADOS": 2
+   }
+  },
+  {
+   "id": "SONSON|99|25",
+   "nombre": "Los Potreros",
+   "nombre_oficial": "LOS POTREROS",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.68044,
+   "lon": -75.36746,
+   "votos_total": 102,
+   "votos_validos": 101,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 9.9,
+   "votos": {
+    "CESAR AUGUSTO MOLINA JIMENEZ": 34,
+    "JUAN DIEGO ZULUAGA PULGARIN": 44,
+    "NELSON FERNANDO GOMEZ GOMEZ": 19,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 1
+   }
+  },
+  {
+   "id": "SONSON|99|30",
+   "nombre": "El Salado",
+   "nombre_oficial": "EL SALADO",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.811469999999993,
+   "lon": -75.19309,
+   "votos_total": 78,
+   "votos_validos": 77,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 66.23,
+   "votos": {
+    "CESAR AUGUSTO MOLINA JIMENEZ": 4,
+    "JUAN DIEGO ZULUAGA PULGARIN": 62,
+    "NELSON FERNANDO GOMEZ GOMEZ": 11,
+    "VOTOS NO MARCADOS": 1
+   }
+  },
+  {
+   "id": "SONSON|99|35",
+   "nombre": "La Torre",
+   "nombre_oficial": "LA TORRE",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.85866,
+   "lon": -75.19496,
+   "votos_total": 26,
+   "votos_validos": 26,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 42.31,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 1,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 4,
+    "JUAN DIEGO ZULUAGA PULGARIN": 16,
+    "NELSON FERNANDO GOMEZ GOMEZ": 5
+   }
+  },
+  {
+   "id": "SONSON|99|37",
+   "nombre": "Rioverde de los Henaos",
+   "nombre_oficial": "RIOVERDE DE LOS HENAOS",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.82188,
+   "lon": -75.228,
+   "votos_total": 87,
+   "votos_validos": 85,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 63.53,
+   "votos": {
+    "CESAR AUGUSTO MOLINA JIMENEZ": 14,
+    "JUAN DIEGO ZULUAGA PULGARIN": 68,
+    "NELSON FERNANDO GOMEZ GOMEZ": 3,
+    "VOTOS NO MARCADOS": 2
+   }
+  },
+  {
+   "id": "SONSON|99|40",
+   "nombre": "Jerusalen la Florida",
+   "nombre_oficial": "JERUSALEN LA FLORIDA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.89684,
+   "lon": -74.84757,
+   "votos_total": 324,
+   "votos_validos": 308,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 63.64,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 1,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 25,
+    "JUAN DIEGO ZULUAGA PULGARIN": 235,
+    "NELSON FERNANDO GOMEZ GOMEZ": 39,
+    "VOTOS EN BLANCO": 8,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 8
+   }
+  },
+  {
+   "id": "SONSON|99|42",
+   "nombre": "Brasilal",
+   "nombre_oficial": "BRASILAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.842,
+   "lon": -75.13199,
+   "votos_total": 32,
+   "votos_validos": 32,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 71.88,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 2,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 1,
+    "JUAN DIEGO ZULUAGA PULGARIN": 26,
+    "NELSON FERNANDO GOMEZ GOMEZ": 3
+   }
+  },
+  {
+   "id": "SONSON|99|47",
+   "nombre": "Rioverde de los Montes",
+   "nombre_oficial": "RIOVERDE DE LOS MONTES",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.794304,
+   "lon": -75.14304,
+   "votos_total": 288,
+   "votos_validos": 275,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 49.45,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 1,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 28,
+    "JUAN DIEGO ZULUAGA PULGARIN": 189,
+    "NELSON FERNANDO GOMEZ GOMEZ": 53,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 9,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "SONSON|99|50",
+   "nombre": "La Morelia",
+   "nombre_oficial": "LA MORELIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.80531,
+   "lon": -75.30436,
+   "votos_total": 77,
+   "votos_validos": 71,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 32.39,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 5,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 9,
+    "JUAN DIEGO ZULUAGA PULGARIN": 39,
+    "NELSON FERNANDO GOMEZ GOMEZ": 16,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "SONSON|99|55",
+   "nombre": "Manzanares",
+   "nombre_oficial": "MANZANARES",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.78713,
+   "lon": -75.26139,
+   "votos_total": 257,
+   "votos_validos": 252,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 64.29,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 15,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 19,
+    "JUAN DIEGO ZULUAGA PULGARIN": 188,
+    "NELSON FERNANDO GOMEZ GOMEZ": 26,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 5
+   }
+  },
+  {
+   "id": "SONSON|99|62",
+   "nombre": "San Pablo la Quiebra",
+   "nombre_oficial": "SAN PABLO LA QUIEBRA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.70795,
+   "lon": -75.22944,
+   "votos_total": 34,
+   "votos_validos": 31,
+   "ganador": "JUAN DIEGO ZULUAGA PULGARIN",
+   "empate": [],
+   "margen_puntos": 58.06,
+   "votos": {
+    "ADRIANA PATRICIA PATIÑO HERNANDEZ": 2,
+    "CESAR AUGUSTO MOLINA JIMENEZ": 1,
+    "JUAN DIEGO ZULUAGA PULGARIN": 23,
+    "NELSON FERNANDO GOMEZ GOMEZ": 5,
+    "VOTOS NO MARCADOS": 1,
+    "VOTOS NULOS": 2
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel",
+   "nombre_oficial": "CARCEL",
+   "votos": 23,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

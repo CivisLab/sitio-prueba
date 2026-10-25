@@ -1,0 +1,428 @@
+{
+ "municipio": {
+  "cod_dane": "05647",
+  "cod_registraduria": "223",
+  "nombre": "San Andrés de Cuerquía",
+  "subregion": "Norte",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 3440,
+   "votos_validos": 3291,
+   "margen_puntos": 26.28,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Ana Carolina Carvajal Arroyave",
+     "nombre_oficial": "ANA CAROLINA CARVAJAL ARROYAVE",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 1705,
+     "porcentaje": 51.81,
+     "posicion": 1
+    },
+    {
+     "nombre": "Jafiza Posada Ospina",
+     "nombre_oficial": "JAFIZA POSADA OSPINA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 840,
+     "porcentaje": 25.52,
+     "posicion": 2
+    },
+    {
+     "nombre": "José Fernando Chavarria Chavarria",
+     "nombre_oficial": "JOSE FERNANDO CHAVARRIA CHAVARRIA",
+     "partido": "San Andrés con Renovación Si Avanza",
+     "partido_oficial": "SAN ANDRES CON RENOVACION SI AVANZA",
+     "familias": [],
+     "votos": 590,
+     "porcentaje": 17.93,
+     "posicion": 3
+    },
+    {
+     "nombre": "Diego Alfonso Arenas Orrego",
+     "nombre_oficial": "DIEGO ALFONSO ARENAS ORREGO",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 119,
+     "porcentaje": 3.62,
+     "posicion": 4
+    },
+    {
+     "nombre": "Denis Arley Areiza Pino",
+     "nombre_oficial": "DENIS ARLEY AREIZA PINO",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 1,
+     "porcentaje": 0.03,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NULOS": 84,
+    "VOTOS NO MARCADOS": 65,
+    "VOTOS EN BLANCO": 36
+   }
+  },
+  "2023": {
+   "votos_depositados": 3767,
+   "votos_validos": 3650,
+   "margen_puntos": 5.97,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "José Fernando Chavarria Chavarria",
+     "nombre_oficial": "JOSE FERNANDO CHAVARRIA CHAVARRIA",
+     "partido": "Juntos Creemos",
+     "partido_oficial": "JUNTOS CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 1520,
+     "porcentaje": 41.64,
+     "posicion": 1
+    },
+    {
+     "nombre": "Eduar Rolando Pino Arango",
+     "nombre_oficial": "EDUAR ROLANDO PINO ARANGO",
+     "partido": "Unidos por el Desarrollo",
+     "partido_oficial": "UNIDOS POR EL DESARROLLO",
+     "familias": [],
+     "votos": 1302,
+     "porcentaje": 35.67,
+     "posicion": 2
+    },
+    {
+     "nombre": "Lauden Catalina Orrego Arango",
+     "nombre_oficial": "LAUDEN CATALINA ORREGO ARANGO",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 646,
+     "porcentaje": 17.7,
+     "posicion": 3
+    },
+    {
+     "nombre": "Mariela Ramírez Posada",
+     "nombre_oficial": "MARIELA RAMIREZ POSADA",
+     "partido": "Comprometidos con Nuestro Cuerquia",
+     "partido_oficial": "COMPROMETIDOS CON NUESTRO CUERQUIA",
+     "familias": [],
+     "votos": 88,
+     "porcentaje": 2.41,
+     "posicion": 4
+    },
+    {
+     "nombre": "Francisco Javier Areiza Echavarría",
+     "nombre_oficial": "FRANCISCO JAVIER AREIZA ECHAVARRIA",
+     "partido": "Partido Político Gente en Movimiento",
+     "partido_oficial": "PARTIDO POLÍTICO GENTE EN MOVIMIENTO",
+     "familias": [],
+     "votos": 53,
+     "porcentaje": 1.45,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 69,
+    "VOTOS NULOS": 48,
+    "VOTOS EN BLANCO": 41
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": false,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "CD"
+  ],
+  "familias_2023": [
+   "CREE"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SAN ANDRES|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.917658081082495,
+   "lon": -75.67704096376981,
+   "votos_total": 2892,
+   "votos_validos": 2814,
+   "ganador": "JOSE FERNANDO CHAVARRIA CHAVARRIA",
+   "empate": [],
+   "margen_puntos": 3.7,
+   "votos": {
+    "EDUAR ROLANDO PINO ARANGO": 1029,
+    "FRANCISCO JAVIER AREIZA ECHAVARRIA": 42,
+    "JOSE FERNANDO CHAVARRIA CHAVARRIA": 1133,
+    "LAUDEN CATALINA ORREGO ARANGO": 505,
+    "MARIELA RAMIREZ POSADA": 79,
+    "VOTOS EN BLANCO": 26,
+    "VOTOS NO MARCADOS": 45,
+    "VOTOS NULOS": 33
+   }
+  },
+  {
+   "id": "SAN ANDRES|99|01",
+   "nombre": "IE Rural Ana Joaquina Restrepo",
+   "nombre_oficial": "IE RURAL ANA JOAQUINA RESTREPO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.945021099999999,
+   "lon": -75.6690325999999,
+   "votos_total": 82,
+   "votos_validos": 78,
+   "ganador": "JOSE FERNANDO CHAVARRIA CHAVARRIA",
+   "empate": [],
+   "margen_puntos": 1.28,
+   "votos": {
+    "EDUAR ROLANDO PINO ARANGO": 22,
+    "FRANCISCO JAVIER AREIZA ECHAVARRIA": 1,
+    "JOSE FERNANDO CHAVARRIA CHAVARRIA": 26,
+    "LAUDEN CATALINA ORREGO ARANGO": 25,
+    "MARIELA RAMIREZ POSADA": 2,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 4
+   }
+  },
+  {
+   "id": "SAN ANDRES|99|02",
+   "nombre": "Cruces",
+   "nombre_oficial": "CRUCES",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.890708568,
+   "lon": -75.6202083799999,
+   "votos_total": 142,
+   "votos_validos": 140,
+   "ganador": "JOSE FERNANDO CHAVARRIA CHAVARRIA",
+   "empate": [],
+   "margen_puntos": 5.0,
+   "votos": {
+    "EDUAR ROLANDO PINO ARANGO": 47,
+    "FRANCISCO JAVIER AREIZA ECHAVARRIA": 1,
+    "JOSE FERNANDO CHAVARRIA CHAVARRIA": 54,
+    "LAUDEN CATALINA ORREGO ARANGO": 35,
+    "MARIELA RAMIREZ POSADA": 1,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 2
+   }
+  },
+  {
+   "id": "SAN ANDRES|99|03",
+   "nombre": "Guayabal",
+   "nombre_oficial": "GUAYABAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.936492509999999,
+   "lon": -75.6830667099999,
+   "votos_total": 77,
+   "votos_validos": 76,
+   "ganador": "JOSE FERNANDO CHAVARRIA CHAVARRIA",
+   "empate": [],
+   "margen_puntos": 63.16,
+   "votos": {
+    "EDUAR ROLANDO PINO ARANGO": 8,
+    "FRANCISCO JAVIER AREIZA ECHAVARRIA": 1,
+    "JOSE FERNANDO CHAVARRIA CHAVARRIA": 57,
+    "LAUDEN CATALINA ORREGO ARANGO": 9,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "SAN ANDRES|99|04",
+   "nombre": "La Cienaga",
+   "nombre_oficial": "LA CIENAGA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.924046086999998,
+   "lon": -75.7255762799998,
+   "votos_total": 101,
+   "votos_validos": 92,
+   "ganador": "JOSE FERNANDO CHAVARRIA CHAVARRIA",
+   "empate": [],
+   "margen_puntos": 16.3,
+   "votos": {
+    "EDUAR ROLANDO PINO ARANGO": 24,
+    "FRANCISCO JAVIER AREIZA ECHAVARRIA": 1,
+    "JOSE FERNANDO CHAVARRIA CHAVARRIA": 39,
+    "LAUDEN CATALINA ORREGO ARANGO": 24,
+    "MARIELA RAMIREZ POSADA": 3,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "SAN ANDRES|99|07",
+   "nombre": "Atezal Montaña - Adentro",
+   "nombre_oficial": "ATEZAL MONTAÑA - ADENTRO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.926644824,
+   "lon": -75.6860726999999,
+   "votos_total": 84,
+   "votos_validos": 81,
+   "ganador": "JOSE FERNANDO CHAVARRIA CHAVARRIA",
+   "empate": [],
+   "margen_puntos": 39.51,
+   "votos": {
+    "EDUAR ROLANDO PINO ARANGO": 22,
+    "FRANCISCO JAVIER AREIZA ECHAVARRIA": 1,
+    "JOSE FERNANDO CHAVARRIA CHAVARRIA": 54,
+    "LAUDEN CATALINA ORREGO ARANGO": 2,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 1,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "SAN ANDRES|99|08",
+   "nombre": "Centro Educativo Coredi",
+   "nombre_oficial": "CENTRO EDUCATIVO COREDI",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.66237389149169,
+   "lon": -75.22843681578391,
+   "votos_total": 125,
+   "votos_validos": 116,
+   "ganador": "EDUAR ROLANDO PINO ARANGO",
+   "empate": [],
+   "margen_puntos": 12.93,
+   "votos": {
+    "EDUAR ROLANDO PINO ARANGO": 58,
+    "FRANCISCO JAVIER AREIZA ECHAVARRIA": 3,
+    "JOSE FERNANDO CHAVARRIA CHAVARRIA": 43,
+    "LAUDEN CATALINA ORREGO ARANGO": 11,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "SAN ANDRES|99|20",
+   "nombre": "El Peñol",
+   "nombre_oficial": "EL PEÑOL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.988447397999999,
+   "lon": -75.6362671499998,
+   "votos_total": 117,
+   "votos_validos": 114,
+   "ganador": "JOSE FERNANDO CHAVARRIA CHAVARRIA",
+   "empate": [],
+   "margen_puntos": 25.44,
+   "votos": {
+    "EDUAR ROLANDO PINO ARANGO": 37,
+    "JOSE FERNANDO CHAVARRIA CHAVARRIA": 66,
+    "LAUDEN CATALINA ORREGO ARANGO": 8,
+    "MARIELA RAMIREZ POSADA": 2,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "SAN ANDRES|99|60",
+   "nombre": "Santa Gertrudis",
+   "nombre_oficial": "SANTA GERTRUDIS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.889068259,
+   "lon": -75.6586176099998,
+   "votos_total": 147,
+   "votos_validos": 139,
+   "ganador": "EDUAR ROLANDO PINO ARANGO",
+   "empate": [],
+   "margen_puntos": 5.04,
+   "votos": {
+    "EDUAR ROLANDO PINO ARANGO": 55,
+    "FRANCISCO JAVIER AREIZA ECHAVARRIA": 3,
+    "JOSE FERNANDO CHAVARRIA CHAVARRIA": 48,
+    "LAUDEN CATALINA ORREGO ARANGO": 27,
+    "MARIELA RAMIREZ POSADA": 1,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 4
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

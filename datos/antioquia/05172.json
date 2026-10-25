@@ -1,0 +1,370 @@
+{
+ "municipio": {
+  "cod_dane": "05172",
+  "cod_registraduria": "106",
+  "nombre": "Chigorodó",
+  "subregion": "Urabá",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 26249,
+   "votos_validos": 24692,
+   "margen_puntos": 17.1,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Eleazar Palacio Hernández",
+     "nombre_oficial": "ELEAZAR PALACIO HERNANDEZ",
+     "partido": "Todos por Chigorodo",
+     "partido_oficial": "TODOS POR CHIGORODO",
+     "familias": [],
+     "votos": 9928,
+     "porcentaje": 40.21,
+     "posicion": 1
+    },
+    {
+     "nombre": "Édgar Payares Berrío",
+     "nombre_oficial": "EDGAR PAYARES BERRIO",
+     "partido": "Movimiento Alternativo Indigena y Social MAIS",
+     "partido_oficial": "MOVIMIENTO ALTERNATIVO INDIGENA Y SOCIAL MAIS",
+     "familias": [
+      "MAIS"
+     ],
+     "votos": 5706,
+     "porcentaje": 23.11,
+     "posicion": 2
+    },
+    {
+     "nombre": "Agustín Palacios Murillo",
+     "nombre_oficial": "AGUSTIN PALACIOS MURILLO",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 3998,
+     "porcentaje": 16.19,
+     "posicion": 3
+    },
+    {
+     "nombre": "Tulia Irene Ruiz García",
+     "nombre_oficial": "TULIA IRENE RUIZ GARCIA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 2306,
+     "porcentaje": 9.34,
+     "posicion": 4
+    },
+    {
+     "nombre": "Víctor Hugo Pacheco Restrepo",
+     "nombre_oficial": "VICTOR HUGO PACHECO RESTREPO",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 1341,
+     "porcentaje": 5.43,
+     "posicion": 5
+    },
+    {
+     "nombre": "Luis Fernando Hinestroza Bolívar",
+     "nombre_oficial": "LUIS FERNANDO HINESTROZA BOLIVAR",
+     "partido": "Colombia Humana - Unión Patriotica",
+     "partido_oficial": "COLOMBIA HUMANA - UNION PATRIOTICA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 402,
+     "porcentaje": 1.63,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 1011,
+    "VOTOS NO MARCADOS": 987,
+    "VOTOS NULOS": 570
+   }
+  },
+  "2023": {
+   "votos_depositados": 27782,
+   "votos_validos": 26805,
+   "margen_puntos": 15.64,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Tulia Irene Ruiz García",
+     "nombre_oficial": "TULIA IRENE RUIZ GARCIA",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 11848,
+     "porcentaje": 44.2,
+     "posicion": 1
+    },
+    {
+     "nombre": "Edwin Alberto Zapata Suescun",
+     "nombre_oficial": "EDWIN ALBERTO ZAPATA SUESCUN",
+     "partido": "Coalición Pirri, Ahora Le Toca al Pueblo",
+     "partido_oficial": "COALICIÓN PIRRI, AHORA LE TOCA AL PUEBLO",
+     "familias": [],
+     "votos": 7656,
+     "porcentaje": 28.56,
+     "posicion": 2
+    },
+    {
+     "nombre": "Ferney Guerrero Largo",
+     "nombre_oficial": "FERNEY GUERRERO LARGO",
+     "partido": "Juntos por Chigorodo",
+     "partido_oficial": "JUNTOS POR CHIGORODO",
+     "familias": [],
+     "votos": 6346,
+     "porcentaje": 23.67,
+     "posicion": 3
+    },
+    {
+     "nombre": "Luis Fernando Hinestroza Bolívar",
+     "nombre_oficial": "LUIS FERNANDO HINESTROZA BOLIVAR",
+     "partido": "Pacto por Chigorodo",
+     "partido_oficial": "PACTO POR CHIGORODO",
+     "familias": [],
+     "votos": 424,
+     "porcentaje": 1.58,
+     "posicion": 4
+    },
+    {
+     "nombre": "Jaime López Arango",
+     "nombre_oficial": "JAIME LOPEZ ARANGO",
+     "partido": "Partido Político Gente en Movimiento",
+     "partido_oficial": "PARTIDO POLÍTICO GENTE EN MOVIMIENTO",
+     "familias": [],
+     "votos": 61,
+     "porcentaje": 0.23,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 630,
+    "VOTOS EN BLANCO": 470,
+    "VOTOS NULOS": 347
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [
+   "ASI"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "CHIGORODO|01|01",
+   "nombre": "ESC. Simón Bolívar",
+   "nombre_oficial": "ESC. SIMON BOLIVAR",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.670110889,
+   "lon": -76.6775951999998,
+   "votos_total": 3470,
+   "votos_validos": 3337,
+   "ganador": "TULIA IRENE RUIZ GARCIA",
+   "empate": [],
+   "margen_puntos": 19.57,
+   "votos": {
+    "EDWIN ALBERTO ZAPATA SUESCUN": 863,
+    "FERNEY GUERRERO LARGO": 830,
+    "JAIME LOPEZ ARANGO": 12,
+    "LUIS FERNANDO HINESTROZA BOLIVAR": 47,
+    "TULIA IRENE RUIZ GARCIA": 1516,
+    "VOTOS EN BLANCO": 69,
+    "VOTOS NO MARCADOS": 89,
+    "VOTOS NULOS": 44
+   }
+  },
+  {
+   "id": "CHIGORODO|01|02",
+   "nombre": "ESC. Brisas del Rio",
+   "nombre_oficial": "ESC. BRISAS DEL RIO",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.664828770999998,
+   "lon": -76.6737124099999,
+   "votos_total": 3056,
+   "votos_validos": 2959,
+   "ganador": "TULIA IRENE RUIZ GARCIA",
+   "empate": [],
+   "margen_puntos": 14.8,
+   "votos": {
+    "EDWIN ALBERTO ZAPATA SUESCUN": 845,
+    "FERNEY GUERRERO LARGO": 726,
+    "JAIME LOPEZ ARANGO": 5,
+    "LUIS FERNANDO HINESTROZA BOLIVAR": 43,
+    "TULIA IRENE RUIZ GARCIA": 1283,
+    "VOTOS EN BLANCO": 57,
+    "VOTOS NO MARCADOS": 62,
+    "VOTOS NULOS": 35
+   }
+  },
+  {
+   "id": "CHIGORODO|02|01",
+   "nombre": "Institución Educativa Chigorodo",
+   "nombre_oficial": "INSTITUCION EDUCATIVA CHIGORODO",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.666942007,
+   "lon": -76.6848811299999,
+   "votos_total": 6478,
+   "votos_validos": 6298,
+   "ganador": "TULIA IRENE RUIZ GARCIA",
+   "empate": [],
+   "margen_puntos": 9.89,
+   "votos": {
+    "EDWIN ALBERTO ZAPATA SUESCUN": 2000,
+    "FERNEY GUERRERO LARGO": 1460,
+    "JAIME LOPEZ ARANGO": 10,
+    "LUIS FERNANDO HINESTROZA BOLIVAR": 77,
+    "TULIA IRENE RUIZ GARCIA": 2623,
+    "VOTOS EN BLANCO": 128,
+    "VOTOS NO MARCADOS": 109,
+    "VOTOS NULOS": 71
+   }
+  },
+  {
+   "id": "CHIGORODO|02|02",
+   "nombre": "Liceo Municipal",
+   "nombre_oficial": "LICEO MUNICIPAL",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.660154659999999,
+   "lon": -76.6800087799998,
+   "votos_total": 8480,
+   "votos_validos": 8196,
+   "ganador": "TULIA IRENE RUIZ GARCIA",
+   "empate": [],
+   "margen_puntos": 15.62,
+   "votos": {
+    "EDWIN ALBERTO ZAPATA SUESCUN": 2360,
+    "FERNEY GUERRERO LARGO": 1892,
+    "JAIME LOPEZ ARANGO": 15,
+    "LUIS FERNANDO HINESTROZA BOLIVAR": 131,
+    "TULIA IRENE RUIZ GARCIA": 3640,
+    "VOTOS EN BLANCO": 158,
+    "VOTOS NO MARCADOS": 174,
+    "VOTOS NULOS": 110
+   }
+  },
+  {
+   "id": "CHIGORODO|90|01",
+   "nombre": "INST. Educativa los Andes",
+   "nombre_oficial": "INST.EDUCATIVA LOS ANDES",
+   "zona": "90",
+   "rural": false,
+   "lat": 7.669443231999999,
+   "lon": -76.6846689999999,
+   "votos_total": 5799,
+   "votos_validos": 5551,
+   "ganador": "TULIA IRENE RUIZ GARCIA",
+   "empate": [],
+   "margen_puntos": 19.56,
+   "votos": {
+    "EDWIN ALBERTO ZAPATA SUESCUN": 1515,
+    "FERNEY GUERRERO LARGO": 1250,
+    "JAIME LOPEZ ARANGO": 19,
+    "LUIS FERNANDO HINESTROZA BOLIVAR": 120,
+    "TULIA IRENE RUIZ GARCIA": 2601,
+    "VOTOS EN BLANCO": 46,
+    "VOTOS NO MARCADOS": 175,
+    "VOTOS NULOS": 73
+   }
+  },
+  {
+   "id": "CHIGORODO|99|05",
+   "nombre": "Barranquillita",
+   "nombre_oficial": "BARRANQUILLITA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.570599353999998,
+   "lon": -76.6961005699998,
+   "votos_total": 499,
+   "votos_validos": 464,
+   "ganador": "FERNEY GUERRERO LARGO",
+   "empate": [],
+   "margen_puntos": 0.65,
+   "votos": {
+    "EDWIN ALBERTO ZAPATA SUESCUN": 73,
+    "FERNEY GUERRERO LARGO": 188,
+    "LUIS FERNANDO HINESTROZA BOLIVAR": 6,
+    "TULIA IRENE RUIZ GARCIA": 185,
+    "VOTOS EN BLANCO": 12,
+    "VOTOS NO MARCADOS": 21,
+    "VOTOS NULOS": 14
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

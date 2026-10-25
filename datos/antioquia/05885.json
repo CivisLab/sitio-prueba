@@ -1,0 +1,231 @@
+{
+ "municipio": {
+  "cod_dane": "05885",
+  "cod_registraduria": "293",
+  "nombre": "Yalí",
+  "subregion": "Nordeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 3523,
+   "votos_validos": 3393,
+   "margen_puntos": 3.98,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Luis Norberto Piedrahita Llano",
+     "nombre_oficial": "LUIS NORBERTO PIEDRAHITA LLANO",
+     "partido": "Más Oportunidades para Todos",
+     "partido_oficial": "MAS OPORTUNIDADES PARA TODOS",
+     "familias": [],
+     "votos": 1735,
+     "porcentaje": 51.13,
+     "posicion": 1
+    },
+    {
+     "nombre": "Jhon Jairo Giraldo Posada",
+     "nombre_oficial": "JHON JAIRO GIRALDO POSADA",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 1600,
+     "porcentaje": 47.16,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 87,
+    "VOTOS EN BLANCO": 58,
+    "VOTOS NULOS": 43
+   }
+  },
+  "2023": {
+   "votos_depositados": 3681,
+   "votos_validos": 3535,
+   "margen_puntos": 1.33,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Jhon Jairo Giraldo Posada",
+     "nombre_oficial": "JHON JAIRO GIRALDO POSADA",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 1559,
+     "porcentaje": 44.1,
+     "posicion": 1
+    },
+    {
+     "nombre": "Fredy Sneider Giraldo Atehortua",
+     "nombre_oficial": "FREDY SNEIDER GIRALDO ATEHORTUA",
+     "partido": "Coalición Yali en el Camino Correcto",
+     "partido_oficial": "COALICION YALI EN EL CAMINO CORRECTO",
+     "familias": [],
+     "votos": 1512,
+     "porcentaje": 42.77,
+     "posicion": 2
+    },
+    {
+     "nombre": "Lubian Stiven Marín Uribe",
+     "nombre_oficial": "LUBIAN STIVEN MARIN URIBE",
+     "partido": "Independientes",
+     "partido_oficial": "INDEPENDIENTES",
+     "familias": [],
+     "votos": 267,
+     "porcentaje": 7.55,
+     "posicion": 3
+    },
+    {
+     "nombre": "Ana Lucía Misas Peláez",
+     "nombre_oficial": "ANA LUCIA MISAS PELAEZ",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 147,
+     "porcentaje": 4.16,
+     "posicion": 4
+    },
+    {
+     "nombre": "Eliseo Ayala Gómez",
+     "nombre_oficial": "ELISEO AYALA GOMEZ",
+     "partido": "Partido Nuevo Liberalismo",
+     "partido_oficial": "PARTIDO NUEVO LIBERALISMO",
+     "familias": [
+      "LIB",
+      "NL"
+     ],
+     "votos": 18,
+     "porcentaje": 0.51,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 91,
+    "VOTOS NULOS": 55,
+    "VOTOS EN BLANCO": 32
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [
+   "CR"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "YALI|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.67384119056576,
+   "lon": -74.84240233898339,
+   "votos_total": 3598,
+   "votos_validos": 3455,
+   "ganador": "JHON JAIRO GIRALDO POSADA",
+   "empate": [],
+   "margen_puntos": 1.88,
+   "votos": {
+    "ANA LUCIA MISAS PELAEZ": 146,
+    "ELISEO AYALA GOMEZ": 18,
+    "FREDY SNEIDER GIRALDO ATEHORTUA": 1465,
+    "JHON JAIRO GIRALDO POSADA": 1530,
+    "LUBIAN STIVEN MARIN URIBE": 265,
+    "VOTOS EN BLANCO": 31,
+    "VOTOS NO MARCADOS": 89,
+    "VOTOS NULOS": 54
+   }
+  },
+  {
+   "id": "YALI|99|01",
+   "nombre": "C.E.R. la Mascara",
+   "nombre_oficial": "C.E.R. LA MASCARA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.748151579914864,
+   "lon": -74.70867231090416,
+   "votos_total": 83,
+   "votos_validos": 80,
+   "ganador": "FREDY SNEIDER GIRALDO ATEHORTUA",
+   "empate": [],
+   "margen_puntos": 22.5,
+   "votos": {
+    "ANA LUCIA MISAS PELAEZ": 1,
+    "FREDY SNEIDER GIRALDO ATEHORTUA": 47,
+    "JHON JAIRO GIRALDO POSADA": 29,
+    "LUBIAN STIVEN MARIN URIBE": 2,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

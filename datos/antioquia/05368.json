@@ -1,0 +1,299 @@
+{
+ "municipio": {
+  "cod_dane": "05368",
+  "cod_registraduria": "160",
+  "nombre": "Jericó",
+  "subregion": "Suroeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 6971,
+   "votos_validos": 6767,
+   "margen_puntos": 9.5,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "David Alonso Toro Cadavid",
+     "nombre_oficial": "DAVID ALONSO TORO CADAVID",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 2449,
+     "porcentaje": 36.19,
+     "posicion": 1
+    },
+    {
+     "nombre": "Wilton Alberto Chaverra Ríos",
+     "nombre_oficial": "WILTON ALBERTO CHAVERRA RIOS",
+     "partido": "Partido Conservador Colombiano - ASI - Cambio Radical - MAIS",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO - ASI - CAMBIO RADICAL - MAIS",
+     "familias": [
+      "CONS",
+      "CR",
+      "ASI",
+      "MAIS"
+     ],
+     "votos": 1806,
+     "porcentaje": 26.69,
+     "posicion": 2
+    },
+    {
+     "nombre": "Nelson Augusto Restrepo Restrepo",
+     "nombre_oficial": "NELSON AUGUSTO RESTREPO RESTREPO",
+     "partido": "Acuerdo Ciudadano Unidos por Jerico",
+     "partido_oficial": "ACUERDO CIUDADANO \"UNIDOS POR JERICO\"",
+     "familias": [],
+     "votos": 889,
+     "porcentaje": 13.14,
+     "posicion": 3
+    },
+    {
+     "nombre": "Carlos Alberto Palacio Monsalve",
+     "nombre_oficial": "CARLOS ALBERTO PALACIO MONSALVE",
+     "partido": "Compromiso de Todos",
+     "partido_oficial": "COMPROMISO DE TODOS",
+     "familias": [],
+     "votos": 850,
+     "porcentaje": 12.56,
+     "posicion": 4
+    },
+    {
+     "nombre": "Iván Darío Gómez Zapata",
+     "nombre_oficial": "IVAN DARIO GOMEZ ZAPATA",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 655,
+     "porcentaje": 9.68,
+     "posicion": 5
+    },
+    {
+     "nombre": "Libia Stella Osorio Peláez",
+     "nombre_oficial": "LIBIA STELLA OSORIO PELAEZ",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 33,
+     "porcentaje": 0.49,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS NULOS": 114,
+    "VOTOS NO MARCADOS": 90,
+    "VOTOS EN BLANCO": 85
+   }
+  },
+  "2023": {
+   "votos_depositados": 7260,
+   "votos_validos": 7086,
+   "margen_puntos": 3.7,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Sebastián Garces Piedrahita",
+     "nombre_oficial": "SEBASTIAN GARCES PIEDRAHITA",
+     "partido": "Jericó Territorio de Oportunidades",
+     "partido_oficial": "JERICÓ TERRITORIO DE OPORTUNIDADES",
+     "familias": [],
+     "votos": 2963,
+     "porcentaje": 41.81,
+     "posicion": 1
+    },
+    {
+     "nombre": "Wilton Alberto Chaverra Ríos",
+     "nombre_oficial": "WILTON ALBERTO CHAVERRA RIOS",
+     "partido": "Jericó Cómo Te Quiero",
+     "partido_oficial": "JERICÓ CÓMO TE QUIERO",
+     "familias": [],
+     "votos": 2701,
+     "porcentaje": 38.12,
+     "posicion": 2
+    },
+    {
+     "nombre": "Luis Aníbal Espinal Ramírez",
+     "nombre_oficial": "LUIS ANIBAL ESPINAL RAMIREZ",
+     "partido": "Gerencia del Territorio",
+     "partido_oficial": "GERENCIA DEL TERRITORIO",
+     "familias": [],
+     "votos": 1029,
+     "porcentaje": 14.52,
+     "posicion": 3
+    },
+    {
+     "nombre": "Jorge Andrés Pérez Hernández",
+     "nombre_oficial": "JORGE ANDRES PEREZ HERNANDEZ",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 125,
+     "porcentaje": 1.76,
+     "posicion": 4
+    },
+    {
+     "nombre": "John Freddy Palacio Suárez",
+     "nombre_oficial": "JOHN FREDDY PALACIO SUAREZ",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDÍGENAS DE COLOMBIA \"AICO\"",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 121,
+     "porcentaje": 1.71,
+     "posicion": 5
+    },
+    {
+     "nombre": "Jovany de Jesús Zapata Hernández",
+     "nombre_oficial": "JOVANY DE JESUS ZAPATA HERNANDEZ",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRÁTICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 74,
+     "porcentaje": 1.04,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 98,
+    "VOTOS NULOS": 76,
+    "VOTOS EN BLANCO": 73
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "LIB"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "JERICO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 5.79021367107336,
+   "lon": -75.7781982421875,
+   "votos_total": 6977,
+   "votos_validos": 6812,
+   "ganador": "SEBASTIAN GARCES PIEDRAHITA",
+   "empate": [],
+   "margen_puntos": 3.27,
+   "votos": {
+    "JOHN FREDDY PALACIO SUAREZ": 119,
+    "JORGE ANDRES PEREZ HERNANDEZ": 118,
+    "JOVANY DE JESUS ZAPATA HERNANDEZ": 73,
+    "LUIS ANIBAL ESPINAL RAMIREZ": 1010,
+    "SEBASTIAN GARCES PIEDRAHITA": 2823,
+    "VOTOS EN BLANCO": 69,
+    "VOTOS NO MARCADOS": 90,
+    "VOTOS NULOS": 75,
+    "WILTON ALBERTO CHAVERRA RIOS": 2600
+   }
+  },
+  {
+   "id": "JERICO|99|07",
+   "nombre": "Palo Cabildo",
+   "nombre_oficial": "PALO CABILDO",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.751614820688619,
+   "lon": -75.7483291625975,
+   "votos_total": 269,
+   "votos_validos": 260,
+   "ganador": "SEBASTIAN GARCES PIEDRAHITA",
+   "empate": [],
+   "margen_puntos": 14.62,
+   "votos": {
+    "JOHN FREDDY PALACIO SUAREZ": 2,
+    "JORGE ANDRES PEREZ HERNANDEZ": 7,
+    "JOVANY DE JESUS ZAPATA HERNANDEZ": 1,
+    "LUIS ANIBAL ESPINAL RAMIREZ": 17,
+    "SEBASTIAN GARCES PIEDRAHITA": 134,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 1,
+    "WILTON ALBERTO CHAVERRA RIOS": 96
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel",
+   "nombre_oficial": "CARCEL",
+   "votos": 14,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

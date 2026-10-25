@@ -1,0 +1,273 @@
+{
+ "municipio": {
+  "cod_dane": "05425",
+  "cod_registraduria": "175",
+  "nombre": "Maceo",
+  "subregion": "Magdalena Medio",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 5106,
+   "votos_validos": 4954,
+   "margen_puntos": 4.2,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Carlos Alberto Restrepo González",
+     "nombre_oficial": "CARLOS ALBERTO RESTREPO GONZALEZ",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1956,
+     "porcentaje": 39.48,
+     "posicion": 1
+    },
+    {
+     "nombre": "Carlos Andrés Gómez González",
+     "nombre_oficial": "CARLOS ANDRES GOMEZ GONZALEZ",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 1748,
+     "porcentaje": 35.28,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jorge Alexander Ochoa",
+     "nombre_oficial": "JORGE ALEXANDER OCHOA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 1203,
+     "porcentaje": 24.28,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 99,
+    "VOTOS NULOS": 53,
+    "VOTOS EN BLANCO": 47
+   }
+  },
+  "2023": {
+   "votos_depositados": 5303,
+   "votos_validos": 5169,
+   "margen_puntos": 2.21,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Carolina Andrea Sosa Gómez",
+     "nombre_oficial": "CAROLINA ANDREA SOSA GOMEZ",
+     "partido": "Coalición Maceo Incluyente",
+     "partido_oficial": "COALICIÓN MACEO INCLUYENTE",
+     "familias": [],
+     "votos": 1769,
+     "porcentaje": 34.22,
+     "posicion": 1
+    },
+    {
+     "nombre": "Enrique Octavio Suárez Rodríguez",
+     "nombre_oficial": "ENRIQUE OCTAVIO SUAREZ RODRIGUEZ",
+     "partido": "Unidos Maceo Gana",
+     "partido_oficial": "UNIDOS MACEO GANA",
+     "familias": [],
+     "votos": 1655,
+     "porcentaje": 32.02,
+     "posicion": 2
+    },
+    {
+     "nombre": "Édgar Alirio González Agudelo",
+     "nombre_oficial": "EDGAR ALIRIO GONZALEZ AGUDELO",
+     "partido": "Volver a Crecer",
+     "partido_oficial": "VOLVER A CRECER",
+     "familias": [],
+     "votos": 1609,
+     "porcentaje": 31.13,
+     "posicion": 3
+    },
+    {
+     "nombre": "Evelio de Jesús González Agudelo",
+     "nombre_oficial": "EVELIO DE JESUS GONZALEZ AGUDELO",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 87,
+     "porcentaje": 1.68,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 89,
+    "VOTOS EN BLANCO": 49,
+    "VOTOS NULOS": 45
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CONS"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "MACEO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.552618232012566,
+   "lon": -74.7856628894805,
+   "votos_total": 3782,
+   "votos_validos": 3695,
+   "ganador": "CAROLINA ANDREA SOSA GOMEZ",
+   "empate": [],
+   "margen_puntos": 2.87,
+   "votos": {
+    "CAROLINA ANDREA SOSA GOMEZ": 1302,
+    "EDGAR ALIRIO GONZALEZ AGUDELO": 1125,
+    "ENRIQUE OCTAVIO SUAREZ RODRIGUEZ": 1196,
+    "EVELIO DE JESUS GONZALEZ AGUDELO": 37,
+    "VOTOS EN BLANCO": 35,
+    "VOTOS NO MARCADOS": 56,
+    "VOTOS NULOS": 31
+   }
+  },
+  {
+   "id": "MACEO|99|01",
+   "nombre": "La Susana",
+   "nombre_oficial": "LA SUSANA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.601262387597761,
+   "lon": -74.66084361076344,
+   "votos_total": 474,
+   "votos_validos": 460,
+   "ganador": "CAROLINA ANDREA SOSA GOMEZ",
+   "empate": [],
+   "margen_puntos": 9.57,
+   "votos": {
+    "CAROLINA ANDREA SOSA GOMEZ": 186,
+    "EDGAR ALIRIO GONZALEZ AGUDELO": 142,
+    "ENRIQUE OCTAVIO SUAREZ RODRIGUEZ": 129,
+    "EVELIO DE JESUS GONZALEZ AGUDELO": 2,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 7
+   }
+  },
+  {
+   "id": "MACEO|99|02",
+   "nombre": "La Floresta",
+   "nombre_oficial": "LA FLORESTA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.477217889709721,
+   "lon": -74.70011115074158,
+   "votos_total": 791,
+   "votos_validos": 768,
+   "ganador": "EDGAR ALIRIO GONZALEZ AGUDELO",
+   "empate": [],
+   "margen_puntos": 3.26,
+   "votos": {
+    "CAROLINA ANDREA SOSA GOMEZ": 242,
+    "EDGAR ALIRIO GONZALEZ AGUDELO": 271,
+    "ENRIQUE OCTAVIO SUAREZ RODRIGUEZ": 246,
+    "EVELIO DE JESUS GONZALEZ AGUDELO": 3,
+    "VOTOS EN BLANCO": 6,
+    "VOTOS NO MARCADOS": 17,
+    "VOTOS NULOS": 6
+   }
+  },
+  {
+   "id": "MACEO|99|03",
+   "nombre": "Puerto Nus",
+   "nombre_oficial": "PUERTO NUS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.4961499679127535,
+   "lon": -74.82492590559605,
+   "votos_total": 256,
+   "votos_validos": 246,
+   "ganador": "ENRIQUE OCTAVIO SUAREZ RODRIGUEZ",
+   "empate": [],
+   "margen_puntos": 5.28,
+   "votos": {
+    "CAROLINA ANDREA SOSA GOMEZ": 39,
+    "EDGAR ALIRIO GONZALEZ AGUDELO": 71,
+    "ENRIQUE OCTAVIO SUAREZ RODRIGUEZ": 84,
+    "EVELIO DE JESUS GONZALEZ AGUDELO": 45,
+    "VOTOS EN BLANCO": 7,
+    "VOTOS NO MARCADOS": 9,
+    "VOTOS NULOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

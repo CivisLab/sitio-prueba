@@ -1,0 +1,553 @@
+{
+ "municipio": {
+  "cod_dane": "05129",
+  "cod_registraduria": "070",
+  "nombre": "Caldas",
+  "subregion": "Valle de Aburrá",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 39784,
+   "votos_validos": 37744,
+   "margen_puntos": 6.98,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Mauricio Cano Carmona",
+     "nombre_oficial": "MAURICIO CANO CARMONA",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 11058,
+     "porcentaje": 29.3,
+     "posicion": 1
+    },
+    {
+     "nombre": "Jorge Mario Rendón Vélez",
+     "nombre_oficial": "JORGE MARIO RENDON VELEZ",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 8425,
+     "porcentaje": 22.32,
+     "posicion": 2
+    },
+    {
+     "nombre": "Simón Andrés Posada Arango",
+     "nombre_oficial": "SIMON ANDRES POSADA ARANGO",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 6629,
+     "porcentaje": 17.56,
+     "posicion": 3
+    },
+    {
+     "nombre": "Daniel Felipe Castaño Mesa",
+     "nombre_oficial": "DANIEL FELIPE CASTAÑO MESA",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 4049,
+     "porcentaje": 10.73,
+     "posicion": 4
+    },
+    {
+     "nombre": "Jorge Iván Álvarez Soto",
+     "nombre_oficial": "JORGE IVAN ALVAREZ SOTO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 2646,
+     "porcentaje": 7.01,
+     "posicion": 5
+    },
+    {
+     "nombre": "Fernando de Jesús Vergara Vélez",
+     "nombre_oficial": "FERNANDO DE JESUS VERGARA VELEZ",
+     "partido": "Caldas para Todos",
+     "partido_oficial": "CALDAS PARA TODOS",
+     "familias": [],
+     "votos": 2271,
+     "porcentaje": 6.02,
+     "posicion": 6
+    },
+    {
+     "nombre": "Carlos Mario Pulgarín Montoya",
+     "nombre_oficial": "CARLOS MARIO PULGARIN MONTOYA",
+     "partido": "Colombia Humana - Unión Patriotica",
+     "partido_oficial": "COLOMBIA HUMANA - UNION PATRIOTICA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 219,
+     "porcentaje": 0.58,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 2447,
+    "VOTOS NULOS": 1097,
+    "VOTOS NO MARCADOS": 943
+   }
+  },
+  "2023": {
+   "votos_depositados": 42461,
+   "votos_validos": 40770,
+   "margen_puntos": 4.77,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Jorge Mario Rendón Vélez",
+     "nombre_oficial": "JORGE MARIO RENDON VELEZ",
+     "partido": "Coalición Profe Piolo Creamos",
+     "partido_oficial": "COALICION PROFE PIOLO CREAMOS",
+     "familias": [],
+     "votos": 12927,
+     "porcentaje": 31.71,
+     "posicion": 1
+    },
+    {
+     "nombre": "Raúl Alejandro Mesa Correa",
+     "nombre_oficial": "RAUL ALEJANDRO MESA CORREA",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 10982,
+     "porcentaje": 26.94,
+     "posicion": 2
+    },
+    {
+     "nombre": "María Alejandra Giraldo Vélez",
+     "nombre_oficial": "MARIA ALEJANDRA GIRALDO VELEZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 8502,
+     "porcentaje": 20.85,
+     "posicion": 3
+    },
+    {
+     "nombre": "Daniel Felipe Castaño Mesa",
+     "nombre_oficial": "DANIEL FELIPE CASTAÑO MESA",
+     "partido": "Dialogo Ciudadano",
+     "partido_oficial": "DIALOGO CIUDADANO",
+     "familias": [],
+     "votos": 5768,
+     "porcentaje": 14.15,
+     "posicion": 4
+    },
+    {
+     "nombre": "Albeiro de Jesús Vera Vergara",
+     "nombre_oficial": "ALBEIRO DE JESUS VERA VERGARA",
+     "partido": "Pacto Histórico",
+     "partido_oficial": "PACTO HISTORICO",
+     "familias": [
+      "PACTO"
+     ],
+     "votos": 523,
+     "porcentaje": 1.28,
+     "posicion": 5
+    },
+    {
+     "nombre": "Yonny Sebastián Marín Soto",
+     "nombre_oficial": "YONNY SEBASTIAN MARIN SOTO",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 155,
+     "porcentaje": 0.38,
+     "posicion": 6
+    },
+    {
+     "nombre": "Carlos Mario Pulgarín Montoya",
+     "nombre_oficial": "CARLOS MARIO PULGARIN MONTOYA",
+     "partido": "Movimiento Salvación Nacional",
+     "partido_oficial": "MOVIMIENTO SALVACIÓN NACIONAL",
+     "familias": [
+      "SALV"
+     ],
+     "votos": 81,
+     "porcentaje": 0.2,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 1832,
+    "VOTOS NULOS": 1006,
+    "VOTOS NO MARCADOS": 685
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "U"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "CALDAS|01|01",
+   "nombre": "ESC. Santa María Goretti",
+   "nombre_oficial": "ESC. SANTA MARIA GORETTI",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.094533313346085,
+   "lon": -75.6373647542497,
+   "votos_total": 4796,
+   "votos_validos": 4576,
+   "ganador": "JORGE MARIO RENDON VELEZ",
+   "empate": [],
+   "margen_puntos": 5.16,
+   "votos": {
+    "ALBEIRO DE JESUS VERA VERGARA": 55,
+    "CARLOS MARIO PULGARIN MONTOYA": 13,
+    "DANIEL FELIPE CASTAÑO MESA": 671,
+    "JORGE MARIO RENDON VELEZ": 1531,
+    "MARIA ALEJANDRA GIRALDO VELEZ": 810,
+    "RAUL ALEJANDRO MESA CORREA": 1295,
+    "VOTOS EN BLANCO": 175,
+    "VOTOS NO MARCADOS": 102,
+    "VOTOS NULOS": 118,
+    "YONNY SEBASTIAN MARIN SOTO": 26
+   }
+  },
+  {
+   "id": "CALDAS|01|02",
+   "nombre": "Liceo José María Bernal",
+   "nombre_oficial": "LICEO JOSE MARIA BERNAL",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.091404856004874,
+   "lon": -75.6436491686041,
+   "votos_total": 4956,
+   "votos_validos": 4762,
+   "ganador": "JORGE MARIO RENDON VELEZ",
+   "empate": [],
+   "margen_puntos": 5.69,
+   "votos": {
+    "ALBEIRO DE JESUS VERA VERGARA": 54,
+    "CARLOS MARIO PULGARIN MONTOYA": 9,
+    "DANIEL FELIPE CASTAÑO MESA": 830,
+    "JORGE MARIO RENDON VELEZ": 1430,
+    "MARIA ALEJANDRA GIRALDO VELEZ": 1056,
+    "RAUL ALEJANDRO MESA CORREA": 1159,
+    "VOTOS EN BLANCO": 222,
+    "VOTOS NO MARCADOS": 36,
+    "VOTOS NULOS": 158,
+    "YONNY SEBASTIAN MARIN SOTO": 2
+   }
+  },
+  {
+   "id": "CALDAS|01|03",
+   "nombre": "I.E. Gabriel Echavarría",
+   "nombre_oficial": "I.E.GABRIEL ECHAVARRIA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.11031134588921,
+   "lon": -75.636554725037,
+   "votos_total": 1955,
+   "votos_validos": 1870,
+   "ganador": "JORGE MARIO RENDON VELEZ",
+   "empate": [],
+   "margen_puntos": 4.17,
+   "votos": {
+    "ALBEIRO DE JESUS VERA VERGARA": 50,
+    "CARLOS MARIO PULGARIN MONTOYA": 2,
+    "DANIEL FELIPE CASTAÑO MESA": 224,
+    "JORGE MARIO RENDON VELEZ": 541,
+    "MARIA ALEJANDRA GIRALDO VELEZ": 463,
+    "RAUL ALEJANDRO MESA CORREA": 366,
+    "VOTOS EN BLANCO": 209,
+    "VOTOS NO MARCADOS": 36,
+    "VOTOS NULOS": 49,
+    "YONNY SEBASTIAN MARIN SOTO": 15
+   }
+  },
+  {
+   "id": "CALDAS|01|04",
+   "nombre": "I.E. Joaquín Aristizábal",
+   "nombre_oficial": "I.E. JOAQUIN ARISTIZABAL",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.095090726615503,
+   "lon": -75.6380004350074,
+   "votos_total": 6023,
+   "votos_validos": 5789,
+   "ganador": "JORGE MARIO RENDON VELEZ",
+   "empate": [],
+   "margen_puntos": 1.33,
+   "votos": {
+    "ALBEIRO DE JESUS VERA VERGARA": 61,
+    "CARLOS MARIO PULGARIN MONTOYA": 4,
+    "DANIEL FELIPE CASTAÑO MESA": 741,
+    "JORGE MARIO RENDON VELEZ": 1885,
+    "MARIA ALEJANDRA GIRALDO VELEZ": 1090,
+    "RAUL ALEJANDRO MESA CORREA": 1808,
+    "VOTOS EN BLANCO": 183,
+    "VOTOS NO MARCADOS": 108,
+    "VOTOS NULOS": 126,
+    "YONNY SEBASTIAN MARIN SOTO": 17
+   }
+  },
+  {
+   "id": "CALDAS|01|05",
+   "nombre": "Centro Integracion Ciudadana",
+   "nombre_oficial": "CENTRO INTEGRACION CIUDADANA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.094402628701978,
+   "lon": -75.6292725218523,
+   "votos_total": 1335,
+   "votos_validos": 1285,
+   "ganador": "JORGE MARIO RENDON VELEZ",
+   "empate": [],
+   "margen_puntos": 7.24,
+   "votos": {
+    "ALBEIRO DE JESUS VERA VERGARA": 10,
+    "CARLOS MARIO PULGARIN MONTOYA": 1,
+    "DANIEL FELIPE CASTAÑO MESA": 120,
+    "JORGE MARIO RENDON VELEZ": 467,
+    "MARIA ALEJANDRA GIRALDO VELEZ": 263,
+    "RAUL ALEJANDRO MESA CORREA": 374,
+    "VOTOS EN BLANCO": 48,
+    "VOTOS NO MARCADOS": 25,
+    "VOTOS NULOS": 25,
+    "YONNY SEBASTIAN MARIN SOTO": 2
+   }
+  },
+  {
+   "id": "CALDAS|02|01",
+   "nombre": "ESC. Federico Ángel",
+   "nombre_oficial": "ESC. FEDERICO ANGEL",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.085222563790863,
+   "lon": -75.6625118020313,
+   "votos_total": 3980,
+   "votos_validos": 3835,
+   "ganador": "JORGE MARIO RENDON VELEZ",
+   "empate": [],
+   "margen_puntos": 6.44,
+   "votos": {
+    "ALBEIRO DE JESUS VERA VERGARA": 43,
+    "CARLOS MARIO PULGARIN MONTOYA": 6,
+    "DANIEL FELIPE CASTAÑO MESA": 562,
+    "JORGE MARIO RENDON VELEZ": 1207,
+    "MARIA ALEJANDRA GIRALDO VELEZ": 905,
+    "RAUL ALEJANDRO MESA CORREA": 960,
+    "VOTOS EN BLANCO": 137,
+    "VOTOS NO MARCADOS": 56,
+    "VOTOS NULOS": 89,
+    "YONNY SEBASTIAN MARIN SOTO": 15
+   }
+  },
+  {
+   "id": "CALDAS|02|02",
+   "nombre": "ESC. María Auxiliadora",
+   "nombre_oficial": "ESC. MARIA AUXILIADORA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.090238013385239,
+   "lon": -75.6352806339425,
+   "votos_total": 6923,
+   "votos_validos": 6682,
+   "ganador": "JORGE MARIO RENDON VELEZ",
+   "empate": [],
+   "margen_puntos": 4.34,
+   "votos": {
+    "ALBEIRO DE JESUS VERA VERGARA": 86,
+    "CARLOS MARIO PULGARIN MONTOYA": 21,
+    "DANIEL FELIPE CASTAÑO MESA": 1010,
+    "JORGE MARIO RENDON VELEZ": 2146,
+    "MARIA ALEJANDRA GIRALDO VELEZ": 1246,
+    "RAUL ALEJANDRO MESA CORREA": 1856,
+    "VOTOS EN BLANCO": 283,
+    "VOTOS NO MARCADOS": 104,
+    "VOTOS NULOS": 137,
+    "YONNY SEBASTIAN MARIN SOTO": 34
+   }
+  },
+  {
+   "id": "CALDAS|02|03",
+   "nombre": "I.E. Santa Inés",
+   "nombre_oficial": "I.E. SANTA INES",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.084099715187073,
+   "lon": -75.6327218489349,
+   "votos_total": 1537,
+   "votos_validos": 1493,
+   "ganador": "RAUL ALEJANDRO MESA CORREA",
+   "empate": [],
+   "margen_puntos": 1.21,
+   "votos": {
+    "ALBEIRO DE JESUS VERA VERGARA": 15,
+    "CARLOS MARIO PULGARIN MONTOYA": 1,
+    "DANIEL FELIPE CASTAÑO MESA": 243,
+    "JORGE MARIO RENDON VELEZ": 436,
+    "MARIA ALEJANDRA GIRALDO VELEZ": 277,
+    "RAUL ALEJANDRO MESA CORREA": 454,
+    "VOTOS EN BLANCO": 59,
+    "VOTOS NO MARCADOS": 20,
+    "VOTOS NULOS": 24,
+    "YONNY SEBASTIAN MARIN SOTO": 8
+   }
+  },
+  {
+   "id": "CALDAS|02|04",
+   "nombre": "Parque Habitat del Sur",
+   "nombre_oficial": "PARQUE HABITAT DEL SUR",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.080502438498039,
+   "lon": -75.6346224509509,
+   "votos_total": 3004,
+   "votos_validos": 2891,
+   "ganador": "JORGE MARIO RENDON VELEZ",
+   "empate": [],
+   "margen_puntos": 3.36,
+   "votos": {
+    "ALBEIRO DE JESUS VERA VERGARA": 28,
+    "CARLOS MARIO PULGARIN MONTOYA": 6,
+    "DANIEL FELIPE CASTAÑO MESA": 426,
+    "JORGE MARIO RENDON VELEZ": 834,
+    "MARIA ALEJANDRA GIRALDO VELEZ": 737,
+    "RAUL ALEJANDRO MESA CORREA": 697,
+    "VOTOS EN BLANCO": 145,
+    "VOTOS NO MARCADOS": 42,
+    "VOTOS NULOS": 71,
+    "YONNY SEBASTIAN MARIN SOTO": 18
+   }
+  },
+  {
+   "id": "CALDAS|02|05",
+   "nombre": "IE Pedro Luis Álvarez C",
+   "nombre_oficial": "IE PEDRO LUIS ALVAREZ C",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.088745785619336,
+   "lon": -75.6346288962009,
+   "votos_total": 3452,
+   "votos_validos": 3263,
+   "ganador": "JORGE MARIO RENDON VELEZ",
+   "empate": [],
+   "margen_puntos": 2.76,
+   "votos": {
+    "ALBEIRO DE JESUS VERA VERGARA": 52,
+    "CARLOS MARIO PULGARIN MONTOYA": 13,
+    "DANIEL FELIPE CASTAÑO MESA": 393,
+    "JORGE MARIO RENDON VELEZ": 1083,
+    "MARIA ALEJANDRA GIRALDO VELEZ": 633,
+    "RAUL ALEJANDRO MESA CORREA": 993,
+    "VOTOS EN BLANCO": 82,
+    "VOTOS NO MARCADOS": 104,
+    "VOTOS NULOS": 85,
+    "YONNY SEBASTIAN MARIN SOTO": 14
+   }
+  },
+  {
+   "id": "CALDAS|02|06",
+   "nombre": "Coliseo",
+   "nombre_oficial": "COLISEO",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.08960058332295,
+   "lon": -75.6325542124367,
+   "votos_total": 4500,
+   "votos_validos": 4324,
+   "ganador": "JORGE MARIO RENDON VELEZ",
+   "empate": [],
+   "margen_puntos": 7.98,
+   "votos": {
+    "ALBEIRO DE JESUS VERA VERGARA": 69,
+    "CARLOS MARIO PULGARIN MONTOYA": 5,
+    "DANIEL FELIPE CASTAÑO MESA": 548,
+    "JORGE MARIO RENDON VELEZ": 1367,
+    "MARIA ALEJANDRA GIRALDO VELEZ": 1022,
+    "RAUL ALEJANDRO MESA CORREA": 1020,
+    "VOTOS EN BLANCO": 289,
+    "VOTOS NO MARCADOS": 52,
+    "VOTOS NULOS": 124,
+    "YONNY SEBASTIAN MARIN SOTO": 4
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "disponible"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

@@ -1,0 +1,373 @@
+{
+ "municipio": {
+  "cod_dane": "05697",
+  "cod_registraduria": "256",
+  "nombre": "El Santuario",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 17250,
+   "votos_validos": 16673,
+   "margen_puntos": 27.52,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Juan David Zuluaga Zuluaga",
+     "nombre_oficial": "JUAN DAVID ZULUAGA ZULUAGA",
+     "partido": "Con la Gente por el Santuario",
+     "partido_oficial": "CON LA GENTE POR EL SANTUARIO",
+     "familias": [],
+     "votos": 9319,
+     "porcentaje": 55.89,
+     "posicion": 1
+    },
+    {
+     "nombre": "Carlos Andrés Zuluaga Rivillas",
+     "nombre_oficial": "CARLOS ANDRES ZULUAGA RIVILLAS",
+     "partido": "El Santuario Rumbo Claro",
+     "partido_oficial": "EL SANTUARIO RUMBO CLARO",
+     "familias": [],
+     "votos": 4731,
+     "porcentaje": 28.38,
+     "posicion": 2
+    },
+    {
+     "nombre": "Juan Carlos Salazar Duque",
+     "nombre_oficial": "JUAN CARLOS SALAZAR DUQUE",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 2274,
+     "porcentaje": 13.64,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 349,
+    "VOTOS NO MARCADOS": 330,
+    "VOTOS NULOS": 247
+   }
+  },
+  "2023": {
+   "votos_depositados": 18998,
+   "votos_validos": 18424,
+   "margen_puntos": 2.08,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Martín Alberto Duque Gallo",
+     "nombre_oficial": "MARTIN ALBERTO DUQUE GALLO",
+     "partido": "Unidos con la Gente para Seguir Avanzando",
+     "partido_oficial": "UNIDOS CON LA GENTE PARA SEGUIR AVANZANDO",
+     "familias": [],
+     "votos": 5677,
+     "porcentaje": 30.81,
+     "posicion": 1
+    },
+    {
+     "nombre": "Héctor Alonso Duque Aristizábal",
+     "nombre_oficial": "HECTOR ALONSO DUQUE ARISTIZABAL",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 5293,
+     "porcentaje": 28.73,
+     "posicion": 2
+    },
+    {
+     "nombre": "Mario Alberto Gómez Salazar",
+     "nombre_oficial": "MARIO ALBERTO GOMEZ SALAZAR",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 4147,
+     "porcentaje": 22.51,
+     "posicion": 3
+    },
+    {
+     "nombre": "Juan Carlos Salazar Duque",
+     "nombre_oficial": "JUAN CARLOS SALAZAR DUQUE",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 2642,
+     "porcentaje": 14.34,
+     "posicion": 4
+    },
+    {
+     "nombre": "Jorge César Zuluaga López",
+     "nombre_oficial": "JORGE CESAR ZULUAGA LOPEZ",
+     "partido": "Partido Político la Fuerza de la Paz",
+     "partido_oficial": "PARTIDO POLÍTICO LA FUERZA DE LA PAZ",
+     "familias": [],
+     "votos": 275,
+     "porcentaje": 1.49,
+     "posicion": 5
+    },
+    {
+     "nombre": "Óscar Darío García Restrepo",
+     "nombre_oficial": "OSCAR DARIO GARCIA RESTREPO",
+     "partido": "Movimiento Salvación Nacional",
+     "partido_oficial": "MOVIMIENTO SALVACIÓN NACIONAL",
+     "familias": [
+      "SALV"
+     ],
+     "votos": 36,
+     "porcentaje": 0.2,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 354,
+    "VOTOS NO MARCADOS": 316,
+    "VOTOS NULOS": 258
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SANTUARIO|01|01",
+   "nombre": "I.E. Senderos",
+   "nombre_oficial": "I.E. SENDEROS",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.138698839204458,
+   "lon": -75.26643276214588,
+   "votos_total": 5150,
+   "votos_validos": 4951,
+   "ganador": "MARTIN ALBERTO DUQUE GALLO",
+   "empate": [],
+   "margen_puntos": 0.26,
+   "votos": {
+    "HECTOR ALONSO DUQUE ARISTIZABAL": 1512,
+    "JORGE CESAR ZULUAGA LOPEZ": 72,
+    "JUAN CARLOS SALAZAR DUQUE": 699,
+    "MARIO ALBERTO GOMEZ SALAZAR": 1045,
+    "MARTIN ALBERTO DUQUE GALLO": 1525,
+    "OSCAR DARIO GARCIA RESTREPO": 12,
+    "VOTOS EN BLANCO": 86,
+    "VOTOS NO MARCADOS": 112,
+    "VOTOS NULOS": 87
+   }
+  },
+  {
+   "id": "SANTUARIO|01|02",
+   "nombre": "Casa de la Cultura",
+   "nombre_oficial": "CASA DE LA CULTURA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.138311569705268,
+   "lon": -75.26525259017936,
+   "votos_total": 2318,
+   "votos_validos": 2249,
+   "ganador": "MARTIN ALBERTO DUQUE GALLO",
+   "empate": [],
+   "margen_puntos": 1.51,
+   "votos": {
+    "HECTOR ALONSO DUQUE ARISTIZABAL": 687,
+    "JORGE CESAR ZULUAGA LOPEZ": 26,
+    "JUAN CARLOS SALAZAR DUQUE": 281,
+    "MARIO ALBERTO GOMEZ SALAZAR": 489,
+    "MARTIN ALBERTO DUQUE GALLO": 721,
+    "OSCAR DARIO GARCIA RESTREPO": 4,
+    "VOTOS EN BLANCO": 41,
+    "VOTOS NO MARCADOS": 40,
+    "VOTOS NULOS": 29
+   }
+  },
+  {
+   "id": "SANTUARIO|01|03",
+   "nombre": "Parque Educativo",
+   "nombre_oficial": "PARQUE EDUCATIVO",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.140022345959693,
+   "lon": -75.2649637004563,
+   "votos_total": 2067,
+   "votos_validos": 1998,
+   "ganador": "MARTIN ALBERTO DUQUE GALLO",
+   "empate": [],
+   "margen_puntos": 3.6,
+   "votos": {
+    "HECTOR ALONSO DUQUE ARISTIZABAL": 584,
+    "JORGE CESAR ZULUAGA LOPEZ": 17,
+    "JUAN CARLOS SALAZAR DUQUE": 292,
+    "MARIO ALBERTO GOMEZ SALAZAR": 412,
+    "MARTIN ALBERTO DUQUE GALLO": 656,
+    "OSCAR DARIO GARCIA RESTREPO": 4,
+    "VOTOS EN BLANCO": 33,
+    "VOTOS NO MARCADOS": 39,
+    "VOTOS NULOS": 30
+   }
+  },
+  {
+   "id": "SANTUARIO|02|01",
+   "nombre": "Escuela Clara Zuluaga",
+   "nombre_oficial": "ESCUELA CLARA ZULUAGA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.1366115571298465,
+   "lon": -75.26189446449261,
+   "votos_total": 4722,
+   "votos_validos": 4581,
+   "ganador": "MARTIN ALBERTO DUQUE GALLO",
+   "empate": [],
+   "margen_puntos": 1.51,
+   "votos": {
+    "HECTOR ALONSO DUQUE ARISTIZABAL": 1295,
+    "JORGE CESAR ZULUAGA LOPEZ": 72,
+    "JUAN CARLOS SALAZAR DUQUE": 672,
+    "MARIO ALBERTO GOMEZ SALAZAR": 1088,
+    "MARTIN ALBERTO DUQUE GALLO": 1364,
+    "OSCAR DARIO GARCIA RESTREPO": 4,
+    "VOTOS EN BLANCO": 86,
+    "VOTOS NO MARCADOS": 78,
+    "VOTOS NULOS": 63
+   }
+  },
+  {
+   "id": "SANTUARIO|02|02",
+   "nombre": "INST.EDUC. José Ma Córdoba Pri",
+   "nombre_oficial": "INST.EDUC.JOSE MA CORDOBA PRI",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.134899627736505,
+   "lon": -75.26304244995113,
+   "votos_total": 4390,
+   "votos_validos": 4304,
+   "ganador": "MARTIN ALBERTO DUQUE GALLO",
+   "empate": [],
+   "margen_puntos": 3.35,
+   "votos": {
+    "HECTOR ALONSO DUQUE ARISTIZABAL": 1141,
+    "JORGE CESAR ZULUAGA LOPEZ": 88,
+    "JUAN CARLOS SALAZAR DUQUE": 658,
+    "MARIO ALBERTO GOMEZ SALAZAR": 1018,
+    "MARTIN ALBERTO DUQUE GALLO": 1285,
+    "OSCAR DARIO GARCIA RESTREPO": 10,
+    "VOTOS EN BLANCO": 104,
+    "VOTOS NO MARCADOS": 42,
+    "VOTOS NULOS": 44
+   }
+  },
+  {
+   "id": "SANTUARIO|99|08",
+   "nombre": "El Ramal",
+   "nombre_oficial": "EL RAMAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.120606499972756,
+   "lon": -75.19080228223844,
+   "votos_total": 105,
+   "votos_validos": 100,
+   "ganador": "MARTIN ALBERTO DUQUE GALLO",
+   "empate": [],
+   "margen_puntos": 14.0,
+   "votos": {
+    "HECTOR ALONSO DUQUE ARISTIZABAL": 25,
+    "JUAN CARLOS SALAZAR DUQUE": 8,
+    "MARIO ALBERTO GOMEZ SALAZAR": 24,
+    "MARTIN ALBERTO DUQUE GALLO": 39,
+    "OSCAR DARIO GARCIA RESTREPO": 2,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "SANTUARIO|99|40",
+   "nombre": "Pantanillo Vargas",
+   "nombre_oficial": "PANTANILLO VARGAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.146654315927232,
+   "lon": -75.28599895267268,
+   "votos_total": 246,
+   "votos_validos": 241,
+   "ganador": "MARTIN ALBERTO DUQUE GALLO",
+   "empate": [],
+   "margen_puntos": 6.64,
+   "votos": {
+    "HECTOR ALONSO DUQUE ARISTIZABAL": 49,
+    "JUAN CARLOS SALAZAR DUQUE": 32,
+    "MARIO ALBERTO GOMEZ SALAZAR": 71,
+    "MARTIN ALBERTO DUQUE GALLO": 87,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 3
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

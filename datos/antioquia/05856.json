@@ -1,0 +1,230 @@
+{
+ "municipio": {
+  "cod_dane": "05856",
+  "cod_registraduria": "289",
+  "nombre": "Valparaíso",
+  "subregion": "Suroeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 3743,
+   "votos_validos": 3666,
+   "margen_puntos": 40.51,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Jaime Alberto Rincón Galvis",
+     "nombre_oficial": "JAIME ALBERTO RINCON GALVIS",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 2329,
+     "porcentaje": 63.53,
+     "posicion": 1
+    },
+    {
+     "nombre": "Dalgy Bibiana Rico Ángel",
+     "nombre_oficial": "DALGY BIBIANA RICO ANGEL",
+     "partido": "Compromiso y Gestión por Valparaiso",
+     "partido_oficial": "COMPROMISO Y GESTION POR VALPARAISO",
+     "familias": [],
+     "votos": 844,
+     "porcentaje": 23.02,
+     "posicion": 2
+    },
+    {
+     "nombre": "José Mario Ángel Vásquez",
+     "nombre_oficial": "JOSE MARIO ANGEL VASQUEZ",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 430,
+     "porcentaje": 11.73,
+     "posicion": 3
+    },
+    {
+     "nombre": "Elkin Adolfo Zuleta Giraldo",
+     "nombre_oficial": "ELKIN ADOLFO ZULETA GIRALDO",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 33,
+     "porcentaje": 0.9,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 50,
+    "VOTOS EN BLANCO": 30,
+    "VOTOS NULOS": 27
+   }
+  },
+  "2023": {
+   "votos_depositados": 3586,
+   "votos_validos": 3510,
+   "margen_puntos": 16.24,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "José Mario Hernández Devia",
+     "nombre_oficial": "JOSE MARIO HERNANDEZ DEVIA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1580,
+     "porcentaje": 45.01,
+     "posicion": 1
+    },
+    {
+     "nombre": "Sergio Andrés Ceballos López",
+     "nombre_oficial": "SERGIO ANDRES CEBALLOS LOPEZ",
+     "partido": "Valparaiso Un Hogar de Oportunidades",
+     "partido_oficial": "VALPARAISO UN HOGAR DE OPORTUNIDADES",
+     "familias": [],
+     "votos": 1010,
+     "porcentaje": 28.77,
+     "posicion": 2
+    },
+    {
+     "nombre": "Norbey de Jesús Garzón Valencia",
+     "nombre_oficial": "NORBEY DE JESUS GARZON VALENCIA",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 862,
+     "porcentaje": 24.56,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 58,
+    "VOTOS NO MARCADOS": 45,
+    "VOTOS NULOS": 31
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": true,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "CONS"
+  ],
+  "familias_2023": [
+   "CONS"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "VALPARAISO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 5.617,
+   "lon": -75.6221,
+   "votos_total": 3547,
+   "votos_validos": 3474,
+   "ganador": "JOSE MARIO HERNANDEZ DEVIA",
+   "empate": [],
+   "margen_puntos": 16.32,
+   "votos": {
+    "JOSE MARIO HERNANDEZ DEVIA": 1563,
+    "NORBEY DE JESUS GARZON VALENCIA": 857,
+    "SERGIO ANDRES CEBALLOS LOPEZ": 996,
+    "VOTOS EN BLANCO": 58,
+    "VOTOS NO MARCADOS": 43,
+    "VOTOS NULOS": 30
+   }
+  },
+  {
+   "id": "VALPARAISO|99|80",
+   "nombre": "La Fabiana",
+   "nombre_oficial": "LA FABIANA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.664324352,
+   "lon": -75.64949636,
+   "votos_total": 39,
+   "votos_validos": 36,
+   "ganador": "JOSE MARIO HERNANDEZ DEVIA",
+   "empate": [],
+   "margen_puntos": 8.33,
+   "votos": {
+    "JOSE MARIO HERNANDEZ DEVIA": 17,
+    "NORBEY DE JESUS GARZON VALENCIA": 5,
+    "SERGIO ANDRES CEBALLOS LOPEZ": 14,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

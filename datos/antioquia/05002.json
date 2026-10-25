@@ -1,0 +1,329 @@
+{
+ "municipio": {
+  "cod_dane": "05002",
+  "cod_registraduria": "004",
+  "nombre": "Abejorral",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 8719,
+   "votos_validos": 8173,
+   "margen_puntos": 13.5,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Julián Andrés Muñoz López",
+     "nombre_oficial": "JULIAN ANDRES MUÑOZ LOPEZ",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 2908,
+     "porcentaje": 35.58,
+     "posicion": 1
+    },
+    {
+     "nombre": "Henry Cardona Aguirre",
+     "nombre_oficial": "HENRY CARDONA AGUIRRE",
+     "partido": "Juntos por el Progreso",
+     "partido_oficial": "JUNTOS POR EL PROGRESO",
+     "familias": [],
+     "votos": 1805,
+     "porcentaje": 22.08,
+     "posicion": 2
+    },
+    {
+     "nombre": "Manuel Alberto Guzmán Marín",
+     "nombre_oficial": "MANUEL ALBERTO GUZMAN MARIN",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1543,
+     "porcentaje": 18.88,
+     "posicion": 3
+    },
+    {
+     "nombre": "Iván de Jesús García Rincón",
+     "nombre_oficial": "IVAN DE JESUS GARCIA RINCON",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDIGENAS DE COLOMBIA AICO",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 1271,
+     "porcentaje": 15.55,
+     "posicion": 4
+    },
+    {
+     "nombre": "Gustavo Andrés Marín Correa",
+     "nombre_oficial": "GUSTAVO ANDRES MARIN CORREA",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 497,
+     "porcentaje": 6.08,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 325,
+    "VOTOS NULOS": 221,
+    "VOTOS EN BLANCO": 149
+   }
+  },
+  "2023": {
+   "votos_depositados": 8765,
+   "votos_validos": 8370,
+   "margen_puntos": 16.77,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Manuel Alberto Guzmán Marín",
+     "nombre_oficial": "MANUEL ALBERTO GUZMAN MARIN",
+     "partido": "Unidos Volvemos a Creer",
+     "partido_oficial": "UNIDOS VOLVEMOS A CREER",
+     "familias": [],
+     "votos": 4801,
+     "porcentaje": 57.36,
+     "posicion": 1
+    },
+    {
+     "nombre": "Sergio Alonso Rincón Arias",
+     "nombre_oficial": "SERGIO ALONSO RINCON ARIAS",
+     "partido": "Coalición de la Gente",
+     "partido_oficial": "COALICIÓN DE LA GENTE",
+     "familias": [],
+     "votos": 3397,
+     "porcentaje": 40.59,
+     "posicion": 2
+    },
+    {
+     "nombre": "Juan Alejandro Duque Correa",
+     "nombre_oficial": "JUAN ALEJANDRO DUQUE CORREA",
+     "partido": "Movimiento Salvación Nacional",
+     "partido_oficial": "MOVIMIENTO SALVACIÓN NACIONAL",
+     "familias": [
+      "SALV"
+     ],
+     "votos": 46,
+     "porcentaje": 0.55,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 269,
+    "VOTOS NULOS": 126,
+    "VOTOS EN BLANCO": 126
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CD"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "ABEJORRAL|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 5.791291753847486,
+   "lon": -75.4270434379577,
+   "votos_total": 7409,
+   "votos_validos": 7090,
+   "ganador": "MANUEL ALBERTO GUZMAN MARIN",
+   "empate": [],
+   "margen_puntos": 18.84,
+   "votos": {
+    "JUAN ALEJANDRO DUQUE CORREA": 41,
+    "MANUEL ALBERTO GUZMAN MARIN": 4137,
+    "SERGIO ALONSO RINCON ARIAS": 2801,
+    "VOTOS EN BLANCO": 111,
+    "VOTOS NO MARCADOS": 204,
+    "VOTOS NULOS": 115
+   }
+  },
+  {
+   "id": "ABEJORRAL|99|01",
+   "nombre": "Pantanillo",
+   "nombre_oficial": "PANTANILLO",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.729792790790653,
+   "lon": -75.49087617054766,
+   "votos_total": 562,
+   "votos_validos": 538,
+   "ganador": "SERGIO ALONSO RINCON ARIAS",
+   "empate": [],
+   "margen_puntos": 24.91,
+   "votos": {
+    "JUAN ALEJANDRO DUQUE CORREA": 3,
+    "MANUEL ALBERTO GUZMAN MARIN": 197,
+    "SERGIO ALONSO RINCON ARIAS": 331,
+    "VOTOS EN BLANCO": 7,
+    "VOTOS NO MARCADOS": 20,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "ABEJORRAL|99|09",
+   "nombre": "Chagualal",
+   "nombre_oficial": "CHAGUALAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.798966696392196,
+   "lon": -75.51130771636961,
+   "votos_total": 371,
+   "votos_validos": 350,
+   "ganador": "MANUEL ALBERTO GUZMAN MARIN",
+   "empate": [],
+   "margen_puntos": 48.29,
+   "votos": {
+    "JUAN ALEJANDRO DUQUE CORREA": 1,
+    "MANUEL ALBERTO GUZMAN MARIN": 258,
+    "SERGIO ALONSO RINCON ARIAS": 89,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 18,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "ABEJORRAL|99|11",
+   "nombre": "Guaico Grande",
+   "nombre_oficial": "GUAICO GRANDE",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.912915369813768,
+   "lon": -75.45009662911811,
+   "votos_total": 210,
+   "votos_validos": 185,
+   "ganador": "MANUEL ALBERTO GUZMAN MARIN",
+   "empate": [],
+   "margen_puntos": 21.62,
+   "votos": {
+    "MANUEL ALBERTO GUZMAN MARIN": 110,
+    "SERGIO ALONSO RINCON ARIAS": 70,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 21,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "ABEJORRAL|99|17",
+   "nombre": "Portugal",
+   "nombre_oficial": "PORTUGAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.829838070719941,
+   "lon": -75.50195090143056,
+   "votos_total": 86,
+   "votos_validos": 85,
+   "ganador": "SERGIO ALONSO RINCON ARIAS",
+   "empate": [],
+   "margen_puntos": 10.59,
+   "votos": {
+    "MANUEL ALBERTO GUZMAN MARIN": 38,
+    "SERGIO ALONSO RINCON ARIAS": 47,
+    "VOTOS NO MARCADOS": 1
+   }
+  },
+  {
+   "id": "ABEJORRAL|99|40",
+   "nombre": "Purima",
+   "nombre_oficial": "PURIMA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.727361104663184,
+   "lon": -75.4410552978516,
+   "votos_total": 114,
+   "votos_validos": 111,
+   "ganador": "MANUEL ALBERTO GUZMAN MARIN",
+   "empate": [],
+   "margen_puntos": 9.91,
+   "votos": {
+    "JUAN ALEJANDRO DUQUE CORREA": 1,
+    "MANUEL ALBERTO GUZMAN MARIN": 60,
+    "SERGIO ALONSO RINCON ARIAS": 49,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 3
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel Municipal",
+   "nombre_oficial": "CARCEL MUNICIPAL",
+   "votos": 13,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

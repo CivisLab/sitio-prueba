@@ -1,0 +1,268 @@
+{
+ "municipio": {
+  "cod_dane": "05858",
+  "cod_registraduria": "290",
+  "nombre": "Vegachí",
+  "subregion": "Nordeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 5823,
+   "votos_validos": 5617,
+   "margen_puntos": 4.79,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Deison Ulilo Acevedo Méndez",
+     "nombre_oficial": "DEISON ULILO ACEVEDO MENDEZ",
+     "partido": "Vegachi Un Proyecto de Todos",
+     "partido_oficial": "VEGACHI UN PROYECTO DE TODOS",
+     "familias": [],
+     "votos": 2236,
+     "porcentaje": 39.81,
+     "posicion": 1
+    },
+    {
+     "nombre": "Olman de Jesús Ríos Vásquez",
+     "nombre_oficial": "OLMAN DE JESUS RIOS VASQUEZ",
+     "partido": "Una Propuesta Clara Un Gobierno para Todos",
+     "partido_oficial": "UNA PROPUESTA CLARA UN GOBIERNO PARA TODOS",
+     "familias": [],
+     "votos": 1967,
+     "porcentaje": 35.02,
+     "posicion": 2
+    },
+    {
+     "nombre": "Faber Armando Vidal Escudero",
+     "nombre_oficial": "FABER ARMANDO VIDAL ESCUDERO",
+     "partido": "Partido Conservador Colombiano - Alianza Verde",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO  - ALIANZA VERDE",
+     "familias": [
+      "CONS",
+      "VERDE"
+     ],
+     "votos": 1319,
+     "porcentaje": 23.48,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 135,
+    "VOTOS EN BLANCO": 95,
+    "VOTOS NULOS": 71
+   }
+  },
+  "2023": {
+   "votos_depositados": 6665,
+   "votos_validos": 6468,
+   "margen_puntos": 5.41,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "José María Ochoa Muñoz",
+     "nombre_oficial": "JOSE MARIA OCHOA MUÑOZ",
+     "partido": "Vegachi en Buenas Manos",
+     "partido_oficial": "VEGACHI EN BUENAS MANOS",
+     "familias": [],
+     "votos": 3098,
+     "porcentaje": 47.9,
+     "posicion": 1
+    },
+    {
+     "nombre": "Sebastián Vélez Sierra",
+     "nombre_oficial": "SEBASTIAN VELEZ SIERRA",
+     "partido": "Vegachi ¡Cambia!",
+     "partido_oficial": "VEGACHI ¡CAMBIA!",
+     "familias": [],
+     "votos": 2748,
+     "porcentaje": 42.49,
+     "posicion": 2
+    },
+    {
+     "nombre": "Gloria Amparo Mejía Mejía",
+     "nombre_oficial": "GLORIA AMPARO MEJIA MEJIA",
+     "partido": "Partido Demócrata Colombiano",
+     "partido_oficial": "PARTIDO DEMÓCRATA COLOMBIANO",
+     "familias": [],
+     "votos": 461,
+     "porcentaje": 7.13,
+     "posicion": 3
+    },
+    {
+     "nombre": "Alonso Alirio Higuita Taborda",
+     "nombre_oficial": "ALONSO ALIRIO HIGUITA TABORDA",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 66,
+     "porcentaje": 1.02,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 112,
+    "VOTOS EN BLANCO": 95,
+    "VOTOS NULOS": 85
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "VEGACHI|00|01",
+   "nombre": "Institución Educativa Efe Gómez Bloque 2",
+   "nombre_oficial": "INSTITUCION EDUCATIVA EFE GOMEZ BLOQUE 2",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.770245899999999,
+   "lon": -74.7976213,
+   "votos_total": 3672,
+   "votos_validos": 3535,
+   "ganador": "JOSE MARIA OCHOA MUÑOZ",
+   "empate": [],
+   "margen_puntos": 9.9,
+   "votos": {
+    "ALONSO ALIRIO HIGUITA TABORDA": 10,
+    "GLORIA AMPARO MEJIA MEJIA": 255,
+    "JOSE MARIA OCHOA MUÑOZ": 1790,
+    "SEBASTIAN VELEZ SIERRA": 1440,
+    "VOTOS EN BLANCO": 40,
+    "VOTOS NO MARCADOS": 78,
+    "VOTOS NULOS": 59
+   }
+  },
+  {
+   "id": "VEGACHI|00|02",
+   "nombre": "Institución Educativa Efe Gómez Bloque 1",
+   "nombre_oficial": "INSTITUCION EDUCATIVA EFE GOMEZ BLOQUE 1",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.7701946345454065,
+   "lon": -74.79717959361622,
+   "votos_total": 2312,
+   "votos_validos": 2277,
+   "ganador": "SEBASTIAN VELEZ SIERRA",
+   "empate": [],
+   "margen_puntos": 6.72,
+   "votos": {
+    "ALONSO ALIRIO HIGUITA TABORDA": 19,
+    "GLORIA AMPARO MEJIA MEJIA": 186,
+    "JOSE MARIA OCHOA MUÑOZ": 937,
+    "SEBASTIAN VELEZ SIERRA": 1090,
+    "VOTOS EN BLANCO": 45,
+    "VOTOS NO MARCADOS": 17,
+    "VOTOS NULOS": 18
+   }
+  },
+  {
+   "id": "VEGACHI|99|01",
+   "nombre": "I.E. John F. Kennedy Sede el Cinco",
+   "nombre_oficial": "I.E. JOHN F. KENNEDY SEDE EL CINCO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.820307379369299,
+   "lon": -74.6807270584352,
+   "votos_total": 99,
+   "votos_validos": 97,
+   "ganador": "JOSE MARIA OCHOA MUÑOZ",
+   "empate": [],
+   "margen_puntos": 47.42,
+   "votos": {
+    "ALONSO ALIRIO HIGUITA TABORDA": 1,
+    "GLORIA AMPARO MEJIA MEJIA": 2,
+    "JOSE MARIA OCHOA MUÑOZ": 70,
+    "SEBASTIAN VELEZ SIERRA": 24,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "VEGACHI|99|40",
+   "nombre": "El Tigre",
+   "nombre_oficial": "EL TIGRE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.861574226333712,
+   "lon": -74.7983921615221,
+   "votos_total": 582,
+   "votos_validos": 559,
+   "ganador": "JOSE MARIA OCHOA MUÑOZ",
+   "empate": [],
+   "margen_puntos": 19.14,
+   "votos": {
+    "ALONSO ALIRIO HIGUITA TABORDA": 36,
+    "GLORIA AMPARO MEJIA MEJIA": 18,
+    "JOSE MARIA OCHOA MUÑOZ": 301,
+    "SEBASTIAN VELEZ SIERRA": 194,
+    "VOTOS EN BLANCO": 10,
+    "VOTOS NO MARCADOS": 17,
+    "VOTOS NULOS": 6
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

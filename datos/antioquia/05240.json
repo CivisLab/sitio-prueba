@@ -1,0 +1,333 @@
+{
+ "municipio": {
+  "cod_dane": "05240",
+  "cod_registraduria": "115",
+  "nombre": "Ebéjico",
+  "subregion": "Occidente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 6512,
+   "votos_validos": 6272,
+   "margen_puntos": 31.62,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Edisson Ariel Tamayo Maya",
+     "nombre_oficial": "EDISSON ARIEL TAMAYO MAYA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 3875,
+     "porcentaje": 61.78,
+     "posicion": 1
+    },
+    {
+     "nombre": "Manuel Salvador Zapata Cuadros",
+     "nombre_oficial": "MANUEL SALVADOR ZAPATA CUADROS",
+     "partido": "Retomando el Rumbo",
+     "partido_oficial": "RETOMANDO EL RUMBO",
+     "familias": [],
+     "votos": 1892,
+     "porcentaje": 30.17,
+     "posicion": 2
+    },
+    {
+     "nombre": "Erikson Sánchez Ramírez",
+     "nombre_oficial": "ERIKSON SANCHEZ RAMIREZ",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 380,
+     "porcentaje": 6.06,
+     "posicion": 3
+    },
+    {
+     "nombre": "Carlos Alberto Cortes Arias",
+     "nombre_oficial": "CARLOS ALBERTO CORTES ARIAS",
+     "partido": "Partido Conservador Colombiano - Alianza Verde - Partido de la U",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO  - ALIANZA VERDE - PARTIDO DE LA U",
+     "familias": [
+      "CONS",
+      "U",
+      "VERDE"
+     ],
+     "votos": 27,
+     "porcentaje": 0.43,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NULOS": 123,
+    "VOTOS NO MARCADOS": 117,
+    "VOTOS EN BLANCO": 98
+   }
+  },
+  "2023": {
+   "votos_depositados": 7063,
+   "votos_validos": 6822,
+   "margen_puntos": 13.98,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "David Alonso Restrepo Castrillon",
+     "nombre_oficial": "DAVID ALONSO RESTREPO CASTRILLON",
+     "partido": "Unidos por Un Ebéjico Mejor",
+     "partido_oficial": "UNIDOS POR UN EBÉJICO MEJOR",
+     "familias": [],
+     "votos": 2853,
+     "porcentaje": 41.82,
+     "posicion": 1
+    },
+    {
+     "nombre": "Juan David Betancur Bedoya",
+     "nombre_oficial": "JUAN DAVID BETANCUR BEDOYA",
+     "partido": "Sigamos Construyendo Progreso",
+     "partido_oficial": "SIGAMOS CONSTRUYENDO PROGRESO",
+     "familias": [],
+     "votos": 1899,
+     "porcentaje": 27.84,
+     "posicion": 2
+    },
+    {
+     "nombre": "Ángel David Caro Moran",
+     "nombre_oficial": "ANGEL DAVID CARO MORAN",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 1403,
+     "porcentaje": 20.57,
+     "posicion": 3
+    },
+    {
+     "nombre": "Darío Antonio Velásquez Ortiz",
+     "nombre_oficial": "DARIO ANTONIO VELASQUEZ ORTIZ",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 581,
+     "porcentaje": 8.52,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 161,
+    "VOTOS EN BLANCO": 86,
+    "VOTOS NULOS": 80
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CD"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "EBEJICO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.326385829,
+   "lon": -75.7692282999999,
+   "votos_total": 4128,
+   "votos_validos": 3993,
+   "ganador": "DAVID ALONSO RESTREPO CASTRILLON",
+   "empate": [],
+   "margen_puntos": 21.91,
+   "votos": {
+    "ANGEL DAVID CARO MORAN": 793,
+    "DARIO ANTONIO VELASQUEZ ORTIZ": 278,
+    "DAVID ALONSO RESTREPO CASTRILLON": 1871,
+    "JUAN DAVID BETANCUR BEDOYA": 996,
+    "VOTOS EN BLANCO": 55,
+    "VOTOS NO MARCADOS": 88,
+    "VOTOS NULOS": 47
+   }
+  },
+  {
+   "id": "EBEJICO|99|05",
+   "nombre": "Brasil",
+   "nombre_oficial": "BRASIL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.339941811,
+   "lon": -75.7321601699999,
+   "votos_total": 735,
+   "votos_validos": 707,
+   "ganador": "JUAN DAVID BETANCUR BEDOYA",
+   "empate": [],
+   "margen_puntos": 4.53,
+   "votos": {
+    "ANGEL DAVID CARO MORAN": 80,
+    "DARIO ANTONIO VELASQUEZ ORTIZ": 158,
+    "DAVID ALONSO RESTREPO CASTRILLON": 216,
+    "JUAN DAVID BETANCUR BEDOYA": 248,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 17,
+    "VOTOS NULOS": 11
+   }
+  },
+  {
+   "id": "EBEJICO|99|06",
+   "nombre": "El Zarzal",
+   "nombre_oficial": "EL ZARZAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.31921227884565,
+   "lon": -75.7541817426679,
+   "votos_total": 120,
+   "votos_validos": 116,
+   "ganador": "DAVID ALONSO RESTREPO CASTRILLON",
+   "empate": [],
+   "margen_puntos": 51.72,
+   "votos": {
+    "ANGEL DAVID CARO MORAN": 13,
+    "DARIO ANTONIO VELASQUEZ ORTIZ": 7,
+    "DAVID ALONSO RESTREPO CASTRILLON": 78,
+    "JUAN DAVID BETANCUR BEDOYA": 18,
+    "VOTOS NO MARCADOS": 1,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "EBEJICO|99|07",
+   "nombre": "Guayabal",
+   "nombre_oficial": "GUAYABAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.386044660999998,
+   "lon": -75.7590949199998,
+   "votos_total": 120,
+   "votos_validos": 114,
+   "ganador": "DAVID ALONSO RESTREPO CASTRILLON",
+   "empate": [],
+   "margen_puntos": 10.53,
+   "votos": {
+    "ANGEL DAVID CARO MORAN": 36,
+    "DARIO ANTONIO VELASQUEZ ORTIZ": 1,
+    "DAVID ALONSO RESTREPO CASTRILLON": 48,
+    "JUAN DAVID BETANCUR BEDOYA": 28,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 6
+   }
+  },
+  {
+   "id": "EBEJICO|99|09",
+   "nombre": "La Clara",
+   "nombre_oficial": "LA CLARA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.278808435,
+   "lon": -75.7604843,
+   "votos_total": 368,
+   "votos_validos": 358,
+   "ganador": "ANGEL DAVID CARO MORAN",
+   "empate": [],
+   "margen_puntos": 8.38,
+   "votos": {
+    "ANGEL DAVID CARO MORAN": 124,
+    "DARIO ANTONIO VELASQUEZ ORTIZ": 55,
+    "DAVID ALONSO RESTREPO CASTRILLON": 79,
+    "JUAN DAVID BETANCUR BEDOYA": 94,
+    "VOTOS EN BLANCO": 6,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "EBEJICO|99|25",
+   "nombre": "Sevilla",
+   "nombre_oficial": "SEVILLA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.294525,
+   "lon": -75.78493889,
+   "votos_total": 1592,
+   "votos_validos": 1534,
+   "ganador": "DAVID ALONSO RESTREPO CASTRILLON",
+   "empate": [],
+   "margen_puntos": 3.0,
+   "votos": {
+    "ANGEL DAVID CARO MORAN": 357,
+    "DARIO ANTONIO VELASQUEZ ORTIZ": 82,
+    "DAVID ALONSO RESTREPO CASTRILLON": 561,
+    "JUAN DAVID BETANCUR BEDOYA": 515,
+    "VOTOS EN BLANCO": 19,
+    "VOTOS NO MARCADOS": 42,
+    "VOTOS NULOS": 16
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

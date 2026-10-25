@@ -1,0 +1,749 @@
+{
+ "municipio": {
+  "cod_dane": "05318",
+  "cod_registraduria": "142",
+  "nombre": "Guarne",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 24112,
+   "votos_validos": 23409,
+   "margen_puntos": 10.04,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Marcelo Betancur Rivera",
+     "nombre_oficial": "MARCELO BETANCUR RIVERA",
+     "partido": "Pasion por Guarne",
+     "partido_oficial": "PASION POR GUARNE",
+     "familias": [],
+     "votos": 6241,
+     "porcentaje": 26.66,
+     "posicion": 1
+    },
+    {
+     "nombre": "Diego Mauricio Grisales Gallego",
+     "nombre_oficial": "DIEGO MAURICIO GRISALES GALLEGO",
+     "partido": "Tu Sueño Es Mi Compromiso",
+     "partido_oficial": "TU SUEÑO ES MI COMPROMISO",
+     "familias": [],
+     "votos": 3890,
+     "porcentaje": 16.62,
+     "posicion": 2
+    },
+    {
+     "nombre": "Víctor Hugo Herrera Rivera",
+     "nombre_oficial": "VICTOR HUGO HERRERA RIVERA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 3089,
+     "porcentaje": 13.2,
+     "posicion": 3
+    },
+    {
+     "nombre": "Luis Eduardo Ochoa Londoño",
+     "nombre_oficial": "LUIS EDUARDO OCHOA LONDOÑO",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 2802,
+     "porcentaje": 11.97,
+     "posicion": 4
+    },
+    {
+     "nombre": "Luis Enrique Carvajal Marín",
+     "nombre_oficial": "LUIS ENRIQUE CARVAJAL MARIN",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 2618,
+     "porcentaje": 11.18,
+     "posicion": 5
+    },
+    {
+     "nombre": "Eduard Santiago Ospina",
+     "nombre_oficial": "EDUARD SANTIAGO OSPINA",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDIGENAS DE COLOMBIA AICO",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 2417,
+     "porcentaje": 10.33,
+     "posicion": 6
+    },
+    {
+     "nombre": "Julián Osorno Cardona",
+     "nombre_oficial": "JULIAN OSORNO CARDONA",
+     "partido": "Podemos Ser Más",
+     "partido_oficial": "PODEMOS SER MAS",
+     "familias": [],
+     "votos": 1248,
+     "porcentaje": 5.33,
+     "posicion": 7
+    },
+    {
+     "nombre": "Carlos Alberto Zuleta Hincapie",
+     "nombre_oficial": "CARLOS ALBERTO ZULETA HINCAPIE",
+     "partido": "Partido de Reivindicacion Etnica Pre",
+     "partido_oficial": "PARTIDO DE REIVINDICACION ETNICA \"PRE\"",
+     "familias": [],
+     "votos": 184,
+     "porcentaje": 0.79,
+     "posicion": 8
+    },
+    {
+     "nombre": "Leonardo Fabio Agudelo Castaño",
+     "nombre_oficial": "LEONARDO FABIO AGUDELO CASTAÑO",
+     "partido": "Movimiento Alternativo Indigena y Social MAIS",
+     "partido_oficial": "MOVIMIENTO ALTERNATIVO INDIGENA Y SOCIAL MAIS",
+     "familias": [
+      "MAIS"
+     ],
+     "votos": 169,
+     "porcentaje": 0.72,
+     "posicion": 9
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 751,
+    "VOTOS NULOS": 383,
+    "VOTOS NO MARCADOS": 320
+   }
+  },
+  "2023": {
+   "votos_depositados": 28660,
+   "votos_validos": 27747,
+   "margen_puntos": 0.96,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Diego Mauricio Grisales Gallego",
+     "nombre_oficial": "DIEGO MAURICIO GRISALES GALLEGO",
+     "partido": "Por Todo Lo Que Nos Une",
+     "partido_oficial": "POR TODO LO QUE NOS UNE",
+     "familias": [],
+     "votos": 6277,
+     "porcentaje": 22.62,
+     "posicion": 1
+    },
+    {
+     "nombre": "Luis Enrique Carvajal Marín",
+     "nombre_oficial": "LUIS ENRIQUE CARVAJAL MARIN",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 6011,
+     "porcentaje": 21.66,
+     "posicion": 2
+    },
+    {
+     "nombre": "Diana Francedy Carvajal Zapata",
+     "nombre_oficial": "DIANA FRANCEDY CARVAJAL ZAPATA",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 3066,
+     "porcentaje": 11.05,
+     "posicion": 3
+    },
+    {
+     "nombre": "María Camila Osorno Isaza",
+     "nombre_oficial": "MARIA CAMILA OSORNO ISAZA",
+     "partido": "Partido Colombia Justa Libres",
+     "partido_oficial": "PARTIDO COLOMBIA JUSTA LIBRES",
+     "familias": [
+      "COL_JUSTA"
+     ],
+     "votos": 2216,
+     "porcentaje": 7.99,
+     "posicion": 4
+    },
+    {
+     "nombre": "Sneyder Willington Quiceno Marín",
+     "nombre_oficial": "SNEYDER WILLINGTON QUICENO MARIN",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1886,
+     "porcentaje": 6.8,
+     "posicion": 5
+    },
+    {
+     "nombre": "Carlos Adrián Ospina Hurtado",
+     "nombre_oficial": "CARLOS ADRIAN OSPINA HURTADO",
+     "partido": "Juntos Transformamos",
+     "partido_oficial": "JUNTOS TRANSFORMAMOS",
+     "familias": [],
+     "votos": 1498,
+     "porcentaje": 5.4,
+     "posicion": 6
+    },
+    {
+     "nombre": "Mara Juan Esteban Duque Zapata",
+     "nombre_oficial": "MARA JUAN ESTEBAN DUQUE ZAPATA",
+     "partido": "Movimiento Salvación Nacional",
+     "partido_oficial": "MOVIMIENTO SALVACIÓN NACIONAL",
+     "familias": [
+      "SALV"
+     ],
+     "votos": 1262,
+     "porcentaje": 4.55,
+     "posicion": 7
+    },
+    {
+     "nombre": "José Oliverio Cano Gallego",
+     "nombre_oficial": "JOSE OLIVERIO CANO GALLEGO",
+     "partido": "Agrupación Política en Marcha",
+     "partido_oficial": "AGRUPACIÓN POLÍTICA EN MARCHA",
+     "familias": [],
+     "votos": 1207,
+     "porcentaje": 4.35,
+     "posicion": 8
+    },
+    {
+     "nombre": "Andrés Felipe Posada Zapata",
+     "nombre_oficial": "ANDRES FELIPE POSADA ZAPATA",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 1125,
+     "porcentaje": 4.05,
+     "posicion": 9
+    },
+    {
+     "nombre": "Esteban Gómez Zapata",
+     "nombre_oficial": "ESTEBAN GOMEZ ZAPATA",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 830,
+     "porcentaje": 2.99,
+     "posicion": 10
+    },
+    {
+     "nombre": "Diego Alexander Arias Sánchez",
+     "nombre_oficial": "DIEGO ALEXANDER ARIAS SANCHEZ",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 639,
+     "porcentaje": 2.3,
+     "posicion": 11
+    },
+    {
+     "nombre": "Luis Ignacio Orrego Delgado",
+     "nombre_oficial": "LUIS IGNACIO ORREGO DELGADO",
+     "partido": "Pacto Histórico",
+     "partido_oficial": "PACTO HISTORICO",
+     "familias": [
+      "PACTO"
+     ],
+     "votos": 549,
+     "porcentaje": 1.98,
+     "posicion": 12
+    },
+    {
+     "nombre": "Carlos Alberto Zuleta Hincapie",
+     "nombre_oficial": "CARLOS ALBERTO ZULETA HINCAPIE",
+     "partido": "Movimiento Alternativo Indígena y Social MAIS",
+     "partido_oficial": "MOVIMIENTO ALTERNATIVO INDÍGENA Y SOCIAL \"MAIS\"",
+     "familias": [
+      "MAIS"
+     ],
+     "votos": 191,
+     "porcentaje": 0.69,
+     "posicion": 13
+    },
+    {
+     "nombre": "Beltrán Rodrigo Herrera Montoya",
+     "nombre_oficial": "BELTRAN RODRIGO HERRERA MONTOYA",
+     "partido": "Partido Político Dignidad & Compromiso",
+     "partido_oficial": "PARTIDO POLÍTICO DIGNIDAD & COMPROMISO",
+     "familias": [],
+     "votos": 18,
+     "porcentaje": 0.06,
+     "posicion": 14
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 972,
+    "VOTOS NULOS": 484,
+    "VOTOS NO MARCADOS": 429
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "GUARNE|01|01",
+   "nombre": "INST. Educativa Santo Tomás",
+   "nombre_oficial": "INST. EDUCATIVA SANTO TOMAS",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.279125906956977,
+   "lon": -75.443115234375,
+   "votos_total": 4939,
+   "votos_validos": 4756,
+   "ganador": "LUIS ENRIQUE CARVAJAL MARIN",
+   "empate": [],
+   "margen_puntos": 1.35,
+   "votos": {
+    "ANDRES FELIPE POSADA ZAPATA": 241,
+    "BELTRAN RODRIGO HERRERA MONTOYA": 3,
+    "CARLOS ADRIAN OSPINA HURTADO": 267,
+    "CARLOS ALBERTO ZULETA HINCAPIE": 30,
+    "DIANA FRANCEDY CARVAJAL ZAPATA": 521,
+    "DIEGO ALEXANDER ARIAS SANCHEZ": 138,
+    "DIEGO MAURICIO GRISALES GALLEGO": 1023,
+    "ESTEBAN GOMEZ ZAPATA": 160,
+    "JOSE OLIVERIO CANO GALLEGO": 179,
+    "LUIS ENRIQUE CARVAJAL MARIN": 1087,
+    "LUIS IGNACIO ORREGO DELGADO": 115,
+    "MARA JUAN ESTEBAN DUQUE ZAPATA": 202,
+    "MARIA CAMILA OSORNO ISAZA": 323,
+    "SNEYDER WILLINGTON QUICENO MARIN": 296,
+    "VOTOS EN BLANCO": 171,
+    "VOTOS NO MARCADOS": 88,
+    "VOTOS NULOS": 95
+   }
+  },
+  {
+   "id": "GUARNE|01|02",
+   "nombre": "Coliseo Santo Tomás",
+   "nombre_oficial": "COLISEO SANTO TOMAS",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.279808432740449,
+   "lon": -75.4403686523436,
+   "votos_total": 3742,
+   "votos_validos": 3657,
+   "ganador": "LUIS ENRIQUE CARVAJAL MARIN",
+   "empate": [],
+   "margen_puntos": 0.66,
+   "votos": {
+    "ANDRES FELIPE POSADA ZAPATA": 206,
+    "BELTRAN RODRIGO HERRERA MONTOYA": 3,
+    "CARLOS ADRIAN OSPINA HURTADO": 218,
+    "CARLOS ALBERTO ZULETA HINCAPIE": 31,
+    "DIANA FRANCEDY CARVAJAL ZAPATA": 433,
+    "DIEGO ALEXANDER ARIAS SANCHEZ": 114,
+    "DIEGO MAURICIO GRISALES GALLEGO": 797,
+    "ESTEBAN GOMEZ ZAPATA": 130,
+    "JOSE OLIVERIO CANO GALLEGO": 138,
+    "LUIS ENRIQUE CARVAJAL MARIN": 821,
+    "LUIS IGNACIO ORREGO DELGADO": 80,
+    "MARA JUAN ESTEBAN DUQUE ZAPATA": 150,
+    "MARIA CAMILA OSORNO ISAZA": 210,
+    "SNEYDER WILLINGTON QUICENO MARIN": 218,
+    "VOTOS EN BLANCO": 108,
+    "VOTOS NO MARCADOS": 39,
+    "VOTOS NULOS": 46
+   }
+  },
+  {
+   "id": "GUARNE|01|03",
+   "nombre": "INST. Educativa el Zango",
+   "nombre_oficial": "INST. EDUCATIVA EL ZANGO",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.280512286517804,
+   "lon": -75.4430723190307,
+   "votos_total": 2178,
+   "votos_validos": 2122,
+   "ganador": "DIEGO MAURICIO GRISALES GALLEGO",
+   "empate": [],
+   "margen_puntos": 9.43,
+   "votos": {
+    "ANDRES FELIPE POSADA ZAPATA": 87,
+    "BELTRAN RODRIGO HERRERA MONTOYA": 1,
+    "CARLOS ADRIAN OSPINA HURTADO": 93,
+    "CARLOS ALBERTO ZULETA HINCAPIE": 12,
+    "DIANA FRANCEDY CARVAJAL ZAPATA": 236,
+    "DIEGO ALEXANDER ARIAS SANCHEZ": 47,
+    "DIEGO MAURICIO GRISALES GALLEGO": 567,
+    "ESTEBAN GOMEZ ZAPATA": 66,
+    "JOSE OLIVERIO CANO GALLEGO": 169,
+    "LUIS ENRIQUE CARVAJAL MARIN": 367,
+    "LUIS IGNACIO ORREGO DELGADO": 47,
+    "MARA JUAN ESTEBAN DUQUE ZAPATA": 90,
+    "MARIA CAMILA OSORNO ISAZA": 155,
+    "SNEYDER WILLINGTON QUICENO MARIN": 133,
+    "VOTOS EN BLANCO": 52,
+    "VOTOS NO MARCADOS": 28,
+    "VOTOS NULOS": 28
+   }
+  },
+  {
+   "id": "GUARNE|01|04",
+   "nombre": "Inder Poligono 25",
+   "nombre_oficial": "INDER POLIGONO 25",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.275622444809219,
+   "lon": -75.44162681533203,
+   "votos_total": 1966,
+   "votos_validos": 1891,
+   "ganador": "DIEGO MAURICIO GRISALES GALLEGO",
+   "empate": [],
+   "margen_puntos": 5.5,
+   "votos": {
+    "ANDRES FELIPE POSADA ZAPATA": 42,
+    "BELTRAN RODRIGO HERRERA MONTOYA": 2,
+    "CARLOS ADRIAN OSPINA HURTADO": 119,
+    "CARLOS ALBERTO ZULETA HINCAPIE": 10,
+    "DIANA FRANCEDY CARVAJAL ZAPATA": 169,
+    "DIEGO ALEXANDER ARIAS SANCHEZ": 33,
+    "DIEGO MAURICIO GRISALES GALLEGO": 472,
+    "ESTEBAN GOMEZ ZAPATA": 74,
+    "JOSE OLIVERIO CANO GALLEGO": 74,
+    "LUIS ENRIQUE CARVAJAL MARIN": 368,
+    "LUIS IGNACIO ORREGO DELGADO": 28,
+    "MARA JUAN ESTEBAN DUQUE ZAPATA": 172,
+    "MARIA CAMILA OSORNO ISAZA": 149,
+    "SNEYDER WILLINGTON QUICENO MARIN": 105,
+    "VOTOS EN BLANCO": 74,
+    "VOTOS NO MARCADOS": 42,
+    "VOTOS NULOS": 33
+   }
+  },
+  {
+   "id": "GUARNE|02|01",
+   "nombre": "I.E. la Inmaculada Concepción",
+   "nombre_oficial": "I.E. LA INMACULADA CONCEPCION",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.279125906957014,
+   "lon": -75.438995361328,
+   "votos_total": 6088,
+   "votos_validos": 5882,
+   "ganador": "LUIS ENRIQUE CARVAJAL MARIN",
+   "empate": [],
+   "margen_puntos": 2.36,
+   "votos": {
+    "ANDRES FELIPE POSADA ZAPATA": 255,
+    "BELTRAN RODRIGO HERRERA MONTOYA": 3,
+    "CARLOS ADRIAN OSPINA HURTADO": 303,
+    "CARLOS ALBERTO ZULETA HINCAPIE": 58,
+    "DIANA FRANCEDY CARVAJAL ZAPATA": 634,
+    "DIEGO ALEXANDER ARIAS SANCHEZ": 110,
+    "DIEGO MAURICIO GRISALES GALLEGO": 1316,
+    "ESTEBAN GOMEZ ZAPATA": 183,
+    "JOSE OLIVERIO CANO GALLEGO": 220,
+    "LUIS ENRIQUE CARVAJAL MARIN": 1455,
+    "LUIS IGNACIO ORREGO DELGADO": 133,
+    "MARA JUAN ESTEBAN DUQUE ZAPATA": 253,
+    "MARIA CAMILA OSORNO ISAZA": 445,
+    "SNEYDER WILLINGTON QUICENO MARIN": 333,
+    "VOTOS EN BLANCO": 181,
+    "VOTOS NO MARCADOS": 92,
+    "VOTOS NULOS": 114
+   }
+  },
+  {
+   "id": "GUARNE|02|02",
+   "nombre": "Colegio San Antonio",
+   "nombre_oficial": "COLEGIO SAN ANTONIO",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.279125906957117,
+   "lon": -75.4348754882811,
+   "votos_total": 4995,
+   "votos_validos": 4871,
+   "ganador": "DIEGO MAURICIO GRISALES GALLEGO",
+   "empate": [],
+   "margen_puntos": 1.17,
+   "votos": {
+    "ANDRES FELIPE POSADA ZAPATA": 217,
+    "CARLOS ADRIAN OSPINA HURTADO": 234,
+    "CARLOS ALBERTO ZULETA HINCAPIE": 36,
+    "DIANA FRANCEDY CARVAJAL ZAPATA": 622,
+    "DIEGO ALEXANDER ARIAS SANCHEZ": 100,
+    "DIEGO MAURICIO GRISALES GALLEGO": 1117,
+    "ESTEBAN GOMEZ ZAPATA": 138,
+    "JOSE OLIVERIO CANO GALLEGO": 201,
+    "LUIS ENRIQUE CARVAJAL MARIN": 1060,
+    "LUIS IGNACIO ORREGO DELGADO": 81,
+    "MARA JUAN ESTEBAN DUQUE ZAPATA": 250,
+    "MARIA CAMILA OSORNO ISAZA": 359,
+    "SNEYDER WILLINGTON QUICENO MARIN": 257,
+    "VOTOS EN BLANCO": 199,
+    "VOTOS NO MARCADOS": 48,
+    "VOTOS NULOS": 76
+   }
+  },
+  {
+   "id": "GUARNE|02|03",
+   "nombre": "I.E. Chaparral",
+   "nombre_oficial": "I.E. CHAPARRAL",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.279808432740577,
+   "lon": -75.4427289962767,
+   "votos_total": 1845,
+   "votos_validos": 1771,
+   "ganador": "LUIS ENRIQUE CARVAJAL MARIN",
+   "empate": [],
+   "margen_puntos": 1.41,
+   "votos": {
+    "ANDRES FELIPE POSADA ZAPATA": 34,
+    "BELTRAN RODRIGO HERRERA MONTOYA": 6,
+    "CARLOS ADRIAN OSPINA HURTADO": 85,
+    "CARLOS ALBERTO ZULETA HINCAPIE": 7,
+    "DIANA FRANCEDY CARVAJAL ZAPATA": 164,
+    "DIEGO ALEXANDER ARIAS SANCHEZ": 27,
+    "DIEGO MAURICIO GRISALES GALLEGO": 317,
+    "ESTEBAN GOMEZ ZAPATA": 49,
+    "JOSE OLIVERIO CANO GALLEGO": 20,
+    "LUIS ENRIQUE CARVAJAL MARIN": 387,
+    "LUIS IGNACIO ORREGO DELGADO": 27,
+    "MARA JUAN ESTEBAN DUQUE ZAPATA": 45,
+    "MARIA CAMILA OSORNO ISAZA": 153,
+    "SNEYDER WILLINGTON QUICENO MARIN": 362,
+    "VOTOS EN BLANCO": 88,
+    "VOTOS NO MARCADOS": 37,
+    "VOTOS NULOS": 37
+   }
+  },
+  {
+   "id": "GUARNE|99|15",
+   "nombre": "Alto de la Virgen",
+   "nombre_oficial": "ALTO DE LA VIRGEN",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.279808432740551,
+   "lon": -75.438995361328,
+   "votos_total": 616,
+   "votos_validos": 604,
+   "ganador": "MARIA CAMILA OSORNO ISAZA",
+   "empate": [],
+   "margen_puntos": 2.15,
+   "votos": {
+    "ANDRES FELIPE POSADA ZAPATA": 18,
+    "CARLOS ADRIAN OSPINA HURTADO": 34,
+    "DIANA FRANCEDY CARVAJAL ZAPATA": 37,
+    "DIEGO ALEXANDER ARIAS SANCHEZ": 10,
+    "DIEGO MAURICIO GRISALES GALLEGO": 121,
+    "ESTEBAN GOMEZ ZAPATA": 9,
+    "JOSE OLIVERIO CANO GALLEGO": 116,
+    "LUIS ENRIQUE CARVAJAL MARIN": 51,
+    "LUIS IGNACIO ORREGO DELGADO": 10,
+    "MARA JUAN ESTEBAN DUQUE ZAPATA": 32,
+    "MARIA CAMILA OSORNO ISAZA": 134,
+    "SNEYDER WILLINGTON QUICENO MARIN": 9,
+    "VOTOS EN BLANCO": 23,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 5
+   }
+  },
+  {
+   "id": "GUARNE|99|20",
+   "nombre": "Vda San Ignacio",
+   "nombre_oficial": "VDA SAN IGNACIO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.278443380278877,
+   "lon": -75.4369354248046,
+   "votos_total": 566,
+   "votos_validos": 531,
+   "ganador": "DIEGO MAURICIO GRISALES GALLEGO",
+   "empate": [],
+   "margen_puntos": 33.33,
+   "votos": {
+    "ANDRES FELIPE POSADA ZAPATA": 2,
+    "CARLOS ADRIAN OSPINA HURTADO": 19,
+    "DIANA FRANCEDY CARVAJAL ZAPATA": 49,
+    "DIEGO ALEXANDER ARIAS SANCHEZ": 1,
+    "DIEGO MAURICIO GRISALES GALLEGO": 230,
+    "ESTEBAN GOMEZ ZAPATA": 3,
+    "JOSE OLIVERIO CANO GALLEGO": 45,
+    "LUIS ENRIQUE CARVAJAL MARIN": 53,
+    "LUIS IGNACIO ORREGO DELGADO": 9,
+    "MARA JUAN ESTEBAN DUQUE ZAPATA": 4,
+    "MARIA CAMILA OSORNO ISAZA": 52,
+    "SNEYDER WILLINGTON QUICENO MARIN": 41,
+    "VOTOS EN BLANCO": 23,
+    "VOTOS NO MARCADOS": 22,
+    "VOTOS NULOS": 13
+   }
+  },
+  {
+   "id": "GUARNE|99|40",
+   "nombre": "Toldas",
+   "nombre_oficial": "TOLDAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.280490957629272,
+   "lon": -75.438995361328,
+   "votos_total": 627,
+   "votos_validos": 608,
+   "ganador": "MARIA CAMILA OSORNO ISAZA",
+   "empate": [],
+   "margen_puntos": 3.45,
+   "votos": {
+    "ANDRES FELIPE POSADA ZAPATA": 14,
+    "CARLOS ADRIAN OSPINA HURTADO": 36,
+    "CARLOS ALBERTO ZULETA HINCAPIE": 3,
+    "DIANA FRANCEDY CARVAJAL ZAPATA": 36,
+    "DIEGO ALEXANDER ARIAS SANCHEZ": 4,
+    "DIEGO MAURICIO GRISALES GALLEGO": 128,
+    "ESTEBAN GOMEZ ZAPATA": 7,
+    "JOSE OLIVERIO CANO GALLEGO": 15,
+    "LUIS ENRIQUE CARVAJAL MARIN": 132,
+    "LUIS IGNACIO ORREGO DELGADO": 8,
+    "MARA JUAN ESTEBAN DUQUE ZAPATA": 25,
+    "MARIA CAMILA OSORNO ISAZA": 153,
+    "SNEYDER WILLINGTON QUICENO MARIN": 22,
+    "VOTOS EN BLANCO": 25,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 14
+   }
+  },
+  {
+   "id": "GUARNE|99|45",
+   "nombre": "Piedras Blancas",
+   "nombre_oficial": "PIEDRAS BLANCAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.281173481623366,
+   "lon": -75.4362487792968,
+   "votos_total": 726,
+   "votos_validos": 700,
+   "ganador": "DIEGO MAURICIO GRISALES GALLEGO",
+   "empate": [],
+   "margen_puntos": 1.43,
+   "votos": {
+    "ANDRES FELIPE POSADA ZAPATA": 6,
+    "CARLOS ADRIAN OSPINA HURTADO": 59,
+    "CARLOS ALBERTO ZULETA HINCAPIE": 3,
+    "DIANA FRANCEDY CARVAJAL ZAPATA": 135,
+    "DIEGO ALEXANDER ARIAS SANCHEZ": 52,
+    "DIEGO MAURICIO GRISALES GALLEGO": 156,
+    "ESTEBAN GOMEZ ZAPATA": 8,
+    "JOSE OLIVERIO CANO GALLEGO": 24,
+    "LUIS ENRIQUE CARVAJAL MARIN": 146,
+    "LUIS IGNACIO ORREGO DELGADO": 8,
+    "MARA JUAN ESTEBAN DUQUE ZAPATA": 34,
+    "MARIA CAMILA OSORNO ISAZA": 39,
+    "SNEYDER WILLINGTON QUICENO MARIN": 9,
+    "VOTOS EN BLANCO": 21,
+    "VOTOS NO MARCADOS": 13,
+    "VOTOS NULOS": 13
+   }
+  },
+  {
+   "id": "GUARNE|99|80",
+   "nombre": "Inst Educ Ezequiel Sierra",
+   "nombre_oficial": "INST EDUC EZEQUIEL SIERRA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.283130229732013,
+   "lon": -75.43723394979887,
+   "votos_total": 372,
+   "votos_validos": 354,
+   "ganador": "SNEYDER WILLINGTON QUICENO MARIN",
+   "empate": [],
+   "margen_puntos": 4.8,
+   "votos": {
+    "ANDRES FELIPE POSADA ZAPATA": 3,
+    "CARLOS ADRIAN OSPINA HURTADO": 31,
+    "CARLOS ALBERTO ZULETA HINCAPIE": 1,
+    "DIANA FRANCEDY CARVAJAL ZAPATA": 30,
+    "DIEGO ALEXANDER ARIAS SANCHEZ": 3,
+    "DIEGO MAURICIO GRISALES GALLEGO": 33,
+    "ESTEBAN GOMEZ ZAPATA": 3,
+    "JOSE OLIVERIO CANO GALLEGO": 6,
+    "LUIS ENRIQUE CARVAJAL MARIN": 84,
+    "LUIS IGNACIO ORREGO DELGADO": 3,
+    "MARA JUAN ESTEBAN DUQUE ZAPATA": 5,
+    "MARIA CAMILA OSORNO ISAZA": 44,
+    "SNEYDER WILLINGTON QUICENO MARIN": 101,
+    "VOTOS EN BLANCO": 7,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 10
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

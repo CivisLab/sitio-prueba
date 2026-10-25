@@ -1,0 +1,486 @@
+{
+ "municipio": {
+  "cod_dane": "05308",
+  "cod_registraduria": "133",
+  "nombre": "Girardota",
+  "subregion": "Valle de Aburrá",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 28122,
+   "votos_validos": 27220,
+   "margen_puntos": 16.71,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Diego Armando Agudelo Torres",
+     "nombre_oficial": "DIEGO ARMANDO AGUDELO TORRES",
+     "partido": "Partido Conservador Colombiano - Polo Democrático",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO - POLO DEMOCRATICO",
+     "familias": [
+      "CONS",
+      "POLO"
+     ],
+     "votos": 10760,
+     "porcentaje": 39.53,
+     "posicion": 1
+    },
+    {
+     "nombre": "Luis Fernando Ortiz Sánchez",
+     "nombre_oficial": "LUIS FERNANDO ORTIZ SANCHEZ",
+     "partido": "Girardota Una Sola Familia",
+     "partido_oficial": "GIRARDOTA UNA SOLA FAMILIA",
+     "familias": [],
+     "votos": 6211,
+     "porcentaje": 22.82,
+     "posicion": 2
+    },
+    {
+     "nombre": "Pedro Ignacio Hoyos Sierra",
+     "nombre_oficial": "PEDRO IGNACIO HOYOS SIERRA",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 3925,
+     "porcentaje": 14.42,
+     "posicion": 3
+    },
+    {
+     "nombre": "Duber Andrés Sánchez Castro",
+     "nombre_oficial": "DUBER ANDRES SANCHEZ CASTRO",
+     "partido": "Partido Colombia Justa Libres",
+     "partido_oficial": "PARTIDO COLOMBIA JUSTA LIBRES",
+     "familias": [
+      "COL_JUSTA"
+     ],
+     "votos": 2798,
+     "porcentaje": 10.28,
+     "posicion": 4
+    },
+    {
+     "nombre": "Diana Milena Osorno Alzate",
+     "nombre_oficial": "DIANA MILENA OSORNO ALZATE",
+     "partido": "Llego el Momento",
+     "partido_oficial": "LLEGO EL MOMENTO",
+     "familias": [],
+     "votos": 2015,
+     "porcentaje": 7.4,
+     "posicion": 5
+    },
+    {
+     "nombre": "Hernán Gustavo Gómez Ochoa",
+     "nombre_oficial": "HERNAN GUSTAVO GOMEZ OCHOA",
+     "partido": "Movimiento Alternativo Indigena y Social MAIS",
+     "partido_oficial": "MOVIMIENTO ALTERNATIVO INDIGENA Y SOCIAL MAIS",
+     "familias": [
+      "MAIS"
+     ],
+     "votos": 140,
+     "porcentaje": 0.51,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 1371,
+    "VOTOS NULOS": 491,
+    "VOTOS NO MARCADOS": 411
+   }
+  },
+  "2023": {
+   "votos_depositados": 30401,
+   "votos_validos": 29355,
+   "margen_puntos": 6.15,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Kevin René Bernal Morales",
+     "nombre_oficial": "KEVIN RENE BERNAL MORALES",
+     "partido": "Decencia en Lo Público",
+     "partido_oficial": "DECENCIA EN LO PÚBLICO",
+     "familias": [],
+     "votos": 13197,
+     "porcentaje": 44.96,
+     "posicion": 1
+    },
+    {
+     "nombre": "Juan Ignacio Torres Gómez",
+     "nombre_oficial": "JUAN IGNACIO TORRES GOMEZ",
+     "partido": "Girardota Territorio de Vida",
+     "partido_oficial": "GIRARDOTA TERRITORIO DE VIDA",
+     "familias": [],
+     "votos": 11393,
+     "porcentaje": 38.81,
+     "posicion": 2
+    },
+    {
+     "nombre": "Alejandro Posada Jiménez",
+     "nombre_oficial": "ALEJANDRO POSADA JIMENEZ",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 2803,
+     "porcentaje": 9.55,
+     "posicion": 3
+    },
+    {
+     "nombre": "Olga Lucía Mazo Jaramillo",
+     "nombre_oficial": "OLGA LUCIA MAZO JARAMILLO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRÁTICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 400,
+     "porcentaje": 1.36,
+     "posicion": 4
+    },
+    {
+     "nombre": "Jorge Raúl Córdoba Cadavid",
+     "nombre_oficial": "JORGE RAUL CORDOBA CADAVID",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 112,
+     "porcentaje": 0.38,
+     "posicion": 5
+    },
+    {
+     "nombre": "Hernán Gustavo Gómez Ochoa",
+     "nombre_oficial": "HERNAN GUSTAVO GOMEZ OCHOA",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRÁTICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 91,
+     "porcentaje": 0.31,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 1359,
+    "VOTOS NULOS": 568,
+    "VOTOS NO MARCADOS": 478
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CONS",
+   "POLO"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "GIRARDOTA|01|01",
+   "nombre": "NTRA. SRA. de la Presentación",
+   "nombre_oficial": "NTRA. SRA. DE LA PRESENTACION",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.380545772544139,
+   "lon": -75.44767498970032,
+   "votos_total": 3543,
+   "votos_validos": 3416,
+   "ganador": "KEVIN RENE BERNAL MORALES",
+   "empate": [],
+   "margen_puntos": 1.43,
+   "votos": {
+    "ALEJANDRO POSADA JIMENEZ": 391,
+    "HERNAN GUSTAVO GOMEZ OCHOA": 8,
+    "JORGE RAUL CORDOBA CADAVID": 13,
+    "JUAN IGNACIO TORRES GOMEZ": 1376,
+    "KEVIN RENE BERNAL MORALES": 1425,
+    "OLGA LUCIA MAZO JARAMILLO": 48,
+    "VOTOS EN BLANCO": 155,
+    "VOTOS NO MARCADOS": 60,
+    "VOTOS NULOS": 67
+   }
+  },
+  {
+   "id": "GIRARDOTA|01|02",
+   "nombre": "Escuela Colombia",
+   "nombre_oficial": "ESCUELA COLOMBIA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.374868384,
+   "lon": -75.44386735,
+   "votos_total": 7227,
+   "votos_validos": 7017,
+   "ganador": "KEVIN RENE BERNAL MORALES",
+   "empate": [],
+   "margen_puntos": 7.77,
+   "votos": {
+    "ALEJANDRO POSADA JIMENEZ": 632,
+    "HERNAN GUSTAVO GOMEZ OCHOA": 25,
+    "JORGE RAUL CORDOBA CADAVID": 26,
+    "JUAN IGNACIO TORRES GOMEZ": 2730,
+    "KEVIN RENE BERNAL MORALES": 3275,
+    "OLGA LUCIA MAZO JARAMILLO": 62,
+    "VOTOS EN BLANCO": 267,
+    "VOTOS NO MARCADOS": 97,
+    "VOTOS NULOS": 113
+   }
+  },
+  {
+   "id": "GIRARDOTA|02|01",
+   "nombre": "Atanasio Girardot Esc la Nueva",
+   "nombre_oficial": "ATANASIO GIRARDOT ESC LA NUEVA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.374868384,
+   "lon": -75.44386735,
+   "votos_total": 5012,
+   "votos_validos": 4813,
+   "ganador": "KEVIN RENE BERNAL MORALES",
+   "empate": [],
+   "margen_puntos": 4.34,
+   "votos": {
+    "ALEJANDRO POSADA JIMENEZ": 509,
+    "HERNAN GUSTAVO GOMEZ OCHOA": 21,
+    "JORGE RAUL CORDOBA CADAVID": 28,
+    "JUAN IGNACIO TORRES GOMEZ": 1870,
+    "KEVIN RENE BERNAL MORALES": 2079,
+    "OLGA LUCIA MAZO JARAMILLO": 92,
+    "VOTOS EN BLANCO": 214,
+    "VOTOS NO MARCADOS": 97,
+    "VOTOS NULOS": 102
+   }
+  },
+  {
+   "id": "GIRARDOTA|02|02",
+   "nombre": "Col Juan Bernardone",
+   "nombre_oficial": "COL JUAN BERNARDONE",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.378002465,
+   "lon": -75.4486866199999,
+   "votos_total": 6760,
+   "votos_validos": 6523,
+   "ganador": "KEVIN RENE BERNAL MORALES",
+   "empate": [],
+   "margen_puntos": 3.62,
+   "votos": {
+    "ALEJANDRO POSADA JIMENEZ": 623,
+    "HERNAN GUSTAVO GOMEZ OCHOA": 16,
+    "JORGE RAUL CORDOBA CADAVID": 22,
+    "JUAN IGNACIO TORRES GOMEZ": 2660,
+    "KEVIN RENE BERNAL MORALES": 2896,
+    "OLGA LUCIA MAZO JARAMILLO": 76,
+    "VOTOS EN BLANCO": 230,
+    "VOTOS NO MARCADOS": 93,
+    "VOTOS NULOS": 144
+   }
+  },
+  {
+   "id": "GIRARDOTA|02|03",
+   "nombre": "IE Emiliano García",
+   "nombre_oficial": "IE EMILIANO GARCIA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.376121226,
+   "lon": -75.4484271,
+   "votos_total": 4465,
+   "votos_validos": 4338,
+   "ganador": "KEVIN RENE BERNAL MORALES",
+   "empate": [],
+   "margen_puntos": 10.86,
+   "votos": {
+    "ALEJANDRO POSADA JIMENEZ": 417,
+    "HERNAN GUSTAVO GOMEZ OCHOA": 15,
+    "JORGE RAUL CORDOBA CADAVID": 15,
+    "JUAN IGNACIO TORRES GOMEZ": 1511,
+    "KEVIN RENE BERNAL MORALES": 1982,
+    "OLGA LUCIA MAZO JARAMILLO": 60,
+    "VOTOS EN BLANCO": 338,
+    "VOTOS NO MARCADOS": 46,
+    "VOTOS NULOS": 81
+   }
+  },
+  {
+   "id": "GIRARDOTA|02|04",
+   "nombre": "Liceo Manuel José Sierra",
+   "nombre_oficial": "LICEO  MANUEL  JOSE  SIERRA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.370821890681923,
+   "lon": -75.44689476883795,
+   "votos_total": 262,
+   "votos_validos": 253,
+   "ganador": "KEVIN RENE BERNAL MORALES",
+   "empate": [],
+   "margen_puntos": 5.53,
+   "votos": {
+    "ALEJANDRO POSADA JIMENEZ": 23,
+    "JUAN IGNACIO TORRES GOMEZ": 102,
+    "KEVIN RENE BERNAL MORALES": 116,
+    "OLGA LUCIA MAZO JARAMILLO": 4,
+    "VOTOS EN BLANCO": 8,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "GIRARDOTA|99|10",
+   "nombre": "Cabildo",
+   "nombre_oficial": "CABILDO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.389694371,
+   "lon": -75.42810132,
+   "votos_total": 924,
+   "votos_validos": 892,
+   "ganador": "KEVIN RENE BERNAL MORALES",
+   "empate": [],
+   "margen_puntos": 26.57,
+   "votos": {
+    "ALEJANDRO POSADA JIMENEZ": 40,
+    "HERNAN GUSTAVO GOMEZ OCHOA": 3,
+    "JORGE RAUL CORDOBA CADAVID": 2,
+    "JUAN IGNACIO TORRES GOMEZ": 270,
+    "KEVIN RENE BERNAL MORALES": 507,
+    "OLGA LUCIA MAZO JARAMILLO": 21,
+    "VOTOS EN BLANCO": 49,
+    "VOTOS NO MARCADOS": 18,
+    "VOTOS NULOS": 14
+   }
+  },
+  {
+   "id": "GIRARDOTA|99|20",
+   "nombre": "La Manga Arriba",
+   "nombre_oficial": "LA MANGA ARRIBA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.35842122,
+   "lon": -75.44100275,
+   "votos_total": 776,
+   "votos_validos": 752,
+   "ganador": "JUAN IGNACIO TORRES GOMEZ",
+   "empate": [],
+   "margen_puntos": 3.86,
+   "votos": {
+    "ALEJANDRO POSADA JIMENEZ": 108,
+    "HERNAN GUSTAVO GOMEZ OCHOA": 1,
+    "JORGE RAUL CORDOBA CADAVID": 5,
+    "JUAN IGNACIO TORRES GOMEZ": 312,
+    "KEVIN RENE BERNAL MORALES": 283,
+    "OLGA LUCIA MAZO JARAMILLO": 14,
+    "VOTOS EN BLANCO": 29,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 12
+   }
+  },
+  {
+   "id": "GIRARDOTA|99|30",
+   "nombre": "Inst Educativa Nuestra Señora del Carmen",
+   "nombre_oficial": "INST EDUCATIVA NUESTRA SEÑORA DEL CARMEN",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.376952090120833,
+   "lon": -75.41784751428924,
+   "votos_total": 127,
+   "votos_validos": 123,
+   "ganador": "KEVIN RENE BERNAL MORALES",
+   "empate": [],
+   "margen_puntos": 26.02,
+   "votos": {
+    "ALEJANDRO POSADA JIMENEZ": 3,
+    "JUAN IGNACIO TORRES GOMEZ": 43,
+    "KEVIN RENE BERNAL MORALES": 75,
+    "OLGA LUCIA MAZO JARAMILLO": 2,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "GIRARDOTA|99|80",
+   "nombre": "San Andrés",
+   "nombre_oficial": "SAN ANDRES",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.399210284999998,
+   "lon": -75.44005325,
+   "votos_total": 1305,
+   "votos_validos": 1228,
+   "ganador": "KEVIN RENE BERNAL MORALES",
+   "empate": [],
+   "margen_puntos": 3.26,
+   "votos": {
+    "ALEJANDRO POSADA JIMENEZ": 57,
+    "HERNAN GUSTAVO GOMEZ OCHOA": 2,
+    "JORGE RAUL CORDOBA CADAVID": 1,
+    "JUAN IGNACIO TORRES GOMEZ": 519,
+    "KEVIN RENE BERNAL MORALES": 559,
+    "OLGA LUCIA MAZO JARAMILLO": 21,
+    "VOTOS EN BLANCO": 69,
+    "VOTOS NO MARCADOS": 46,
+    "VOTOS NULOS": 31
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "disponible"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

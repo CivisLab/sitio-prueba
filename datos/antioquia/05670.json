@@ -1,0 +1,285 @@
+{
+ "municipio": {
+  "cod_dane": "05670",
+  "cod_registraduria": "241",
+  "nombre": "San Roque",
+  "subregion": "Nordeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 9409,
+   "votos_validos": 8997,
+   "margen_puntos": 0.69,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Javier Alberto López García",
+     "nombre_oficial": "JAVIER ALBERTO LOPEZ GARCIA",
+     "partido": "Partido Conservador Colombiano - Polo Democrático - Partido de la U",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO  - POLO DEMOCRATICO - PARTIDO DE LA U",
+     "familias": [
+      "CONS",
+      "U",
+      "POLO"
+     ],
+     "votos": 3171,
+     "porcentaje": 35.25,
+     "posicion": 1
+    },
+    {
+     "nombre": "Álvaro Alonso Duque Muñoz",
+     "nombre_oficial": "ALVARO ALONSO DUQUE MUÑOZ",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 3109,
+     "porcentaje": 34.56,
+     "posicion": 2
+    },
+    {
+     "nombre": "Luis Alejandro Villegas Cano",
+     "nombre_oficial": "LUIS ALEJANDRO VILLEGAS CANO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 2543,
+     "porcentaje": 28.26,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 273,
+    "VOTOS EN BLANCO": 174,
+    "VOTOS NULOS": 139
+   }
+  },
+  "2023": {
+   "votos_depositados": 9957,
+   "votos_validos": 9631,
+   "margen_puntos": 28.26,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Luis Alejandro Villegas Cano",
+     "nombre_oficial": "LUIS ALEJANDRO VILLEGAS CANO",
+     "partido": "Volver a Creer San Roque",
+     "partido_oficial": "VOLVER A CREER SAN ROQUE",
+     "familias": [],
+     "votos": 6004,
+     "porcentaje": 62.34,
+     "posicion": 1
+    },
+    {
+     "nombre": "Walter Ovidio Zapata González",
+     "nombre_oficial": "WALTER OVIDIO ZAPATA GONZALEZ",
+     "partido": "San Roque Nos Une",
+     "partido_oficial": "SAN ROQUE NOS UNE",
+     "familias": [],
+     "votos": 3282,
+     "porcentaje": 34.08,
+     "posicion": 2
+    },
+    {
+     "nombre": "Fredy Antonio Monsalve Ceballos",
+     "nombre_oficial": "FREDY ANTONIO MONSALVE CEBALLOS",
+     "partido": "Partido Político Dignidad & Compromiso",
+     "partido_oficial": "PARTIDO POLÍTICO DIGNIDAD & COMPROMISO",
+     "familias": [],
+     "votos": 210,
+     "porcentaje": 2.18,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 212,
+    "VOTOS EN BLANCO": 135,
+    "VOTOS NULOS": 114
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CONS",
+   "POLO",
+   "U"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SAN ROQUE|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.484610622835504,
+   "lon": -75.0200557708739,
+   "votos_total": 6812,
+   "votos_validos": 6615,
+   "ganador": "LUIS ALEJANDRO VILLEGAS CANO",
+   "empate": [],
+   "margen_puntos": 27.35,
+   "votos": {
+    "FREDY ANTONIO MONSALVE CEBALLOS": 169,
+    "LUIS ALEJANDRO VILLEGAS CANO": 4080,
+    "VOTOS EN BLANCO": 95,
+    "VOTOS NO MARCADOS": 133,
+    "VOTOS NULOS": 64,
+    "WALTER OVIDIO ZAPATA GONZALEZ": 2271
+   }
+  },
+  {
+   "id": "SAN ROQUE|99|05",
+   "nombre": "Cristales",
+   "nombre_oficial": "CRISTALES",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.48306,
+   "lon": -74.9178,
+   "votos_total": 819,
+   "votos_validos": 777,
+   "ganador": "LUIS ALEJANDRO VILLEGAS CANO",
+   "empate": [],
+   "margen_puntos": 19.95,
+   "votos": {
+    "FREDY ANTONIO MONSALVE CEBALLOS": 6,
+    "LUIS ALEJANDRO VILLEGAS CANO": 459,
+    "VOTOS EN BLANCO": 8,
+    "VOTOS NO MARCADOS": 32,
+    "VOTOS NULOS": 10,
+    "WALTER OVIDIO ZAPATA GONZALEZ": 304
+   }
+  },
+  {
+   "id": "SAN ROQUE|99|06",
+   "nombre": "Providencia",
+   "nombre_oficial": "PROVIDENCIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.5171095,
+   "lon": -74.9047227,
+   "votos_total": 703,
+   "votos_validos": 665,
+   "ganador": "LUIS ALEJANDRO VILLEGAS CANO",
+   "empate": [],
+   "margen_puntos": 26.62,
+   "votos": {
+    "FREDY ANTONIO MONSALVE CEBALLOS": 11,
+    "LUIS ALEJANDRO VILLEGAS CANO": 409,
+    "VOTOS EN BLANCO": 13,
+    "VOTOS NO MARCADOS": 20,
+    "VOTOS NULOS": 18,
+    "WALTER OVIDIO ZAPATA GONZALEZ": 232
+   }
+  },
+  {
+   "id": "SAN ROQUE|99|07",
+   "nombre": "Frayles",
+   "nombre_oficial": "FRAYLES",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.4684562,
+   "lon": -74.9559851,
+   "votos_total": 252,
+   "votos_validos": 245,
+   "ganador": "LUIS ALEJANDRO VILLEGAS CANO",
+   "empate": [],
+   "margen_puntos": 43.27,
+   "votos": {
+    "FREDY ANTONIO MONSALVE CEBALLOS": 1,
+    "LUIS ALEJANDRO VILLEGAS CANO": 174,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 1,
+    "WALTER OVIDIO ZAPATA GONZALEZ": 68
+   }
+  },
+  {
+   "id": "SAN ROQUE|99|09",
+   "nombre": "San José del Nus",
+   "nombre_oficial": "SAN JOSE DEL NUS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.494233333,
+   "lon": -74.8265499999998,
+   "votos_total": 1371,
+   "votos_validos": 1329,
+   "ganador": "LUIS ALEJANDRO VILLEGAS CANO",
+   "empate": [],
+   "margen_puntos": 35.74,
+   "votos": {
+    "FREDY ANTONIO MONSALVE CEBALLOS": 23,
+    "LUIS ALEJANDRO VILLEGAS CANO": 882,
+    "VOTOS EN BLANCO": 17,
+    "VOTOS NO MARCADOS": 21,
+    "VOTOS NULOS": 21,
+    "WALTER OVIDIO ZAPATA GONZALEZ": 407
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

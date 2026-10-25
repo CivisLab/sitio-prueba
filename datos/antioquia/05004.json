@@ -1,0 +1,218 @@
+{
+ "municipio": {
+  "cod_dane": "05004",
+  "cod_registraduria": "007",
+  "nombre": "Abriaquí",
+  "subregion": "Occidente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 1468,
+   "votos_validos": 1452,
+   "margen_puntos": 29.2,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Héctor William Urrego Quiros",
+     "nombre_oficial": "HECTOR WILLIAM URREGO QUIROS",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 772,
+     "porcentaje": 53.17,
+     "posicion": 1
+    },
+    {
+     "nombre": "Carlos Andrés Duque Correa",
+     "nombre_oficial": "CARLOS ANDRES DUQUE CORREA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 348,
+     "porcentaje": 23.97,
+     "posicion": 2
+    },
+    {
+     "nombre": "Ramón Emiro Hoyos Moreno",
+     "nombre_oficial": "RAMON EMIRO HOYOS MORENO",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 326,
+     "porcentaje": 22.45,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 8,
+    "VOTOS EN BLANCO": 6
+   }
+  },
+  "2023": {
+   "votos_depositados": 1497,
+   "votos_validos": 1485,
+   "margen_puntos": 10.51,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Daniel Alberto Salas Gallego",
+     "nombre_oficial": "DANIEL ALBERTO SALAS GALLEGO",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 814,
+     "porcentaje": 54.81,
+     "posicion": 1
+    },
+    {
+     "nombre": "Ramón Elías Álvarez Herrera",
+     "nombre_oficial": "RAMON ELIAS ALVAREZ HERRERA",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 658,
+     "porcentaje": 44.31,
+     "posicion": 2
+    },
+    {
+     "nombre": "Walter Arbey Montoya García",
+     "nombre_oficial": "WALTER ARBEY MONTOYA GARCIA",
+     "partido": "Abriaqui, Unidos Podemos",
+     "partido_oficial": "ABRIAQUI, UNIDOS PODEMOS",
+     "familias": [],
+     "votos": 3,
+     "porcentaje": 0.2,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 10,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 4
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": true,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "CONS"
+  ],
+  "familias_2023": [
+   "CONS"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "ABRIAQUI|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.632860236286733,
+   "lon": -76.06376365440478,
+   "votos_total": 1042,
+   "votos_validos": 1031,
+   "ganador": "DANIEL ALBERTO SALAS GALLEGO",
+   "empate": [],
+   "margen_puntos": 19.79,
+   "votos": {
+    "DANIEL ALBERTO SALAS GALLEGO": 611,
+    "RAMON ELIAS ALVAREZ HERRERA": 407,
+    "VOTOS EN BLANCO": 10,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 3,
+    "WALTER ARBEY MONTOYA GARCIA": 3
+   }
+  },
+  {
+   "id": "ABRIAQUI|99|05",
+   "nombre": "La Antigua",
+   "nombre_oficial": "LA ANTIGUA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.71529416735729,
+   "lon": -76.0795597443054,
+   "votos_total": 455,
+   "votos_validos": 454,
+   "ganador": "RAMON ELIAS ALVAREZ HERRERA",
+   "empate": [],
+   "margen_puntos": 10.57,
+   "votos": {
+    "DANIEL ALBERTO SALAS GALLEGO": 203,
+    "RAMON ELIAS ALVAREZ HERRERA": 251,
+    "VOTOS NULOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

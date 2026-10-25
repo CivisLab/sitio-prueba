@@ -1,0 +1,452 @@
+{
+ "municipio": {
+  "cod_dane": "05736",
+  "cod_registraduria": "259",
+  "nombre": "Segovia",
+  "subregion": "Nordeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 13120,
+   "votos_validos": 12527,
+   "margen_puntos": 14.05,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Didier Alexander Osorio Giraldo",
+     "nombre_oficial": "DIDIER ALEXANDER OSORIO GIRALDO",
+     "partido": "Somos Segovia",
+     "partido_oficial": "SOMOS SEGOVIA",
+     "familias": [],
+     "votos": 5560,
+     "porcentaje": 44.38,
+     "posicion": 1
+    },
+    {
+     "nombre": "Gonzalo de Jesús Atehortua Ospina",
+     "nombre_oficial": "GONZALO DE JESUS ATEHORTUA OSPINA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 3800,
+     "porcentaje": 30.33,
+     "posicion": 2
+    },
+    {
+     "nombre": "Johny Alexis Castrillon Salazar",
+     "nombre_oficial": "JOHNY ALEXIS CASTRILLON SALAZAR",
+     "partido": "Mejor para Todos",
+     "partido_oficial": "MEJOR PARA TODOS",
+     "familias": [],
+     "votos": 1693,
+     "porcentaje": 13.51,
+     "posicion": 3
+    },
+    {
+     "nombre": "Alfonso Martínez Quintero",
+     "nombre_oficial": "ALFONSO MARTINEZ QUINTERO",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDIGENAS DE COLOMBIA AICO",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 550,
+     "porcentaje": 4.39,
+     "posicion": 4
+    },
+    {
+     "nombre": "Dairo de Jesús Fernández Hernández",
+     "nombre_oficial": "DAIRO DE JESUS FERNANDEZ HERNANDEZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 408,
+     "porcentaje": 3.26,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 516,
+    "VOTOS NO MARCADOS": 358,
+    "VOTOS NULOS": 235
+   }
+  },
+  "2023": {
+   "votos_depositados": 16031,
+   "votos_validos": 15553,
+   "margen_puntos": 5.78,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Edwin Alexander Castañeda Vahos",
+     "nombre_oficial": "EDWIN ALEXANDER CASTAÑEDA VAHOS",
+     "partido": "Segovia Somos Uno",
+     "partido_oficial": "SEGOVIA SOMOS UNO",
+     "familias": [],
+     "votos": 4744,
+     "porcentaje": 30.5,
+     "posicion": 1
+    },
+    {
+     "nombre": "Gonzalo de Jesús Atehortua Ospina",
+     "nombre_oficial": "GONZALO DE JESUS ATEHORTUA OSPINA",
+     "partido": "Coalición Partido Conservador-Partido de la U",
+     "partido_oficial": "COALICION PARTIDO CONSERVADOR-PARTIDO DE LA U",
+     "familias": [
+      "CONS",
+      "U"
+     ],
+     "votos": 3845,
+     "porcentaje": 24.72,
+     "posicion": 2
+    },
+    {
+     "nombre": "Diego Alexander Muñoz Jaramillo",
+     "nombre_oficial": "DIEGO ALEXANDER MUÑOZ JARAMILLO",
+     "partido": "Agrupación Política en Marcha",
+     "partido_oficial": "AGRUPACIÓN POLÍTICA EN MARCHA",
+     "familias": [],
+     "votos": 2080,
+     "porcentaje": 13.37,
+     "posicion": 3
+    },
+    {
+     "nombre": "Jovan Esteban Pulgarín Jaramillo",
+     "nombre_oficial": "JOVAN ESTEBAN PULGARIN JARAMILLO",
+     "partido": "Segovia Nuestro Compromiso",
+     "partido_oficial": "SEGOVIA NUESTRO COMPROMISO",
+     "familias": [],
+     "votos": 1985,
+     "porcentaje": 12.76,
+     "posicion": 4
+    },
+    {
+     "nombre": "Andrés Alcaraz Castro",
+     "nombre_oficial": "ANDRES ALCARAZ CASTRO",
+     "partido": "Segovia Crece Contigo",
+     "partido_oficial": "SEGOVIA CRECE CONTIGO",
+     "familias": [],
+     "votos": 1532,
+     "porcentaje": 9.85,
+     "posicion": 5
+    },
+    {
+     "nombre": "Jaime Alonso Gallego Gómez",
+     "nombre_oficial": "JAIME ALONSO GALLEGO GOMEZ",
+     "partido": "Pacto Histórico",
+     "partido_oficial": "PACTO HISTORICO",
+     "familias": [
+      "PACTO"
+     ],
+     "votos": 846,
+     "porcentaje": 5.44,
+     "posicion": 6
+    },
+    {
+     "nombre": "Gustavo Alonso Tobón Vélez",
+     "nombre_oficial": "GUSTAVO ALONSO TOBON VELEZ",
+     "partido": "Partido Político la Fuerza de la Paz",
+     "partido_oficial": "PARTIDO POLÍTICO LA FUERZA DE LA PAZ",
+     "familias": [],
+     "votos": 142,
+     "porcentaje": 0.91,
+     "posicion": 7
+    },
+    {
+     "nombre": "Marla Uribe Velásquez",
+     "nombre_oficial": "MARLA URIBE VELASQUEZ",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 61,
+     "porcentaje": 0.39,
+     "posicion": 8
+    },
+    {
+     "nombre": "Herson MIRA Galeano",
+     "nombre_oficial": "HERSON MIRA GALEANO",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 48,
+     "porcentaje": 0.31,
+     "posicion": 9
+    },
+    {
+     "nombre": "Carlos Franqui Arango",
+     "nombre_oficial": "CARLOS FRANQUI ARANGO",
+     "partido": "Partido Político Gente en Movimiento",
+     "partido_oficial": "PARTIDO POLÍTICO GENTE EN MOVIMIENTO",
+     "familias": [],
+     "votos": 12,
+     "porcentaje": 0.08,
+     "posicion": 10
+    },
+    {
+     "nombre": "Julio César Rua",
+     "nombre_oficial": "JULIO CESAR RUA",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 8,
+     "porcentaje": 0.05,
+     "posicion": 11
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 264,
+    "VOTOS EN BLANCO": 250,
+    "VOTOS NULOS": 214
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SEGOVIA|01|01",
+   "nombre": "I.E. Domingo Savio",
+   "nombre_oficial": "I.E. DOMINGO SAVIO",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.080923018,
+   "lon": -74.7029536599999,
+   "votos_total": 3450,
+   "votos_validos": 3327,
+   "ganador": "EDWIN ALEXANDER CASTAÑEDA VAHOS",
+   "empate": [],
+   "margen_puntos": 3.85,
+   "votos": {
+    "ANDRES ALCARAZ CASTRO": 274,
+    "CARLOS FRANQUI ARANGO": 3,
+    "DIEGO ALEXANDER MUÑOZ JARAMILLO": 512,
+    "EDWIN ALEXANDER CASTAÑEDA VAHOS": 943,
+    "GONZALO DE JESUS ATEHORTUA OSPINA": 815,
+    "GUSTAVO ALONSO TOBON VELEZ": 37,
+    "HERSON MIRA GALEANO": 15,
+    "JAIME ALONSO GALLEGO GOMEZ": 220,
+    "JOVAN ESTEBAN PULGARIN JARAMILLO": 458,
+    "JULIO CESAR RUA": 3,
+    "MARLA URIBE VELASQUEZ": 10,
+    "VOTOS EN BLANCO": 37,
+    "VOTOS NO MARCADOS": 62,
+    "VOTOS NULOS": 61
+   }
+  },
+  {
+   "id": "SEGOVIA|01|02",
+   "nombre": "Coliseo Cubierto Abel Rivera Villa",
+   "nombre_oficial": "COLISEO CUBIERTO ABEL RIVERA VILLA",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.077359446,
+   "lon": -74.70229469,
+   "votos_total": 4567,
+   "votos_validos": 4424,
+   "ganador": "EDWIN ALEXANDER CASTAÑEDA VAHOS",
+   "empate": [],
+   "margen_puntos": 16.03,
+   "votos": {
+    "ANDRES ALCARAZ CASTRO": 563,
+    "DIEGO ALEXANDER MUÑOZ JARAMILLO": 510,
+    "EDWIN ALEXANDER CASTAÑEDA VAHOS": 1592,
+    "GONZALO DE JESUS ATEHORTUA OSPINA": 883,
+    "GUSTAVO ALONSO TOBON VELEZ": 26,
+    "HERSON MIRA GALEANO": 7,
+    "JAIME ALONSO GALLEGO GOMEZ": 192,
+    "JOVAN ESTEBAN PULGARIN JARAMILLO": 545,
+    "JULIO CESAR RUA": 2,
+    "MARLA URIBE VELASQUEZ": 20,
+    "VOTOS EN BLANCO": 84,
+    "VOTOS NO MARCADOS": 71,
+    "VOTOS NULOS": 72
+   }
+  },
+  {
+   "id": "SEGOVIA|02|01",
+   "nombre": "I.E. María Goretti",
+   "nombre_oficial": "I.E. MARIA GORETTI",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.07975882,
+   "lon": -74.70018159,
+   "votos_total": 4820,
+   "votos_validos": 4687,
+   "ganador": "EDWIN ALEXANDER CASTAÑEDA VAHOS",
+   "empate": [],
+   "margen_puntos": 6.23,
+   "votos": {
+    "ANDRES ALCARAZ CASTRO": 453,
+    "CARLOS FRANQUI ARANGO": 6,
+    "DIEGO ALEXANDER MUÑOZ JARAMILLO": 690,
+    "EDWIN ALEXANDER CASTAÑEDA VAHOS": 1334,
+    "GONZALO DE JESUS ATEHORTUA OSPINA": 1042,
+    "GUSTAVO ALONSO TOBON VELEZ": 63,
+    "HERSON MIRA GALEANO": 21,
+    "JAIME ALONSO GALLEGO GOMEZ": 328,
+    "JOVAN ESTEBAN PULGARIN JARAMILLO": 655,
+    "JULIO CESAR RUA": 2,
+    "MARLA URIBE VELASQUEZ": 20,
+    "VOTOS EN BLANCO": 73,
+    "VOTOS NO MARCADOS": 85,
+    "VOTOS NULOS": 48
+   }
+  },
+  {
+   "id": "SEGOVIA|02|02",
+   "nombre": "I.E. Manuel Cepeda",
+   "nombre_oficial": "I.E. MANUEL CEPEDA",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.080656578,
+   "lon": -74.6988652999998,
+   "votos_total": 2243,
+   "votos_validos": 2198,
+   "ganador": "EDWIN ALEXANDER CASTAÑEDA VAHOS",
+   "empate": [],
+   "margen_puntos": 11.51,
+   "votos": {
+    "ANDRES ALCARAZ CASTRO": 191,
+    "CARLOS FRANQUI ARANGO": 2,
+    "DIEGO ALEXANDER MUÑOZ JARAMILLO": 300,
+    "EDWIN ALEXANDER CASTAÑEDA VAHOS": 754,
+    "GONZALO DE JESUS ATEHORTUA OSPINA": 501,
+    "GUSTAVO ALONSO TOBON VELEZ": 15,
+    "HERSON MIRA GALEANO": 3,
+    "JAIME ALONSO GALLEGO GOMEZ": 74,
+    "JOVAN ESTEBAN PULGARIN JARAMILLO": 296,
+    "JULIO CESAR RUA": 1,
+    "MARLA URIBE VELASQUEZ": 8,
+    "VOTOS EN BLANCO": 53,
+    "VOTOS NO MARCADOS": 26,
+    "VOTOS NULOS": 19
+   }
+  },
+  {
+   "id": "SEGOVIA|99|01",
+   "nombre": "Fraguas",
+   "nombre_oficial": "FRAGUAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.252710772,
+   "lon": -74.8209017399999,
+   "votos_total": 818,
+   "votos_validos": 794,
+   "ganador": "GONZALO DE JESUS ATEHORTUA OSPINA",
+   "empate": [],
+   "margen_puntos": 57.93,
+   "votos": {
+    "ANDRES ALCARAZ CASTRO": 42,
+    "DIEGO ALEXANDER MUÑOZ JARAMILLO": 45,
+    "EDWIN ALEXANDER CASTAÑEDA VAHOS": 95,
+    "GONZALO DE JESUS ATEHORTUA OSPINA": 555,
+    "HERSON MIRA GALEANO": 1,
+    "JAIME ALONSO GALLEGO GOMEZ": 29,
+    "JOVAN ESTEBAN PULGARIN JARAMILLO": 22,
+    "MARLA URIBE VELASQUEZ": 3,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 15,
+    "VOTOS NULOS": 9
+   }
+  },
+  {
+   "id": "SEGOVIA|99|02",
+   "nombre": "I e Liborio Bataller Sede Campo Alegre",
+   "nombre_oficial": "I E LIBORIO BATALLER SEDE CAMPO ALEGRE",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.085832128613298,
+   "lon": -74.71047724310097,
+   "votos_total": 133,
+   "votos_validos": 123,
+   "ganador": "GONZALO DE JESUS ATEHORTUA OSPINA",
+   "empate": [],
+   "margen_puntos": 18.7,
+   "votos": {
+    "ANDRES ALCARAZ CASTRO": 9,
+    "CARLOS FRANQUI ARANGO": 1,
+    "DIEGO ALEXANDER MUÑOZ JARAMILLO": 23,
+    "EDWIN ALEXANDER CASTAÑEDA VAHOS": 26,
+    "GONZALO DE JESUS ATEHORTUA OSPINA": 49,
+    "GUSTAVO ALONSO TOBON VELEZ": 1,
+    "HERSON MIRA GALEANO": 1,
+    "JAIME ALONSO GALLEGO GOMEZ": 3,
+    "JOVAN ESTEBAN PULGARIN JARAMILLO": 9,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 5
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

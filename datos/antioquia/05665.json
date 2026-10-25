@@ -1,0 +1,413 @@
+{
+ "municipio": {
+  "cod_dane": "05665",
+  "cod_registraduria": "237",
+  "nombre": "San Pedro de Urabá",
+  "subregion": "Urabá",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 16180,
+   "votos_validos": 15699,
+   "margen_puntos": 13.24,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Leyda Adriana Ortega Almario",
+     "nombre_oficial": "LEYDA ADRIANA ORTEGA ALMARIO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 6949,
+     "porcentaje": 44.26,
+     "posicion": 1
+    },
+    {
+     "nombre": "James Jair Correa Alfaro",
+     "nombre_oficial": "JAMES JAIR CORREA ALFARO",
+     "partido": "En Todo Tiempo con la Comunidad",
+     "partido_oficial": "EN TODO TIEMPO CON LA COMUNIDAD",
+     "familias": [],
+     "votos": 4870,
+     "porcentaje": 31.02,
+     "posicion": 2
+    },
+    {
+     "nombre": "Neder Luis Díaz Díaz",
+     "nombre_oficial": "NEDER LUIS DIAZ DIAZ",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 3748,
+     "porcentaje": 23.87,
+     "posicion": 3
+    },
+    {
+     "nombre": "Adolfo Antonio Alean Ruiz",
+     "nombre_oficial": "ADOLFO ANTONIO ALEAN RUIZ",
+     "partido": "Colombia Humana - Unión Patriotica",
+     "partido_oficial": "COLOMBIA HUMANA - UNION PATRIOTICA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 17,
+     "porcentaje": 0.11,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 260,
+    "VOTOS NULOS": 221,
+    "VOTOS EN BLANCO": 115
+   }
+  },
+  "2023": {
+   "votos_depositados": 17083,
+   "votos_validos": 16604,
+   "margen_puntos": 5.05,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Never Jacinto Carvajal Miranda",
+     "nombre_oficial": "NEVER JACINTO CARVAJAL MIRANDA",
+     "partido": "San Pedro de Urabá Grande y Sostenible",
+     "partido_oficial": "SAN PEDRO DE URABA GRANDE Y SOSTENIBLE",
+     "familias": [],
+     "votos": 7148,
+     "porcentaje": 43.05,
+     "posicion": 1
+    },
+    {
+     "nombre": "James Jair Correa Alfaro",
+     "nombre_oficial": "JAMES JAIR CORREA ALFARO",
+     "partido": "En Todo Tiempo con la Comunidad",
+     "partido_oficial": "EN TODO TIEMPO CON LA COMUNIDAD",
+     "familias": [],
+     "votos": 6310,
+     "porcentaje": 38.0,
+     "posicion": 2
+    },
+    {
+     "nombre": "Neder Luis Díaz Díaz",
+     "nombre_oficial": "NEDER LUIS DIAZ DIAZ",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 3002,
+     "porcentaje": 18.08,
+     "posicion": 3
+    },
+    {
+     "nombre": "Hilario González Teheran",
+     "nombre_oficial": "HILARIO GONZALEZ TEHERAN",
+     "partido": "Pacto Histórico",
+     "partido_oficial": "PACTO HISTORICO",
+     "familias": [
+      "PACTO"
+     ],
+     "votos": 60,
+     "porcentaje": 0.36,
+     "posicion": 4
+    },
+    {
+     "nombre": "Verne Caballero Ballesteros",
+     "nombre_oficial": "VERNE CABALLERO BALLESTEROS",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 4,
+     "porcentaje": 0.02,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 348,
+    "VOTOS NULOS": 131,
+    "VOTOS EN BLANCO": 80
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CD"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SAN PEDRO DE URABA|01|01",
+   "nombre": "I.E. San Pedro de Urabá",
+   "nombre_oficial": "I.E. SAN PEDRO DE URABA",
+   "zona": "01",
+   "rural": false,
+   "lat": 8.2795891,
+   "lon": -76.3839805,
+   "votos_total": 4648,
+   "votos_validos": 4492,
+   "ganador": "NEVER JACINTO CARVAJAL MIRANDA",
+   "empate": [],
+   "margen_puntos": 2.23,
+   "votos": {
+    "HILARIO GONZALEZ TEHERAN": 32,
+    "JAMES JAIR CORREA ALFARO": 1824,
+    "NEDER LUIS DIAZ DIAZ": 681,
+    "NEVER JACINTO CARVAJAL MIRANDA": 1924,
+    "VOTOS EN BLANCO": 31,
+    "VOTOS NO MARCADOS": 107,
+    "VOTOS NULOS": 49
+   }
+  },
+  {
+   "id": "SAN PEDRO DE URABA|01|02",
+   "nombre": "Escuela Urbana Integrada Zoila López",
+   "nombre_oficial": "ESCUELA  URBANA  INTEGRADA  ZOILA LOPEZ",
+   "zona": "01",
+   "rural": false,
+   "lat": 8.2731072,
+   "lon": -76.3861921,
+   "votos_total": 2431,
+   "votos_validos": 2357,
+   "ganador": "NEVER JACINTO CARVAJAL MIRANDA",
+   "empate": [],
+   "margen_puntos": 0.68,
+   "votos": {
+    "HILARIO GONZALEZ TEHERAN": 11,
+    "JAMES JAIR CORREA ALFARO": 995,
+    "NEDER LUIS DIAZ DIAZ": 331,
+    "NEVER JACINTO CARVAJAL MIRANDA": 1011,
+    "VERNE CABALLERO BALLESTEROS": 3,
+    "VOTOS EN BLANCO": 6,
+    "VOTOS NO MARCADOS": 53,
+    "VOTOS NULOS": 21
+   }
+  },
+  {
+   "id": "SAN PEDRO DE URABA|02|01",
+   "nombre": "I.E. San Pedro de Urabá Sd Policarpa Sa",
+   "nombre_oficial": "I.E. SAN PEDRO DE URABA SD POLICARPA  SA",
+   "zona": "02",
+   "rural": false,
+   "lat": 8.272138808957978,
+   "lon": -76.37522355453355,
+   "votos_total": 3142,
+   "votos_validos": 3067,
+   "ganador": "NEVER JACINTO CARVAJAL MIRANDA",
+   "empate": [],
+   "margen_puntos": 6.72,
+   "votos": {
+    "HILARIO GONZALEZ TEHERAN": 6,
+    "JAMES JAIR CORREA ALFARO": 1207,
+    "NEDER LUIS DIAZ DIAZ": 423,
+    "NEVER JACINTO CARVAJAL MIRANDA": 1413,
+    "VERNE CABALLERO BALLESTEROS": 1,
+    "VOTOS EN BLANCO": 17,
+    "VOTOS NO MARCADOS": 50,
+    "VOTOS NULOS": 25
+   }
+  },
+  {
+   "id": "SAN PEDRO DE URABA|02|02",
+   "nombre": "ESC. URB. Integrd Hernández Castillo",
+   "nombre_oficial": "ESC. URB. INTEGRD HERNANDEZ CASTILLO",
+   "zona": "02",
+   "rural": false,
+   "lat": 8.272423754030646,
+   "lon": -76.38501619587848,
+   "votos_total": 1995,
+   "votos_validos": 1981,
+   "ganador": "NEVER JACINTO CARVAJAL MIRANDA",
+   "empate": [],
+   "margen_puntos": 9.04,
+   "votos": {
+    "HILARIO GONZALEZ TEHERAN": 3,
+    "JAMES JAIR CORREA ALFARO": 759,
+    "NEDER LUIS DIAZ DIAZ": 268,
+    "NEVER JACINTO CARVAJAL MIRANDA": 938,
+    "VOTOS EN BLANCO": 13,
+    "VOTOS NO MARCADOS": 11,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "SAN PEDRO DE URABA|99|06",
+   "nombre": "Arenas Monas",
+   "nombre_oficial": "ARENAS MONAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.4882248,
+   "lon": -76.223316,
+   "votos_total": 712,
+   "votos_validos": 691,
+   "ganador": "NEVER JACINTO CARVAJAL MIRANDA",
+   "empate": [],
+   "margen_puntos": 9.12,
+   "votos": {
+    "HILARIO GONZALEZ TEHERAN": 1,
+    "JAMES JAIR CORREA ALFARO": 216,
+    "NEDER LUIS DIAZ DIAZ": 192,
+    "NEVER JACINTO CARVAJAL MIRANDA": 279,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 20,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "SAN PEDRO DE URABA|99|10",
+   "nombre": "El Tomate",
+   "nombre_oficial": "EL TOMATE",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.455489,
+   "lon": -76.3661985,
+   "votos_total": 803,
+   "votos_validos": 767,
+   "ganador": "JAMES JAIR CORREA ALFARO",
+   "empate": [],
+   "margen_puntos": 2.09,
+   "votos": {
+    "HILARIO GONZALEZ TEHERAN": 1,
+    "JAMES JAIR CORREA ALFARO": 276,
+    "NEDER LUIS DIAZ DIAZ": 230,
+    "NEVER JACINTO CARVAJAL MIRANDA": 260,
+    "VOTOS NO MARCADOS": 29,
+    "VOTOS NULOS": 7
+   }
+  },
+  {
+   "id": "SAN PEDRO DE URABA|99|15",
+   "nombre": "El Rayo",
+   "nombre_oficial": "EL RAYO",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.136877,
+   "lon": -76.39023,
+   "votos_total": 620,
+   "votos_validos": 607,
+   "ganador": "NEVER JACINTO CARVAJAL MIRANDA",
+   "empate": [],
+   "margen_puntos": 0.16,
+   "votos": {
+    "JAMES JAIR CORREA ALFARO": 293,
+    "NEDER LUIS DIAZ DIAZ": 20,
+    "NEVER JACINTO CARVAJAL MIRANDA": 294,
+    "VOTOS NO MARCADOS": 11,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "SAN PEDRO DE URABA|99|25",
+   "nombre": "Santa Catalina",
+   "nombre_oficial": "SANTA CATALINA",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.39970365098472,
+   "lon": -76.3176966096191,
+   "votos_total": 1913,
+   "votos_validos": 1852,
+   "ganador": "NEVER JACINTO CARVAJAL MIRANDA",
+   "empate": [],
+   "margen_puntos": 3.94,
+   "votos": {
+    "HILARIO GONZALEZ TEHERAN": 3,
+    "JAMES JAIR CORREA ALFARO": 511,
+    "NEDER LUIS DIAZ DIAZ": 628,
+    "NEVER JACINTO CARVAJAL MIRANDA": 701,
+    "VOTOS EN BLANCO": 9,
+    "VOTOS NO MARCADOS": 47,
+    "VOTOS NULOS": 14
+   }
+  },
+  {
+   "id": "SAN PEDRO DE URABA|99|32",
+   "nombre": "Zapindonga",
+   "nombre_oficial": "ZAPINDONGA",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.5378178781063,
+   "lon": -76.27879047393805,
+   "votos_total": 819,
+   "votos_validos": 790,
+   "ganador": "NEVER JACINTO CARVAJAL MIRANDA",
+   "empate": [],
+   "margen_puntos": 12.53,
+   "votos": {
+    "HILARIO GONZALEZ TEHERAN": 3,
+    "JAMES JAIR CORREA ALFARO": 229,
+    "NEDER LUIS DIAZ DIAZ": 229,
+    "NEVER JACINTO CARVAJAL MIRANDA": 328,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 20,
+    "VOTOS NULOS": 9
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

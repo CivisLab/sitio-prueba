@@ -1,0 +1,280 @@
+{
+ "municipio": {
+  "cod_dane": "05347",
+  "cod_registraduria": "148",
+  "nombre": "Heliconia",
+  "subregion": "Occidente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 3969,
+   "votos_validos": 3775,
+   "margen_puntos": 7.28,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "John Fredy Ortiz Tabares",
+     "nombre_oficial": "JOHN FREDY ORTIZ TABARES",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 1866,
+     "porcentaje": 49.43,
+     "posicion": 1
+    },
+    {
+     "nombre": "Jorge Alexander Álvarez Arango",
+     "nombre_oficial": "JORGE ALEXANDER ALVAREZ ARANGO",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 1591,
+     "porcentaje": 42.15,
+     "posicion": 2
+    },
+    {
+     "nombre": "Elkin Andrés Romero",
+     "nombre_oficial": "ELKIN ANDRES ROMERO",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 251,
+     "porcentaje": 6.65,
+     "posicion": 3
+    },
+    {
+     "nombre": "Andrés Ibarra",
+     "nombre_oficial": "ANDRES IBARRA",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 20,
+     "porcentaje": 0.53,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 113,
+    "VOTOS NULOS": 81,
+    "VOTOS EN BLANCO": 47
+   }
+  },
+  "2023": {
+   "votos_depositados": 4370,
+   "votos_validos": 4275,
+   "margen_puntos": 5.4,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Jorge Alexander Álvarez Arango",
+     "nombre_oficial": "JORGE ALEXANDER ALVAREZ ARANGO",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 2230,
+     "porcentaje": 52.16,
+     "posicion": 1
+    },
+    {
+     "nombre": "Arley David Bedoya Penagos",
+     "nombre_oficial": "ARLEY DAVID BEDOYA PENAGOS",
+     "partido": "Heliconia, Juntos Avancemos",
+     "partido_oficial": "HELICONIA, JUNTOS AVANCEMOS",
+     "familias": [],
+     "votos": 1999,
+     "porcentaje": 46.76,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 57,
+    "VOTOS EN BLANCO": 46,
+    "VOTOS NULOS": 38
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": false,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "LIB"
+  ],
+  "familias_2023": [
+   "VERDE"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "HELICONIA|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.209290276700547,
+   "lon": -75.7324290275573,
+   "votos_total": 2608,
+   "votos_validos": 2551,
+   "ganador": "JORGE ALEXANDER ALVAREZ ARANGO",
+   "empate": [],
+   "margen_puntos": 17.37,
+   "votos": {
+    "ARLEY DAVID BEDOYA PENAGOS": 1038,
+    "JORGE ALEXANDER ALVAREZ ARANGO": 1481,
+    "VOTOS EN BLANCO": 32,
+    "VOTOS NO MARCADOS": 33,
+    "VOTOS NULOS": 24
+   }
+  },
+  {
+   "id": "HELICONIA|99|01",
+   "nombre": "I.E. Alto del Corral",
+   "nombre_oficial": "I.E. ALTO DEL CORRAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.20484324646093,
+   "lon": -75.7729411125181,
+   "votos_total": 596,
+   "votos_validos": 582,
+   "ganador": "JORGE ALEXANDER ALVAREZ ARANGO",
+   "empate": [],
+   "margen_puntos": 19.07,
+   "votos": {
+    "ARLEY DAVID BEDOYA PENAGOS": 233,
+    "JORGE ALEXANDER ALVAREZ ARANGO": 344,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "HELICONIA|99|04",
+   "nombre": "La Pava",
+   "nombre_oficial": "LA PAVA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.224862252524944,
+   "lon": -75.7726836204526,
+   "votos_total": 166,
+   "votos_validos": 165,
+   "ganador": "ARLEY DAVID BEDOYA PENAGOS",
+   "empate": [],
+   "margen_puntos": 6.67,
+   "votos": {
+    "ARLEY DAVID BEDOYA PENAGOS": 88,
+    "JORGE ALEXANDER ALVAREZ ARANGO": 77,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "HELICONIA|99|05",
+   "nombre": "Pueblito",
+   "nombre_oficial": "PUEBLITO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.16765998130772,
+   "lon": -75.7214426994324,
+   "votos_total": 513,
+   "votos_validos": 496,
+   "ganador": "ARLEY DAVID BEDOYA PENAGOS",
+   "empate": [],
+   "margen_puntos": 30.24,
+   "votos": {
+    "ARLEY DAVID BEDOYA PENAGOS": 320,
+    "JORGE ALEXANDER ALVAREZ ARANGO": 170,
+    "VOTOS EN BLANCO": 6,
+    "VOTOS NO MARCADOS": 9,
+    "VOTOS NULOS": 8
+   }
+  },
+  {
+   "id": "HELICONIA|99|13",
+   "nombre": "Salon Comunal Llano de San José",
+   "nombre_oficial": "SALON COMUNAL  LLANO DE SAN JOSE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.25202850015644,
+   "lon": -75.7496353228759,
+   "votos_total": 487,
+   "votos_validos": 481,
+   "ganador": "ARLEY DAVID BEDOYA PENAGOS",
+   "empate": [],
+   "margen_puntos": 33.68,
+   "votos": {
+    "ARLEY DAVID BEDOYA PENAGOS": 320,
+    "JORGE ALEXANDER ALVAREZ ARANGO": 158,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 3
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

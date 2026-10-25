@@ -1,0 +1,188 @@
+{
+ "municipio": {
+  "cod_dane": "05576",
+  "cod_registraduria": "202",
+  "nombre": "Pueblorrico",
+  "subregion": "Suroeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 4332,
+   "votos_validos": 4229,
+   "margen_puntos": 8.51,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Carlos Arturo Quintero Hurtado",
+     "nombre_oficial": "CARLOS ARTURO QUINTERO HURTADO",
+     "partido": "Bien por Pueblorico",
+     "partido_oficial": "BIEN POR PUEBLORICO",
+     "familias": [],
+     "votos": 2267,
+     "porcentaje": 53.61,
+     "posicion": 1
+    },
+    {
+     "nombre": "Flavio Enrique Fajardo Sierra",
+     "nombre_oficial": "FLAVIO ENRIQUE FAJARDO SIERRA",
+     "partido": "Una Familia Llamada Pueblorrico",
+     "partido_oficial": "UNA FAMILIA LLAMADA PUEBLORRICO",
+     "familias": [],
+     "votos": 1907,
+     "porcentaje": 45.09,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 61,
+    "VOTOS EN BLANCO": 55,
+    "VOTOS NULOS": 42
+   }
+  },
+  "2023": {
+   "votos_depositados": 4813,
+   "votos_validos": 4684,
+   "margen_puntos": 6.98,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Cristian Camilo Zapata Ramírez",
+     "nombre_oficial": "CRISTIAN CAMILO ZAPATA RAMIREZ",
+     "partido": "Comprometidos con la Gente",
+     "partido_oficial": "COMPROMETIDOS CON LA GENTE",
+     "familias": [],
+     "votos": 2238,
+     "porcentaje": 47.78,
+     "posicion": 1
+    },
+    {
+     "nombre": "Juan Fernando Ruiz Gallego",
+     "nombre_oficial": "JUAN FERNANDO RUIZ GALLEGO",
+     "partido": "Transformamos Territorios",
+     "partido_oficial": "TRANSFORMAMOS TERRITORIOS",
+     "familias": [],
+     "votos": 1911,
+     "porcentaje": 40.8,
+     "posicion": 2
+    },
+    {
+     "nombre": "Verónica Catalina Ríos Mejía",
+     "nombre_oficial": "VERONICA CATALINA RIOS MEJIA",
+     "partido": "Es el Momento",
+     "partido_oficial": "ES EL MOMENTO",
+     "familias": [],
+     "votos": 254,
+     "porcentaje": 5.42,
+     "posicion": 3
+    },
+    {
+     "nombre": "Yamid González Díaz",
+     "nombre_oficial": "YAMID GONZALEZ DIAZ",
+     "partido": "Movimiento Político Colombia Humana",
+     "partido_oficial": "MOVIMIENTO POLÍTICO COLOMBIA HUMANA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 243,
+     "porcentaje": 5.19,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 80,
+    "VOTOS NULOS": 49,
+    "VOTOS EN BLANCO": 38
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "PUEBLORRICO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 5.791886004419123,
+   "lon": -75.8405233269836,
+   "votos_total": 4813,
+   "votos_validos": 4684,
+   "ganador": "CRISTIAN CAMILO ZAPATA RAMIREZ",
+   "empate": [],
+   "margen_puntos": 6.98,
+   "votos": {
+    "CRISTIAN CAMILO ZAPATA RAMIREZ": 2238,
+    "JUAN FERNANDO RUIZ GALLEGO": 1911,
+    "VERONICA CATALINA RIOS MEJIA": 254,
+    "VOTOS EN BLANCO": 38,
+    "VOTOS NO MARCADOS": 80,
+    "VOTOS NULOS": 49,
+    "YAMID GONZALEZ DIAZ": 243
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

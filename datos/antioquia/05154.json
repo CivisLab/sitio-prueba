@@ -1,0 +1,1055 @@
+{
+ "municipio": {
+  "cod_dane": "05154",
+  "cod_registraduria": "088",
+  "nombre": "Caucasia",
+  "subregion": "Bajo Cauca",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 40690,
+   "votos_validos": 39042,
+   "margen_puntos": 10.19,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Leiderman Ortiz Berrío",
+     "nombre_oficial": "LEIDERMAN ORTIZ BERRIO",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 16105,
+     "porcentaje": 41.25,
+     "posicion": 1
+    },
+    {
+     "nombre": "José Nadin Arabia Abisaad",
+     "nombre_oficial": "JOSE NADIN ARABIA ABISAAD",
+     "partido": "Unidos por Caucasia",
+     "partido_oficial": "UNIDOS POR CAUCASIA",
+     "familias": [],
+     "votos": 12127,
+     "porcentaje": 31.06,
+     "posicion": 2
+    },
+    {
+     "nombre": "Diego Alejandro Mora Zapata",
+     "nombre_oficial": "DIEGO ALEJANDRO MORA ZAPATA",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDIGENAS DE COLOMBIA AICO",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 3009,
+     "porcentaje": 7.71,
+     "posicion": 3
+    },
+    {
+     "nombre": "Alberto Manuel Arrieta Herrera",
+     "nombre_oficial": "ALBERTO MANUEL ARRIETA HERRERA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 2394,
+     "porcentaje": 6.13,
+     "posicion": 4
+    },
+    {
+     "nombre": "José Vicente Delgado Gómez",
+     "nombre_oficial": "JOSE VICENTE DELGADO GOMEZ",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 2077,
+     "porcentaje": 5.32,
+     "posicion": 5
+    },
+    {
+     "nombre": "Fernando Doval Navarro",
+     "nombre_oficial": "FERNANDO DOVAL NAVARRO",
+     "partido": "Partido Colombia Justa Libres",
+     "partido_oficial": "PARTIDO COLOMBIA JUSTA LIBRES",
+     "familias": [
+      "COL_JUSTA"
+     ],
+     "votos": 2025,
+     "porcentaje": 5.19,
+     "posicion": 6
+    },
+    {
+     "nombre": "Ferney Alonso Hoyos Oquendo",
+     "nombre_oficial": "FERNEY ALONSO HOYOS OQUENDO",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 431,
+     "porcentaje": 1.1,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 1042,
+    "VOTOS EN BLANCO": 874,
+    "VOTOS NULOS": 606
+   }
+  },
+  "2023": {
+   "votos_depositados": 42330,
+   "votos_validos": 40734,
+   "margen_puntos": 4.44,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Jhoan Oderis Montes Cortes",
+     "nombre_oficial": "JHOAN ODERIS MONTES CORTES",
+     "partido": "Coalición Hagamoslo Todos Juntos por Caucasia",
+     "partido_oficial": "COALICIÓN HAGAMOSLO TODOS JUNTOS POR CAUCASIA",
+     "familias": [],
+     "votos": 12557,
+     "porcentaje": 30.83,
+     "posicion": 1
+    },
+    {
+     "nombre": "Surany Arboleda Arias",
+     "nombre_oficial": "SURANY ARBOLEDA ARIAS",
+     "partido": "Agrupación Política en Marcha",
+     "partido_oficial": "AGRUPACIÓN POLÍTICA EN MARCHA",
+     "familias": [],
+     "votos": 10747,
+     "porcentaje": 26.38,
+     "posicion": 2
+    },
+    {
+     "nombre": "Anuar José Bertel Álvarez",
+     "nombre_oficial": "ANUAR JOSE BERTEL ALVAREZ",
+     "partido": "Partido Político la Fuerza de la Paz",
+     "partido_oficial": "PARTIDO POLÍTICO LA FUERZA DE LA PAZ",
+     "familias": [],
+     "votos": 6459,
+     "porcentaje": 15.86,
+     "posicion": 3
+    },
+    {
+     "nombre": "David Enrique Arango Quintana",
+     "nombre_oficial": "DAVID ENRIQUE ARANGO QUINTANA",
+     "partido": "Partido de la Unión por la Gente - Partido de la U",
+     "partido_oficial": "PARTIDO DE LA UNIÓN POR LA GENTE - PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 5172,
+     "porcentaje": 12.7,
+     "posicion": 4
+    },
+    {
+     "nombre": "Jaime Alfonso Montoya Ortega",
+     "nombre_oficial": "JAIME ALFONSO MONTOYA ORTEGA",
+     "partido": "Partido Político Dignidad & Compromiso",
+     "partido_oficial": "PARTIDO POLÍTICO DIGNIDAD & COMPROMISO",
+     "familias": [],
+     "votos": 1907,
+     "porcentaje": 4.68,
+     "posicion": 5
+    },
+    {
+     "nombre": "Antonio José Pérez Araujo",
+     "nombre_oficial": "ANTONIO JOSE PEREZ ARAUJO",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 854,
+     "porcentaje": 2.1,
+     "posicion": 6
+    },
+    {
+     "nombre": "Nedis María Cuadro Sibaja",
+     "nombre_oficial": "NEDIS MARIA CUADRO SIBAJA",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 741,
+     "porcentaje": 1.82,
+     "posicion": 7
+    },
+    {
+     "nombre": "Benito Antonio Pacheco Julio",
+     "nombre_oficial": "BENITO ANTONIO PACHECO JULIO",
+     "partido": "Pacto Histórico",
+     "partido_oficial": "PACTO HISTORICO",
+     "familias": [
+      "PACTO"
+     ],
+     "votos": 711,
+     "porcentaje": 1.75,
+     "posicion": 8
+    },
+    {
+     "nombre": "Fabio Enrique Montes Rojas",
+     "nombre_oficial": "FABIO ENRIQUE MONTES ROJAS",
+     "partido": "Movimiento Alianza Democrática Amplia - Res. 2049 de 2021",
+     "partido_oficial": "MOVIMIENTO ALIANZA DEMOCRÁTICA AMPLIA - Res. 2049 de 2021",
+     "familias": [
+      "ADA"
+     ],
+     "votos": 665,
+     "porcentaje": 1.63,
+     "posicion": 9
+    },
+    {
+     "nombre": "Dagoberto López Laza",
+     "nombre_oficial": "DAGOBERTO LOPEZ LAZA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 60,
+     "porcentaje": 0.15,
+     "posicion": 10
+    },
+    {
+     "nombre": "Edwin Jair Areiza Román",
+     "nombre_oficial": "EDWIN JAIR AREIZA ROMAN",
+     "partido": "Movimiento Político Fuerza Ciudadana",
+     "partido_oficial": "MOVIMIENTO POLITICO FUERZA CIUDADANA",
+     "familias": [],
+     "votos": 17,
+     "porcentaje": 0.04,
+     "posicion": 11
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 844,
+    "VOTOS NULOS": 800,
+    "VOTOS NO MARCADOS": 796
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "U"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "CAUCASIA|01|01",
+   "nombre": "Institución Educativa Santo Domingo",
+   "nombre_oficial": "INSTITUCION EDUCATIVA SANTO DOMINGO",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.998443351999998,
+   "lon": -75.2003011099998,
+   "votos_total": 3212,
+   "votos_validos": 3091,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 5.24,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 43,
+    "ANUAR JOSE BERTEL ALVAREZ": 475,
+    "BENITO ANTONIO PACHECO JULIO": 67,
+    "DAGOBERTO LOPEZ LAZA": 6,
+    "DAVID ENRIQUE ARANGO QUINTANA": 475,
+    "EDWIN JAIR AREIZA ROMAN": 1,
+    "FABIO ENRIQUE MONTES ROJAS": 42,
+    "JAIME ALFONSO MONTOYA ORTEGA": 110,
+    "JHOAN ODERIS MONTES CORTES": 939,
+    "NEDIS MARIA CUADRO SIBAJA": 89,
+    "SURANY ARBOLEDA ARIAS": 777,
+    "VOTOS EN BLANCO": 67,
+    "VOTOS NO MARCADOS": 59,
+    "VOTOS NULOS": 62
+   }
+  },
+  {
+   "id": "CAUCASIA|01|02",
+   "nombre": "IE Santo Domingo Nueva Santa H",
+   "nombre_oficial": "IE SANTO DOMINGO NUEVA SANTA H",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.994969538159232,
+   "lon": -75.20784026015993,
+   "votos_total": 2573,
+   "votos_validos": 2485,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 4.59,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 94,
+    "ANUAR JOSE BERTEL ALVAREZ": 476,
+    "BENITO ANTONIO PACHECO JULIO": 36,
+    "DAGOBERTO LOPEZ LAZA": 2,
+    "DAVID ENRIQUE ARANGO QUINTANA": 298,
+    "FABIO ENRIQUE MONTES ROJAS": 22,
+    "JAIME ALFONSO MONTOYA ORTEGA": 117,
+    "JHOAN ODERIS MONTES CORTES": 731,
+    "NEDIS MARIA CUADRO SIBAJA": 39,
+    "SURANY ARBOLEDA ARIAS": 617,
+    "VOTOS EN BLANCO": 53,
+    "VOTOS NO MARCADOS": 45,
+    "VOTOS NULOS": 43
+   }
+  },
+  {
+   "id": "CAUCASIA|01|03",
+   "nombre": "I.E. Liceo Caucasia Sta Helena",
+   "nombre_oficial": "I.E. LICEO CAUCASIA STA HELENA",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.993086551791252,
+   "lon": -75.20274639129623,
+   "votos_total": 1381,
+   "votos_validos": 1338,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 1.72,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 39,
+    "ANUAR JOSE BERTEL ALVAREZ": 260,
+    "BENITO ANTONIO PACHECO JULIO": 46,
+    "DAGOBERTO LOPEZ LAZA": 1,
+    "DAVID ENRIQUE ARANGO QUINTANA": 189,
+    "EDWIN JAIR AREIZA ROMAN": 1,
+    "FABIO ENRIQUE MONTES ROJAS": 11,
+    "JAIME ALFONSO MONTOYA ORTEGA": 66,
+    "JHOAN ODERIS MONTES CORTES": 353,
+    "NEDIS MARIA CUADRO SIBAJA": 9,
+    "SURANY ARBOLEDA ARIAS": 330,
+    "VOTOS EN BLANCO": 33,
+    "VOTOS NO MARCADOS": 26,
+    "VOTOS NULOS": 17
+   }
+  },
+  {
+   "id": "CAUCASIA|01|04",
+   "nombre": "Institución Educativa Liceo Caucasia",
+   "nombre_oficial": "INSTITUCION EDUCATIVA LICEO CAUCASIA",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.990424722,
+   "lon": -75.2024297199998,
+   "votos_total": 4745,
+   "votos_validos": 4572,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 5.14,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 107,
+    "ANUAR JOSE BERTEL ALVAREZ": 739,
+    "BENITO ANTONIO PACHECO JULIO": 97,
+    "DAGOBERTO LOPEZ LAZA": 6,
+    "DAVID ENRIQUE ARANGO QUINTANA": 626,
+    "EDWIN JAIR AREIZA ROMAN": 2,
+    "FABIO ENRIQUE MONTES ROJAS": 101,
+    "JAIME ALFONSO MONTOYA ORTEGA": 190,
+    "JHOAN ODERIS MONTES CORTES": 1388,
+    "NEDIS MARIA CUADRO SIBAJA": 90,
+    "SURANY ARBOLEDA ARIAS": 1153,
+    "VOTOS EN BLANCO": 73,
+    "VOTOS NO MARCADOS": 82,
+    "VOTOS NULOS": 91
+   }
+  },
+  {
+   "id": "CAUCASIA|01|05",
+   "nombre": "Institución Educativa Liceo Concejo Mpal",
+   "nombre_oficial": "INSTITUCION EDUCATIVA LICEO CONCEJO MPAL",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.987391388999999,
+   "lon": -75.20201944,
+   "votos_total": 591,
+   "votos_validos": 577,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 1.39,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 13,
+    "ANUAR JOSE BERTEL ALVAREZ": 105,
+    "BENITO ANTONIO PACHECO JULIO": 8,
+    "DAGOBERTO LOPEZ LAZA": 4,
+    "DAVID ENRIQUE ARANGO QUINTANA": 65,
+    "FABIO ENRIQUE MONTES ROJAS": 3,
+    "JAIME ALFONSO MONTOYA ORTEGA": 20,
+    "JHOAN ODERIS MONTES CORTES": 166,
+    "NEDIS MARIA CUADRO SIBAJA": 12,
+    "SURANY ARBOLEDA ARIAS": 158,
+    "VOTOS EN BLANCO": 23,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 8
+   }
+  },
+  {
+   "id": "CAUCASIA|01|06",
+   "nombre": "I.E. Sta Teresita Loma Fresca",
+   "nombre_oficial": "I.E. STA TERESITA LOMA FRESCA",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.987717,
+   "lon": -75.1948289999999,
+   "votos_total": 1828,
+   "votos_validos": 1757,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 4.5,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 37,
+    "ANUAR JOSE BERTEL ALVAREZ": 249,
+    "BENITO ANTONIO PACHECO JULIO": 30,
+    "DAGOBERTO LOPEZ LAZA": 4,
+    "DAVID ENRIQUE ARANGO QUINTANA": 194,
+    "EDWIN JAIR AREIZA ROMAN": 2,
+    "FABIO ENRIQUE MONTES ROJAS": 17,
+    "JAIME ALFONSO MONTOYA ORTEGA": 66,
+    "JHOAN ODERIS MONTES CORTES": 585,
+    "NEDIS MARIA CUADRO SIBAJA": 26,
+    "SURANY ARBOLEDA ARIAS": 506,
+    "VOTOS EN BLANCO": 41,
+    "VOTOS NO MARCADOS": 31,
+    "VOTOS NULOS": 40
+   }
+  },
+  {
+   "id": "CAUCASIA|01|07",
+   "nombre": "I.E. Sta Teresita Centro",
+   "nombre_oficial": "I.E. STA TERESITA CENTRO",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.987555,
+   "lon": -75.1928549999999,
+   "votos_total": 3201,
+   "votos_validos": 3075,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 3.77,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 47,
+    "ANUAR JOSE BERTEL ALVAREZ": 487,
+    "BENITO ANTONIO PACHECO JULIO": 51,
+    "DAGOBERTO LOPEZ LAZA": 2,
+    "DAVID ENRIQUE ARANGO QUINTANA": 405,
+    "EDWIN JAIR AREIZA ROMAN": 2,
+    "FABIO ENRIQUE MONTES ROJAS": 46,
+    "JAIME ALFONSO MONTOYA ORTEGA": 125,
+    "JHOAN ODERIS MONTES CORTES": 950,
+    "NEDIS MARIA CUADRO SIBAJA": 62,
+    "SURANY ARBOLEDA ARIAS": 834,
+    "VOTOS EN BLANCO": 64,
+    "VOTOS NO MARCADOS": 63,
+    "VOTOS NULOS": 63
+   }
+  },
+  {
+   "id": "CAUCASIA|01|08",
+   "nombre": "I.E. Antioquia la Grande",
+   "nombre_oficial": "I.E.ANTIOQUIA LA GRANDE",
+   "zona": "01",
+   "rural": false,
+   "lat": 8.006784979237423,
+   "lon": -75.24558162719259,
+   "votos_total": 302,
+   "votos_validos": 285,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 29.12,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 4,
+    "ANUAR JOSE BERTEL ALVAREZ": 31,
+    "BENITO ANTONIO PACHECO JULIO": 1,
+    "DAGOBERTO LOPEZ LAZA": 1,
+    "DAVID ENRIQUE ARANGO QUINTANA": 37,
+    "FABIO ENRIQUE MONTES ROJAS": 1,
+    "JAIME ALFONSO MONTOYA ORTEGA": 34,
+    "JHOAN ODERIS MONTES CORTES": 127,
+    "NEDIS MARIA CUADRO SIBAJA": 3,
+    "SURANY ARBOLEDA ARIAS": 44,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NULOS": 17
+   }
+  },
+  {
+   "id": "CAUCASIA|02|01",
+   "nombre": "I.E. la Misericordia Sn Rafael",
+   "nombre_oficial": "I.E. LA MISERICORDIA SN RAFAEL",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.987222221999998,
+   "lon": -75.1969444399998,
+   "votos_total": 1224,
+   "votos_validos": 1196,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 2.51,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 26,
+    "ANUAR JOSE BERTEL ALVAREZ": 180,
+    "BENITO ANTONIO PACHECO JULIO": 21,
+    "DAGOBERTO LOPEZ LAZA": 3,
+    "DAVID ENRIQUE ARANGO QUINTANA": 153,
+    "FABIO ENRIQUE MONTES ROJAS": 17,
+    "JAIME ALFONSO MONTOYA ORTEGA": 41,
+    "JHOAN ODERIS MONTES CORTES": 370,
+    "NEDIS MARIA CUADRO SIBAJA": 7,
+    "SURANY ARBOLEDA ARIAS": 340,
+    "VOTOS EN BLANCO": 38,
+    "VOTOS NO MARCADOS": 9,
+    "VOTOS NULOS": 19
+   }
+  },
+  {
+   "id": "CAUCASIA|02|02",
+   "nombre": "Col Mil el Tesoro del Saber",
+   "nombre_oficial": "COL MIL EL TESORO DEL SABER",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.98206453058912,
+   "lon": -75.20466264693655,
+   "votos_total": 1950,
+   "votos_validos": 1914,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 0.94,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 26,
+    "ANUAR JOSE BERTEL ALVAREZ": 270,
+    "BENITO ANTONIO PACHECO JULIO": 22,
+    "DAGOBERTO LOPEZ LAZA": 1,
+    "DAVID ENRIQUE ARANGO QUINTANA": 243,
+    "FABIO ENRIQUE MONTES ROJAS": 35,
+    "JAIME ALFONSO MONTOYA ORTEGA": 69,
+    "JHOAN ODERIS MONTES CORTES": 589,
+    "NEDIS MARIA CUADRO SIBAJA": 18,
+    "SURANY ARBOLEDA ARIAS": 571,
+    "VOTOS EN BLANCO": 70,
+    "VOTOS NO MARCADOS": 19,
+    "VOTOS NULOS": 17
+   }
+  },
+  {
+   "id": "CAUCASIA|02|03",
+   "nombre": "I.E. la Misericordia Ppal",
+   "nombre_oficial": "I.E. LA MISERICORDIA PPAL",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.982539587520637,
+   "lon": -75.19998395208475,
+   "votos_total": 4926,
+   "votos_validos": 4734,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 2.3,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 108,
+    "ANUAR JOSE BERTEL ALVAREZ": 748,
+    "BENITO ANTONIO PACHECO JULIO": 133,
+    "DAGOBERTO LOPEZ LAZA": 7,
+    "DAVID ENRIQUE ARANGO QUINTANA": 695,
+    "EDWIN JAIR AREIZA ROMAN": 1,
+    "FABIO ENRIQUE MONTES ROJAS": 103,
+    "JAIME ALFONSO MONTOYA ORTEGA": 204,
+    "JHOAN ODERIS MONTES CORTES": 1348,
+    "NEDIS MARIA CUADRO SIBAJA": 51,
+    "SURANY ARBOLEDA ARIAS": 1239,
+    "VOTOS EN BLANCO": 97,
+    "VOTOS NO MARCADOS": 101,
+    "VOTOS NULOS": 91
+   }
+  },
+  {
+   "id": "CAUCASIA|02|04",
+   "nombre": "INST.EDUC. Marco Fidel Suárez",
+   "nombre_oficial": "INST.EDUC.MARCO FIDEL SUAREZ",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.9826385587294,
+   "lon": -75.19863528625635,
+   "votos_total": 3913,
+   "votos_validos": 3746,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 0.91,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 79,
+    "ANUAR JOSE BERTEL ALVAREZ": 573,
+    "BENITO ANTONIO PACHECO JULIO": 85,
+    "DAGOBERTO LOPEZ LAZA": 7,
+    "DAVID ENRIQUE ARANGO QUINTANA": 565,
+    "EDWIN JAIR AREIZA ROMAN": 3,
+    "FABIO ENRIQUE MONTES ROJAS": 63,
+    "JAIME ALFONSO MONTOYA ORTEGA": 139,
+    "JHOAN ODERIS MONTES CORTES": 1053,
+    "NEDIS MARIA CUADRO SIBAJA": 61,
+    "SURANY ARBOLEDA ARIAS": 1019,
+    "VOTOS EN BLANCO": 99,
+    "VOTOS NO MARCADOS": 85,
+    "VOTOS NULOS": 82
+   }
+  },
+  {
+   "id": "CAUCASIA|02|05",
+   "nombre": "I.E. Divino Niño Principal",
+   "nombre_oficial": "I.E. DIVINO NIÑO PRINCIPAL",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.980036269279921,
+   "lon": -75.19226594333958,
+   "votos_total": 4081,
+   "votos_validos": 3915,
+   "ganador": "SURANY ARBOLEDA ARIAS",
+   "empate": [],
+   "margen_puntos": 1.4,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 69,
+    "ANUAR JOSE BERTEL ALVAREZ": 710,
+    "BENITO ANTONIO PACHECO JULIO": 60,
+    "DAGOBERTO LOPEZ LAZA": 4,
+    "DAVID ENRIQUE ARANGO QUINTANA": 361,
+    "EDWIN JAIR AREIZA ROMAN": 2,
+    "FABIO ENRIQUE MONTES ROJAS": 85,
+    "JAIME ALFONSO MONTOYA ORTEGA": 295,
+    "JHOAN ODERIS MONTES CORTES": 1090,
+    "NEDIS MARIA CUADRO SIBAJA": 44,
+    "SURANY ARBOLEDA ARIAS": 1145,
+    "VOTOS EN BLANCO": 50,
+    "VOTOS NO MARCADOS": 89,
+    "VOTOS NULOS": 77
+   }
+  },
+  {
+   "id": "CAUCASIA|02|06",
+   "nombre": "I.E. Divino Niño Sec Caracoli",
+   "nombre_oficial": "I.E. DIVINO NIÑO SEC CARACOLI",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.975012999999998,
+   "lon": -75.193734,
+   "votos_total": 2705,
+   "votos_validos": 2616,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 3.36,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 63,
+    "ANUAR JOSE BERTEL ALVAREZ": 483,
+    "BENITO ANTONIO PACHECO JULIO": 18,
+    "DAGOBERTO LOPEZ LAZA": 2,
+    "DAVID ENRIQUE ARANGO QUINTANA": 254,
+    "EDWIN JAIR AREIZA ROMAN": 2,
+    "FABIO ENRIQUE MONTES ROJAS": 41,
+    "JAIME ALFONSO MONTOYA ORTEGA": 161,
+    "JHOAN ODERIS MONTES CORTES": 802,
+    "NEDIS MARIA CUADRO SIBAJA": 28,
+    "SURANY ARBOLEDA ARIAS": 714,
+    "VOTOS EN BLANCO": 48,
+    "VOTOS NO MARCADOS": 37,
+    "VOTOS NULOS": 52
+   }
+  },
+  {
+   "id": "CAUCASIA|02|07",
+   "nombre": "I.E. Divino Niño Sede San José",
+   "nombre_oficial": "I.E. DIVINO NIÑO SEDE SAN JOSE",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.969361126886275,
+   "lon": -75.19491494823689,
+   "votos_total": 633,
+   "votos_validos": 610,
+   "ganador": "SURANY ARBOLEDA ARIAS",
+   "empate": [],
+   "margen_puntos": 4.1,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 11,
+    "ANUAR JOSE BERTEL ALVAREZ": 102,
+    "BENITO ANTONIO PACHECO JULIO": 2,
+    "DAVID ENRIQUE ARANGO QUINTANA": 71,
+    "FABIO ENRIQUE MONTES ROJAS": 16,
+    "JAIME ALFONSO MONTOYA ORTEGA": 36,
+    "JHOAN ODERIS MONTES CORTES": 164,
+    "NEDIS MARIA CUADRO SIBAJA": 7,
+    "SURANY ARBOLEDA ARIAS": 189,
+    "VOTOS EN BLANCO": 12,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 11
+   }
+  },
+  {
+   "id": "CAUCASIA|02|08",
+   "nombre": "Institución Educativa las Malvinas",
+   "nombre_oficial": "INSTITUCION EDUCATIVA LAS MALVINAS",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.971418622311626,
+   "lon": -75.18117009503176,
+   "votos_total": 2130,
+   "votos_validos": 2062,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 13.29,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 60,
+    "ANUAR JOSE BERTEL ALVAREZ": 274,
+    "BENITO ANTONIO PACHECO JULIO": 15,
+    "DAGOBERTO LOPEZ LAZA": 3,
+    "DAVID ENRIQUE ARANGO QUINTANA": 214,
+    "FABIO ENRIQUE MONTES ROJAS": 26,
+    "JAIME ALFONSO MONTOYA ORTEGA": 119,
+    "JHOAN ODERIS MONTES CORTES": 783,
+    "NEDIS MARIA CUADRO SIBAJA": 25,
+    "SURANY ARBOLEDA ARIAS": 509,
+    "VOTOS EN BLANCO": 34,
+    "VOTOS NO MARCADOS": 33,
+    "VOTOS NULOS": 35
+   }
+  },
+  {
+   "id": "CAUCASIA|99|05",
+   "nombre": "Cuturu",
+   "nombre_oficial": "CUTURU",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.725867158288633,
+   "lon": -74.79011986489284,
+   "votos_total": 644,
+   "votos_validos": 599,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 22.37,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 2,
+    "ANUAR JOSE BERTEL ALVAREZ": 17,
+    "BENITO ANTONIO PACHECO JULIO": 3,
+    "DAGOBERTO LOPEZ LAZA": 2,
+    "DAVID ENRIQUE ARANGO QUINTANA": 123,
+    "FABIO ENRIQUE MONTES ROJAS": 5,
+    "JAIME ALFONSO MONTOYA ORTEGA": 54,
+    "JHOAN ODERIS MONTES CORTES": 258,
+    "NEDIS MARIA CUADRO SIBAJA": 1,
+    "SURANY ARBOLEDA ARIAS": 124,
+    "VOTOS EN BLANCO": 10,
+    "VOTOS NO MARCADOS": 30,
+    "VOTOS NULOS": 15
+   }
+  },
+  {
+   "id": "CAUCASIA|99|06",
+   "nombre": "El Pando",
+   "nombre_oficial": "EL PANDO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.793313275,
+   "lon": -75.0695545799999,
+   "votos_total": 316,
+   "votos_validos": 300,
+   "ganador": "NEDIS MARIA CUADRO SIBAJA",
+   "empate": [],
+   "margen_puntos": 25.67,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 10,
+    "ANUAR JOSE BERTEL ALVAREZ": 1,
+    "DAVID ENRIQUE ARANGO QUINTANA": 3,
+    "JAIME ALFONSO MONTOYA ORTEGA": 5,
+    "JHOAN ODERIS MONTES CORTES": 62,
+    "NEDIS MARIA CUADRO SIBAJA": 148,
+    "SURANY ARBOLEDA ARIAS": 71,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 10
+   }
+  },
+  {
+   "id": "CAUCASIA|99|10",
+   "nombre": "La Ilusion",
+   "nombre_oficial": "LA ILUSION",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.023843,
+   "lon": -75.0898559999998,
+   "votos_total": 196,
+   "votos_validos": 184,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 19.02,
+   "votos": {
+    "ANUAR JOSE BERTEL ALVAREZ": 19,
+    "DAVID ENRIQUE ARANGO QUINTANA": 23,
+    "FABIO ENRIQUE MONTES ROJAS": 13,
+    "JAIME ALFONSO MONTOYA ORTEGA": 11,
+    "JHOAN ODERIS MONTES CORTES": 74,
+    "NEDIS MARIA CUADRO SIBAJA": 2,
+    "SURANY ARBOLEDA ARIAS": 39,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "CAUCASIA|99|17",
+   "nombre": "Margento",
+   "nombre_oficial": "MARGENTO",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.037194019295109,
+   "lon": -74.9529189347266,
+   "votos_total": 563,
+   "votos_validos": 530,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 33.4,
+   "votos": {
+    "ANUAR JOSE BERTEL ALVAREZ": 116,
+    "BENITO ANTONIO PACHECO JULIO": 2,
+    "DAGOBERTO LOPEZ LAZA": 3,
+    "DAVID ENRIQUE ARANGO QUINTANA": 49,
+    "FABIO ENRIQUE MONTES ROJAS": 4,
+    "JAIME ALFONSO MONTOYA ORTEGA": 7,
+    "JHOAN ODERIS MONTES CORTES": 293,
+    "NEDIS MARIA CUADRO SIBAJA": 3,
+    "SURANY ARBOLEDA ARIAS": 52,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 23,
+    "VOTOS NULOS": 10
+   }
+  },
+  {
+   "id": "CAUCASIA|99|25",
+   "nombre": "Palanca",
+   "nombre_oficial": "PALANCA",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.008788,
+   "lon": -75.0212799999999,
+   "votos_total": 162,
+   "votos_validos": 151,
+   "ganador": "SURANY ARBOLEDA ARIAS",
+   "empate": [],
+   "margen_puntos": 7.28,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 2,
+    "ANUAR JOSE BERTEL ALVAREZ": 48,
+    "DAVID ENRIQUE ARANGO QUINTANA": 15,
+    "FABIO ENRIQUE MONTES ROJAS": 6,
+    "JAIME ALFONSO MONTOYA ORTEGA": 4,
+    "JHOAN ODERIS MONTES CORTES": 16,
+    "NEDIS MARIA CUADRO SIBAJA": 1,
+    "SURANY ARBOLEDA ARIAS": 59,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "CAUCASIA|99|27",
+   "nombre": "Puerto Colombia",
+   "nombre_oficial": "PUERTO COLOMBIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.579310308539815,
+   "lon": -75.01375406108362,
+   "votos_total": 147,
+   "votos_validos": 137,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 29.2,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 5,
+    "BENITO ANTONIO PACHECO JULIO": 3,
+    "DAVID ENRIQUE ARANGO QUINTANA": 5,
+    "FABIO ENRIQUE MONTES ROJAS": 2,
+    "JAIME ALFONSO MONTOYA ORTEGA": 1,
+    "JHOAN ODERIS MONTES CORTES": 77,
+    "NEDIS MARIA CUADRO SIBAJA": 1,
+    "SURANY ARBOLEDA ARIAS": 37,
+    "VOTOS EN BLANCO": 6,
+    "VOTOS NULOS": 10
+   }
+  },
+  {
+   "id": "CAUCASIA|99|28",
+   "nombre": "Palomar",
+   "nombre_oficial": "PALOMAR",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.99996104529177,
+   "lon": -74.97413610236207,
+   "votos_total": 207,
+   "votos_validos": 199,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 7.54,
+   "votos": {
+    "ANUAR JOSE BERTEL ALVAREZ": 19,
+    "BENITO ANTONIO PACHECO JULIO": 1,
+    "DAVID ENRIQUE ARANGO QUINTANA": 26,
+    "FABIO ENRIQUE MONTES ROJAS": 3,
+    "JAIME ALFONSO MONTOYA ORTEGA": 1,
+    "JHOAN ODERIS MONTES CORTES": 81,
+    "NEDIS MARIA CUADRO SIBAJA": 1,
+    "SURANY ARBOLEDA ARIAS": 66,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "CAUCASIA|99|40",
+   "nombre": "Puerto Gloria",
+   "nombre_oficial": "PUERTO GLORIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.804894882325039,
+   "lon": -74.92932285046021,
+   "votos_total": 349,
+   "votos_validos": 331,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 36.56,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 8,
+    "ANUAR JOSE BERTEL ALVAREZ": 45,
+    "BENITO ANTONIO PACHECO JULIO": 2,
+    "DAGOBERTO LOPEZ LAZA": 1,
+    "DAVID ENRIQUE ARANGO QUINTANA": 41,
+    "FABIO ENRIQUE MONTES ROJAS": 1,
+    "JAIME ALFONSO MONTOYA ORTEGA": 17,
+    "JHOAN ODERIS MONTES CORTES": 166,
+    "NEDIS MARIA CUADRO SIBAJA": 11,
+    "SURANY ARBOLEDA ARIAS": 30,
+    "VOTOS EN BLANCO": 9,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 13
+   }
+  },
+  {
+   "id": "CAUCASIA|99|60",
+   "nombre": "Puerto Triana",
+   "nombre_oficial": "PUERTO TRIANA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.684067821674654,
+   "lon": -74.89228151411021,
+   "votos_total": 195,
+   "votos_validos": 180,
+   "ganador": "JHOAN ODERIS MONTES CORTES",
+   "empate": [],
+   "margen_puntos": 0.56,
+   "votos": {
+    "ANTONIO JOSE PEREZ ARAUJO": 1,
+    "ANUAR JOSE BERTEL ALVAREZ": 10,
+    "DAGOBERTO LOPEZ LAZA": 1,
+    "DAVID ENRIQUE ARANGO QUINTANA": 16,
+    "EDWIN JAIR AREIZA ROMAN": 1,
+    "JAIME ALFONSO MONTOYA ORTEGA": 4,
+    "JHOAN ODERIS MONTES CORTES": 70,
+    "NEDIS MARIA CUADRO SIBAJA": 2,
+    "SURANY ARBOLEDA ARIAS": 69,
+    "VOTOS EN BLANCO": 6,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 5
+   }
+  },
+  {
+   "id": "CAUCASIA|99|70",
+   "nombre": "Santa Rosita",
+   "nombre_oficial": "SANTA ROSITA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.957057928024986,
+   "lon": -75.29728519306009,
+   "votos_total": 140,
+   "votos_validos": 134,
+   "ganador": "SURANY ARBOLEDA ARIAS",
+   "empate": [],
+   "margen_puntos": 20.15,
+   "votos": {
+    "ANUAR JOSE BERTEL ALVAREZ": 22,
+    "BENITO ANTONIO PACHECO JULIO": 7,
+    "DAVID ENRIQUE ARANGO QUINTANA": 23,
+    "FABIO ENRIQUE MONTES ROJAS": 1,
+    "JAIME ALFONSO MONTOYA ORTEGA": 10,
+    "JHOAN ODERIS MONTES CORTES": 18,
+    "SURANY ARBOLEDA ARIAS": 50,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 3
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel",
+   "nombre_oficial": "CARCEL",
+   "votos": 16,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

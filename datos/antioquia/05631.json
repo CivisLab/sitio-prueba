@@ -1,0 +1,666 @@
+{
+ "municipio": {
+  "cod_dane": "05631",
+  "cod_registraduria": "218",
+  "nombre": "Sabaneta",
+  "subregion": "Valle de Aburrá",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 44149,
+   "votos_validos": 43034,
+   "margen_puntos": 1.34,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Santiago Montoya Montoya",
+     "nombre_oficial": "SANTIAGO MONTOYA MONTOYA",
+     "partido": "Somos Sabaneta",
+     "partido_oficial": "SOMOS SABANETA",
+     "familias": [],
+     "votos": 19491,
+     "porcentaje": 45.29,
+     "posicion": 1
+    },
+    {
+     "nombre": "Carlos Mario Cuartas Palacio",
+     "nombre_oficial": "CARLOS MARIO CUARTAS PALACIO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 18916,
+     "porcentaje": 43.96,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 4627,
+    "VOTOS NULOS": 566,
+    "VOTOS NO MARCADOS": 549
+   }
+  },
+  "2023": {
+   "votos_depositados": 56212,
+   "votos_validos": 54608,
+   "margen_puntos": 11.18,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Alder James Cruz Ocampo",
+     "nombre_oficial": "ALDER JAMES CRUZ OCAMPO",
+     "partido": "Alder Cruz Alcalde",
+     "partido_oficial": "ALDER CRUZ ALCALDE",
+     "familias": [],
+     "votos": 19940,
+     "porcentaje": 36.51,
+     "posicion": 1
+    },
+    {
+     "nombre": "Iván Alonso Montoya Urrego",
+     "nombre_oficial": "IVAN ALONSO MONTOYA URREGO",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 13836,
+     "porcentaje": 25.34,
+     "posicion": 2
+    },
+    {
+     "nombre": "Juan Carlos Bustamante Agudelo",
+     "nombre_oficial": "JUAN CARLOS BUSTAMANTE AGUDELO",
+     "partido": "Coalición la Sabaneta Que Queremos",
+     "partido_oficial": "COALICION LA SABANETA QUE QUEREMOS",
+     "familias": [],
+     "votos": 10217,
+     "porcentaje": 18.71,
+     "posicion": 3
+    },
+    {
+     "nombre": "Yuly Paola Quintero Londoño",
+     "nombre_oficial": "YULY PAOLA QUINTERO LONDOÑO",
+     "partido": "La Nueva Sabaneta",
+     "partido_oficial": "LA NUEVA SABANETA",
+     "familias": [],
+     "votos": 2685,
+     "porcentaje": 4.92,
+     "posicion": 4
+    },
+    {
+     "nombre": "Óscar Daniel Galeano Tamayo",
+     "nombre_oficial": "OSCAR DANIEL GALEANO TAMAYO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRÁTICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 1952,
+     "porcentaje": 3.57,
+     "posicion": 5
+    },
+    {
+     "nombre": "Efraín José Martínez Meneses",
+     "nombre_oficial": "EFRAIN JOSE MARTINEZ MENESES",
+     "partido": "Pacto Histórico Colombia Puede",
+     "partido_oficial": "PACTO HISTORICO COLOMBIA PUEDE",
+     "familias": [
+      "PACTO"
+     ],
+     "votos": 1080,
+     "porcentaje": 1.98,
+     "posicion": 6
+    },
+    {
+     "nombre": "Gabriel Ángel Álvarez Rua",
+     "nombre_oficial": "GABRIEL ANGEL ALVAREZ RUA",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDÍGENAS DE COLOMBIA \"AICO\"",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 972,
+     "porcentaje": 1.78,
+     "posicion": 7
+    },
+    {
+     "nombre": "Carlos Andrés Londoño Marulanda",
+     "nombre_oficial": "CARLOS ANDRES LONDOÑO MARULANDA",
+     "partido": "Partido Político Dignidad & Compromiso",
+     "partido_oficial": "PARTIDO POLÍTICO DIGNIDAD & COMPROMISO",
+     "familias": [],
+     "votos": 423,
+     "porcentaje": 0.77,
+     "posicion": 8
+    },
+    {
+     "nombre": "Gonzalo Arango Medina",
+     "nombre_oficial": "GONZALO ARANGO MEDINA",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 294,
+     "porcentaje": 0.54,
+     "posicion": 9
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 3209,
+    "VOTOS NO MARCADOS": 1013,
+    "VOTOS NULOS": 591
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SABANETA|01|01",
+   "nombre": "I.E. Rafael J. Mejía",
+   "nombre_oficial": "I.E. RAFAEL J. MEJIA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.146604428761486,
+   "lon": -75.62073703033995,
+   "votos_total": 5670,
+   "votos_validos": 5601,
+   "ganador": "ALDER JAMES CRUZ OCAMPO",
+   "empate": [],
+   "margen_puntos": 15.28,
+   "votos": {
+    "ALDER JAMES CRUZ OCAMPO": 2146,
+    "CARLOS ANDRES LONDOÑO MARULANDA": 44,
+    "EFRAIN JOSE MARTINEZ MENESES": 99,
+    "GABRIEL ANGEL ALVAREZ RUA": 95,
+    "GONZALO ARANGO MEDINA": 25,
+    "IVAN ALONSO MONTOYA URREGO": 1290,
+    "JUAN CARLOS BUSTAMANTE AGUDELO": 1047,
+    "OSCAR DANIEL GALEANO TAMAYO": 207,
+    "VOTOS EN BLANCO": 379,
+    "VOTOS NO MARCADOS": 21,
+    "VOTOS NULOS": 48,
+    "YULY PAOLA QUINTERO LONDOÑO": 269
+   }
+  },
+  {
+   "id": "SABANETA|01|02",
+   "nombre": "I.E. Primitivo Leal la Doctora",
+   "nombre_oficial": "I.E. PRIMITIVO LEAL LA DOCTORA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.141335827915595,
+   "lon": -75.61311546962008,
+   "votos_total": 4725,
+   "votos_validos": 4463,
+   "ganador": "ALDER JAMES CRUZ OCAMPO",
+   "empate": [],
+   "margen_puntos": 13.15,
+   "votos": {
+    "ALDER JAMES CRUZ OCAMPO": 1758,
+    "CARLOS ANDRES LONDOÑO MARULANDA": 28,
+    "EFRAIN JOSE MARTINEZ MENESES": 72,
+    "GABRIEL ANGEL ALVAREZ RUA": 78,
+    "GONZALO ARANGO MEDINA": 14,
+    "IVAN ALONSO MONTOYA URREGO": 1171,
+    "JUAN CARLOS BUSTAMANTE AGUDELO": 920,
+    "OSCAR DANIEL GALEANO TAMAYO": 0,
+    "VOTOS EN BLANCO": 209,
+    "VOTOS NO MARCADOS": 192,
+    "VOTOS NULOS": 70,
+    "YULY PAOLA QUINTERO LONDOÑO": 213
+   }
+  },
+  {
+   "id": "SABANETA|01|03",
+   "nombre": "Ctro para el Adulto Mayor Caites",
+   "nombre_oficial": "CTRO PARA EL ADULTO MAYOR CAITES",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.146997662513912,
+   "lon": -75.62303943374843,
+   "votos_total": 7408,
+   "votos_validos": 6915,
+   "ganador": "ALDER JAMES CRUZ OCAMPO",
+   "empate": [],
+   "margen_puntos": 9.75,
+   "votos": {
+    "ALDER JAMES CRUZ OCAMPO": 2592,
+    "CARLOS ANDRES LONDOÑO MARULANDA": 58,
+    "EFRAIN JOSE MARTINEZ MENESES": 137,
+    "GABRIEL ANGEL ALVAREZ RUA": 120,
+    "GONZALO ARANGO MEDINA": 33,
+    "IVAN ALONSO MONTOYA URREGO": 1918,
+    "JUAN CARLOS BUSTAMANTE AGUDELO": 1473,
+    "OSCAR DANIEL GALEANO TAMAYO": 0,
+    "VOTOS EN BLANCO": 281,
+    "VOTOS NO MARCADOS": 426,
+    "VOTOS NULOS": 67,
+    "YULY PAOLA QUINTERO LONDOÑO": 303
+   }
+  },
+  {
+   "id": "SABANETA|01|04",
+   "nombre": "I.E. Presbitero Antonio Baena Salazar",
+   "nombre_oficial": "I.E. PRESBITERO ANTONIO BAENA SALAZAR",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.14037892219695,
+   "lon": -75.631158964642,
+   "votos_total": 646,
+   "votos_validos": 613,
+   "ganador": "ALDER JAMES CRUZ OCAMPO",
+   "empate": [],
+   "margen_puntos": 27.24,
+   "votos": {
+    "ALDER JAMES CRUZ OCAMPO": 294,
+    "CARLOS ANDRES LONDOÑO MARULANDA": 2,
+    "EFRAIN JOSE MARTINEZ MENESES": 9,
+    "GABRIEL ANGEL ALVAREZ RUA": 6,
+    "IVAN ALONSO MONTOYA URREGO": 127,
+    "JUAN CARLOS BUSTAMANTE AGUDELO": 105,
+    "OSCAR DANIEL GALEANO TAMAYO": 3,
+    "VOTOS EN BLANCO": 43,
+    "VOTOS NO MARCADOS": 23,
+    "VOTOS NULOS": 10,
+    "YULY PAOLA QUINTERO LONDOÑO": 24
+   }
+  },
+  {
+   "id": "SABANETA|02|01",
+   "nombre": "Col Padre Ramón Arcila R",
+   "nombre_oficial": "COL PADRE RAMON ARCILA R",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.15317633199479,
+   "lon": -75.6171254138665,
+   "votos_total": 3726,
+   "votos_validos": 3614,
+   "ganador": "ALDER JAMES CRUZ OCAMPO",
+   "empate": [],
+   "margen_puntos": 4.98,
+   "votos": {
+    "ALDER JAMES CRUZ OCAMPO": 1190,
+    "CARLOS ANDRES LONDOÑO MARULANDA": 25,
+    "EFRAIN JOSE MARTINEZ MENESES": 37,
+    "GABRIEL ANGEL ALVAREZ RUA": 63,
+    "GONZALO ARANGO MEDINA": 41,
+    "IVAN ALONSO MONTOYA URREGO": 1010,
+    "JUAN CARLOS BUSTAMANTE AGUDELO": 779,
+    "OSCAR DANIEL GALEANO TAMAYO": 174,
+    "VOTOS EN BLANCO": 128,
+    "VOTOS NO MARCADOS": 59,
+    "VOTOS NULOS": 53,
+    "YULY PAOLA QUINTERO LONDOÑO": 167
+   }
+  },
+  {
+   "id": "SABANETA|02|02",
+   "nombre": "IE José Félix de Restrepo",
+   "nombre_oficial": "IE JOSE FELIX DE RESTREPO",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.150215829930398,
+   "lon": -75.61981052654285,
+   "votos_total": 5647,
+   "votos_validos": 5494,
+   "ganador": "ALDER JAMES CRUZ OCAMPO",
+   "empate": [],
+   "margen_puntos": 3.2,
+   "votos": {
+    "ALDER JAMES CRUZ OCAMPO": 1692,
+    "CARLOS ANDRES LONDOÑO MARULANDA": 12,
+    "EFRAIN JOSE MARTINEZ MENESES": 64,
+    "GABRIEL ANGEL ALVAREZ RUA": 159,
+    "GONZALO ARANGO MEDINA": 28,
+    "IVAN ALONSO MONTOYA URREGO": 1467,
+    "JUAN CARLOS BUSTAMANTE AGUDELO": 1516,
+    "OSCAR DANIEL GALEANO TAMAYO": 134,
+    "VOTOS EN BLANCO": 151,
+    "VOTOS NO MARCADOS": 85,
+    "VOTOS NULOS": 68,
+    "YULY PAOLA QUINTERO LONDOÑO": 271
+   }
+  },
+  {
+   "id": "SABANETA|02|03",
+   "nombre": "Biblioteca Municipal",
+   "nombre_oficial": "BIBLIOTECA MUNICIPAL",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.149980517,
+   "lon": -75.61258854,
+   "votos_total": 6549,
+   "votos_validos": 6434,
+   "ganador": "ALDER JAMES CRUZ OCAMPO",
+   "empate": [],
+   "margen_puntos": 14.33,
+   "votos": {
+    "ALDER JAMES CRUZ OCAMPO": 2364,
+    "CARLOS ANDRES LONDOÑO MARULANDA": 60,
+    "EFRAIN JOSE MARTINEZ MENESES": 164,
+    "GABRIEL ANGEL ALVAREZ RUA": 128,
+    "GONZALO ARANGO MEDINA": 37,
+    "IVAN ALONSO MONTOYA URREGO": 1442,
+    "JUAN CARLOS BUSTAMANTE AGUDELO": 971,
+    "OSCAR DANIEL GALEANO TAMAYO": 412,
+    "VOTOS EN BLANCO": 520,
+    "VOTOS NO MARCADOS": 52,
+    "VOTOS NULOS": 63,
+    "YULY PAOLA QUINTERO LONDOÑO": 336
+   }
+  },
+  {
+   "id": "SABANETA|02|04",
+   "nombre": "Casa de la Cultura la Barquereña",
+   "nombre_oficial": "CASA DE LA CULTURA LA BARQUEREÑA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.151326348378686,
+   "lon": -75.61223133109313,
+   "votos_total": 2502,
+   "votos_validos": 2458,
+   "ganador": "ALDER JAMES CRUZ OCAMPO",
+   "empate": [],
+   "margen_puntos": 5.66,
+   "votos": {
+    "ALDER JAMES CRUZ OCAMPO": 860,
+    "CARLOS ANDRES LONDOÑO MARULANDA": 20,
+    "EFRAIN JOSE MARTINEZ MENESES": 44,
+    "GABRIEL ANGEL ALVAREZ RUA": 36,
+    "GONZALO ARANGO MEDINA": 22,
+    "IVAN ALONSO MONTOYA URREGO": 721,
+    "JUAN CARLOS BUSTAMANTE AGUDELO": 419,
+    "OSCAR DANIEL GALEANO TAMAYO": 119,
+    "VOTOS EN BLANCO": 102,
+    "VOTOS NO MARCADOS": 26,
+    "VOTOS NULOS": 18,
+    "YULY PAOLA QUINTERO LONDOÑO": 115
+   }
+  },
+  {
+   "id": "SABANETA|03|01",
+   "nombre": "Ctro de Atencion 1ra Infancia Caipi",
+   "nombre_oficial": "CTRO DE ATENCION 1RA INFANCIA CAIPI",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.152137883509595,
+   "lon": -75.6123868466487,
+   "votos_total": 3399,
+   "votos_validos": 3346,
+   "ganador": "ALDER JAMES CRUZ OCAMPO",
+   "empate": [],
+   "margen_puntos": 8.7,
+   "votos": {
+    "ALDER JAMES CRUZ OCAMPO": 1180,
+    "CARLOS ANDRES LONDOÑO MARULANDA": 21,
+    "EFRAIN JOSE MARTINEZ MENESES": 58,
+    "GABRIEL ANGEL ALVAREZ RUA": 58,
+    "GONZALO ARANGO MEDINA": 13,
+    "IVAN ALONSO MONTOYA URREGO": 889,
+    "JUAN CARLOS BUSTAMANTE AGUDELO": 583,
+    "OSCAR DANIEL GALEANO TAMAYO": 176,
+    "VOTOS EN BLANCO": 202,
+    "VOTOS NO MARCADOS": 17,
+    "VOTOS NULOS": 36,
+    "YULY PAOLA QUINTERO LONDOÑO": 166
+   }
+  },
+  {
+   "id": "SABANETA|03|02",
+   "nombre": "IE Concejo de Sabaneta Jmcb",
+   "nombre_oficial": "IE CONCEJO DE SABANETA JMCB",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.153510123591506,
+   "lon": -75.60627049996755,
+   "votos_total": 5685,
+   "votos_validos": 5580,
+   "ganador": "ALDER JAMES CRUZ OCAMPO",
+   "empate": [],
+   "margen_puntos": 12.78,
+   "votos": {
+    "ALDER JAMES CRUZ OCAMPO": 2151,
+    "CARLOS ANDRES LONDOÑO MARULANDA": 35,
+    "EFRAIN JOSE MARTINEZ MENESES": 129,
+    "GABRIEL ANGEL ALVAREZ RUA": 69,
+    "GONZALO ARANGO MEDINA": 19,
+    "IVAN ALONSO MONTOYA URREGO": 1438,
+    "JUAN CARLOS BUSTAMANTE AGUDELO": 875,
+    "OSCAR DANIEL GALEANO TAMAYO": 253,
+    "VOTOS EN BLANCO": 350,
+    "VOTOS NO MARCADOS": 54,
+    "VOTOS NULOS": 51,
+    "YULY PAOLA QUINTERO LONDOÑO": 261
+   }
+  },
+  {
+   "id": "SABANETA|03|03",
+   "nombre": "IE María Mediadora",
+   "nombre_oficial": "IE MARIA MEDIADORA",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.160735395950081,
+   "lon": -75.6025992458996,
+   "votos_total": 3175,
+   "votos_validos": 3110,
+   "ganador": "ALDER JAMES CRUZ OCAMPO",
+   "empate": [],
+   "margen_puntos": 6.88,
+   "votos": {
+    "ALDER JAMES CRUZ OCAMPO": 998,
+    "CARLOS ANDRES LONDOÑO MARULANDA": 22,
+    "EFRAIN JOSE MARTINEZ MENESES": 95,
+    "GABRIEL ANGEL ALVAREZ RUA": 48,
+    "GONZALO ARANGO MEDINA": 5,
+    "IVAN ALONSO MONTOYA URREGO": 784,
+    "JUAN CARLOS BUSTAMANTE AGUDELO": 442,
+    "OSCAR DANIEL GALEANO TAMAYO": 164,
+    "VOTOS EN BLANCO": 375,
+    "VOTOS NO MARCADOS": 18,
+    "VOTOS NULOS": 47,
+    "YULY PAOLA QUINTERO LONDOÑO": 177
+   }
+  },
+  {
+   "id": "SABANETA|03|04",
+   "nombre": "Parque de los 4 Elementos",
+   "nombre_oficial": "PARQUE DE LOS 4 ELEMENTOS",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.152699925046298,
+   "lon": -75.61239523870405,
+   "votos_total": 3049,
+   "votos_validos": 3002,
+   "ganador": "ALDER JAMES CRUZ OCAMPO",
+   "empate": [],
+   "margen_puntos": 13.36,
+   "votos": {
+    "ALDER JAMES CRUZ OCAMPO": 1107,
+    "CARLOS ANDRES LONDOÑO MARULANDA": 45,
+    "EFRAIN JOSE MARTINEZ MENESES": 63,
+    "GABRIEL ANGEL ALVAREZ RUA": 57,
+    "GONZALO ARANGO MEDINA": 33,
+    "IVAN ALONSO MONTOYA URREGO": 706,
+    "JUAN CARLOS BUSTAMANTE AGUDELO": 487,
+    "OSCAR DANIEL GALEANO TAMAYO": 133,
+    "VOTOS EN BLANCO": 192,
+    "VOTOS NO MARCADOS": 18,
+    "VOTOS NULOS": 29,
+    "YULY PAOLA QUINTERO LONDOÑO": 179
+   }
+  },
+  {
+   "id": "SABANETA|03|05",
+   "nombre": "Gimnasio Campestre los Alcazares",
+   "nombre_oficial": "GIMNASIO CAMPESTRE LOS ALCAZARES",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.152999999999998,
+   "lon": -75.584,
+   "votos_total": 3095,
+   "votos_validos": 3066,
+   "ganador": "ALDER JAMES CRUZ OCAMPO",
+   "empate": [],
+   "margen_puntos": 15.46,
+   "votos": {
+    "ALDER JAMES CRUZ OCAMPO": 1185,
+    "CARLOS ANDRES LONDOÑO MARULANDA": 33,
+    "EFRAIN JOSE MARTINEZ MENESES": 76,
+    "GABRIEL ANGEL ALVAREZ RUA": 47,
+    "GONZALO ARANGO MEDINA": 23,
+    "IVAN ALONSO MONTOYA URREGO": 711,
+    "JUAN CARLOS BUSTAMANTE AGUDELO": 449,
+    "OSCAR DANIEL GALEANO TAMAYO": 149,
+    "VOTOS EN BLANCO": 226,
+    "VOTOS NO MARCADOS": 9,
+    "VOTOS NULOS": 20,
+    "YULY PAOLA QUINTERO LONDOÑO": 167
+   }
+  },
+  {
+   "id": "SABANETA|99|01",
+   "nombre": "I.E María Auxiliadora",
+   "nombre_oficial": "I.E MARIA AUXILIADORA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.150132966216406,
+   "lon": -75.59898430449121,
+   "votos_total": 568,
+   "votos_validos": 547,
+   "ganador": "ALDER JAMES CRUZ OCAMPO",
+   "empate": [],
+   "margen_puntos": 29.25,
+   "votos": {
+    "ALDER JAMES CRUZ OCAMPO": 256,
+    "CARLOS ANDRES LONDOÑO MARULANDA": 2,
+    "EFRAIN JOSE MARTINEZ MENESES": 18,
+    "GABRIEL ANGEL ALVAREZ RUA": 5,
+    "IVAN ALONSO MONTOYA URREGO": 81,
+    "JUAN CARLOS BUSTAMANTE AGUDELO": 96,
+    "OSCAR DANIEL GALEANO TAMAYO": 28,
+    "VOTOS EN BLANCO": 37,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 11,
+    "YULY PAOLA QUINTERO LONDOÑO": 24
+   }
+  },
+  {
+   "id": "SABANETA|99|02",
+   "nombre": "Escuela Rural las Lomitas(JAC)",
+   "nombre_oficial": "ESCUELA RURAL LAS LOMITAS(JAC)",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.142906456454711,
+   "lon": -75.60112788782027,
+   "votos_total": 118,
+   "votos_validos": 116,
+   "ganador": "ALDER JAMES CRUZ OCAMPO",
+   "empate": [],
+   "margen_puntos": 38.79,
+   "votos": {
+    "ALDER JAMES CRUZ OCAMPO": 68,
+    "CARLOS ANDRES LONDOÑO MARULANDA": 2,
+    "EFRAIN JOSE MARTINEZ MENESES": 1,
+    "GABRIEL ANGEL ALVAREZ RUA": 1,
+    "IVAN ALONSO MONTOYA URREGO": 23,
+    "JUAN CARLOS BUSTAMANTE AGUDELO": 15,
+    "OSCAR DANIEL GALEANO TAMAYO": 0,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 2,
+    "YULY PAOLA QUINTERO LONDOÑO": 1
+   }
+  },
+  {
+   "id": "SABANETA|99|03",
+   "nombre": "Vereda San José (JAC)",
+   "nombre_oficial": "VEREDA SAN JOSE (JAC)",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.12792141496908,
+   "lon": -75.61554440560107,
+   "votos_total": 250,
+   "votos_validos": 249,
+   "ganador": "ALDER JAMES CRUZ OCAMPO",
+   "empate": [],
+   "margen_puntos": 16.47,
+   "votos": {
+    "ALDER JAMES CRUZ OCAMPO": 99,
+    "CARLOS ANDRES LONDOÑO MARULANDA": 14,
+    "EFRAIN JOSE MARTINEZ MENESES": 14,
+    "GABRIEL ANGEL ALVAREZ RUA": 2,
+    "GONZALO ARANGO MEDINA": 1,
+    "IVAN ALONSO MONTOYA URREGO": 58,
+    "JUAN CARLOS BUSTAMANTE AGUDELO": 40,
+    "OSCAR DANIEL GALEANO TAMAYO": 0,
+    "VOTOS EN BLANCO": 9,
+    "VOTOS NO MARCADOS": 1,
+    "YULY PAOLA QUINTERO LONDOÑO": 12
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "disponible"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

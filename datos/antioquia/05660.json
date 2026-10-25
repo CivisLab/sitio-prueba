@@ -1,0 +1,424 @@
+{
+ "municipio": {
+  "cod_dane": "05660",
+  "cod_registraduria": "232",
+  "nombre": "San Luis",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 6891,
+   "votos_validos": 6683,
+   "margen_puntos": 4.73,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Henry Edilson Suárez Jiménez",
+     "nombre_oficial": "HENRY EDILSON SUAREZ JIMENEZ",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 3446,
+     "porcentaje": 51.56,
+     "posicion": 1
+    },
+    {
+     "nombre": "César Abad Buitrago Arias",
+     "nombre_oficial": "CESAR ABAD BUITRAGO ARIAS",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 3130,
+     "porcentaje": 46.84,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 131,
+    "VOTOS EN BLANCO": 107,
+    "VOTOS NULOS": 77
+   }
+  },
+  "2023": {
+   "votos_depositados": 7319,
+   "votos_validos": 7136,
+   "margen_puntos": 24.19,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "César Abad Buitrago Arias",
+     "nombre_oficial": "CESAR ABAD BUITRAGO ARIAS",
+     "partido": "Es el Momento",
+     "partido_oficial": "ES EL MOMENTO",
+     "familias": [],
+     "votos": 3419,
+     "porcentaje": 47.91,
+     "posicion": 1
+    },
+    {
+     "nombre": "Fredy Alexander Guzmán Ramírez",
+     "nombre_oficial": "FREDY ALEXANDER GUZMAN RAMIREZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 1693,
+     "porcentaje": 23.72,
+     "posicion": 2
+    },
+    {
+     "nombre": "José Maximino Castaño Castaño",
+     "nombre_oficial": "JOSE MAXIMINO CASTAÑO CASTAÑO",
+     "partido": "Movimiento Salvación Nacional",
+     "partido_oficial": "MOVIMIENTO SALVACIÓN NACIONAL",
+     "familias": [
+      "SALV"
+     ],
+     "votos": 679,
+     "porcentaje": 9.52,
+     "posicion": 3
+    },
+    {
+     "nombre": "Carlos Mario Gómez Urrea",
+     "nombre_oficial": "CARLOS MARIO GOMEZ URREA",
+     "partido": "Coalición Cambio Radical-Partido de la U",
+     "partido_oficial": "COALICION CAMBIO RADICAL-PARTIDO DE LA U",
+     "familias": [
+      "CR",
+      "U"
+     ],
+     "votos": 595,
+     "porcentaje": 8.34,
+     "posicion": 4
+    },
+    {
+     "nombre": "Luis Fernando Gómez Ruiz",
+     "nombre_oficial": "LUIS FERNANDO GOMEZ RUIZ",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 313,
+     "porcentaje": 4.39,
+     "posicion": 5
+    },
+    {
+     "nombre": "Daniel Felipe Legarda Salazar",
+     "nombre_oficial": "DANIEL FELIPE LEGARDA SALAZAR",
+     "partido": "Para Volver a Creer",
+     "partido_oficial": "PARA VOLVER A CREER",
+     "familias": [],
+     "votos": 311,
+     "porcentaje": 4.36,
+     "posicion": 6
+    },
+    {
+     "nombre": "Rosa Andrea Rendón Naranjo",
+     "nombre_oficial": "ROSA ANDREA RENDON NARANJO",
+     "partido": "Independientes",
+     "partido_oficial": "INDEPENDIENTES",
+     "familias": [],
+     "votos": 55,
+     "porcentaje": 0.77,
+     "posicion": 7
+    },
+    {
+     "nombre": "Arcesio de Jesús Giraldo García",
+     "nombre_oficial": "ARCESIO DE JESUS GIRALDO GARCIA",
+     "partido": "Movimiento Político Colombia Humana",
+     "partido_oficial": "MOVIMIENTO POLÍTICO COLOMBIA HUMANA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 10,
+     "porcentaje": 0.14,
+     "posicion": 8
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 96,
+    "VOTOS NULOS": 87,
+    "VOTOS EN BLANCO": 61
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CONS"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SAN LUIS|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.041209202612048,
+   "lon": -74.99641809512748,
+   "votos_total": 5435,
+   "votos_validos": 5321,
+   "ganador": "CESAR ABAD BUITRAGO ARIAS",
+   "empate": [],
+   "margen_puntos": 25.86,
+   "votos": {
+    "ARCESIO DE JESUS GIRALDO GARCIA": 8,
+    "CARLOS MARIO GOMEZ URREA": 479,
+    "CESAR ABAD BUITRAGO ARIAS": 2581,
+    "DANIEL FELIPE LEGARDA SALAZAR": 231,
+    "FREDY ALEXANDER GUZMAN RAMIREZ": 1205,
+    "JOSE MAXIMINO CASTAÑO CASTAÑO": 478,
+    "LUIS FERNANDO GOMEZ RUIZ": 249,
+    "ROSA ANDREA RENDON NARANJO": 46,
+    "VOTOS EN BLANCO": 44,
+    "VOTOS NO MARCADOS": 63,
+    "VOTOS NULOS": 51
+   }
+  },
+  {
+   "id": "SAN LUIS|99|03",
+   "nombre": "Buenos Aires",
+   "nombre_oficial": "BUENOS AIRES",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.115763449475085,
+   "lon": -75.0602245330809,
+   "votos_total": 239,
+   "votos_validos": 229,
+   "ganador": "FREDY ALEXANDER GUZMAN RAMIREZ",
+   "empate": [],
+   "margen_puntos": 14.41,
+   "votos": {
+    "CARLOS MARIO GOMEZ URREA": 6,
+    "CESAR ABAD BUITRAGO ARIAS": 73,
+    "DANIEL FELIPE LEGARDA SALAZAR": 11,
+    "FREDY ALEXANDER GUZMAN RAMIREZ": 106,
+    "JOSE MAXIMINO CASTAÑO CASTAÑO": 27,
+    "LUIS FERNANDO GOMEZ RUIZ": 1,
+    "ROSA ANDREA RENDON NARANJO": 3,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 5
+   }
+  },
+  {
+   "id": "SAN LUIS|99|04",
+   "nombre": "El Prodigio",
+   "nombre_oficial": "EL PRODIGIO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.06388488518454,
+   "lon": -74.8086199164388,
+   "votos_total": 344,
+   "votos_validos": 333,
+   "ganador": "CESAR ABAD BUITRAGO ARIAS",
+   "empate": [],
+   "margen_puntos": 14.41,
+   "votos": {
+    "CARLOS MARIO GOMEZ URREA": 13,
+    "CESAR ABAD BUITRAGO ARIAS": 150,
+    "DANIEL FELIPE LEGARDA SALAZAR": 15,
+    "FREDY ALEXANDER GUZMAN RAMIREZ": 102,
+    "JOSE MAXIMINO CASTAÑO CASTAÑO": 35,
+    "LUIS FERNANDO GOMEZ RUIZ": 16,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "SAN LUIS|99|05",
+   "nombre": "El Silencio",
+   "nombre_oficial": "EL SILENCIO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.002267693415907,
+   "lon": -75.0499463081359,
+   "votos_total": 132,
+   "votos_validos": 128,
+   "ganador": "CESAR ABAD BUITRAGO ARIAS",
+   "empate": [],
+   "margen_puntos": 33.59,
+   "votos": {
+    "CARLOS MARIO GOMEZ URREA": 27,
+    "CESAR ABAD BUITRAGO ARIAS": 70,
+    "DANIEL FELIPE LEGARDA SALAZAR": 3,
+    "FREDY ALEXANDER GUZMAN RAMIREZ": 17,
+    "JOSE MAXIMINO CASTAÑO CASTAÑO": 8,
+    "ROSA ANDREA RENDON NARANJO": 1,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 1,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "SAN LUIS|99|15",
+   "nombre": "Monteloro",
+   "nombre_oficial": "MONTELORO",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.97088626854085,
+   "lon": -74.8838746547697,
+   "votos_total": 770,
+   "votos_validos": 746,
+   "ganador": "CESAR ABAD BUITRAGO ARIAS",
+   "empate": [],
+   "margen_puntos": 28.55,
+   "votos": {
+    "CARLOS MARIO GOMEZ URREA": 48,
+    "CESAR ABAD BUITRAGO ARIAS": 377,
+    "DANIEL FELIPE LEGARDA SALAZAR": 30,
+    "FREDY ALEXANDER GUZMAN RAMIREZ": 164,
+    "JOSE MAXIMINO CASTAÑO CASTAÑO": 86,
+    "LUIS FERNANDO GOMEZ RUIZ": 33,
+    "ROSA ANDREA RENDON NARANJO": 3,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 14,
+    "VOTOS NULOS": 10
+   }
+  },
+  {
+   "id": "SAN LUIS|99|18",
+   "nombre": "Playa Linda",
+   "nombre_oficial": "PLAYA LINDA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.007133199886814,
+   "lon": -75.0252914428709,
+   "votos_total": 160,
+   "votos_validos": 151,
+   "ganador": "CESAR ABAD BUITRAGO ARIAS",
+   "empate": [],
+   "margen_puntos": 36.42,
+   "votos": {
+    "ARCESIO DE JESUS GIRALDO GARCIA": 1,
+    "CARLOS MARIO GOMEZ URREA": 16,
+    "CESAR ABAD BUITRAGO ARIAS": 83,
+    "DANIEL FELIPE LEGARDA SALAZAR": 5,
+    "FREDY ALEXANDER GUZMAN RAMIREZ": 15,
+    "JOSE MAXIMINO CASTAÑO CASTAÑO": 28,
+    "LUIS FERNANDO GOMEZ RUIZ": 1,
+    "ROSA ANDREA RENDON NARANJO": 1,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 7
+   }
+  },
+  {
+   "id": "SAN LUIS|99|50",
+   "nombre": "El Vergel",
+   "nombre_oficial": "EL VERGEL",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.928112077948554,
+   "lon": -74.8463286627676,
+   "votos_total": 182,
+   "votos_validos": 172,
+   "ganador": "FREDY ALEXANDER GUZMAN RAMIREZ",
+   "empate": [],
+   "margen_puntos": 25.0,
+   "votos": {
+    "ARCESIO DE JESUS GIRALDO GARCIA": 1,
+    "CARLOS MARIO GOMEZ URREA": 6,
+    "CESAR ABAD BUITRAGO ARIAS": 37,
+    "DANIEL FELIPE LEGARDA SALAZAR": 15,
+    "FREDY ALEXANDER GUZMAN RAMIREZ": 80,
+    "JOSE MAXIMINO CASTAÑO CASTAÑO": 14,
+    "LUIS FERNANDO GOMEZ RUIZ": 13,
+    "ROSA ANDREA RENDON NARANJO": 1,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 6
+   }
+  },
+  {
+   "id": "SAN LUIS|99|75",
+   "nombre": "San Pablo",
+   "nombre_oficial": "SAN PABLO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.023116509238228,
+   "lon": -75.064752101898,
+   "votos_total": 57,
+   "votos_validos": 56,
+   "ganador": "CESAR ABAD BUITRAGO ARIAS",
+   "empate": [],
+   "margen_puntos": 78.57,
+   "votos": {
+    "CESAR ABAD BUITRAGO ARIAS": 48,
+    "DANIEL FELIPE LEGARDA SALAZAR": 1,
+    "FREDY ALEXANDER GUZMAN RAMIREZ": 4,
+    "JOSE MAXIMINO CASTAÑO CASTAÑO": 3,
+    "VOTOS NULOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

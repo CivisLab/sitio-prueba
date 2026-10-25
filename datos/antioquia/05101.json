@@ -1,0 +1,332 @@
+{
+ "municipio": {
+  "cod_dane": "05101",
+  "cod_registraduria": "058",
+  "nombre": "Ciudad Bolívar",
+  "subregion": "Suroeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 10663,
+   "votos_validos": 10079,
+   "margen_puntos": 23.08,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Mauricio Márquez Valencia",
+     "nombre_oficial": "MAURICIO MARQUEZ VALENCIA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 5362,
+     "porcentaje": 53.2,
+     "posicion": 1
+    },
+    {
+     "nombre": "Julio César Higuita López",
+     "nombre_oficial": "JULIO CESAR HIGUITA LOPEZ",
+     "partido": "Partido Conservador Colombiano - Cambio Radical- Alianza Verde- MAIS",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO - CAMBIO RADICAL- ALIANZA VERDE- MAIS",
+     "familias": [
+      "CONS",
+      "CR",
+      "VERDE",
+      "MAIS"
+     ],
+     "votos": 3036,
+     "porcentaje": 30.12,
+     "posicion": 2
+    },
+    {
+     "nombre": "Luis Fernando Ortiz González",
+     "nombre_oficial": "LUIS FERNANDO ORTIZ GONZALEZ",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 801,
+     "porcentaje": 7.95,
+     "posicion": 3
+    },
+    {
+     "nombre": "Carlos Mario Sánchez Vélez",
+     "nombre_oficial": "CARLOS MARIO SANCHEZ VELEZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 425,
+     "porcentaje": 4.22,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 455,
+    "VOTOS NO MARCADOS": 366,
+    "VOTOS NULOS": 218
+   }
+  },
+  "2023": {
+   "votos_depositados": 11765,
+   "votos_validos": 11338,
+   "margen_puntos": 23.51,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "León Darío Acevedo Vargas",
+     "nombre_oficial": "LEON DARIO ACEVEDO VARGAS",
+     "partido": "Pasion y Visión por Bolívar",
+     "partido_oficial": "PASION Y VISION POR BOLIVAR",
+     "familias": [],
+     "votos": 6865,
+     "porcentaje": 60.55,
+     "posicion": 1
+    },
+    {
+     "nombre": "Jairo Alonso Londoño Correa",
+     "nombre_oficial": "JAIRO ALONSO LONDOÑO CORREA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 4200,
+     "porcentaje": 37.04,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 277,
+    "VOTOS EN BLANCO": 273,
+    "VOTOS NULOS": 150
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CD"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "BOLIVAR|01|01",
+   "nombre": "I.EDU. San José del Citara",
+   "nombre_oficial": "I.EDU. SAN JOSE DEL CITARA",
+   "zona": "01",
+   "rural": false,
+   "lat": 5.84786668,
+   "lon": -76.0183177999999,
+   "votos_total": 2512,
+   "votos_validos": 2360,
+   "ganador": "LEON DARIO ACEVEDO VARGAS",
+   "empate": [],
+   "margen_puntos": 26.48,
+   "votos": {
+    "JAIRO ALONSO LONDOÑO CORREA": 848,
+    "LEON DARIO ACEVEDO VARGAS": 1473,
+    "VOTOS EN BLANCO": 39,
+    "VOTOS NO MARCADOS": 92,
+    "VOTOS NULOS": 60
+   }
+  },
+  {
+   "id": "BOLIVAR|01|02",
+   "nombre": "Coliseo Cubierto",
+   "nombre_oficial": "COLISEO CUBIERTO",
+   "zona": "01",
+   "rural": false,
+   "lat": 5.851026899999999,
+   "lon": -76.0233765499998,
+   "votos_total": 3186,
+   "votos_validos": 3102,
+   "ganador": "LEON DARIO ACEVEDO VARGAS",
+   "empate": [],
+   "margen_puntos": 26.76,
+   "votos": {
+    "JAIRO ALONSO LONDOÑO CORREA": 1091,
+    "LEON DARIO ACEVEDO VARGAS": 1921,
+    "VOTOS EN BLANCO": 90,
+    "VOTOS NO MARCADOS": 54,
+    "VOTOS NULOS": 30
+   }
+  },
+  {
+   "id": "BOLIVAR|02|01",
+   "nombre": "I. Educativa José María Herran",
+   "nombre_oficial": "I.EDUCATIVA JOSE MARIA HERRAN",
+   "zona": "02",
+   "rural": false,
+   "lat": 5.850920230999999,
+   "lon": -76.0258299199998,
+   "votos_total": 2517,
+   "votos_validos": 2427,
+   "ganador": "LEON DARIO ACEVEDO VARGAS",
+   "empate": [],
+   "margen_puntos": 19.86,
+   "votos": {
+    "JAIRO ALONSO LONDOÑO CORREA": 944,
+    "LEON DARIO ACEVEDO VARGAS": 1426,
+    "VOTOS EN BLANCO": 57,
+    "VOTOS NO MARCADOS": 63,
+    "VOTOS NULOS": 27
+   }
+  },
+  {
+   "id": "BOLIVAR|02|02",
+   "nombre": "I.E. María Auxiliadora",
+   "nombre_oficial": "I.E.MARIA AUXILIADORA",
+   "zona": "02",
+   "rural": false,
+   "lat": 5.846297929,
+   "lon": -76.01267414,
+   "votos_total": 2336,
+   "votos_validos": 2294,
+   "ganador": "LEON DARIO ACEVEDO VARGAS",
+   "empate": [],
+   "margen_puntos": 22.01,
+   "votos": {
+    "JAIRO ALONSO LONDOÑO CORREA": 862,
+    "LEON DARIO ACEVEDO VARGAS": 1367,
+    "VOTOS EN BLANCO": 65,
+    "VOTOS NO MARCADOS": 25,
+    "VOTOS NULOS": 17
+   }
+  },
+  {
+   "id": "BOLIVAR|99|01",
+   "nombre": "Alfonso López",
+   "nombre_oficial": "ALFONSO LOPEZ",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.894987999999998,
+   "lon": -75.9567759999999,
+   "votos_total": 536,
+   "votos_validos": 515,
+   "ganador": "JAIRO ALONSO LONDOÑO CORREA",
+   "empate": [],
+   "margen_puntos": 9.13,
+   "votos": {
+    "JAIRO ALONSO LONDOÑO CORREA": 278,
+    "LEON DARIO ACEVEDO VARGAS": 231,
+    "VOTOS EN BLANCO": 6,
+    "VOTOS NO MARCADOS": 18,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "BOLIVAR|99|08",
+   "nombre": "Farallones",
+   "nombre_oficial": "FARALLONES",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.799731999999998,
+   "lon": -76.0285149999998,
+   "votos_total": 468,
+   "votos_validos": 441,
+   "ganador": "LEON DARIO ACEVEDO VARGAS",
+   "empate": [],
+   "margen_puntos": 32.65,
+   "votos": {
+    "JAIRO ALONSO LONDOÑO CORREA": 144,
+    "LEON DARIO ACEVEDO VARGAS": 288,
+    "VOTOS EN BLANCO": 9,
+    "VOTOS NO MARCADOS": 17,
+    "VOTOS NULOS": 10
+   }
+  },
+  {
+   "id": "BOLIVAR|99|50",
+   "nombre": "La Linda",
+   "nombre_oficial": "LA LINDA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.872875999999998,
+   "lon": -76.0233709999998,
+   "votos_total": 183,
+   "votos_validos": 172,
+   "ganador": "LEON DARIO ACEVEDO VARGAS",
+   "empate": [],
+   "margen_puntos": 65.7,
+   "votos": {
+    "JAIRO ALONSO LONDOÑO CORREA": 27,
+    "LEON DARIO ACEVEDO VARGAS": 140,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 3
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel",
+   "nombre_oficial": "CARCEL",
+   "votos": 27,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

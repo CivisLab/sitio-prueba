@@ -1,0 +1,339 @@
+{
+ "municipio": {
+  "cod_dane": "05591",
+  "cod_registraduria": "206",
+  "nombre": "Puerto Triunfo",
+  "subregion": "Magdalena Medio",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 9698,
+   "votos_validos": 9394,
+   "margen_puntos": 21.0,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Javier Arístides Guerra Castillo",
+     "nombre_oficial": "JAVIER ARISTIDES GUERRA CASTILLO",
+     "partido": "Movimiento Independiente Triunfo Unido tu",
+     "partido_oficial": "MOVIMIENTO INDEPENDIENTE TRIUNFO UNIDO TU",
+     "familias": [],
+     "votos": 5124,
+     "porcentaje": 54.55,
+     "posicion": 1
+    },
+    {
+     "nombre": "Franklin Portillo Gómez",
+     "nombre_oficial": "FRANKLIN PORTILLO GOMEZ",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 3151,
+     "porcentaje": 33.54,
+     "posicion": 2
+    },
+    {
+     "nombre": "Santiago López",
+     "nombre_oficial": "SANTIAGO LOPEZ",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 656,
+     "porcentaje": 6.98,
+     "posicion": 3
+    },
+    {
+     "nombre": "Orley Jovanny Moreno Calvo",
+     "nombre_oficial": "ORLEY JOVANNY MORENO CALVO",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 329,
+     "porcentaje": 3.5,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NULOS": 177,
+    "VOTOS EN BLANCO": 134,
+    "VOTOS NO MARCADOS": 127
+   }
+  },
+  "2023": {
+   "votos_depositados": 9346,
+   "votos_validos": 9075,
+   "margen_puntos": 17.34,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Franklin Portillo Gómez",
+     "nombre_oficial": "FRANKLIN PORTILLO GOMEZ",
+     "partido": "Diciendo y Haciendo por Puerto Triunfo",
+     "partido_oficial": "DICIENDO Y HACIENDO POR PUERTO TRIUNFO",
+     "familias": [],
+     "votos": 4166,
+     "porcentaje": 45.91,
+     "posicion": 1
+    },
+    {
+     "nombre": "Diomar Isaza Morales",
+     "nombre_oficial": "DIOMAR ISAZA MORALES",
+     "partido": "Puerto Triunfo Avanza",
+     "partido_oficial": "PUERTO TRIUNFO AVANZA",
+     "familias": [],
+     "votos": 2592,
+     "porcentaje": 28.56,
+     "posicion": 2
+    },
+    {
+     "nombre": "José de Jesús García Aristizábal",
+     "nombre_oficial": "JOSE DE JESUS GARCIA ARISTIZABAL",
+     "partido": "Puerto Triunfo con Verdadero Sentido Social",
+     "partido_oficial": "PUERTO TRIUNFO CON VERDADERO SENTIDO SOCIAL",
+     "familias": [],
+     "votos": 2159,
+     "porcentaje": 23.79,
+     "posicion": 3
+    },
+    {
+     "nombre": "Bernardo Antonio Gómez Toro",
+     "nombre_oficial": "BERNARDO ANTONIO GOMEZ TORO",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 31,
+     "porcentaje": 0.34,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 159,
+    "VOTOS EN BLANCO": 127,
+    "VOTOS NULOS": 112
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "PUERTO TRIUNFO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 5.873115089640899,
+   "lon": -74.64108313986684,
+   "votos_total": 2617,
+   "votos_validos": 2545,
+   "ganador": "JOSE DE JESUS GARCIA ARISTIZABAL",
+   "empate": [],
+   "margen_puntos": 9.35,
+   "votos": {
+    "BERNARDO ANTONIO GOMEZ TORO": 11,
+    "DIOMAR ISAZA MORALES": 291,
+    "FRANKLIN PORTILLO GOMEZ": 988,
+    "JOSE DE JESUS GARCIA ARISTIZABAL": 1226,
+    "VOTOS EN BLANCO": 29,
+    "VOTOS NO MARCADOS": 35,
+    "VOTOS NULOS": 37
+   }
+  },
+  {
+   "id": "PUERTO TRIUNFO|99|11",
+   "nombre": "Doradal",
+   "nombre_oficial": "DORADAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.902026508989698,
+   "lon": -74.73269423322925,
+   "votos_total": 3324,
+   "votos_validos": 3230,
+   "ganador": "DIOMAR ISAZA MORALES",
+   "empate": [],
+   "margen_puntos": 16.41,
+   "votos": {
+    "BERNARDO ANTONIO GOMEZ TORO": 18,
+    "DIOMAR ISAZA MORALES": 1640,
+    "FRANKLIN PORTILLO GOMEZ": 1110,
+    "JOSE DE JESUS GARCIA ARISTIZABAL": 406,
+    "VOTOS EN BLANCO": 56,
+    "VOTOS NO MARCADOS": 56,
+    "VOTOS NULOS": 38
+   }
+  },
+  {
+   "id": "PUERTO TRIUNFO|99|13",
+   "nombre": "Estacion Cocorna",
+   "nombre_oficial": "ESTACION COCORNA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.034160827771472,
+   "lon": -74.63948533562382,
+   "votos_total": 693,
+   "votos_validos": 683,
+   "ganador": "FRANKLIN PORTILLO GOMEZ",
+   "empate": [],
+   "margen_puntos": 31.48,
+   "votos": {
+    "DIOMAR ISAZA MORALES": 169,
+    "FRANKLIN PORTILLO GOMEZ": 384,
+    "JOSE DE JESUS GARCIA ARISTIZABAL": 125,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 5
+   }
+  },
+  {
+   "id": "PUERTO TRIUNFO|99|18",
+   "nombre": "La Merced",
+   "nombre_oficial": "LA MERCED",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.92624339913631,
+   "lon": -74.77352745052617,
+   "votos_total": 790,
+   "votos_validos": 758,
+   "ganador": "FRANKLIN PORTILLO GOMEZ",
+   "empate": [],
+   "margen_puntos": 38.39,
+   "votos": {
+    "BERNARDO ANTONIO GOMEZ TORO": 2,
+    "DIOMAR ISAZA MORALES": 122,
+    "FRANKLIN PORTILLO GOMEZ": 455,
+    "JOSE DE JESUS GARCIA ARISTIZABAL": 164,
+    "VOTOS EN BLANCO": 15,
+    "VOTOS NO MARCADOS": 21,
+    "VOTOS NULOS": 11
+   }
+  },
+  {
+   "id": "PUERTO TRIUNFO|99|23",
+   "nombre": "Puerto Perales Nuevo",
+   "nombre_oficial": "PUERTO PERALES NUEVO",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.990114740952147,
+   "lon": -74.58557309404114,
+   "votos_total": 1357,
+   "votos_validos": 1333,
+   "ganador": "FRANKLIN PORTILLO GOMEZ",
+   "empate": [],
+   "margen_puntos": 54.09,
+   "votos": {
+    "DIOMAR ISAZA MORALES": 264,
+    "FRANKLIN PORTILLO GOMEZ": 985,
+    "JOSE DE JESUS GARCIA ARISTIZABAL": 73,
+    "VOTOS EN BLANCO": 11,
+    "VOTOS NO MARCADOS": 15,
+    "VOTOS NULOS": 9
+   }
+  },
+  {
+   "id": "PUERTO TRIUNFO|99|26",
+   "nombre": "Santiago Berrío",
+   "nombre_oficial": "SANTIAGO BERRIO",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.903896561569905,
+   "lon": -74.64457022743552,
+   "votos_total": 517,
+   "votos_validos": 480,
+   "ganador": "FRANKLIN PORTILLO GOMEZ",
+   "empate": [],
+   "margen_puntos": 15.62,
+   "votos": {
+    "DIOMAR ISAZA MORALES": 96,
+    "FRANKLIN PORTILLO GOMEZ": 227,
+    "JOSE DE JESUS GARCIA ARISTIZABAL": 152,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 25,
+    "VOTOS NULOS": 12
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel Municipal",
+   "nombre_oficial": "CARCEL MUNICIPAL",
+   "votos": 15,
+   "motivo": "zona 98: puesto carcelario"
+  },
+  {
+   "puesto": "Centro Penitenciario el Pesebre",
+   "nombre_oficial": "CENTRO PENITENCIARIO EL PESEBRE",
+   "votos": 33,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

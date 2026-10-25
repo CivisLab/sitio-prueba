@@ -1,0 +1,430 @@
+{
+ "municipio": {
+  "cod_dane": "05890",
+  "cod_registraduria": "298",
+  "nombre": "Yolombó",
+  "subregion": "Nordeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 8352,
+   "votos_validos": 7821,
+   "margen_puntos": 11.85,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Iván Antonio Ochoa Gómez",
+     "nombre_oficial": "IVAN ANTONIO OCHOA GOMEZ",
+     "partido": "Yolombo Unidos al Progreso Comunitario",
+     "partido_oficial": "YOLOMBO UNIDOS AL PROGRESO COMUNITARIO",
+     "familias": [],
+     "votos": 3755,
+     "porcentaje": 48.01,
+     "posicion": 1
+    },
+    {
+     "nombre": "Luis Fernando Restrepo Gómez",
+     "nombre_oficial": "LUIS FERNANDO RESTREPO GOMEZ",
+     "partido": "Partido Social de Unidad Nacional - Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL - PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "U",
+      "REN"
+     ],
+     "votos": 2828,
+     "porcentaje": 36.16,
+     "posicion": 2
+    },
+    {
+     "nombre": "Anderson Fabián Restrepo Serna",
+     "nombre_oficial": "ANDERSON FABIAN RESTREPO SERNA",
+     "partido": "Por Que Lo Nuestro Es Yolombo",
+     "partido_oficial": "POR QUE LO NUESTRO ES YOLOMBO",
+     "familias": [],
+     "votos": 957,
+     "porcentaje": 12.24,
+     "posicion": 3
+    },
+    {
+     "nombre": "Juliedt Elena Agudelo Tamayo",
+     "nombre_oficial": "JULIEDT ELENA AGUDELO TAMAYO",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 101,
+     "porcentaje": 1.29,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 336,
+    "VOTOS NULOS": 195,
+    "VOTOS EN BLANCO": 180
+   }
+  },
+  "2023": {
+   "votos_depositados": 8339,
+   "votos_validos": 8032,
+   "margen_puntos": 2.58,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Jesús Amador Pérez Palacio",
+     "nombre_oficial": "JESUS AMADOR PEREZ PALACIO",
+     "partido": "Más Humano Más Comunal",
+     "partido_oficial": "MAS HUMANO MAS COMUNAL",
+     "familias": [],
+     "votos": 2439,
+     "porcentaje": 30.37,
+     "posicion": 1
+    },
+    {
+     "nombre": "Pedro Pablo Castaño Úsuga",
+     "nombre_oficial": "PEDRO PABLO CASTAÑO USUGA",
+     "partido": "Construyendo Sonrisas",
+     "partido_oficial": "CONSTRUYENDO SONRISAS",
+     "familias": [],
+     "votos": 2232,
+     "porcentaje": 27.79,
+     "posicion": 2
+    },
+    {
+     "nombre": "Anderson Fabián Restrepo Serna",
+     "nombre_oficial": "ANDERSON FABIAN RESTREPO SERNA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 2221,
+     "porcentaje": 27.65,
+     "posicion": 3
+    },
+    {
+     "nombre": "Rodrigo de Jesús Cardona Blandon",
+     "nombre_oficial": "RODRIGO DE JESUS CARDONA BLANDON",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 460,
+     "porcentaje": 5.73,
+     "posicion": 4
+    },
+    {
+     "nombre": "Gabriel Jaime González Rodríguez",
+     "nombre_oficial": "GABRIEL JAIME GONZALEZ RODRIGUEZ",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 330,
+     "porcentaje": 4.11,
+     "posicion": 5
+    },
+    {
+     "nombre": "Óscar Augusto Ramírez Salazar",
+     "nombre_oficial": "OSCAR AUGUSTO RAMIREZ SALAZAR",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 85,
+     "porcentaje": 1.06,
+     "posicion": 6
+    },
+    {
+     "nombre": "Fabio Hernán Correa Uribe",
+     "nombre_oficial": "FABIO HERNAN CORREA URIBE",
+     "partido": "Movimiento Alianza Democrática Amplia - Res. 2049 de 2021",
+     "partido_oficial": "MOVIMIENTO ALIANZA DEMOCRÁTICA AMPLIA - Res. 2049 de 2021",
+     "familias": [
+      "ADA"
+     ],
+     "votos": 61,
+     "porcentaje": 0.76,
+     "posicion": 7
+    },
+    {
+     "nombre": "Gustavo de Jesús Gómez Gutiérrez",
+     "nombre_oficial": "GUSTAVO DE JESUS GOMEZ GUTIERREZ",
+     "partido": "Partido Político la Fuerza de la Paz",
+     "partido_oficial": "PARTIDO POLÍTICO LA FUERZA DE LA PAZ",
+     "familias": [],
+     "votos": 44,
+     "porcentaje": 0.55,
+     "posicion": 8
+    },
+    {
+     "nombre": "Miguel José Hurtado Taborda",
+     "nombre_oficial": "MIGUEL JOSE HURTADO TABORDA",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRÁTICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 44,
+     "porcentaje": 0.55,
+     "posicion": 9
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 195,
+    "VOTOS EN BLANCO": 116,
+    "VOTOS NULOS": 112
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "YOLOMBO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.5966998645313994,
+   "lon": -75.01567056609497,
+   "votos_total": 6118,
+   "votos_validos": 5906,
+   "ganador": "PEDRO PABLO CASTAÑO USUGA",
+   "empate": [],
+   "margen_puntos": 0.76,
+   "votos": {
+    "ANDERSON FABIAN RESTREPO SERNA": 1513,
+    "FABIO HERNAN CORREA URIBE": 56,
+    "GABRIEL JAIME GONZALEZ RODRIGUEZ": 311,
+    "GUSTAVO DE JESUS GOMEZ GUTIERREZ": 29,
+    "JESUS AMADOR PEREZ PALACIO": 1699,
+    "MIGUEL JOSE HURTADO TABORDA": 41,
+    "OSCAR AUGUSTO RAMIREZ SALAZAR": 55,
+    "PEDRO PABLO CASTAÑO USUGA": 1744,
+    "RODRIGO DE JESUS CARDONA BLANDON": 369,
+    "VOTOS EN BLANCO": 89,
+    "VOTOS NO MARCADOS": 128,
+    "VOTOS NULOS": 84
+   }
+  },
+  {
+   "id": "YOLOMBO|99|01",
+   "nombre": "La Floresta",
+   "nombre_oficial": "LA FLORESTA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.6348861409538396,
+   "lon": -74.86192345619193,
+   "votos_total": 792,
+   "votos_validos": 765,
+   "ganador": "JESUS AMADOR PEREZ PALACIO",
+   "empate": [],
+   "margen_puntos": 21.05,
+   "votos": {
+    "ANDERSON FABIAN RESTREPO SERNA": 226,
+    "FABIO HERNAN CORREA URIBE": 3,
+    "GABRIEL JAIME GONZALEZ RODRIGUEZ": 4,
+    "GUSTAVO DE JESUS GOMEZ GUTIERREZ": 11,
+    "JESUS AMADOR PEREZ PALACIO": 387,
+    "OSCAR AUGUSTO RAMIREZ SALAZAR": 1,
+    "PEDRO PABLO CASTAÑO USUGA": 119,
+    "RODRIGO DE JESUS CARDONA BLANDON": 11,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 15
+   }
+  },
+  {
+   "id": "YOLOMBO|99|02",
+   "nombre": "La Argentina",
+   "nombre_oficial": "LA ARGENTINA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.6225216071114295,
+   "lon": -74.71976675517013,
+   "votos_total": 100,
+   "votos_validos": 99,
+   "ganador": "ANDERSON FABIAN RESTREPO SERNA",
+   "empate": [],
+   "margen_puntos": 24.24,
+   "votos": {
+    "ANDERSON FABIAN RESTREPO SERNA": 57,
+    "JESUS AMADOR PEREZ PALACIO": 33,
+    "PEDRO PABLO CASTAÑO USUGA": 7,
+    "RODRIGO DE JESUS CARDONA BLANDON": 1,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 1
+   }
+  },
+  {
+   "id": "YOLOMBO|99|03",
+   "nombre": "Villanueva",
+   "nombre_oficial": "VILLANUEVA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.6211277868054506,
+   "lon": -75.14996051788316,
+   "votos_total": 557,
+   "votos_validos": 532,
+   "ganador": "ANDERSON FABIAN RESTREPO SERNA",
+   "empate": [],
+   "margen_puntos": 36.65,
+   "votos": {
+    "ANDERSON FABIAN RESTREPO SERNA": 286,
+    "FABIO HERNAN CORREA URIBE": 1,
+    "GABRIEL JAIME GONZALEZ RODRIGUEZ": 9,
+    "GUSTAVO DE JESUS GOMEZ GUTIERREZ": 2,
+    "JESUS AMADOR PEREZ PALACIO": 47,
+    "MIGUEL JOSE HURTADO TABORDA": 2,
+    "OSCAR AUGUSTO RAMIREZ SALAZAR": 19,
+    "PEDRO PABLO CASTAÑO USUGA": 91,
+    "RODRIGO DE JESUS CARDONA BLANDON": 62,
+    "VOTOS EN BLANCO": 13,
+    "VOTOS NO MARCADOS": 16,
+    "VOTOS NULOS": 9
+   }
+  },
+  {
+   "id": "YOLOMBO|99|04",
+   "nombre": "El Rubi",
+   "nombre_oficial": "EL RUBI",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.569479922203763,
+   "lon": -74.97256994247432,
+   "votos_total": 496,
+   "votos_validos": 479,
+   "ganador": "PEDRO PABLO CASTAÑO USUGA",
+   "empate": [],
+   "margen_puntos": 9.81,
+   "votos": {
+    "ANDERSON FABIAN RESTREPO SERNA": 79,
+    "GABRIEL JAIME GONZALEZ RODRIGUEZ": 5,
+    "JESUS AMADOR PEREZ PALACIO": 164,
+    "MIGUEL JOSE HURTADO TABORDA": 1,
+    "PEDRO PABLO CASTAÑO USUGA": 211,
+    "RODRIGO DE JESUS CARDONA BLANDON": 10,
+    "VOTOS EN BLANCO": 9,
+    "VOTOS NO MARCADOS": 14,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "YOLOMBO|99|05",
+   "nombre": "Bareño",
+   "nombre_oficial": "BAREÑO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.561084504921793,
+   "lon": -75.14152765274036,
+   "votos_total": 163,
+   "votos_validos": 147,
+   "ganador": null,
+   "empate": [
+    "ANDERSON FABIAN RESTREPO SERNA",
+    "PEDRO PABLO CASTAÑO USUGA"
+   ],
+   "margen_puntos": 0.0,
+   "votos": {
+    "ANDERSON FABIAN RESTREPO SERNA": 50,
+    "FABIO HERNAN CORREA URIBE": 1,
+    "GUSTAVO DE JESUS GOMEZ GUTIERREZ": 2,
+    "JESUS AMADOR PEREZ PALACIO": 39,
+    "OSCAR AUGUSTO RAMIREZ SALAZAR": 1,
+    "PEDRO PABLO CASTAÑO USUGA": 50,
+    "RODRIGO DE JESUS CARDONA BLANDON": 3,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 16
+   }
+  },
+  {
+   "id": "YOLOMBO|99|06",
+   "nombre": "I.E.R. Cachumbal",
+   "nombre_oficial": "I.E.R. CACHUMBAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.7218304,
+   "lon": -74.9922651,
+   "votos_total": 113,
+   "votos_validos": 104,
+   "ganador": "JESUS AMADOR PEREZ PALACIO",
+   "empate": [],
+   "margen_puntos": 57.69,
+   "votos": {
+    "ANDERSON FABIAN RESTREPO SERNA": 10,
+    "GABRIEL JAIME GONZALEZ RODRIGUEZ": 1,
+    "JESUS AMADOR PEREZ PALACIO": 70,
+    "OSCAR AUGUSTO RAMIREZ SALAZAR": 9,
+    "PEDRO PABLO CASTAÑO USUGA": 10,
+    "RODRIGO DE JESUS CARDONA BLANDON": 4,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

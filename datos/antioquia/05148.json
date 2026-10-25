@@ -1,0 +1,533 @@
+{
+ "municipio": {
+  "cod_dane": "05148",
+  "cod_registraduria": "082",
+  "nombre": "El Carmen de Viboral",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 25938,
+   "votos_validos": 25182,
+   "margen_puntos": 14.24,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "John Fredy Quintero Zuluaga",
+     "nombre_oficial": "JOHN FREDY QUINTERO ZULUAGA",
+     "partido": "Más Cerca Más Oportunidades",
+     "partido_oficial": "MAS CERCA MAS OPORTUNIDADES",
+     "familias": [],
+     "votos": 11787,
+     "porcentaje": 46.81,
+     "posicion": 1
+    },
+    {
+     "nombre": "Hugo Alfonso Jiménez Cuervo",
+     "nombre_oficial": "HUGO ALFONSO JIMENEZ CUERVO",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 8201,
+     "porcentaje": 32.57,
+     "posicion": 2
+    },
+    {
+     "nombre": "Vicente de Jesús Arcila Giraldo",
+     "nombre_oficial": "VICENTE DE JESUS ARCILA GIRALDO",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 4479,
+     "porcentaje": 17.79,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 715,
+    "VOTOS NULOS": 404,
+    "VOTOS NO MARCADOS": 352
+   }
+  },
+  "2023": {
+   "votos_depositados": 28753,
+   "votos_validos": 27867,
+   "margen_puntos": 5.33,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Hugo Alfonso Jiménez Cuervo",
+     "nombre_oficial": "HUGO ALFONSO JIMENEZ CUERVO",
+     "partido": "El Carmen Prioridad de Todos",
+     "partido_oficial": "EL CARMEN PRIORIDAD DE TODOS",
+     "familias": [],
+     "votos": 6623,
+     "porcentaje": 23.77,
+     "posicion": 1
+    },
+    {
+     "nombre": "Didier Yesid Rave Zuluaga",
+     "nombre_oficial": "DIDIER YESID RAVE ZULUAGA",
+     "partido": "Coalición Programatica y Politica Pa' Delante por el Carmen",
+     "partido_oficial": "COALICION PROGRAMATICA Y POLITICA PA' DELANTE POR EL CARMEN",
+     "familias": [],
+     "votos": 5139,
+     "porcentaje": 18.44,
+     "posicion": 2
+    },
+    {
+     "nombre": "Vicente de Jesús Arcila Giraldo",
+     "nombre_oficial": "VICENTE DE JESUS ARCILA GIRALDO",
+     "partido": "Vicente Alcalde",
+     "partido_oficial": "VICENTE ALCALDE",
+     "familias": [],
+     "votos": 4101,
+     "porcentaje": 14.72,
+     "posicion": 3
+    },
+    {
+     "nombre": "Néstor Fernando Zuluaga Giraldo",
+     "nombre_oficial": "NESTOR FERNANDO ZULUAGA GIRALDO",
+     "partido": "Partido de la U-Partido Cambio Radical",
+     "partido_oficial": "PARTIDO DE LA U-PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR",
+      "U"
+     ],
+     "votos": 4065,
+     "porcentaje": 14.59,
+     "posicion": 4
+    },
+    {
+     "nombre": "María Eugenia García Gómez",
+     "nombre_oficial": "MARIA EUGENIA GARCIA GOMEZ",
+     "partido": "Partido Político Gente en Movimiento",
+     "partido_oficial": "PARTIDO POLÍTICO GENTE EN MOVIMIENTO",
+     "familias": [],
+     "votos": 2621,
+     "porcentaje": 9.41,
+     "posicion": 5
+    },
+    {
+     "nombre": "Hugo Fernando Gómez Ramírez",
+     "nombre_oficial": "HUGO FERNANDO GOMEZ RAMIREZ",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 1953,
+     "porcentaje": 7.01,
+     "posicion": 6
+    },
+    {
+     "nombre": "Dairo Antonio García Zuluaga",
+     "nombre_oficial": "DAIRO ANTONIO GARCIA ZULUAGA",
+     "partido": "Partido Político la Fuerza de la Paz",
+     "partido_oficial": "PARTIDO POLÍTICO LA FUERZA DE LA PAZ",
+     "familias": [],
+     "votos": 1146,
+     "porcentaje": 4.11,
+     "posicion": 7
+    },
+    {
+     "nombre": "John Jairo Arcila Gómez",
+     "nombre_oficial": "JOHN JAIRO ARCILA GOMEZ",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 564,
+     "porcentaje": 2.02,
+     "posicion": 8
+    },
+    {
+     "nombre": "Fabio Andrés Ben Bolmbischer",
+     "nombre_oficial": "FABIO ANDRES BEN BOLMBISCHER",
+     "partido": "Movimiento Salvación Nacional",
+     "partido_oficial": "MOVIMIENTO SALVACIÓN NACIONAL",
+     "familias": [
+      "SALV"
+     ],
+     "votos": 545,
+     "porcentaje": 1.96,
+     "posicion": 9
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 1110,
+    "VOTOS NULOS": 497,
+    "VOTOS NO MARCADOS": 389
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "CARMEN DE VIBORAL|01|01",
+   "nombre": "Coliseo Municipal",
+   "nombre_oficial": "COLISEO MUNICIPAL",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.084143231958806,
+   "lon": -75.3351831436156,
+   "votos_total": 6887,
+   "votos_validos": 6675,
+   "ganador": "HUGO ALFONSO JIMENEZ CUERVO",
+   "empate": [],
+   "margen_puntos": 8.39,
+   "votos": {
+    "DAIRO ANTONIO GARCIA ZULUAGA": 250,
+    "DIDIER YESID RAVE ZULUAGA": 1099,
+    "FABIO ANDRES BEN BOLMBISCHER": 145,
+    "HUGO ALFONSO JIMENEZ CUERVO": 1659,
+    "HUGO FERNANDO GOMEZ RAMIREZ": 433,
+    "JOHN JAIRO ARCILA GOMEZ": 112,
+    "MARIA EUGENIA GARCIA GOMEZ": 664,
+    "NESTOR FERNANDO ZULUAGA GIRALDO": 1007,
+    "VICENTE DE JESUS ARCILA GIRALDO": 1029,
+    "VOTOS EN BLANCO": 277,
+    "VOTOS NO MARCADOS": 99,
+    "VOTOS NULOS": 113
+   }
+  },
+  {
+   "id": "CARMEN DE VIBORAL|01|02",
+   "nombre": "Centro de Convenciones",
+   "nombre_oficial": "CENTRO DE CONVENCIONES",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.084015211096734,
+   "lon": -75.3351831436156,
+   "votos_total": 5879,
+   "votos_validos": 5707,
+   "ganador": "HUGO ALFONSO JIMENEZ CUERVO",
+   "empate": [],
+   "margen_puntos": 6.45,
+   "votos": {
+    "DAIRO ANTONIO GARCIA ZULUAGA": 227,
+    "DIDIER YESID RAVE ZULUAGA": 1033,
+    "FABIO ANDRES BEN BOLMBISCHER": 120,
+    "HUGO ALFONSO JIMENEZ CUERVO": 1401,
+    "HUGO FERNANDO GOMEZ RAMIREZ": 440,
+    "JOHN JAIRO ARCILA GOMEZ": 126,
+    "MARIA EUGENIA GARCIA GOMEZ": 623,
+    "NESTOR FERNANDO ZULUAGA GIRALDO": 750,
+    "VICENTE DE JESUS ARCILA GIRALDO": 742,
+    "VOTOS EN BLANCO": 245,
+    "VOTOS NO MARCADOS": 65,
+    "VOTOS NULOS": 107
+   }
+  },
+  {
+   "id": "CARMEN DE VIBORAL|02|01",
+   "nombre": "Polideportivo Municipal",
+   "nombre_oficial": "POLIDEPORTIVO MUNICIPAL",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.081844870219242,
+   "lon": -75.3331439131574,
+   "votos_total": 7188,
+   "votos_validos": 7009,
+   "ganador": "HUGO ALFONSO JIMENEZ CUERVO",
+   "empate": [],
+   "margen_puntos": 6.82,
+   "votos": {
+    "DAIRO ANTONIO GARCIA ZULUAGA": 261,
+    "DIDIER YESID RAVE ZULUAGA": 1311,
+    "FABIO ANDRES BEN BOLMBISCHER": 148,
+    "HUGO ALFONSO JIMENEZ CUERVO": 1789,
+    "HUGO FERNANDO GOMEZ RAMIREZ": 421,
+    "JOHN JAIRO ARCILA GOMEZ": 149,
+    "MARIA EUGENIA GARCIA GOMEZ": 687,
+    "NESTOR FERNANDO ZULUAGA GIRALDO": 1001,
+    "VICENTE DE JESUS ARCILA GIRALDO": 1026,
+    "VOTOS EN BLANCO": 216,
+    "VOTOS NO MARCADOS": 68,
+    "VOTOS NULOS": 111
+   }
+  },
+  {
+   "id": "CARMEN DE VIBORAL|02|02",
+   "nombre": "IE el Progreso",
+   "nombre_oficial": "IE EL PROGRESO",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.06946520759198,
+   "lon": -75.3317300282312,
+   "votos_total": 5787,
+   "votos_validos": 5612,
+   "ganador": "HUGO ALFONSO JIMENEZ CUERVO",
+   "empate": [],
+   "margen_puntos": 5.26,
+   "votos": {
+    "DAIRO ANTONIO GARCIA ZULUAGA": 251,
+    "DIDIER YESID RAVE ZULUAGA": 987,
+    "FABIO ANDRES BEN BOLMBISCHER": 107,
+    "HUGO ALFONSO JIMENEZ CUERVO": 1297,
+    "HUGO FERNANDO GOMEZ RAMIREZ": 391,
+    "JOHN JAIRO ARCILA GOMEZ": 112,
+    "MARIA EUGENIA GARCIA GOMEZ": 438,
+    "NESTOR FERNANDO ZULUAGA GIRALDO": 810,
+    "VICENTE DE JESUS ARCILA GIRALDO": 1002,
+    "VOTOS EN BLANCO": 217,
+    "VOTOS NO MARCADOS": 70,
+    "VOTOS NULOS": 105
+   }
+  },
+  {
+   "id": "CARMEN DE VIBORAL|99|01",
+   "nombre": "La Esperanza",
+   "nombre_oficial": "LA ESPERANZA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.04069400524768,
+   "lon": -75.2295684814452,
+   "votos_total": 239,
+   "votos_validos": 212,
+   "ganador": "DIDIER YESID RAVE ZULUAGA",
+   "empate": [],
+   "margen_puntos": 47.64,
+   "votos": {
+    "DAIRO ANTONIO GARCIA ZULUAGA": 7,
+    "DIDIER YESID RAVE ZULUAGA": 132,
+    "HUGO ALFONSO JIMENEZ CUERVO": 3,
+    "HUGO FERNANDO GOMEZ RAMIREZ": 31,
+    "JOHN JAIRO ARCILA GOMEZ": 1,
+    "MARIA EUGENIA GARCIA GOMEZ": 4,
+    "NESTOR FERNANDO ZULUAGA GIRALDO": 8,
+    "VICENTE DE JESUS ARCILA GIRALDO": 19,
+    "VOTOS EN BLANCO": 7,
+    "VOTOS NO MARCADOS": 22,
+    "VOTOS NULOS": 5
+   }
+  },
+  {
+   "id": "CARMEN DE VIBORAL|99|02",
+   "nombre": "Alto Grande",
+   "nombre_oficial": "ALTO GRANDE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.10374106567513,
+   "lon": -75.3242290019987,
+   "votos_total": 197,
+   "votos_validos": 188,
+   "ganador": "DAIRO ANTONIO GARCIA ZULUAGA",
+   "empate": [],
+   "margen_puntos": 15.96,
+   "votos": {
+    "DAIRO ANTONIO GARCIA ZULUAGA": 59,
+    "DIDIER YESID RAVE ZULUAGA": 27,
+    "HUGO ALFONSO JIMENEZ CUERVO": 29,
+    "HUGO FERNANDO GOMEZ RAMIREZ": 14,
+    "JOHN JAIRO ARCILA GOMEZ": 12,
+    "MARIA EUGENIA GARCIA GOMEZ": 8,
+    "NESTOR FERNANDO ZULUAGA GIRALDO": 23,
+    "VICENTE DE JESUS ARCILA GIRALDO": 9,
+    "VOTOS EN BLANCO": 7,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "CARMEN DE VIBORAL|99|03",
+   "nombre": "La Chapa",
+   "nombre_oficial": "LA CHAPA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.05155093852529,
+   "lon": -75.3168368339537,
+   "votos_total": 797,
+   "votos_validos": 769,
+   "ganador": "DIDIER YESID RAVE ZULUAGA",
+   "empate": [],
+   "margen_puntos": 1.43,
+   "votos": {
+    "DAIRO ANTONIO GARCIA ZULUAGA": 43,
+    "DIDIER YESID RAVE ZULUAGA": 164,
+    "FABIO ANDRES BEN BOLMBISCHER": 7,
+    "HUGO ALFONSO JIMENEZ CUERVO": 122,
+    "HUGO FERNANDO GOMEZ RAMIREZ": 71,
+    "JOHN JAIRO ARCILA GOMEZ": 10,
+    "MARIA EUGENIA GARCIA GOMEZ": 58,
+    "NESTOR FERNANDO ZULUAGA GIRALDO": 153,
+    "VICENTE DE JESUS ARCILA GIRALDO": 120,
+    "VOTOS EN BLANCO": 21,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 18
+   }
+  },
+  {
+   "id": "CARMEN DE VIBORAL|99|04",
+   "nombre": "Santa Rita",
+   "nombre_oficial": "SANTA RITA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.92344326184863,
+   "lon": -75.2294397354125,
+   "votos_total": 51,
+   "votos_validos": 46,
+   "ganador": "DIDIER YESID RAVE ZULUAGA",
+   "empate": [],
+   "margen_puntos": 15.22,
+   "votos": {
+    "DIDIER YESID RAVE ZULUAGA": 19,
+    "HUGO ALFONSO JIMENEZ CUERVO": 9,
+    "HUGO FERNANDO GOMEZ RAMIREZ": 1,
+    "MARIA EUGENIA GARCIA GOMEZ": 4,
+    "NESTOR FERNANDO ZULUAGA GIRALDO": 1,
+    "VICENTE DE JESUS ARCILA GIRALDO": 12,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "CARMEN DE VIBORAL|99|05",
+   "nombre": "Santa Inés",
+   "nombre_oficial": "SANTA INES",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.97736183596656,
+   "lon": -75.1916098594664,
+   "votos_total": 145,
+   "votos_validos": 144,
+   "ganador": "NESTOR FERNANDO ZULUAGA GIRALDO",
+   "empate": [],
+   "margen_puntos": 8.33,
+   "votos": {
+    "DAIRO ANTONIO GARCIA ZULUAGA": 5,
+    "DIDIER YESID RAVE ZULUAGA": 59,
+    "FABIO ANDRES BEN BOLMBISCHER": 1,
+    "HUGO ALFONSO JIMENEZ CUERVO": 3,
+    "HUGO FERNANDO GOMEZ RAMIREZ": 1,
+    "NESTOR FERNANDO ZULUAGA GIRALDO": 71,
+    "VICENTE DE JESUS ARCILA GIRALDO": 2,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 1
+   }
+  },
+  {
+   "id": "CARMEN DE VIBORAL|99|15",
+   "nombre": "La Madera",
+   "nombre_oficial": "LA MADERA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.01960668079419,
+   "lon": -75.3347050162248,
+   "votos_total": 345,
+   "votos_validos": 326,
+   "ganador": "DIDIER YESID RAVE ZULUAGA",
+   "empate": [],
+   "margen_puntos": 18.4,
+   "votos": {
+    "DAIRO ANTONIO GARCIA ZULUAGA": 18,
+    "DIDIER YESID RAVE ZULUAGA": 123,
+    "FABIO ANDRES BEN BOLMBISCHER": 2,
+    "HUGO ALFONSO JIMENEZ CUERVO": 63,
+    "HUGO FERNANDO GOMEZ RAMIREZ": 43,
+    "JOHN JAIRO ARCILA GOMEZ": 2,
+    "MARIA EUGENIA GARCIA GOMEZ": 16,
+    "NESTOR FERNANDO ZULUAGA GIRALDO": 33,
+    "VICENTE DE JESUS ARCILA GIRALDO": 17,
+    "VOTOS EN BLANCO": 9,
+    "VOTOS NO MARCADOS": 15,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "CARMEN DE VIBORAL|99|40",
+   "nombre": "Aguas Claras",
+   "nombre_oficial": "AGUAS CLARAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.07375277296658,
+   "lon": -75.3786456584929,
+   "votos_total": 1238,
+   "votos_validos": 1179,
+   "ganador": "HUGO ALFONSO JIMENEZ CUERVO",
+   "empate": [],
+   "margen_puntos": 3.39,
+   "votos": {
+    "DAIRO ANTONIO GARCIA ZULUAGA": 25,
+    "DIDIER YESID RAVE ZULUAGA": 185,
+    "FABIO ANDRES BEN BOLMBISCHER": 15,
+    "HUGO ALFONSO JIMENEZ CUERVO": 248,
+    "HUGO FERNANDO GOMEZ RAMIREZ": 107,
+    "JOHN JAIRO ARCILA GOMEZ": 40,
+    "MARIA EUGENIA GARCIA GOMEZ": 119,
+    "NESTOR FERNANDO ZULUAGA GIRALDO": 208,
+    "VICENTE DE JESUS ARCILA GIRALDO": 123,
+    "VOTOS EN BLANCO": 109,
+    "VOTOS NO MARCADOS": 30,
+    "VOTOS NULOS": 29
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

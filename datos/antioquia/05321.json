@@ -1,0 +1,210 @@
+{
+ "municipio": {
+  "cod_dane": "05321",
+  "cod_registraduria": "145",
+  "nombre": "Guatapé",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 5252,
+   "votos_validos": 5142,
+   "margen_puntos": 9.78,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Juan Sebastián Pérez Flórez",
+     "nombre_oficial": "JUAN SEBASTIAN PEREZ FLOREZ",
+     "partido": "Emprendamos Juntos Guatape",
+     "partido_oficial": "EMPRENDAMOS JUNTOS  GUATAPE",
+     "familias": [],
+     "votos": 2179,
+     "porcentaje": 42.38,
+     "posicion": 1
+    },
+    {
+     "nombre": "Iván Jairo García Giraldo",
+     "nombre_oficial": "IVAN JAIRO GARCIA GIRALDO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 1676,
+     "porcentaje": 32.59,
+     "posicion": 2
+    },
+    {
+     "nombre": "Marleny García Ospina",
+     "nombre_oficial": "MARLENY GARCIA OSPINA",
+     "partido": "Vamos Guatape",
+     "partido_oficial": "VAMOS GUATAPE",
+     "familias": [],
+     "votos": 1096,
+     "porcentaje": 21.31,
+     "posicion": 3
+    },
+    {
+     "nombre": "María Margarita Jiménez Zuluaga",
+     "nombre_oficial": "MARIA MARGARITA JIMENEZ ZULUAGA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 138,
+     "porcentaje": 2.68,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 67,
+    "VOTOS EN BLANCO": 53,
+    "VOTOS NULOS": 43
+   }
+  },
+  "2023": {
+   "votos_depositados": 6223,
+   "votos_validos": 6129,
+   "margen_puntos": 33.74,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "David Esteban Franco Vallejo",
+     "nombre_oficial": "DAVID ESTEBAN FRANCO VALLEJO",
+     "partido": "Juntos Construimos",
+     "partido_oficial": "JUNTOS CONSTRUIMOS",
+     "familias": [],
+     "votos": 3707,
+     "porcentaje": 60.48,
+     "posicion": 1
+    },
+    {
+     "nombre": "Daisy Cristina Martínez López",
+     "nombre_oficial": "DAISY CRISTINA MARTINEZ LOPEZ",
+     "partido": "Coalición Democratica Guatape Evoluciona",
+     "partido_oficial": "COALICION DEMOCRATICA GUATAPE EVOLUCIONA",
+     "familias": [],
+     "votos": 1639,
+     "porcentaje": 26.74,
+     "posicion": 2
+    },
+    {
+     "nombre": "Dairo Alberto Mesa Villegas",
+     "nombre_oficial": "DAIRO ALBERTO MESA VILLEGAS",
+     "partido": "Partido Político Gente en Movimiento",
+     "partido_oficial": "PARTIDO POLÍTICO GENTE EN MOVIMIENTO",
+     "familias": [],
+     "votos": 488,
+     "porcentaje": 7.96,
+     "posicion": 3
+    },
+    {
+     "nombre": "Yomaira Rosales Quintero",
+     "nombre_oficial": "YOMAIRA ROSALES QUINTERO",
+     "partido": "Proyecto Guatape",
+     "partido_oficial": "PROYECTO GUATAPE",
+     "familias": [],
+     "votos": 208,
+     "porcentaje": 3.39,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 87,
+    "VOTOS NULOS": 49,
+    "VOTOS NO MARCADOS": 45
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "GUATAPE|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.232676796999999,
+   "lon": -75.1584101099999,
+   "votos_total": 6223,
+   "votos_validos": 6129,
+   "ganador": "DAVID ESTEBAN FRANCO VALLEJO",
+   "empate": [],
+   "margen_puntos": 33.74,
+   "votos": {
+    "DAIRO ALBERTO MESA VILLEGAS": 488,
+    "DAISY CRISTINA MARTINEZ LOPEZ": 1639,
+    "DAVID ESTEBAN FRANCO VALLEJO": 3707,
+    "VOTOS EN BLANCO": 87,
+    "VOTOS NO MARCADOS": 45,
+    "VOTOS NULOS": 49,
+    "YOMAIRA ROSALES QUINTERO": 208
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

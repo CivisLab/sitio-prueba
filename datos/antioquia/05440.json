@@ -1,0 +1,516 @@
+{
+ "municipio": {
+  "cod_dane": "05440",
+  "cod_registraduria": "178",
+  "nombre": "Marinilla",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 28161,
+   "votos_validos": 27203,
+   "margen_puntos": 23.27,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "José Gildardo Hurtado Alzate",
+     "nombre_oficial": "JOSE GILDARDO HURTADO ALZATE",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 11883,
+     "porcentaje": 43.68,
+     "posicion": 1
+    },
+    {
+     "nombre": "José Manuel González Botero",
+     "nombre_oficial": "JOSE MANUEL GONZALEZ BOTERO",
+     "partido": "Juntos por Marinilla",
+     "partido_oficial": "JUNTOS POR MARINILLA",
+     "familias": [],
+     "votos": 5554,
+     "porcentaje": 20.42,
+     "posicion": 2
+    },
+    {
+     "nombre": "Julio César Serna Gómez",
+     "nombre_oficial": "JULIO CESAR SERNA GOMEZ",
+     "partido": "Avancemos",
+     "partido_oficial": "AVANCEMOS",
+     "familias": [],
+     "votos": 3892,
+     "porcentaje": 14.31,
+     "posicion": 3
+    },
+    {
+     "nombre": "Dora Isabel Suárez Giraldo",
+     "nombre_oficial": "DORA ISABEL SUAREZ GIRALDO",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 2002,
+     "porcentaje": 7.36,
+     "posicion": 4
+    },
+    {
+     "nombre": "Germán Darío Vélez Ocampo",
+     "nombre_oficial": "GERMAN DARIO VELEZ OCAMPO",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 1804,
+     "porcentaje": 6.63,
+     "posicion": 5
+    },
+    {
+     "nombre": "Luz Maribel Giraldo",
+     "nombre_oficial": "LUZ MARIBEL GIRALDO",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 1316,
+     "porcentaje": 4.84,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 752,
+    "VOTOS NULOS": 498,
+    "VOTOS NO MARCADOS": 460
+   }
+  },
+  "2023": {
+   "votos_depositados": 31379,
+   "votos_validos": 30607,
+   "margen_puntos": 15.54,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Julio César Serna Gómez",
+     "nombre_oficial": "JULIO CESAR SERNA GOMEZ",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 12001,
+     "porcentaje": 39.21,
+     "posicion": 1
+    },
+    {
+     "nombre": "José Manuel González Botero",
+     "nombre_oficial": "JOSE MANUEL GONZALEZ BOTERO",
+     "partido": "Motivos para Crecer",
+     "partido_oficial": "MOTIVOS PARA CRECER",
+     "familias": [],
+     "votos": 7245,
+     "porcentaje": 23.67,
+     "posicion": 2
+    },
+    {
+     "nombre": "Édgar Augusto Villegas Ramírez",
+     "nombre_oficial": "EDGAR AUGUSTO VILLEGAS RAMIREZ",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 5413,
+     "porcentaje": 17.69,
+     "posicion": 3
+    },
+    {
+     "nombre": "Cristian Mauricio Gómez Gómez",
+     "nombre_oficial": "CRISTIAN MAURICIO GOMEZ GOMEZ",
+     "partido": "Hagamos Grande a Marinilla",
+     "partido_oficial": "HAGAMOS GRANDE A MARINILLA",
+     "familias": [],
+     "votos": 1801,
+     "porcentaje": 5.88,
+     "posicion": 4
+    },
+    {
+     "nombre": "John Edisson Ramírez Giraldo",
+     "nombre_oficial": "JOHN EDISSON RAMIREZ GIRALDO",
+     "partido": "Pacto Histórico Colombia Puede",
+     "partido_oficial": "PACTO HISTORICO COLOMBIA PUEDE",
+     "familias": [
+      "PACTO"
+     ],
+     "votos": 1179,
+     "porcentaje": 3.85,
+     "posicion": 5
+    },
+    {
+     "nombre": "Juan de Dios Orozco Gallo",
+     "nombre_oficial": "JUAN DE DIOS OROZCO GALLO",
+     "partido": "Movimiento Salvación Nacional",
+     "partido_oficial": "MOVIMIENTO SALVACIÓN NACIONAL",
+     "familias": [
+      "SALV"
+     ],
+     "votos": 812,
+     "porcentaje": 2.65,
+     "posicion": 6
+    },
+    {
+     "nombre": "Omar Ignacio Castaño Giraldo",
+     "nombre_oficial": "OMAR IGNACIO CASTAÑO GIRALDO",
+     "partido": "Marinilla con Futuro",
+     "partido_oficial": "MARINILLA CON FUTURO",
+     "familias": [],
+     "votos": 669,
+     "porcentaje": 2.19,
+     "posicion": 7
+    },
+    {
+     "nombre": "Elkyn Darío Hincapie Ramírez",
+     "nombre_oficial": "ELKYN DARIO HINCAPIE RAMIREZ",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 351,
+     "porcentaje": 1.15,
+     "posicion": 8
+    },
+    {
+     "nombre": "Guillermo León Castrillon Gómez",
+     "nombre_oficial": "GUILLERMO LEON CASTRILLON GOMEZ",
+     "partido": "Movimiento Alianza Democrática Amplia - Res. 2049 de 2021",
+     "partido_oficial": "MOVIMIENTO ALIANZA DEMOCRÁTICA AMPLIA - Res. 2049 de 2021",
+     "familias": [
+      "ADA"
+     ],
+     "votos": 197,
+     "porcentaje": 0.64,
+     "posicion": 9
+    },
+    {
+     "nombre": "Darwin Augusto Gómez Moya",
+     "nombre_oficial": "DARWIN AUGUSTO GOMEZ MOYA",
+     "partido": "Partido Político la Fuerza de la Paz",
+     "partido_oficial": "PARTIDO POLÍTICO LA FUERZA DE LA PAZ",
+     "familias": [],
+     "votos": 65,
+     "porcentaje": 0.21,
+     "posicion": 10
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 874,
+    "VOTOS NULOS": 422,
+    "VOTOS NO MARCADOS": 350
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": false,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "U"
+  ],
+  "familias_2023": [
+   "CONS"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "MARINILLA|01|01",
+   "nombre": "Coliseo Municipal",
+   "nombre_oficial": "COLISEO MUNICIPAL",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.176570526490012,
+   "lon": -75.3424393590349,
+   "votos_total": 4337,
+   "votos_validos": 4276,
+   "ganador": "JULIO CESAR SERNA GOMEZ",
+   "empate": [],
+   "margen_puntos": 11.44,
+   "votos": {
+    "CRISTIAN MAURICIO GOMEZ GOMEZ": 297,
+    "DARWIN AUGUSTO GOMEZ MOYA": 5,
+    "EDGAR AUGUSTO VILLEGAS RAMIREZ": 870,
+    "ELKYN DARIO HINCAPIE RAMIREZ": 43,
+    "GUILLERMO LEON CASTRILLON GOMEZ": 20,
+    "JOHN EDISSON RAMIREZ GIRALDO": 262,
+    "JOSE MANUEL GONZALEZ BOTERO": 967,
+    "JUAN DE DIOS OROZCO GALLO": 97,
+    "JULIO CESAR SERNA GOMEZ": 1456,
+    "OMAR IGNACIO CASTAÑO GIRALDO": 77,
+    "VOTOS EN BLANCO": 182,
+    "VOTOS NO MARCADOS": 16,
+    "VOTOS NULOS": 45
+   }
+  },
+  {
+   "id": "MARINILLA|01|02",
+   "nombre": "ESC. Normal Sup Rafael M. Gir",
+   "nombre_oficial": "ESC. NORMAL SUP RAFAEL M. GIR",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.175007447027162,
+   "lon": -75.3416181247499,
+   "votos_total": 5093,
+   "votos_validos": 4981,
+   "ganador": "JULIO CESAR SERNA GOMEZ",
+   "empate": [],
+   "margen_puntos": 11.8,
+   "votos": {
+    "CRISTIAN MAURICIO GOMEZ GOMEZ": 291,
+    "DARWIN AUGUSTO GOMEZ MOYA": 14,
+    "EDGAR AUGUSTO VILLEGAS RAMIREZ": 1027,
+    "ELKYN DARIO HINCAPIE RAMIREZ": 49,
+    "GUILLERMO LEON CASTRILLON GOMEZ": 26,
+    "JOHN EDISSON RAMIREZ GIRALDO": 263,
+    "JOSE MANUEL GONZALEZ BOTERO": 1167,
+    "JUAN DE DIOS OROZCO GALLO": 138,
+    "JULIO CESAR SERNA GOMEZ": 1755,
+    "OMAR IGNACIO CASTAÑO GIRALDO": 113,
+    "VOTOS EN BLANCO": 138,
+    "VOTOS NO MARCADOS": 42,
+    "VOTOS NULOS": 70
+   }
+  },
+  {
+   "id": "MARINILLA|01|03",
+   "nombre": "IE Tec Industrial Simona Duque Secund",
+   "nombre_oficial": "IE TEC INDUSTRIAL SIMONA DUQUE SECUND",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.173963650890675,
+   "lon": -75.3371800482272,
+   "votos_total": 5707,
+   "votos_validos": 5537,
+   "ganador": "JULIO CESAR SERNA GOMEZ",
+   "empate": [],
+   "margen_puntos": 19.63,
+   "votos": {
+    "CRISTIAN MAURICIO GOMEZ GOMEZ": 309,
+    "DARWIN AUGUSTO GOMEZ MOYA": 17,
+    "EDGAR AUGUSTO VILLEGAS RAMIREZ": 869,
+    "ELKYN DARIO HINCAPIE RAMIREZ": 65,
+    "GUILLERMO LEON CASTRILLON GOMEZ": 43,
+    "JOHN EDISSON RAMIREZ GIRALDO": 146,
+    "JOSE MANUEL GONZALEZ BOTERO": 1338,
+    "JUAN DE DIOS OROZCO GALLO": 120,
+    "JULIO CESAR SERNA GOMEZ": 2425,
+    "OMAR IGNACIO CASTAÑO GIRALDO": 107,
+    "VOTOS EN BLANCO": 98,
+    "VOTOS NO MARCADOS": 85,
+    "VOTOS NULOS": 85
+   }
+  },
+  {
+   "id": "MARINILLA|02|01",
+   "nombre": "Colegio Nacional San José",
+   "nombre_oficial": "COLEGIO NACIONAL SAN JOSE",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.172453866229641,
+   "lon": -75.3323751259978,
+   "votos_total": 5574,
+   "votos_validos": 5421,
+   "ganador": "JULIO CESAR SERNA GOMEZ",
+   "empate": [],
+   "margen_puntos": 16.82,
+   "votos": {
+    "CRISTIAN MAURICIO GOMEZ GOMEZ": 307,
+    "DARWIN AUGUSTO GOMEZ MOYA": 11,
+    "EDGAR AUGUSTO VILLEGAS RAMIREZ": 875,
+    "ELKYN DARIO HINCAPIE RAMIREZ": 53,
+    "GUILLERMO LEON CASTRILLON GOMEZ": 41,
+    "JOHN EDISSON RAMIREZ GIRALDO": 183,
+    "JOSE MANUEL GONZALEZ BOTERO": 1338,
+    "JUAN DE DIOS OROZCO GALLO": 109,
+    "JULIO CESAR SERNA GOMEZ": 2250,
+    "OMAR IGNACIO CASTAÑO GIRALDO": 124,
+    "VOTOS EN BLANCO": 130,
+    "VOTOS NO MARCADOS": 80,
+    "VOTOS NULOS": 73
+   }
+  },
+  {
+   "id": "MARINILLA|02|02",
+   "nombre": "IE Román Gómez Sd Primaria Escuela Roja",
+   "nombre_oficial": "IE ROMAN GOMEZ SD PRIMARIA ESCUELA ROJA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.170439786219406,
+   "lon": -75.3382066786288,
+   "votos_total": 4883,
+   "votos_validos": 4767,
+   "ganador": "JULIO CESAR SERNA GOMEZ",
+   "empate": [],
+   "margen_puntos": 18.27,
+   "votos": {
+    "CRISTIAN MAURICIO GOMEZ GOMEZ": 251,
+    "DARWIN AUGUSTO GOMEZ MOYA": 7,
+    "EDGAR AUGUSTO VILLEGAS RAMIREZ": 843,
+    "ELKYN DARIO HINCAPIE RAMIREZ": 56,
+    "GUILLERMO LEON CASTRILLON GOMEZ": 39,
+    "JOHN EDISSON RAMIREZ GIRALDO": 154,
+    "JOSE MANUEL GONZALEZ BOTERO": 1046,
+    "JUAN DE DIOS OROZCO GALLO": 179,
+    "JULIO CESAR SERNA GOMEZ": 1917,
+    "OMAR IGNACIO CASTAÑO GIRALDO": 117,
+    "VOTOS EN BLANCO": 158,
+    "VOTOS NO MARCADOS": 45,
+    "VOTOS NULOS": 71
+   }
+  },
+  {
+   "id": "MARINILLA|03|01",
+   "nombre": "IE Tec Industrial Primaria Escuela Azul",
+   "nombre_oficial": "IE TEC INDUSTRIAL PRIMARIA ESCUELA AZUL",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.173576999999999,
+   "lon": -75.3393995999999,
+   "votos_total": 3853,
+   "votos_validos": 3732,
+   "ganador": "JULIO CESAR SERNA GOMEZ",
+   "empate": [],
+   "margen_puntos": 17.31,
+   "votos": {
+    "CRISTIAN MAURICIO GOMEZ GOMEZ": 250,
+    "DARWIN AUGUSTO GOMEZ MOYA": 7,
+    "EDGAR AUGUSTO VILLEGAS RAMIREZ": 622,
+    "ELKYN DARIO HINCAPIE RAMIREZ": 71,
+    "GUILLERMO LEON CASTRILLON GOMEZ": 17,
+    "JOHN EDISSON RAMIREZ GIRALDO": 89,
+    "JOSE MANUEL GONZALEZ BOTERO": 879,
+    "JUAN DE DIOS OROZCO GALLO": 105,
+    "JULIO CESAR SERNA GOMEZ": 1525,
+    "OMAR IGNACIO CASTAÑO GIRALDO": 101,
+    "VOTOS EN BLANCO": 66,
+    "VOTOS NO MARCADOS": 67,
+    "VOTOS NULOS": 54
+   }
+  },
+  {
+   "id": "MARINILLA|03|02",
+   "nombre": "Coredi",
+   "nombre_oficial": "COREDI",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.175639,
+   "lon": -75.3412347,
+   "votos_total": 1709,
+   "votos_validos": 1672,
+   "ganador": "JULIO CESAR SERNA GOMEZ",
+   "empate": [],
+   "margen_puntos": 6.7,
+   "votos": {
+    "CRISTIAN MAURICIO GOMEZ GOMEZ": 91,
+    "DARWIN AUGUSTO GOMEZ MOYA": 4,
+    "EDGAR AUGUSTO VILLEGAS RAMIREZ": 281,
+    "ELKYN DARIO HINCAPIE RAMIREZ": 12,
+    "GUILLERMO LEON CASTRILLON GOMEZ": 11,
+    "JOHN EDISSON RAMIREZ GIRALDO": 73,
+    "JOSE MANUEL GONZALEZ BOTERO": 455,
+    "JUAN DE DIOS OROZCO GALLO": 59,
+    "JULIO CESAR SERNA GOMEZ": 567,
+    "OMAR IGNACIO CASTAÑO GIRALDO": 29,
+    "VOTOS EN BLANCO": 90,
+    "VOTOS NO MARCADOS": 15,
+    "VOTOS NULOS": 22
+   }
+  },
+  {
+   "id": "MARINILLA|99|58",
+   "nombre": "IE Rural Rosalia Hoyos",
+   "nombre_oficial": "IE RURAL ROSALIA HOYOS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.21488135348973,
+   "lon": -75.3252644296001,
+   "votos_total": 223,
+   "votos_validos": 221,
+   "ganador": "JULIO CESAR SERNA GOMEZ",
+   "empate": [],
+   "margen_puntos": 23.08,
+   "votos": {
+    "CRISTIAN MAURICIO GOMEZ GOMEZ": 5,
+    "EDGAR AUGUSTO VILLEGAS RAMIREZ": 26,
+    "ELKYN DARIO HINCAPIE RAMIREZ": 2,
+    "JOHN EDISSON RAMIREZ GIRALDO": 9,
+    "JOSE MANUEL GONZALEZ BOTERO": 55,
+    "JUAN DE DIOS OROZCO GALLO": 5,
+    "JULIO CESAR SERNA GOMEZ": 106,
+    "OMAR IGNACIO CASTAÑO GIRALDO": 1,
+    "VOTOS EN BLANCO": 12,
+    "VOTOS NULOS": 2
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

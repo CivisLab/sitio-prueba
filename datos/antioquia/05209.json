@@ -1,0 +1,317 @@
+{
+ "municipio": {
+  "cod_dane": "05209",
+  "cod_registraduria": "100",
+  "nombre": "Concordia",
+  "subregion": "Suroeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 7270,
+   "votos_validos": 6835,
+   "margen_puntos": 19.99,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Carlos Gustavo Quijano Restrepo",
+     "nombre_oficial": "CARLOS GUSTAVO QUIJANO RESTREPO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 3474,
+     "porcentaje": 50.83,
+     "posicion": 1
+    },
+    {
+     "nombre": "Sergio de Jesús Restrepo Betancur",
+     "nombre_oficial": "SERGIO DE JESUS RESTREPO BETANCUR",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 2108,
+     "porcentaje": 30.84,
+     "posicion": 2
+    },
+    {
+     "nombre": "Augusto de Jesús Villegas Franco",
+     "nombre_oficial": "AUGUSTO DE JESUS VILLEGAS FRANCO",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 697,
+     "porcentaje": 10.2,
+     "posicion": 3
+    },
+    {
+     "nombre": "Fernando de Jesús Ardila Vargas",
+     "nombre_oficial": "FERNANDO DE JESUS ARDILA VARGAS",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDIGENAS DE COLOMBIA AICO",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 383,
+     "porcentaje": 5.6,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 277,
+    "VOTOS EN BLANCO": 173,
+    "VOTOS NULOS": 158
+   }
+  },
+  "2023": {
+   "votos_depositados": 7763,
+   "votos_validos": 7419,
+   "margen_puntos": 11.5,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Alexandra María Herrera Quijano",
+     "nombre_oficial": "ALEXANDRA MARIA HERRERA QUIJANO",
+     "partido": "Coalición Podemos Hacerlo",
+     "partido_oficial": "COALICION PODEMOS HACERLO",
+     "familias": [],
+     "votos": 2858,
+     "porcentaje": 38.52,
+     "posicion": 1
+    },
+    {
+     "nombre": "Cristian David Restrepo Galeano",
+     "nombre_oficial": "CRISTIAN DAVID RESTREPO GALEANO",
+     "partido": "Equipo por Concordia",
+     "partido_oficial": "EQUIPO POR CONCORDIA",
+     "familias": [],
+     "votos": 2005,
+     "porcentaje": 27.03,
+     "posicion": 2
+    },
+    {
+     "nombre": "León Darío Ardila Úsuga",
+     "nombre_oficial": "LEON DARIO ARDILA USUGA",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 1831,
+     "porcentaje": 24.68,
+     "posicion": 3
+    },
+    {
+     "nombre": "Jobany de Jesús Palacio Rico",
+     "nombre_oficial": "JOBANY DE JESUS PALACIO RICO",
+     "partido": "Agrupación Política en Marcha",
+     "partido_oficial": "AGRUPACIÓN POLÍTICA EN MARCHA",
+     "familias": [],
+     "votos": 278,
+     "porcentaje": 3.75,
+     "posicion": 4
+    },
+    {
+     "nombre": "Fernando de Jesús Ardila Vargas",
+     "nombre_oficial": "FERNANDO DE JESUS ARDILA VARGAS",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDÍGENAS DE COLOMBIA \"AICO\"",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 206,
+     "porcentaje": 2.78,
+     "posicion": 5
+    },
+    {
+     "nombre": "Luis Javier Rojas Vergara",
+     "nombre_oficial": "LUIS JAVIER ROJAS VERGARA",
+     "partido": "Trabajemos Juntos por Concordia",
+     "partido_oficial": "TRABAJEMOS JUNTOS POR CONCORDIA",
+     "familias": [],
+     "votos": 147,
+     "porcentaje": 1.98,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 214,
+    "VOTOS NULOS": 130,
+    "VOTOS EN BLANCO": 94
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CD"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "CONCORDIA|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.04469,
+   "lon": -75.90828,
+   "votos_total": 7139,
+   "votos_validos": 6839,
+   "ganador": "ALEXANDRA MARIA HERRERA QUIJANO",
+   "empate": [],
+   "margen_puntos": 12.43,
+   "votos": {
+    "ALEXANDRA MARIA HERRERA QUIJANO": 2674,
+    "CRISTIAN DAVID RESTREPO GALEANO": 1824,
+    "FERNANDO DE JESUS ARDILA VARGAS": 162,
+    "JOBANY DE JESUS PALACIO RICO": 267,
+    "LEON DARIO ARDILA USUGA": 1700,
+    "LUIS JAVIER ROJAS VERGARA": 131,
+    "VOTOS EN BLANCO": 81,
+    "VOTOS NO MARCADOS": 182,
+    "VOTOS NULOS": 118
+   }
+  },
+  {
+   "id": "CONCORDIA|99|01",
+   "nombre": "El Socorro",
+   "nombre_oficial": "EL SOCORRO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.121029023,
+   "lon": -75.901236429,
+   "votos_total": 253,
+   "votos_validos": 235,
+   "ganador": "CRISTIAN DAVID RESTREPO GALEANO",
+   "empate": [],
+   "margen_puntos": 10.21,
+   "votos": {
+    "ALEXANDRA MARIA HERRERA QUIJANO": 48,
+    "CRISTIAN DAVID RESTREPO GALEANO": 82,
+    "FERNANDO DE JESUS ARDILA VARGAS": 38,
+    "JOBANY DE JESUS PALACIO RICO": 7,
+    "LEON DARIO ARDILA USUGA": 58,
+    "LUIS JAVIER ROJAS VERGARA": 1,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 13,
+    "VOTOS NULOS": 5
+   }
+  },
+  {
+   "id": "CONCORDIA|99|05",
+   "nombre": "Morelia",
+   "nombre_oficial": "MORELIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.05338889,
+   "lon": -75.982797199,
+   "votos_total": 210,
+   "votos_validos": 197,
+   "ganador": "CRISTIAN DAVID RESTREPO GALEANO",
+   "empate": [],
+   "margen_puntos": 2.03,
+   "votos": {
+    "ALEXANDRA MARIA HERRERA QUIJANO": 74,
+    "CRISTIAN DAVID RESTREPO GALEANO": 78,
+    "FERNANDO DE JESUS ARDILA VARGAS": 4,
+    "JOBANY DE JESUS PALACIO RICO": 3,
+    "LEON DARIO ARDILA USUGA": 34,
+    "LUIS JAVIER ROJAS VERGARA": 2,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 9,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "CONCORDIA|99|07",
+   "nombre": "Moritos",
+   "nombre_oficial": "MORITOS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.005292,
+   "lon": -75.839551,
+   "votos_total": 161,
+   "votos_validos": 148,
+   "ganador": "ALEXANDRA MARIA HERRERA QUIJANO",
+   "empate": [],
+   "margen_puntos": 15.54,
+   "votos": {
+    "ALEXANDRA MARIA HERRERA QUIJANO": 62,
+    "CRISTIAN DAVID RESTREPO GALEANO": 21,
+    "FERNANDO DE JESUS ARDILA VARGAS": 2,
+    "JOBANY DE JESUS PALACIO RICO": 1,
+    "LEON DARIO ARDILA USUGA": 39,
+    "LUIS JAVIER ROJAS VERGARA": 13,
+    "VOTOS EN BLANCO": 10,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 3
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

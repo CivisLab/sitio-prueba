@@ -1,0 +1,233 @@
+{
+ "municipio": {
+  "cod_dane": "05306",
+  "cod_registraduria": "130",
+  "nombre": "Giraldo",
+  "subregion": "Occidente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 3458,
+   "votos_validos": 3409,
+   "margen_puntos": 10.06,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Jorge Alconides Úsuga Carmona",
+     "nombre_oficial": "JORGE ALCONIDES USUGA CARMONA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1827,
+     "porcentaje": 53.59,
+     "posicion": 1
+    },
+    {
+     "nombre": "Elkin Fabián Graciano Suárez",
+     "nombre_oficial": "ELKIN FABIAN GRACIANO SUAREZ",
+     "partido": "Nuestro Pueblo Nuestro Campo Mi Pasion",
+     "partido_oficial": "NUESTRO PUEBLO NUESTRO CAMPO MI PASION",
+     "familias": [],
+     "votos": 1484,
+     "porcentaje": 43.53,
+     "posicion": 2
+    },
+    {
+     "nombre": "José Joaquín Rueda Lora",
+     "nombre_oficial": "JOSE JOAQUIN RUEDA LORA",
+     "partido": "Todos por el Giraldo Que Soñamos",
+     "partido_oficial": "TODOS POR EL GIRALDO QUE SOÑAMOS",
+     "familias": [],
+     "votos": 78,
+     "porcentaje": 2.29,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 28,
+    "VOTOS NULOS": 21,
+    "VOTOS EN BLANCO": 20
+   }
+  },
+  "2023": {
+   "votos_depositados": 4043,
+   "votos_validos": 3980,
+   "margen_puntos": 9.75,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "María Camila Manco Suárez",
+     "nombre_oficial": "MARIA CAMILA MANCO SUAREZ",
+     "partido": "El Giraldo Que Queremos",
+     "partido_oficial": "EL GIRALDO QUE QUEREMOS",
+     "familias": [],
+     "votos": 1746,
+     "porcentaje": 43.87,
+     "posicion": 1
+    },
+    {
+     "nombre": "Diego Alexander Manco Higuita",
+     "nombre_oficial": "DIEGO ALEXANDER MANCO HIGUITA",
+     "partido": "Para Volver a Creer",
+     "partido_oficial": "PARA VOLVER A CREER",
+     "familias": [],
+     "votos": 1358,
+     "porcentaje": 34.12,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jaime León Pérez Guerra",
+     "nombre_oficial": "JAIME LEON PEREZ GUERRA",
+     "partido": "Giraldo en Buenas Manos",
+     "partido_oficial": "GIRALDO EN BUENAS MANOS",
+     "familias": [],
+     "votos": 849,
+     "porcentaje": 21.33,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 45,
+    "VOTOS EN BLANCO": 27,
+    "VOTOS NULOS": 18
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CONS"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "GIRALDO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.681231164721802,
+   "lon": -75.9521770477294,
+   "votos_total": 3155,
+   "votos_validos": 3115,
+   "ganador": "MARIA CAMILA MANCO SUAREZ",
+   "empate": [],
+   "margen_puntos": 15.57,
+   "votos": {
+    "DIEGO ALEXANDER MANCO HIGUITA": 1003,
+    "JAIME LEON PEREZ GUERRA": 608,
+    "MARIA CAMILA MANCO SUAREZ": 1488,
+    "VOTOS EN BLANCO": 16,
+    "VOTOS NO MARCADOS": 28,
+    "VOTOS NULOS": 12
+   }
+  },
+  {
+   "id": "GIRALDO|99|07",
+   "nombre": "I.E.R Santa Rosa de Lima",
+   "nombre_oficial": "I.E.R SANTA ROSA DE LIMA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.69421949133129,
+   "lon": -75.9480692127111,
+   "votos_total": 588,
+   "votos_validos": 572,
+   "ganador": "MARIA CAMILA MANCO SUAREZ",
+   "empate": [],
+   "margen_puntos": 2.45,
+   "votos": {
+    "DIEGO ALEXANDER MANCO HIGUITA": 205,
+    "JAIME LEON PEREZ GUERRA": 141,
+    "MARIA CAMILA MANCO SUAREZ": 219,
+    "VOTOS EN BLANCO": 7,
+    "VOTOS NO MARCADOS": 13,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "GIRALDO|99|30",
+   "nombre": "IE Santa Rosa de Lima Sd F. Hincapie",
+   "nombre_oficial": "IE SANTA ROSA DE LIMA SD F. HINCAPIE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.67451189232808,
+   "lon": -75.9014899709585,
+   "votos_total": 300,
+   "votos_validos": 293,
+   "ganador": "DIEGO ALEXANDER MANCO HIGUITA",
+   "empate": [],
+   "margen_puntos": 17.06,
+   "votos": {
+    "DIEGO ALEXANDER MANCO HIGUITA": 150,
+    "JAIME LEON PEREZ GUERRA": 100,
+    "MARIA CAMILA MANCO SUAREZ": 39,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 3
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

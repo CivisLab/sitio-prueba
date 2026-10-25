@@ -1,0 +1,672 @@
+{
+ "municipio": {
+  "cod_dane": "05147",
+  "cod_registraduria": "080",
+  "nombre": "Carepa",
+  "subregion": "Urabá",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 24704,
+   "votos_validos": 23819,
+   "margen_puntos": 9.24,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Jonnan Alexis Cerquera",
+     "nombre_oficial": "JONNAN ALEXIS CERQUERA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 7231,
+     "porcentaje": 30.36,
+     "posicion": 1
+    },
+    {
+     "nombre": "Agapito Murillo Palacios",
+     "nombre_oficial": "AGAPITO MURILLO PALACIOS",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 5030,
+     "porcentaje": 21.12,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jaime Andrés Herrera Molina",
+     "nombre_oficial": "JAIME ANDRES HERRERA MOLINA",
+     "partido": "Coalición Alcaldia de Carepa Antioquia",
+     "partido_oficial": "COALICION ALCALDIA DE CAREPA ANTIOQUIA",
+     "familias": [],
+     "votos": 4861,
+     "porcentaje": 20.41,
+     "posicion": 3
+    },
+    {
+     "nombre": "Yised Liliana Bedoya Úsuga",
+     "nombre_oficial": "YISED LILIANA BEDOYA USUGA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 2723,
+     "porcentaje": 11.43,
+     "posicion": 4
+    },
+    {
+     "nombre": "Aida Luz Jiménez Romero",
+     "nombre_oficial": "AIDA LUZ JIMENEZ ROMERO",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 2084,
+     "porcentaje": 8.75,
+     "posicion": 5
+    },
+    {
+     "nombre": "William Ortiz Palacio",
+     "nombre_oficial": "WILLIAM ORTIZ PALACIO",
+     "partido": "Colombia Humana - Unión Patriotica",
+     "partido_oficial": "COLOMBIA HUMANA - UNION PATRIOTICA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 373,
+     "porcentaje": 1.57,
+     "posicion": 6
+    },
+    {
+     "nombre": "Marelvis Velásquez Mena",
+     "nombre_oficial": "MARELVIS VELASQUEZ MENA",
+     "partido": "Partido Colombia Justa Libres",
+     "partido_oficial": "PARTIDO COLOMBIA JUSTA LIBRES",
+     "familias": [
+      "COL_JUSTA"
+     ],
+     "votos": 299,
+     "porcentaje": 1.26,
+     "posicion": 7
+    },
+    {
+     "nombre": "Antonio Moreno Palacios",
+     "nombre_oficial": "ANTONIO MORENO PALACIOS",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRATICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 291,
+     "porcentaje": 1.22,
+     "posicion": 8
+    },
+    {
+     "nombre": "Gregorio Chávez López",
+     "nombre_oficial": "GREGORIO CHAVEZ LOPEZ",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 209,
+     "porcentaje": 0.88,
+     "posicion": 9
+    },
+    {
+     "nombre": "Sergio de Jesús Higuita Vargas",
+     "nombre_oficial": "SERGIO DE JESUS HIGUITA VARGAS",
+     "partido": "Partido ADA",
+     "partido_oficial": "PARTIDO ADA",
+     "familias": [
+      "ADA"
+     ],
+     "votos": 86,
+     "porcentaje": 0.36,
+     "posicion": 10
+    },
+    {
+     "nombre": "Iván Alexander Fajardo Puerta",
+     "nombre_oficial": "IVAN ALEXANDER FAJARDO PUERTA",
+     "partido": "Partido de Reivindicacion Etnica Pre",
+     "partido_oficial": "PARTIDO DE REIVINDICACION ETNICA \"PRE\"",
+     "familias": [],
+     "votos": 37,
+     "porcentaje": 0.16,
+     "posicion": 11
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 595,
+    "VOTOS NO MARCADOS": 444,
+    "VOTOS NULOS": 441
+   }
+  },
+  "2023": {
+   "votos_depositados": 25397,
+   "votos_validos": 24669,
+   "margen_puntos": 0.32,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Agapito Murillo Palacios",
+     "nombre_oficial": "AGAPITO MURILLO PALACIOS",
+     "partido": "Independientes",
+     "partido_oficial": "INDEPENDIENTES",
+     "familias": [],
+     "votos": 6607,
+     "porcentaje": 26.78,
+     "posicion": 1
+    },
+    {
+     "nombre": "Guadalupe Herrera Olaya",
+     "nombre_oficial": "GUADALUPE HERRERA OLAYA",
+     "partido": "Partido Demócrata Colombiano",
+     "partido_oficial": "PARTIDO DEMÓCRATA COLOMBIANO",
+     "familias": [],
+     "votos": 6529,
+     "porcentaje": 26.47,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jaime Andrés Herrera Molina",
+     "nombre_oficial": "JAIME ANDRES HERRERA MOLINA",
+     "partido": "Carepa Somos Todos",
+     "partido_oficial": "CAREPA SOMOS TODOS",
+     "familias": [],
+     "votos": 4220,
+     "porcentaje": 17.11,
+     "posicion": 3
+    },
+    {
+     "nombre": "Yised Liliana Bedoya Úsuga",
+     "nombre_oficial": "YISED LILIANA BEDOYA USUGA",
+     "partido": "Alianza por Carepa",
+     "partido_oficial": "ALIANZA POR CAREPA",
+     "familias": [],
+     "votos": 3952,
+     "porcentaje": 16.02,
+     "posicion": 4
+    },
+    {
+     "nombre": "Aida Luz Jiménez Romero",
+     "nombre_oficial": "AIDA LUZ JIMENEZ ROMERO",
+     "partido": "Pacto Histórico",
+     "partido_oficial": "PACTO HISTÓRICO",
+     "familias": [
+      "PACTO"
+     ],
+     "votos": 1446,
+     "porcentaje": 5.86,
+     "posicion": 5
+    },
+    {
+     "nombre": "Domingo Alberto Guzmán González",
+     "nombre_oficial": "DOMINGO ALBERTO GUZMAN GONZALEZ",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 767,
+     "porcentaje": 3.11,
+     "posicion": 6
+    },
+    {
+     "nombre": "Nigela Rodríguez Bermúdez",
+     "nombre_oficial": "NIGELA RODRIGUEZ BERMUDEZ",
+     "partido": "Partido de la Unión por la Gente - Partido de la U",
+     "partido_oficial": "PARTIDO DE LA UNIÓN POR LA GENTE - PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 594,
+     "porcentaje": 2.41,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 554,
+    "VOTOS NO MARCADOS": 378,
+    "VOTOS NULOS": 350
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "LIB"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "CAREPA|01|01",
+   "nombre": "INST. EDUC. José María Muñoz",
+   "nombre_oficial": "INST. EDUC. JOSE MARIA MUÑOZ",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.75677643664716,
+   "lon": -76.6555099189281,
+   "votos_total": 3688,
+   "votos_validos": 3553,
+   "ganador": "GUADALUPE HERRERA OLAYA",
+   "empate": [],
+   "margen_puntos": 3.6,
+   "votos": {
+    "AGAPITO MURILLO PALACIOS": 872,
+    "AIDA LUZ JIMENEZ ROMERO": 223,
+    "DOMINGO ALBERTO GUZMAN GONZALEZ": 122,
+    "GUADALUPE HERRERA OLAYA": 1000,
+    "JAIME ANDRES HERRERA MOLINA": 594,
+    "NIGELA RODRIGUEZ BERMUDEZ": 93,
+    "VOTOS EN BLANCO": 53,
+    "VOTOS NO MARCADOS": 71,
+    "VOTOS NULOS": 64,
+    "YISED LILIANA BEDOYA USUGA": 596
+   }
+  },
+  {
+   "id": "CAREPA|01|02",
+   "nombre": "INST. Educativa Colombia",
+   "nombre_oficial": "INST. EDUCATIVA COLOMBIA",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.759182946909827,
+   "lon": -76.6523972153663,
+   "votos_total": 2720,
+   "votos_validos": 2632,
+   "ganador": "GUADALUPE HERRERA OLAYA",
+   "empate": [],
+   "margen_puntos": 3.04,
+   "votos": {
+    "AGAPITO MURILLO PALACIOS": 608,
+    "AIDA LUZ JIMENEZ ROMERO": 138,
+    "DOMINGO ALBERTO GUZMAN GONZALEZ": 85,
+    "GUADALUPE HERRERA OLAYA": 688,
+    "JAIME ANDRES HERRERA MOLINA": 528,
+    "NIGELA RODRIGUEZ BERMUDEZ": 101,
+    "VOTOS EN BLANCO": 59,
+    "VOTOS NO MARCADOS": 43,
+    "VOTOS NULOS": 45,
+    "YISED LILIANA BEDOYA USUGA": 425
+   }
+  },
+  {
+   "id": "CAREPA|01|03",
+   "nombre": "Crem Centro de Recursos Educativos",
+   "nombre_oficial": "CREM CENTRO DE RECURSOS EDUCATIVOS",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.758765695427164,
+   "lon": -76.660076379776,
+   "votos_total": 1029,
+   "votos_validos": 1014,
+   "ganador": "GUADALUPE HERRERA OLAYA",
+   "empate": [],
+   "margen_puntos": 6.61,
+   "votos": {
+    "AGAPITO MURILLO PALACIOS": 221,
+    "AIDA LUZ JIMENEZ ROMERO": 54,
+    "DOMINGO ALBERTO GUZMAN GONZALEZ": 31,
+    "GUADALUPE HERRERA OLAYA": 288,
+    "JAIME ANDRES HERRERA MOLINA": 173,
+    "NIGELA RODRIGUEZ BERMUDEZ": 17,
+    "VOTOS EN BLANCO": 38,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 10,
+    "YISED LILIANA BEDOYA USUGA": 192
+   }
+  },
+  {
+   "id": "CAREPA|01|04",
+   "nombre": "IE la Cadena",
+   "nombre_oficial": "IE LA CADENA",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.757205649591466,
+   "lon": -76.6419607400894,
+   "votos_total": 698,
+   "votos_validos": 673,
+   "ganador": "GUADALUPE HERRERA OLAYA",
+   "empate": [],
+   "margen_puntos": 2.08,
+   "votos": {
+    "AGAPITO MURILLO PALACIOS": 159,
+    "AIDA LUZ JIMENEZ ROMERO": 31,
+    "DOMINGO ALBERTO GUZMAN GONZALEZ": 31,
+    "GUADALUPE HERRERA OLAYA": 173,
+    "JAIME ANDRES HERRERA MOLINA": 91,
+    "NIGELA RODRIGUEZ BERMUDEZ": 32,
+    "VOTOS EN BLANCO": 24,
+    "VOTOS NO MARCADOS": 19,
+    "VOTOS NULOS": 6,
+    "YISED LILIANA BEDOYA USUGA": 132
+   }
+  },
+  {
+   "id": "CAREPA|02|01",
+   "nombre": "I.E. Liceo Luis Carlos Galan S",
+   "nombre_oficial": "I.E. LICEO LUIS CARLOS GALAN S",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.756776436647169,
+   "lon": -76.6555099189281,
+   "votos_total": 3628,
+   "votos_validos": 3538,
+   "ganador": "AGAPITO MURILLO PALACIOS",
+   "empate": [],
+   "margen_puntos": 0.93,
+   "votos": {
+    "AGAPITO MURILLO PALACIOS": 933,
+    "AIDA LUZ JIMENEZ ROMERO": 233,
+    "DOMINGO ALBERTO GUZMAN GONZALEZ": 129,
+    "GUADALUPE HERRERA OLAYA": 900,
+    "JAIME ANDRES HERRERA MOLINA": 645,
+    "NIGELA RODRIGUEZ BERMUDEZ": 94,
+    "VOTOS EN BLANCO": 61,
+    "VOTOS NO MARCADOS": 48,
+    "VOTOS NULOS": 42,
+    "YISED LILIANA BEDOYA USUGA": 543
+   }
+  },
+  {
+   "id": "CAREPA|02|02",
+   "nombre": "I.E. Acaidana",
+   "nombre_oficial": "I.E. ACAIDANA",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.749725587960018,
+   "lon": -76.6503272205591,
+   "votos_total": 2253,
+   "votos_validos": 2205,
+   "ganador": "AGAPITO MURILLO PALACIOS",
+   "empate": [],
+   "margen_puntos": 6.62,
+   "votos": {
+    "AGAPITO MURILLO PALACIOS": 663,
+    "AIDA LUZ JIMENEZ ROMERO": 148,
+    "DOMINGO ALBERTO GUZMAN GONZALEZ": 73,
+    "GUADALUPE HERRERA OLAYA": 517,
+    "JAIME ANDRES HERRERA MOLINA": 406,
+    "NIGELA RODRIGUEZ BERMUDEZ": 52,
+    "VOTOS EN BLANCO": 51,
+    "VOTOS NO MARCADOS": 25,
+    "VOTOS NULOS": 23,
+    "YISED LILIANA BEDOYA USUGA": 295
+   }
+  },
+  {
+   "id": "CAREPA|02|03",
+   "nombre": "I.E. J.M.M Sede San Marino",
+   "nombre_oficial": "I.E. J.M.M SEDE SAN MARINO",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.753880898872473,
+   "lon": -76.6506913304328,
+   "votos_total": 2173,
+   "votos_validos": 2132,
+   "ganador": "GUADALUPE HERRERA OLAYA",
+   "empate": [],
+   "margen_puntos": 1.59,
+   "votos": {
+    "AGAPITO MURILLO PALACIOS": 535,
+    "AIDA LUZ JIMENEZ ROMERO": 96,
+    "DOMINGO ALBERTO GUZMAN GONZALEZ": 69,
+    "GUADALUPE HERRERA OLAYA": 569,
+    "JAIME ANDRES HERRERA MOLINA": 413,
+    "NIGELA RODRIGUEZ BERMUDEZ": 58,
+    "VOTOS EN BLANCO": 64,
+    "VOTOS NO MARCADOS": 16,
+    "VOTOS NULOS": 25,
+    "YISED LILIANA BEDOYA USUGA": 328
+   }
+  },
+  {
+   "id": "CAREPA|02|04",
+   "nombre": "Coliseo Cubierto",
+   "nombre_oficial": "COLISEO CUBIERTO",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.753352019237327,
+   "lon": -76.6555595397948,
+   "votos_total": 2271,
+   "votos_validos": 2242,
+   "ganador": "AGAPITO MURILLO PALACIOS",
+   "empate": [],
+   "margen_puntos": 2.9,
+   "votos": {
+    "AGAPITO MURILLO PALACIOS": 636,
+    "AIDA LUZ JIMENEZ ROMERO": 107,
+    "DOMINGO ALBERTO GUZMAN GONZALEZ": 59,
+    "GUADALUPE HERRERA OLAYA": 571,
+    "JAIME ANDRES HERRERA MOLINA": 384,
+    "NIGELA RODRIGUEZ BERMUDEZ": 58,
+    "VOTOS EN BLANCO": 72,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 17,
+    "YISED LILIANA BEDOYA USUGA": 355
+   }
+  },
+  {
+   "id": "CAREPA|02|05",
+   "nombre": "Placa Polideportiva el Oasis",
+   "nombre_oficial": "PLACA POLIDEPORTIVA EL OASIS",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.753240396314747,
+   "lon": -76.6591429710388,
+   "votos_total": 1417,
+   "votos_validos": 1391,
+   "ganador": "AGAPITO MURILLO PALACIOS",
+   "empate": [],
+   "margen_puntos": 5.97,
+   "votos": {
+    "AGAPITO MURILLO PALACIOS": 408,
+    "AIDA LUZ JIMENEZ ROMERO": 84,
+    "DOMINGO ALBERTO GUZMAN GONZALEZ": 49,
+    "GUADALUPE HERRERA OLAYA": 325,
+    "JAIME ANDRES HERRERA MOLINA": 244,
+    "NIGELA RODRIGUEZ BERMUDEZ": 33,
+    "VOTOS EN BLANCO": 48,
+    "VOTOS NO MARCADOS": 13,
+    "VOTOS NULOS": 13,
+    "YISED LILIANA BEDOYA USUGA": 200
+   }
+  },
+  {
+   "id": "CAREPA|02|06",
+   "nombre": "Placa Polideportiva San Marino",
+   "nombre_oficial": "PLACA POLIDEPORTIVA SAN MARINO",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.7546724,
+   "lon": -76.6499905,
+   "votos_total": 529,
+   "votos_validos": 510,
+   "ganador": "GUADALUPE HERRERA OLAYA",
+   "empate": [],
+   "margen_puntos": 2.94,
+   "votos": {
+    "AGAPITO MURILLO PALACIOS": 124,
+    "AIDA LUZ JIMENEZ ROMERO": 20,
+    "DOMINGO ALBERTO GUZMAN GONZALEZ": 27,
+    "GUADALUPE HERRERA OLAYA": 139,
+    "JAIME ANDRES HERRERA MOLINA": 96,
+    "NIGELA RODRIGUEZ BERMUDEZ": 12,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 11,
+    "YISED LILIANA BEDOYA USUGA": 87
+   }
+  },
+  {
+   "id": "CAREPA|99|10",
+   "nombre": "Casa Verde",
+   "nombre_oficial": "CASA VERDE",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.788933,
+   "lon": -76.6609001,
+   "votos_total": 120,
+   "votos_validos": 114,
+   "ganador": "AGAPITO MURILLO PALACIOS",
+   "empate": [],
+   "margen_puntos": 21.93,
+   "votos": {
+    "AGAPITO MURILLO PALACIOS": 51,
+    "AIDA LUZ JIMENEZ ROMERO": 2,
+    "DOMINGO ALBERTO GUZMAN GONZALEZ": 1,
+    "GUADALUPE HERRERA OLAYA": 26,
+    "JAIME ANDRES HERRERA MOLINA": 20,
+    "NIGELA RODRIGUEZ BERMUDEZ": 2,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 2,
+    "YISED LILIANA BEDOYA USUGA": 12
+   }
+  },
+  {
+   "id": "CAREPA|99|20",
+   "nombre": "El Silencio",
+   "nombre_oficial": "EL SILENCIO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.74915368327228,
+   "lon": -76.7323677091341,
+   "votos_total": 1497,
+   "votos_validos": 1443,
+   "ganador": "AGAPITO MURILLO PALACIOS",
+   "empate": [],
+   "margen_puntos": 17.74,
+   "votos": {
+    "AGAPITO MURILLO PALACIOS": 598,
+    "AIDA LUZ JIMENEZ ROMERO": 101,
+    "DOMINGO ALBERTO GUZMAN GONZALEZ": 18,
+    "GUADALUPE HERRERA OLAYA": 342,
+    "JAIME ANDRES HERRERA MOLINA": 110,
+    "NIGELA RODRIGUEZ BERMUDEZ": 18,
+    "VOTOS EN BLANCO": 29,
+    "VOTOS NO MARCADOS": 28,
+    "VOTOS NULOS": 26,
+    "YISED LILIANA BEDOYA USUGA": 227
+   }
+  },
+  {
+   "id": "CAREPA|99|30",
+   "nombre": "Piedras Blancas",
+   "nombre_oficial": "PIEDRAS BLANCAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.74581122605189,
+   "lon": -76.5562028317933,
+   "votos_total": 1383,
+   "votos_validos": 1316,
+   "ganador": "GUADALUPE HERRERA OLAYA",
+   "empate": [],
+   "margen_puntos": 17.25,
+   "votos": {
+    "AGAPITO MURILLO PALACIOS": 106,
+    "AIDA LUZ JIMENEZ ROMERO": 89,
+    "DOMINGO ALBERTO GUZMAN GONZALEZ": 9,
+    "GUADALUPE HERRERA OLAYA": 532,
+    "JAIME ANDRES HERRERA MOLINA": 260,
+    "NIGELA RODRIGUEZ BERMUDEZ": 9,
+    "VOTOS EN BLANCO": 6,
+    "VOTOS NO MARCADOS": 34,
+    "VOTOS NULOS": 33,
+    "YISED LILIANA BEDOYA USUGA": 305
+   }
+  },
+  {
+   "id": "CAREPA|99|70",
+   "nombre": "Zungo Embarcadero",
+   "nombre_oficial": "ZUNGO EMBARCADERO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.8480515309542,
+   "lon": -76.7398564367037,
+   "votos_total": 1991,
+   "votos_validos": 1906,
+   "ganador": "AGAPITO MURILLO PALACIOS",
+   "empate": [],
+   "margen_puntos": 12.28,
+   "votos": {
+    "AGAPITO MURILLO PALACIOS": 693,
+    "AIDA LUZ JIMENEZ ROMERO": 120,
+    "DOMINGO ALBERTO GUZMAN GONZALEZ": 64,
+    "GUADALUPE HERRERA OLAYA": 459,
+    "JAIME ANDRES HERRERA MOLINA": 256,
+    "NIGELA RODRIGUEZ BERMUDEZ": 15,
+    "VOTOS EN BLANCO": 44,
+    "VOTOS NO MARCADOS": 52,
+    "VOTOS NULOS": 33,
+    "YISED LILIANA BEDOYA USUGA": 255
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

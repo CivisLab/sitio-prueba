@@ -1,0 +1,630 @@
+{
+ "municipio": {
+  "cod_dane": "05361",
+  "cod_registraduria": "154",
+  "nombre": "Ituango",
+  "subregion": "Norte",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 7603,
+   "votos_validos": 7080,
+   "margen_puntos": 0.27,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Edwin Mauricio MIRA Sepúlveda",
+     "nombre_oficial": "EDWIN MAURICIO MIRA SEPULVEDA",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 1648,
+     "porcentaje": 23.28,
+     "posicion": 1
+    },
+    {
+     "nombre": "Ana Catalina Sucerquia Areiza",
+     "nombre_oficial": "ANA CATALINA SUCERQUIA AREIZA",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 1629,
+     "porcentaje": 23.01,
+     "posicion": 2
+    },
+    {
+     "nombre": "Adan Esneider Guzmán Upegui",
+     "nombre_oficial": "ADAN ESNEIDER GUZMAN UPEGUI",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 1193,
+     "porcentaje": 16.85,
+     "posicion": 3
+    },
+    {
+     "nombre": "Javier de Jesús Parias Posso",
+     "nombre_oficial": "JAVIER DE JESUS PARIAS POSSO",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1075,
+     "porcentaje": 15.18,
+     "posicion": 4
+    },
+    {
+     "nombre": "Jesús Iván Graciano George",
+     "nombre_oficial": "JESUS IVAN GRACIANO GEORGE",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 609,
+     "porcentaje": 8.6,
+     "posicion": 5
+    },
+    {
+     "nombre": "Luis Octavio Gutiérrez Montes",
+     "nombre_oficial": "LUIS OCTAVIO GUTIERREZ MONTES",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 403,
+     "porcentaje": 5.69,
+     "posicion": 6
+    },
+    {
+     "nombre": "Factor Emilio Rojas Durango",
+     "nombre_oficial": "FACTOR EMILIO ROJAS DURANGO",
+     "partido": "Movimiento Alternativo Indigena y Social MAIS",
+     "partido_oficial": "MOVIMIENTO ALTERNATIVO INDIGENA Y SOCIAL MAIS",
+     "familias": [
+      "MAIS"
+     ],
+     "votos": 190,
+     "porcentaje": 2.68,
+     "posicion": 7
+    },
+    {
+     "nombre": "Esteban Úsuga Montoya",
+     "nombre_oficial": "ESTEBAN USUGA MONTOYA",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 154,
+     "porcentaje": 2.18,
+     "posicion": 8
+    },
+    {
+     "nombre": "Nubia Ciro Zuleta",
+     "nombre_oficial": "NUBIA CIRO ZULETA",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRATICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 83,
+     "porcentaje": 1.17,
+     "posicion": 9
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 304,
+    "VOTOS NULOS": 219,
+    "VOTOS EN BLANCO": 96
+   }
+  },
+  "2023": {
+   "votos_depositados": 7638,
+   "votos_validos": 7242,
+   "margen_puntos": 25.7,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Javier de Jesús Parias Posso",
+     "nombre_oficial": "JAVIER DE JESUS PARIAS POSSO",
+     "partido": "Ituango Nos Une",
+     "partido_oficial": "ITUANGO NOS UNE",
+     "familias": [],
+     "votos": 3510,
+     "porcentaje": 48.47,
+     "posicion": 1
+    },
+    {
+     "nombre": "Luz Stella Muñoz Nohava",
+     "nombre_oficial": "LUZ STELLA MUÑOZ NOHAVA",
+     "partido": "Yo Soy Ituango",
+     "partido_oficial": "YO SOY ITUANGO",
+     "familias": [],
+     "votos": 1649,
+     "porcentaje": 22.77,
+     "posicion": 2
+    },
+    {
+     "nombre": "Juan Diego López Zapata",
+     "nombre_oficial": "JUAN DIEGO LOPEZ ZAPATA",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 1590,
+     "porcentaje": 21.96,
+     "posicion": 3
+    },
+    {
+     "nombre": "Hernán Darío Álvarez Uribe",
+     "nombre_oficial": "HERNAN DARIO ALVAREZ URIBE",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 261,
+     "porcentaje": 3.6,
+     "posicion": 4
+    },
+    {
+     "nombre": "Óscar Alonso Palacio Lopera",
+     "nombre_oficial": "OSCAR ALONSO PALACIO LOPERA",
+     "partido": "Pacto Histórico Colombia Puede",
+     "partido_oficial": "PACTO HISTORICO COLOMBIA PUEDE",
+     "familias": [
+      "PACTO"
+     ],
+     "votos": 87,
+     "porcentaje": 1.2,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 266,
+    "VOTOS EN BLANCO": 145,
+    "VOTOS NULOS": 130
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "U"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "ITUANGO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 7.173068,
+   "lon": -75.76163,
+   "votos_total": 5156,
+   "votos_validos": 4924,
+   "ganador": "JAVIER DE JESUS PARIAS POSSO",
+   "empate": [],
+   "margen_puntos": 23.62,
+   "votos": {
+    "HERNAN DARIO ALVAREZ URIBE": 167,
+    "JAVIER DE JESUS PARIAS POSSO": 2463,
+    "JUAN DIEGO LOPEZ ZAPATA": 813,
+    "LUZ STELLA MUÑOZ NOHAVA": 1300,
+    "OSCAR ALONSO PALACIO LOPERA": 71,
+    "VOTOS EN BLANCO": 110,
+    "VOTOS NO MARCADOS": 151,
+    "VOTOS NULOS": 81
+   }
+  },
+  {
+   "id": "ITUANGO|99|05",
+   "nombre": "Badillo",
+   "nombre_oficial": "BADILLO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.35099864685017,
+   "lon": -75.9652884499954,
+   "votos_total": 37,
+   "votos_validos": 37,
+   "ganador": "JAVIER DE JESUS PARIAS POSSO",
+   "empate": [],
+   "margen_puntos": 83.78,
+   "votos": {
+    "JAVIER DE JESUS PARIAS POSSO": 33,
+    "JUAN DIEGO LOPEZ ZAPATA": 1,
+    "LUZ STELLA MUÑOZ NOHAVA": 2,
+    "VOTOS EN BLANCO": 1
+   }
+  },
+  {
+   "id": "ITUANGO|99|09",
+   "nombre": "El Aro",
+   "nombre_oficial": "EL ARO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.249739,
+   "lon": -75.518672,
+   "votos_total": 165,
+   "votos_validos": 150,
+   "ganador": "JUAN DIEGO LOPEZ ZAPATA",
+   "empate": [],
+   "margen_puntos": 6.0,
+   "votos": {
+    "HERNAN DARIO ALVAREZ URIBE": 46,
+    "JAVIER DE JESUS PARIAS POSSO": 29,
+    "JUAN DIEGO LOPEZ ZAPATA": 55,
+    "LUZ STELLA MUÑOZ NOHAVA": 15,
+    "OSCAR ALONSO PALACIO LOPERA": 2,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 5
+   }
+  },
+  {
+   "id": "ITUANGO|99|10",
+   "nombre": "Finlandia",
+   "nombre_oficial": "FINLANDIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.238705,
+   "lon": -75.617459,
+   "votos_total": 20,
+   "votos_validos": 20,
+   "ganador": "JAVIER DE JESUS PARIAS POSSO",
+   "empate": [],
+   "margen_puntos": 50.0,
+   "votos": {
+    "JAVIER DE JESUS PARIAS POSSO": 14,
+    "JUAN DIEGO LOPEZ ZAPATA": 2,
+    "LUZ STELLA MUÑOZ NOHAVA": 4
+   }
+  },
+  {
+   "id": "ITUANGO|99|11",
+   "nombre": "El Cedral",
+   "nombre_oficial": "EL CEDRAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.1963198,
+   "lon": -75.84784,
+   "votos_total": 225,
+   "votos_validos": 215,
+   "ganador": "JAVIER DE JESUS PARIAS POSSO",
+   "empate": [],
+   "margen_puntos": 8.84,
+   "votos": {
+    "JAVIER DE JESUS PARIAS POSSO": 101,
+    "JUAN DIEGO LOPEZ ZAPATA": 82,
+    "LUZ STELLA MUÑOZ NOHAVA": 26,
+    "OSCAR ALONSO PALACIO LOPERA": 2,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "ITUANGO|99|12",
+   "nombre": "El Socorro",
+   "nombre_oficial": "EL SOCORRO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.5230711073952,
+   "lon": -75.6417368675537,
+   "votos_total": 9,
+   "votos_validos": 9,
+   "ganador": "JAVIER DE JESUS PARIAS POSSO",
+   "empate": [],
+   "margen_puntos": 22.22,
+   "votos": {
+    "JAVIER DE JESUS PARIAS POSSO": 4,
+    "JUAN DIEGO LOPEZ ZAPATA": 2,
+    "LUZ STELLA MUÑOZ NOHAVA": 1,
+    "VOTOS EN BLANCO": 2
+   }
+  },
+  {
+   "id": "ITUANGO|99|13",
+   "nombre": "La Granja",
+   "nombre_oficial": "LA GRANJA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.2857334,
+   "lon": -75.7222529,
+   "votos_total": 398,
+   "votos_validos": 377,
+   "ganador": "JAVIER DE JESUS PARIAS POSSO",
+   "empate": [],
+   "margen_puntos": 45.62,
+   "votos": {
+    "HERNAN DARIO ALVAREZ URIBE": 15,
+    "JAVIER DE JESUS PARIAS POSSO": 236,
+    "JUAN DIEGO LOPEZ ZAPATA": 53,
+    "LUZ STELLA MUÑOZ NOHAVA": 64,
+    "OSCAR ALONSO PALACIO LOPERA": 2,
+    "VOTOS EN BLANCO": 7,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 9
+   }
+  },
+  {
+   "id": "ITUANGO|99|16",
+   "nombre": "Pascuita",
+   "nombre_oficial": "PASCUITA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.190778,
+   "lon": -75.654408,
+   "votos_total": 187,
+   "votos_validos": 180,
+   "ganador": "JAVIER DE JESUS PARIAS POSSO",
+   "empate": [],
+   "margen_puntos": 15.56,
+   "votos": {
+    "HERNAN DARIO ALVAREZ URIBE": 4,
+    "JAVIER DE JESUS PARIAS POSSO": 83,
+    "JUAN DIEGO LOPEZ ZAPATA": 55,
+    "LUZ STELLA MUÑOZ NOHAVA": 32,
+    "OSCAR ALONSO PALACIO LOPERA": 2,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "ITUANGO|99|17",
+   "nombre": "Santa Ana",
+   "nombre_oficial": "SANTA ANA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.1644,
+   "lon": -75.868153,
+   "votos_total": 40,
+   "votos_validos": 40,
+   "ganador": "JUAN DIEGO LOPEZ ZAPATA",
+   "empate": [],
+   "margen_puntos": 32.5,
+   "votos": {
+    "JAVIER DE JESUS PARIAS POSSO": 7,
+    "JUAN DIEGO LOPEZ ZAPATA": 23,
+    "LUZ STELLA MUÑOZ NOHAVA": 10
+   }
+  },
+  {
+   "id": "ITUANGO|99|18",
+   "nombre": "Quebrada del Medio",
+   "nombre_oficial": "QUEBRADA DEL MEDIO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.246081,
+   "lon": -75.821367,
+   "votos_total": 135,
+   "votos_validos": 121,
+   "ganador": "JAVIER DE JESUS PARIAS POSSO",
+   "empate": [],
+   "margen_puntos": 70.25,
+   "votos": {
+    "HERNAN DARIO ALVAREZ URIBE": 2,
+    "JAVIER DE JESUS PARIAS POSSO": 98,
+    "JUAN DIEGO LOPEZ ZAPATA": 5,
+    "LUZ STELLA MUÑOZ NOHAVA": 13,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 11,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "ITUANGO|99|19",
+   "nombre": "Santa Lucía",
+   "nombre_oficial": "SANTA LUCIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.313881,
+   "lon": -75.824625,
+   "votos_total": 127,
+   "votos_validos": 120,
+   "ganador": "JAVIER DE JESUS PARIAS POSSO",
+   "empate": [],
+   "margen_puntos": 54.17,
+   "votos": {
+    "JAVIER DE JESUS PARIAS POSSO": 82,
+    "JUAN DIEGO LOPEZ ZAPATA": 17,
+    "LUZ STELLA MUÑOZ NOHAVA": 16,
+    "OSCAR ALONSO PALACIO LOPERA": 3,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "ITUANGO|99|20",
+   "nombre": "San Juanillo",
+   "nombre_oficial": "SAN JUANILLO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.34043,
+   "lon": -75.66434,
+   "votos_total": 118,
+   "votos_validos": 111,
+   "ganador": "JUAN DIEGO LOPEZ ZAPATA",
+   "empate": [],
+   "margen_puntos": 10.81,
+   "votos": {
+    "HERNAN DARIO ALVAREZ URIBE": 1,
+    "JAVIER DE JESUS PARIAS POSSO": 45,
+    "JUAN DIEGO LOPEZ ZAPATA": 57,
+    "LUZ STELLA MUÑOZ NOHAVA": 8,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "ITUANGO|99|21",
+   "nombre": "Santa Rita de Ituango",
+   "nombre_oficial": "SANTA RITA DE ITUANGO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.319242,
+   "lon": -75.616853,
+   "votos_total": 852,
+   "votos_validos": 778,
+   "ganador": "JUAN DIEGO LOPEZ ZAPATA",
+   "empate": [],
+   "margen_puntos": 18.64,
+   "votos": {
+    "HERNAN DARIO ALVAREZ URIBE": 16,
+    "JAVIER DE JESUS PARIAS POSSO": 252,
+    "JUAN DIEGO LOPEZ ZAPATA": 397,
+    "LUZ STELLA MUÑOZ NOHAVA": 101,
+    "OSCAR ALONSO PALACIO LOPERA": 3,
+    "VOTOS EN BLANCO": 9,
+    "VOTOS NO MARCADOS": 53,
+    "VOTOS NULOS": 21
+   }
+  },
+  {
+   "id": "ITUANGO|99|50",
+   "nombre": "La Hundida",
+   "nombre_oficial": "LA HUNDIDA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.158207,
+   "lon": -75.80201,
+   "votos_total": 134,
+   "votos_validos": 126,
+   "ganador": null,
+   "empate": [
+    "JAVIER DE JESUS PARIAS POSSO",
+    "LUZ STELLA MUÑOZ NOHAVA"
+   ],
+   "margen_puntos": 0.0,
+   "votos": {
+    "HERNAN DARIO ALVAREZ URIBE": 10,
+    "JAVIER DE JESUS PARIAS POSSO": 53,
+    "JUAN DIEGO LOPEZ ZAPATA": 9,
+    "LUZ STELLA MUÑOZ NOHAVA": 53,
+    "OSCAR ALONSO PALACIO LOPERA": 1,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "ITUANGO|99|53",
+   "nombre": "La Prensa",
+   "nombre_oficial": "LA PRENSA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.262864,
+   "lon": -75.907531,
+   "votos_total": 14,
+   "votos_validos": 14,
+   "ganador": "JUAN DIEGO LOPEZ ZAPATA",
+   "empate": [],
+   "margen_puntos": 57.14,
+   "votos": {
+    "JAVIER DE JESUS PARIAS POSSO": 2,
+    "JUAN DIEGO LOPEZ ZAPATA": 10,
+    "LUZ STELLA MUÑOZ NOHAVA": 2
+   }
+  },
+  {
+   "id": "ITUANGO|99|75",
+   "nombre": "San Pablo del Riosucio",
+   "nombre_oficial": "SAN PABLO DEL RIOSUCIO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.54928762400977,
+   "lon": -75.6028314715155,
+   "votos_total": 11,
+   "votos_validos": 11,
+   "ganador": "JUAN DIEGO LOPEZ ZAPATA",
+   "empate": [],
+   "margen_puntos": 45.45,
+   "votos": {
+    "JAVIER DE JESUS PARIAS POSSO": 2,
+    "JUAN DIEGO LOPEZ ZAPATA": 7,
+    "LUZ STELLA MUÑOZ NOHAVA": 1,
+    "OSCAR ALONSO PALACIO LOPERA": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel",
+   "nombre_oficial": "CARCEL",
+   "votos": 10,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

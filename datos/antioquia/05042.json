@@ -1,0 +1,519 @@
+{
+ "municipio": {
+  "cod_dane": "05042",
+  "cod_registraduria": "031",
+  "nombre": "Santa Fé de Antioquia",
+  "subregion": "Occidente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 12870,
+   "votos_validos": 12277,
+   "margen_puntos": 5.62,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Andrés Felipe Pardo Serna",
+     "nombre_oficial": "ANDRES FELIPE PARDO SERNA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 4594,
+     "porcentaje": 37.42,
+     "posicion": 1
+    },
+    {
+     "nombre": "Yamid Carvajal Carvajal",
+     "nombre_oficial": "YAMID CARVAJAL CARVAJAL",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 3904,
+     "porcentaje": 31.8,
+     "posicion": 2
+    },
+    {
+     "nombre": "Frey León Rodríguez Vargas",
+     "nombre_oficial": "FREY LEON RODRIGUEZ VARGAS",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 1723,
+     "porcentaje": 14.03,
+     "posicion": 3
+    },
+    {
+     "nombre": "Urley Antonio Durango Alcaraz",
+     "nombre_oficial": "URLEY ANTONIO DURANGO ALCARAZ",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 1512,
+     "porcentaje": 12.32,
+     "posicion": 4
+    },
+    {
+     "nombre": "Klauss Holguin García",
+     "nombre_oficial": "KLAUSS HOLGUIN GARCIA",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 198,
+     "porcentaje": 1.61,
+     "posicion": 5
+    },
+    {
+     "nombre": "Bayardo León Benítez Benítez",
+     "nombre_oficial": "BAYARDO LEON BENITEZ BENITEZ",
+     "partido": "Partido ADA",
+     "partido_oficial": "PARTIDO ADA",
+     "familias": [
+      "ADA"
+     ],
+     "votos": 68,
+     "porcentaje": 0.55,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS NULOS": 307,
+    "VOTOS NO MARCADOS": 286,
+    "VOTOS EN BLANCO": 278
+   }
+  },
+  "2023": {
+   "votos_depositados": 13770,
+   "votos_validos": 13338,
+   "margen_puntos": 20.79,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Yamid Carvajal Carvajal",
+     "nombre_oficial": "YAMID CARVAJAL CARVAJAL",
+     "partido": "Coalición Partido Liberal Renovación",
+     "partido_oficial": "COALICIÓN PARTIDO LIBERAL RENOVACION",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 5603,
+     "porcentaje": 42.01,
+     "posicion": 1
+    },
+    {
+     "nombre": "Andrés Felipe Leal Vásquez",
+     "nombre_oficial": "ANDRES FELIPE LEAL VASQUEZ",
+     "partido": "Partido de la Unión por la Gente - Partido de la U",
+     "partido_oficial": "PARTIDO DE LA UNIÓN POR LA GENTE - PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 2830,
+     "porcentaje": 21.22,
+     "posicion": 2
+    },
+    {
+     "nombre": "Félix Antonio Giraldo Suárez",
+     "nombre_oficial": "FELIX ANTONIO GIRALDO SUAREZ",
+     "partido": "Crecemos Juntos en Santa Fe de Antioquia",
+     "partido_oficial": "CRECEMOS JUNTOS EN SANTA FE DE ANTIOQUIA",
+     "familias": [],
+     "votos": 1978,
+     "porcentaje": 14.83,
+     "posicion": 3
+    },
+    {
+     "nombre": "Frey León Rodríguez Vargas",
+     "nombre_oficial": "FREY LEON RODRIGUEZ VARGAS",
+     "partido": "Más Oportunidades para Todos",
+     "partido_oficial": "MAS OPORTUNIDADES PARA TODOS",
+     "familias": [],
+     "votos": 1478,
+     "porcentaje": 11.08,
+     "posicion": 4
+    },
+    {
+     "nombre": "Urley Antonio Durango Alcaraz",
+     "nombre_oficial": "URLEY ANTONIO DURANGO ALCARAZ",
+     "partido": "Partido Nuevo Liberalismo",
+     "partido_oficial": "PARTIDO NUEVO LIBERALISMO",
+     "familias": [
+      "LIB",
+      "NL"
+     ],
+     "votos": 667,
+     "porcentaje": 5.0,
+     "posicion": 5
+    },
+    {
+     "nombre": "Brayam Aníbal Guzmán Aguinaga",
+     "nombre_oficial": "BRAYAM ANIBAL GUZMAN AGUINAGA",
+     "partido": "Coalición Volver a Creer",
+     "partido_oficial": "COALICION VOLVER A CREER",
+     "familias": [],
+     "votos": 476,
+     "porcentaje": 3.57,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 306,
+    "VOTOS NO MARCADOS": 234,
+    "VOTOS NULOS": 198
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": false,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "CD"
+  ],
+  "familias_2023": [
+   "LIB"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "ANTIOQUIA|01|01",
+   "nombre": "I.E. San Luis Gonzaga",
+   "nombre_oficial": "I.E. SAN LUIS GONZAGA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.560234176041712,
+   "lon": -75.82421140920177,
+   "votos_total": 2649,
+   "votos_validos": 2543,
+   "ganador": "YAMID CARVAJAL CARVAJAL",
+   "empate": [],
+   "margen_puntos": 22.97,
+   "votos": {
+    "ANDRES FELIPE LEAL VASQUEZ": 493,
+    "BRAYAM ANIBAL GUZMAN AGUINAGA": 74,
+    "FELIX ANTONIO GIRALDO SUAREZ": 390,
+    "FREY LEON RODRIGUEZ VARGAS": 284,
+    "URLEY ANTONIO DURANGO ALCARAZ": 185,
+    "VOTOS EN BLANCO": 40,
+    "VOTOS NO MARCADOS": 64,
+    "VOTOS NULOS": 42,
+    "YAMID CARVAJAL CARVAJAL": 1077
+   }
+  },
+  {
+   "id": "ANTIOQUIA|01|02",
+   "nombre": "Coliseo Hernán Sepúlveda",
+   "nombre_oficial": "COLISEO HERNAN SEPULVEDA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.565449405303381,
+   "lon": -75.82243843119035,
+   "votos_total": 3188,
+   "votos_validos": 3083,
+   "ganador": "YAMID CARVAJAL CARVAJAL",
+   "empate": [],
+   "margen_puntos": 19.62,
+   "votos": {
+    "ANDRES FELIPE LEAL VASQUEZ": 730,
+    "BRAYAM ANIBAL GUZMAN AGUINAGA": 104,
+    "FELIX ANTONIO GIRALDO SUAREZ": 436,
+    "FREY LEON RODRIGUEZ VARGAS": 292,
+    "URLEY ANTONIO DURANGO ALCARAZ": 145,
+    "VOTOS EN BLANCO": 41,
+    "VOTOS NO MARCADOS": 49,
+    "VOTOS NULOS": 56,
+    "YAMID CARVAJAL CARVAJAL": 1335
+   }
+  },
+  {
+   "id": "ANTIOQUIA|02|01",
+   "nombre": "IE Arturo Velásquez Ortiz",
+   "nombre_oficial": "IE ARTURO VELASQUEZ ORTIZ",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.551907223219503,
+   "lon": -75.824386547796,
+   "votos_total": 3264,
+   "votos_validos": 3182,
+   "ganador": "YAMID CARVAJAL CARVAJAL",
+   "empate": [],
+   "margen_puntos": 14.36,
+   "votos": {
+    "ANDRES FELIPE LEAL VASQUEZ": 836,
+    "BRAYAM ANIBAL GUZMAN AGUINAGA": 103,
+    "FELIX ANTONIO GIRALDO SUAREZ": 440,
+    "FREY LEON RODRIGUEZ VARGAS": 281,
+    "URLEY ANTONIO DURANGO ALCARAZ": 150,
+    "VOTOS EN BLANCO": 79,
+    "VOTOS NO MARCADOS": 41,
+    "VOTOS NULOS": 41,
+    "YAMID CARVAJAL CARVAJAL": 1293
+   }
+  },
+  {
+   "id": "ANTIOQUIA|02|02",
+   "nombre": "Escuela Martínez Pardo",
+   "nombre_oficial": "ESCUELA MARTINEZ PARDO",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.558283399999999,
+   "lon": -75.8311166999999,
+   "votos_total": 2930,
+   "votos_validos": 2873,
+   "ganador": "YAMID CARVAJAL CARVAJAL",
+   "empate": [],
+   "margen_puntos": 17.3,
+   "votos": {
+    "ANDRES FELIPE LEAL VASQUEZ": 696,
+    "BRAYAM ANIBAL GUZMAN AGUINAGA": 150,
+    "FELIX ANTONIO GIRALDO SUAREZ": 358,
+    "FREY LEON RODRIGUEZ VARGAS": 232,
+    "URLEY ANTONIO DURANGO ALCARAZ": 113,
+    "VOTOS EN BLANCO": 131,
+    "VOTOS NO MARCADOS": 20,
+    "VOTOS NULOS": 37,
+    "YAMID CARVAJAL CARVAJAL": 1193
+   }
+  },
+  {
+   "id": "ANTIOQUIA|99|01",
+   "nombre": "Cativo",
+   "nombre_oficial": "CATIVO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.637689552029618,
+   "lon": -75.87576236423317,
+   "votos_total": 96,
+   "votos_validos": 90,
+   "ganador": "YAMID CARVAJAL CARVAJAL",
+   "empate": [],
+   "margen_puntos": 48.89,
+   "votos": {
+    "ANDRES FELIPE LEAL VASQUEZ": 7,
+    "BRAYAM ANIBAL GUZMAN AGUINAGA": 1,
+    "FELIX ANTONIO GIRALDO SUAREZ": 15,
+    "FREY LEON RODRIGUEZ VARGAS": 4,
+    "URLEY ANTONIO DURANGO ALCARAZ": 2,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 6,
+    "YAMID CARVAJAL CARVAJAL": 59
+   }
+  },
+  {
+   "id": "ANTIOQUIA|99|02",
+   "nombre": "Escuela Moraditas Central",
+   "nombre_oficial": "ESCUELA MORADITAS CENTRAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.428527778,
+   "lon": -75.91030556,
+   "votos_total": 246,
+   "votos_validos": 230,
+   "ganador": "YAMID CARVAJAL CARVAJAL",
+   "empate": [],
+   "margen_puntos": 13.91,
+   "votos": {
+    "ANDRES FELIPE LEAL VASQUEZ": 3,
+    "BRAYAM ANIBAL GUZMAN AGUINAGA": 19,
+    "FELIX ANTONIO GIRALDO SUAREZ": 61,
+    "FREY LEON RODRIGUEZ VARGAS": 43,
+    "URLEY ANTONIO DURANGO ALCARAZ": 10,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 4,
+    "YAMID CARVAJAL CARVAJAL": 93
+   }
+  },
+  {
+   "id": "ANTIOQUIA|99|04",
+   "nombre": "El Pescado",
+   "nombre_oficial": "EL PESCADO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.495153,
+   "lon": -75.9097929999998,
+   "votos_total": 357,
+   "votos_validos": 341,
+   "ganador": "FREY LEON RODRIGUEZ VARGAS",
+   "empate": [],
+   "margen_puntos": 11.73,
+   "votos": {
+    "ANDRES FELIPE LEAL VASQUEZ": 11,
+    "BRAYAM ANIBAL GUZMAN AGUINAGA": 13,
+    "FELIX ANTONIO GIRALDO SUAREZ": 72,
+    "FREY LEON RODRIGUEZ VARGAS": 124,
+    "URLEY ANTONIO DURANGO ALCARAZ": 34,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 4,
+    "YAMID CARVAJAL CARVAJAL": 84
+   }
+  },
+  {
+   "id": "ANTIOQUIA|99|05",
+   "nombre": "Laureles",
+   "nombre_oficial": "LAURELES",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.490555999999998,
+   "lon": -75.9480439999998,
+   "votos_total": 291,
+   "votos_validos": 274,
+   "ganador": "FREY LEON RODRIGUEZ VARGAS",
+   "empate": [],
+   "margen_puntos": 5.84,
+   "votos": {
+    "ANDRES FELIPE LEAL VASQUEZ": 15,
+    "BRAYAM ANIBAL GUZMAN AGUINAGA": 7,
+    "FELIX ANTONIO GIRALDO SUAREZ": 70,
+    "FREY LEON RODRIGUEZ VARGAS": 90,
+    "URLEY ANTONIO DURANGO ALCARAZ": 16,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 14,
+    "VOTOS NULOS": 3,
+    "YAMID CARVAJAL CARVAJAL": 74
+   }
+  },
+  {
+   "id": "ANTIOQUIA|99|07",
+   "nombre": "Las Azules",
+   "nombre_oficial": "LAS AZULES",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.5573240477896055,
+   "lon": -75.96571529954892,
+   "votos_total": 98,
+   "votos_validos": 95,
+   "ganador": "FREY LEON RODRIGUEZ VARGAS",
+   "empate": [],
+   "margen_puntos": 3.16,
+   "votos": {
+    "ANDRES FELIPE LEAL VASQUEZ": 5,
+    "BRAYAM ANIBAL GUZMAN AGUINAGA": 1,
+    "FELIX ANTONIO GIRALDO SUAREZ": 10,
+    "FREY LEON RODRIGUEZ VARGAS": 40,
+    "URLEY ANTONIO DURANGO ALCARAZ": 1,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 1,
+    "YAMID CARVAJAL CARVAJAL": 37
+   }
+  },
+  {
+   "id": "ANTIOQUIA|99|09",
+   "nombre": "Tonusco Arriba",
+   "nombre_oficial": "TONUSCO ARRIBA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.60810633052697,
+   "lon": -75.9598075826645,
+   "votos_total": 292,
+   "votos_validos": 286,
+   "ganador": "YAMID CARVAJAL CARVAJAL",
+   "empate": [],
+   "margen_puntos": 66.08,
+   "votos": {
+    "ANDRES FELIPE LEAL VASQUEZ": 6,
+    "BRAYAM ANIBAL GUZMAN AGUINAGA": 1,
+    "FELIX ANTONIO GIRALDO SUAREZ": 33,
+    "FREY LEON RODRIGUEZ VARGAS": 22,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 4,
+    "YAMID CARVAJAL CARVAJAL": 222
+   }
+  },
+  {
+   "id": "ANTIOQUIA|99|15",
+   "nombre": "Sabanas",
+   "nombre_oficial": "SABANAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.4608953299276335,
+   "lon": -75.91218917591151,
+   "votos_total": 359,
+   "votos_validos": 341,
+   "ganador": "YAMID CARVAJAL CARVAJAL",
+   "empate": [],
+   "margen_puntos": 12.61,
+   "votos": {
+    "ANDRES FELIPE LEAL VASQUEZ": 28,
+    "BRAYAM ANIBAL GUZMAN AGUINAGA": 3,
+    "FELIX ANTONIO GIRALDO SUAREZ": 93,
+    "FREY LEON RODRIGUEZ VARGAS": 66,
+    "URLEY ANTONIO DURANGO ALCARAZ": 11,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 6,
+    "YAMID CARVAJAL CARVAJAL": 136
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

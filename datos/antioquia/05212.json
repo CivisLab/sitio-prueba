@@ -1,0 +1,707 @@
+{
+ "municipio": {
+  "cod_dane": "05212",
+  "cod_registraduria": "103",
+  "nombre": "Copacabana",
+  "subregion": "Valle de Aburrá",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 37406,
+   "votos_validos": 35983,
+   "margen_puntos": 2.54,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Héctor Augusto Monsalve Restrepo",
+     "nombre_oficial": "HECTOR AUGUSTO MONSALVE RESTREPO",
+     "partido": "Partido Social de la Unidad Nacional - Partido Cambio Radical - Partido Alianza Verde -",
+     "partido_oficial": "PARTIDO SOCIAL DE LA UNIDAD NACIONAL - PARTIDO CAMBIO RADICAL -  PARTIDO ALIANZA VERDE -",
+     "familias": [
+      "CR",
+      "U",
+      "VERDE"
+     ],
+     "votos": 10639,
+     "porcentaje": 29.57,
+     "posicion": 1
+    },
+    {
+     "nombre": "Aníbal Díaz Montoya",
+     "nombre_oficial": "ANIBAL DIAZ MONTOYA",
+     "partido": "Copacabana Diferente",
+     "partido_oficial": "COPACABANA DIFERENTE",
+     "familias": [],
+     "votos": 9725,
+     "porcentaje": 27.03,
+     "posicion": 2
+    },
+    {
+     "nombre": "Diego Echeverri Hincapie",
+     "nombre_oficial": "DIEGO ECHEVERRI HINCAPIE",
+     "partido": "Movimiento Alternativo Indigena y Social MAIS",
+     "partido_oficial": "MOVIMIENTO ALTERNATIVO INDIGENA Y SOCIAL MAIS",
+     "familias": [
+      "MAIS"
+     ],
+     "votos": 4547,
+     "porcentaje": 12.64,
+     "posicion": 3
+    },
+    {
+     "nombre": "Hernando de Jesús González Gómez",
+     "nombre_oficial": "HERNANDO DE JESUS GONZALEZ GOMEZ",
+     "partido": "Partido ADA",
+     "partido_oficial": "PARTIDO ADA",
+     "familias": [
+      "ADA"
+     ],
+     "votos": 3857,
+     "porcentaje": 10.72,
+     "posicion": 4
+    },
+    {
+     "nombre": "Francisco Javier Cadavid González",
+     "nombre_oficial": "FRANCISCO JAVIER CADAVID GONZALEZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 1504,
+     "porcentaje": 4.18,
+     "posicion": 5
+    },
+    {
+     "nombre": "Frank Arley Guzmán Daza",
+     "nombre_oficial": "FRANK ARLEY GUZMAN DAZA",
+     "partido": "Colombia Humana - Unión Patriotica",
+     "partido_oficial": "COLOMBIA HUMANA - UNION PATRIOTICA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 766,
+     "porcentaje": 2.13,
+     "posicion": 6
+    },
+    {
+     "nombre": "Carlos David Orozco Tibaquira",
+     "nombre_oficial": "CARLOS DAVID OROZCO TIBAQUIRA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 761,
+     "porcentaje": 2.11,
+     "posicion": 7
+    },
+    {
+     "nombre": "Duglas Alberto Pulgarín Palacio",
+     "nombre_oficial": "DUGLAS ALBERTO PULGARIN PALACIO",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRATICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 573,
+     "porcentaje": 1.59,
+     "posicion": 8
+    },
+    {
+     "nombre": "Evangelista Torres Peralta",
+     "nombre_oficial": "EVANGELISTA TORRES PERALTA",
+     "partido": "Partido Colombia Justa Libres",
+     "partido_oficial": "PARTIDO COLOMBIA JUSTA LIBRES",
+     "familias": [
+      "COL_JUSTA"
+     ],
+     "votos": 431,
+     "porcentaje": 1.2,
+     "posicion": 9
+    },
+    {
+     "nombre": "Juan Eugenio González Molina",
+     "nombre_oficial": "JUAN EUGENIO GONZALEZ MOLINA",
+     "partido": "Partido de Reivindicacion Etnica Pre",
+     "partido_oficial": "PARTIDO DE REIVINDICACION ETNICA \"PRE\"",
+     "familias": [],
+     "votos": 312,
+     "porcentaje": 0.87,
+     "posicion": 10
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 2868,
+    "VOTOS NULOS": 818,
+    "VOTOS NO MARCADOS": 605
+   }
+  },
+  "2023": {
+   "votos_depositados": 40541,
+   "votos_validos": 39178,
+   "margen_puntos": 5.25,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Johnnatan Andrés Pineda Agudelo",
+     "nombre_oficial": "JOHNNATAN ANDRES PINEDA AGUDELO",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 13421,
+     "porcentaje": 34.26,
+     "posicion": 1
+    },
+    {
+     "nombre": "Jesús Aníbal Díaz Montoya",
+     "nombre_oficial": "JESUS ANIBAL DIAZ MONTOYA",
+     "partido": "Gana Copacabana",
+     "partido_oficial": "GANA COPACABANA",
+     "familias": [],
+     "votos": 11363,
+     "porcentaje": 29.0,
+     "posicion": 2
+    },
+    {
+     "nombre": "Didier Onid Rosero Moreno",
+     "nombre_oficial": "DIDIER ONID ROSERO MORENO",
+     "partido": "Copacabana Primero",
+     "partido_oficial": "COPACABANA PRIMERO",
+     "familias": [],
+     "votos": 4745,
+     "porcentaje": 12.11,
+     "posicion": 3
+    },
+    {
+     "nombre": "Hernando de Jesús González Gómez",
+     "nombre_oficial": "HERNANDO DE JESUS GONZALEZ GOMEZ",
+     "partido": "Movimiento Salvación Nacional",
+     "partido_oficial": "MOVIMIENTO SALVACIÓN NACIONAL",
+     "familias": [
+      "SALV"
+     ],
+     "votos": 2687,
+     "porcentaje": 6.86,
+     "posicion": 4
+    },
+    {
+     "nombre": "Ramón Diego Echeverri Hincapie",
+     "nombre_oficial": "RAMON DIEGO ECHEVERRI HINCAPIE",
+     "partido": "Juntos Podemos",
+     "partido_oficial": "JUNTOS PODEMOS",
+     "familias": [],
+     "votos": 2433,
+     "porcentaje": 6.21,
+     "posicion": 5
+    },
+    {
+     "nombre": "Diana Georgina Correa Rodríguez",
+     "nombre_oficial": "DIANA GEORGINA CORREA RODRIGUEZ",
+     "partido": "Pacto Histórico Colombia Puede",
+     "partido_oficial": "PACTO HISTORICO COLOMBIA PUEDE",
+     "familias": [
+      "PACTO"
+     ],
+     "votos": 1520,
+     "porcentaje": 3.88,
+     "posicion": 6
+    },
+    {
+     "nombre": "Víctor Julián Monsalve Rincón",
+     "nombre_oficial": "VICTOR JULIAN MONSALVE RINCON",
+     "partido": "Partido Político Todos Somos Colombia",
+     "partido_oficial": "PARTIDO POLÍTICO TODOS SOMOS COLOMBIA",
+     "familias": [],
+     "votos": 637,
+     "porcentaje": 1.63,
+     "posicion": 7
+    },
+    {
+     "nombre": "Fabio León Quintero Velásquez",
+     "nombre_oficial": "FABIO LEON QUINTERO VELASQUEZ",
+     "partido": "Movimiento Político Fuerza Ciudadana",
+     "partido_oficial": "MOVIMIENTO POLITICO FUERZA CIUDADANA",
+     "familias": [],
+     "votos": 2,
+     "porcentaje": 0.01,
+     "posicion": 8
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 2370,
+    "VOTOS NO MARCADOS": 687,
+    "VOTOS NULOS": 676
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": false,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "CR",
+   "U",
+   "VERDE"
+  ],
+  "familias_2023": [
+   "CREE"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "COPACABANA|01|01",
+   "nombre": "IE Gabriela Mistral",
+   "nombre_oficial": "IE GABRIELA MISTRAL",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.35415961,
+   "lon": -75.4937681999999,
+   "votos_total": 673,
+   "votos_validos": 653,
+   "ganador": "JOHNNATAN ANDRES PINEDA AGUDELO",
+   "empate": [],
+   "margen_puntos": 17.46,
+   "votos": {
+    "DIANA GEORGINA CORREA RODRIGUEZ": 39,
+    "DIDIER ONID ROSERO MORENO": 55,
+    "FABIO LEON QUINTERO VELASQUEZ": 0,
+    "HERNANDO DE JESUS GONZALEZ GOMEZ": 27,
+    "JESUS ANIBAL DIAZ MONTOYA": 169,
+    "JOHNNATAN ANDRES PINEDA AGUDELO": 283,
+    "RAMON DIEGO ECHEVERRI HINCAPIE": 23,
+    "VICTOR JULIAN MONSALVE RINCON": 14,
+    "VOTOS EN BLANCO": 43,
+    "VOTOS NO MARCADOS": 14,
+    "VOTOS NULOS": 6
+   }
+  },
+  {
+   "id": "COPACABANA|01|02",
+   "nombre": "IE Presbitero B. Montoya",
+   "nombre_oficial": "IE PRESBITERO B. MONTOYA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.353871711,
+   "lon": -75.4995349499998,
+   "votos_total": 4302,
+   "votos_validos": 4171,
+   "ganador": "JOHNNATAN ANDRES PINEDA AGUDELO",
+   "empate": [],
+   "margen_puntos": 10.21,
+   "votos": {
+    "DIANA GEORGINA CORREA RODRIGUEZ": 154,
+    "DIDIER ONID ROSERO MORENO": 519,
+    "HERNANDO DE JESUS GONZALEZ GOMEZ": 259,
+    "JESUS ANIBAL DIAZ MONTOYA": 1185,
+    "JOHNNATAN ANDRES PINEDA AGUDELO": 1611,
+    "RAMON DIEGO ECHEVERRI HINCAPIE": 181,
+    "VICTOR JULIAN MONSALVE RINCON": 56,
+    "VOTOS EN BLANCO": 206,
+    "VOTOS NO MARCADOS": 67,
+    "VOTOS NULOS": 64
+   }
+  },
+  {
+   "id": "COPACABANA|01|03",
+   "nombre": "Col Coop Juan del Corral",
+   "nombre_oficial": "COL COOP JUAN DEL CORRAL",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.349454516999999,
+   "lon": -75.50158484,
+   "votos_total": 1823,
+   "votos_validos": 1782,
+   "ganador": "JOHNNATAN ANDRES PINEDA AGUDELO",
+   "empate": [],
+   "margen_puntos": 21.66,
+   "votos": {
+    "DIANA GEORGINA CORREA RODRIGUEZ": 70,
+    "DIDIER ONID ROSERO MORENO": 199,
+    "HERNANDO DE JESUS GONZALEZ GOMEZ": 84,
+    "JESUS ANIBAL DIAZ MONTOYA": 415,
+    "JOHNNATAN ANDRES PINEDA AGUDELO": 801,
+    "RAMON DIEGO ECHEVERRI HINCAPIE": 70,
+    "VICTOR JULIAN MONSALVE RINCON": 15,
+    "VOTOS EN BLANCO": 128,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 29
+   }
+  },
+  {
+   "id": "COPACABANA|01|04",
+   "nombre": "IE Villanueva",
+   "nombre_oficial": "IE VILLANUEVA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.348539016,
+   "lon": -75.5135253499999,
+   "votos_total": 4300,
+   "votos_validos": 4134,
+   "ganador": "JOHNNATAN ANDRES PINEDA AGUDELO",
+   "empate": [],
+   "margen_puntos": 6.65,
+   "votos": {
+    "DIANA GEORGINA CORREA RODRIGUEZ": 189,
+    "DIDIER ONID ROSERO MORENO": 507,
+    "HERNANDO DE JESUS GONZALEZ GOMEZ": 206,
+    "JESUS ANIBAL DIAZ MONTOYA": 1156,
+    "JOHNNATAN ANDRES PINEDA AGUDELO": 1431,
+    "RAMON DIEGO ECHEVERRI HINCAPIE": 223,
+    "VICTOR JULIAN MONSALVE RINCON": 145,
+    "VOTOS EN BLANCO": 277,
+    "VOTOS NO MARCADOS": 96,
+    "VOTOS NULOS": 70
+   }
+  },
+  {
+   "id": "COPACABANA|01|05",
+   "nombre": "Casa de la Cultura",
+   "nombre_oficial": "CASA DE LA CULTURA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.347205321525355,
+   "lon": -75.5065603622554,
+   "votos_total": 1063,
+   "votos_validos": 1017,
+   "ganador": "JOHNNATAN ANDRES PINEDA AGUDELO",
+   "empate": [],
+   "margen_puntos": 2.26,
+   "votos": {
+    "DIANA GEORGINA CORREA RODRIGUEZ": 62,
+    "DIDIER ONID ROSERO MORENO": 107,
+    "HERNANDO DE JESUS GONZALEZ GOMEZ": 92,
+    "JESUS ANIBAL DIAZ MONTOYA": 306,
+    "JOHNNATAN ANDRES PINEDA AGUDELO": 329,
+    "RAMON DIEGO ECHEVERRI HINCAPIE": 38,
+    "VICTOR JULIAN MONSALVE RINCON": 13,
+    "VOTOS EN BLANCO": 70,
+    "VOTOS NO MARCADOS": 22,
+    "VOTOS NULOS": 24
+   }
+  },
+  {
+   "id": "COPACABANA|02|01",
+   "nombre": "I.E Asunción Primaria",
+   "nombre_oficial": "I.E ASUNCION PRIMARIA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.345831797999999,
+   "lon": -75.5078819799998,
+   "votos_total": 1281,
+   "votos_validos": 1229,
+   "ganador": "JESUS ANIBAL DIAZ MONTOYA",
+   "empate": [],
+   "margen_puntos": 9.36,
+   "votos": {
+    "DIANA GEORGINA CORREA RODRIGUEZ": 25,
+    "DIDIER ONID ROSERO MORENO": 103,
+    "FABIO LEON QUINTERO VELASQUEZ": 1,
+    "HERNANDO DE JESUS GONZALEZ GOMEZ": 235,
+    "JESUS ANIBAL DIAZ MONTOYA": 409,
+    "JOHNNATAN ANDRES PINEDA AGUDELO": 294,
+    "RAMON DIEGO ECHEVERRI HINCAPIE": 106,
+    "VICTOR JULIAN MONSALVE RINCON": 19,
+    "VOTOS EN BLANCO": 37,
+    "VOTOS NO MARCADOS": 29,
+    "VOTOS NULOS": 23
+   }
+  },
+  {
+   "id": "COPACABANA|02|02",
+   "nombre": "Col José Miguel Restrepo",
+   "nombre_oficial": "COL JOSE MIGUEL RESTREPO",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.345517236,
+   "lon": -75.5049637399998,
+   "votos_total": 7447,
+   "votos_validos": 7239,
+   "ganador": "JOHNNATAN ANDRES PINEDA AGUDELO",
+   "empate": [],
+   "margen_puntos": 4.32,
+   "votos": {
+    "DIANA GEORGINA CORREA RODRIGUEZ": 210,
+    "DIDIER ONID ROSERO MORENO": 870,
+    "FABIO LEON QUINTERO VELASQUEZ": 1,
+    "HERNANDO DE JESUS GONZALEZ GOMEZ": 524,
+    "JESUS ANIBAL DIAZ MONTOYA": 2208,
+    "JOHNNATAN ANDRES PINEDA AGUDELO": 2521,
+    "RAMON DIEGO ECHEVERRI HINCAPIE": 443,
+    "VICTOR JULIAN MONSALVE RINCON": 81,
+    "VOTOS EN BLANCO": 381,
+    "VOTOS NO MARCADOS": 100,
+    "VOTOS NULOS": 108
+   }
+  },
+  {
+   "id": "COPACABANA|02|03",
+   "nombre": "IE Camilo Torres",
+   "nombre_oficial": "IE CAMILO TORRES",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.344264319999998,
+   "lon": -75.50805364,
+   "votos_total": 4411,
+   "votos_validos": 4268,
+   "ganador": "JOHNNATAN ANDRES PINEDA AGUDELO",
+   "empate": [],
+   "margen_puntos": 8.74,
+   "votos": {
+    "DIANA GEORGINA CORREA RODRIGUEZ": 125,
+    "DIDIER ONID ROSERO MORENO": 596,
+    "HERNANDO DE JESUS GONZALEZ GOMEZ": 332,
+    "JESUS ANIBAL DIAZ MONTOYA": 1150,
+    "JOHNNATAN ANDRES PINEDA AGUDELO": 1523,
+    "RAMON DIEGO ECHEVERRI HINCAPIE": 346,
+    "VICTOR JULIAN MONSALVE RINCON": 54,
+    "VOTOS EN BLANCO": 142,
+    "VOTOS NO MARCADOS": 74,
+    "VOTOS NULOS": 69
+   }
+  },
+  {
+   "id": "COPACABANA|02|04",
+   "nombre": "IE Asunción Secundaria",
+   "nombre_oficial": "IE ASUNCION SECUNDARIA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.345863966015004,
+   "lon": -75.50689670681251,
+   "votos_total": 2377,
+   "votos_validos": 2314,
+   "ganador": "JOHNNATAN ANDRES PINEDA AGUDELO",
+   "empate": [],
+   "margen_puntos": 5.4,
+   "votos": {
+    "DIANA GEORGINA CORREA RODRIGUEZ": 83,
+    "DIDIER ONID ROSERO MORENO": 299,
+    "HERNANDO DE JESUS GONZALEZ GOMEZ": 230,
+    "JESUS ANIBAL DIAZ MONTOYA": 639,
+    "JOHNNATAN ANDRES PINEDA AGUDELO": 764,
+    "RAMON DIEGO ECHEVERRI HINCAPIE": 147,
+    "VICTOR JULIAN MONSALVE RINCON": 47,
+    "VOTOS EN BLANCO": 105,
+    "VOTOS NO MARCADOS": 23,
+    "VOTOS NULOS": 40
+   }
+  },
+  {
+   "id": "COPACABANA|03|01",
+   "nombre": "COL. Autónomo NTRA. Señora de la B. e",
+   "nombre_oficial": "COL. AUTÓNOMO NTRA. SEÑORA DE LA B. E",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.343516662075175,
+   "lon": -75.5174311995506,
+   "votos_total": 1745,
+   "votos_validos": 1719,
+   "ganador": "JOHNNATAN ANDRES PINEDA AGUDELO",
+   "empate": [],
+   "margen_puntos": 22.92,
+   "votos": {
+    "DIANA GEORGINA CORREA RODRIGUEZ": 70,
+    "DIDIER ONID ROSERO MORENO": 165,
+    "HERNANDO DE JESUS GONZALEZ GOMEZ": 83,
+    "JESUS ANIBAL DIAZ MONTOYA": 373,
+    "JOHNNATAN ANDRES PINEDA AGUDELO": 767,
+    "RAMON DIEGO ECHEVERRI HINCAPIE": 100,
+    "VICTOR JULIAN MONSALVE RINCON": 12,
+    "VOTOS EN BLANCO": 149,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 20
+   }
+  },
+  {
+   "id": "COPACABANA|03|02",
+   "nombre": "Liceo San Luis Gonzaga",
+   "nombre_oficial": "LICEO SAN LUIS GONZAGA",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.344277408095677,
+   "lon": -75.5158185377119,
+   "votos_total": 6569,
+   "votos_validos": 6325,
+   "ganador": "JOHNNATAN ANDRES PINEDA AGUDELO",
+   "empate": [],
+   "margen_puntos": 6.83,
+   "votos": {
+    "DIANA GEORGINA CORREA RODRIGUEZ": 231,
+    "DIDIER ONID ROSERO MORENO": 738,
+    "HERNANDO DE JESUS GONZALEZ GOMEZ": 467,
+    "JESUS ANIBAL DIAZ MONTOYA": 1798,
+    "JOHNNATAN ANDRES PINEDA AGUDELO": 2230,
+    "RAMON DIEGO ECHEVERRI HINCAPIE": 522,
+    "VICTOR JULIAN MONSALVE RINCON": 68,
+    "VOTOS EN BLANCO": 271,
+    "VOTOS NO MARCADOS": 129,
+    "VOTOS NULOS": 115
+   }
+  },
+  {
+   "id": "COPACABANA|03|03",
+   "nombre": "IE la Trinidad",
+   "nombre_oficial": "IE LA TRINIDAD",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.335186011278779,
+   "lon": -75.5316817760466,
+   "votos_total": 3349,
+   "votos_validos": 3172,
+   "ganador": "JESUS ANIBAL DIAZ MONTOYA",
+   "empate": [],
+   "margen_puntos": 18.03,
+   "votos": {
+    "DIANA GEORGINA CORREA RODRIGUEZ": 215,
+    "DIDIER ONID ROSERO MORENO": 469,
+    "FABIO LEON QUINTERO VELASQUEZ": 0,
+    "HERNANDO DE JESUS GONZALEZ GOMEZ": 88,
+    "JESUS ANIBAL DIAZ MONTOYA": 1135,
+    "JOHNNATAN ANDRES PINEDA AGUDELO": 563,
+    "RAMON DIEGO ECHEVERRI HINCAPIE": 176,
+    "VICTOR JULIAN MONSALVE RINCON": 76,
+    "VOTOS EN BLANCO": 450,
+    "VOTOS NO MARCADOS": 94,
+    "VOTOS NULOS": 83
+   }
+  },
+  {
+   "id": "COPACABANA|03|04",
+   "nombre": "ESC. URB. la Misericordia",
+   "nombre_oficial": "ESC. URB. LA MISERICORDIA",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.341296056954393,
+   "lon": -75.5185282230377,
+   "votos_total": 662,
+   "votos_validos": 640,
+   "ganador": "JOHNNATAN ANDRES PINEDA AGUDELO",
+   "empate": [],
+   "margen_puntos": 3.91,
+   "votos": {
+    "DIANA GEORGINA CORREA RODRIGUEZ": 34,
+    "DIDIER ONID ROSERO MORENO": 80,
+    "HERNANDO DE JESUS GONZALEZ GOMEZ": 24,
+    "JESUS ANIBAL DIAZ MONTOYA": 175,
+    "JOHNNATAN ANDRES PINEDA AGUDELO": 200,
+    "RAMON DIEGO ECHEVERRI HINCAPIE": 41,
+    "VICTOR JULIAN MONSALVE RINCON": 2,
+    "VOTOS EN BLANCO": 84,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 10
+   }
+  },
+  {
+   "id": "COPACABANA|99|01",
+   "nombre": "I.E. San Rafael",
+   "nombre_oficial": "I.E. SAN RAFAEL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.362145998859807,
+   "lon": -75.49493518574731,
+   "votos_total": 361,
+   "votos_validos": 353,
+   "ganador": "JESUS ANIBAL DIAZ MONTOYA",
+   "empate": [],
+   "margen_puntos": 25.21,
+   "votos": {
+    "DIANA GEORGINA CORREA RODRIGUEZ": 9,
+    "DIDIER ONID ROSERO MORENO": 28,
+    "HERNANDO DE JESUS GONZALEZ GOMEZ": 27,
+    "JESUS ANIBAL DIAZ MONTOYA": 171,
+    "JOHNNATAN ANDRES PINEDA AGUDELO": 82,
+    "RAMON DIEGO ECHEVERRI HINCAPIE": 7,
+    "VICTOR JULIAN MONSALVE RINCON": 10,
+    "VOTOS EN BLANCO": 19,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "COPACABANA|99|02",
+   "nombre": "Sede Montañuela - I. E. San Luis Gonzaga",
+   "nombre_oficial": "SEDE MONTAÑUELA - I. E. SAN LUIS GONZAGA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.321598492856893,
+   "lon": -75.470048,
+   "votos_total": 178,
+   "votos_validos": 162,
+   "ganador": "JESUS ANIBAL DIAZ MONTOYA",
+   "empate": [],
+   "margen_puntos": 30.25,
+   "votos": {
+    "DIANA GEORGINA CORREA RODRIGUEZ": 4,
+    "DIDIER ONID ROSERO MORENO": 10,
+    "HERNANDO DE JESUS GONZALEZ GOMEZ": 9,
+    "JESUS ANIBAL DIAZ MONTOYA": 74,
+    "JOHNNATAN ANDRES PINEDA AGUDELO": 22,
+    "RAMON DIEGO ECHEVERRI HINCAPIE": 10,
+    "VICTOR JULIAN MONSALVE RINCON": 25,
+    "VOTOS EN BLANCO": 8,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 13
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "disponible"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

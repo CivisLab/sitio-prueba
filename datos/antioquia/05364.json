@@ -1,0 +1,309 @@
+{
+ "municipio": {
+  "cod_dane": "05364",
+  "cod_registraduria": "157",
+  "nombre": "Jardín",
+  "subregion": "Suroeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 8262,
+   "votos_validos": 8049,
+   "margen_puntos": 30.35,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Héctor Jaime Rendón Osorio",
+     "nombre_oficial": "HECTOR JAIME RENDON OSORIO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 4181,
+     "porcentaje": 51.94,
+     "posicion": 1
+    },
+    {
+     "nombre": "Luis Roberto Munera Agudelo",
+     "nombre_oficial": "LUIS ROBERTO MUNERA AGUDELO",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 1738,
+     "porcentaje": 21.59,
+     "posicion": 2
+    },
+    {
+     "nombre": "Álvaro Aníbal Carvajal Ochoa",
+     "nombre_oficial": "ALVARO ANIBAL CARVAJAL OCHOA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1362,
+     "porcentaje": 16.92,
+     "posicion": 3
+    },
+    {
+     "nombre": "Freddy Alonso Tascon Niaza",
+     "nombre_oficial": "FREDDY ALONSO TASCON NIAZA",
+     "partido": "Movimiento Alternativo Indigena y Social MAIS",
+     "partido_oficial": "MOVIMIENTO ALTERNATIVO INDIGENA Y SOCIAL MAIS",
+     "familias": [
+      "MAIS"
+     ],
+     "votos": 595,
+     "porcentaje": 7.39,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 173,
+    "VOTOS NO MARCADOS": 109,
+    "VOTOS NULOS": 104
+   }
+  },
+  "2023": {
+   "votos_depositados": 8170,
+   "votos_validos": 7977,
+   "margen_puntos": 4.93,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Claudia Yaneth Naranjo Agudelo",
+     "nombre_oficial": "CLAUDIA YANETH NARANJO AGUDELO",
+     "partido": "Coalición Politica y Programatica: Unidos, Si Es Posible",
+     "partido_oficial": "COALICION  POLITICA Y PROGRAMATICA: UNIDOS, SI ES POSIBLE",
+     "familias": [],
+     "votos": 2861,
+     "porcentaje": 35.87,
+     "posicion": 1
+    },
+    {
+     "nombre": "Juan Carlos Rendón Betancur",
+     "nombre_oficial": "JUAN CARLOS RENDON BETANCUR",
+     "partido": "Partido Nuevo Liberalismo",
+     "partido_oficial": "PARTIDO NUEVO LIBERALISMO",
+     "familias": [
+      "LIB",
+      "NL"
+     ],
+     "votos": 2468,
+     "porcentaje": 30.94,
+     "posicion": 2
+    },
+    {
+     "nombre": "Edwin Rolando Rendón Rendón",
+     "nombre_oficial": "EDWIN ROLANDO RENDON RENDON",
+     "partido": "Por Un Jardín con Futuro,Cuento con Usted",
+     "partido_oficial": "POR UN JARDIN CON FUTURO,CUENTO CON USTED",
+     "familias": [],
+     "votos": 1181,
+     "porcentaje": 14.81,
+     "posicion": 3
+    },
+    {
+     "nombre": "Álvaro Aníbal Carvajal Ochoa",
+     "nombre_oficial": "ALVARO ANIBAL CARVAJAL OCHOA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1096,
+     "porcentaje": 13.74,
+     "posicion": 4
+    },
+    {
+     "nombre": "Mario Alberto Uribe Quiceno",
+     "nombre_oficial": "MARIO ALBERTO URIBE QUICENO",
+     "partido": "Movimiento Salvación Nacional",
+     "partido_oficial": "MOVIMIENTO SALVACIÓN NACIONAL",
+     "familias": [
+      "SALV"
+     ],
+     "votos": 202,
+     "porcentaje": 2.53,
+     "posicion": 5
+    },
+    {
+     "nombre": "William Alberto Osorio Zapata",
+     "nombre_oficial": "WILLIAM ALBERTO OSORIO ZAPATA",
+     "partido": "Movimiento Político Colombia Humana",
+     "partido_oficial": "MOVIMIENTO POLÍTICO COLOMBIA HUMANA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 13,
+     "porcentaje": 0.16,
+     "posicion": 6
+    },
+    {
+     "nombre": "José León Dan Yagari Yagari",
+     "nombre_oficial": "JOSE LEON DAN YAGARI YAGARI",
+     "partido": "Movimiento Alternativo Indígena y Social MAIS",
+     "partido_oficial": "MOVIMIENTO ALTERNATIVO INDÍGENA Y SOCIAL \"MAIS\"",
+     "familias": [
+      "MAIS"
+     ],
+     "votos": 4,
+     "porcentaje": 0.05,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 152,
+    "VOTOS NULOS": 115,
+    "VOTOS NO MARCADOS": 78
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CD"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "JARDIN|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 5.591379372411316,
+   "lon": -75.8331298828125,
+   "votos_total": 7807,
+   "votos_validos": 7628,
+   "ganador": "CLAUDIA YANETH NARANJO AGUDELO",
+   "empate": [],
+   "margen_puntos": 5.41,
+   "votos": {
+    "ALVARO ANIBAL CARVAJAL OCHOA": 1066,
+    "CLAUDIA YANETH NARANJO AGUDELO": 2770,
+    "EDWIN ROLANDO RENDON RENDON": 1079,
+    "JOSE LEON DAN YAGARI YAGARI": 4,
+    "JUAN CARLOS RENDON BETANCUR": 2357,
+    "MARIO ALBERTO URIBE QUICENO": 195,
+    "VOTOS EN BLANCO": 146,
+    "VOTOS NO MARCADOS": 70,
+    "VOTOS NULOS": 109,
+    "WILLIAM ALBERTO OSORIO ZAPATA": 11
+   }
+  },
+  {
+   "id": "JARDIN|99|06",
+   "nombre": "La Cascada",
+   "nombre_oficial": "LA CASCADA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.61436015774915,
+   "lon": -75.8550921064146,
+   "votos_total": 228,
+   "votos_validos": 218,
+   "ganador": "EDWIN ROLANDO RENDON RENDON",
+   "empate": [],
+   "margen_puntos": 12.84,
+   "votos": {
+    "ALVARO ANIBAL CARVAJAL OCHOA": 21,
+    "CLAUDIA YANETH NARANJO AGUDELO": 35,
+    "EDWIN ROLANDO RENDON RENDON": 91,
+    "JUAN CARLOS RENDON BETANCUR": 63,
+    "MARIO ALBERTO URIBE QUICENO": 2,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 4,
+    "WILLIAM ALBERTO OSORIO ZAPATA": 2
+   }
+  },
+  {
+   "id": "JARDIN|99|08",
+   "nombre": "Las Macanas",
+   "nombre_oficial": "LAS MACANAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.5432941265562,
+   "lon": -75.8603039808685,
+   "votos_total": 135,
+   "votos_validos": 131,
+   "ganador": "CLAUDIA YANETH NARANJO AGUDELO",
+   "empate": [],
+   "margen_puntos": 6.11,
+   "votos": {
+    "ALVARO ANIBAL CARVAJAL OCHOA": 9,
+    "CLAUDIA YANETH NARANJO AGUDELO": 56,
+    "EDWIN ROLANDO RENDON RENDON": 11,
+    "JUAN CARLOS RENDON BETANCUR": 48,
+    "MARIO ALBERTO URIBE QUICENO": 5,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 2
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

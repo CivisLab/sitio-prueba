@@ -1,0 +1,233 @@
+{
+ "municipio": {
+  "cod_dane": "05264",
+  "cod_registraduria": "118",
+  "nombre": "Entrerríos",
+  "subregion": "Norte",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 5451,
+   "votos_validos": 5342,
+   "margen_puntos": 8.87,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Weimar Villa Tobón",
+     "nombre_oficial": "WEIMAR VILLA TOBON",
+     "partido": "El Momento Es Ahora",
+     "partido_oficial": "EL MOMENTO ES AHORA",
+     "familias": [],
+     "votos": 1851,
+     "porcentaje": 34.65,
+     "posicion": 1
+    },
+    {
+     "nombre": "César Augusto Zapata Monsalve",
+     "nombre_oficial": "CESAR AUGUSTO ZAPATA MONSALVE",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1377,
+     "porcentaje": 25.78,
+     "posicion": 2
+    },
+    {
+     "nombre": "Diego de Jesús Monsalve González",
+     "nombre_oficial": "DIEGO DE JESUS MONSALVE GONZALEZ",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 1191,
+     "porcentaje": 22.3,
+     "posicion": 3
+    },
+    {
+     "nombre": "Jesús Orlando Villa Monsalve",
+     "nombre_oficial": "JESUS ORLANDO VILLA MONSALVE",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 420,
+     "porcentaje": 7.86,
+     "posicion": 4
+    },
+    {
+     "nombre": "Óscar Alberto de Jesús Pérez Betancur",
+     "nombre_oficial": "OSCAR ALBERTO DE JESUS PEREZ BETANCUR",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 308,
+     "porcentaje": 5.77,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 195,
+    "VOTOS NULOS": 58,
+    "VOTOS NO MARCADOS": 51
+   }
+  },
+  "2023": {
+   "votos_depositados": 5970,
+   "votos_validos": 5865,
+   "margen_puntos": 7.71,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Julio César Lopera Posada",
+     "nombre_oficial": "JULIO CESAR LOPERA POSADA",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 1806,
+     "porcentaje": 30.79,
+     "posicion": 1
+    },
+    {
+     "nombre": "Nazarena Margot Tamayo Tamayo",
+     "nombre_oficial": "NAZARENA MARGOT TAMAYO TAMAYO",
+     "partido": "Juntos Somos Imparables",
+     "partido_oficial": "JUNTOS SOMOS IMPARABLES",
+     "familias": [],
+     "votos": 1354,
+     "porcentaje": 23.09,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jorge Alonso Tamayo Villa",
+     "nombre_oficial": "JORGE ALONSO TAMAYO VILLA",
+     "partido": "Partido Conservador-Alianza Social Independiente",
+     "partido_oficial": "PARTIDO CONSERVADOR-ALIANZA SOCIAL INDEPENDIENTE",
+     "familias": [
+      "CONS",
+      "ASI"
+     ],
+     "votos": 1307,
+     "porcentaje": 22.28,
+     "posicion": 3
+    },
+    {
+     "nombre": "Juan Gabriel Pérez Pérez",
+     "nombre_oficial": "JUAN GABRIEL PEREZ PEREZ",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRÁTICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 1277,
+     "porcentaje": 21.77,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 121,
+    "VOTOS NO MARCADOS": 66,
+    "VOTOS NULOS": 39
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [
+   "CREE"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "ENTRERRIOS|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.565717496697933,
+   "lon": -75.5201375484465,
+   "votos_total": 5970,
+   "votos_validos": 5865,
+   "ganador": "JULIO CESAR LOPERA POSADA",
+   "empate": [],
+   "margen_puntos": 7.71,
+   "votos": {
+    "JORGE ALONSO TAMAYO VILLA": 1307,
+    "JUAN GABRIEL PEREZ PEREZ": 1277,
+    "JULIO CESAR LOPERA POSADA": 1806,
+    "NAZARENA MARGOT TAMAYO TAMAYO": 1354,
+    "VOTOS EN BLANCO": 121,
+    "VOTOS NO MARCADOS": 66,
+    "VOTOS NULOS": 39
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

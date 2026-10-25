@@ -1,0 +1,916 @@
+{
+ "municipio": {
+  "cod_dane": "05266",
+  "cod_registraduria": "121",
+  "nombre": "Envigado",
+  "subregion": "Valle de Aburrá",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 114666,
+   "votos_validos": 109505,
+   "margen_puntos": 17.54,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Braulio Alonso Espinosa Márquez",
+     "nombre_oficial": "BRAULIO ALONSO ESPINOSA MARQUEZ",
+     "partido": "Aqui Sumamos Todos",
+     "partido_oficial": "AQUI SUMAMOS TODOS",
+     "familias": [],
+     "votos": 45374,
+     "porcentaje": 41.44,
+     "posicion": 1
+    },
+    {
+     "nombre": "Carlos Manuel Uribe Mesa",
+     "nombre_oficial": "CARLOS MANUEL URIBE MESA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 26167,
+     "porcentaje": 23.9,
+     "posicion": 2
+    },
+    {
+     "nombre": "Andrés David Torres Gómez",
+     "nombre_oficial": "ANDRES DAVID TORRES GOMEZ",
+     "partido": "Apasionados por Envigado",
+     "partido_oficial": "APASIONADOS POR ENVIGADO",
+     "familias": [],
+     "votos": 11636,
+     "porcentaje": 10.63,
+     "posicion": 3
+    },
+    {
+     "nombre": "Ana Carolina Arboleda Gallo",
+     "nombre_oficial": "ANA CAROLINA ARBOLEDA GALLO",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 8717,
+     "porcentaje": 7.96,
+     "posicion": 4
+    },
+    {
+     "nombre": "José Hilario López Niño",
+     "nombre_oficial": "JOSE HILARIO LOPEZ NIÑO",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRATICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 1709,
+     "porcentaje": 1.56,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 15902,
+    "VOTOS NO MARCADOS": 2618,
+    "VOTOS NULOS": 2543
+   }
+  },
+  "2023": {
+   "votos_depositados": 122098,
+   "votos_validos": 117409,
+   "margen_puntos": 16.32,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Raúl Eduardo Cardona González",
+     "nombre_oficial": "RAUL EDUARDO CARDONA GONZALEZ",
+     "partido": "Envigado, Vamos Adelante",
+     "partido_oficial": "ENVIGADO, VAMOS ADELANTE",
+     "familias": [],
+     "votos": 46865,
+     "porcentaje": 39.92,
+     "posicion": 1
+    },
+    {
+     "nombre": "Jhony Oswaldo Vélez Quintero",
+     "nombre_oficial": "JHONY OSWALDO VELEZ QUINTERO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRÁTICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 27702,
+     "porcentaje": 23.59,
+     "posicion": 2
+    },
+    {
+     "nombre": "Sergio Osvaldo Molina Pérez",
+     "nombre_oficial": "SERGIO OSVALDO MOLINA PEREZ",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 15288,
+     "porcentaje": 13.02,
+     "posicion": 3
+    },
+    {
+     "nombre": "Andrés David Torres Gómez",
+     "nombre_oficial": "ANDRES DAVID TORRES GOMEZ",
+     "partido": "Envigado Merece Más",
+     "partido_oficial": "ENVIGADO MERECE MÁS",
+     "familias": [],
+     "votos": 11943,
+     "porcentaje": 10.17,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 15611,
+    "VOTOS NO MARCADOS": 2389,
+    "VOTOS NULOS": 2300
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "ENVIGADO|01|01",
+   "nombre": "Col la Salle de Envigado",
+   "nombre_oficial": "COL LA SALLE DE ENVIGADO",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.180587374643174,
+   "lon": -75.5798858220152,
+   "votos_total": 7430,
+   "votos_validos": 7256,
+   "ganador": "JHONY OSWALDO VELEZ QUINTERO",
+   "empate": [],
+   "margen_puntos": 2.47,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 508,
+    "JHONY OSWALDO VELEZ QUINTERO": 2540,
+    "RAUL EDUARDO CARDONA GONZALEZ": 2361,
+    "SERGIO OSVALDO MOLINA PEREZ": 855,
+    "VOTOS EN BLANCO": 992,
+    "VOTOS NO MARCADOS": 91,
+    "VOTOS NULOS": 83
+   }
+  },
+  {
+   "id": "ENVIGADO|01|02",
+   "nombre": "Col Unid Educ San Marcos",
+   "nombre_oficial": "COL UNID EDUC SAN MARCOS",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.176357453972928,
+   "lon": -75.5864324453588,
+   "votos_total": 7560,
+   "votos_validos": 7409,
+   "ganador": "JHONY OSWALDO VELEZ QUINTERO",
+   "empate": [],
+   "margen_puntos": 4.28,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 514,
+    "JHONY OSWALDO VELEZ QUINTERO": 2840,
+    "RAUL EDUARDO CARDONA GONZALEZ": 2523,
+    "SERGIO OSVALDO MOLINA PEREZ": 881,
+    "VOTOS EN BLANCO": 651,
+    "VOTOS NO MARCADOS": 102,
+    "VOTOS NULOS": 49
+   }
+  },
+  {
+   "id": "ENVIGADO|01|03",
+   "nombre": "Ctro de Encuentro Ciudadano San Marcos",
+   "nombre_oficial": "CTRO DE ENCUENTRO CIUDADANO SAN MARCOS",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.172334145999999,
+   "lon": -75.5852133799999,
+   "votos_total": 1755,
+   "votos_validos": 1717,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 4.66,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 187,
+    "JHONY OSWALDO VELEZ QUINTERO": 455,
+    "RAUL EDUARDO CARDONA GONZALEZ": 535,
+    "SERGIO OSVALDO MOLINA PEREZ": 206,
+    "VOTOS EN BLANCO": 334,
+    "VOTOS NO MARCADOS": 14,
+    "VOTOS NULOS": 24
+   }
+  },
+  {
+   "id": "ENVIGADO|01|04",
+   "nombre": "Colegio Beneditino de Santa María",
+   "nombre_oficial": "COLEGIO BENEDITINO DE SANTA MARIA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.1790896,
+   "lon": -75.5768568999999,
+   "votos_total": 958,
+   "votos_validos": 944,
+   "ganador": "JHONY OSWALDO VELEZ QUINTERO",
+   "empate": [],
+   "margen_puntos": 26.17,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 40,
+    "JHONY OSWALDO VELEZ QUINTERO": 476,
+    "RAUL EDUARDO CARDONA GONZALEZ": 229,
+    "SERGIO OSVALDO MOLINA PEREZ": 82,
+    "VOTOS EN BLANCO": 117,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "ENVIGADO|02|01",
+   "nombre": "IE Marceliano Vélez",
+   "nombre_oficial": "IE MARCELIANO VELEZ",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.172614411184173,
+   "lon": -75.5863816509855,
+   "votos_total": 6816,
+   "votos_validos": 6548,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 12.49,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 625,
+    "JHONY OSWALDO VELEZ QUINTERO": 1751,
+    "RAUL EDUARDO CARDONA GONZALEZ": 2569,
+    "SERGIO OSVALDO MOLINA PEREZ": 884,
+    "VOTOS EN BLANCO": 719,
+    "VOTOS NO MARCADOS": 131,
+    "VOTOS NULOS": 137
+   }
+  },
+  {
+   "id": "ENVIGADO|02|02",
+   "nombre": "Liceo Francisco Restrepo Molina",
+   "nombre_oficial": "LICEO FRANCISCO RESTREPO MOLINA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.170589658656068,
+   "lon": -75.5853688716888,
+   "votos_total": 7986,
+   "votos_validos": 7553,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 23.98,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 905,
+    "JHONY OSWALDO VELEZ QUINTERO": 1214,
+    "RAUL EDUARDO CARDONA GONZALEZ": 3136,
+    "SERGIO OSVALDO MOLINA PEREZ": 1325,
+    "VOTOS EN BLANCO": 973,
+    "VOTOS NO MARCADOS": 203,
+    "VOTOS NULOS": 230
+   }
+  },
+  {
+   "id": "ENVIGADO|02|03",
+   "nombre": "IE Normal Superior de Envigado",
+   "nombre_oficial": "IE NORMAL SUPERIOR DE ENVIGADO",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.16731234,
+   "lon": -75.582708,
+   "votos_total": 1435,
+   "votos_validos": 1386,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 24.68,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 134,
+    "JHONY OSWALDO VELEZ QUINTERO": 227,
+    "RAUL EDUARDO CARDONA GONZALEZ": 571,
+    "SERGIO OSVALDO MOLINA PEREZ": 229,
+    "VOTOS EN BLANCO": 225,
+    "VOTOS NO MARCADOS": 26,
+    "VOTOS NULOS": 23
+   }
+  },
+  {
+   "id": "ENVIGADO|02|04",
+   "nombre": "Colegio Colombo Britanico",
+   "nombre_oficial": "COLEGIO COLOMBO BRITANICO",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.1772434,
+   "lon": -75.5884716999999,
+   "votos_total": 1133,
+   "votos_validos": 1112,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 3.87,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 73,
+    "JHONY OSWALDO VELEZ QUINTERO": 305,
+    "RAUL EDUARDO CARDONA GONZALEZ": 348,
+    "SERGIO OSVALDO MOLINA PEREZ": 124,
+    "VOTOS EN BLANCO": 262,
+    "VOTOS NO MARCADOS": 9,
+    "VOTOS NULOS": 12
+   }
+  },
+  {
+   "id": "ENVIGADO|03|01",
+   "nombre": "IE San Vicente de Paul",
+   "nombre_oficial": "IE SAN VICENTE DE PAUL",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.166740193700381,
+   "lon": -75.5789647586489,
+   "votos_total": 7244,
+   "votos_validos": 6909,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 20.51,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 685,
+    "JHONY OSWALDO VELEZ QUINTERO": 1439,
+    "RAUL EDUARDO CARDONA GONZALEZ": 2856,
+    "SERGIO OSVALDO MOLINA PEREZ": 1232,
+    "VOTOS EN BLANCO": 697,
+    "VOTOS NO MARCADOS": 191,
+    "VOTOS NULOS": 144
+   }
+  },
+  {
+   "id": "ENVIGADO|03|02",
+   "nombre": "IE Darío de Bedout",
+   "nombre_oficial": "IE DARIO DE BEDOUT",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.167608803,
+   "lon": -75.58656444,
+   "votos_total": 2379,
+   "votos_validos": 2306,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 21.21,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 240,
+    "JHONY OSWALDO VELEZ QUINTERO": 357,
+    "RAUL EDUARDO CARDONA GONZALEZ": 846,
+    "SERGIO OSVALDO MOLINA PEREZ": 334,
+    "VOTOS EN BLANCO": 529,
+    "VOTOS NO MARCADOS": 13,
+    "VOTOS NULOS": 60
+   }
+  },
+  {
+   "id": "ENVIGADO|03|03",
+   "nombre": "IE María Paussepin",
+   "nombre_oficial": "IE MARIA PAUSSEPIN",
+   "zona": "03",
+   "rural": false,
+   "lat": 6.17033948,
+   "lon": -75.58952637,
+   "votos_total": 1374,
+   "votos_validos": 1321,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 27.63,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 171,
+    "JHONY OSWALDO VELEZ QUINTERO": 175,
+    "RAUL EDUARDO CARDONA GONZALEZ": 540,
+    "SERGIO OSVALDO MOLINA PEREZ": 170,
+    "VOTOS EN BLANCO": 265,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 43
+   }
+  },
+  {
+   "id": "ENVIGADO|04|01",
+   "nombre": "Escuela Pio Xii",
+   "nombre_oficial": "ESCUELA PIO XII",
+   "zona": "04",
+   "rural": false,
+   "lat": 6.165404117306264,
+   "lon": -75.5815679208754,
+   "votos_total": 4219,
+   "votos_validos": 4061,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 16.1,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 409,
+    "JHONY OSWALDO VELEZ QUINTERO": 896,
+    "RAUL EDUARDO CARDONA GONZALEZ": 1550,
+    "SERGIO OSVALDO MOLINA PEREZ": 594,
+    "VOTOS EN BLANCO": 612,
+    "VOTOS NO MARCADOS": 66,
+    "VOTOS NULOS": 92
+   }
+  },
+  {
+   "id": "ENVIGADO|04|02",
+   "nombre": "Ctro de DESAR. Infantil CDI el Dorado",
+   "nombre_oficial": "CTRO DE DESAR. INFANTIL CDI EL DORADO",
+   "zona": "04",
+   "rural": false,
+   "lat": 6.167414696477737,
+   "lon": -75.5859797663467,
+   "votos_total": 3812,
+   "votos_validos": 3646,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 19.2,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 419,
+    "JHONY OSWALDO VELEZ QUINTERO": 744,
+    "RAUL EDUARDO CARDONA GONZALEZ": 1444,
+    "SERGIO OSVALDO MOLINA PEREZ": 473,
+    "VOTOS EN BLANCO": 566,
+    "VOTOS NO MARCADOS": 70,
+    "VOTOS NULOS": 96
+   }
+  },
+  {
+   "id": "ENVIGADO|04|03",
+   "nombre": "Esc Fernando González",
+   "nombre_oficial": "ESC FERNANDO GONZALEZ",
+   "zona": "04",
+   "rural": false,
+   "lat": 6.167592314203097,
+   "lon": -75.5862405896185,
+   "votos_total": 6776,
+   "votos_validos": 6382,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 20.03,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 708,
+    "JHONY OSWALDO VELEZ QUINTERO": 1421,
+    "RAUL EDUARDO CARDONA GONZALEZ": 2699,
+    "SERGIO OSVALDO MOLINA PEREZ": 898,
+    "VOTOS EN BLANCO": 656,
+    "VOTOS NO MARCADOS": 246,
+    "VOTOS NULOS": 148
+   }
+  },
+  {
+   "id": "ENVIGADO|04|04",
+   "nombre": "IE Manuel Uribe Ángel (Mua)",
+   "nombre_oficial": "IE MANUEL URIBE ANGEL (MUA)",
+   "zona": "04",
+   "rural": false,
+   "lat": 6.169999999999999,
+   "lon": -75.5889999999998,
+   "votos_total": 6308,
+   "votos_validos": 6068,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 16.83,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 637,
+    "JHONY OSWALDO VELEZ QUINTERO": 1415,
+    "RAUL EDUARDO CARDONA GONZALEZ": 2436,
+    "SERGIO OSVALDO MOLINA PEREZ": 663,
+    "VOTOS EN BLANCO": 917,
+    "VOTOS NO MARCADOS": 128,
+    "VOTOS NULOS": 112
+   }
+  },
+  {
+   "id": "ENVIGADO|04|05",
+   "nombre": "I e Alejandro Vélez Barrientos",
+   "nombre_oficial": "I E ALEJANDRO VELEZ BARRIENTOS",
+   "zona": "04",
+   "rural": false,
+   "lat": 6.169939399999999,
+   "lon": -75.5942478999999,
+   "votos_total": 1111,
+   "votos_validos": 1079,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 22.89,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 113,
+    "JHONY OSWALDO VELEZ QUINTERO": 204,
+    "RAUL EDUARDO CARDONA GONZALEZ": 451,
+    "SERGIO OSVALDO MOLINA PEREZ": 124,
+    "VOTOS EN BLANCO": 187,
+    "VOTOS NO MARCADOS": 16,
+    "VOTOS NULOS": 16
+   }
+  },
+  {
+   "id": "ENVIGADO|05|01",
+   "nombre": "Polideportivo Sur de Envigado",
+   "nombre_oficial": "POLIDEPORTIVO SUR DE ENVIGADO",
+   "zona": "05",
+   "rural": false,
+   "lat": 6.153496524,
+   "lon": -75.5847252199998,
+   "votos_total": 5148,
+   "votos_validos": 4943,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 23.02,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 501,
+    "JHONY OSWALDO VELEZ QUINTERO": 1074,
+    "RAUL EDUARDO CARDONA GONZALEZ": 2212,
+    "SERGIO OSVALDO MOLINA PEREZ": 495,
+    "VOTOS EN BLANCO": 661,
+    "VOTOS NO MARCADOS": 108,
+    "VOTOS NULOS": 97
+   }
+  },
+  {
+   "id": "ENVIGADO|05|02",
+   "nombre": "URB. Multifamiliar Señorial",
+   "nombre_oficial": "URB. MULTIFAMILIAR  SEÑORIAL",
+   "zona": "05",
+   "rural": false,
+   "lat": 6.159207348289305,
+   "lon": -75.596719720167,
+   "votos_total": 3576,
+   "votos_validos": 3464,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 20.09,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 378,
+    "JHONY OSWALDO VELEZ QUINTERO": 727,
+    "RAUL EDUARDO CARDONA GONZALEZ": 1423,
+    "SERGIO OSVALDO MOLINA PEREZ": 386,
+    "VOTOS EN BLANCO": 550,
+    "VOTOS NO MARCADOS": 47,
+    "VOTOS NULOS": 65
+   }
+  },
+  {
+   "id": "ENVIGADO|05|03",
+   "nombre": "IE la Paz",
+   "nombre_oficial": "IE LA PAZ",
+   "zona": "05",
+   "rural": false,
+   "lat": 6.162184434193378,
+   "lon": -75.5939608933047,
+   "votos_total": 6217,
+   "votos_validos": 6028,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 18.08,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 720,
+    "JHONY OSWALDO VELEZ QUINTERO": 1461,
+    "RAUL EDUARDO CARDONA GONZALEZ": 2551,
+    "SERGIO OSVALDO MOLINA PEREZ": 647,
+    "VOTOS EN BLANCO": 649,
+    "VOTOS NO MARCADOS": 104,
+    "VOTOS NULOS": 85
+   }
+  },
+  {
+   "id": "ENVIGADO|05|04",
+   "nombre": "IE Leticia Arango de Avendaño",
+   "nombre_oficial": "IE LETICIA ARANGO DE AVENDAÑO",
+   "zona": "05",
+   "rural": false,
+   "lat": 6.168142139999998,
+   "lon": -75.57249971,
+   "votos_total": 2702,
+   "votos_validos": 2639,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 22.13,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 330,
+    "JHONY OSWALDO VELEZ QUINTERO": 466,
+    "RAUL EDUARDO CARDONA GONZALEZ": 1050,
+    "SERGIO OSVALDO MOLINA PEREZ": 276,
+    "VOTOS EN BLANCO": 517,
+    "VOTOS NO MARCADOS": 15,
+    "VOTOS NULOS": 48
+   }
+  },
+  {
+   "id": "ENVIGADO|05|05",
+   "nombre": "IE la Paz Sd Primaria Jhon F. Kennedy",
+   "nombre_oficial": "IE LA PAZ SD PRIMARIA  JHON F. KENNEDY",
+   "zona": "05",
+   "rural": false,
+   "lat": 6.165,
+   "lon": -75.5889999999998,
+   "votos_total": 5096,
+   "votos_validos": 4919,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 15.92,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 580,
+    "JHONY OSWALDO VELEZ QUINTERO": 1121,
+    "RAUL EDUARDO CARDONA GONZALEZ": 1904,
+    "SERGIO OSVALDO MOLINA PEREZ": 659,
+    "VOTOS EN BLANCO": 655,
+    "VOTOS NO MARCADOS": 89,
+    "VOTOS NULOS": 88
+   }
+  },
+  {
+   "id": "ENVIGADO|05|06",
+   "nombre": "Cancha la Merced",
+   "nombre_oficial": "CANCHA LA MERCED",
+   "zona": "05",
+   "rural": false,
+   "lat": 6.1647628,
+   "lon": -75.5912605,
+   "votos_total": 1086,
+   "votos_validos": 1061,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 17.81,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 136,
+    "JHONY OSWALDO VELEZ QUINTERO": 200,
+    "RAUL EDUARDO CARDONA GONZALEZ": 389,
+    "SERGIO OSVALDO MOLINA PEREZ": 148,
+    "VOTOS EN BLANCO": 188,
+    "VOTOS NO MARCADOS": 11,
+    "VOTOS NULOS": 14
+   }
+  },
+  {
+   "id": "ENVIGADO|05|07",
+   "nombre": "Colegio Gimnasio Integral Santa Ana",
+   "nombre_oficial": "COLEGIO GIMNASIO INTEGRAL SANTA ANA",
+   "zona": "05",
+   "rural": false,
+   "lat": 6.161204139325815,
+   "lon": -75.59079598542243,
+   "votos_total": 103,
+   "votos_validos": 102,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 12.75,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 14,
+    "JHONY OSWALDO VELEZ QUINTERO": 19,
+    "RAUL EDUARDO CARDONA GONZALEZ": 33,
+    "SERGIO OSVALDO MOLINA PEREZ": 20,
+    "VOTOS EN BLANCO": 16,
+    "VOTOS NO MARCADOS": 1
+   }
+  },
+  {
+   "id": "ENVIGADO|06|01",
+   "nombre": "IE Comercial de Envigado",
+   "nombre_oficial": "IE COMERCIAL DE ENVIGADO",
+   "zona": "06",
+   "rural": false,
+   "lat": 6.152999999999998,
+   "lon": -75.584,
+   "votos_total": 4757,
+   "votos_validos": 4452,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 34.95,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 633,
+    "JHONY OSWALDO VELEZ QUINTERO": 461,
+    "RAUL EDUARDO CARDONA GONZALEZ": 2189,
+    "SERGIO OSVALDO MOLINA PEREZ": 557,
+    "VOTOS EN BLANCO": 612,
+    "VOTOS NO MARCADOS": 172,
+    "VOTOS NULOS": 133
+   }
+  },
+  {
+   "id": "ENVIGADO|06|02",
+   "nombre": "Inst Universitaria Envigado",
+   "nombre_oficial": "INST UNIVERSITARIA ENVIGADO",
+   "zona": "06",
+   "rural": false,
+   "lat": 6.158,
+   "lon": -75.5799999999998,
+   "votos_total": 8560,
+   "votos_validos": 8145,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 27.32,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 1021,
+    "JHONY OSWALDO VELEZ QUINTERO": 1296,
+    "RAUL EDUARDO CARDONA GONZALEZ": 3556,
+    "SERGIO OSVALDO MOLINA PEREZ": 1331,
+    "VOTOS EN BLANCO": 941,
+    "VOTOS NO MARCADOS": 227,
+    "VOTOS NULOS": 188
+   }
+  },
+  {
+   "id": "ENVIGADO|06|03",
+   "nombre": "IE el Salado",
+   "nombre_oficial": "IE EL SALADO",
+   "zona": "06",
+   "rural": false,
+   "lat": 6.152999999999998,
+   "lon": -75.584,
+   "votos_total": 3380,
+   "votos_validos": 3165,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 35.89,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 338,
+    "JHONY OSWALDO VELEZ QUINTERO": 459,
+    "RAUL EDUARDO CARDONA GONZALEZ": 1595,
+    "SERGIO OSVALDO MOLINA PEREZ": 393,
+    "VOTOS EN BLANCO": 380,
+    "VOTOS NO MARCADOS": 105,
+    "VOTOS NULOS": 110
+   }
+  },
+  {
+   "id": "ENVIGADO|06|04",
+   "nombre": "Col Cumbres",
+   "nombre_oficial": "COL CUMBRES",
+   "zona": "06",
+   "rural": false,
+   "lat": 6.168,
+   "lon": -75.5709999999998,
+   "votos_total": 5349,
+   "votos_validos": 5307,
+   "ganador": "JHONY OSWALDO VELEZ QUINTERO",
+   "empate": [],
+   "margen_puntos": 9.82,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 319,
+    "JHONY OSWALDO VELEZ QUINTERO": 2123,
+    "RAUL EDUARDO CARDONA GONZALEZ": 1602,
+    "SERGIO OSVALDO MOLINA PEREZ": 644,
+    "VOTOS EN BLANCO": 619,
+    "VOTOS NO MARCADOS": 16,
+    "VOTOS NULOS": 26
+   }
+  },
+  {
+   "id": "ENVIGADO|06|05",
+   "nombre": "Colegio Franciscano Palermo de San José",
+   "nombre_oficial": "COLEGIO FRANCISCANO PALERMO DE SAN JOSE",
+   "zona": "06",
+   "rural": false,
+   "lat": 6.1661426830739225,
+   "lon": -75.55312217527495,
+   "votos_total": 150,
+   "votos_validos": 150,
+   "ganador": "JHONY OSWALDO VELEZ QUINTERO",
+   "empate": [],
+   "margen_puntos": 8.0,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 11,
+    "JHONY OSWALDO VELEZ QUINTERO": 58,
+    "RAUL EDUARDO CARDONA GONZALEZ": 46,
+    "SERGIO OSVALDO MOLINA PEREZ": 20,
+    "VOTOS EN BLANCO": 15
+   }
+  },
+  {
+   "id": "ENVIGADO|90|01",
+   "nombre": "José Manuel Restrepo Vélez",
+   "nombre_oficial": "JOSE MANUEL RESTREPO VELEZ",
+   "zona": "90",
+   "rural": false,
+   "lat": 6.171598607772301,
+   "lon": -75.5913255657485,
+   "votos_total": 5197,
+   "votos_validos": 4981,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 7.45,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 517,
+    "JHONY OSWALDO VELEZ QUINTERO": 1351,
+    "RAUL EDUARDO CARDONA GONZALEZ": 1722,
+    "SERGIO OSVALDO MOLINA PEREZ": 561,
+    "VOTOS EN BLANCO": 830,
+    "VOTOS NO MARCADOS": 80,
+    "VOTOS NULOS": 136
+   }
+  },
+  {
+   "id": "ENVIGADO|99|01",
+   "nombre": "Las Palmas Centro de Salud",
+   "nombre_oficial": "LAS PALMAS CENTRO DE SALUD",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.15230415982315,
+   "lon": -75.5342825667894,
+   "votos_total": 2125,
+   "votos_validos": 2001,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 41.48,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 62,
+    "JHONY OSWALDO VELEZ QUINTERO": 397,
+    "RAUL EDUARDO CARDONA GONZALEZ": 1227,
+    "SERGIO OSVALDO MOLINA PEREZ": 72,
+    "VOTOS EN BLANCO": 243,
+    "VOTOS NO MARCADOS": 86,
+    "VOTOS NULOS": 38
+   }
+  },
+  {
+   "id": "ENVIGADO|99|02",
+   "nombre": "Pantanillo IE Martín Eduardo Ríos Llanos",
+   "nombre_oficial": "PANTANILLO IE MARTIN EDUARDO RIOS LLANOS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.18846109999999,
+   "lon": -75.5010651999999,
+   "votos_total": 331,
+   "votos_validos": 331,
+   "ganador": "RAUL EDUARDO CARDONA GONZALEZ",
+   "empate": [],
+   "margen_puntos": 67.37,
+   "votos": {
+    "ANDRES DAVID TORRES GOMEZ": 13,
+    "JHONY OSWALDO VELEZ QUINTERO": 29,
+    "RAUL EDUARDO CARDONA GONZALEZ": 252,
+    "SERGIO OSVALDO MOLINA PEREZ": 5,
+    "VOTOS EN BLANCO": 32
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel Municipal de Envigado",
+   "nombre_oficial": "CARCEL MUNICIPAL DE ENVIGADO",
+   "votos": 25,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "disponible"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

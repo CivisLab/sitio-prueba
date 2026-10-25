@@ -1,0 +1,322 @@
+{
+ "municipio": {
+  "cod_dane": "05809",
+  "cod_registraduria": "274",
+  "nombre": "Titiribí",
+  "subregion": "Suroeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 4401,
+   "votos_validos": 4200,
+   "margen_puntos": 27.95,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Juan Guillermo Bolívar Colorado",
+     "nombre_oficial": "JUAN GUILLERMO BOLIVAR COLORADO",
+     "partido": "Unidos por Titiribi",
+     "partido_oficial": "UNIDOS POR TITIRIBI",
+     "familias": [],
+     "votos": 2640,
+     "porcentaje": 62.86,
+     "posicion": 1
+    },
+    {
+     "nombre": "Diego Antonio Montoya Taborda",
+     "nombre_oficial": "DIEGO ANTONIO MONTOYA TABORDA",
+     "partido": "Titiribi Es de Todos",
+     "partido_oficial": "TITIRIBI ES DE TODOS",
+     "familias": [],
+     "votos": 1466,
+     "porcentaje": 34.9,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 126,
+    "VOTOS EN BLANCO": 94,
+    "VOTOS NULOS": 75
+   }
+  },
+  "2023": {
+   "votos_depositados": 4731,
+   "votos_validos": 4541,
+   "margen_puntos": 17.86,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Alex David Restrepo Salazar",
+     "nombre_oficial": "ALEX DAVID RESTREPO SALAZAR",
+     "partido": "Coalición Somos Titiribi",
+     "partido_oficial": "COALICION SOMOS TITIRIBI",
+     "familias": [],
+     "votos": 2092,
+     "porcentaje": 46.07,
+     "posicion": 1
+    },
+    {
+     "nombre": "Franklin Leandro Osorio Cano",
+     "nombre_oficial": "FRANKLIN LEANDRO OSORIO CANO",
+     "partido": "Movimiento Independiente Recuperando las Raices de Titiribí",
+     "partido_oficial": "MOVIMIENTO INDEPENDIENTE RECUPERANDO LAS RAICES DE TITIRIBÍ",
+     "familias": [],
+     "votos": 1281,
+     "porcentaje": 28.21,
+     "posicion": 2
+    },
+    {
+     "nombre": "Marta Isabel Posada Barrera",
+     "nombre_oficial": "MARTA ISABEL POSADA BARRERA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 665,
+     "porcentaje": 14.64,
+     "posicion": 3
+    },
+    {
+     "nombre": "John Fredy Taborda Flórez",
+     "nombre_oficial": "JOHN FREDY TABORDA FLOREZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 283,
+     "porcentaje": 6.23,
+     "posicion": 4
+    },
+    {
+     "nombre": "Leo Jair Taborda López",
+     "nombre_oficial": "LEO JAIR TABORDA LOPEZ",
+     "partido": "Partido de la Unión por la Gente - Partido de la U",
+     "partido_oficial": "PARTIDO DE LA UNIÓN POR LA GENTE - PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 140,
+     "porcentaje": 3.08,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 126,
+    "VOTOS EN BLANCO": 80,
+    "VOTOS NULOS": 64
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "TITIRIBI|00|01",
+   "nombre": "Escuela Evangelina Betancur",
+   "nombre_oficial": "ESCUELA EVANGELINA BETANCUR",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.062616401647638,
+   "lon": -75.79355354964014,
+   "votos_total": 2195,
+   "votos_validos": 2081,
+   "ganador": "ALEX DAVID RESTREPO SALAZAR",
+   "empate": [],
+   "margen_puntos": 19.89,
+   "votos": {
+    "ALEX DAVID RESTREPO SALAZAR": 955,
+    "FRANKLIN LEANDRO OSORIO CANO": 541,
+    "JOHN FREDY TABORDA FLOREZ": 116,
+    "LEO JAIR TABORDA LOPEZ": 46,
+    "MARTA ISABEL POSADA BARRERA": 391,
+    "VOTOS EN BLANCO": 32,
+    "VOTOS NO MARCADOS": 78,
+    "VOTOS NULOS": 36
+   }
+  },
+  {
+   "id": "TITIRIBI|00|02",
+   "nombre": "Pq EDUC. Juan Bautista Montoya y Flórez",
+   "nombre_oficial": "PQ EDUC. JUAN BAUTISTA MONTOYA Y FLOREZ",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.064100152902757,
+   "lon": -75.79329586238592,
+   "votos_total": 1352,
+   "votos_validos": 1326,
+   "ganador": "ALEX DAVID RESTREPO SALAZAR",
+   "empate": [],
+   "margen_puntos": 19.23,
+   "votos": {
+    "ALEX DAVID RESTREPO SALAZAR": 635,
+    "FRANKLIN LEANDRO OSORIO CANO": 380,
+    "JOHN FREDY TABORDA FLOREZ": 83,
+    "LEO JAIR TABORDA LOPEZ": 20,
+    "MARTA ISABEL POSADA BARRERA": 178,
+    "VOTOS EN BLANCO": 30,
+    "VOTOS NO MARCADOS": 14,
+    "VOTOS NULOS": 12
+   }
+  },
+  {
+   "id": "TITIRIBI|99|01",
+   "nombre": "Antonio José",
+   "nombre_oficial": "ANTONIO JOSE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.047513159194884,
+   "lon": -75.77793512780315,
+   "votos_total": 199,
+   "votos_validos": 187,
+   "ganador": "ALEX DAVID RESTREPO SALAZAR",
+   "empate": [],
+   "margen_puntos": 26.2,
+   "votos": {
+    "ALEX DAVID RESTREPO SALAZAR": 96,
+    "FRANKLIN LEANDRO OSORIO CANO": 47,
+    "JOHN FREDY TABORDA FLOREZ": 16,
+    "LEO JAIR TABORDA LOPEZ": 2,
+    "MARTA ISABEL POSADA BARRERA": 25,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "TITIRIBI|99|05",
+   "nombre": "El Libano",
+   "nombre_oficial": "EL LIBANO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.057994338901115,
+   "lon": -75.754382373998,
+   "votos_total": 563,
+   "votos_validos": 540,
+   "ganador": "ALEX DAVID RESTREPO SALAZAR",
+   "empate": [],
+   "margen_puntos": 16.85,
+   "votos": {
+    "ALEX DAVID RESTREPO SALAZAR": 248,
+    "FRANKLIN LEANDRO OSORIO CANO": 157,
+    "JOHN FREDY TABORDA FLOREZ": 23,
+    "LEO JAIR TABORDA LOPEZ": 69,
+    "MARTA ISABEL POSADA BARRERA": 31,
+    "VOTOS EN BLANCO": 12,
+    "VOTOS NO MARCADOS": 13,
+    "VOTOS NULOS": 10
+   }
+  },
+  {
+   "id": "TITIRIBI|99|09",
+   "nombre": "Otramina",
+   "nombre_oficial": "OTRAMINA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.085551814421425,
+   "lon": -75.80768370254309,
+   "votos_total": 225,
+   "votos_validos": 215,
+   "ganador": "ALEX DAVID RESTREPO SALAZAR",
+   "empate": [],
+   "margen_puntos": 37.67,
+   "votos": {
+    "ALEX DAVID RESTREPO SALAZAR": 127,
+    "FRANKLIN LEANDRO OSORIO CANO": 46,
+    "JOHN FREDY TABORDA FLOREZ": 13,
+    "LEO JAIR TABORDA LOPEZ": 3,
+    "MARTA ISABEL POSADA BARRERA": 24,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "TITIRIBI|99|13",
+   "nombre": "Sitioviejo",
+   "nombre_oficial": "SITIOVIEJO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.075268367250819,
+   "lon": -75.79075785254307,
+   "votos_total": 197,
+   "votos_validos": 192,
+   "ganador": "FRANKLIN LEANDRO OSORIO CANO",
+   "empate": [],
+   "margen_puntos": 40.62,
+   "votos": {
+    "ALEX DAVID RESTREPO SALAZAR": 31,
+    "FRANKLIN LEANDRO OSORIO CANO": 110,
+    "JOHN FREDY TABORDA FLOREZ": 32,
+    "MARTA ISABEL POSADA BARRERA": 16,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

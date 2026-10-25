@@ -1,0 +1,350 @@
+{
+ "municipio": {
+  "cod_dane": "05667",
+  "cod_registraduria": "238",
+  "nombre": "San Rafael",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 8019,
+   "votos_validos": 7724,
+   "margen_puntos": 17.47,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Libardo de Jesús Ciro Morales",
+     "nombre_oficial": "LIBARDO DE JESUS CIRO MORALES",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 3271,
+     "porcentaje": 42.35,
+     "posicion": 1
+    },
+    {
+     "nombre": "Eduin Aniceto Giraldo Quintana",
+     "nombre_oficial": "EDUIN ANICETO GIRALDO QUINTANA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 1922,
+     "porcentaje": 24.88,
+     "posicion": 2
+    },
+    {
+     "nombre": "Gladis Amparo Arboleda Orozco",
+     "nombre_oficial": "GLADIS AMPARO ARBOLEDA OROZCO",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 1165,
+     "porcentaje": 15.08,
+     "posicion": 3
+    },
+    {
+     "nombre": "Bernardo Alonso Arango Clavijo",
+     "nombre_oficial": "BERNARDO ALONSO ARANGO CLAVIJO",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 753,
+     "porcentaje": 9.75,
+     "posicion": 4
+    },
+    {
+     "nombre": "Alberto Hincapie Giraldo",
+     "nombre_oficial": "ALBERTO HINCAPIE GIRALDO",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDIGENAS DE COLOMBIA AICO",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 188,
+     "porcentaje": 2.43,
+     "posicion": 5
+    },
+    {
+     "nombre": "Andrés Esteban Zuluaga Jiménez",
+     "nombre_oficial": "ANDRES ESTEBAN ZULUAGA JIMENEZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 163,
+     "porcentaje": 2.11,
+     "posicion": 6
+    },
+    {
+     "nombre": "José Hermes Posada Cano",
+     "nombre_oficial": "JOSE HERMES POSADA CANO",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 84,
+     "porcentaje": 1.09,
+     "posicion": 7
+    },
+    {
+     "nombre": "Luis Oliverio Guarin Guarin",
+     "nombre_oficial": "LUIS OLIVERIO GUARIN GUARIN",
+     "partido": "Movimiento Alternativo Indigena y Social MAIS",
+     "partido_oficial": "MOVIMIENTO ALTERNATIVO INDIGENA Y SOCIAL MAIS",
+     "familias": [
+      "MAIS"
+     ],
+     "votos": 50,
+     "porcentaje": 0.65,
+     "posicion": 8
+    },
+    {
+     "nombre": "Jhon Alberto Ortega",
+     "nombre_oficial": "JHON ALBERTO ORTEGA",
+     "partido": "Partido Colombia Justa Libres",
+     "partido_oficial": "PARTIDO COLOMBIA JUSTA LIBRES",
+     "familias": [
+      "COL_JUSTA"
+     ],
+     "votos": 49,
+     "porcentaje": 0.63,
+     "posicion": 9
+    },
+    {
+     "nombre": "Alberto Ospina Galvis",
+     "nombre_oficial": "ALBERTO OSPINA GALVIS",
+     "partido": "Colombia Humana - Unión Patriotica",
+     "partido_oficial": "COLOMBIA HUMANA - UNION PATRIOTICA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 5,
+     "porcentaje": 0.06,
+     "posicion": 10
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 183,
+    "VOTOS NULOS": 112,
+    "VOTOS EN BLANCO": 74
+   }
+  },
+  "2023": {
+   "votos_depositados": 8634,
+   "votos_validos": 8369,
+   "margen_puntos": 7.4,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Eduin Aniceto Giraldo Quintana",
+     "nombre_oficial": "EDUIN ANICETO GIRALDO QUINTANA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRÁTICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 3803,
+     "porcentaje": 45.44,
+     "posicion": 1
+    },
+    {
+     "nombre": "David Esteban Bedoya Morales",
+     "nombre_oficial": "DAVID ESTEBAN BEDOYA MORALES",
+     "partido": "Un Camino de Oportunidades",
+     "partido_oficial": "UN CAMINO DE OPORTUNIDADES",
+     "familias": [],
+     "votos": 3184,
+     "porcentaje": 38.05,
+     "posicion": 2
+    },
+    {
+     "nombre": "Gladis Amparo Arboleda Orozco",
+     "nombre_oficial": "GLADIS AMPARO ARBOLEDA OROZCO",
+     "partido": "Ahora Si San Rafael",
+     "partido_oficial": "AHORA SI SAN RAFAEL",
+     "familias": [],
+     "votos": 1235,
+     "porcentaje": 14.76,
+     "posicion": 3
+    },
+    {
+     "nombre": "Abad de Jesús Marín Arcila",
+     "nombre_oficial": "ABAD DE JESUS MARIN ARCILA",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 83,
+     "porcentaje": 0.99,
+     "posicion": 4
+    },
+    {
+     "nombre": "Álvaro de Jesús Giraldo García",
+     "nombre_oficial": "ALVARO DE JESUS GIRALDO GARCIA",
+     "partido": "Partido Político Dignidad & Compromiso",
+     "partido_oficial": "PARTIDO POLÍTICO DIGNIDAD & COMPROMISO",
+     "familias": [],
+     "votos": 13,
+     "porcentaje": 0.16,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 176,
+    "VOTOS NULOS": 89,
+    "VOTOS EN BLANCO": 51
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": false,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "CONS"
+  ],
+  "familias_2023": [
+   "CD"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SAN RAFAEL|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.290697348259286,
+   "lon": -75.0280676455383,
+   "votos_total": 8315,
+   "votos_validos": 8059,
+   "ganador": "EDUIN ANICETO GIRALDO QUINTANA",
+   "empate": [],
+   "margen_puntos": 7.76,
+   "votos": {
+    "ABAD DE JESUS MARIN ARCILA": 82,
+    "ALVARO DE JESUS GIRALDO GARCIA": 11,
+    "DAVID ESTEBAN BEDOYA MORALES": 3063,
+    "EDUIN ANICETO GIRALDO QUINTANA": 3688,
+    "GLADIS AMPARO ARBOLEDA OROZCO": 1167,
+    "VOTOS EN BLANCO": 48,
+    "VOTOS NO MARCADOS": 171,
+    "VOTOS NULOS": 85
+   }
+  },
+  {
+   "id": "SAN RAFAEL|99|15",
+   "nombre": "El Bizcocho",
+   "nombre_oficial": "EL BIZCOCHO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.296977,
+   "lon": -75.066247,
+   "votos_total": 165,
+   "votos_validos": 161,
+   "ganador": "EDUIN ANICETO GIRALDO QUINTANA",
+   "empate": [],
+   "margen_puntos": 8.7,
+   "votos": {
+    "ABAD DE JESUS MARIN ARCILA": 1,
+    "ALVARO DE JESUS GIRALDO GARCIA": 2,
+    "DAVID ESTEBAN BEDOYA MORALES": 55,
+    "EDUIN ANICETO GIRALDO QUINTANA": 69,
+    "GLADIS AMPARO ARBOLEDA OROZCO": 31,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 1,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "SAN RAFAEL|99|23",
+   "nombre": "San Julián",
+   "nombre_oficial": "SAN JULIAN",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.3525963,
+   "lon": -74.8815609,
+   "votos_total": 154,
+   "votos_validos": 149,
+   "ganador": "DAVID ESTEBAN BEDOYA MORALES",
+   "empate": [],
+   "margen_puntos": 13.42,
+   "votos": {
+    "DAVID ESTEBAN BEDOYA MORALES": 66,
+    "EDUIN ANICETO GIRALDO QUINTANA": 46,
+    "GLADIS AMPARO ARBOLEDA OROZCO": 37,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

@@ -1,0 +1,396 @@
+{
+ "municipio": {
+  "cod_dane": "05659",
+  "cod_registraduria": "231",
+  "nombre": "San Juan de Urabá",
+  "subregion": "Urabá",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 11950,
+   "votos_validos": 11586,
+   "margen_puntos": 1.25,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Osbaldo Angulo de la Rosa",
+     "nombre_oficial": "OSBALDO ANGULO DE LA ROSA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 3761,
+     "porcentaje": 32.46,
+     "posicion": 1
+    },
+    {
+     "nombre": "Luis Fernando Ruiz Díaz",
+     "nombre_oficial": "LUIS FERNANDO RUIZ DIAZ",
+     "partido": "San Juan Bien Pensado Ahora Si",
+     "partido_oficial": "SAN JUAN BIEN PENSADO AHORA SI",
+     "familias": [],
+     "votos": 3616,
+     "porcentaje": 31.21,
+     "posicion": 2
+    },
+    {
+     "nombre": "Roberto Enrique Viloria Contreras",
+     "nombre_oficial": "ROBERTO ENRIQUE VILORIA CONTRERAS",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 3591,
+     "porcentaje": 30.99,
+     "posicion": 3
+    },
+    {
+     "nombre": "Luis David Mejía Lemos",
+     "nombre_oficial": "LUIS DAVID MEJIA LEMOS",
+     "partido": "Partido Colombia Justa Libres",
+     "partido_oficial": "PARTIDO COLOMBIA JUSTA LIBRES",
+     "familias": [
+      "COL_JUSTA"
+     ],
+     "votos": 469,
+     "porcentaje": 4.05,
+     "posicion": 4
+    },
+    {
+     "nombre": "Marqueza Cedeño Canaval",
+     "nombre_oficial": "MARQUEZA CEDEÑO CANAVAL",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 108,
+     "porcentaje": 0.93,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 244,
+    "VOTOS NULOS": 120,
+    "VOTOS EN BLANCO": 41
+   }
+  },
+  "2023": {
+   "votos_depositados": 13292,
+   "votos_validos": 12901,
+   "margen_puntos": 0.08,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Julia Esperanza Medrano Coa",
+     "nombre_oficial": "JULIA ESPERANZA MEDRANO COA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 4921,
+     "porcentaje": 38.14,
+     "posicion": 1
+    },
+    {
+     "nombre": "Luis Fernando Ruiz Díaz",
+     "nombre_oficial": "LUIS FERNANDO RUIZ DIAZ",
+     "partido": "El Profe ¡Va Pa Esa!, San Juan Nos Une",
+     "partido_oficial": "EL PROFE ¡VA PA ESA!, SAN JUAN NOS UNE",
+     "familias": [],
+     "votos": 4911,
+     "porcentaje": 38.07,
+     "posicion": 2
+    },
+    {
+     "nombre": "Fabio Alberto Villa Quintero",
+     "nombre_oficial": "FABIO ALBERTO VILLA QUINTERO",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 3010,
+     "porcentaje": 23.33,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 296,
+    "VOTOS NULOS": 95,
+    "VOTOS EN BLANCO": 59
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": false,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "CD"
+  ],
+  "familias_2023": [
+   "LIB"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SAN JUAN DE URABA|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 8.759138,
+   "lon": -76.535654,
+   "votos_total": 6832,
+   "votos_validos": 6673,
+   "ganador": "LUIS FERNANDO RUIZ DIAZ",
+   "empate": [],
+   "margen_puntos": 5.62,
+   "votos": {
+    "FABIO ALBERTO VILLA QUINTERO": 1623,
+    "JULIA ESPERANZA MEDRANO COA": 2319,
+    "LUIS FERNANDO RUIZ DIAZ": 2694,
+    "VOTOS EN BLANCO": 37,
+    "VOTOS NO MARCADOS": 119,
+    "VOTOS NULOS": 40
+   }
+  },
+  {
+   "id": "SAN JUAN DE URABA|99|01",
+   "nombre": "Belén",
+   "nombre_oficial": "BELEN",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.744604833,
+   "lon": -76.5509359299998,
+   "votos_total": 779,
+   "votos_validos": 764,
+   "ganador": "LUIS FERNANDO RUIZ DIAZ",
+   "empate": [],
+   "margen_puntos": 0.52,
+   "votos": {
+    "FABIO ALBERTO VILLA QUINTERO": 244,
+    "JULIA ESPERANZA MEDRANO COA": 257,
+    "LUIS FERNANDO RUIZ DIAZ": 261,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 11,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "SAN JUAN DE URABA|99|10",
+   "nombre": "Damaquiel",
+   "nombre_oficial": "DAMAQUIEL",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.740051605909574,
+   "lon": -76.60700149945549,
+   "votos_total": 1256,
+   "votos_validos": 1197,
+   "ganador": "LUIS FERNANDO RUIZ DIAZ",
+   "empate": [],
+   "margen_puntos": 3.34,
+   "votos": {
+    "FABIO ALBERTO VILLA QUINTERO": 273,
+    "JULIA ESPERANZA MEDRANO COA": 440,
+    "LUIS FERNANDO RUIZ DIAZ": 480,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 48,
+    "VOTOS NULOS": 11
+   }
+  },
+  {
+   "id": "SAN JUAN DE URABA|99|20",
+   "nombre": "La Balsilla",
+   "nombre_oficial": "LA BALSILLA",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.727748056036353,
+   "lon": -76.57153683724233,
+   "votos_total": 430,
+   "votos_validos": 417,
+   "ganador": "LUIS FERNANDO RUIZ DIAZ",
+   "empate": [],
+   "margen_puntos": 24.7,
+   "votos": {
+    "FABIO ALBERTO VILLA QUINTERO": 90,
+    "JULIA ESPERANZA MEDRANO COA": 112,
+    "LUIS FERNANDO RUIZ DIAZ": 215,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 7
+   }
+  },
+  {
+   "id": "SAN JUAN DE URABA|99|30",
+   "nombre": "El Filo de Damaquiel",
+   "nombre_oficial": "EL FILO DE DAMAQUIEL",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.689581736509435,
+   "lon": -76.5656432088161,
+   "votos_total": 554,
+   "votos_validos": 542,
+   "ganador": "JULIA ESPERANZA MEDRANO COA",
+   "empate": [],
+   "margen_puntos": 26.94,
+   "votos": {
+    "FABIO ALBERTO VILLA QUINTERO": 61,
+    "JULIA ESPERANZA MEDRANO COA": 311,
+    "LUIS FERNANDO RUIZ DIAZ": 165,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 6
+   }
+  },
+  {
+   "id": "SAN JUAN DE URABA|99|80",
+   "nombre": "San Juancito",
+   "nombre_oficial": "SAN JUANCITO",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.693610458560574,
+   "lon": -76.49328481434138,
+   "votos_total": 654,
+   "votos_validos": 625,
+   "ganador": "JULIA ESPERANZA MEDRANO COA",
+   "empate": [],
+   "margen_puntos": 14.88,
+   "votos": {
+    "FABIO ALBERTO VILLA QUINTERO": 181,
+    "JULIA ESPERANZA MEDRANO COA": 274,
+    "LUIS FERNANDO RUIZ DIAZ": 167,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 23,
+    "VOTOS NULOS": 6
+   }
+  },
+  {
+   "id": "SAN JUAN DE URABA|99|82",
+   "nombre": "San Nicolás del Rio",
+   "nombre_oficial": "SAN NICOLAS DEL RIO",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.714818771332865,
+   "lon": -76.59079934829387,
+   "votos_total": 887,
+   "votos_validos": 843,
+   "ganador": "LUIS FERNANDO RUIZ DIAZ",
+   "empate": [],
+   "margen_puntos": 3.08,
+   "votos": {
+    "FABIO ALBERTO VILLA QUINTERO": 187,
+    "JULIA ESPERANZA MEDRANO COA": 313,
+    "LUIS FERNANDO RUIZ DIAZ": 339,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 36,
+    "VOTOS NULOS": 8
+   }
+  },
+  {
+   "id": "SAN JUAN DE URABA|99|86",
+   "nombre": "Siete Vueltas",
+   "nombre_oficial": "SIETE VUELTAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.641347644,
+   "lon": -76.54821959,
+   "votos_total": 862,
+   "votos_validos": 834,
+   "ganador": "JULIA ESPERANZA MEDRANO COA",
+   "empate": [],
+   "margen_puntos": 4.32,
+   "votos": {
+    "FABIO ALBERTO VILLA QUINTERO": 200,
+    "JULIA ESPERANZA MEDRANO COA": 334,
+    "LUIS FERNANDO RUIZ DIAZ": 298,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 21,
+    "VOTOS NULOS": 7
+   }
+  },
+  {
+   "id": "SAN JUAN DE URABA|99|91",
+   "nombre": "Uveros",
+   "nombre_oficial": "UVEROS",
+   "zona": "99",
+   "rural": true,
+   "lat": 8.745573918569246,
+   "lon": -76.58058889272584,
+   "votos_total": 1038,
+   "votos_validos": 1006,
+   "ganador": "JULIA ESPERANZA MEDRANO COA",
+   "empate": [],
+   "margen_puntos": 26.74,
+   "votos": {
+    "FABIO ALBERTO VILLA QUINTERO": 151,
+    "JULIA ESPERANZA MEDRANO COA": 561,
+    "LUIS FERNANDO RUIZ DIAZ": 292,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 26,
+    "VOTOS NULOS": 6
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

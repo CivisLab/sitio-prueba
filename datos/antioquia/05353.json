@@ -1,0 +1,296 @@
+{
+ "municipio": {
+  "cod_dane": "05353",
+  "cod_registraduria": "150",
+  "nombre": "Hispania",
+  "subregion": "Suroeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 3249,
+   "votos_validos": 3155,
+   "margen_puntos": 12.68,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Leidy Johana Cardona Rueda",
+     "nombre_oficial": "LEIDY JOHANA CARDONA RUEDA",
+     "partido": "Unidos por Lo Social",
+     "partido_oficial": "UNIDOS POR LO SOCIAL",
+     "familias": [],
+     "votos": 1390,
+     "porcentaje": 44.06,
+     "posicion": 1
+    },
+    {
+     "nombre": "Yasmin Ibony Vanegas Valencia",
+     "nombre_oficial": "YASMIN IBONY VANEGAS VALENCIA",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 990,
+     "porcentaje": 31.38,
+     "posicion": 2
+    },
+    {
+     "nombre": "Juan Carlos Romero Londoño",
+     "nombre_oficial": "JUAN CARLOS ROMERO LONDOÑO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 314,
+     "porcentaje": 9.95,
+     "posicion": 3
+    },
+    {
+     "nombre": "Simón Vásquez Villada",
+     "nombre_oficial": "SIMON VASQUEZ VILLADA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 219,
+     "porcentaje": 6.94,
+     "posicion": 4
+    },
+    {
+     "nombre": "Hernando de Jesús Espinal Ramírez",
+     "nombre_oficial": "HERNANDO DE JESUS ESPINAL RAMIREZ",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 126,
+     "porcentaje": 3.99,
+     "posicion": 5
+    },
+    {
+     "nombre": "Anderson Restrepo Cortes",
+     "nombre_oficial": "ANDERSON RESTREPO CORTES",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 78,
+     "porcentaje": 2.47,
+     "posicion": 6
+    },
+    {
+     "nombre": "Catalina María Lopera Posada",
+     "nombre_oficial": "CATALINA MARIA LOPERA POSADA",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 10,
+     "porcentaje": 0.32,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS NULOS": 48,
+    "VOTOS NO MARCADOS": 46,
+    "VOTOS EN BLANCO": 28
+   }
+  },
+  "2023": {
+   "votos_depositados": 3624,
+   "votos_validos": 3555,
+   "margen_puntos": 2.11,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Orlando Arturo Marín Atehortua",
+     "nombre_oficial": "ORLANDO ARTURO MARIN ATEHORTUA",
+     "partido": "Somos Hispania de Corazón",
+     "partido_oficial": "SOMOS HISPANIA DE CORAZON",
+     "familias": [],
+     "votos": 1518,
+     "porcentaje": 42.7,
+     "posicion": 1
+    },
+    {
+     "nombre": "Fredy Alexander Quiroz Vanegas",
+     "nombre_oficial": "FREDY ALEXANDER QUIROZ VANEGAS",
+     "partido": "Volver a Creer",
+     "partido_oficial": "VOLVER A CREER",
+     "familias": [],
+     "votos": 1443,
+     "porcentaje": 40.59,
+     "posicion": 2
+    },
+    {
+     "nombre": "Sergio Stiven Taborda Álvarez",
+     "nombre_oficial": "SERGIO STIVEN TABORDA ALVAREZ",
+     "partido": "Partido Demócrata Colombiano",
+     "partido_oficial": "PARTIDO DEMÓCRATA COLOMBIANO",
+     "familias": [],
+     "votos": 314,
+     "porcentaje": 8.83,
+     "posicion": 3
+    },
+    {
+     "nombre": "Julián David Maldonado Montoya",
+     "nombre_oficial": "JULIAN DAVID MALDONADO MONTOYA",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRÁTICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 106,
+     "porcentaje": 2.98,
+     "posicion": 4
+    },
+    {
+     "nombre": "Leydy Mariana Cortes Ochoa",
+     "nombre_oficial": "LEYDY MARIANA CORTES OCHOA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 78,
+     "porcentaje": 2.19,
+     "posicion": 5
+    },
+    {
+     "nombre": "Óscar de Jesús Alzate Arboleda",
+     "nombre_oficial": "OSCAR DE JESUS ALZATE ARBOLEDA",
+     "partido": "Movimiento Político Colombia Humana",
+     "partido_oficial": "MOVIMIENTO POLÍTICO COLOMBIA HUMANA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 56,
+     "porcentaje": 1.58,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 40,
+    "VOTOS NULOS": 37,
+    "VOTOS NO MARCADOS": 32
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "HISPANIA|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 5.799048185444184,
+   "lon": -75.9085957937018,
+   "votos_total": 3586,
+   "votos_validos": 3517,
+   "ganador": "ORLANDO ARTURO MARIN ATEHORTUA",
+   "empate": [],
+   "margen_puntos": 2.02,
+   "votos": {
+    "FREDY ALEXANDER QUIROZ VANEGAS": 1430,
+    "JULIAN DAVID MALDONADO MONTOYA": 101,
+    "LEYDY MARIANA CORTES OCHOA": 78,
+    "ORLANDO ARTURO MARIN ATEHORTUA": 1501,
+    "OSCAR DE JESUS ALZATE ARBOLEDA": 56,
+    "SERGIO STIVEN TABORDA ALVAREZ": 311,
+    "VOTOS EN BLANCO": 40,
+    "VOTOS NO MARCADOS": 32,
+    "VOTOS NULOS": 37
+   }
+  },
+  {
+   "id": "HISPANIA|99|25",
+   "nombre": "El Llanete",
+   "nombre_oficial": "EL LLANETE",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.774581582999998,
+   "lon": -75.88675949,
+   "votos_total": 38,
+   "votos_validos": 38,
+   "ganador": "ORLANDO ARTURO MARIN ATEHORTUA",
+   "empate": [],
+   "margen_puntos": 10.53,
+   "votos": {
+    "FREDY ALEXANDER QUIROZ VANEGAS": 13,
+    "JULIAN DAVID MALDONADO MONTOYA": 5,
+    "ORLANDO ARTURO MARIN ATEHORTUA": 17,
+    "SERGIO STIVEN TABORDA ALVAREZ": 3
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

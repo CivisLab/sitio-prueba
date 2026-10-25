@@ -1,0 +1,522 @@
+{
+ "municipio": {
+  "cod_dane": "05847",
+  "cod_registraduria": "283",
+  "nombre": "Urrao",
+  "subregion": "Suroeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 11861,
+   "votos_validos": 11235,
+   "margen_puntos": 23.17,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Jhon Jairo Higuita Rueda",
+     "nombre_oficial": "JHON JAIRO HIGUITA RUEDA",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 4724,
+     "porcentaje": 42.05,
+     "posicion": 1
+    },
+    {
+     "nombre": "Álvaro Salazar Herrera",
+     "nombre_oficial": "ALVARO SALAZAR HERRERA",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 2121,
+     "porcentaje": 18.88,
+     "posicion": 2
+    },
+    {
+     "nombre": "Gildardo de Jesús Pérez Moreno",
+     "nombre_oficial": "GILDARDO DE JESUS PEREZ MORENO",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 1284,
+     "porcentaje": 11.43,
+     "posicion": 3
+    },
+    {
+     "nombre": "Luis Ernesto Vélez Madrid",
+     "nombre_oficial": "LUIS ERNESTO VELEZ MADRID",
+     "partido": "Pasion por Urrao",
+     "partido_oficial": "PASION POR URRAO",
+     "familias": [],
+     "votos": 980,
+     "porcentaje": 8.72,
+     "posicion": 4
+    },
+    {
+     "nombre": "Kenier Alexander Reyes Durango",
+     "nombre_oficial": "KENIER ALEXANDER REYES DURANGO",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 814,
+     "porcentaje": 7.25,
+     "posicion": 5
+    },
+    {
+     "nombre": "Luis Fernando Yepes Roldan",
+     "nombre_oficial": "LUIS FERNANDO YEPES ROLDAN",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 559,
+     "porcentaje": 4.98,
+     "posicion": 6
+    },
+    {
+     "nombre": "Carlos Fernando Sierra Flórez",
+     "nombre_oficial": "CARLOS FERNANDO SIERRA FLOREZ",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 463,
+     "porcentaje": 4.12,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 353,
+    "VOTOS EN BLANCO": 290,
+    "VOTOS NULOS": 273
+   }
+  },
+  "2023": {
+   "votos_depositados": 11651,
+   "votos_validos": 11038,
+   "margen_puntos": 16.35,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Nilson Javier Barrera Holguin",
+     "nombre_oficial": "NILSON JAVIER BARRERA HOLGUIN",
+     "partido": "Trabajemos por Urrao",
+     "partido_oficial": "TRABAJEMOS POR URRAO",
+     "familias": [],
+     "votos": 3451,
+     "porcentaje": 31.26,
+     "posicion": 1
+    },
+    {
+     "nombre": "Jaime Eduardo Urrego Londoño",
+     "nombre_oficial": "JAIME EDUARDO URREGO LONDOÑO",
+     "partido": "Somos Urrao",
+     "partido_oficial": "SOMOS URRAO",
+     "familias": [],
+     "votos": 1646,
+     "porcentaje": 14.91,
+     "posicion": 2
+    },
+    {
+     "nombre": "Brahiam Yecid Caro Vargas",
+     "nombre_oficial": "BRAHIAM YECID CARO VARGAS",
+     "partido": "Por Urrao con Amor y Pasión",
+     "partido_oficial": "POR URRAO CON AMOR Y PASIÓN",
+     "familias": [],
+     "votos": 1428,
+     "porcentaje": 12.94,
+     "posicion": 3
+    },
+    {
+     "nombre": "Daniel Stiven Garzón Rodríguez",
+     "nombre_oficial": "DANIEL STIVEN GARZON RODRIGUEZ",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 1424,
+     "porcentaje": 12.9,
+     "posicion": 4
+    },
+    {
+     "nombre": "Jhon de Jesús Argaez Barrera",
+     "nombre_oficial": "JHON DE JESUS ARGAEZ BARRERA",
+     "partido": "Partido Nuevo Liberalismo",
+     "partido_oficial": "PARTIDO NUEVO LIBERALISMO",
+     "familias": [
+      "LIB",
+      "NL"
+     ],
+     "votos": 1114,
+     "porcentaje": 10.09,
+     "posicion": 5
+    },
+    {
+     "nombre": "Driana Andrea Durango Benítez",
+     "nombre_oficial": "DRIANA ANDREA DURANGO BENITEZ",
+     "partido": "Coalición Partido de la U y Conservador",
+     "partido_oficial": "COALICIÓN PARTIDO DE LA U Y CONSERVADOR",
+     "familias": [
+      "CONS",
+      "U"
+     ],
+     "votos": 989,
+     "porcentaje": 8.96,
+     "posicion": 6
+    },
+    {
+     "nombre": "Sergio Augusto Cardona Godoy",
+     "nombre_oficial": "SERGIO AUGUSTO CARDONA GODOY",
+     "partido": "Pacto Histórico",
+     "partido_oficial": "PACTO HISTORICO",
+     "familias": [
+      "PACTO"
+     ],
+     "votos": 423,
+     "porcentaje": 3.83,
+     "posicion": 7
+    },
+    {
+     "nombre": "John Jairo Vásquez Herron",
+     "nombre_oficial": "JOHN JAIRO VASQUEZ HERRON",
+     "partido": "Primero Es Urrao Jota",
+     "partido_oficial": "PRIMERO ES URRAO JOTA",
+     "familias": [],
+     "votos": 246,
+     "porcentaje": 2.23,
+     "posicion": 8
+    },
+    {
+     "nombre": "Julio Alberto Jiménez Montoya",
+     "nombre_oficial": "JULIO ALBERTO JIMENEZ MONTOYA",
+     "partido": "Partido Político la Fuerza de la Paz",
+     "partido_oficial": "PARTIDO POLÍTICO LA FUERZA DE LA PAZ",
+     "familias": [],
+     "votos": 37,
+     "porcentaje": 0.34,
+     "posicion": 9
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 364,
+    "VOTOS EN BLANCO": 280,
+    "VOTOS NULOS": 249
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "VERDE"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "URRAO|01|01",
+   "nombre": "Casa del Deporte",
+   "nombre_oficial": "CASA DEL DEPORTE",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.311061665409849,
+   "lon": -76.13360161838521,
+   "votos_total": 2752,
+   "votos_validos": 2562,
+   "ganador": "NILSON JAVIER BARRERA HOLGUIN",
+   "empate": [],
+   "margen_puntos": 14.79,
+   "votos": {
+    "BRAHIAM YECID CARO VARGAS": 342,
+    "DANIEL STIVEN GARZON RODRIGUEZ": 351,
+    "DRIANA ANDREA DURANGO BENITEZ": 199,
+    "JAIME EDUARDO URREGO LONDOÑO": 427,
+    "JHON DE JESUS ARGAEZ BARRERA": 237,
+    "JOHN JAIRO VASQUEZ HERRON": 46,
+    "JULIO ALBERTO JIMENEZ MONTOYA": 7,
+    "NILSON JAVIER BARRERA HOLGUIN": 806,
+    "SERGIO AUGUSTO CARDONA GODOY": 95,
+    "VOTOS EN BLANCO": 52,
+    "VOTOS NO MARCADOS": 116,
+    "VOTOS NULOS": 74
+   }
+  },
+  {
+   "id": "URRAO|01|02",
+   "nombre": "Coliseo",
+   "nombre_oficial": "COLISEO",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.30432406270559,
+   "lon": -76.13191937547496,
+   "votos_total": 2176,
+   "votos_validos": 2022,
+   "ganador": "NILSON JAVIER BARRERA HOLGUIN",
+   "empate": [],
+   "margen_puntos": 14.0,
+   "votos": {
+    "BRAHIAM YECID CARO VARGAS": 346,
+    "DANIEL STIVEN GARZON RODRIGUEZ": 255,
+    "DRIANA ANDREA DURANGO BENITEZ": 181,
+    "JAIME EDUARDO URREGO LONDOÑO": 277,
+    "JHON DE JESUS ARGAEZ BARRERA": 178,
+    "JOHN JAIRO VASQUEZ HERRON": 39,
+    "JULIO ALBERTO JIMENEZ MONTOYA": 15,
+    "NILSON JAVIER BARRERA HOLGUIN": 629,
+    "SERGIO AUGUSTO CARDONA GODOY": 51,
+    "VOTOS EN BLANCO": 51,
+    "VOTOS NO MARCADOS": 90,
+    "VOTOS NULOS": 64
+   }
+  },
+  {
+   "id": "URRAO|02|01",
+   "nombre": "ESC. Anexa Normal Sagrada Flia",
+   "nombre_oficial": "ESC. ANEXA NORMAL SAGRADA FLIA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.314897626139288,
+   "lon": -76.13520250068848,
+   "votos_total": 3631,
+   "votos_validos": 3475,
+   "ganador": "NILSON JAVIER BARRERA HOLGUIN",
+   "empate": [],
+   "margen_puntos": 19.31,
+   "votos": {
+    "BRAHIAM YECID CARO VARGAS": 401,
+    "DANIEL STIVEN GARZON RODRIGUEZ": 438,
+    "DRIANA ANDREA DURANGO BENITEZ": 318,
+    "JAIME EDUARDO URREGO LONDOÑO": 470,
+    "JHON DE JESUS ARGAEZ BARRERA": 363,
+    "JOHN JAIRO VASQUEZ HERRON": 111,
+    "JULIO ALBERTO JIMENEZ MONTOYA": 7,
+    "NILSON JAVIER BARRERA HOLGUIN": 1141,
+    "SERGIO AUGUSTO CARDONA GODOY": 127,
+    "VOTOS EN BLANCO": 99,
+    "VOTOS NO MARCADOS": 85,
+    "VOTOS NULOS": 71
+   }
+  },
+  {
+   "id": "URRAO|02|02",
+   "nombre": "I.E. Jaipera",
+   "nombre_oficial": "I.E. JAIPERA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.326788201033864,
+   "lon": -76.1353949839569,
+   "votos_total": 2140,
+   "votos_validos": 2098,
+   "ganador": "NILSON JAVIER BARRERA HOLGUIN",
+   "empate": [],
+   "margen_puntos": 19.45,
+   "votos": {
+    "BRAHIAM YECID CARO VARGAS": 236,
+    "DANIEL STIVEN GARZON RODRIGUEZ": 269,
+    "DRIANA ANDREA DURANGO BENITEZ": 212,
+    "JAIME EDUARDO URREGO LONDOÑO": 305,
+    "JHON DE JESUS ARGAEZ BARRERA": 156,
+    "JOHN JAIRO VASQUEZ HERRON": 42,
+    "JULIO ALBERTO JIMENEZ MONTOYA": 6,
+    "NILSON JAVIER BARRERA HOLGUIN": 713,
+    "SERGIO AUGUSTO CARDONA GODOY": 93,
+    "VOTOS EN BLANCO": 66,
+    "VOTOS NO MARCADOS": 22,
+    "VOTOS NULOS": 20
+   }
+  },
+  {
+   "id": "URRAO|99|09",
+   "nombre": "La Encarnacion",
+   "nombre_oficial": "LA ENCARNACION",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.43990964082246,
+   "lon": -76.20877949708489,
+   "votos_total": 249,
+   "votos_validos": 238,
+   "ganador": "DANIEL STIVEN GARZON RODRIGUEZ",
+   "empate": [],
+   "margen_puntos": 16.39,
+   "votos": {
+    "BRAHIAM YECID CARO VARGAS": 42,
+    "DANIEL STIVEN GARZON RODRIGUEZ": 82,
+    "DRIANA ANDREA DURANGO BENITEZ": 19,
+    "JAIME EDUARDO URREGO LONDOÑO": 26,
+    "JHON DE JESUS ARGAEZ BARRERA": 43,
+    "JOHN JAIRO VASQUEZ HERRON": 1,
+    "NILSON JAVIER BARRERA HOLGUIN": 15,
+    "SERGIO AUGUSTO CARDONA GODOY": 6,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 6
+   }
+  },
+  {
+   "id": "URRAO|99|13",
+   "nombre": "Mande",
+   "nombre_oficial": "MANDE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.4805548258986985,
+   "lon": -76.47213479974036,
+   "votos_total": 216,
+   "votos_validos": 207,
+   "ganador": "JAIME EDUARDO URREGO LONDOÑO",
+   "empate": [],
+   "margen_puntos": 22.71,
+   "votos": {
+    "BRAHIAM YECID CARO VARGAS": 1,
+    "DANIEL STIVEN GARZON RODRIGUEZ": 6,
+    "JAIME EDUARDO URREGO LONDOÑO": 92,
+    "JHON DE JESUS ARGAEZ BARRERA": 43,
+    "NILSON JAVIER BARRERA HOLGUIN": 20,
+    "SERGIO AUGUSTO CARDONA GODOY": 45,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 6
+   }
+  },
+  {
+   "id": "URRAO|99|15",
+   "nombre": "Nendo",
+   "nombre_oficial": "NENDO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.361923978222957,
+   "lon": -76.3330188189056,
+   "votos_total": 64,
+   "votos_validos": 55,
+   "ganador": "NILSON JAVIER BARRERA HOLGUIN",
+   "empate": [],
+   "margen_puntos": 41.82,
+   "votos": {
+    "DANIEL STIVEN GARZON RODRIGUEZ": 2,
+    "JHON DE JESUS ARGAEZ BARRERA": 15,
+    "NILSON JAVIER BARRERA HOLGUIN": 38,
+    "VOTOS NO MARCADOS": 9
+   }
+  },
+  {
+   "id": "URRAO|99|17",
+   "nombre": "Punta de Ocaido",
+   "nombre_oficial": "PUNTA DE OCAIDO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.2350491147517255,
+   "lon": -76.4658533812028,
+   "votos_total": 148,
+   "votos_validos": 122,
+   "ganador": "JHON DE JESUS ARGAEZ BARRERA",
+   "empate": [],
+   "margen_puntos": 29.51,
+   "votos": {
+    "BRAHIAM YECID CARO VARGAS": 1,
+    "DANIEL STIVEN GARZON RODRIGUEZ": 1,
+    "JAIME EDUARDO URREGO LONDOÑO": 7,
+    "JHON DE JESUS ARGAEZ BARRERA": 71,
+    "JOHN JAIRO VASQUEZ HERRON": 2,
+    "JULIO ALBERTO JIMENEZ MONTOYA": 2,
+    "NILSON JAVIER BARRERA HOLGUIN": 35,
+    "SERGIO AUGUSTO CARDONA GODOY": 1,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 24,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "URRAO|99|21",
+   "nombre": "San José",
+   "nombre_oficial": "SAN JOSE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.254694941849011,
+   "lon": -76.12684046787254,
+   "votos_total": 275,
+   "votos_validos": 259,
+   "ganador": "DRIANA ANDREA DURANGO BENITEZ",
+   "empate": [],
+   "margen_puntos": 0.39,
+   "votos": {
+    "BRAHIAM YECID CARO VARGAS": 59,
+    "DANIEL STIVEN GARZON RODRIGUEZ": 20,
+    "DRIANA ANDREA DURANGO BENITEZ": 60,
+    "JAIME EDUARDO URREGO LONDOÑO": 42,
+    "JHON DE JESUS ARGAEZ BARRERA": 8,
+    "JOHN JAIRO VASQUEZ HERRON": 5,
+    "NILSON JAVIER BARRERA HOLGUIN": 54,
+    "SERGIO AUGUSTO CARDONA GODOY": 5,
+    "VOTOS EN BLANCO": 6,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 6
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

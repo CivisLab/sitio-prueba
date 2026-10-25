@@ -1,0 +1,391 @@
+{
+ "municipio": {
+  "cod_dane": "05895",
+  "cod_registraduria": "301",
+  "nombre": "Zaragoza",
+  "subregion": "Bajo Cauca",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 11374,
+   "votos_validos": 10884,
+   "margen_puntos": 19.41,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Víctor Darío Perlaza Hinestroza",
+     "nombre_oficial": "VICTOR DARIO PERLAZA HINESTROZA",
+     "partido": "Partido Conservador Colombiano - Centro Democrático - Cambio Radical",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO  - CENTRO DEMOCRATICO - CAMBIO RADICAL",
+     "familias": [
+      "CONS",
+      "CD",
+      "CR"
+     ],
+     "votos": 5939,
+     "porcentaje": 54.57,
+     "posicion": 1
+    },
+    {
+     "nombre": "Andrés Emilio Lujan Monroy",
+     "nombre_oficial": "ANDRES EMILIO LUJAN MONROY",
+     "partido": "Zaragoza Cuenta Conmigo",
+     "partido_oficial": "ZARAGOZA CUENTA CONMIGO",
+     "familias": [],
+     "votos": 3826,
+     "porcentaje": 35.15,
+     "posicion": 2
+    },
+    {
+     "nombre": "Álvaro Enrique Chedid Amariz",
+     "nombre_oficial": "ALVARO ENRIQUE CHEDID AMARIZ",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 996,
+     "porcentaje": 9.15,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 301,
+    "VOTOS NULOS": 189,
+    "VOTOS EN BLANCO": 123
+   }
+  },
+  "2023": {
+   "votos_depositados": 11904,
+   "votos_validos": 11376,
+   "margen_puntos": 11.64,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Andrés Emilio Lujan Monroy",
+     "nombre_oficial": "ANDRES EMILIO LUJAN MONROY",
+     "partido": "Coalición Partido Liberal y Partido de la U",
+     "partido_oficial": "COALICION PARTIDO LIBERAL Y PARTIDO DE LA U",
+     "familias": [
+      "LIB",
+      "U"
+     ],
+     "votos": 5241,
+     "porcentaje": 46.07,
+     "posicion": 1
+    },
+    {
+     "nombre": "Alexader Silva Jaramillo",
+     "nombre_oficial": "ALEXADER SILVA JARAMILLO",
+     "partido": "Zaragoza, Una Decisión Nos Une",
+     "partido_oficial": "ZARAGOZA, UNA DECISIÓN NOS UNE",
+     "familias": [],
+     "votos": 3917,
+     "porcentaje": 34.43,
+     "posicion": 2
+    },
+    {
+     "nombre": "Daniel Eduardo Mendoza Zapata",
+     "nombre_oficial": "DANIEL EDUARDO MENDOZA ZAPATA",
+     "partido": "Zaragoza Inspira",
+     "partido_oficial": "ZARAGOZA INSPIRA",
+     "familias": [],
+     "votos": 1231,
+     "porcentaje": 10.82,
+     "posicion": 3
+    },
+    {
+     "nombre": "Álvaro Enrique Chedid Amariz",
+     "nombre_oficial": "ALVARO ENRIQUE CHEDID AMARIZ",
+     "partido": "Movimiento Político Fuerza Ciudadana",
+     "partido_oficial": "MOVIMIENTO POLITICO FUERZA CIUDADANA",
+     "familias": [],
+     "votos": 730,
+     "porcentaje": 6.42,
+     "posicion": 4
+    },
+    {
+     "nombre": "Marta Isabel Hernández González",
+     "nombre_oficial": "MARTA ISABEL HERNANDEZ GONZALEZ",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 108,
+     "porcentaje": 0.95,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 320,
+    "VOTOS NULOS": 208,
+    "VOTOS EN BLANCO": 149
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": false,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "CD",
+   "CONS",
+   "CR"
+  ],
+  "familias_2023": [
+   "LIB",
+   "U"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "ZARAGOZA|00|01",
+   "nombre": "IE Cristo de Zaragoza",
+   "nombre_oficial": "IE CRISTO DE ZARAGOZA",
+   "zona": "00",
+   "rural": false,
+   "lat": 7.492005100346887,
+   "lon": -74.8648846149444,
+   "votos_total": 5876,
+   "votos_validos": 5626,
+   "ganador": "ANDRES EMILIO LUJAN MONROY",
+   "empate": [],
+   "margen_puntos": 18.15,
+   "votos": {
+    "ALEXADER SILVA JARAMILLO": 1779,
+    "ALVARO ENRIQUE CHEDID AMARIZ": 441,
+    "ANDRES EMILIO LUJAN MONROY": 2800,
+    "DANIEL EDUARDO MENDOZA ZAPATA": 507,
+    "MARTA ISABEL HERNANDEZ GONZALEZ": 23,
+    "VOTOS EN BLANCO": 76,
+    "VOTOS NO MARCADOS": 151,
+    "VOTOS NULOS": 99
+   }
+  },
+  {
+   "id": "ZARAGOZA|00|02",
+   "nombre": "IE Luis Fernando Restrepo Restrepo",
+   "nombre_oficial": "IE LUIS FERNANDO RESTREPO RESTREPO",
+   "zona": "00",
+   "rural": false,
+   "lat": 7.484733310967645,
+   "lon": -74.8719307866363,
+   "votos_total": 2498,
+   "votos_validos": 2436,
+   "ganador": "ANDRES EMILIO LUJAN MONROY",
+   "empate": [],
+   "margen_puntos": 22.09,
+   "votos": {
+    "ALEXADER SILVA JARAMILLO": 678,
+    "ALVARO ENRIQUE CHEDID AMARIZ": 191,
+    "ANDRES EMILIO LUJAN MONROY": 1216,
+    "DANIEL EDUARDO MENDOZA ZAPATA": 306,
+    "MARTA ISABEL HERNANDEZ GONZALEZ": 8,
+    "VOTOS EN BLANCO": 37,
+    "VOTOS NO MARCADOS": 30,
+    "VOTOS NULOS": 32
+   }
+  },
+  {
+   "id": "ZARAGOZA|99|01",
+   "nombre": "Escarralao (La Pajuila)",
+   "nombre_oficial": "ESCARRALAO (LA PAJUILA)",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.618072222,
+   "lon": -74.89188889,
+   "votos_total": 679,
+   "votos_validos": 646,
+   "ganador": "ANDRES EMILIO LUJAN MONROY",
+   "empate": [],
+   "margen_puntos": 16.25,
+   "votos": {
+    "ALEXADER SILVA JARAMILLO": 220,
+    "ALVARO ENRIQUE CHEDID AMARIZ": 29,
+    "ANDRES EMILIO LUJAN MONROY": 325,
+    "DANIEL EDUARDO MENDOZA ZAPATA": 58,
+    "MARTA ISABEL HERNANDEZ GONZALEZ": 9,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 21,
+    "VOTOS NULOS": 12
+   }
+  },
+  {
+   "id": "ZARAGOZA|99|02",
+   "nombre": "I.E. Rural Vegas de Segovia",
+   "nombre_oficial": "I.E. RURAL VEGAS DE SEGOVIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.4870557,
+   "lon": -75.0273133999999,
+   "votos_total": 560,
+   "votos_validos": 529,
+   "ganador": "ALEXADER SILVA JARAMILLO",
+   "empate": [],
+   "margen_puntos": 39.7,
+   "votos": {
+    "ALEXADER SILVA JARAMILLO": 356,
+    "ALVARO ENRIQUE CHEDID AMARIZ": 7,
+    "ANDRES EMILIO LUJAN MONROY": 146,
+    "DANIEL EDUARDO MENDOZA ZAPATA": 14,
+    "MARTA ISABEL HERNANDEZ GONZALEZ": 5,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 25,
+    "VOTOS NULOS": 6
+   }
+  },
+  {
+   "id": "ZARAGOZA|99|03",
+   "nombre": "Buenos Aires",
+   "nombre_oficial": "BUENOS AIRES",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.608388889,
+   "lon": -74.8143055599998,
+   "votos_total": 977,
+   "votos_validos": 892,
+   "ganador": "ALEXADER SILVA JARAMILLO",
+   "empate": [],
+   "margen_puntos": 0.22,
+   "votos": {
+    "ALEXADER SILVA JARAMILLO": 316,
+    "ALVARO ENRIQUE CHEDID AMARIZ": 45,
+    "ANDRES EMILIO LUJAN MONROY": 314,
+    "DANIEL EDUARDO MENDOZA ZAPATA": 201,
+    "VOTOS EN BLANCO": 16,
+    "VOTOS NO MARCADOS": 51,
+    "VOTOS NULOS": 34
+   }
+  },
+  {
+   "id": "ZARAGOZA|99|04",
+   "nombre": "C.E.R Cordero Icacal",
+   "nombre_oficial": "C.E.R CORDERO ICACAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.5465,
+   "lon": -74.799085,
+   "votos_total": 339,
+   "votos_validos": 321,
+   "ganador": "ALEXADER SILVA JARAMILLO",
+   "empate": [],
+   "margen_puntos": 23.99,
+   "votos": {
+    "ALEXADER SILVA JARAMILLO": 177,
+    "ALVARO ENRIQUE CHEDID AMARIZ": 9,
+    "ANDRES EMILIO LUJAN MONROY": 100,
+    "DANIEL EDUARDO MENDOZA ZAPATA": 32,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 10
+   }
+  },
+  {
+   "id": "ZARAGOZA|99|05",
+   "nombre": "C.E.R. el Saltillo",
+   "nombre_oficial": "C.E.R. EL SALTILLO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.328561346304416,
+   "lon": -74.84649773737335,
+   "votos_total": 165,
+   "votos_validos": 150,
+   "ganador": "ANDRES EMILIO LUJAN MONROY",
+   "empate": [],
+   "margen_puntos": 52.0,
+   "votos": {
+    "ALEXADER SILVA JARAMILLO": 30,
+    "ALVARO ENRIQUE CHEDID AMARIZ": 1,
+    "ANDRES EMILIO LUJAN MONROY": 108,
+    "DANIEL EDUARDO MENDOZA ZAPATA": 4,
+    "MARTA ISABEL HERNANDEZ GONZALEZ": 5,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 14,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "ZARAGOZA|99|13",
+   "nombre": "Pato",
+   "nombre_oficial": "PATO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.498194444,
+   "lon": -74.92297222,
+   "votos_total": 810,
+   "votos_validos": 776,
+   "ganador": "ALEXADER SILVA JARAMILLO",
+   "empate": [],
+   "margen_puntos": 16.62,
+   "votos": {
+    "ALEXADER SILVA JARAMILLO": 361,
+    "ALVARO ENRIQUE CHEDID AMARIZ": 7,
+    "ANDRES EMILIO LUJAN MONROY": 232,
+    "DANIEL EDUARDO MENDOZA ZAPATA": 109,
+    "MARTA ISABEL HERNANDEZ GONZALEZ": 58,
+    "VOTOS EN BLANCO": 9,
+    "VOTOS NO MARCADOS": 20,
+    "VOTOS NULOS": 14
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

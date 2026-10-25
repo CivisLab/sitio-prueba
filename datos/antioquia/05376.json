@@ -1,0 +1,595 @@
+{
+ "municipio": {
+  "cod_dane": "05376",
+  "cod_registraduria": "163",
+  "nombre": "La Ceja",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 36281,
+   "votos_validos": 35510,
+   "margen_puntos": 8.75,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Nelson Fernando Carmona Lopera",
+     "nombre_oficial": "NELSON FERNANDO CARMONA LOPERA",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 12470,
+     "porcentaje": 35.12,
+     "posicion": 1
+    },
+    {
+     "nombre": "Jesús Alexander Tobón Echeverri",
+     "nombre_oficial": "JESUS ALEXANDER TOBON ECHEVERRI",
+     "partido": "La Ceja Nos Une",
+     "partido_oficial": "LA CEJA NOS UNE",
+     "familias": [],
+     "votos": 9364,
+     "porcentaje": 26.37,
+     "posicion": 2
+    },
+    {
+     "nombre": "María Ilbed Santa Santa",
+     "nombre_oficial": "MARIA ILBED SANTA SANTA",
+     "partido": "Hagamos Lo Correcto por la Ceja",
+     "partido_oficial": "HAGAMOS LO CORRECTO POR LA CEJA",
+     "familias": [],
+     "votos": 8887,
+     "porcentaje": 25.03,
+     "posicion": 3
+    },
+    {
+     "nombre": "Geovany Henao Gallego",
+     "nombre_oficial": "GEOVANY HENAO GALLEGO",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 1526,
+     "porcentaje": 4.3,
+     "posicion": 4
+    },
+    {
+     "nombre": "Claudia Selene Mosquera Castrillon",
+     "nombre_oficial": "CLAUDIA SELENE MOSQUERA CASTRILLON",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 1016,
+     "porcentaje": 2.86,
+     "posicion": 5
+    },
+    {
+     "nombre": "Néstor Alexander Santa Lopera",
+     "nombre_oficial": "NESTOR ALEXANDER SANTA LOPERA",
+     "partido": "Compromiso Ciudadano por la Ceja",
+     "partido_oficial": "COMPROMISO CIUDADANO POR LA CEJA",
+     "familias": [],
+     "votos": 849,
+     "porcentaje": 2.39,
+     "posicion": 6
+    },
+    {
+     "nombre": "Sandro de Jesús Jurado Gutiérrez",
+     "nombre_oficial": "SANDRO DE JESUS JURADO GUTIERREZ",
+     "partido": "Colombia Humana - Unión Patriotica",
+     "partido_oficial": "COLOMBIA HUMANA - UNION PATRIOTICA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 300,
+     "porcentaje": 0.84,
+     "posicion": 7
+    },
+    {
+     "nombre": "Luis Hernán Garzón Ríos",
+     "nombre_oficial": "LUIS HERNAN GARZON RIOS",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 191,
+     "porcentaje": 0.54,
+     "posicion": 8
+    },
+    {
+     "nombre": "Javier Ignacio García García",
+     "nombre_oficial": "JAVIER IGNACIO GARCIA GARCIA",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRATICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 127,
+     "porcentaje": 0.36,
+     "posicion": 9
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 780,
+    "VOTOS NULOS": 463,
+    "VOTOS NO MARCADOS": 308
+   }
+  },
+  "2023": {
+   "votos_depositados": 38892,
+   "votos_validos": 37744,
+   "margen_puntos": 3.47,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "María Ilbed Santa Santa",
+     "nombre_oficial": "MARIA ILBED SANTA SANTA",
+     "partido": "Alcaldesa Ilbed Santa #eselmomento",
+     "partido_oficial": "ALCALDESA ILBED SANTA #ESELMOMENTO",
+     "familias": [],
+     "votos": 10213,
+     "porcentaje": 27.06,
+     "posicion": 1
+    },
+    {
+     "nombre": "Carlos Mario Mejía Restrepo",
+     "nombre_oficial": "CARLOS MARIO MEJIA RESTREPO",
+     "partido": "Contigo Adelante",
+     "partido_oficial": "CONTIGO ADELANTE",
+     "familias": [],
+     "votos": 8902,
+     "porcentaje": 23.59,
+     "posicion": 2
+    },
+    {
+     "nombre": "Carlos Mario Bedoya Moreno",
+     "nombre_oficial": "CARLOS MARIO BEDOYA MORENO",
+     "partido": "Movimiento Alternativo Indígena y Social MAIS",
+     "partido_oficial": "MOVIMIENTO ALTERNATIVO INDÍGENA Y SOCIAL \"MAIS\"",
+     "familias": [
+      "MAIS"
+     ],
+     "votos": 8440,
+     "porcentaje": 22.36,
+     "posicion": 3
+    },
+    {
+     "nombre": "Geovany Henao Gallego",
+     "nombre_oficial": "GEOVANY HENAO GALLEGO",
+     "partido": "Por la Ceja, tu Decides, Todos Cambiamos",
+     "partido_oficial": "POR LA CEJA, TU DECIDES, TODOS CAMBIAMOS",
+     "familias": [],
+     "votos": 3472,
+     "porcentaje": 9.2,
+     "posicion": 4
+    },
+    {
+     "nombre": "Edison David Cardona Bedoya",
+     "nombre_oficial": "EDISON DAVID CARDONA BEDOYA",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 1797,
+     "porcentaje": 4.76,
+     "posicion": 5
+    },
+    {
+     "nombre": "Elkin de Jesús Tobón Tobón",
+     "nombre_oficial": "ELKIN DE JESUS TOBON TOBON",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDÍGENAS DE COLOMBIA \"AICO\"",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 1699,
+     "porcentaje": 4.5,
+     "posicion": 6
+    },
+    {
+     "nombre": "Juan Guillermo González Bernal",
+     "nombre_oficial": "JUAN GUILLERMO GONZALEZ BERNAL",
+     "partido": "¡Sí Podemos! por la Ceja",
+     "partido_oficial": "¡SÍ PODEMOS! POR LA CEJA",
+     "familias": [],
+     "votos": 1608,
+     "porcentaje": 4.26,
+     "posicion": 7
+    },
+    {
+     "nombre": "Nelson Martínez Escobar",
+     "nombre_oficial": "NELSON MARTINEZ ESCOBAR",
+     "partido": "Independientes",
+     "partido_oficial": "INDEPENDIENTES",
+     "familias": [],
+     "votos": 327,
+     "porcentaje": 0.87,
+     "posicion": 8
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 1286,
+    "VOTOS NULOS": 662,
+    "VOTOS NO MARCADOS": 486
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "ASI"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "LA CEJA|01|01",
+   "nombre": "ESC. María Josefa Marulanda",
+   "nombre_oficial": "ESC. MARIA JOSEFA MARULANDA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.03139606270254,
+   "lon": -75.4316997528076,
+   "votos_total": 3228,
+   "votos_validos": 3134,
+   "ganador": "MARIA ILBED SANTA SANTA",
+   "empate": [],
+   "margen_puntos": 2.2,
+   "votos": {
+    "CARLOS MARIO BEDOYA MORENO": 742,
+    "CARLOS MARIO MEJIA RESTREPO": 752,
+    "EDISON DAVID CARDONA BEDOYA": 157,
+    "ELKIN DE JESUS TOBON TOBON": 140,
+    "GEOVANY HENAO GALLEGO": 264,
+    "JUAN GUILLERMO GONZALEZ BERNAL": 139,
+    "MARIA ILBED SANTA SANTA": 821,
+    "NELSON MARTINEZ ESCOBAR": 28,
+    "VOTOS EN BLANCO": 91,
+    "VOTOS NO MARCADOS": 31,
+    "VOTOS NULOS": 63
+   }
+  },
+  {
+   "id": "LA CEJA|01|02",
+   "nombre": "CTRO. Educativo la Paz",
+   "nombre_oficial": "CTRO. EDUCATIVO LA PAZ",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.029059100999998,
+   "lon": -75.4293752699998,
+   "votos_total": 6707,
+   "votos_validos": 6491,
+   "ganador": "MARIA ILBED SANTA SANTA",
+   "empate": [],
+   "margen_puntos": 7.81,
+   "votos": {
+    "CARLOS MARIO BEDOYA MORENO": 1377,
+    "CARLOS MARIO MEJIA RESTREPO": 1431,
+    "EDISON DAVID CARDONA BEDOYA": 304,
+    "ELKIN DE JESUS TOBON TOBON": 226,
+    "GEOVANY HENAO GALLEGO": 662,
+    "JUAN GUILLERMO GONZALEZ BERNAL": 317,
+    "MARIA ILBED SANTA SANTA": 1938,
+    "NELSON MARTINEZ ESCOBAR": 60,
+    "VOTOS EN BLANCO": 176,
+    "VOTOS NO MARCADOS": 92,
+    "VOTOS NULOS": 124
+   }
+  },
+  {
+   "id": "LA CEJA|01|03",
+   "nombre": "Parque Biblioteca el Paraiso",
+   "nombre_oficial": "PARQUE BIBLIOTECA EL PARAISO",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.020921931,
+   "lon": -75.43127257,
+   "votos_total": 4448,
+   "votos_validos": 4343,
+   "ganador": "MARIA ILBED SANTA SANTA",
+   "empate": [],
+   "margen_puntos": 0.74,
+   "votos": {
+    "CARLOS MARIO BEDOYA MORENO": 1077,
+    "CARLOS MARIO MEJIA RESTREPO": 982,
+    "EDISON DAVID CARDONA BEDOYA": 240,
+    "ELKIN DE JESUS TOBON TOBON": 121,
+    "GEOVANY HENAO GALLEGO": 367,
+    "JUAN GUILLERMO GONZALEZ BERNAL": 234,
+    "MARIA ILBED SANTA SANTA": 1109,
+    "NELSON MARTINEZ ESCOBAR": 40,
+    "VOTOS EN BLANCO": 173,
+    "VOTOS NO MARCADOS": 43,
+    "VOTOS NULOS": 62
+   }
+  },
+  {
+   "id": "LA CEJA|01|04",
+   "nombre": "I.E. la Paz Sede 2",
+   "nombre_oficial": "I.E.LA PAZ SEDE 2",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.027018631999999,
+   "lon": -75.4270144,
+   "votos_total": 3640,
+   "votos_validos": 3557,
+   "ganador": "CARLOS MARIO BEDOYA MORENO",
+   "empate": [],
+   "margen_puntos": 1.18,
+   "votos": {
+    "CARLOS MARIO BEDOYA MORENO": 914,
+    "CARLOS MARIO MEJIA RESTREPO": 861,
+    "EDISON DAVID CARDONA BEDOYA": 178,
+    "ELKIN DE JESUS TOBON TOBON": 95,
+    "GEOVANY HENAO GALLEGO": 295,
+    "JUAN GUILLERMO GONZALEZ BERNAL": 124,
+    "MARIA ILBED SANTA SANTA": 872,
+    "NELSON MARTINEZ ESCOBAR": 42,
+    "VOTOS EN BLANCO": 176,
+    "VOTOS NO MARCADOS": 30,
+    "VOTOS NULOS": 53
+   }
+  },
+  {
+   "id": "LA CEJA|01|05",
+   "nombre": "IE Concejo Municipal",
+   "nombre_oficial": "IE CONCEJO MUNICIPAL",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.021716616820566,
+   "lon": -75.43083897067413,
+   "votos_total": 1731,
+   "votos_validos": 1693,
+   "ganador": "CARLOS MARIO BEDOYA MORENO",
+   "empate": [],
+   "margen_puntos": 6.2,
+   "votos": {
+    "CARLOS MARIO BEDOYA MORENO": 487,
+    "CARLOS MARIO MEJIA RESTREPO": 382,
+    "EDISON DAVID CARDONA BEDOYA": 90,
+    "ELKIN DE JESUS TOBON TOBON": 63,
+    "GEOVANY HENAO GALLEGO": 125,
+    "JUAN GUILLERMO GONZALEZ BERNAL": 68,
+    "MARIA ILBED SANTA SANTA": 356,
+    "NELSON MARTINEZ ESCOBAR": 13,
+    "VOTOS EN BLANCO": 109,
+    "VOTOS NO MARCADOS": 9,
+    "VOTOS NULOS": 29
+   }
+  },
+  {
+   "id": "LA CEJA|02|01",
+   "nombre": "Esc Justo Pastor Mejía",
+   "nombre_oficial": "ESC JUSTO PASTOR MEJIA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.032202778,
+   "lon": -75.4349222199999,
+   "votos_total": 3267,
+   "votos_validos": 3169,
+   "ganador": "MARIA ILBED SANTA SANTA",
+   "empate": [],
+   "margen_puntos": 3.03,
+   "votos": {
+    "CARLOS MARIO BEDOYA MORENO": 665,
+    "CARLOS MARIO MEJIA RESTREPO": 802,
+    "EDISON DAVID CARDONA BEDOYA": 123,
+    "ELKIN DE JESUS TOBON TOBON": 219,
+    "GEOVANY HENAO GALLEGO": 241,
+    "JUAN GUILLERMO GONZALEZ BERNAL": 93,
+    "MARIA ILBED SANTA SANTA": 898,
+    "NELSON MARTINEZ ESCOBAR": 31,
+    "VOTOS EN BLANCO": 97,
+    "VOTOS NO MARCADOS": 35,
+    "VOTOS NULOS": 63
+   }
+  },
+  {
+   "id": "LA CEJA|02|02",
+   "nombre": "ESC. Alfonso Uribe Jaramillo",
+   "nombre_oficial": "ESC. ALFONSO URIBE JARAMILLO",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.022072222,
+   "lon": -75.4297694399999,
+   "votos_total": 4913,
+   "votos_validos": 4740,
+   "ganador": "MARIA ILBED SANTA SANTA",
+   "empate": [],
+   "margen_puntos": 4.03,
+   "votos": {
+    "CARLOS MARIO BEDOYA MORENO": 1033,
+    "CARLOS MARIO MEJIA RESTREPO": 1176,
+    "EDISON DAVID CARDONA BEDOYA": 174,
+    "ELKIN DE JESUS TOBON TOBON": 101,
+    "GEOVANY HENAO GALLEGO": 480,
+    "JUAN GUILLERMO GONZALEZ BERNAL": 226,
+    "MARIA ILBED SANTA SANTA": 1367,
+    "NELSON MARTINEZ ESCOBAR": 41,
+    "VOTOS EN BLANCO": 142,
+    "VOTOS NO MARCADOS": 80,
+    "VOTOS NULOS": 93
+   }
+  },
+  {
+   "id": "LA CEJA|02|03",
+   "nombre": "Centro Dia Gerontologico",
+   "nombre_oficial": "CENTRO DIA GERONTOLOGICO",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.036310744999998,
+   "lon": -75.42907348,
+   "votos_total": 2485,
+   "votos_validos": 2411,
+   "ganador": "MARIA ILBED SANTA SANTA",
+   "empate": [],
+   "margen_puntos": 3.57,
+   "votos": {
+    "CARLOS MARIO BEDOYA MORENO": 546,
+    "CARLOS MARIO MEJIA RESTREPO": 583,
+    "EDISON DAVID CARDONA BEDOYA": 112,
+    "ELKIN DE JESUS TOBON TOBON": 107,
+    "GEOVANY HENAO GALLEGO": 199,
+    "JUAN GUILLERMO GONZALEZ BERNAL": 73,
+    "MARIA ILBED SANTA SANTA": 669,
+    "NELSON MARTINEZ ESCOBAR": 14,
+    "VOTOS EN BLANCO": 108,
+    "VOTOS NO MARCADOS": 25,
+    "VOTOS NULOS": 49
+   }
+  },
+  {
+   "id": "LA CEJA|02|04",
+   "nombre": "IE Bernardo Uribe Londoño Sd 1",
+   "nombre_oficial": "IE BERNARDO URIBE LONDOÑO SD 1",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.02990800632997,
+   "lon": -75.4234913672782,
+   "votos_total": 2984,
+   "votos_validos": 2929,
+   "ganador": "CARLOS MARIO MEJIA RESTREPO",
+   "empate": [],
+   "margen_puntos": 4.71,
+   "votos": {
+    "CARLOS MARIO BEDOYA MORENO": 686,
+    "CARLOS MARIO MEJIA RESTREPO": 824,
+    "EDISON DAVID CARDONA BEDOYA": 130,
+    "ELKIN DE JESUS TOBON TOBON": 56,
+    "GEOVANY HENAO GALLEGO": 293,
+    "JUAN GUILLERMO GONZALEZ BERNAL": 106,
+    "MARIA ILBED SANTA SANTA": 685,
+    "NELSON MARTINEZ ESCOBAR": 24,
+    "VOTOS EN BLANCO": 125,
+    "VOTOS NO MARCADOS": 21,
+    "VOTOS NULOS": 34
+   }
+  },
+  {
+   "id": "LA CEJA|90|01",
+   "nombre": "Coliseo Polideportivo la Ceja",
+   "nombre_oficial": "COLISEO POLIDEPORTIVO LA CEJA",
+   "zona": "90",
+   "rural": false,
+   "lat": 6.029663889,
+   "lon": -75.43445278,
+   "votos_total": 4272,
+   "votos_validos": 4113,
+   "ganador": "MARIA ILBED SANTA SANTA",
+   "empate": [],
+   "margen_puntos": 9.58,
+   "votos": {
+    "CARLOS MARIO BEDOYA MORENO": 853,
+    "CARLOS MARIO MEJIA RESTREPO": 808,
+    "EDISON DAVID CARDONA BEDOYA": 181,
+    "ELKIN DE JESUS TOBON TOBON": 192,
+    "GEOVANY HENAO GALLEGO": 518,
+    "JUAN GUILLERMO GONZALEZ BERNAL": 203,
+    "MARIA ILBED SANTA SANTA": 1247,
+    "NELSON MARTINEZ ESCOBAR": 33,
+    "VOTOS EN BLANCO": 78,
+    "VOTOS NO MARCADOS": 82,
+    "VOTOS NULOS": 77
+   }
+  },
+  {
+   "id": "LA CEJA|99|47",
+   "nombre": "San José",
+   "nombre_oficial": "SAN JOSE",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.965506226999998,
+   "lon": -75.4883751799999,
+   "votos_total": 1174,
+   "votos_validos": 1123,
+   "ganador": "ELKIN DE JESUS TOBON TOBON",
+   "empate": [],
+   "margen_puntos": 7.75,
+   "votos": {
+    "CARLOS MARIO BEDOYA MORENO": 48,
+    "CARLOS MARIO MEJIA RESTREPO": 292,
+    "EDISON DAVID CARDONA BEDOYA": 104,
+    "ELKIN DE JESUS TOBON TOBON": 379,
+    "GEOVANY HENAO GALLEGO": 26,
+    "JUAN GUILLERMO GONZALEZ BERNAL": 24,
+    "MARIA ILBED SANTA SANTA": 240,
+    "NELSON MARTINEZ ESCOBAR": 1,
+    "VOTOS EN BLANCO": 9,
+    "VOTOS NO MARCADOS": 37,
+    "VOTOS NULOS": 14
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel",
+   "nombre_oficial": "CARCEL",
+   "votos": 43,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

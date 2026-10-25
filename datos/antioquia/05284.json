@@ -1,0 +1,555 @@
+{
+ "municipio": {
+  "cod_dane": "05284",
+  "cod_registraduria": "127",
+  "nombre": "Frontino",
+  "subregion": "Occidente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 9504,
+   "votos_validos": 9152,
+   "margen_puntos": 5.81,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Jorge Hugo Elejalde López",
+     "nombre_oficial": "JORGE HUGO ELEJALDE LOPEZ",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 4570,
+     "porcentaje": 49.93,
+     "posicion": 1
+    },
+    {
+     "nombre": "Luz Gabriela Rivera Cano",
+     "nombre_oficial": "LUZ GABRIELA RIVERA CANO",
+     "partido": "Partido Conservador Colombiano - Cambio Radical",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO - CAMBIO RADICAL",
+     "familias": [
+      "CONS",
+      "CR"
+     ],
+     "votos": 4038,
+     "porcentaje": 44.12,
+     "posicion": 2
+    },
+    {
+     "nombre": "Wilson de Jesús Arango Sarrazola",
+     "nombre_oficial": "WILSON DE JESUS ARANGO SARRAZOLA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 367,
+     "porcentaje": 4.01,
+     "posicion": 3
+    },
+    {
+     "nombre": "Hernán Darío Vélez Monroy",
+     "nombre_oficial": "HERNAN DARIO VELEZ MONROY",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRATICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 65,
+     "porcentaje": 0.71,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 220,
+    "VOTOS NULOS": 132,
+    "VOTOS EN BLANCO": 112
+   }
+  },
+  "2023": {
+   "votos_depositados": 9395,
+   "votos_validos": 9087,
+   "margen_puntos": 7.63,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Luz Gabriela Rivera Cano",
+     "nombre_oficial": "LUZ GABRIELA RIVERA CANO",
+     "partido": "Frontino Nos Une",
+     "partido_oficial": "FRONTINO NOS UNE",
+     "familias": [],
+     "votos": 3261,
+     "porcentaje": 35.89,
+     "posicion": 1
+    },
+    {
+     "nombre": "Mauricio Cano Gutiérrez",
+     "nombre_oficial": "MAURICIO CANO GUTIERREZ",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 2568,
+     "porcentaje": 28.26,
+     "posicion": 2
+    },
+    {
+     "nombre": "Fredy Alonso Carvajal Tamayo",
+     "nombre_oficial": "FREDY ALONSO CARVAJAL TAMAYO",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 1421,
+     "porcentaje": 15.64,
+     "posicion": 3
+    },
+    {
+     "nombre": "Miguel Ángel Sánchez Pérez",
+     "nombre_oficial": "MIGUEL ANGEL SANCHEZ PEREZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 1220,
+     "porcentaje": 13.43,
+     "posicion": 4
+    },
+    {
+     "nombre": "Mateo González Betancur",
+     "nombre_oficial": "MATEO GONZALEZ BETANCUR",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRÁTICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 440,
+     "porcentaje": 4.84,
+     "posicion": 5
+    },
+    {
+     "nombre": "Hernán Darío Vélez Monroy",
+     "nombre_oficial": "HERNAN DARIO VELEZ MONROY",
+     "partido": "Movimiento Político Colombia Humana",
+     "partido_oficial": "MOVIMIENTO POLÍTICO COLOMBIA HUMANA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 75,
+     "porcentaje": 0.83,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 184,
+    "VOTOS NULOS": 124,
+    "VOTOS EN BLANCO": 102
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "LIB"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "FRONTINO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.773903583,
+   "lon": -76.1334282199999,
+   "votos_total": 6009,
+   "votos_validos": 5855,
+   "ganador": "LUZ GABRIELA RIVERA CANO",
+   "empate": [],
+   "margen_puntos": 2.84,
+   "votos": {
+    "FREDY ALONSO CARVAJAL TAMAYO": 1169,
+    "HERNAN DARIO VELEZ MONROY": 60,
+    "LUZ GABRIELA RIVERA CANO": 1957,
+    "MATEO GONZALEZ BETANCUR": 365,
+    "MAURICIO CANO GUTIERREZ": 1791,
+    "MIGUEL ANGEL SANCHEZ PEREZ": 435,
+    "VOTOS EN BLANCO": 78,
+    "VOTOS NO MARCADOS": 77,
+    "VOTOS NULOS": 77
+   }
+  },
+  {
+   "id": "FRONTINO|99|01",
+   "nombre": "Carauta",
+   "nombre_oficial": "CARAUTA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.6701462,
+   "lon": -76.3046057,
+   "votos_total": 151,
+   "votos_validos": 144,
+   "ganador": "MAURICIO CANO GUTIERREZ",
+   "empate": [],
+   "margen_puntos": 19.44,
+   "votos": {
+    "FREDY ALONSO CARVAJAL TAMAYO": 4,
+    "LUZ GABRIELA RIVERA CANO": 37,
+    "MAURICIO CANO GUTIERREZ": 65,
+    "MIGUEL ANGEL SANCHEZ PEREZ": 37,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "FRONTINO|99|03",
+   "nombre": "Chontaduro",
+   "nombre_oficial": "CHONTADURO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.8438889,
+   "lon": -76.21388888888889,
+   "votos_total": 94,
+   "votos_validos": 93,
+   "ganador": "MAURICIO CANO GUTIERREZ",
+   "empate": [],
+   "margen_puntos": 17.2,
+   "votos": {
+    "FREDY ALONSO CARVAJAL TAMAYO": 6,
+    "LUZ GABRIELA RIVERA CANO": 24,
+    "MATEO GONZALEZ BETANCUR": 3,
+    "MAURICIO CANO GUTIERREZ": 40,
+    "MIGUEL ANGEL SANCHEZ PEREZ": 18,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 1
+   }
+  },
+  {
+   "id": "FRONTINO|99|05",
+   "nombre": "El Cerro",
+   "nombre_oficial": "EL CERRO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.7075,
+   "lon": -76.15138888888889,
+   "votos_total": 78,
+   "votos_validos": 76,
+   "ganador": "LUZ GABRIELA RIVERA CANO",
+   "empate": [],
+   "margen_puntos": 17.11,
+   "votos": {
+    "FREDY ALONSO CARVAJAL TAMAYO": 10,
+    "HERNAN DARIO VELEZ MONROY": 1,
+    "LUZ GABRIELA RIVERA CANO": 30,
+    "MATEO GONZALEZ BETANCUR": 2,
+    "MAURICIO CANO GUTIERREZ": 17,
+    "MIGUEL ANGEL SANCHEZ PEREZ": 16,
+    "VOTOS NO MARCADOS": 1,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "FRONTINO|99|07",
+   "nombre": "El Madero",
+   "nombre_oficial": "EL MADERO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.8433333,
+   "lon": -76.13944444444445,
+   "votos_total": 63,
+   "votos_validos": 61,
+   "ganador": null,
+   "empate": [
+    "MAURICIO CANO GUTIERREZ",
+    "MIGUEL ANGEL SANCHEZ PEREZ"
+   ],
+   "margen_puntos": 0.0,
+   "votos": {
+    "FREDY ALONSO CARVAJAL TAMAYO": 12,
+    "LUZ GABRIELA RIVERA CANO": 10,
+    "MATEO GONZALEZ BETANCUR": 1,
+    "MAURICIO CANO GUTIERREZ": 19,
+    "MIGUEL ANGEL SANCHEZ PEREZ": 19,
+    "VOTOS NO MARCADOS": 2
+   }
+  },
+  {
+   "id": "FRONTINO|99|09",
+   "nombre": "Fuemia",
+   "nombre_oficial": "FUEMIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.8608591959129,
+   "lon": -76.24961763360766,
+   "votos_total": 176,
+   "votos_validos": 166,
+   "ganador": "LUZ GABRIELA RIVERA CANO",
+   "empate": [],
+   "margen_puntos": 51.2,
+   "votos": {
+    "FREDY ALONSO CARVAJAL TAMAYO": 3,
+    "LUZ GABRIELA RIVERA CANO": 111,
+    "MATEO GONZALEZ BETANCUR": 5,
+    "MAURICIO CANO GUTIERREZ": 26,
+    "MIGUEL ANGEL SANCHEZ PEREZ": 19,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 5
+   }
+  },
+  {
+   "id": "FRONTINO|99|10",
+   "nombre": "Altos de Murri",
+   "nombre_oficial": "ALTOS DE MURRI",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.54845081905727,
+   "lon": -76.4427871910453,
+   "votos_total": 67,
+   "votos_validos": 57,
+   "ganador": "LUZ GABRIELA RIVERA CANO",
+   "empate": [],
+   "margen_puntos": 31.58,
+   "votos": {
+    "LUZ GABRIELA RIVERA CANO": 36,
+    "MAURICIO CANO GUTIERREZ": 18,
+    "MIGUEL ANGEL SANCHEZ PEREZ": 3,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 5
+   }
+  },
+  {
+   "id": "FRONTINO|99|13",
+   "nombre": "Murri",
+   "nombre_oficial": "MURRI",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.7427778,
+   "lon": -76.36694,
+   "votos_total": 1069,
+   "votos_validos": 1009,
+   "ganador": "MIGUEL ANGEL SANCHEZ PEREZ",
+   "empate": [],
+   "margen_puntos": 6.14,
+   "votos": {
+    "FREDY ALONSO CARVAJAL TAMAYO": 9,
+    "HERNAN DARIO VELEZ MONROY": 4,
+    "LUZ GABRIELA RIVERA CANO": 435,
+    "MATEO GONZALEZ BETANCUR": 2,
+    "MAURICIO CANO GUTIERREZ": 59,
+    "MIGUEL ANGEL SANCHEZ PEREZ": 497,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 49,
+    "VOTOS NULOS": 11
+   }
+  },
+  {
+   "id": "FRONTINO|99|14",
+   "nombre": "Musinga",
+   "nombre_oficial": "MUSINGA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.7813889,
+   "lon": -76.20555555555556,
+   "votos_total": 371,
+   "votos_validos": 368,
+   "ganador": "LUZ GABRIELA RIVERA CANO",
+   "empate": [],
+   "margen_puntos": 31.79,
+   "votos": {
+    "FREDY ALONSO CARVAJAL TAMAYO": 32,
+    "HERNAN DARIO VELEZ MONROY": 1,
+    "LUZ GABRIELA RIVERA CANO": 190,
+    "MATEO GONZALEZ BETANCUR": 22,
+    "MAURICIO CANO GUTIERREZ": 73,
+    "MIGUEL ANGEL SANCHEZ PEREZ": 49,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "FRONTINO|99|17",
+   "nombre": "Ponton",
+   "nombre_oficial": "PONTON",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.7416667,
+   "lon": -76.09388888888888,
+   "votos_total": 202,
+   "votos_validos": 200,
+   "ganador": "LUZ GABRIELA RIVERA CANO",
+   "empate": [],
+   "margen_puntos": 10.5,
+   "votos": {
+    "FREDY ALONSO CARVAJAL TAMAYO": 31,
+    "HERNAN DARIO VELEZ MONROY": 1,
+    "LUZ GABRIELA RIVERA CANO": 81,
+    "MATEO GONZALEZ BETANCUR": 20,
+    "MAURICIO CANO GUTIERREZ": 60,
+    "MIGUEL ANGEL SANCHEZ PEREZ": 5,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 2
+   }
+  },
+  {
+   "id": "FRONTINO|99|19",
+   "nombre": "Noboga",
+   "nombre_oficial": "NOBOGA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.8290972,
+   "lon": -76.18213611111112,
+   "votos_total": 177,
+   "votos_validos": 170,
+   "ganador": "FREDY ALONSO CARVAJAL TAMAYO",
+   "empate": [],
+   "margen_puntos": 2.35,
+   "votos": {
+    "FREDY ALONSO CARVAJAL TAMAYO": 69,
+    "HERNAN DARIO VELEZ MONROY": 3,
+    "LUZ GABRIELA RIVERA CANO": 20,
+    "MATEO GONZALEZ BETANCUR": 10,
+    "MAURICIO CANO GUTIERREZ": 65,
+    "MIGUEL ANGEL SANCHEZ PEREZ": 1,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "FRONTINO|99|21",
+   "nombre": "Nutibara",
+   "nombre_oficial": "NUTIBARA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.803127739999999,
+   "lon": -76.24773095,
+   "votos_total": 908,
+   "votos_validos": 859,
+   "ganador": null,
+   "empate": [
+    "LUZ GABRIELA RIVERA CANO",
+    "MAURICIO CANO GUTIERREZ"
+   ],
+   "margen_puntos": 0.0,
+   "votos": {
+    "FREDY ALONSO CARVAJAL TAMAYO": 75,
+    "HERNAN DARIO VELEZ MONROY": 4,
+    "LUZ GABRIELA RIVERA CANO": 319,
+    "MATEO GONZALEZ BETANCUR": 10,
+    "MAURICIO CANO GUTIERREZ": 319,
+    "MIGUEL ANGEL SANCHEZ PEREZ": 121,
+    "VOTOS EN BLANCO": 11,
+    "VOTOS NO MARCADOS": 33,
+    "VOTOS NULOS": 16
+   }
+  },
+  {
+   "id": "FRONTINO|99|55",
+   "nombre": "Pantanos",
+   "nombre_oficial": "PANTANOS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.7330556,
+   "lon": -76.47111111111111,
+   "votos_total": 3,
+   "votos_validos": 3,
+   "ganador": "MAURICIO CANO GUTIERREZ",
+   "empate": [],
+   "margen_puntos": 33.33,
+   "votos": {
+    "LUZ GABRIELA RIVERA CANO": 1,
+    "MAURICIO CANO GUTIERREZ": 2
+   }
+  },
+  {
+   "id": "FRONTINO|99|58",
+   "nombre": "El Salado",
+   "nombre_oficial": "EL SALADO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.6502778,
+   "lon": -76.27,
+   "votos_total": 27,
+   "votos_validos": 26,
+   "ganador": "MAURICIO CANO GUTIERREZ",
+   "empate": [],
+   "margen_puntos": 15.38,
+   "votos": {
+    "FREDY ALONSO CARVAJAL TAMAYO": 1,
+    "HERNAN DARIO VELEZ MONROY": 1,
+    "LUZ GABRIELA RIVERA CANO": 10,
+    "MAURICIO CANO GUTIERREZ": 14,
+    "VOTOS NULOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

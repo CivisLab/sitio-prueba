@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Metodología y fuentes · CivisLab</title><meta name="description" content="Cómo calcula CivisLab cada cifra: votos válidos, margen, puestos de votación, casas políticas, Atlas, fuentes y huellas sha256."><meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#2B4B48"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"><link rel="stylesheet" href="../estilo.css"></head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="top"><div class="ancho">
+<a class="marca" href="../index.html" aria-label="CivisLab, inicio"><img src="../recursos/logo-palabra.png" alt="CivisLab" width="640" height="148"></a>
+<nav class="nav" aria-label="Menú principal"><a href="../quienes-somos/index.html">Quiénes somos</a><a href="../que-hacemos/index.html">Qué hacemos</a><a href="../como-lo-hacemos/index.html">Cómo lo hacemos</a><a href="../servicios/index.html">Servicios</a></nav>
+<a class="boton primario" href="../hablemos/index.html">Hablemos</a>
+</div></header>
+<main id="contenido">
+<div class="ancho estrecho pagina">
+<p class="ojo">Metodología y fuentes</p>
+<h1>Cómo se calcula cada cifra</h1>
+<p>Todo lo que publica el plan abierto sale de archivos oficiales que cualquiera puede descargar y comprobar con su huella.
+Corte de los datos: 2026-10-25.</p>
+<h2>Base de los porcentajes: votos válidos</h2>
+<p>Todo porcentaje del sitio se calcula sobre los <strong>votos válidos</strong>: los votos por candidaturas más el voto
+en blanco, como los reporta la Registraduría. Los votos nulos y los no marcados aparecen en cada página y en las
+descargas, pero no entran en la base.</p>
+<p>Ejemplo: en La Estrella, Carlos Mario Gutiérrez Arrubla sacó 11.538 votos en 2023. Sobre los 34.583 votos válidos es 33,4 %; sobre los 36.261 depositados daría 31,8 %. Publicamos la primera cifra, que es la que reporta la Registraduría.</p>
+<h2>Margen</h2>
+<p>El margen es la diferencia entre la primera y la segunda candidatura, en puntos porcentuales sobre los votos válidos.
+Si hubo una sola candidatura, no hay margen. Un empate exacto en el primer lugar de un municipio lo decide un sorteo:
+el sitio no elige ganador y ese caso se registra a mano.</p>
+<p>El sello «Reñida» aparece cuando el margen es menor de 5 puntos. El mapa de Antioquia usa una rampa continua de color según el margen, sin umbral.</p><h2>¿Siguió la misma fuerza?</h2><p>No hay reelección inmediata de alcaldes: la pregunta es si en 2023 ganó la misma familia de partido que en 2019, no la misma persona. Cada etiqueta de partido se lleva a su familia con una tabla declarada (por ejemplo, las grafías del Partido de la U o de Cambio Radical). Si una de las dos campañas fue un movimiento sin familia reconocida, la respuesta es «no se puede responder con el dato oficial», nunca un «no» inventado.</p>
+<h2>Puestos de votación</h2>
+<p>Los votos de alcaldía 2023 se suman mesa a mesa (MMV de la Registraduría) por puesto, y cada puesto se ubica con el
+Divipole 2023 georreferenciado. Hoy hay 1.168 puestos en el mapa. El margen de un puesto va en puntos sobre
+sus votos válidos. Si las dos candidaturas con más votos de un puesto empatan, el mapa lo marca como empate y no le da
+el color de ninguna (6 puestos en este corte).</p>
+<p>Quedan fuera del mapa, pero dentro del total del municipio, estos puestos:</p><ul><li>coordenada fuera de rango: 1</li><li>zona 98: puesto carcelario: 33</li></ul>
+<p>Los votos por puesto son agregados: el sitio nunca tiene datos de personas.</p>
+<h2>Nombres y códigos</h2>
+<p>Los nombres de candidaturas, partidos y puestos se muestran en mayúsculas y minúsculas, con las tildes que trae la
+fuente y solo las tildes inequívocas de una lista fija; el nombre oficial, tal como lo escribe la Registraduría, va en
+los JSON y en el CSV. Cada municipio se cruza entre el código de la Registraduría y el del DANE (Santa Fe de Antioquia
+es «ANTIOQUIA» en la Registraduría); un municipio que no cruce detiene la generación, nunca se descarta en silencio.</p>
+<h2>Radiografía de las casas políticas: qué se ve en lo abierto</h2>
+<p>Una radiografía junta avales, coaliciones, cargos, alianzas y rupturas de un municipio, cada vínculo con su fuente.
+En lo abierto solo se ve cuántas personas, cuántas casas o grupos políticos y cuántos vínculos hay, y la forma de la
+red, sin un solo nombre. Solo se cuentan los vínculos con una fuente pública enlazada (documentos oficiales, la
+Registraduría o la prensa); lo que viene de testimonios de campo no se cuenta ni se publica.</p>
+<h2>Atlas: cómo se lee una tarjeta</h2><p>Cada tarjeta compara el dato del municipio con el municipio típico del Valle de Aburrá (la mediana de los 10 municipios). «Mal», «Para vigilar» y «Bien» salen del semáforo de Atlas: de qué tan lejos está el municipio de esa mediana, medido en escalas comparables, y de si viene mejorando o empeorando. Las estimaciones del DANE para municipios (pobreza e inseguridad alimentaria) son modelos, no conteos, y lo dicen. Datos de Atlas generados el 2026-10-15; el reporte técnico, con el método completo, es para suscriptores.</p>
+<h2>Lo que no publicamos</h2>
+<p>CivisLab no publica encuestas, sondeos, intención de voto ni proyecciones sobre candidaturas reales (Ley 2494 de
+2025), y no perfila personas (Ley 1581 de 2012). Lo que el Estudio estima para una campaña se entrega solo a ella, bajo
+contrato de confidencialidad. Los titulares del radar son de cada medio: se enlazan, no se relicencian.</p>
+<h2>Fuentes y huellas</h2>
+<p>La huella sha256 identifica el archivo exacto que leímos: si usted descarga el mismo archivo y calcula su huella,
+debe obtener la misma.</p>
+<div class="tabla-caja"><table><thead><tr><th>Fuente</th><th>sha256</th></tr></thead><tbody><tr><td>Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)<br><a href="https://observatorio.registraduria.gov.co" rel="noopener">https://observatorio.registraduria.gov.co</a></td><td><code>9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c</code></td></tr><tr><td>Registraduría, MMV territoriales 2023 de Antioquia<br><a href="https://observatorio.registraduria.gov.co" rel="noopener">https://observatorio.registraduria.gov.co</a></td><td><code>5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114</code></td></tr><tr><td>Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)<br><a href="https://www.datos.gov.co/d/mv2e-prx5" rel="noopener">https://www.datos.gov.co/d/mv2e-prx5</a></td><td><code>7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342</code></td></tr></tbody></table></div>
+<h2>Registro público de correcciones</h2>
+<p>Sin correcciones a la fecha (2026-10-25). Cada corrección se anotará aquí con su fecha, la página, qué decía y qué
+dice ahora. No publicamos el nombre de quien la pidió, salvo que lo autorice por escrito. Rectificaciones:
+info.civislab@gmail.com, respuesta en 5 días hábiles.</p>
+<h2>Licencia y cita</h2>
+<p>Los datos abiertos van con licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Descargue el
+<a href="../descargas/antioquia_alcaldias_2019_2023.csv">CSV de Antioquia</a>, lea <a href="../descargas/LEEME.txt">cómo leerlo</a> o use los JSON
+por municipio (<code>datos/antioquia/&lt;cod_dane&gt;.json</code>). Lea también el
+<a href="../aviso-legal/index.html">aviso legal y de rectificaciones</a>.</p>
+</div>
+</main>
+<footer class="pie"><div class="ancho">
+<div><a class="marca-pie" href="../index.html" aria-label="CivisLab, inicio"><img src="../recursos/logo-original.png"
+ alt="CivisLab · Información para la decisión pública" width="900" height="285"></a>
+<p>Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.</p></div>
+<nav aria-label="CivisLab"><strong>CivisLab</strong>
+<a href="../quienes-somos/index.html">Quiénes somos</a>
+<a href="../que-hacemos/index.html">Qué hacemos</a>
+<a href="../como-lo-hacemos/index.html">Cómo lo hacemos</a>
+<a href="../servicios/index.html">Servicios</a>
+<a href="../hablemos/index.html">Hablemos</a></nav>
+<nav aria-label="Datos y reglas"><strong>Datos y reglas</strong>
+<a href="../antioquia/index.html">Los 125 municipios de Antioquia</a>
+<a href="../metodologia/index.html">Metodología y fuentes</a>
+<a href="../descargas/antioquia_alcaldias_2019_2023.csv">Descargar los datos de Antioquia (CSV)</a>
+<a href="../aviso-legal/index.html">Aviso legal y rectificaciones</a>
+<a href="../llms.txt">Descripción para modelos de lenguaje (llms.txt)</a></nav>
+</div></footer>
+</body></html>

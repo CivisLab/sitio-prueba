@@ -1,0 +1,361 @@
+{
+ "municipio": {
+  "cod_dane": "05031",
+  "cod_registraduria": "016",
+  "nombre": "Amalfi",
+  "subregion": "Nordeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 9427,
+   "votos_validos": 9102,
+   "margen_puntos": 43.24,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Federico Gil Jaramillo",
+     "nombre_oficial": "FEDERICO GIL JARAMILLO",
+     "partido": "A Gran Alianza por Amalfi Junos Hacemos la Diferencia",
+     "partido_oficial": "A GRAN ALIANZA POR AMALFI JUNOS HACEMOS LA DIFERENCIA",
+     "familias": [],
+     "votos": 6003,
+     "porcentaje": 65.95,
+     "posicion": 1
+    },
+    {
+     "nombre": "Wilmar Alfredo Ríos Ortega",
+     "nombre_oficial": "WILMAR ALFREDO RIOS ORTEGA",
+     "partido": "El Pacto Es de Todos",
+     "partido_oficial": "EL PACTO ES DE TODOS",
+     "familias": [],
+     "votos": 2067,
+     "porcentaje": 22.71,
+     "posicion": 2
+    },
+    {
+     "nombre": "Óscar Mario García Rendón",
+     "nombre_oficial": "OSCAR MARIO GARCIA RENDON",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 848,
+     "porcentaje": 9.32,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 201,
+    "VOTOS EN BLANCO": 184,
+    "VOTOS NULOS": 124
+   }
+  },
+  "2023": {
+   "votos_depositados": 7975,
+   "votos_validos": 7682,
+   "margen_puntos": 6.48,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Wilmar Alonso Vélez Londoño",
+     "nombre_oficial": "WILMAR ALONSO VELEZ LONDOÑO",
+     "partido": "El Desarrollo Territorial Nos Junta",
+     "partido_oficial": "EL DESARROLLO TERRITORIAL NOS JUNTA",
+     "familias": [],
+     "votos": 2651,
+     "porcentaje": 34.51,
+     "posicion": 1
+    },
+    {
+     "nombre": "Román Fernando Monsalve Sánchez",
+     "nombre_oficial": "ROMAN FERNANDO MONSALVE SANCHEZ",
+     "partido": "Partido Conservador Colombiano - Partido Democrata Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO - PARTIDO DEMOCRATA COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 2153,
+     "porcentaje": 28.03,
+     "posicion": 2
+    },
+    {
+     "nombre": "Enrique Roldan Gaviria",
+     "nombre_oficial": "ENRIQUE ROLDAN GAVIRIA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 1683,
+     "porcentaje": 21.91,
+     "posicion": 3
+    },
+    {
+     "nombre": "Humberto de Jesús Foronda Ortega",
+     "nombre_oficial": "HUMBERTO DE JESUS FORONDA ORTEGA",
+     "partido": "Amalfi en Desarrollo, Humberto Alcalde",
+     "partido_oficial": "AMALFI EN DESARROLLO, HUMBERTO ALCALDE",
+     "familias": [],
+     "votos": 263,
+     "porcentaje": 3.42,
+     "posicion": 4
+    },
+    {
+     "nombre": "Gustavo Abad Londoño Aristizábal",
+     "nombre_oficial": "GUSTAVO ABAD LONDOÑO ARISTIZABAL",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 216,
+     "porcentaje": 2.81,
+     "posicion": 5
+    },
+    {
+     "nombre": "Jaime Andrés Ángel Franco",
+     "nombre_oficial": "JAIME ANDRES ANGEL FRANCO",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 183,
+     "porcentaje": 2.38,
+     "posicion": 6
+    },
+    {
+     "nombre": "Fredy León Gallego García",
+     "nombre_oficial": "FREDY LEON GALLEGO GARCIA",
+     "partido": "Partido Político Gente en Movimiento",
+     "partido_oficial": "PARTIDO POLÍTICO GENTE EN MOVIMIENTO",
+     "familias": [],
+     "votos": 134,
+     "porcentaje": 1.74,
+     "posicion": 7
+    },
+    {
+     "nombre": "Julián David Bermúdez Pérez",
+     "nombre_oficial": "JULIAN DAVID BERMUDEZ PEREZ",
+     "partido": "Pacto Histórico Colombia Puede",
+     "partido_oficial": "PACTO HISTÓRICO COLOMBIA PUEDE",
+     "familias": [
+      "PACTO"
+     ],
+     "votos": 97,
+     "porcentaje": 1.26,
+     "posicion": 8
+    },
+    {
+     "nombre": "Bertha Tulia González Gaviria",
+     "nombre_oficial": "BERTHA TULIA GONZALEZ GAVIRIA",
+     "partido": "Partido Nuevo Liberalismo",
+     "partido_oficial": "PARTIDO NUEVO LIBERALISMO",
+     "familias": [
+      "LIB",
+      "NL"
+     ],
+     "votos": 51,
+     "porcentaje": 0.66,
+     "posicion": 9
+    },
+    {
+     "nombre": "Óscar Alberto Herrera MIRA",
+     "nombre_oficial": "OSCAR ALBERTO HERRERA MIRA",
+     "partido": "Partido Político la Fuerza de la Paz",
+     "partido_oficial": "PARTIDO POLÍTICO LA FUERZA DE LA PAZ",
+     "familias": [],
+     "votos": 11,
+     "porcentaje": 0.14,
+     "posicion": 10
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 240,
+    "VOTOS NO MARCADOS": 152,
+    "VOTOS NULOS": 141
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "AMALFI|00|01",
+   "nombre": "IE Eduardo Fernández Botero",
+   "nombre_oficial": "IE EDUARDO FERNANDEZ BOTERO",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.908163488648733,
+   "lon": -75.0742202997206,
+   "votos_total": 5018,
+   "votos_validos": 4798,
+   "ganador": "WILMAR ALONSO VELEZ LONDOÑO",
+   "empate": [],
+   "margen_puntos": 5.19,
+   "votos": {
+    "BERTHA TULIA GONZALEZ GAVIRIA": 31,
+    "ENRIQUE ROLDAN GAVIRIA": 1065,
+    "FREDY LEON GALLEGO GARCIA": 90,
+    "GUSTAVO ABAD LONDOÑO ARISTIZABAL": 144,
+    "HUMBERTO DE JESUS FORONDA ORTEGA": 196,
+    "JAIME ANDRES ANGEL FRANCO": 119,
+    "JULIAN DAVID BERMUDEZ PEREZ": 49,
+    "OSCAR ALBERTO HERRERA MIRA": 7,
+    "ROMAN FERNANDO MONSALVE SANCHEZ": 1365,
+    "VOTOS EN BLANCO": 118,
+    "VOTOS NO MARCADOS": 115,
+    "VOTOS NULOS": 105,
+    "WILMAR ALONSO VELEZ LONDOÑO": 1614
+   }
+  },
+  {
+   "id": "AMALFI|00|02",
+   "nombre": "IE Eduardo Fernández Botero Sd B",
+   "nombre_oficial": "IE EDUARDO FERNANDEZ BOTERO SD B",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.907159635827296,
+   "lon": -75.0734102725981,
+   "votos_total": 2764,
+   "votos_validos": 2714,
+   "ganador": "WILMAR ALONSO VELEZ LONDOÑO",
+   "empate": [],
+   "margen_puntos": 7.85,
+   "votos": {
+    "BERTHA TULIA GONZALEZ GAVIRIA": 18,
+    "ENRIQUE ROLDAN GAVIRIA": 587,
+    "FREDY LEON GALLEGO GARCIA": 39,
+    "GUSTAVO ABAD LONDOÑO ARISTIZABAL": 68,
+    "HUMBERTO DE JESUS FORONDA ORTEGA": 65,
+    "JAIME ANDRES ANGEL FRANCO": 63,
+    "JULIAN DAVID BERMUDEZ PEREZ": 45,
+    "OSCAR ALBERTO HERRERA MIRA": 4,
+    "ROMAN FERNANDO MONSALVE SANCHEZ": 748,
+    "VOTOS EN BLANCO": 116,
+    "VOTOS NO MARCADOS": 21,
+    "VOTOS NULOS": 29,
+    "WILMAR ALONSO VELEZ LONDOÑO": 961
+   }
+  },
+  {
+   "id": "AMALFI|99|01",
+   "nombre": "I.E.R. la Manguita",
+   "nombre_oficial": "I.E.R. LA MANGUITA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.0278817,
+   "lon": -75.0454869,
+   "votos_total": 32,
+   "votos_validos": 31,
+   "ganador": "WILMAR ALONSO VELEZ LONDOÑO",
+   "empate": [],
+   "margen_puntos": 51.61,
+   "votos": {
+    "ENRIQUE ROLDAN GAVIRIA": 4,
+    "JAIME ANDRES ANGEL FRANCO": 1,
+    "JULIAN DAVID BERMUDEZ PEREZ": 1,
+    "ROMAN FERNANDO MONSALVE SANCHEZ": 3,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 1,
+    "WILMAR ALONSO VELEZ LONDOÑO": 20
+   }
+  },
+  {
+   "id": "AMALFI|99|10",
+   "nombre": "Portachuelo",
+   "nombre_oficial": "PORTACHUELO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.864595493999998,
+   "lon": -74.8880085899999,
+   "votos_total": 142,
+   "votos_validos": 123,
+   "ganador": "WILMAR ALONSO VELEZ LONDOÑO",
+   "empate": [],
+   "margen_puntos": 12.2,
+   "votos": {
+    "BERTHA TULIA GONZALEZ GAVIRIA": 1,
+    "ENRIQUE ROLDAN GAVIRIA": 27,
+    "FREDY LEON GALLEGO GARCIA": 5,
+    "GUSTAVO ABAD LONDOÑO ARISTIZABAL": 3,
+    "HUMBERTO DE JESUS FORONDA ORTEGA": 2,
+    "JULIAN DAVID BERMUDEZ PEREZ": 2,
+    "ROMAN FERNANDO MONSALVE SANCHEZ": 32,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 7,
+    "WILMAR ALONSO VELEZ LONDOÑO": 47
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel Municipal",
+   "nombre_oficial": "CARCEL MUNICIPAL",
+   "votos": 19,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

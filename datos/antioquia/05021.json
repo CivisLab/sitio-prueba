@@ -1,0 +1,192 @@
+{
+ "municipio": {
+  "cod_dane": "05021",
+  "cod_registraduria": "010",
+  "nombre": "Alejandría",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 3170,
+   "votos_validos": 3119,
+   "margen_puntos": 13.95,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Sor María Ocampo Giraldo",
+     "nombre_oficial": "SOR MARIA OCAMPO GIRALDO",
+     "partido": "Unidos por Alejandria",
+     "partido_oficial": "UNIDOS POR ALEJANDRIA",
+     "familias": [],
+     "votos": 1344,
+     "porcentaje": 43.09,
+     "posicion": 1
+    },
+    {
+     "nombre": "Gloria Cecilia Naranjo Osorio",
+     "nombre_oficial": "GLORIA CECILIA NARANJO OSORIO",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 909,
+     "porcentaje": 29.14,
+     "posicion": 2
+    },
+    {
+     "nombre": "Óscar Ignacio Valencia Vargas",
+     "nombre_oficial": "OSCAR IGNACIO VALENCIA VARGAS",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 842,
+     "porcentaje": 27.0,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 35,
+    "VOTOS EN BLANCO": 24,
+    "VOTOS NULOS": 16
+   }
+  },
+  "2023": {
+   "votos_depositados": 3248,
+   "votos_validos": 3185,
+   "margen_puntos": 19.91,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Gloria Cecilia Naranjo Osorio",
+     "nombre_oficial": "GLORIA CECILIA NARANJO OSORIO",
+     "partido": "Somos Más Pasion por Alejandria",
+     "partido_oficial": "SOMOS MAS PASION POR ALEJANDRIA",
+     "familias": [],
+     "votos": 1645,
+     "porcentaje": 51.65,
+     "posicion": 1
+    },
+    {
+     "nombre": "Duban Esteban Márquez López",
+     "nombre_oficial": "DUBAN ESTEBAN MARQUEZ LOPEZ",
+     "partido": "Partido Nuevo Liberalismo",
+     "partido_oficial": "PARTIDO NUEVO LIBERALISMO",
+     "familias": [
+      "LIB",
+      "NL"
+     ],
+     "votos": 1011,
+     "porcentaje": 31.74,
+     "posicion": 2
+    },
+    {
+     "nombre": "Héctor Antonio Restrepo Ocampo",
+     "nombre_oficial": "HECTOR ANTONIO RESTREPO OCAMPO",
+     "partido": "Unidos por Alejandria",
+     "partido_oficial": "UNIDOS POR ALEJANDRIA",
+     "familias": [],
+     "votos": 511,
+     "porcentaje": 16.04,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 41,
+    "VOTOS NULOS": 22,
+    "VOTOS EN BLANCO": 18
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "ALEJANDRIA|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.3790835,
+   "lon": -75.1412881,
+   "votos_total": 3248,
+   "votos_validos": 3185,
+   "ganador": "GLORIA CECILIA NARANJO OSORIO",
+   "empate": [],
+   "margen_puntos": 19.91,
+   "votos": {
+    "DUBAN ESTEBAN MARQUEZ LOPEZ": 1011,
+    "GLORIA CECILIA NARANJO OSORIO": 1645,
+    "HECTOR ANTONIO RESTREPO OCAMPO": 511,
+    "VOTOS EN BLANCO": 18,
+    "VOTOS NO MARCADOS": 41,
+    "VOTOS NULOS": 22
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

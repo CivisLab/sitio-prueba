@@ -1,0 +1,221 @@
+{
+ "municipio": {
+  "cod_dane": "05044",
+  "cod_registraduria": "034",
+  "nombre": "Anzá",
+  "subregion": "Occidente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 4034,
+   "votos_validos": 3877,
+   "margen_puntos": 14.26,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Andrés Felipe Holguin Munera",
+     "nombre_oficial": "ANDRES FELIPE HOLGUIN MUNERA",
+     "partido": "Por Anza",
+     "partido_oficial": "POR ANZA",
+     "familias": [],
+     "votos": 2199,
+     "porcentaje": 56.72,
+     "posicion": 1
+    },
+    {
+     "nombre": "Jorge Iván Molina Palacio",
+     "nombre_oficial": "JORGE IVAN MOLINA PALACIO",
+     "partido": "Seguiremos Construyendo Progreso y Bienestar",
+     "partido_oficial": "SEGUIREMOS CONSTRUYENDO PROGRESO Y BIENESTAR",
+     "familias": [],
+     "votos": 1646,
+     "porcentaje": 42.46,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 99,
+    "VOTOS NULOS": 58,
+    "VOTOS EN BLANCO": 32
+   }
+  },
+  "2023": {
+   "votos_depositados": 4655,
+   "votos_validos": 4510,
+   "margen_puntos": 6.36,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Juan Guillermo Hincapie Figueroa",
+     "nombre_oficial": "JUAN GUILLERMO HINCAPIE FIGUEROA",
+     "partido": "Agrupación Política en Marcha",
+     "partido_oficial": "AGRUPACIÓN POLÍTICA EN MARCHA",
+     "familias": [],
+     "votos": 2369,
+     "porcentaje": 52.53,
+     "posicion": 1
+    },
+    {
+     "nombre": "Alexandra Sánchez Marín",
+     "nombre_oficial": "ALEXANDRA SANCHEZ MARIN",
+     "partido": "Recuperemos el Camino",
+     "partido_oficial": "RECUPEREMOS EL CAMINO",
+     "familias": [],
+     "votos": 2082,
+     "porcentaje": 46.16,
+     "posicion": 2
+    },
+    {
+     "nombre": "Bernardo Arteaga Velásquez",
+     "nombre_oficial": "BERNARDO ARTEAGA VELASQUEZ",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 42,
+     "porcentaje": 0.93,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NULOS": 75,
+    "VOTOS NO MARCADOS": 70,
+    "VOTOS EN BLANCO": 17
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "ANZA|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.30091329996217,
+   "lon": -75.85442661322932,
+   "votos_total": 2528,
+   "votos_validos": 2451,
+   "ganador": "JUAN GUILLERMO HINCAPIE FIGUEROA",
+   "empate": [],
+   "margen_puntos": 18.65,
+   "votos": {
+    "ALEXANDRA SANCHEZ MARIN": 977,
+    "BERNARDO ARTEAGA VELASQUEZ": 28,
+    "JUAN GUILLERMO HINCAPIE FIGUEROA": 1434,
+    "VOTOS EN BLANCO": 12,
+    "VOTOS NO MARCADOS": 40,
+    "VOTOS NULOS": 37
+   }
+  },
+  {
+   "id": "ANZA|99|01",
+   "nombre": "Guintar",
+   "nombre_oficial": "GUINTAR",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.302486653969647,
+   "lon": -75.9579082258644,
+   "votos_total": 1698,
+   "votos_validos": 1640,
+   "ganador": "ALEXANDRA SANCHEZ MARIN",
+   "empate": [],
+   "margen_puntos": 15.85,
+   "votos": {
+    "ALEXANDRA SANCHEZ MARIN": 945,
+    "BERNARDO ARTEAGA VELASQUEZ": 7,
+    "JUAN GUILLERMO HINCAPIE FIGUEROA": 685,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 25,
+    "VOTOS NULOS": 33
+   }
+  },
+  {
+   "id": "ANZA|99|30",
+   "nombre": "La Cejita",
+   "nombre_oficial": "LA CEJITA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.327293,
+   "lon": -75.9112159999998,
+   "votos_total": 429,
+   "votos_validos": 419,
+   "ganador": "JUAN GUILLERMO HINCAPIE FIGUEROA",
+   "empate": [],
+   "margen_puntos": 21.48,
+   "votos": {
+    "ALEXANDRA SANCHEZ MARIN": 160,
+    "BERNARDO ARTEAGA VELASQUEZ": 7,
+    "JUAN GUILLERMO HINCAPIE FIGUEROA": 250,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 5
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

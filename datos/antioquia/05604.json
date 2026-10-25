@@ -1,0 +1,448 @@
+{
+ "municipio": {
+  "cod_dane": "05604",
+  "cod_registraduria": "208",
+  "nombre": "Remedios",
+  "subregion": "Nordeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 10872,
+   "votos_validos": 10398,
+   "margen_puntos": 11.98,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "John Jairo Uribe Castrillon",
+     "nombre_oficial": "JOHN JAIRO URIBE CASTRILLON",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 3596,
+     "porcentaje": 34.58,
+     "posicion": 1
+    },
+    {
+     "nombre": "Albeiro Arenas Molina",
+     "nombre_oficial": "ALBEIRO ARENAS MOLINA",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDIGENAS DE COLOMBIA AICO",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 2350,
+     "porcentaje": 22.6,
+     "posicion": 2
+    },
+    {
+     "nombre": "Héctor Andrés Orrego Ruiz",
+     "nombre_oficial": "HECTOR ANDRES ORREGO RUIZ",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 1716,
+     "porcentaje": 16.5,
+     "posicion": 3
+    },
+    {
+     "nombre": "Jorge Eliecer Gil",
+     "nombre_oficial": "JORGE ELIECER GIL",
+     "partido": "Partido Conservador Colombiano - Partido de la U",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO - PARTIDO DE LA U",
+     "familias": [
+      "CONS",
+      "U"
+     ],
+     "votos": 1634,
+     "porcentaje": 15.71,
+     "posicion": 4
+    },
+    {
+     "nombre": "Gonzalo de Jesús Sánchez Ramírez",
+     "nombre_oficial": "GONZALO DE JESUS SANCHEZ RAMIREZ",
+     "partido": "Remedios para Todo",
+     "partido_oficial": "REMEDIOS PARA TODO",
+     "familias": [],
+     "votos": 554,
+     "porcentaje": 5.33,
+     "posicion": 5
+    },
+    {
+     "nombre": "Dorian Francisco Salazar Palacio",
+     "nombre_oficial": "DORIAN FRANCISCO SALAZAR PALACIO",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 389,
+     "porcentaje": 3.74,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 330,
+    "VOTOS EN BLANCO": 159,
+    "VOTOS NULOS": 144
+   }
+  },
+  "2023": {
+   "votos_depositados": 10412,
+   "votos_validos": 10063,
+   "margen_puntos": 37.14,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Albeiro Arenas Molina",
+     "nombre_oficial": "ALBEIRO ARENAS MOLINA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 5227,
+     "porcentaje": 51.94,
+     "posicion": 1
+    },
+    {
+     "nombre": "Lucía del Socorro Carvajal de Silvera",
+     "nombre_oficial": "LUCIA DEL SOCORRO CARVAJAL DE SILVERA",
+     "partido": "Movimiento Político Colombia Humana",
+     "partido_oficial": "MOVIMIENTO POLÍTICO COLOMBIA HUMANA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 1490,
+     "porcentaje": 14.81,
+     "posicion": 2
+    },
+    {
+     "nombre": "Gustavo Arquimedes Vidales López",
+     "nombre_oficial": "GUSTAVO ARQUIMEDES VIDALES LOPEZ",
+     "partido": "Remedios Incluyente",
+     "partido_oficial": "REMEDIOS INCLUYENTE",
+     "familias": [],
+     "votos": 1312,
+     "porcentaje": 13.04,
+     "posicion": 3
+    },
+    {
+     "nombre": "Dorian Francisco Salazar Palacio",
+     "nombre_oficial": "DORIAN FRANCISCO SALAZAR PALACIO",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 715,
+     "porcentaje": 7.11,
+     "posicion": 4
+    },
+    {
+     "nombre": "Duban Alveiro Duque Restrepo",
+     "nombre_oficial": "DUBAN ALVEIRO DUQUE RESTREPO",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 588,
+     "porcentaje": 5.84,
+     "posicion": 5
+    },
+    {
+     "nombre": "George Brandon Mesa Cano",
+     "nombre_oficial": "GEORGE BRANDON MESA CANO",
+     "partido": "Partido Político Dignidad & Compromiso",
+     "partido_oficial": "PARTIDO POLÍTICO DIGNIDAD & COMPROMISO",
+     "familias": [],
+     "votos": 441,
+     "porcentaje": 4.38,
+     "posicion": 6
+    },
+    {
+     "nombre": "Héctor Ovidio Agudelo Duque",
+     "nombre_oficial": "HECTOR OVIDIO AGUDELO DUQUE",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRÁTICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 134,
+     "porcentaje": 1.33,
+     "posicion": 7
+    },
+    {
+     "nombre": "Gustavo Alberto Álvarez Arango",
+     "nombre_oficial": "GUSTAVO ALBERTO ALVAREZ ARANGO",
+     "partido": "Movimiento Salvación Nacional",
+     "partido_oficial": "MOVIMIENTO SALVACIÓN NACIONAL",
+     "familias": [
+      "SALV"
+     ],
+     "votos": 0,
+     "porcentaje": 0.0,
+     "posicion": 8
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 215,
+    "VOTOS EN BLANCO": 156,
+    "VOTOS NULOS": 134
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": false,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "CR"
+  ],
+  "familias_2023": [
+   "LIB"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "REMEDIOS|00|01",
+   "nombre": "I.E. Ignacio Yepes Yepes",
+   "nombre_oficial": "I.E. IGNACIO YEPES YEPES",
+   "zona": "00",
+   "rural": false,
+   "lat": 7.025990799999998,
+   "lon": -74.6940907999998,
+   "votos_total": 5059,
+   "votos_validos": 4858,
+   "ganador": "ALBEIRO ARENAS MOLINA",
+   "empate": [],
+   "margen_puntos": 24.1,
+   "votos": {
+    "ALBEIRO ARENAS MOLINA": 2082,
+    "DORIAN FRANCISCO SALAZAR PALACIO": 477,
+    "DUBAN ALVEIRO DUQUE RESTREPO": 275,
+    "GEORGE BRANDON MESA CANO": 267,
+    "GUSTAVO ARQUIMEDES VIDALES LOPEZ": 658,
+    "HECTOR OVIDIO AGUDELO DUQUE": 104,
+    "LUCIA DEL SOCORRO CARVAJAL DE SILVERA": 911,
+    "VOTOS EN BLANCO": 84,
+    "VOTOS NO MARCADOS": 123,
+    "VOTOS NULOS": 78
+   }
+  },
+  {
+   "id": "REMEDIOS|00|02",
+   "nombre": "Parque EDUC. Isabelita Tejada Cuartas",
+   "nombre_oficial": "PARQUE EDUC. ISABELITA TEJADA CUARTAS",
+   "zona": "00",
+   "rural": false,
+   "lat": 7.0251542,
+   "lon": -74.6942739999998,
+   "votos_total": 2010,
+   "votos_validos": 1962,
+   "ganador": "ALBEIRO ARENAS MOLINA",
+   "empate": [],
+   "margen_puntos": 28.64,
+   "votos": {
+    "ALBEIRO ARENAS MOLINA": 891,
+    "DORIAN FRANCISCO SALAZAR PALACIO": 153,
+    "DUBAN ALVEIRO DUQUE RESTREPO": 108,
+    "GEORGE BRANDON MESA CANO": 146,
+    "GUSTAVO ALBERTO ALVAREZ ARANGO": 0,
+    "GUSTAVO ARQUIMEDES VIDALES LOPEZ": 261,
+    "HECTOR OVIDIO AGUDELO DUQUE": 22,
+    "LUCIA DEL SOCORRO CARVAJAL DE SILVERA": 329,
+    "VOTOS EN BLANCO": 52,
+    "VOTOS NO MARCADOS": 28,
+    "VOTOS NULOS": 20
+   }
+  },
+  {
+   "id": "REMEDIOS|99|01",
+   "nombre": "La Cruzada",
+   "nombre_oficial": "LA CRUZADA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.071681199999998,
+   "lon": -74.71558557,
+   "votos_total": 2040,
+   "votos_validos": 1992,
+   "ganador": "ALBEIRO ARENAS MOLINA",
+   "empate": [],
+   "margen_puntos": 73.14,
+   "votos": {
+    "ALBEIRO ARENAS MOLINA": 1669,
+    "DORIAN FRANCISCO SALAZAR PALACIO": 8,
+    "DUBAN ALVEIRO DUQUE RESTREPO": 36,
+    "GEORGE BRANDON MESA CANO": 9,
+    "GUSTAVO ARQUIMEDES VIDALES LOPEZ": 212,
+    "HECTOR OVIDIO AGUDELO DUQUE": 6,
+    "LUCIA DEL SOCORRO CARVAJAL DE SILVERA": 46,
+    "VOTOS EN BLANCO": 6,
+    "VOTOS NO MARCADOS": 28,
+    "VOTOS NULOS": 20
+   }
+  },
+  {
+   "id": "REMEDIOS|99|02",
+   "nombre": "Campo Vijao",
+   "nombre_oficial": "CAMPO VIJAO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.913617105598974,
+   "lon": -74.36162862808163,
+   "votos_total": 130,
+   "votos_validos": 126,
+   "ganador": "LUCIA DEL SOCORRO CARVAJAL DE SILVERA",
+   "empate": [],
+   "margen_puntos": 29.37,
+   "votos": {
+    "ALBEIRO ARENAS MOLINA": 10,
+    "DORIAN FRANCISCO SALAZAR PALACIO": 7,
+    "DUBAN ALVEIRO DUQUE RESTREPO": 16,
+    "GEORGE BRANDON MESA CANO": 1,
+    "GUSTAVO ARQUIMEDES VIDALES LOPEZ": 27,
+    "LUCIA DEL SOCORRO CARVAJAL DE SILVERA": 64,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "REMEDIOS|99|03",
+   "nombre": "C.E.R. Cañaveral",
+   "nombre_oficial": "C.E.R. CAÑAVERAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.1725958,
+   "lon": -74.593114,
+   "votos_total": 228,
+   "votos_validos": 220,
+   "ganador": "ALBEIRO ARENAS MOLINA",
+   "empate": [],
+   "margen_puntos": 55.0,
+   "votos": {
+    "ALBEIRO ARENAS MOLINA": 156,
+    "DORIAN FRANCISCO SALAZAR PALACIO": 5,
+    "DUBAN ALVEIRO DUQUE RESTREPO": 17,
+    "GEORGE BRANDON MESA CANO": 4,
+    "HECTOR OVIDIO AGUDELO DUQUE": 2,
+    "LUCIA DEL SOCORRO CARVAJAL DE SILVERA": 35,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "REMEDIOS|99|04",
+   "nombre": "Chorro de Lagrimas",
+   "nombre_oficial": "CHORRO DE LAGRIMAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.77609709332433,
+   "lon": -74.47614972728672,
+   "votos_total": 155,
+   "votos_validos": 148,
+   "ganador": "ALBEIRO ARENAS MOLINA",
+   "empate": [],
+   "margen_puntos": 36.49,
+   "votos": {
+    "ALBEIRO ARENAS MOLINA": 87,
+    "DORIAN FRANCISCO SALAZAR PALACIO": 3,
+    "DUBAN ALVEIRO DUQUE RESTREPO": 4,
+    "GUSTAVO ARQUIMEDES VIDALES LOPEZ": 19,
+    "LUCIA DEL SOCORRO CARVAJAL DE SILVERA": 33,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "REMEDIOS|99|05",
+   "nombre": "Santa Isabel",
+   "nombre_oficial": "SANTA ISABEL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.944049999999998,
+   "lon": -74.7422444399998,
+   "votos_total": 790,
+   "votos_validos": 757,
+   "ganador": "ALBEIRO ARENAS MOLINA",
+   "empate": [],
+   "margen_puntos": 26.02,
+   "votos": {
+    "ALBEIRO ARENAS MOLINA": 332,
+    "DORIAN FRANCISCO SALAZAR PALACIO": 62,
+    "DUBAN ALVEIRO DUQUE RESTREPO": 132,
+    "GEORGE BRANDON MESA CANO": 14,
+    "GUSTAVO ARQUIMEDES VIDALES LOPEZ": 135,
+    "LUCIA DEL SOCORRO CARVAJAL DE SILVERA": 72,
+    "VOTOS EN BLANCO": 10,
+    "VOTOS NO MARCADOS": 23,
+    "VOTOS NULOS": 10
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

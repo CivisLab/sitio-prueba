@@ -1,0 +1,327 @@
+{
+ "municipio": {
+  "cod_dane": "05543",
+  "cod_registraduria": "199",
+  "nombre": "Peque",
+  "subregion": "Occidente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 4715,
+   "votos_validos": 4625,
+   "margen_puntos": 2.42,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Froy Faber Hernández Tuberquia",
+     "nombre_oficial": "FROY FABER HERNANDEZ TUBERQUIA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 2358,
+     "porcentaje": 50.98,
+     "posicion": 1
+    },
+    {
+     "nombre": "Ermilson de Jesús Hernández Hernández",
+     "nombre_oficial": "ERMILSON DE JESUS HERNANDEZ HERNANDEZ",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 2246,
+     "porcentaje": 48.56,
+     "posicion": 2
+    },
+    {
+     "nombre": "Luis Alberto Valle Pineda",
+     "nombre_oficial": "LUIS ALBERTO VALLE PINEDA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 5,
+     "porcentaje": 0.11,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NULOS": 48,
+    "VOTOS NO MARCADOS": 42,
+    "VOTOS EN BLANCO": 16
+   }
+  },
+  "2023": {
+   "votos_depositados": 5038,
+   "votos_validos": 4942,
+   "margen_puntos": 12.42,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Ermilson de Jesús Hernández Hernández",
+     "nombre_oficial": "ERMILSON DE JESUS HERNANDEZ HERNANDEZ",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 2760,
+     "porcentaje": 55.85,
+     "posicion": 1
+    },
+    {
+     "nombre": "Hilber Jilton Valle Valle",
+     "nombre_oficial": "HILBER JILTON VALLE VALLE",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 2146,
+     "porcentaje": 43.42,
+     "posicion": 2
+    },
+    {
+     "nombre": "Samuel Darley Úsuga Posso",
+     "nombre_oficial": "SAMUEL DARLEY USUGA POSSO",
+     "partido": "Partido Nuevo Liberalismo",
+     "partido_oficial": "PARTIDO NUEVO LIBERALISMO",
+     "familias": [
+      "LIB",
+      "NL"
+     ],
+     "votos": 19,
+     "porcentaje": 0.38,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 48,
+    "VOTOS NULOS": 48,
+    "VOTOS EN BLANCO": 17
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": false,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "LIB"
+  ],
+  "familias_2023": [
+   "VERDE"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "PEQUE|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 7.021512429,
+   "lon": -75.9091420599999,
+   "votos_total": 3491,
+   "votos_validos": 3424,
+   "ganador": "ERMILSON DE JESUS HERNANDEZ HERNANDEZ",
+   "empate": [],
+   "margen_puntos": 11.57,
+   "votos": {
+    "ERMILSON DE JESUS HERNANDEZ HERNANDEZ": 1896,
+    "HILBER JILTON VALLE VALLE": 1500,
+    "SAMUEL DARLEY USUGA POSSO": 16,
+    "VOTOS EN BLANCO": 12,
+    "VOTOS NO MARCADOS": 30,
+    "VOTOS NULOS": 37
+   }
+  },
+  {
+   "id": "PEQUE|99|01",
+   "nombre": "Barbacoas",
+   "nombre_oficial": "BARBACOAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.9694960085699575,
+   "lon": -75.852651982054,
+   "votos_total": 160,
+   "votos_validos": 157,
+   "ganador": "ERMILSON DE JESUS HERNANDEZ HERNANDEZ",
+   "empate": [],
+   "margen_puntos": 22.29,
+   "votos": {
+    "ERMILSON DE JESUS HERNANDEZ HERNANDEZ": 95,
+    "HILBER JILTON VALLE VALLE": 60,
+    "SAMUEL DARLEY USUGA POSSO": 1,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "PEQUE|99|02",
+   "nombre": "El Agrio",
+   "nombre_oficial": "EL AGRIO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.930013523999998,
+   "lon": -75.8802967799998,
+   "votos_total": 468,
+   "votos_validos": 464,
+   "ganador": "ERMILSON DE JESUS HERNANDEZ HERNANDEZ",
+   "empate": [],
+   "margen_puntos": 3.23,
+   "votos": {
+    "ERMILSON DE JESUS HERNANDEZ HERNANDEZ": 239,
+    "HILBER JILTON VALLE VALLE": 224,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "PEQUE|99|04",
+   "nombre": "Jerigua",
+   "nombre_oficial": "JERIGUA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.994536558353099,
+   "lon": -75.89083452709198,
+   "votos_total": 194,
+   "votos_validos": 190,
+   "ganador": "ERMILSON DE JESUS HERNANDEZ HERNANDEZ",
+   "empate": [],
+   "margen_puntos": 35.26,
+   "votos": {
+    "ERMILSON DE JESUS HERNANDEZ HERNANDEZ": 128,
+    "HILBER JILTON VALLE VALLE": 61,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "PEQUE|99|05",
+   "nombre": "Lomitas",
+   "nombre_oficial": "LOMITAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.075551523999998,
+   "lon": -75.8130938799998,
+   "votos_total": 201,
+   "votos_validos": 190,
+   "ganador": "ERMILSON DE JESUS HERNANDEZ HERNANDEZ",
+   "empate": [],
+   "margen_puntos": 27.89,
+   "votos": {
+    "ERMILSON DE JESUS HERNANDEZ HERNANDEZ": 121,
+    "HILBER JILTON VALLE VALLE": 68,
+    "SAMUEL DARLEY USUGA POSSO": 1,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 5
+   }
+  },
+  {
+   "id": "PEQUE|99|09",
+   "nombre": "I.E.R. Florencio Salas Tuberquia",
+   "nombre_oficial": "I.E.R. FLORENCIO SALAS TUBERQUIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.06479,
+   "lon": -75.90631,
+   "votos_total": 484,
+   "votos_validos": 478,
+   "ganador": "ERMILSON DE JESUS HERNANDEZ HERNANDEZ",
+   "empate": [],
+   "margen_puntos": 14.02,
+   "votos": {
+    "ERMILSON DE JESUS HERNANDEZ HERNANDEZ": 271,
+    "HILBER JILTON VALLE VALLE": 204,
+    "SAMUEL DARLEY USUGA POSSO": 1,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "PEQUE|99|13",
+   "nombre": "Vega del Ingles",
+   "nombre_oficial": "VEGA DEL INGLES",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.175642989645446,
+   "lon": -75.88187751918792,
+   "votos_total": 40,
+   "votos_validos": 39,
+   "ganador": "HILBER JILTON VALLE VALLE",
+   "empate": [],
+   "margen_puntos": 48.72,
+   "votos": {
+    "ERMILSON DE JESUS HERNANDEZ HERNANDEZ": 10,
+    "HILBER JILTON VALLE VALLE": 29,
+    "VOTOS NO MARCADOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Hablemos · CivisLab</title><meta name="description" content="Cuéntele a CivisLab qué municipio le interesa y qué necesita decidir. Le respondemos a mano, por correo."><meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#2B4B48"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"><link rel="stylesheet" href="../estilo.css"><script src="../sitio.js" defer></script></head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="top"><div class="ancho">
+<a class="marca" href="../index.html" aria-label="CivisLab, inicio"><img src="../recursos/logo-palabra.png" alt="CivisLab" width="640" height="148"></a>
+<nav class="nav" aria-label="Menú principal"><a href="../quienes-somos/index.html">Quiénes somos</a><a href="../que-hacemos/index.html">Qué hacemos</a><a href="../como-lo-hacemos/index.html">Cómo lo hacemos</a><a href="../servicios/index.html">Servicios</a></nav>
+<a class="boton primario" href="../hablemos/index.html" aria-current="page">Hablemos</a>
+</div></header>
+<main id="contenido">
+<div class="ancho estrecho">
+<div class="form-cabeza"><p class="ojo">Hablemos</p><h1>Cuéntenos qué necesita</h1>
+<p class="lede" style="max-width:60ch">Quién es, qué municipio le interesa y qué tiene que decidir. Le respondemos a mano, por
+correo, con lo que exista para ese municipio. Si prefiere, acordamos una reunión. Los campos con <span class="req">*</span>
+son obligatorios.</p>
+<div class="pide" id="pide" aria-label="Lo que pide" hidden></div></div>
+<form class="solicitud" id="solicitud" action="mailto:info.civislab@gmail.com?subject=Hablemos" method="post"
+ enctype="text/plain" data-correo="info.civislab@gmail.com" data-autorizacion="Autorizo a CivisLab a tratar los datos de este correo para responder mi solicitud, según su aviso de privacidad y su política de tratamiento de datos personales.">
+<div class="campo"><label for="nombre">Nombre <span class="req">*</span></label>
+<input type="text" id="nombre" name="nombre" required autocomplete="name">
+<small>Va como marca de agua en el material que le enviemos.</small></div>
+<div class="campo"><label for="correo">Correo <span class="req">*</span></label>
+<input type="email" id="correo" name="correo" required autocomplete="email"></div>
+<div class="campo"><label for="organizacion">Organización</label>
+<input type="text" id="organizacion" name="organizacion" autocomplete="organization"></div>
+<div class="campo"><label for="municipios">Municipios de interés</label>
+<input type="text" id="municipios" name="municipios" list="municipios-acceso" autocomplete="off">
+<datalist id="municipios-acceso"><option value="Abejorral"></option><option value="Abriaquí"></option><option value="Alejandría"></option><option value="Amagá"></option><option value="Amalfi"></option><option value="Andes"></option><option value="Angelópolis"></option><option value="Angostura"></option><option value="Anorí"></option><option value="Anzá"></option><option value="Apartadó"></option><option value="Arboletes"></option><option value="Argelia"></option><option value="Armenia"></option><option value="Barbosa"></option><option value="Bello"></option><option value="Belmira"></option><option value="Betania"></option><option value="Betulia"></option><option value="Briceño"></option><option value="Buriticá"></option><option value="Cáceres"></option><option value="Caicedo"></option><option value="Caldas"></option><option value="Campamento"></option><option value="Cañasgordas"></option><option value="Caracolí"></option><option value="Caramanta"></option><option value="Carepa"></option><option value="Carolina"></option><option value="Caucasia"></option><option value="Chigorodó"></option><option value="Cisneros"></option><option value="Ciudad Bolívar"></option><option value="Cocorná"></option><option value="Concepción"></option><option value="Concordia"></option><option value="Copacabana"></option><option value="Dabeiba"></option><option value="Donmatías"></option><option value="Ebéjico"></option><option value="El Bagre"></option><option value="El Carmen de Viboral"></option><option value="El Peñol"></option><option value="El Retiro"></option><option value="El Santuario"></option><option value="Entrerríos"></option><option value="Envigado"></option><option value="Fredonia"></option><option value="Frontino"></option><option value="Giraldo"></option><option value="Girardota"></option><option value="Gómez Plata"></option><option value="Granada"></option><option value="Guadalupe"></option><option value="Guarne"></option><option value="Guatapé"></option><option value="Heliconia"></option><option value="Hispania"></option><option value="Itagüí"></option><option value="Ituango"></option><option value="Jardín"></option><option value="Jericó"></option><option value="La Ceja"></option><option value="La Estrella"></option><option value="La Pintada"></option><option value="La Unión"></option><option value="Liborina"></option><option value="Maceo"></option><option value="Marinilla"></option><option value="Medellín"></option><option value="Montebello"></option><option value="Murindó"></option><option value="Mutatá"></option><option value="Nariño"></option><option value="Nechí"></option><option value="Necoclí"></option><option value="Olaya"></option><option value="Peque"></option><option value="Pueblorrico"></option><option value="Puerto Berrío"></option><option value="Puerto Nare"></option><option value="Puerto Triunfo"></option><option value="Remedios"></option><option value="Rionegro"></option><option value="Sabanalarga"></option><option value="Sabaneta"></option><option value="Salgar"></option><option value="San Andrés de Cuerquía"></option><option value="San Carlos"></option><option value="San Francisco"></option><option value="San Jerónimo"></option><option value="San José de la Montaña"></option><option value="San Juan de Urabá"></option><option value="San Luis"></option><option value="San Pedro de los Milagros"></option><option value="San Pedro de Urabá"></option><option value="San Rafael"></option><option value="San Roque"></option><option value="San Vicente"></option><option value="Santa Bárbara"></option><option value="Santa Fé de Antioquia"></option><option value="Santa Rosa de Osos"></option><option value="Santo Domingo"></option><option value="Segovia"></option><option value="Sonsón"></option><option value="Sopetrán"></option><option value="Támesis"></option><option value="Tarazá"></option><option value="Tarso"></option><option value="Titiribí"></option><option value="Toledo"></option><option value="Turbo"></option><option value="Uramita"></option><option value="Urrao"></option><option value="Valdivia"></option><option value="Valparaíso"></option><option value="Vegachí"></option><option value="Venecia"></option><option value="Vigía del Fuerte"></option><option value="Yalí"></option><option value="Yarumal"></option><option value="Yolombó"></option><option value="Yondó"></option><option value="Zaragoza"></option></datalist>
+<small>Uno o varios de los 125 de Antioquia, separados por coma.</small></div>
+<div class="campo"><label for="uso">Qué necesita decidir</label>
+<textarea id="uso" name="uso"></textarea>
+<small>No escriba aquí datos sensibles, como su afiliación política. Para eso está el recuadro siguiente.</small></div>
+<fieldset><legend>Campaña o partido (facultativo)</legend>
+<p class="fuente">Para qué campaña o partido trabaja es un dato sensible (Ley 1581 de 2012, art. 5).
+No está obligado a darlo: si no lo da, le respondemos igual. Si lo da, lo usamos solo para preparar el material que
+pide, no lo compartimos con nadie y lo borramos cuando nos lo pida.</p>
+<div class="casilla"><input type="checkbox" id="autoriza-sensible" name="autoriza_sensible" value="si">
+<label for="autoriza-sensible">Autorizo de forma explícita a CivisLab a tratar la campaña o el partido con que trabajo,
+que es un dato sensible, solo para responder esta solicitud.</label></div>
+<div class="campo"><label for="campana">Campaña o partido</label>
+<input type="text" id="campana" name="campana">
+<small>Solo se envía si marca la autorización de arriba.</small></div>
+</fieldset>
+<fieldset><legend>Autorizaciones</legend>
+<div class="casilla"><input type="checkbox" id="autoriza-datos" name="autoriza_datos" value="si" required>
+<label for="autoriza-datos">Autorizo a CivisLab a tratar mis datos para responder esta solicitud, según el aviso de
+privacidad de esta página. <span class="req">*</span></label></div>
+<div class="casilla"><input type="checkbox" id="autoriza-servicios" name="autoriza_servicios" value="si">
+<label for="autoriza-servicios">Quiero recibir información sobre los servicios de CivisLab. Puedo dejar de recibirla
+cuando quiera.</label></div>
+</fieldset>
+<div class="nota-legal"><strong>Aviso de privacidad.</strong> Carlos Calle Galvis, persona natural que opera con el nombre CivisLab (info.civislab@gmail.com) tratará los datos de este
+formulario para responder su solicitud y para marcar con su nombre el material que le entregue. Solo le escribirá
+sobre servicios si lo autoriza en la casilla correspondiente. Responder sobre datos sensibles es siempre facultativo.
+Puede conocer, actualizar, rectificar y suprimir sus datos, y revocar su autorización, escribiendo a info.civislab@gmail.com con el
+asunto «Datos personales». Más en el <a href="../aviso-legal/index.html">aviso legal</a>.</div>
+<div class="acciones"><button class="boton primario" type="submit">Preparar el correo</button></div>
+<p class="fuente">El sitio no guarda nada: el botón abre su programa de correo con el mensaje listo para que usted lo
+revise y lo envíe.</p>
+</form>
+<div id="mensaje-listo" hidden>
+<h2 style="font-size:1.25rem;font-weight:800">¿No se abrió su correo?</h2>
+<p class="fuente" style="max-width:none">Copie este mensaje y envíelo a <strong>info.civislab@gmail.com</strong>.</p>
+<textarea id="mensaje-texto" readonly rows="10"></textarea>
+<div class="copiar" style="margin-top:8px"><button class="boton secundario" type="button" data-copiar="mensaje-texto"
+ data-estado="estado-mensaje" hidden>Copiar el mensaje</button><span class="estado-copia" id="estado-mensaje" aria-live="polite"></span></div>
+</div>
+<section style="margin:32px 0 64px" aria-labelledby="t-alterno">
+<h2 id="t-alterno" style="font-size:1.25rem;font-weight:800">¿Prefiere escribir directo?</h2>
+<p class="fuente" style="max-width:none;margin-top:6px">Escriba a este correo con su nombre, el municipio y qué necesita. Termine el mensaje con:
+«Autorizo a CivisLab a tratar los datos de este correo para responder mi solicitud, según su aviso de privacidad y su política de tratamiento de datos personales.»</p>
+<div class="copiar" style="margin-top:8px"><code id="correo-civislab">info.civislab@gmail.com</code>
+<button class="boton secundario" type="button" data-copiar="correo-civislab" data-estado="estado-correo" hidden>Copiar el
+correo</button><span class="estado-copia" id="estado-correo" aria-live="polite"></span></div>
+</section>
+</div>
+</main>
+<footer class="pie"><div class="ancho">
+<div><a class="marca-pie" href="../index.html" aria-label="CivisLab, inicio"><img src="../recursos/logo-original.png"
+ alt="CivisLab · Información para la decisión pública" width="900" height="285"></a>
+<p>Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.</p></div>
+<nav aria-label="CivisLab"><strong>CivisLab</strong>
+<a href="../quienes-somos/index.html">Quiénes somos</a>
+<a href="../que-hacemos/index.html">Qué hacemos</a>
+<a href="../como-lo-hacemos/index.html">Cómo lo hacemos</a>
+<a href="../servicios/index.html">Servicios</a>
+<a href="../hablemos/index.html">Hablemos</a></nav>
+<nav aria-label="Datos y reglas"><strong>Datos y reglas</strong>
+<a href="../antioquia/index.html">Los 125 municipios de Antioquia</a>
+<a href="../metodologia/index.html">Metodología y fuentes</a>
+<a href="../descargas/antioquia_alcaldias_2019_2023.csv">Descargar los datos de Antioquia (CSV)</a>
+<a href="../aviso-legal/index.html">Aviso legal y rectificaciones</a>
+<a href="../llms.txt">Descripción para modelos de lenguaje (llms.txt)</a></nav>
+</div></footer>
+</body></html>

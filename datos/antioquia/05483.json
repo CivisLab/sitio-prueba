@@ -1,0 +1,349 @@
+{
+ "municipio": {
+  "cod_dane": "05483",
+  "cod_registraduria": "190",
+  "nombre": "Nariño",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 5233,
+   "votos_validos": 5038,
+   "margen_puntos": 15.36,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "John Fredy Cifuentes Marín",
+     "nombre_oficial": "JOHN FREDY CIFUENTES MARIN",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 2321,
+     "porcentaje": 46.07,
+     "posicion": 1
+    },
+    {
+     "nombre": "Hernán Humberto Osorio Gallego",
+     "nombre_oficial": "HERNAN HUMBERTO OSORIO GALLEGO",
+     "partido": "Renovemos Juntos",
+     "partido_oficial": "RENOVEMOS JUNTOS",
+     "familias": [],
+     "votos": 1547,
+     "porcentaje": 30.71,
+     "posicion": 2
+    },
+    {
+     "nombre": "John Henry Arias Henao",
+     "nombre_oficial": "JOHN HENRY ARIAS HENAO",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 1120,
+     "porcentaje": 22.23,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 131,
+    "VOTOS NULOS": 64,
+    "VOTOS EN BLANCO": 50
+   }
+  },
+  "2023": {
+   "votos_depositados": 5133,
+   "votos_validos": 4952,
+   "margen_puntos": 2.12,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Erika Cardona Pérez",
+     "nombre_oficial": "ERIKA CARDONA PEREZ",
+     "partido": "Nariño en Buenas Manos",
+     "partido_oficial": "NARIÑO EN BUENAS MANOS",
+     "familias": [],
+     "votos": 1866,
+     "porcentaje": 37.68,
+     "posicion": 1
+    },
+    {
+     "nombre": "Hernán Humberto Osorio Gallego",
+     "nombre_oficial": "HERNAN HUMBERTO OSORIO GALLEGO",
+     "partido": "Unidos Renacemos",
+     "partido_oficial": "UNIDOS RENACEMOS",
+     "familias": [],
+     "votos": 1761,
+     "porcentaje": 35.56,
+     "posicion": 2
+    },
+    {
+     "nombre": "John Henry Arias Henao",
+     "nombre_oficial": "JOHN HENRY ARIAS HENAO",
+     "partido": "Movimiento Salvación Nacional",
+     "partido_oficial": "MOVIMIENTO SALVACIÓN NACIONAL",
+     "familias": [
+      "SALV"
+     ],
+     "votos": 773,
+     "porcentaje": 15.61,
+     "posicion": 3
+    },
+    {
+     "nombre": "Carlos Julio Ospina Quinchia",
+     "nombre_oficial": "CARLOS JULIO OSPINA QUINCHIA",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 419,
+     "porcentaje": 8.46,
+     "posicion": 4
+    },
+    {
+     "nombre": "Jhoanys Ñezco Coneo",
+     "nombre_oficial": "JHOANYS ÑEZCO CONEO",
+     "partido": "Independientes",
+     "partido_oficial": "INDEPENDIENTES",
+     "familias": [],
+     "votos": 99,
+     "porcentaje": 2.0,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 126,
+    "VOTOS NULOS": 55,
+    "VOTOS EN BLANCO": 34
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CD"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "NARINO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 5.6082906927612095,
+   "lon": -75.17513089165404,
+   "votos_total": 3926,
+   "votos_validos": 3798,
+   "ganador": "ERIKA CARDONA PEREZ",
+   "empate": [],
+   "margen_puntos": 2.4,
+   "votos": {
+    "CARLOS JULIO OSPINA QUINCHIA": 252,
+    "ERIKA CARDONA PEREZ": 1424,
+    "HERNAN HUMBERTO OSORIO GALLEGO": 1333,
+    "JHOANYS ÑEZCO CONEO": 64,
+    "JOHN HENRY ARIAS HENAO": 698,
+    "VOTOS EN BLANCO": 27,
+    "VOTOS NO MARCADOS": 83,
+    "VOTOS NULOS": 45
+   }
+  },
+  {
+   "id": "NARINO|99|04",
+   "nombre": "Balsora",
+   "nombre_oficial": "BALSORA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.644023671106551,
+   "lon": -75.13395309448234,
+   "votos_total": 52,
+   "votos_validos": 51,
+   "ganador": "HERNAN HUMBERTO OSORIO GALLEGO",
+   "empate": [],
+   "margen_puntos": 9.8,
+   "votos": {
+    "CARLOS JULIO OSPINA QUINCHIA": 1,
+    "ERIKA CARDONA PEREZ": 17,
+    "HERNAN HUMBERTO OSORIO GALLEGO": 22,
+    "JHOANYS ÑEZCO CONEO": 3,
+    "JOHN HENRY ARIAS HENAO": 8,
+    "VOTOS NO MARCADOS": 1
+   }
+  },
+  {
+   "id": "NARINO|99|06",
+   "nombre": "Uvital",
+   "nombre_oficial": "UVITAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.61333783304355,
+   "lon": -75.1258850097655,
+   "votos_total": 70,
+   "votos_validos": 69,
+   "ganador": "HERNAN HUMBERTO OSORIO GALLEGO",
+   "empate": [],
+   "margen_puntos": 33.33,
+   "votos": {
+    "CARLOS JULIO OSPINA QUINCHIA": 9,
+    "ERIKA CARDONA PEREZ": 12,
+    "HERNAN HUMBERTO OSORIO GALLEGO": 35,
+    "JHOANYS ÑEZCO CONEO": 4,
+    "JOHN HENRY ARIAS HENAO": 9,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "NARINO|99|07",
+   "nombre": "Puerto Venus Samana",
+   "nombre_oficial": "PUERTO VENUS  SAMANA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.5216227428953895,
+   "lon": -75.19317626953116,
+   "votos_total": 794,
+   "votos_validos": 747,
+   "ganador": "ERIKA CARDONA PEREZ",
+   "empate": [],
+   "margen_puntos": 8.17,
+   "votos": {
+    "CARLOS JULIO OSPINA QUINCHIA": 82,
+    "ERIKA CARDONA PEREZ": 326,
+    "HERNAN HUMBERTO OSORIO GALLEGO": 265,
+    "JHOANYS ÑEZCO CONEO": 28,
+    "JOHN HENRY ARIAS HENAO": 40,
+    "VOTOS EN BLANCO": 6,
+    "VOTOS NO MARCADOS": 39,
+    "VOTOS NULOS": 8
+   }
+  },
+  {
+   "id": "NARINO|99|20",
+   "nombre": "El Carmelo",
+   "nombre_oficial": "EL CARMELO",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.5919814372960195,
+   "lon": -75.18626689910884,
+   "votos_total": 104,
+   "votos_validos": 104,
+   "ganador": "HERNAN HUMBERTO OSORIO GALLEGO",
+   "empate": [],
+   "margen_puntos": 15.38,
+   "votos": {
+    "CARLOS JULIO OSPINA QUINCHIA": 4,
+    "ERIKA CARDONA PEREZ": 40,
+    "HERNAN HUMBERTO OSORIO GALLEGO": 56,
+    "JOHN HENRY ARIAS HENAO": 4
+   }
+  },
+  {
+   "id": "NARINO|99|25",
+   "nombre": "La Linda",
+   "nombre_oficial": "LA LINDA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.648165427865977,
+   "lon": -75.18862724304181,
+   "votos_total": 43,
+   "votos_validos": 42,
+   "ganador": "HERNAN HUMBERTO OSORIO GALLEGO",
+   "empate": [],
+   "margen_puntos": 23.81,
+   "votos": {
+    "CARLOS JULIO OSPINA QUINCHIA": 5,
+    "ERIKA CARDONA PEREZ": 12,
+    "HERNAN HUMBERTO OSORIO GALLEGO": 22,
+    "JOHN HENRY ARIAS HENAO": 2,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 1
+   }
+  },
+  {
+   "id": "NARINO|99|60",
+   "nombre": "Las Mangas",
+   "nombre_oficial": "LAS MANGAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.612559131416651,
+   "lon": -75.20630334059214,
+   "votos_total": 144,
+   "votos_validos": 141,
+   "ganador": "CARLOS JULIO OSPINA QUINCHIA",
+   "empate": [],
+   "margen_puntos": 21.99,
+   "votos": {
+    "CARLOS JULIO OSPINA QUINCHIA": 66,
+    "ERIKA CARDONA PEREZ": 35,
+    "HERNAN HUMBERTO OSORIO GALLEGO": 28,
+    "JOHN HENRY ARIAS HENAO": 12,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

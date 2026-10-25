@@ -1,0 +1,243 @@
+{
+ "municipio": {
+  "cod_dane": "05134",
+  "cod_registraduria": "073",
+  "nombre": "Campamento",
+  "subregion": "Norte",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 4045,
+   "votos_validos": 3934,
+   "margen_puntos": 19.14,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Juan Pablo Torres Piedrahita",
+     "nombre_oficial": "JUAN PABLO TORRES PIEDRAHITA",
+     "partido": "Campamento Prospero, Sostenible e Incluyente",
+     "partido_oficial": "CAMPAMENTO PROSPERO, SOSTENIBLE E INCLUYENTE",
+     "familias": [],
+     "votos": 2315,
+     "porcentaje": 58.85,
+     "posicion": 1
+    },
+    {
+     "nombre": "Dairo de Jesús Elorza Builes",
+     "nombre_oficial": "DAIRO DE JESUS ELORZA BUILES",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1562,
+     "porcentaje": 39.71,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 69,
+    "VOTOS EN BLANCO": 57,
+    "VOTOS NULOS": 42
+   }
+  },
+  "2023": {
+   "votos_depositados": 4245,
+   "votos_validos": 4024,
+   "margen_puntos": 4.7,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Cristian Andrés Agudelo Posada",
+     "nombre_oficial": "CRISTIAN ANDRES AGUDELO POSADA",
+     "partido": "Coalición Partido Cambio Radical - Conservador - A.D.A",
+     "partido_oficial": "COALICIÓN PARTIDO CAMBIO RADICAL - CONSERVADOR - A.D.A",
+     "familias": [
+      "CONS",
+      "CR"
+     ],
+     "votos": 1826,
+     "porcentaje": 45.38,
+     "posicion": 1
+    },
+    {
+     "nombre": "Héctor Alfonso Gómez Trujillo",
+     "nombre_oficial": "HECTOR ALFONSO GOMEZ TRUJILLO",
+     "partido": "Un Camino de Oportunidades",
+     "partido_oficial": "UN CAMINO DE OPORTUNIDADES",
+     "familias": [],
+     "votos": 1637,
+     "porcentaje": 40.68,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jhon Jairo Pérez Martínez",
+     "nombre_oficial": "JHON JAIRO PEREZ MARTINEZ",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 479,
+     "porcentaje": 11.9,
+     "posicion": 3
+    },
+    {
+     "nombre": "Ana Francisca Pérez Zapata",
+     "nombre_oficial": "ANA FRANCISCA PEREZ ZAPATA",
+     "partido": "Pacto Histórico Campamento",
+     "partido_oficial": "PACTO HISTORICO CAMPAMENTO",
+     "familias": [
+      "PACTO"
+     ],
+     "votos": 59,
+     "porcentaje": 1.47,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 157,
+    "VOTOS NULOS": 64,
+    "VOTOS EN BLANCO": 23
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [
+   "CONS",
+   "CR"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "CAMPAMENTO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.979517500723868,
+   "lon": -75.2962876236096,
+   "votos_total": 3752,
+   "votos_validos": 3563,
+   "ganador": "CRISTIAN ANDRES AGUDELO POSADA",
+   "empate": [],
+   "margen_puntos": 6.71,
+   "votos": {
+    "ANA FRANCISCA PEREZ ZAPATA": 49,
+    "CRISTIAN ANDRES AGUDELO POSADA": 1645,
+    "HECTOR ALFONSO GOMEZ TRUJILLO": 1406,
+    "JHON JAIRO PEREZ MARTINEZ": 443,
+    "VOTOS EN BLANCO": 20,
+    "VOTOS NO MARCADOS": 137,
+    "VOTOS NULOS": 52
+   }
+  },
+  {
+   "id": "CAMPAMENTO|99|10",
+   "nombre": "La Chiquita",
+   "nombre_oficial": "LA CHIQUITA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.979591314203341,
+   "lon": -75.2966451644897,
+   "votos_total": 242,
+   "votos_validos": 226,
+   "ganador": "HECTOR ALFONSO GOMEZ TRUJILLO",
+   "empate": [],
+   "margen_puntos": 53.54,
+   "votos": {
+    "ANA FRANCISCA PEREZ ZAPATA": 3,
+    "CRISTIAN ANDRES AGUDELO POSADA": 39,
+    "HECTOR ALFONSO GOMEZ TRUJILLO": 160,
+    "JHON JAIRO PEREZ MARTINEZ": 21,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "CAMPAMENTO|99|80",
+   "nombre": "Norizal",
+   "nombre_oficial": "NORIZAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.97916534080944,
+   "lon": -75.2967739105224,
+   "votos_total": 251,
+   "votos_validos": 235,
+   "ganador": "CRISTIAN ANDRES AGUDELO POSADA",
+   "empate": [],
+   "margen_puntos": 30.21,
+   "votos": {
+    "ANA FRANCISCA PEREZ ZAPATA": 7,
+    "CRISTIAN ANDRES AGUDELO POSADA": 142,
+    "HECTOR ALFONSO GOMEZ TRUJILLO": 71,
+    "JHON JAIRO PEREZ MARTINEZ": 15,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 8
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

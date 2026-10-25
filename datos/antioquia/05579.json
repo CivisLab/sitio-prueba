@@ -1,0 +1,686 @@
+{
+ "municipio": {
+  "cod_dane": "05579",
+  "cod_registraduria": "205",
+  "nombre": "Puerto Berrío",
+  "subregion": "Magdalena Medio",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 17438,
+   "votos_validos": 16699,
+   "margen_puntos": 5.23,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Gustavo Ernesto Medina Zapata",
+     "nombre_oficial": "GUSTAVO ERNESTO MEDINA ZAPATA",
+     "partido": "Poartido Conservador Colombiano - AICO - MAIS",
+     "partido_oficial": "POARTIDO CONSERVADOR COLOMBIANO - AICO - MAIS",
+     "familias": [
+      "CONS",
+      "AICO",
+      "MAIS"
+     ],
+     "votos": 7190,
+     "porcentaje": 43.06,
+     "posicion": 1
+    },
+    {
+     "nombre": "Robinson Alberto Baena Zuluaga",
+     "nombre_oficial": "ROBINSON ALBERTO BAENA ZULUAGA",
+     "partido": "Coalición Unidos Podemos Más por Puerto Berrío",
+     "partido_oficial": "COALICION UNIDOS PODEMOS MAS POR PUERTO BERRIO",
+     "familias": [],
+     "votos": 6316,
+     "porcentaje": 37.82,
+     "posicion": 2
+    },
+    {
+     "nombre": "Juan David Ochoa Muñoz",
+     "nombre_oficial": "JUAN DAVID OCHOA MUÑOZ",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 1137,
+     "porcentaje": 6.81,
+     "posicion": 3
+    },
+    {
+     "nombre": "Jorge Luis Muñoz",
+     "nombre_oficial": "JORGE LUIS MUÑOZ",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRATICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 590,
+     "porcentaje": 3.53,
+     "posicion": 4
+    },
+    {
+     "nombre": "Luis Oswaldo Ibáñez Flórez",
+     "nombre_oficial": "LUIS OSWALDO IBAÑEZ FLOREZ",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 412,
+     "porcentaje": 2.47,
+     "posicion": 5
+    },
+    {
+     "nombre": "Nora del Socorro López Cuartas",
+     "nombre_oficial": "NORA DEL SOCORRO LOPEZ CUARTAS",
+     "partido": "Partido Colombia Justa Libres",
+     "partido_oficial": "PARTIDO COLOMBIA JUSTA LIBRES",
+     "familias": [
+      "COL_JUSTA"
+     ],
+     "votos": 246,
+     "porcentaje": 1.47,
+     "posicion": 6
+    },
+    {
+     "nombre": "María Etelvina Morales",
+     "nombre_oficial": "MARIA ETELVINA MORALES",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 219,
+     "porcentaje": 1.31,
+     "posicion": 7
+    },
+    {
+     "nombre": "José Ángel Mesa Pulgarín",
+     "nombre_oficial": "JOSE ANGEL MESA PULGARIN",
+     "partido": "Colombia Humana - Unión Patriotica",
+     "partido_oficial": "COLOMBIA HUMANA - UNION PATRIOTICA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 28,
+     "porcentaje": 0.17,
+     "posicion": 8
+    },
+    {
+     "nombre": "José Farid Narváez Perdomo",
+     "nombre_oficial": "JOSE FARID NARVAEZ PERDOMO",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 28,
+     "porcentaje": 0.17,
+     "posicion": 9
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 533,
+    "VOTOS NO MARCADOS": 385,
+    "VOTOS NULOS": 354
+   }
+  },
+  "2023": {
+   "votos_depositados": 17617,
+   "votos_validos": 17039,
+   "margen_puntos": 2.68,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Robinson Alberto Baena Zuluaga",
+     "nombre_oficial": "ROBINSON ALBERTO BAENA ZULUAGA",
+     "partido": "Cercano a la Gente",
+     "partido_oficial": "CERCANO A LA GENTE",
+     "familias": [],
+     "votos": 4246,
+     "porcentaje": 24.92,
+     "posicion": 1
+    },
+    {
+     "nombre": "Iván Darío Laguna Zapata",
+     "nombre_oficial": "IVAN DARIO LAGUNA ZAPATA",
+     "partido": "Juntos por la Gente",
+     "partido_oficial": "JUNTOS POR LA GENTE",
+     "familias": [],
+     "votos": 3790,
+     "porcentaje": 22.24,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jaime Andrés Cañas Morales",
+     "nombre_oficial": "JAIME ANDRES CAÑAS MORALES",
+     "partido": "Puerto Berrío Avanza",
+     "partido_oficial": "PUERTO BERRIO AVANZA",
+     "familias": [],
+     "votos": 3269,
+     "porcentaje": 19.19,
+     "posicion": 3
+    },
+    {
+     "nombre": "Andrés Mauricio Cárdenas",
+     "nombre_oficial": "ANDRES MAURICIO CARDENAS",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 1660,
+     "porcentaje": 9.74,
+     "posicion": 4
+    },
+    {
+     "nombre": "Pastor Lisandro Alape Lascarro",
+     "nombre_oficial": "PASTOR LISANDRO ALAPE LASCARRO",
+     "partido": "Pacto Histórico",
+     "partido_oficial": "PACTO HISTORICO",
+     "familias": [
+      "PACTO"
+     ],
+     "votos": 1572,
+     "porcentaje": 9.23,
+     "posicion": 5
+    },
+    {
+     "nombre": "Yimar Harlei Asprilla Borja",
+     "nombre_oficial": "YIMAR HARLEI ASPRILLA BORJA",
+     "partido": "El Verdadero Cambio Es Ya",
+     "partido_oficial": "EL VERDADERO CAMBIO ES YA",
+     "familias": [],
+     "votos": 1539,
+     "porcentaje": 9.03,
+     "posicion": 6
+    },
+    {
+     "nombre": "Manuel Salvador Serna Cano",
+     "nombre_oficial": "MANUEL SALVADOR SERNA CANO",
+     "partido": "Movimiento Salvación Nacional",
+     "partido_oficial": "MOVIMIENTO SALVACIÓN NACIONAL",
+     "familias": [
+      "SALV"
+     ],
+     "votos": 282,
+     "porcentaje": 1.66,
+     "posicion": 7
+    },
+    {
+     "nombre": "José Ángel Mesa Pulgarín",
+     "nombre_oficial": "JOSE ANGEL MESA PULGARIN",
+     "partido": "Partido Político Esperanza Democrática",
+     "partido_oficial": "PARTIDO POLÍTICO ESPERANZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 187,
+     "porcentaje": 1.1,
+     "posicion": 8
+    },
+    {
+     "nombre": "Gustavo Alberto Rentería Berrío",
+     "nombre_oficial": "GUSTAVO ALBERTO RENTERIA BERRIO",
+     "partido": "Partido Ecologista Colombiano",
+     "partido_oficial": "PARTIDO ECOLOGISTA COLOMBIANO",
+     "familias": [],
+     "votos": 66,
+     "porcentaje": 0.39,
+     "posicion": 9
+    },
+    {
+     "nombre": "Juan David Ochoa Muñoz",
+     "nombre_oficial": "JUAN DAVID OCHOA MUÑOZ",
+     "partido": "Independientes",
+     "partido_oficial": "INDEPENDIENTES",
+     "familias": [],
+     "votos": 62,
+     "porcentaje": 0.36,
+     "posicion": 10
+    },
+    {
+     "nombre": "Wilson Gómez Grajales",
+     "nombre_oficial": "WILSON GOMEZ GRAJALES",
+     "partido": "Partido Nuevo Liberalismo",
+     "partido_oficial": "PARTIDO NUEVO LIBERALISMO",
+     "familias": [
+      "LIB",
+      "NL"
+     ],
+     "votos": 37,
+     "porcentaje": 0.22,
+     "posicion": 11
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 329,
+    "VOTOS NO MARCADOS": 323,
+    "VOTOS NULOS": 255
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "AICO",
+   "CONS",
+   "MAIS"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "PUERTO BERRIO|01|01",
+   "nombre": "Institución Educativa America",
+   "nombre_oficial": "INSTITUCION EDUCATIVA AMERICA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.489818347319428,
+   "lon": -74.407662285879,
+   "votos_total": 2007,
+   "votos_validos": 1951,
+   "ganador": "IVAN DARIO LAGUNA ZAPATA",
+   "empate": [],
+   "margen_puntos": 3.38,
+   "votos": {
+    "ANDRES MAURICIO CARDENAS": 169,
+    "GUSTAVO ALBERTO RENTERIA BERRIO": 4,
+    "IVAN DARIO LAGUNA ZAPATA": 482,
+    "JAIME ANDRES CAÑAS MORALES": 411,
+    "JOSE ANGEL MESA PULGARIN": 32,
+    "JUAN DAVID OCHOA MUÑOZ": 9,
+    "MANUEL SALVADOR SERNA CANO": 29,
+    "PASTOR LISANDRO ALAPE LASCARRO": 178,
+    "ROBINSON ALBERTO BAENA ZULUAGA": 416,
+    "VOTOS EN BLANCO": 38,
+    "VOTOS NO MARCADOS": 30,
+    "VOTOS NULOS": 26,
+    "WILSON GOMEZ GRAJALES": 8,
+    "YIMAR HARLEI ASPRILLA BORJA": 175
+   }
+  },
+  {
+   "id": "PUERTO BERRIO|01|02",
+   "nombre": "ESC. la Milla",
+   "nombre_oficial": "ESC. LA MILLA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.484708,
+   "lon": -74.4048849999998,
+   "votos_total": 1515,
+   "votos_validos": 1483,
+   "ganador": "IVAN DARIO LAGUNA ZAPATA",
+   "empate": [],
+   "margen_puntos": 2.7,
+   "votos": {
+    "ANDRES MAURICIO CARDENAS": 110,
+    "GUSTAVO ALBERTO RENTERIA BERRIO": 2,
+    "IVAN DARIO LAGUNA ZAPATA": 344,
+    "JAIME ANDRES CAÑAS MORALES": 270,
+    "JOSE ANGEL MESA PULGARIN": 19,
+    "JUAN DAVID OCHOA MUÑOZ": 2,
+    "MANUEL SALVADOR SERNA CANO": 18,
+    "PASTOR LISANDRO ALAPE LASCARRO": 107,
+    "ROBINSON ALBERTO BAENA ZULUAGA": 304,
+    "VOTOS EN BLANCO": 20,
+    "VOTOS NO MARCADOS": 19,
+    "VOTOS NULOS": 13,
+    "WILSON GOMEZ GRAJALES": 4,
+    "YIMAR HARLEI ASPRILLA BORJA": 283
+   }
+  },
+  {
+   "id": "PUERTO BERRIO|01|03",
+   "nombre": "I.E. Antonio Nariño",
+   "nombre_oficial": "I.E. ANTONIO NARIÑO",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.490518999999999,
+   "lon": -74.41415,
+   "votos_total": 1673,
+   "votos_validos": 1600,
+   "ganador": "ROBINSON ALBERTO BAENA ZULUAGA",
+   "empate": [],
+   "margen_puntos": 3.06,
+   "votos": {
+    "ANDRES MAURICIO CARDENAS": 181,
+    "GUSTAVO ALBERTO RENTERIA BERRIO": 5,
+    "IVAN DARIO LAGUNA ZAPATA": 368,
+    "JAIME ANDRES CAÑAS MORALES": 280,
+    "JOSE ANGEL MESA PULGARIN": 17,
+    "JUAN DAVID OCHOA MUÑOZ": 7,
+    "MANUEL SALVADOR SERNA CANO": 35,
+    "PASTOR LISANDRO ALAPE LASCARRO": 125,
+    "ROBINSON ALBERTO BAENA ZULUAGA": 417,
+    "VOTOS EN BLANCO": 26,
+    "VOTOS NO MARCADOS": 38,
+    "VOTOS NULOS": 35,
+    "WILSON GOMEZ GRAJALES": 3,
+    "YIMAR HARLEI ASPRILLA BORJA": 136
+   }
+  },
+  {
+   "id": "PUERTO BERRIO|01|04",
+   "nombre": "I.E. Alfonso López Pumarejo",
+   "nombre_oficial": "I.E. ALFONSO LOPEZ PUMAREJO",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.484758841999998,
+   "lon": -74.4044939899999,
+   "votos_total": 2565,
+   "votos_validos": 2474,
+   "ganador": "ROBINSON ALBERTO BAENA ZULUAGA",
+   "empate": [],
+   "margen_puntos": 1.54,
+   "votos": {
+    "ANDRES MAURICIO CARDENAS": 247,
+    "GUSTAVO ALBERTO RENTERIA BERRIO": 8,
+    "IVAN DARIO LAGUNA ZAPATA": 531,
+    "JAIME ANDRES CAÑAS MORALES": 499,
+    "JOSE ANGEL MESA PULGARIN": 31,
+    "JUAN DAVID OCHOA MUÑOZ": 14,
+    "MANUEL SALVADOR SERNA CANO": 33,
+    "PASTOR LISANDRO ALAPE LASCARRO": 228,
+    "ROBINSON ALBERTO BAENA ZULUAGA": 569,
+    "VOTOS EN BLANCO": 68,
+    "VOTOS NO MARCADOS": 51,
+    "VOTOS NULOS": 40,
+    "WILSON GOMEZ GRAJALES": 7,
+    "YIMAR HARLEI ASPRILLA BORJA": 239
+   }
+  },
+  {
+   "id": "PUERTO BERRIO|02|01",
+   "nombre": "Instituto la Inmaculada",
+   "nombre_oficial": "INSTITUTO LA INMACULADA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.491831999999998,
+   "lon": -74.4040229999998,
+   "votos_total": 3885,
+   "votos_validos": 3788,
+   "ganador": "ROBINSON ALBERTO BAENA ZULUAGA",
+   "empate": [],
+   "margen_puntos": 1.29,
+   "votos": {
+    "ANDRES MAURICIO CARDENAS": 336,
+    "GUSTAVO ALBERTO RENTERIA BERRIO": 12,
+    "IVAN DARIO LAGUNA ZAPATA": 840,
+    "JAIME ANDRES CAÑAS MORALES": 808,
+    "JOSE ANGEL MESA PULGARIN": 38,
+    "JUAN DAVID OCHOA MUÑOZ": 7,
+    "MANUEL SALVADOR SERNA CANO": 96,
+    "PASTOR LISANDRO ALAPE LASCARRO": 369,
+    "ROBINSON ALBERTO BAENA ZULUAGA": 889,
+    "VOTOS EN BLANCO": 85,
+    "VOTOS NO MARCADOS": 57,
+    "VOTOS NULOS": 40,
+    "WILSON GOMEZ GRAJALES": 11,
+    "YIMAR HARLEI ASPRILLA BORJA": 297
+   }
+  },
+  {
+   "id": "PUERTO BERRIO|02|02",
+   "nombre": "ESC. la Isla",
+   "nombre_oficial": "ESC. LA ISLA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.494155,
+   "lon": -74.3988749999999,
+   "votos_total": 2118,
+   "votos_validos": 2047,
+   "ganador": "ROBINSON ALBERTO BAENA ZULUAGA",
+   "empate": [],
+   "margen_puntos": 10.6,
+   "votos": {
+    "ANDRES MAURICIO CARDENAS": 133,
+    "GUSTAVO ALBERTO RENTERIA BERRIO": 3,
+    "IVAN DARIO LAGUNA ZAPATA": 446,
+    "JAIME ANDRES CAÑAS MORALES": 393,
+    "JOSE ANGEL MESA PULGARIN": 18,
+    "JUAN DAVID OCHOA MUÑOZ": 8,
+    "MANUEL SALVADOR SERNA CANO": 26,
+    "PASTOR LISANDRO ALAPE LASCARRO": 208,
+    "ROBINSON ALBERTO BAENA ZULUAGA": 663,
+    "VOTOS EN BLANCO": 24,
+    "VOTOS NO MARCADOS": 38,
+    "VOTOS NULOS": 33,
+    "WILSON GOMEZ GRAJALES": 2,
+    "YIMAR HARLEI ASPRILLA BORJA": 123
+   }
+  },
+  {
+   "id": "PUERTO BERRIO|02|03",
+   "nombre": "I.E. Bombona",
+   "nombre_oficial": "I.E. BOMBONA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.497328999999998,
+   "lon": -74.402815,
+   "votos_total": 2361,
+   "votos_validos": 2290,
+   "ganador": "ROBINSON ALBERTO BAENA ZULUAGA",
+   "empate": [],
+   "margen_puntos": 15.59,
+   "votos": {
+    "ANDRES MAURICIO CARDENAS": 201,
+    "GUSTAVO ALBERTO RENTERIA BERRIO": 11,
+    "IVAN DARIO LAGUNA ZAPATA": 406,
+    "JAIME ANDRES CAÑAS MORALES": 371,
+    "JOSE ANGEL MESA PULGARIN": 26,
+    "JUAN DAVID OCHOA MUÑOZ": 8,
+    "MANUEL SALVADOR SERNA CANO": 36,
+    "PASTOR LISANDRO ALAPE LASCARRO": 231,
+    "ROBINSON ALBERTO BAENA ZULUAGA": 763,
+    "VOTOS EN BLANCO": 53,
+    "VOTOS NO MARCADOS": 32,
+    "VOTOS NULOS": 39,
+    "WILSON GOMEZ GRAJALES": 2,
+    "YIMAR HARLEI ASPRILLA BORJA": 182
+   }
+  },
+  {
+   "id": "PUERTO BERRIO|99|01",
+   "nombre": "Murillo",
+   "nombre_oficial": "MURILLO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.604535,
+   "lon": -74.394441,
+   "votos_total": 121,
+   "votos_validos": 119,
+   "ganador": "ROBINSON ALBERTO BAENA ZULUAGA",
+   "empate": [],
+   "margen_puntos": 26.05,
+   "votos": {
+    "GUSTAVO ALBERTO RENTERIA BERRIO": 1,
+    "IVAN DARIO LAGUNA ZAPATA": 2,
+    "JAIME ANDRES CAÑAS MORALES": 35,
+    "JUAN DAVID OCHOA MUÑOZ": 1,
+    "PASTOR LISANDRO ALAPE LASCARRO": 12,
+    "ROBINSON ALBERTO BAENA ZULUAGA": 66,
+    "VOTOS NULOS": 2,
+    "YIMAR HARLEI ASPRILLA BORJA": 2
+   }
+  },
+  {
+   "id": "PUERTO BERRIO|99|04",
+   "nombre": "Cristalina",
+   "nombre_oficial": "CRISTALINA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.411869,
+   "lon": -74.577061,
+   "votos_total": 247,
+   "votos_validos": 230,
+   "ganador": "IVAN DARIO LAGUNA ZAPATA",
+   "empate": [],
+   "margen_puntos": 46.52,
+   "votos": {
+    "ANDRES MAURICIO CARDENAS": 4,
+    "IVAN DARIO LAGUNA ZAPATA": 137,
+    "JAIME ANDRES CAÑAS MORALES": 20,
+    "JOSE ANGEL MESA PULGARIN": 1,
+    "JUAN DAVID OCHOA MUÑOZ": 2,
+    "MANUEL SALVADOR SERNA CANO": 1,
+    "PASTOR LISANDRO ALAPE LASCARRO": 6,
+    "ROBINSON ALBERTO BAENA ZULUAGA": 24,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 9,
+    "YIMAR HARLEI ASPRILLA BORJA": 30
+   }
+  },
+  {
+   "id": "PUERTO BERRIO|99|05",
+   "nombre": "El Brasil",
+   "nombre_oficial": "EL BRASIL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.483321,
+   "lon": -74.606329,
+   "votos_total": 484,
+   "votos_validos": 456,
+   "ganador": "ANDRES MAURICIO CARDENAS",
+   "empate": [],
+   "margen_puntos": 39.47,
+   "votos": {
+    "ANDRES MAURICIO CARDENAS": 258,
+    "GUSTAVO ALBERTO RENTERIA BERRIO": 4,
+    "IVAN DARIO LAGUNA ZAPATA": 78,
+    "JAIME ANDRES CAÑAS MORALES": 63,
+    "JOSE ANGEL MESA PULGARIN": 1,
+    "JUAN DAVID OCHOA MUÑOZ": 1,
+    "PASTOR LISANDRO ALAPE LASCARRO": 20,
+    "ROBINSON ALBERTO BAENA ZULUAGA": 19,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 24,
+    "VOTOS NULOS": 4,
+    "YIMAR HARLEI ASPRILLA BORJA": 9
+   }
+  },
+  {
+   "id": "PUERTO BERRIO|99|09",
+   "nombre": "Virginias",
+   "nombre_oficial": "VIRGINIAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.39314403,
+   "lon": -74.6831867299999,
+   "votos_total": 248,
+   "votos_validos": 231,
+   "ganador": "IVAN DARIO LAGUNA ZAPATA",
+   "empate": [],
+   "margen_puntos": 11.69,
+   "votos": {
+    "ANDRES MAURICIO CARDENAS": 11,
+    "GUSTAVO ALBERTO RENTERIA BERRIO": 16,
+    "IVAN DARIO LAGUNA ZAPATA": 74,
+    "JAIME ANDRES CAÑAS MORALES": 35,
+    "JUAN DAVID OCHOA MUÑOZ": 2,
+    "MANUEL SALVADOR SERNA CANO": 4,
+    "PASTOR LISANDRO ALAPE LASCARRO": 36,
+    "ROBINSON ALBERTO BAENA ZULUAGA": 47,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 7,
+    "YIMAR HARLEI ASPRILLA BORJA": 6
+   }
+  },
+  {
+   "id": "PUERTO BERRIO|99|15",
+   "nombre": "Grecia",
+   "nombre_oficial": "GRECIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.46079,
+   "lon": -74.41973,
+   "votos_total": 358,
+   "votos_validos": 336,
+   "ganador": "JAIME ANDRES CAÑAS MORALES",
+   "empate": [],
+   "margen_puntos": 1.79,
+   "votos": {
+    "ANDRES MAURICIO CARDENAS": 8,
+    "IVAN DARIO LAGUNA ZAPATA": 72,
+    "JAIME ANDRES CAÑAS MORALES": 78,
+    "JOSE ANGEL MESA PULGARIN": 4,
+    "JUAN DAVID OCHOA MUÑOZ": 1,
+    "MANUEL SALVADOR SERNA CANO": 1,
+    "PASTOR LISANDRO ALAPE LASCARRO": 50,
+    "ROBINSON ALBERTO BAENA ZULUAGA": 63,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 15,
+    "VOTOS NULOS": 7,
+    "YIMAR HARLEI ASPRILLA BORJA": 55
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel",
+   "nombre_oficial": "CARCEL",
+   "votos": 35,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

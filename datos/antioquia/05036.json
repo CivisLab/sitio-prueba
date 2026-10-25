@@ -1,0 +1,225 @@
+{
+ "municipio": {
+  "cod_dane": "05036",
+  "cod_registraduria": "022",
+  "nombre": "Angelópolis",
+  "subregion": "Suroeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 3927,
+   "votos_validos": 3827,
+   "margen_puntos": 3.87,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Jaime Alberto Gómez Gómez",
+     "nombre_oficial": "JAIME ALBERTO GOMEZ GOMEZ",
+     "partido": "Creemos en Angelopolis",
+     "partido_oficial": "CREEMOS EN ANGELOPOLIS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 1714,
+     "porcentaje": 44.79,
+     "posicion": 1
+    },
+    {
+     "nombre": "Adriana María Gómez Johnson",
+     "nombre_oficial": "ADRIANA MARIA GOMEZ JOHNSON",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1566,
+     "porcentaje": 40.92,
+     "posicion": 2
+    },
+    {
+     "nombre": "Carlos Mario Franco Muñoz",
+     "nombre_oficial": "CARLOS MARIO FRANCO MUÑOZ",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 485,
+     "porcentaje": 12.67,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 62,
+    "VOTOS NO MARCADOS": 58,
+    "VOTOS NULOS": 42
+   }
+  },
+  "2023": {
+   "votos_depositados": 3924,
+   "votos_validos": 3832,
+   "margen_puntos": 0.84,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "José Luis Montoya Quiceno",
+     "nombre_oficial": "JOSE LUIS MONTOYA QUICENO",
+     "partido": "Unidos por el Cambio",
+     "partido_oficial": "UNIDOS POR EL CAMBIO",
+     "familias": [],
+     "votos": 1907,
+     "porcentaje": 49.77,
+     "posicion": 1
+    },
+    {
+     "nombre": "Elkin Alberto Marín Henao",
+     "nombre_oficial": "ELKIN ALBERTO MARIN HENAO",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1875,
+     "porcentaje": 48.93,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 50,
+    "VOTOS NO MARCADOS": 49,
+    "VOTOS NULOS": 43
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CREE"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "ANGELOPOLIS|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.11038415685937,
+   "lon": -75.713213223635,
+   "votos_total": 3299,
+   "votos_validos": 3223,
+   "ganador": "JOSE LUIS MONTOYA QUICENO",
+   "empate": [],
+   "margen_puntos": 1.64,
+   "votos": {
+    "ELKIN ALBERTO MARIN HENAO": 1561,
+    "JOSE LUIS MONTOYA QUICENO": 1614,
+    "VOTOS EN BLANCO": 48,
+    "VOTOS NO MARCADOS": 43,
+    "VOTOS NULOS": 33
+   }
+  },
+  {
+   "id": "ANGELOPOLIS|99|01",
+   "nombre": "Estacion Angelopolis",
+   "nombre_oficial": "ESTACION ANGELOPOLIS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.08438737953141,
+   "lon": -75.7041556091811,
+   "votos_total": 584,
+   "votos_validos": 570,
+   "ganador": "ELKIN ALBERTO MARIN HENAO",
+   "empate": [],
+   "margen_puntos": 0.7,
+   "votos": {
+    "ELKIN ALBERTO MARIN HENAO": 286,
+    "JOSE LUIS MONTOYA QUICENO": 282,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 9
+   }
+  },
+  {
+   "id": "ANGELOPOLIS|99|70",
+   "nombre": "Santa Ana",
+   "nombre_oficial": "SANTA ANA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.12008158364152,
+   "lon": -75.7576790761076,
+   "votos_total": 41,
+   "votos_validos": 39,
+   "ganador": "ELKIN ALBERTO MARIN HENAO",
+   "empate": [],
+   "margen_puntos": 43.59,
+   "votos": {
+    "ELKIN ALBERTO MARIN HENAO": 28,
+    "JOSE LUIS MONTOYA QUICENO": 11,
+    "VOTOS NO MARCADOS": 1,
+    "VOTOS NULOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

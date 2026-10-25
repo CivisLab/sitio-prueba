@@ -1,0 +1,255 @@
+{
+ "municipio": {
+  "cod_dane": "05059",
+  "cod_registraduria": "040",
+  "nombre": "Armenia",
+  "subregion": "Occidente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 2689,
+   "votos_validos": 2582,
+   "margen_puntos": 0.7,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Guillermo León Molina Mesa",
+     "nombre_oficial": "GUILLERMO LEON MOLINA MESA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 679,
+     "porcentaje": 26.3,
+     "posicion": 1
+    },
+    {
+     "nombre": "Martha Libia Parra Gil",
+     "nombre_oficial": "MARTHA LIBIA PARRA GIL",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 661,
+     "porcentaje": 25.6,
+     "posicion": 2
+    },
+    {
+     "nombre": "John Mauricio Estrada Estrada",
+     "nombre_oficial": "JOHN MAURICIO ESTRADA ESTRADA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 563,
+     "porcentaje": 21.8,
+     "posicion": 3
+    },
+    {
+     "nombre": "Didier Hernando Rico Bedoya",
+     "nombre_oficial": "DIDIER HERNANDO RICO BEDOYA",
+     "partido": "Armenia Mantequilla Siempre Contigo",
+     "partido_oficial": "ARMENIA MANTEQUILLA SIEMPRE CONTIGO",
+     "familias": [],
+     "votos": 487,
+     "porcentaje": 18.86,
+     "posicion": 4
+    },
+    {
+     "nombre": "Nelson David Mejía Bolívar",
+     "nombre_oficial": "NELSON DAVID MEJIA BOLIVAR",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 112,
+     "porcentaje": 4.34,
+     "posicion": 5
+    },
+    {
+     "nombre": "Mónica Leonor Vargas Vásquez",
+     "nombre_oficial": "MONICA LEONOR VARGAS VASQUEZ",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 51,
+     "porcentaje": 1.98,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS NULOS": 55,
+    "VOTOS NO MARCADOS": 52,
+    "VOTOS EN BLANCO": 29
+   }
+  },
+  "2023": {
+   "votos_depositados": 2726,
+   "votos_validos": 2628,
+   "margen_puntos": 6.74,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Martha Libia Parra Gil",
+     "nombre_oficial": "MARTHA LIBIA PARRA GIL",
+     "partido": "Partido de la Unión por la Gente - Partido de la U",
+     "partido_oficial": "PARTIDO DE LA UNIÓN POR LA GENTE - PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 1155,
+     "porcentaje": 43.95,
+     "posicion": 1
+    },
+    {
+     "nombre": "Daniel Santiago Giraldo Cuartas",
+     "nombre_oficial": "DANIEL SANTIAGO GIRALDO CUARTAS",
+     "partido": "Con el Poder de la Gente",
+     "partido_oficial": "CON EL PODER DE LA GENTE",
+     "familias": [],
+     "votos": 978,
+     "porcentaje": 37.21,
+     "posicion": 2
+    },
+    {
+     "nombre": "César Augusto Betancur Sánchez",
+     "nombre_oficial": "CESAR AUGUSTO BETANCUR SANCHEZ",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRÁTICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 459,
+     "porcentaje": 17.47,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 55,
+    "VOTOS NULOS": 43,
+    "VOTOS EN BLANCO": 36
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": false,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "CONS"
+  ],
+  "familias_2023": [
+   "U"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "ARMENIA|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.157868571193707,
+   "lon": -75.78641776440458,
+   "votos_total": 2352,
+   "votos_validos": 2268,
+   "ganador": "MARTHA LIBIA PARRA GIL",
+   "empate": [],
+   "margen_puntos": 2.25,
+   "votos": {
+    "CESAR AUGUSTO BETANCUR SANCHEZ": 427,
+    "DANIEL SANTIAGO GIRALDO CUARTAS": 879,
+    "MARTHA LIBIA PARRA GIL": 930,
+    "VOTOS EN BLANCO": 32,
+    "VOTOS NO MARCADOS": 52,
+    "VOTOS NULOS": 32
+   }
+  },
+  {
+   "id": "ARMENIA|99|01",
+   "nombre": "La Herradura",
+   "nombre_oficial": "LA HERRADURA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.146660068690438,
+   "lon": -75.80635940883609,
+   "votos_total": 374,
+   "votos_validos": 360,
+   "ganador": "MARTHA LIBIA PARRA GIL",
+   "empate": [],
+   "margen_puntos": 35.0,
+   "votos": {
+    "CESAR AUGUSTO BETANCUR SANCHEZ": 32,
+    "DANIEL SANTIAGO GIRALDO CUARTAS": 99,
+    "MARTHA LIBIA PARRA GIL": 225,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 11
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

@@ -1,0 +1,385 @@
+{
+ "municipio": {
+  "cod_dane": "05761",
+  "cod_registraduria": "265",
+  "nombre": "Sopetrán",
+  "subregion": "Occidente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 8246,
+   "votos_validos": 8007,
+   "margen_puntos": 18.77,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Diego Alejandro Villa Valderrama",
+     "nombre_oficial": "DIEGO ALEJANDRO VILLA VALDERRAMA",
+     "partido": "Todos por Sopetran",
+     "partido_oficial": "TODOS POR SOPETRAN",
+     "familias": [],
+     "votos": 3230,
+     "porcentaje": 40.34,
+     "posicion": 1
+    },
+    {
+     "nombre": "Norberto Gallego Zapata",
+     "nombre_oficial": "NORBERTO GALLEGO ZAPATA",
+     "partido": "Unidos por el Progreso de Sopetram",
+     "partido_oficial": "UNIDOS POR EL PROGRESO DE SOPETRAM",
+     "familias": [],
+     "votos": 1727,
+     "porcentaje": 21.57,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jhon Jairo Mejía Montoya",
+     "nombre_oficial": "JHON JAIRO MEJIA MONTOYA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 1317,
+     "porcentaje": 16.45,
+     "posicion": 3
+    },
+    {
+     "nombre": "Lina María Arteaga Baena",
+     "nombre_oficial": "LINA MARIA ARTEAGA BAENA",
+     "partido": "Sopetran Unido Avanza",
+     "partido_oficial": "SOPETRAN UNIDO AVANZA",
+     "familias": [],
+     "votos": 1012,
+     "porcentaje": 12.64,
+     "posicion": 4
+    },
+    {
+     "nombre": "Gerardo de Jesús Vanegas Jaramillo",
+     "nombre_oficial": "GERARDO DE JESUS VANEGAS JARAMILLO",
+     "partido": "Lo Nuestro Es Sopetran",
+     "partido_oficial": "LO NUESTRO ES SOPETRAN",
+     "familias": [],
+     "votos": 623,
+     "porcentaje": 7.78,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 141,
+    "VOTOS EN BLANCO": 98,
+    "VOTOS NULOS": 98
+   }
+  },
+  "2023": {
+   "votos_depositados": 9423,
+   "votos_validos": 9283,
+   "margen_puntos": 12.78,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Tatiana Alexandra Carballo Hoyos",
+     "nombre_oficial": "TATIANA ALEXANDRA CARBALLO HOYOS",
+     "partido": "Sopetran Es el Momento",
+     "partido_oficial": "SOPETRAN ES EL MOMENTO",
+     "familias": [],
+     "votos": 4212,
+     "porcentaje": 45.37,
+     "posicion": 1
+    },
+    {
+     "nombre": "Yeison Estiven Paniagua Gutiérrez",
+     "nombre_oficial": "YEISON ESTIVEN PANIAGUA GUTIERREZ",
+     "partido": "Equipo Sopetrán = Más Oportunidades para Todos",
+     "partido_oficial": "EQUIPO SOPETRÁN = MÁS OPORTUNIDADES PARA TODOS",
+     "familias": [],
+     "votos": 3026,
+     "porcentaje": 32.6,
+     "posicion": 2
+    },
+    {
+     "nombre": "Euclides Álvaro Londoño Londoño",
+     "nombre_oficial": "EUCLIDES ALVARO LONDOÑO LONDOÑO",
+     "partido": "Sopetrán Nos Inspira",
+     "partido_oficial": "SOPETRÁN NOS INSPIRA",
+     "familias": [],
+     "votos": 1067,
+     "porcentaje": 11.49,
+     "posicion": 3
+    },
+    {
+     "nombre": "Stiven Andrés Vanegas Franco",
+     "nombre_oficial": "STIVEN ANDRES VANEGAS FRANCO",
+     "partido": "Partido Político la Fuerza de la Paz",
+     "partido_oficial": "PARTIDO POLÍTICO LA FUERZA DE LA PAZ",
+     "familias": [],
+     "votos": 454,
+     "porcentaje": 4.89,
+     "posicion": 4
+    },
+    {
+     "nombre": "Lina María Arteaga Baena",
+     "nombre_oficial": "LINA MARIA ARTEAGA BAENA",
+     "partido": "Sopetrán Somos Todos",
+     "partido_oficial": "SOPETRÁN SOMOS TODOS",
+     "familias": [],
+     "votos": 397,
+     "porcentaje": 4.28,
+     "posicion": 5
+    },
+    {
+     "nombre": "Fabián de Jesús García Flórez",
+     "nombre_oficial": "FABIAN DE JESUS GARCIA FLOREZ",
+     "partido": "Partido Político Gente en Movimiento",
+     "partido_oficial": "PARTIDO POLÍTICO GENTE EN MOVIMIENTO",
+     "familias": [],
+     "votos": 76,
+     "porcentaje": 0.82,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 73,
+    "VOTOS NULOS": 67,
+    "VOTOS EN BLANCO": 51
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SOPETRAN|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.503262061,
+   "lon": -75.7479777799999,
+   "votos_total": 7556,
+   "votos_validos": 7461,
+   "ganador": "TATIANA ALEXANDRA CARBALLO HOYOS",
+   "empate": [],
+   "margen_puntos": 12.95,
+   "votos": {
+    "EUCLIDES ALVARO LONDOÑO LONDOÑO": 901,
+    "FABIAN DE JESUS GARCIA FLOREZ": 49,
+    "LINA MARIA ARTEAGA BAENA": 347,
+    "STIVEN ANDRES VANEGAS FRANCO": 284,
+    "TATIANA ALEXANDRA CARBALLO HOYOS": 3400,
+    "VOTOS EN BLANCO": 46,
+    "VOTOS NO MARCADOS": 50,
+    "VOTOS NULOS": 45,
+    "YEISON ESTIVEN PANIAGUA GUTIERREZ": 2434
+   }
+  },
+  {
+   "id": "SOPETRAN|99|01",
+   "nombre": "Córdoba",
+   "nombre_oficial": "CORDOBA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.517949279516136,
+   "lon": -75.76601028442367,
+   "votos_total": 297,
+   "votos_validos": 286,
+   "ganador": "TATIANA ALEXANDRA CARBALLO HOYOS",
+   "empate": [],
+   "margen_puntos": 11.54,
+   "votos": {
+    "EUCLIDES ALVARO LONDOÑO LONDOÑO": 27,
+    "LINA MARIA ARTEAGA BAENA": 14,
+    "STIVEN ANDRES VANEGAS FRANCO": 15,
+    "TATIANA ALEXANDRA CARBALLO HOYOS": 131,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 5,
+    "YEISON ESTIVEN PANIAGUA GUTIERREZ": 98
+   }
+  },
+  {
+   "id": "SOPETRAN|99|05",
+   "nombre": "Guayabal",
+   "nombre_oficial": "GUAYABAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.509930638,
+   "lon": -75.7052813799999,
+   "votos_total": 430,
+   "votos_validos": 419,
+   "ganador": "YEISON ESTIVEN PANIAGUA GUTIERREZ",
+   "empate": [],
+   "margen_puntos": 13.37,
+   "votos": {
+    "EUCLIDES ALVARO LONDOÑO LONDOÑO": 13,
+    "FABIAN DE JESUS GARCIA FLOREZ": 2,
+    "LINA MARIA ARTEAGA BAENA": 6,
+    "STIVEN ANDRES VANEGAS FRANCO": 21,
+    "TATIANA ALEXANDRA CARBALLO HOYOS": 160,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 8,
+    "YEISON ESTIVEN PANIAGUA GUTIERREZ": 216
+   }
+  },
+  {
+   "id": "SOPETRAN|99|09",
+   "nombre": "Horizontes",
+   "nombre_oficial": "HORIZONTES",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.599940663714094,
+   "lon": -75.73244722890186,
+   "votos_total": 303,
+   "votos_validos": 297,
+   "ganador": "STIVEN ANDRES VANEGAS FRANCO",
+   "empate": [],
+   "margen_puntos": 3.7,
+   "votos": {
+    "EUCLIDES ALVARO LONDOÑO LONDOÑO": 60,
+    "FABIAN DE JESUS GARCIA FLOREZ": 1,
+    "LINA MARIA ARTEAGA BAENA": 18,
+    "STIVEN ANDRES VANEGAS FRANCO": 91,
+    "TATIANA ALEXANDRA CARBALLO HOYOS": 80,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 1,
+    "YEISON ESTIVEN PANIAGUA GUTIERREZ": 47
+   }
+  },
+  {
+   "id": "SOPETRAN|99|13",
+   "nombre": "Montegrande",
+   "nombre_oficial": "MONTEGRANDE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.530916379570484,
+   "lon": -75.71588516235337,
+   "votos_total": 336,
+   "votos_validos": 330,
+   "ganador": "TATIANA ALEXANDRA CARBALLO HOYOS",
+   "empate": [],
+   "margen_puntos": 0.61,
+   "votos": {
+    "EUCLIDES ALVARO LONDOÑO LONDOÑO": 46,
+    "FABIAN DE JESUS GARCIA FLOREZ": 1,
+    "LINA MARIA ARTEAGA BAENA": 8,
+    "STIVEN ANDRES VANEGAS FRANCO": 2,
+    "TATIANA ALEXANDRA CARBALLO HOYOS": 137,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 4,
+    "YEISON ESTIVEN PANIAGUA GUTIERREZ": 135
+   }
+  },
+  {
+   "id": "SOPETRAN|99|15",
+   "nombre": "Nuevo Horizonte",
+   "nombre_oficial": "NUEVO HORIZONTE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.581713621999998,
+   "lon": -75.7305922399998,
+   "votos_total": 353,
+   "votos_validos": 347,
+   "ganador": "TATIANA ALEXANDRA CARBALLO HOYOS",
+   "empate": [],
+   "margen_puntos": 51.59,
+   "votos": {
+    "EUCLIDES ALVARO LONDOÑO LONDOÑO": 18,
+    "FABIAN DE JESUS GARCIA FLOREZ": 23,
+    "LINA MARIA ARTEAGA BAENA": 4,
+    "STIVEN ANDRES VANEGAS FRANCO": 37,
+    "TATIANA ALEXANDRA CARBALLO HOYOS": 221,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 1,
+    "YEISON ESTIVEN PANIAGUA GUTIERREZ": 42
+   }
+  },
+  {
+   "id": "SOPETRAN|99|17",
+   "nombre": "San Nicolás",
+   "nombre_oficial": "SAN NICOLAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.478409,
+   "lon": -75.8209719999998,
+   "votos_total": 148,
+   "votos_validos": 143,
+   "ganador": "TATIANA ALEXANDRA CARBALLO HOYOS",
+   "empate": [],
+   "margen_puntos": 20.28,
+   "votos": {
+    "EUCLIDES ALVARO LONDOÑO LONDOÑO": 2,
+    "STIVEN ANDRES VANEGAS FRANCO": 4,
+    "TATIANA ALEXANDRA CARBALLO HOYOS": 83,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 3,
+    "YEISON ESTIVEN PANIAGUA GUTIERREZ": 54
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

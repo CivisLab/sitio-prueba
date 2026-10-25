@@ -1,0 +1,9 @@
+Resultados de alcaldía 2019 y 2023 en los 125 municipios de Antioquia.
+Fuente: Registraduría Nacional del Estado Civil, archivos mesa a mesa (MMV).
+Porcentajes sobre votos válidos (candidaturas y voto en blanco), como los reporta la Registraduría.
+Los votos nulos y no marcados están en el archivo, pero no entran en la base: su porcentaje va vacío.
+Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría».
+Errores: info.civislab@gmail.com. CivisLab no publica encuestas ni pronósticos (Ley 2494 de 2025).
+Rectificaciones: info.civislab@gmail.com, respuesta en 5 días hábiles.
+El CSV va en UTF-8 sin BOM: en Excel, impórtelo como UTF-8 (Datos > Desde texto/CSV).
+Las celdas que empiezan con «+» son nombres oficiales de partido («+ POR BELMIRA»), no fórmulas.

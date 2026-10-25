@@ -1,0 +1,353 @@
+{
+ "municipio": {
+  "cod_dane": "05679",
+  "cod_registraduria": "247",
+  "nombre": "Santa Bárbara",
+  "subregion": "Suroeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 13052,
+   "votos_validos": 12584,
+   "margen_puntos": 10.9,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Luis Fernando Tangarife Cardona",
+     "nombre_oficial": "LUIS FERNANDO TANGARIFE CARDONA",
+     "partido": "Unidos por el Cambio",
+     "partido_oficial": "UNIDOS POR EL CAMBIO",
+     "familias": [],
+     "votos": 6582,
+     "porcentaje": 52.3,
+     "posicion": 1
+    },
+    {
+     "nombre": "Jorge Mario Quintana Cañaveral",
+     "nombre_oficial": "JORGE MARIO QUINTANA CAÑAVERAL",
+     "partido": "Construyamos el Futuro",
+     "partido_oficial": "CONSTRUYAMOS EL FUTURO",
+     "familias": [],
+     "votos": 5210,
+     "porcentaje": 41.4,
+     "posicion": 2
+    },
+    {
+     "nombre": "Gilberto de Jesús Cardona Cardona",
+     "nombre_oficial": "GILBERTO DE JESUS CARDONA CARDONA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 473,
+     "porcentaje": 3.76,
+     "posicion": 3
+    },
+    {
+     "nombre": "Jesús Huber Villada Villada",
+     "nombre_oficial": "JESUS HUBER VILLADA VILLADA",
+     "partido": "Colombia Humana - Unión Patriotica",
+     "partido_oficial": "COLOMBIA HUMANA - UNION PATRIOTICA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 61,
+     "porcentaje": 0.48,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 267,
+    "VOTOS EN BLANCO": 258,
+    "VOTOS NULOS": 201
+   }
+  },
+  "2023": {
+   "votos_depositados": 13022,
+   "votos_validos": 12496,
+   "margen_puntos": 14.44,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Jorge Mario Quintana Cañaveral",
+     "nombre_oficial": "JORGE MARIO QUINTANA CAÑAVERAL",
+     "partido": "Para Volver a Creer",
+     "partido_oficial": "PARA VOLVER A CREER",
+     "familias": [],
+     "votos": 6509,
+     "porcentaje": 52.09,
+     "posicion": 1
+    },
+    {
+     "nombre": "Julio César Ospina López",
+     "nombre_oficial": "JULIO CESAR OSPINA LOPEZ",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 4705,
+     "porcentaje": 37.65,
+     "posicion": 2
+    },
+    {
+     "nombre": "Hernán Alberto Bedoya Sánchez",
+     "nombre_oficial": "HERNAN ALBERTO BEDOYA SANCHEZ",
+     "partido": "Todo Es Posible",
+     "partido_oficial": "TODO ES POSIBLE",
+     "familias": [],
+     "votos": 887,
+     "porcentaje": 7.1,
+     "posicion": 3
+    },
+    {
+     "nombre": "Didier León Ocampo Cuervo",
+     "nombre_oficial": "DIDIER LEON OCAMPO CUERVO",
+     "partido": "Partido Nuevo Liberalismo",
+     "partido_oficial": "PARTIDO NUEVO LIBERALISMO",
+     "familias": [
+      "LIB",
+      "NL"
+     ],
+     "votos": 142,
+     "porcentaje": 1.14,
+     "posicion": 4
+    },
+    {
+     "nombre": "Jairo de Jesús Suárez Ríos",
+     "nombre_oficial": "JAIRO DE JESUS SUAREZ RIOS",
+     "partido": "Movimiento Alternativo Indígena y Social MAIS",
+     "partido_oficial": "MOVIMIENTO ALTERNATIVO INDÍGENA Y SOCIAL \"MAIS\"",
+     "familias": [
+      "MAIS"
+     ],
+     "votos": 17,
+     "porcentaje": 0.14,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 306,
+    "VOTOS EN BLANCO": 236,
+    "VOTOS NULOS": 220
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SANTA BARBARA|01|01",
+   "nombre": "I.E. María Auxiliadora",
+   "nombre_oficial": "I.E. MARIA AUXILIADORA",
+   "zona": "01",
+   "rural": false,
+   "lat": 5.874381526420309,
+   "lon": -75.56748433365863,
+   "votos_total": 3596,
+   "votos_validos": 3454,
+   "ganador": "JORGE MARIO QUINTANA CAÑAVERAL",
+   "empate": [],
+   "margen_puntos": 14.59,
+   "votos": {
+    "DIDIER LEON OCAMPO CUERVO": 37,
+    "HERNAN ALBERTO BEDOYA SANCHEZ": 222,
+    "JAIRO DE JESUS SUAREZ RIOS": 2,
+    "JORGE MARIO QUINTANA CAÑAVERAL": 1827,
+    "JULIO CESAR OSPINA LOPEZ": 1323,
+    "VOTOS EN BLANCO": 43,
+    "VOTOS NO MARCADOS": 90,
+    "VOTOS NULOS": 52
+   }
+  },
+  {
+   "id": "SANTA BARBARA|01|02",
+   "nombre": "I.E. Jesús María Pagola",
+   "nombre_oficial": "I.E. JESUS MARIA PAGOLA",
+   "zona": "01",
+   "rural": false,
+   "lat": 5.87420203466207,
+   "lon": -75.56643784046157,
+   "votos_total": 2703,
+   "votos_validos": 2619,
+   "ganador": "JORGE MARIO QUINTANA CAÑAVERAL",
+   "empate": [],
+   "margen_puntos": 16.34,
+   "votos": {
+    "DIDIER LEON OCAMPO CUERVO": 39,
+    "HERNAN ALBERTO BEDOYA SANCHEZ": 211,
+    "JAIRO DE JESUS SUAREZ RIOS": 4,
+    "JORGE MARIO QUINTANA CAÑAVERAL": 1368,
+    "JULIO CESAR OSPINA LOPEZ": 940,
+    "VOTOS EN BLANCO": 57,
+    "VOTOS NO MARCADOS": 38,
+    "VOTOS NULOS": 46
+   }
+  },
+  {
+   "id": "SANTA BARBARA|02|01",
+   "nombre": "I.E. Monseñor Emilio Botero",
+   "nombre_oficial": "I.E. MONSEÑOR EMILIO BOTERO",
+   "zona": "02",
+   "rural": false,
+   "lat": 5.874687633152346,
+   "lon": -75.56859970092758,
+   "votos_total": 3069,
+   "votos_validos": 2869,
+   "ganador": "JORGE MARIO QUINTANA CAÑAVERAL",
+   "empate": [],
+   "margen_puntos": 15.72,
+   "votos": {
+    "DIDIER LEON OCAMPO CUERVO": 42,
+    "HERNAN ALBERTO BEDOYA SANCHEZ": 226,
+    "JAIRO DE JESUS SUAREZ RIOS": 7,
+    "JORGE MARIO QUINTANA CAÑAVERAL": 1499,
+    "JULIO CESAR OSPINA LOPEZ": 1048,
+    "VOTOS EN BLANCO": 47,
+    "VOTOS NO MARCADOS": 136,
+    "VOTOS NULOS": 64
+   }
+  },
+  {
+   "id": "SANTA BARBARA|02|02",
+   "nombre": "Coliseo Luis Fernando Patiño",
+   "nombre_oficial": "COLISEO LUIS FERNANDO PATIÑO",
+   "zona": "02",
+   "rural": false,
+   "lat": 5.875610802739826,
+   "lon": -75.56658804416655,
+   "votos_total": 2240,
+   "votos_validos": 2190,
+   "ganador": "JORGE MARIO QUINTANA CAÑAVERAL",
+   "empate": [],
+   "margen_puntos": 19.18,
+   "votos": {
+    "DIDIER LEON OCAMPO CUERVO": 19,
+    "HERNAN ALBERTO BEDOYA SANCHEZ": 182,
+    "JAIRO DE JESUS SUAREZ RIOS": 3,
+    "JORGE MARIO QUINTANA CAÑAVERAL": 1173,
+    "JULIO CESAR OSPINA LOPEZ": 753,
+    "VOTOS EN BLANCO": 60,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 38
+   }
+  },
+  {
+   "id": "SANTA BARBARA|99|01",
+   "nombre": "Damasco",
+   "nombre_oficial": "DAMASCO",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.791489224231783,
+   "lon": -75.57271957397442,
+   "votos_total": 556,
+   "votos_validos": 548,
+   "ganador": "JULIO CESAR OSPINA LOPEZ",
+   "empate": [],
+   "margen_puntos": 9.49,
+   "votos": {
+    "HERNAN ALBERTO BEDOYA SANCHEZ": 8,
+    "JORGE MARIO QUINTANA CAÑAVERAL": 242,
+    "JULIO CESAR OSPINA LOPEZ": 294,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 6
+   }
+  },
+  {
+   "id": "SANTA BARBARA|99|13",
+   "nombre": "Versalles",
+   "nombre_oficial": "VERSALLES",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.96303396583425,
+   "lon": -75.58703698110047,
+   "votos_total": 833,
+   "votos_validos": 793,
+   "ganador": "JORGE MARIO QUINTANA CAÑAVERAL",
+   "empate": [],
+   "margen_puntos": 6.43,
+   "votos": {
+    "DIDIER LEON OCAMPO CUERVO": 5,
+    "HERNAN ALBERTO BEDOYA SANCHEZ": 37,
+    "JAIRO DE JESUS SUAREZ RIOS": 1,
+    "JORGE MARIO QUINTANA CAÑAVERAL": 389,
+    "JULIO CESAR OSPINA LOPEZ": 338,
+    "VOTOS EN BLANCO": 23,
+    "VOTOS NO MARCADOS": 28,
+    "VOTOS NULOS": 12
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel",
+   "nombre_oficial": "CARCEL",
+   "votos": 25,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

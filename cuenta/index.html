@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Crear cuenta (simulada) · CivisLab</title><meta name="description" content="Pantalla simulada de crear cuenta en CivisLab, con el consentimiento de datos. No guarda ni envía nada."><meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#2B4B48"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"><link rel="stylesheet" href="../estilo.css"></head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="top"><div class="ancho">
+<a class="marca" href="../index.html" aria-label="CivisLab, inicio"><img src="../recursos/logo-palabra.png" alt="CivisLab" width="640" height="148"></a>
+<nav class="nav" aria-label="Menú principal"><a href="../quienes-somos/index.html">Quiénes somos</a><a href="../que-hacemos/index.html">Qué hacemos</a><a href="../como-lo-hacemos/index.html">Cómo lo hacemos</a><a href="../servicios/index.html">Servicios</a></nav>
+<a class="boton primario" href="../hablemos/index.html">Hablemos</a>
+</div></header>
+<main id="contenido">
+<div class="ancho estrecho">
+<div class="aviso-prueba"><p><strong>Pantalla simulada.</strong> Así se verá crear una cuenta cuando el sitio tenga usuarios.
+No guarda ni envía nada: al terminar le mostramos lo que se guardaría. El texto de las autorizaciones es provisional; el
+definitivo lo escribe Jurídica y lo revisa un abogado antes de inaugurar.</p></div>
+<div class="form-cabeza"><p class="ojo">Crear cuenta</p><h1>Entre a CivisLab</h1>
+<p class="lede" style="max-width:60ch">Con una cuenta guarda sus municipios y ve lo de su nivel. Para entrar no hay
+contraseña: le llega un código a su correo cada vez. Los campos con <span class="req">*</span> son obligatorios.</p></div>
+<form class="solicitud" id="cuenta-simulada" action="#" method="post" novalidate>
+<div class="campo"><label for="c-nombre">Nombre <span class="req">*</span></label>
+<input type="text" id="c-nombre" name="nombre" required autocomplete="off"></div>
+<div class="campo"><label for="c-correo">Correo <span class="req">*</span></label>
+<input type="email" id="c-correo" name="correo" required autocomplete="off">
+<small>A este correo le llegaría el código para entrar.</small></div>
+<div class="campo"><label for="c-organizacion">Organización</label>
+<input type="text" id="c-organizacion" name="organizacion" autocomplete="off"></div>
+<div class="campo"><label for="c-perfil">Usted es</label>
+<select id="c-perfil" name="perfil"><option value="">Elija una opción</option><option>Campaña o candidatura</option>
+<option>Consultoría política</option><option>Medio de comunicación</option><option>Universidad o investigación</option>
+<option>Entidad pública</option><option>Otro</option></select></div>
+<fieldset><legend>Nivel</legend><div class="casilla"><input type="radio" id="nivel-abierto" name="nivel" value="Abierto" checked><label for="nivel-abierto"><strong>Abierto</strong>. Los resultados de cada municipio, las tarjetas de Atlas y los temas de Pulso. Gratis.</label></div><div class="casilla"><input type="radio" id="nivel-suscripcion" name="nivel" value="Suscripción"><label for="nivel-suscripcion"><strong>Suscripción</strong>. Además el reporte técnico de Atlas y el Pulso semanal con sus descargas.</label></div><div class="casilla"><input type="radio" id="nivel-contrato" name="nivel" value="Contrato"><label for="nivel-contrato"><strong>Contrato</strong>. Además los escenarios privados de su elección, bajo contrato de confidencialidad.</label></div></fieldset>
+<fieldset><legend>Campaña o partido (facultativo)</legend>
+<p class="fuente">Para qué campaña o partido trabaja es un dato sensible (Ley 1581 de 2012, art. 5). No está obligado a
+darlo: si no lo da, la cuenta funciona igual.</p>
+<div class="casilla"><input type="checkbox" id="c-autoriza-sensible" name="autoriza_sensible" value="si">
+<label for="c-autoriza-sensible">Autorizo de forma explícita a CivisLab a tratar la campaña o el partido con que trabajo,
+que es un dato sensible, solo para preparar el material de mi cuenta.</label></div>
+<div class="campo"><label for="c-campana">Campaña o partido</label><input type="text" id="c-campana" name="campana" autocomplete="off">
+<small>Solo se guardaría si marca la autorización de arriba.</small></div></fieldset>
+<fieldset><legend>Autorizaciones</legend>
+<div class="casilla"><input type="checkbox" id="c-autoriza-datos" name="autoriza_datos" value="si" required>
+<label for="c-autoriza-datos">Autorizo a CivisLab a tratar mis datos para crear y mantener mi cuenta, según la política
+de tratamiento de datos. <span class="req">*</span></label></div>
+<div class="casilla"><input type="checkbox" id="c-autoriza-servicios" name="autoriza_servicios" value="si">
+<label for="c-autoriza-servicios">Quiero recibir información sobre los servicios de CivisLab. Puedo dejar de recibirla
+cuando quiera.</label></div></fieldset>
+<div class="nota-legal"><strong>Aviso de privacidad (provisional).</strong> Carlos Calle Galvis, persona natural que opera con el nombre CivisLab (info.civislab@gmail.com) trataría los
+datos de esta cuenta para darle acceso a lo de su nivel y para marcar con su nombre el material que descargue. Puede
+conocer, actualizar, rectificar y suprimir sus datos, y revocar su autorización, escribiendo a info.civislab@gmail.com con el asunto
+«Datos personales». La política de tratamiento de datos se enlaza aquí al inaugurar el sitio.</div>
+<div class="acciones"><button class="boton primario" type="submit">Crear la cuenta (simulación)</button></div>
+<p class="fuente">Sin JavaScript, este botón no hace nada: el formulario no tiene a dónde enviar.</p>
+</form>
+<section id="cuenta-resultado" hidden aria-live="polite" style="margin:24px 0 64px">
+<h2 style="font-size:1.25rem;font-weight:800">Simulación terminada: no se guardó ni se envió nada</h2>
+<p class="fuente" style="max-width:none">Esto es lo que la cuenta guardaría:</p>
+<dl class="cuenta-guardaria" id="cuenta-guardaria"></dl>
+<p class="fuente" style="max-width:none">Y esto le llegaría al correo: «Su código para entrar a CivisLab es 123 456».</p>
+<div class="acciones" style="margin-top:12px"><a class="boton secundario" href="../como-lo-hacemos/index.html">Volver a las
+herramientas</a><button class="boton secundario" type="button" id="cuenta-otra">Probar otra vez</button></div>
+</section></div>
+<script src="../cuenta.js" defer></script>
+</main>
+<footer class="pie"><div class="ancho">
+<div><a class="marca-pie" href="../index.html" aria-label="CivisLab, inicio"><img src="../recursos/logo-original.png"
+ alt="CivisLab · Información para la decisión pública" width="900" height="285"></a>
+<p>Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.</p></div>
+<nav aria-label="CivisLab"><strong>CivisLab</strong>
+<a href="../quienes-somos/index.html">Quiénes somos</a>
+<a href="../que-hacemos/index.html">Qué hacemos</a>
+<a href="../como-lo-hacemos/index.html">Cómo lo hacemos</a>
+<a href="../servicios/index.html">Servicios</a>
+<a href="../hablemos/index.html">Hablemos</a></nav>
+<nav aria-label="Datos y reglas"><strong>Datos y reglas</strong>
+<a href="../antioquia/index.html">Los 125 municipios de Antioquia</a>
+<a href="../metodologia/index.html">Metodología y fuentes</a>
+<a href="../descargas/antioquia_alcaldias_2019_2023.csv">Descargar los datos de Antioquia (CSV)</a>
+<a href="../aviso-legal/index.html">Aviso legal y rectificaciones</a>
+<a href="../llms.txt">Descripción para modelos de lenguaje (llms.txt)</a></nav>
+</div></footer>
+</body></html>

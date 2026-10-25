@@ -1,0 +1,437 @@
+{
+ "municipio": {
+  "cod_dane": "05040",
+  "cod_registraduria": "028",
+  "nombre": "Anorí",
+  "subregion": "Nordeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 7207,
+   "votos_validos": 6972,
+   "margen_puntos": 9.64,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Juan Camilo Piedrahita Ceballos",
+     "nombre_oficial": "JUAN CAMILO PIEDRAHITA CEBALLOS",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 3593,
+     "porcentaje": 51.53,
+     "posicion": 1
+    },
+    {
+     "nombre": "Gustavo Alfredo Silva Gutiérrez",
+     "nombre_oficial": "GUSTAVO ALFREDO SILVA GUTIERREZ",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 2921,
+     "porcentaje": 41.9,
+     "posicion": 2
+    },
+    {
+     "nombre": "José David Hernández Gandia",
+     "nombre_oficial": "JOSE DAVID HERNANDEZ GANDIA",
+     "partido": "Anori para Todos",
+     "partido_oficial": "ANORI PARA TODOS",
+     "familias": [],
+     "votos": 298,
+     "porcentaje": 4.27,
+     "posicion": 3
+    },
+    {
+     "nombre": "Luis Fernando Tamayo Zapata",
+     "nombre_oficial": "LUIS FERNANDO TAMAYO ZAPATA",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 103,
+     "porcentaje": 1.48,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NULOS": 135,
+    "VOTOS NO MARCADOS": 100,
+    "VOTOS EN BLANCO": 57
+   }
+  },
+  "2023": {
+   "votos_depositados": 7096,
+   "votos_validos": 6931,
+   "margen_puntos": 3.48,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Gustavo Alfredo Silva Gutiérrez",
+     "nombre_oficial": "GUSTAVO ALFREDO SILVA GUTIERREZ",
+     "partido": "Firmes por Anori",
+     "partido_oficial": "FIRMES POR ANORI",
+     "familias": [],
+     "votos": 2427,
+     "porcentaje": 35.02,
+     "posicion": 1
+    },
+    {
+     "nombre": "Juan Fernando Barrientos Gómez",
+     "nombre_oficial": "JUAN FERNANDO BARRIENTOS GOMEZ",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 2186,
+     "porcentaje": 31.54,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jorge Luis Mejía Tamayo",
+     "nombre_oficial": "JORGE LUIS MEJIA TAMAYO",
+     "partido": "Anori Me Importa",
+     "partido_oficial": "ANORI ME IMPORTA",
+     "familias": [],
+     "votos": 1610,
+     "porcentaje": 23.23,
+     "posicion": 3
+    },
+    {
+     "nombre": "Gildardo Alonso Roldan Foronda",
+     "nombre_oficial": "GILDARDO ALONSO ROLDAN FORONDA",
+     "partido": "Anorí Avanza",
+     "partido_oficial": "ANORÍ AVANZA",
+     "familias": [],
+     "votos": 242,
+     "porcentaje": 3.49,
+     "posicion": 4
+    },
+    {
+     "nombre": "José David Hernández Gandia",
+     "nombre_oficial": "JOSE DAVID HERNANDEZ GANDIA",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRÁTICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 175,
+     "porcentaje": 2.52,
+     "posicion": 5
+    },
+    {
+     "nombre": "Luis Rodrigo Cárdenas Lopera",
+     "nombre_oficial": "LUIS RODRIGO CARDENAS LOPERA",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 163,
+     "porcentaje": 2.35,
+     "posicion": 6
+    },
+    {
+     "nombre": "Luis Albeiro Soñeth Chantaca",
+     "nombre_oficial": "LUIS ALBEIRO SOÑETH CHANTACA",
+     "partido": "Pacto Histórico Colombia Puede",
+     "partido_oficial": "PACTO HISTORICO COLOMBIA PUEDE",
+     "familias": [
+      "PACTO"
+     ],
+     "votos": 73,
+     "porcentaje": 1.05,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 100,
+    "VOTOS NULOS": 65,
+    "VOTOS EN BLANCO": 55
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [
+   "CR"
+  ],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "ANORI|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 7.07384021348963,
+   "lon": -75.1513465569646,
+   "votos_total": 5231,
+   "votos_validos": 5111,
+   "ganador": "JUAN FERNANDO BARRIENTOS GOMEZ",
+   "empate": [],
+   "margen_puntos": 2.93,
+   "votos": {
+    "GILDARDO ALONSO ROLDAN FORONDA": 205,
+    "GUSTAVO ALFREDO SILVA GUTIERREZ": 1531,
+    "JORGE LUIS MEJIA TAMAYO": 1318,
+    "JOSE DAVID HERNANDEZ GANDIA": 116,
+    "JUAN FERNANDO BARRIENTOS GOMEZ": 1681,
+    "LUIS ALBEIRO SOÑETH CHANTACA": 67,
+    "LUIS RODRIGO CARDENAS LOPERA": 149,
+    "VOTOS EN BLANCO": 44,
+    "VOTOS NO MARCADOS": 75,
+    "VOTOS NULOS": 45
+   }
+  },
+  {
+   "id": "ANORI|99|03",
+   "nombre": "La Meseta",
+   "nombre_oficial": "LA MESETA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.041968619999998,
+   "lon": -75.2102654799999,
+   "votos_total": 248,
+   "votos_validos": 242,
+   "ganador": "GUSTAVO ALFREDO SILVA GUTIERREZ",
+   "empate": [],
+   "margen_puntos": 16.12,
+   "votos": {
+    "GILDARDO ALONSO ROLDAN FORONDA": 17,
+    "GUSTAVO ALFREDO SILVA GUTIERREZ": 106,
+    "JORGE LUIS MEJIA TAMAYO": 46,
+    "JOSE DAVID HERNANDEZ GANDIA": 2,
+    "JUAN FERNANDO BARRIENTOS GOMEZ": 67,
+    "LUIS RODRIGO CARDENAS LOPERA": 3,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "ANORI|99|05",
+   "nombre": "Liberia",
+   "nombre_oficial": "LIBERIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.381012467767732,
+   "lon": -75.0001502153771,
+   "votos_total": 388,
+   "votos_validos": 382,
+   "ganador": "JUAN FERNANDO BARRIENTOS GOMEZ",
+   "empate": [],
+   "margen_puntos": 31.94,
+   "votos": {
+    "GUSTAVO ALFREDO SILVA GUTIERREZ": 81,
+    "JORGE LUIS MEJIA TAMAYO": 79,
+    "JOSE DAVID HERNANDEZ GANDIA": 11,
+    "JUAN FERNANDO BARRIENTOS GOMEZ": 203,
+    "LUIS RODRIGO CARDENAS LOPERA": 4,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "ANORI|99|09",
+   "nombre": "El Roble",
+   "nombre_oficial": "EL ROBLE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.986945999999998,
+   "lon": -75.1532849999998,
+   "votos_total": 556,
+   "votos_validos": 542,
+   "ganador": "GUSTAVO ALFREDO SILVA GUTIERREZ",
+   "empate": [],
+   "margen_puntos": 53.14,
+   "votos": {
+    "GILDARDO ALONSO ROLDAN FORONDA": 2,
+    "GUSTAVO ALFREDO SILVA GUTIERREZ": 378,
+    "JORGE LUIS MEJIA TAMAYO": 42,
+    "JOSE DAVID HERNANDEZ GANDIA": 27,
+    "JUAN FERNANDO BARRIENTOS GOMEZ": 90,
+    "LUIS ALBEIRO SOÑETH CHANTACA": 1,
+    "LUIS RODRIGO CARDENAS LOPERA": 1,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 9,
+    "VOTOS NULOS": 5
+   }
+  },
+  {
+   "id": "ANORI|99|13",
+   "nombre": "Madre Seca",
+   "nombre_oficial": "MADRE SECA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.249961466840791,
+   "lon": -75.03850398097136,
+   "votos_total": 162,
+   "votos_validos": 154,
+   "ganador": "JORGE LUIS MEJIA TAMAYO",
+   "empate": [],
+   "margen_puntos": 14.29,
+   "votos": {
+    "GILDARDO ALONSO ROLDAN FORONDA": 1,
+    "GUSTAVO ALFREDO SILVA GUTIERREZ": 20,
+    "JORGE LUIS MEJIA TAMAYO": 72,
+    "JOSE DAVID HERNANDEZ GANDIA": 6,
+    "JUAN FERNANDO BARRIENTOS GOMEZ": 50,
+    "LUIS ALBEIRO SOÑETH CHANTACA": 1,
+    "LUIS RODRIGO CARDENAS LOPERA": 2,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 4,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "ANORI|99|15",
+   "nombre": "El Carmin",
+   "nombre_oficial": "EL CARMIN",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.200888787860439,
+   "lon": -75.2395858021533,
+   "votos_total": 276,
+   "votos_validos": 272,
+   "ganador": "GUSTAVO ALFREDO SILVA GUTIERREZ",
+   "empate": [],
+   "margen_puntos": 56.62,
+   "votos": {
+    "GILDARDO ALONSO ROLDAN FORONDA": 15,
+    "GUSTAVO ALFREDO SILVA GUTIERREZ": 186,
+    "JORGE LUIS MEJIA TAMAYO": 23,
+    "JOSE DAVID HERNANDEZ GANDIA": 8,
+    "JUAN FERNANDO BARRIENTOS GOMEZ": 32,
+    "LUIS ALBEIRO SOÑETH CHANTACA": 4,
+    "LUIS RODRIGO CARDENAS LOPERA": 2,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "ANORI|99|16",
+   "nombre": "La Casita",
+   "nombre_oficial": "LA CASITA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.937445761,
+   "lon": -75.17946928,
+   "votos_total": 164,
+   "votos_validos": 159,
+   "ganador": "GUSTAVO ALFREDO SILVA GUTIERREZ",
+   "empate": [],
+   "margen_puntos": 54.09,
+   "votos": {
+    "GILDARDO ALONSO ROLDAN FORONDA": 1,
+    "GUSTAVO ALFREDO SILVA GUTIERREZ": 112,
+    "JORGE LUIS MEJIA TAMAYO": 16,
+    "JOSE DAVID HERNANDEZ GANDIA": 3,
+    "JUAN FERNANDO BARRIENTOS GOMEZ": 26,
+    "LUIS RODRIGO CARDENAS LOPERA": 1,
+    "VOTOS NO MARCADOS": 1,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "ANORI|99|37",
+   "nombre": "Santo Domingo",
+   "nombre_oficial": "SANTO DOMINGO",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.109516034,
+   "lon": -75.2359735099999,
+   "votos_total": 63,
+   "votos_validos": 61,
+   "ganador": "JUAN FERNANDO BARRIENTOS GOMEZ",
+   "empate": [],
+   "margen_puntos": 40.98,
+   "votos": {
+    "GILDARDO ALONSO ROLDAN FORONDA": 1,
+    "GUSTAVO ALFREDO SILVA GUTIERREZ": 10,
+    "JORGE LUIS MEJIA TAMAYO": 11,
+    "JOSE DAVID HERNANDEZ GANDIA": 2,
+    "JUAN FERNANDO BARRIENTOS GOMEZ": 36,
+    "LUIS RODRIGO CARDENAS LOPERA": 1,
+    "VOTOS NO MARCADOS": 1,
+    "VOTOS NULOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel Municipal",
+   "nombre_oficial": "CARCEL MUNICIPAL",
+   "votos": 8,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

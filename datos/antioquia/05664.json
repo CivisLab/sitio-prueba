@@ -1,0 +1,477 @@
+{
+ "municipio": {
+  "cod_dane": "05664",
+  "cod_registraduria": "235",
+  "nombre": "San Pedro de los Milagros",
+  "subregion": "Norte",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 12786,
+   "votos_validos": 12323,
+   "margen_puntos": 18.16,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Gustavo León Zapata Barrientos",
+     "nombre_oficial": "GUSTAVO LEON ZAPATA BARRIENTOS",
+     "partido": "Juntos Construimos el Cambio",
+     "partido_oficial": "JUNTOS CONSTRUIMOS EL CAMBIO",
+     "familias": [],
+     "votos": 5046,
+     "porcentaje": 40.95,
+     "posicion": 1
+    },
+    {
+     "nombre": "José Danilo Álvarez Rodríguez",
+     "nombre_oficial": "JOSE DANILO ALVAREZ RODRIGUEZ",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 2808,
+     "porcentaje": 22.79,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jader Orlando González Agudelo",
+     "nombre_oficial": "JADER ORLANDO GONZALEZ AGUDELO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 2748,
+     "porcentaje": 22.3,
+     "posicion": 3
+    },
+    {
+     "nombre": "Yovanny Vásquez Ruiz",
+     "nombre_oficial": "YOVANNY VASQUEZ RUIZ",
+     "partido": "Partido de Reivindicacion Etnica Pre",
+     "partido_oficial": "PARTIDO DE REIVINDICACION ETNICA \"PRE\"",
+     "familias": [],
+     "votos": 679,
+     "porcentaje": 5.51,
+     "posicion": 4
+    },
+    {
+     "nombre": "Victoria Eugenia Velásquez Zapata",
+     "nombre_oficial": "VICTORIA EUGENIA VELASQUEZ ZAPATA",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 292,
+     "porcentaje": 2.37,
+     "posicion": 5
+    },
+    {
+     "nombre": "Claudia Mabel Velásquez Zapata",
+     "nombre_oficial": "CLAUDIA MABEL VELASQUEZ ZAPATA",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDIGENAS DE COLOMBIA AICO",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 171,
+     "porcentaje": 1.39,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 579,
+    "VOTOS NULOS": 240,
+    "VOTOS NO MARCADOS": 223
+   }
+  },
+  "2023": {
+   "votos_depositados": 12814,
+   "votos_validos": 12486,
+   "margen_puntos": 7.03,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "José Danilo Álvarez Rodríguez",
+     "nombre_oficial": "JOSE DANILO ALVAREZ RODRIGUEZ",
+     "partido": "Somos San Pedro",
+     "partido_oficial": "SOMOS SAN PEDRO",
+     "familias": [],
+     "votos": 4352,
+     "porcentaje": 34.86,
+     "posicion": 1
+    },
+    {
+     "nombre": "Jader Orlando González Agudelo",
+     "nombre_oficial": "JADER ORLANDO GONZALEZ AGUDELO",
+     "partido": "Partido Político Dignidad & Compromiso",
+     "partido_oficial": "PARTIDO POLÍTICO DIGNIDAD & COMPROMISO",
+     "familias": [],
+     "votos": 3474,
+     "porcentaje": 27.82,
+     "posicion": 2
+    },
+    {
+     "nombre": "Wilson Arlex Gómez Arango",
+     "nombre_oficial": "WILSON ARLEX GOMEZ ARANGO",
+     "partido": "Construcción Ciudadana",
+     "partido_oficial": "CONSTRUCCIÓN CIUDADANA",
+     "familias": [],
+     "votos": 1344,
+     "porcentaje": 10.76,
+     "posicion": 3
+    },
+    {
+     "nombre": "Diego Fernando Martínez Álvarez",
+     "nombre_oficial": "DIEGO FERNANDO MARTINEZ ALVAREZ",
+     "partido": "Creamos",
+     "partido_oficial": "CREAMOS",
+     "familias": [],
+     "votos": 1153,
+     "porcentaje": 9.23,
+     "posicion": 4
+    },
+    {
+     "nombre": "Jaime de Jesús Echeverry Marín",
+     "nombre_oficial": "JAIME DE JESUS ECHEVERRY MARIN",
+     "partido": "San Pedro Imparable",
+     "partido_oficial": "SAN PEDRO IMPARABLE",
+     "familias": [],
+     "votos": 1046,
+     "porcentaje": 8.38,
+     "posicion": 5
+    },
+    {
+     "nombre": "Jaime Alberto Álvarez Diez",
+     "nombre_oficial": "JAIME ALBERTO ALVAREZ DIEZ",
+     "partido": "Partido Colombia Renaciente",
+     "partido_oficial": "PARTIDO COLOMBIA RENACIENTE",
+     "familias": [
+      "REN"
+     ],
+     "votos": 507,
+     "porcentaje": 4.06,
+     "posicion": 6
+    },
+    {
+     "nombre": "Claudia Mabel Velásquez Zapata",
+     "nombre_oficial": "CLAUDIA MABEL VELASQUEZ ZAPATA",
+     "partido": "Partido Nuevo Liberalismo",
+     "partido_oficial": "PARTIDO NUEVO LIBERALISMO",
+     "familias": [
+      "LIB",
+      "NL"
+     ],
+     "votos": 112,
+     "porcentaje": 0.9,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 498,
+    "VOTOS NULOS": 208,
+    "VOTOS NO MARCADOS": 120
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SAN PEDRO|01|01",
+   "nombre": "I e Pio Xii",
+   "nombre_oficial": "I E PIO XII",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.4556209,
+   "lon": -75.5572027,
+   "votos_total": 3103,
+   "votos_validos": 3024,
+   "ganador": "JOSE DANILO ALVAREZ RODRIGUEZ",
+   "empate": [],
+   "margen_puntos": 9.39,
+   "votos": {
+    "CLAUDIA MABEL VELASQUEZ ZAPATA": 27,
+    "DIEGO FERNANDO MARTINEZ ALVAREZ": 249,
+    "JADER ORLANDO GONZALEZ AGUDELO": 839,
+    "JAIME ALBERTO ALVAREZ DIEZ": 140,
+    "JAIME DE JESUS ECHEVERRY MARIN": 276,
+    "JOSE DANILO ALVAREZ RODRIGUEZ": 1123,
+    "VOTOS EN BLANCO": 79,
+    "VOTOS NO MARCADOS": 31,
+    "VOTOS NULOS": 48,
+    "WILSON ARLEX GOMEZ ARANGO": 291
+   }
+  },
+  {
+   "id": "SAN PEDRO|01|02",
+   "nombre": "I e Pio Xii Sede la Gabriela",
+   "nombre_oficial": "I E PIO XII SEDE LA GABRIELA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.4572767,
+   "lon": -75.5586720999999,
+   "votos_total": 2833,
+   "votos_validos": 2735,
+   "ganador": "JOSE DANILO ALVAREZ RODRIGUEZ",
+   "empate": [],
+   "margen_puntos": 9.1,
+   "votos": {
+    "CLAUDIA MABEL VELASQUEZ ZAPATA": 22,
+    "DIEGO FERNANDO MARTINEZ ALVAREZ": 264,
+    "JADER ORLANDO GONZALEZ AGUDELO": 734,
+    "JAIME ALBERTO ALVAREZ DIEZ": 160,
+    "JAIME DE JESUS ECHEVERRY MARIN": 253,
+    "JOSE DANILO ALVAREZ RODRIGUEZ": 983,
+    "VOTOS EN BLANCO": 37,
+    "VOTOS NO MARCADOS": 45,
+    "VOTOS NULOS": 53,
+    "WILSON ARLEX GOMEZ ARANGO": 282
+   }
+  },
+  {
+   "id": "SAN PEDRO|02|01",
+   "nombre": "I e Padre Roberto Arroyave",
+   "nombre_oficial": "I E PADRE ROBERTO ARROYAVE",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.460654499018288,
+   "lon": -75.55947258869506,
+   "votos_total": 2988,
+   "votos_validos": 2926,
+   "ganador": "JOSE DANILO ALVAREZ RODRIGUEZ",
+   "empate": [],
+   "margen_puntos": 1.2,
+   "votos": {
+    "CLAUDIA MABEL VELASQUEZ ZAPATA": 24,
+    "DIEGO FERNANDO MARTINEZ ALVAREZ": 314,
+    "JADER ORLANDO GONZALEZ AGUDELO": 857,
+    "JAIME ALBERTO ALVAREZ DIEZ": 98,
+    "JAIME DE JESUS ECHEVERRY MARIN": 207,
+    "JOSE DANILO ALVAREZ RODRIGUEZ": 892,
+    "VOTOS EN BLANCO": 179,
+    "VOTOS NO MARCADOS": 19,
+    "VOTOS NULOS": 43,
+    "WILSON ARLEX GOMEZ ARANGO": 355
+   }
+  },
+  {
+   "id": "SAN PEDRO|02|02",
+   "nombre": "Ctro de INTEGRAC. CIUDAD. los Encenillos",
+   "nombre_oficial": "CTRO DE INTEGRAC. CIUDAD. LOS ENCENILLOS",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.465065,
+   "lon": -75.5575139999999,
+   "votos_total": 2459,
+   "votos_validos": 2416,
+   "ganador": "JOSE DANILO ALVAREZ RODRIGUEZ",
+   "empate": [],
+   "margen_puntos": 3.35,
+   "votos": {
+    "CLAUDIA MABEL VELASQUEZ ZAPATA": 23,
+    "DIEGO FERNANDO MARTINEZ ALVAREZ": 228,
+    "JADER ORLANDO GONZALEZ AGUDELO": 689,
+    "JAIME ALBERTO ALVAREZ DIEZ": 64,
+    "JAIME DE JESUS ECHEVERRY MARIN": 164,
+    "JOSE DANILO ALVAREZ RODRIGUEZ": 770,
+    "VOTOS EN BLANCO": 141,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 40,
+    "WILSON ARLEX GOMEZ ARANGO": 337
+   }
+  },
+  {
+   "id": "SAN PEDRO|99|01",
+   "nombre": "I.E. Rural de San Juan",
+   "nombre_oficial": "I.E. RURAL DE SAN JUAN",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.494821982192073,
+   "lon": -75.60681643423518,
+   "votos_total": 91,
+   "votos_validos": 88,
+   "ganador": "JOSE DANILO ALVAREZ RODRIGUEZ",
+   "empate": [],
+   "margen_puntos": 36.36,
+   "votos": {
+    "CLAUDIA MABEL VELASQUEZ ZAPATA": 3,
+    "DIEGO FERNANDO MARTINEZ ALVAREZ": 12,
+    "JADER ORLANDO GONZALEZ AGUDELO": 12,
+    "JAIME ALBERTO ALVAREZ DIEZ": 7,
+    "JAIME DE JESUS ECHEVERRY MARIN": 7,
+    "JOSE DANILO ALVAREZ RODRIGUEZ": 44,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 1,
+    "VOTOS NULOS": 2,
+    "WILSON ARLEX GOMEZ ARANGO": 2
+   }
+  },
+  {
+   "id": "SAN PEDRO|99|08",
+   "nombre": "Cerezales",
+   "nombre_oficial": "CEREZALES",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.428837401713599,
+   "lon": -75.56181907653793,
+   "votos_total": 92,
+   "votos_validos": 90,
+   "ganador": "JOSE DANILO ALVAREZ RODRIGUEZ",
+   "empate": [],
+   "margen_puntos": 3.33,
+   "votos": {
+    "DIEGO FERNANDO MARTINEZ ALVAREZ": 6,
+    "JADER ORLANDO GONZALEZ AGUDELO": 29,
+    "JAIME ALBERTO ALVAREZ DIEZ": 10,
+    "JAIME DE JESUS ECHEVERRY MARIN": 5,
+    "JOSE DANILO ALVAREZ RODRIGUEZ": 32,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 2,
+    "WILSON ARLEX GOMEZ ARANGO": 6
+   }
+  },
+  {
+   "id": "SAN PEDRO|99|25",
+   "nombre": "El Espinal",
+   "nombre_oficial": "EL ESPINAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.445787364290276,
+   "lon": -75.54680943489056,
+   "votos_total": 87,
+   "votos_validos": 86,
+   "ganador": "JADER ORLANDO GONZALEZ AGUDELO",
+   "empate": [],
+   "margen_puntos": 32.56,
+   "votos": {
+    "CLAUDIA MABEL VELASQUEZ ZAPATA": 1,
+    "DIEGO FERNANDO MARTINEZ ALVAREZ": 4,
+    "JADER ORLANDO GONZALEZ AGUDELO": 44,
+    "JAIME ALBERTO ALVAREZ DIEZ": 5,
+    "JAIME DE JESUS ECHEVERRY MARIN": 8,
+    "JOSE DANILO ALVAREZ RODRIGUEZ": 16,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NULOS": 1,
+    "WILSON ARLEX GOMEZ ARANGO": 7
+   }
+  },
+  {
+   "id": "SAN PEDRO|99|50",
+   "nombre": "Ovejas",
+   "nombre_oficial": "OVEJAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.395014748967093,
+   "lon": -75.64558982849121,
+   "votos_total": 717,
+   "votos_validos": 690,
+   "ganador": "JOSE DANILO ALVAREZ RODRIGUEZ",
+   "empate": [],
+   "margen_puntos": 32.46,
+   "votos": {
+    "CLAUDIA MABEL VELASQUEZ ZAPATA": 7,
+    "DIEGO FERNANDO MARTINEZ ALVAREZ": 46,
+    "JADER ORLANDO GONZALEZ AGUDELO": 117,
+    "JAIME ALBERTO ALVAREZ DIEZ": 18,
+    "JAIME DE JESUS ECHEVERRY MARIN": 68,
+    "JOSE DANILO ALVAREZ RODRIGUEZ": 341,
+    "VOTOS EN BLANCO": 45,
+    "VOTOS NO MARCADOS": 10,
+    "VOTOS NULOS": 17,
+    "WILSON ARLEX GOMEZ ARANGO": 48
+   }
+  },
+  {
+   "id": "SAN PEDRO|99|70",
+   "nombre": "Pantanillo",
+   "nombre_oficial": "PANTANILLO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.442045334585881,
+   "lon": -75.6303941721553,
+   "votos_total": 444,
+   "votos_validos": 431,
+   "ganador": "JADER ORLANDO GONZALEZ AGUDELO",
+   "empate": [],
+   "margen_puntos": 0.46,
+   "votos": {
+    "CLAUDIA MABEL VELASQUEZ ZAPATA": 5,
+    "DIEGO FERNANDO MARTINEZ ALVAREZ": 30,
+    "JADER ORLANDO GONZALEZ AGUDELO": 153,
+    "JAIME ALBERTO ALVAREZ DIEZ": 5,
+    "JAIME DE JESUS ECHEVERRY MARIN": 58,
+    "JOSE DANILO ALVAREZ RODRIGUEZ": 151,
+    "VOTOS EN BLANCO": 13,
+    "VOTOS NO MARCADOS": 9,
+    "VOTOS NULOS": 4,
+    "WILSON ARLEX GOMEZ ARANGO": 16
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

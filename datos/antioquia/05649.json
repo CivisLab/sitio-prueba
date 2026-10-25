@@ -1,0 +1,431 @@
+{
+ "municipio": {
+  "cod_dane": "05649",
+  "cod_registraduria": "226",
+  "nombre": "San Carlos",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 9280,
+   "votos_validos": 9099,
+   "margen_puntos": 7.22,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Mary Luz Quintero Duque",
+     "nombre_oficial": "MARY LUZ QUINTERO DUQUE",
+     "partido": "San Carlos Somos Todos",
+     "partido_oficial": "SAN CARLOS SOMOS TODOS",
+     "familias": [],
+     "votos": 3545,
+     "porcentaje": 38.96,
+     "posicion": 1
+    },
+    {
+     "nombre": "María Patricia Giraldo Ramírez",
+     "nombre_oficial": "MARIA PATRICIA GIRALDO RAMIREZ",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 2888,
+     "porcentaje": 31.74,
+     "posicion": 2
+    },
+    {
+     "nombre": "Cristian Mauricio Buriticá García",
+     "nombre_oficial": "CRISTIAN MAURICIO BURITICA GARCIA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 2083,
+     "porcentaje": 22.89,
+     "posicion": 3
+    },
+    {
+     "nombre": "Wilson Escudero Gallego",
+     "nombre_oficial": "WILSON ESCUDERO GALLEGO",
+     "partido": "Yo Soy San Carlos",
+     "partido_oficial": "YO SOY SAN CARLOS",
+     "familias": [],
+     "votos": 510,
+     "porcentaje": 5.61,
+     "posicion": 4
+    },
+    {
+     "nombre": "Gustavo Adolfo Hoyos Pérez",
+     "nombre_oficial": "GUSTAVO ADOLFO HOYOS PEREZ",
+     "partido": "Partido Colombia Justa Libres",
+     "partido_oficial": "PARTIDO COLOMBIA JUSTA LIBRES",
+     "familias": [
+      "COL_JUSTA"
+     ],
+     "votos": 4,
+     "porcentaje": 0.04,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 95,
+    "VOTOS NULOS": 86,
+    "VOTOS EN BLANCO": 69
+   }
+  },
+  "2023": {
+   "votos_depositados": 9298,
+   "votos_validos": 9056,
+   "margen_puntos": 1.8,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Santiago Daza Espinosa",
+     "nombre_oficial": "SANTIAGO DAZA ESPINOSA",
+     "partido": "Unidos por la Transformación",
+     "partido_oficial": "UNIDOS POR LA TRANSFORMACIÓN",
+     "familias": [],
+     "votos": 2729,
+     "porcentaje": 30.13,
+     "posicion": 1
+    },
+    {
+     "nombre": "Robinson de Jesús Ramírez Ramírez",
+     "nombre_oficial": "ROBINSON DE JESUS RAMIREZ RAMIREZ",
+     "partido": "Partido de la Unión por la Gente - Partido de la U",
+     "partido_oficial": "PARTIDO DE LA UNIÓN POR LA GENTE - PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 2566,
+     "porcentaje": 28.33,
+     "posicion": 2
+    },
+    {
+     "nombre": "José Andrés Ramírez Marín",
+     "nombre_oficial": "JOSE ANDRES RAMIREZ MARIN",
+     "partido": "Partido Político la Fuerza de la Paz",
+     "partido_oficial": "PARTIDO POLÍTICO LA FUERZA DE LA PAZ",
+     "familias": [],
+     "votos": 1724,
+     "porcentaje": 19.04,
+     "posicion": 3
+    },
+    {
+     "nombre": "Maribel Ramírez Gutiérrez",
+     "nombre_oficial": "MARIBEL RAMIREZ GUTIERREZ",
+     "partido": "San Carlos Cree",
+     "partido_oficial": "SAN CARLOS CREE",
+     "familias": [],
+     "votos": 609,
+     "porcentaje": 6.72,
+     "posicion": 4
+    },
+    {
+     "nombre": "Leonardo José Álvarez Parra",
+     "nombre_oficial": "LEONARDO JOSE ALVAREZ PARRA",
+     "partido": "De la Palabra al Hecho",
+     "partido_oficial": "DE LA PALABRA AL HECHO",
+     "familias": [],
+     "votos": 498,
+     "porcentaje": 5.5,
+     "posicion": 5
+    },
+    {
+     "nombre": "Daruin Antonio Ríos Zapata",
+     "nombre_oficial": "DARUIN ANTONIO RIOS ZAPATA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 472,
+     "porcentaje": 5.21,
+     "posicion": 6
+    },
+    {
+     "nombre": "Jhon Jaime Posada Gómez",
+     "nombre_oficial": "JHON JAIME POSADA GOMEZ",
+     "partido": "Movimiento Político Colombia Humana",
+     "partido_oficial": "MOVIMIENTO POLÍTICO COLOMBIA HUMANA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 161,
+     "porcentaje": 1.78,
+     "posicion": 7
+    },
+    {
+     "nombre": "Farid Alberto Usme Cortes",
+     "nombre_oficial": "FARID ALBERTO USME CORTES",
+     "partido": "Partido Político Dignidad & Compromiso",
+     "partido_oficial": "PARTIDO POLÍTICO DIGNIDAD & COMPROMISO",
+     "familias": [],
+     "votos": 126,
+     "porcentaje": 1.39,
+     "posicion": 8
+    },
+    {
+     "nombre": "Leoncio de Jesús Giraldo Urrea",
+     "nombre_oficial": "LEONCIO DE JESUS GIRALDO URREA",
+     "partido": "Amor por San Carlos",
+     "partido_oficial": "AMOR POR SAN CARLOS",
+     "familias": [],
+     "votos": 69,
+     "porcentaje": 0.76,
+     "posicion": 9
+    },
+    {
+     "nombre": "Yorman Vidal Giraldo Murillo",
+     "nombre_oficial": "YORMAN VIDAL GIRALDO MURILLO",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRÁTICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 49,
+     "porcentaje": 0.54,
+     "posicion": 10
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 122,
+    "VOTOS NULOS": 120,
+    "VOTOS EN BLANCO": 53
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SAN CARLOS|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.181515555600316,
+   "lon": -75.0393676757811,
+   "votos_total": 7285,
+   "votos_validos": 7099,
+   "ganador": "SANTIAGO DAZA ESPINOSA",
+   "empate": [],
+   "margen_puntos": 0.32,
+   "votos": {
+    "DARUIN ANTONIO RIOS ZAPATA": 330,
+    "FARID ALBERTO USME CORTES": 111,
+    "JHON JAIME POSADA GOMEZ": 158,
+    "JOSE ANDRES RAMIREZ MARIN": 1410,
+    "LEONARDO JOSE ALVAREZ PARRA": 471,
+    "LEONCIO DE JESUS GIRALDO URREA": 64,
+    "MARIBEL RAMIREZ GUTIERREZ": 525,
+    "ROBINSON DE JESUS RAMIREZ RAMIREZ": 1962,
+    "SANTIAGO DAZA ESPINOSA": 1985,
+    "VOTOS EN BLANCO": 41,
+    "VOTOS NO MARCADOS": 94,
+    "VOTOS NULOS": 92,
+    "YORMAN VIDAL GIRALDO MURILLO": 42
+   }
+  },
+  {
+   "id": "SAN CARLOS|99|01",
+   "nombre": "El Jordan",
+   "nombre_oficial": "EL JORDAN",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.253013792500526,
+   "lon": -74.82705473899841,
+   "votos_total": 992,
+   "votos_validos": 960,
+   "ganador": "SANTIAGO DAZA ESPINOSA",
+   "empate": [],
+   "margen_puntos": 8.23,
+   "votos": {
+    "DARUIN ANTONIO RIOS ZAPATA": 60,
+    "FARID ALBERTO USME CORTES": 4,
+    "JHON JAIME POSADA GOMEZ": 1,
+    "JOSE ANDRES RAMIREZ MARIN": 220,
+    "LEONARDO JOSE ALVAREZ PARRA": 16,
+    "LEONCIO DE JESUS GIRALDO URREA": 1,
+    "MARIBEL RAMIREZ GUTIERREZ": 34,
+    "ROBINSON DE JESUS RAMIREZ RAMIREZ": 267,
+    "SANTIAGO DAZA ESPINOSA": 346,
+    "VOTOS EN BLANCO": 7,
+    "VOTOS NO MARCADOS": 15,
+    "VOTOS NULOS": 17,
+    "YORMAN VIDAL GIRALDO MURILLO": 4
+   }
+  },
+  {
+   "id": "SAN CARLOS|99|02",
+   "nombre": "El Choco",
+   "nombre_oficial": "EL CHOCO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.148450262319799,
+   "lon": -75.05359209731427,
+   "votos_total": 283,
+   "votos_validos": 271,
+   "ganador": "SANTIAGO DAZA ESPINOSA",
+   "empate": [],
+   "margen_puntos": 5.54,
+   "votos": {
+    "DARUIN ANTONIO RIOS ZAPATA": 19,
+    "FARID ALBERTO USME CORTES": 10,
+    "JOSE ANDRES RAMIREZ MARIN": 27,
+    "LEONARDO JOSE ALVAREZ PARRA": 4,
+    "LEONCIO DE JESUS GIRALDO URREA": 1,
+    "MARIBEL RAMIREZ GUTIERREZ": 19,
+    "ROBINSON DE JESUS RAMIREZ RAMIREZ": 86,
+    "SANTIAGO DAZA ESPINOSA": 101,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 5,
+    "YORMAN VIDAL GIRALDO MURILLO": 3
+   }
+  },
+  {
+   "id": "SAN CARLOS|99|05",
+   "nombre": "Juanes",
+   "nombre_oficial": "JUANES",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.219230796746915,
+   "lon": -74.82890185521867,
+   "votos_total": 159,
+   "votos_validos": 153,
+   "ganador": "SANTIAGO DAZA ESPINOSA",
+   "empate": [],
+   "margen_puntos": 22.22,
+   "votos": {
+    "DARUIN ANTONIO RIOS ZAPATA": 29,
+    "JOSE ANDRES RAMIREZ MARIN": 9,
+    "LEONARDO JOSE ALVAREZ PARRA": 2,
+    "MARIBEL RAMIREZ GUTIERREZ": 8,
+    "ROBINSON DE JESUS RAMIREZ RAMIREZ": 35,
+    "SANTIAGO DAZA ESPINOSA": 69,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "SAN CARLOS|99|07",
+   "nombre": "Samana del Norte",
+   "nombre_oficial": "SAMANA DEL NORTE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.1284046129957845,
+   "lon": -74.83671069145203,
+   "votos_total": 243,
+   "votos_validos": 240,
+   "ganador": "SANTIAGO DAZA ESPINOSA",
+   "empate": [],
+   "margen_puntos": 11.67,
+   "votos": {
+    "DARUIN ANTONIO RIOS ZAPATA": 27,
+    "JOSE ANDRES RAMIREZ MARIN": 14,
+    "LEONARDO JOSE ALVAREZ PARRA": 3,
+    "LEONCIO DE JESUS GIRALDO URREA": 1,
+    "MARIBEL RAMIREZ GUTIERREZ": 2,
+    "ROBINSON DE JESUS RAMIREZ RAMIREZ": 82,
+    "SANTIAGO DAZA ESPINOSA": 110,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 1,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "SAN CARLOS|99|50",
+   "nombre": "Puerto Garza",
+   "nombre_oficial": "PUERTO GARZA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.204906575741623,
+   "lon": -74.75616717338563,
+   "votos_total": 336,
+   "votos_validos": 333,
+   "ganador": "ROBINSON DE JESUS RAMIREZ RAMIREZ",
+   "empate": [],
+   "margen_puntos": 4.8,
+   "votos": {
+    "DARUIN ANTONIO RIOS ZAPATA": 7,
+    "FARID ALBERTO USME CORTES": 1,
+    "JHON JAIME POSADA GOMEZ": 2,
+    "JOSE ANDRES RAMIREZ MARIN": 44,
+    "LEONARDO JOSE ALVAREZ PARRA": 2,
+    "LEONCIO DE JESUS GIRALDO URREA": 2,
+    "MARIBEL RAMIREZ GUTIERREZ": 21,
+    "ROBINSON DE JESUS RAMIREZ RAMIREZ": 134,
+    "SANTIAGO DAZA ESPINOSA": 118,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 3
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

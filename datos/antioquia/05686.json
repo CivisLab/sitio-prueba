@@ -1,0 +1,578 @@
+{
+ "municipio": {
+  "cod_dane": "05686",
+  "cod_registraduria": "250",
+  "nombre": "Santa Rosa de Osos",
+  "subregion": "Norte",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 16749,
+   "votos_validos": 15779,
+   "margen_puntos": 16.35,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Carlos Alberto Posada Zapata",
+     "nombre_oficial": "CARLOS ALBERTO POSADA ZAPATA",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 6159,
+     "porcentaje": 39.03,
+     "posicion": 1
+    },
+    {
+     "nombre": "Luis Bernardo Molina Granda",
+     "nombre_oficial": "LUIS BERNARDO MOLINA GRANDA",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 3579,
+     "porcentaje": 22.68,
+     "posicion": 2
+    },
+    {
+     "nombre": "Francisco Jair Palacio Lopera",
+     "nombre_oficial": "FRANCISCO JAIR PALACIO LOPERA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 3455,
+     "porcentaje": 21.9,
+     "posicion": 3
+    },
+    {
+     "nombre": "Yovany Alexander Álvarez Correa",
+     "nombre_oficial": "YOVANY ALEXANDER ALVAREZ CORREA",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 906,
+     "porcentaje": 5.74,
+     "posicion": 4
+    },
+    {
+     "nombre": "William Alejandro Vergara Pérez",
+     "nombre_oficial": "WILLIAM ALEJANDRO VERGARA PEREZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 524,
+     "porcentaje": 3.32,
+     "posicion": 5
+    },
+    {
+     "nombre": "Óscar Mario Balbin Pérez",
+     "nombre_oficial": "OSCAR MARIO BALBIN PEREZ",
+     "partido": "Movimiento Alternativo Indigena y Social MAIS",
+     "partido_oficial": "MOVIMIENTO ALTERNATIVO INDIGENA Y SOCIAL MAIS",
+     "familias": [
+      "MAIS"
+     ],
+     "votos": 277,
+     "porcentaje": 1.76,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 879,
+    "VOTOS NO MARCADOS": 488,
+    "VOTOS NULOS": 482
+   }
+  },
+  "2023": {
+   "votos_depositados": 16002,
+   "votos_validos": 15169,
+   "margen_puntos": 4.29,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Luis Bernardo Molina Granda",
+     "nombre_oficial": "LUIS BERNARDO MOLINA GRANDA",
+     "partido": "Partido de la Unión por la Gente - Partido de la U",
+     "partido_oficial": "PARTIDO DE LA UNIÓN POR LA GENTE - PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 3543,
+     "porcentaje": 23.36,
+     "posicion": 1
+    },
+    {
+     "nombre": "José Ignacio González Cardona",
+     "nombre_oficial": "JOSE IGNACIO GONZALEZ CARDONA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 2892,
+     "porcentaje": 19.07,
+     "posicion": 2
+    },
+    {
+     "nombre": "Mauricio Barrientos Osorio",
+     "nombre_oficial": "MAURICIO BARRIENTOS OSORIO",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 2581,
+     "porcentaje": 17.01,
+     "posicion": 3
+    },
+    {
+     "nombre": "Félix Olmedo Arango Correa",
+     "nombre_oficial": "FELIX OLMEDO ARANGO CORREA",
+     "partido": "Agrupación Política en Marcha",
+     "partido_oficial": "AGRUPACIÓN POLÍTICA EN MARCHA",
+     "familias": [],
+     "votos": 2321,
+     "porcentaje": 15.3,
+     "posicion": 4
+    },
+    {
+     "nombre": "María del Carmen Roldan Arango",
+     "nombre_oficial": "MARIA DEL CARMEN ROLDAN ARANGO",
+     "partido": "Por Santa Rosa de Osos",
+     "partido_oficial": "POR SANTA ROSA DE OSOS",
+     "familias": [],
+     "votos": 2283,
+     "porcentaje": 15.05,
+     "posicion": 5
+    },
+    {
+     "nombre": "Yovany Alexander Álvarez Correa",
+     "nombre_oficial": "YOVANY ALEXANDER ALVAREZ CORREA",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 900,
+     "porcentaje": 5.93,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 649,
+    "VOTOS NULOS": 451,
+    "VOTOS NO MARCADOS": 382
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": false,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "CD"
+  ],
+  "familias_2023": [
+   "U"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SANTA ROSA DE OSOS|01|01",
+   "nombre": "ESC. Normal Superior Pedro Justo Berrío",
+   "nombre_oficial": "ESC. NORMAL SUPERIOR PEDRO JUSTO BERRIO",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.649288230681359,
+   "lon": -75.46000440093273,
+   "votos_total": 3739,
+   "votos_validos": 3543,
+   "ganador": "LUIS BERNARDO MOLINA GRANDA",
+   "empate": [],
+   "margen_puntos": 2.57,
+   "votos": {
+    "FELIX OLMEDO ARANGO CORREA": 526,
+    "JOSE IGNACIO GONZALEZ CARDONA": 724,
+    "LUIS BERNARDO MOLINA GRANDA": 815,
+    "MARIA DEL CARMEN ROLDAN ARANGO": 558,
+    "MAURICIO BARRIENTOS OSORIO": 584,
+    "VOTOS EN BLANCO": 131,
+    "VOTOS NO MARCADOS": 101,
+    "VOTOS NULOS": 95,
+    "YOVANY ALEXANDER ALVAREZ CORREA": 205
+   }
+  },
+  {
+   "id": "SANTA ROSA DE OSOS|01|02",
+   "nombre": "Parque Neurona Educativa",
+   "nombre_oficial": "PARQUE NEURONA EDUCATIVA",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.650814378061677,
+   "lon": -75.45785513549343,
+   "votos_total": 1238,
+   "votos_validos": 1158,
+   "ganador": "LUIS BERNARDO MOLINA GRANDA",
+   "empate": [],
+   "margen_puntos": 4.23,
+   "votos": {
+    "FELIX OLMEDO ARANGO CORREA": 172,
+    "JOSE IGNACIO GONZALEZ CARDONA": 240,
+    "LUIS BERNARDO MOLINA GRANDA": 289,
+    "MARIA DEL CARMEN ROLDAN ARANGO": 204,
+    "MAURICIO BARRIENTOS OSORIO": 163,
+    "VOTOS EN BLANCO": 27,
+    "VOTOS NO MARCADOS": 41,
+    "VOTOS NULOS": 39,
+    "YOVANY ALEXANDER ALVAREZ CORREA": 63
+   }
+  },
+  {
+   "id": "SANTA ROSA DE OSOS|01|03",
+   "nombre": "Terminal del Transporte",
+   "nombre_oficial": "TERMINAL DEL TRANSPORTE",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.650548494064054,
+   "lon": -75.45866943984184,
+   "votos_total": 1525,
+   "votos_validos": 1441,
+   "ganador": "LUIS BERNARDO MOLINA GRANDA",
+   "empate": [],
+   "margen_puntos": 2.64,
+   "votos": {
+    "FELIX OLMEDO ARANGO CORREA": 218,
+    "JOSE IGNACIO GONZALEZ CARDONA": 284,
+    "LUIS BERNARDO MOLINA GRANDA": 322,
+    "MARIA DEL CARMEN ROLDAN ARANGO": 208,
+    "MAURICIO BARRIENTOS OSORIO": 232,
+    "VOTOS EN BLANCO": 72,
+    "VOTOS NO MARCADOS": 26,
+    "VOTOS NULOS": 58,
+    "YOVANY ALEXANDER ALVAREZ CORREA": 105
+   }
+  },
+  {
+   "id": "SANTA ROSA DE OSOS|02|01",
+   "nombre": "Coliseo Antonio Roldan Betancur",
+   "nombre_oficial": "COLISEO ANTONIO ROLDAN BETANCUR",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.646180977601485,
+   "lon": -75.46570797466151,
+   "votos_total": 3915,
+   "votos_validos": 3727,
+   "ganador": "LUIS BERNARDO MOLINA GRANDA",
+   "empate": [],
+   "margen_puntos": 2.15,
+   "votos": {
+    "FELIX OLMEDO ARANGO CORREA": 557,
+    "JOSE IGNACIO GONZALEZ CARDONA": 659,
+    "LUIS BERNARDO MOLINA GRANDA": 849,
+    "MARIA DEL CARMEN ROLDAN ARANGO": 450,
+    "MAURICIO BARRIENTOS OSORIO": 769,
+    "VOTOS EN BLANCO": 162,
+    "VOTOS NO MARCADOS": 76,
+    "VOTOS NULOS": 112,
+    "YOVANY ALEXANDER ALVAREZ CORREA": 281
+   }
+  },
+  {
+   "id": "SANTA ROSA DE OSOS|02|02",
+   "nombre": "Coliseo Menor",
+   "nombre_oficial": "COLISEO MENOR",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.64655303026658,
+   "lon": -75.46212073719083,
+   "votos_total": 2738,
+   "votos_validos": 2646,
+   "ganador": "MAURICIO BARRIENTOS OSORIO",
+   "empate": [],
+   "margen_puntos": 3.67,
+   "votos": {
+    "FELIX OLMEDO ARANGO CORREA": 342,
+    "JOSE IGNACIO GONZALEZ CARDONA": 433,
+    "LUIS BERNARDO MOLINA GRANDA": 569,
+    "MARIA DEL CARMEN ROLDAN ARANGO": 290,
+    "MAURICIO BARRIENTOS OSORIO": 666,
+    "VOTOS EN BLANCO": 154,
+    "VOTOS NO MARCADOS": 31,
+    "VOTOS NULOS": 61,
+    "YOVANY ALEXANDER ALVAREZ CORREA": 192
+   }
+  },
+  {
+   "id": "SANTA ROSA DE OSOS|99|01",
+   "nombre": "Aragon",
+   "nombre_oficial": "ARAGON",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.782687177241422,
+   "lon": -75.56279542388322,
+   "votos_total": 447,
+   "votos_validos": 421,
+   "ganador": "FELIX OLMEDO ARANGO CORREA",
+   "empate": [],
+   "margen_puntos": 27.55,
+   "votos": {
+    "FELIX OLMEDO ARANGO CORREA": 207,
+    "JOSE IGNACIO GONZALEZ CARDONA": 12,
+    "LUIS BERNARDO MOLINA GRANDA": 91,
+    "MARIA DEL CARMEN ROLDAN ARANGO": 74,
+    "MAURICIO BARRIENTOS OSORIO": 12,
+    "VOTOS EN BLANCO": 17,
+    "VOTOS NO MARCADOS": 9,
+    "VOTOS NULOS": 17,
+    "YOVANY ALEXANDER ALVAREZ CORREA": 8
+   }
+  },
+  {
+   "id": "SANTA ROSA DE OSOS|99|02",
+   "nombre": "San José de la Ahumada",
+   "nombre_oficial": "SAN JOSE DE LA AHUMADA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.6359322,
+   "lon": -75.3748942,
+   "votos_total": 101,
+   "votos_validos": 92,
+   "ganador": "LUIS BERNARDO MOLINA GRANDA",
+   "empate": [],
+   "margen_puntos": 21.74,
+   "votos": {
+    "FELIX OLMEDO ARANGO CORREA": 5,
+    "JOSE IGNACIO GONZALEZ CARDONA": 17,
+    "LUIS BERNARDO MOLINA GRANDA": 37,
+    "MARIA DEL CARMEN ROLDAN ARANGO": 16,
+    "MAURICIO BARRIENTOS OSORIO": 10,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 1,
+    "YOVANY ALEXANDER ALVAREZ CORREA": 3
+   }
+  },
+  {
+   "id": "SANTA ROSA DE OSOS|99|05",
+   "nombre": "El Chaquiro",
+   "nombre_oficial": "EL CHAQUIRO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.7043451,
+   "lon": -75.4768052,
+   "votos_total": 246,
+   "votos_validos": 231,
+   "ganador": "MARIA DEL CARMEN ROLDAN ARANGO",
+   "empate": [],
+   "margen_puntos": 8.23,
+   "votos": {
+    "FELIX OLMEDO ARANGO CORREA": 30,
+    "JOSE IGNACIO GONZALEZ CARDONA": 51,
+    "LUIS BERNARDO MOLINA GRANDA": 37,
+    "MARIA DEL CARMEN ROLDAN ARANGO": 70,
+    "MAURICIO BARRIENTOS OSORIO": 23,
+    "VOTOS EN BLANCO": 14,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 9,
+    "YOVANY ALEXANDER ALVAREZ CORREA": 6
+   }
+  },
+  {
+   "id": "SANTA ROSA DE OSOS|99|09",
+   "nombre": "Hoyo Rico",
+   "nombre_oficial": "HOYO RICO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.604861314226571,
+   "lon": -75.42670818598309,
+   "votos_total": 454,
+   "votos_validos": 423,
+   "ganador": "LUIS BERNARDO MOLINA GRANDA",
+   "empate": [],
+   "margen_puntos": 23.64,
+   "votos": {
+    "FELIX OLMEDO ARANGO CORREA": 61,
+    "JOSE IGNACIO GONZALEZ CARDONA": 68,
+    "LUIS BERNARDO MOLINA GRANDA": 168,
+    "MARIA DEL CARMEN ROLDAN ARANGO": 43,
+    "MAURICIO BARRIENTOS OSORIO": 47,
+    "VOTOS EN BLANCO": 24,
+    "VOTOS NO MARCADOS": 18,
+    "VOTOS NULOS": 13,
+    "YOVANY ALEXANDER ALVAREZ CORREA": 12
+   }
+  },
+  {
+   "id": "SANTA ROSA DE OSOS|99|10",
+   "nombre": "Rio Grande",
+   "nombre_oficial": "RIO GRANDE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.534273952336099,
+   "lon": -75.39836078047566,
+   "votos_total": 142,
+   "votos_validos": 141,
+   "ganador": "MARIA DEL CARMEN ROLDAN ARANGO",
+   "empate": [],
+   "margen_puntos": 9.93,
+   "votos": {
+    "FELIX OLMEDO ARANGO CORREA": 17,
+    "JOSE IGNACIO GONZALEZ CARDONA": 19,
+    "LUIS BERNARDO MOLINA GRANDA": 29,
+    "MARIA DEL CARMEN ROLDAN ARANGO": 43,
+    "MAURICIO BARRIENTOS OSORIO": 28,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NULOS": 1,
+    "YOVANY ALEXANDER ALVAREZ CORREA": 1
+   }
+  },
+  {
+   "id": "SANTA ROSA DE OSOS|99|11",
+   "nombre": "San Isidro",
+   "nombre_oficial": "SAN ISIDRO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.56365658390123,
+   "lon": -75.33456151644192,
+   "votos_total": 580,
+   "votos_validos": 529,
+   "ganador": "JOSE IGNACIO GONZALEZ CARDONA",
+   "empate": [],
+   "margen_puntos": 0.76,
+   "votos": {
+    "FELIX OLMEDO ARANGO CORREA": 99,
+    "JOSE IGNACIO GONZALEZ CARDONA": 137,
+    "LUIS BERNARDO MOLINA GRANDA": 133,
+    "MARIA DEL CARMEN ROLDAN ARANGO": 132,
+    "MAURICIO BARRIENTOS OSORIO": 6,
+    "VOTOS EN BLANCO": 12,
+    "VOTOS NO MARCADOS": 28,
+    "VOTOS NULOS": 23,
+    "YOVANY ALEXANDER ALVAREZ CORREA": 10
+   }
+  },
+  {
+   "id": "SANTA ROSA DE OSOS|99|13",
+   "nombre": "San Pablo",
+   "nombre_oficial": "SAN PABLO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.6037283047445205,
+   "lon": -75.24838134749912,
+   "votos_total": 546,
+   "votos_validos": 512,
+   "ganador": "JOSE IGNACIO GONZALEZ CARDONA",
+   "empate": [],
+   "margen_puntos": 1.37,
+   "votos": {
+    "FELIX OLMEDO ARANGO CORREA": 74,
+    "JOSE IGNACIO GONZALEZ CARDONA": 148,
+    "LUIS BERNARDO MOLINA GRANDA": 106,
+    "MARIA DEL CARMEN ROLDAN ARANGO": 141,
+    "MAURICIO BARRIENTOS OSORIO": 25,
+    "VOTOS EN BLANCO": 11,
+    "VOTOS NO MARCADOS": 19,
+    "VOTOS NULOS": 15,
+    "YOVANY ALEXANDER ALVAREZ CORREA": 7
+   }
+  },
+  {
+   "id": "SANTA ROSA DE OSOS|99|20",
+   "nombre": "El Caney",
+   "nombre_oficial": "EL CANEY",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.576899261039866,
+   "lon": -75.25031649192638,
+   "votos_total": 293,
+   "votos_validos": 269,
+   "ganador": "JOSE IGNACIO GONZALEZ CARDONA",
+   "empate": [],
+   "margen_puntos": 0.74,
+   "votos": {
+    "FELIX OLMEDO ARANGO CORREA": 8,
+    "JOSE IGNACIO GONZALEZ CARDONA": 94,
+    "LUIS BERNARDO MOLINA GRANDA": 92,
+    "MARIA DEL CARMEN ROLDAN ARANGO": 48,
+    "MAURICIO BARRIENTOS OSORIO": 11,
+    "VOTOS EN BLANCO": 12,
+    "VOTOS NO MARCADOS": 18,
+    "VOTOS NULOS": 6,
+    "YOVANY ALEXANDER ALVAREZ CORREA": 4
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel",
+   "nombre_oficial": "CARCEL",
+   "votos": 38,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

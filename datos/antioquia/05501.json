@@ -1,0 +1,233 @@
+{
+ "municipio": {
+  "cod_dane": "05501",
+  "cod_registraduria": "193",
+  "nombre": "Olaya",
+  "subregion": "Occidente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 2144,
+   "votos_validos": 2090,
+   "margen_puntos": 38.52,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "José Humberto Cardona González",
+     "nombre_oficial": "JOSE HUMBERTO CARDONA GONZALEZ",
+     "partido": "Unidos por Olaya",
+     "partido_oficial": "UNIDOS POR OLAYA",
+     "familias": [],
+     "votos": 1439,
+     "porcentaje": 68.85,
+     "posicion": 1
+    },
+    {
+     "nombre": "Daniel Escudero Quiceno",
+     "nombre_oficial": "DANIEL ESCUDERO QUICENO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 634,
+     "porcentaje": 30.33,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 40,
+    "VOTOS EN BLANCO": 17,
+    "VOTOS NULOS": 14
+   }
+  },
+  "2023": {
+   "votos_depositados": 2163,
+   "votos_validos": 2119,
+   "margen_puntos": 37.28,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Jesús David Hernández Londoño",
+     "nombre_oficial": "JESUS DAVID HERNANDEZ LONDOÑO",
+     "partido": "Partido de la Unión por la Gente - Partido de la U",
+     "partido_oficial": "PARTIDO DE LA UNIÓN POR LA GENTE - PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 1444,
+     "porcentaje": 68.15,
+     "posicion": 1
+    },
+    {
+     "nombre": "Daniel Escudero Quiceno",
+     "nombre_oficial": "DANIEL ESCUDERO QUICENO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRÁTICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 654,
+     "porcentaje": 30.86,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 38,
+    "VOTOS EN BLANCO": 21,
+    "VOTOS NULOS": 6
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [
+   "U"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "OLAYA|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.628216079,
+   "lon": -75.81213431,
+   "votos_total": 218,
+   "votos_validos": 208,
+   "ganador": "DANIEL ESCUDERO QUICENO",
+   "empate": [],
+   "margen_puntos": 13.46,
+   "votos": {
+    "DANIEL ESCUDERO QUICENO": 117,
+    "JESUS DAVID HERNANDEZ LONDOÑO": 89,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 9,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "OLAYA|99|01",
+   "nombre": "Llanadas",
+   "nombre_oficial": "LLANADAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.612559094348547,
+   "lon": -75.76476573944076,
+   "votos_total": 1094,
+   "votos_validos": 1076,
+   "ganador": "JESUS DAVID HERNANDEZ LONDOÑO",
+   "empate": [],
+   "margen_puntos": 53.53,
+   "votos": {
+    "DANIEL ESCUDERO QUICENO": 245,
+    "JESUS DAVID HERNANDEZ LONDOÑO": 821,
+    "VOTOS EN BLANCO": 10,
+    "VOTOS NO MARCADOS": 15,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "OLAYA|99|03",
+   "nombre": "El Pencal",
+   "nombre_oficial": "EL PENCAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.637413171028342,
+   "lon": -75.8079126778424,
+   "votos_total": 256,
+   "votos_validos": 254,
+   "ganador": "DANIEL ESCUDERO QUICENO",
+   "empate": [],
+   "margen_puntos": 0.79,
+   "votos": {
+    "DANIEL ESCUDERO QUICENO": 128,
+    "JESUS DAVID HERNANDEZ LONDOÑO": 126,
+    "VOTOS NO MARCADOS": 2
+   }
+  },
+  {
+   "id": "OLAYA|99|05",
+   "nombre": "IE Sede Sucre",
+   "nombre_oficial": "IE SEDE SUCRE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.595936,
+   "lon": -75.796735,
+   "votos_total": 595,
+   "votos_validos": 581,
+   "ganador": "JESUS DAVID HERNANDEZ LONDOÑO",
+   "empate": [],
+   "margen_puntos": 42.0,
+   "votos": {
+    "DANIEL ESCUDERO QUICENO": 164,
+    "JESUS DAVID HERNANDEZ LONDOÑO": 408,
+    "VOTOS EN BLANCO": 9,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 2
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

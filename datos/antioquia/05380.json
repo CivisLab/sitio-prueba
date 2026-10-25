@@ -1,0 +1,518 @@
+{
+ "municipio": {
+  "cod_dane": "05380",
+  "cod_registraduria": "166",
+  "nombre": "La Estrella",
+  "subregion": "Valle de Aburrá",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 31220,
+   "votos_validos": 29553,
+   "margen_puntos": 46.03,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Juan Sebastián Abad Betancur",
+     "nombre_oficial": "JUAN SEBASTIAN ABAD BETANCUR",
+     "partido": "Un Pacto por la Gente",
+     "partido_oficial": "UN PACTO POR LA GENTE",
+     "familias": [],
+     "votos": 18096,
+     "porcentaje": 61.23,
+     "posicion": 1
+    },
+    {
+     "nombre": "Charles Figueroa Lopera",
+     "nombre_oficial": "CHARLES FIGUEROA LOPERA",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 4492,
+     "porcentaje": 15.2,
+     "posicion": 2
+    },
+    {
+     "nombre": "Carlos Alberto Muñoz Mejía",
+     "nombre_oficial": "CARLOS ALBERTO MUÑOZ MEJIA",
+     "partido": "Partido de Reivindicacion Etnica Pre",
+     "partido_oficial": "PARTIDO DE REIVINDICACION ETNICA \"PRE\"",
+     "familias": [],
+     "votos": 2545,
+     "porcentaje": 8.61,
+     "posicion": 3
+    },
+    {
+     "nombre": "José Gabriel Corrales Trejos",
+     "nombre_oficial": "JOSE GABRIEL CORRALES TREJOS",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 982,
+     "porcentaje": 3.32,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 3438,
+    "VOTOS NO MARCADOS": 937,
+    "VOTOS NULOS": 730
+   }
+  },
+  "2023": {
+   "votos_depositados": 36261,
+   "votos_validos": 34583,
+   "margen_puntos": 0.08,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Carlos Mario Gutiérrez Arrubla",
+     "nombre_oficial": "CARLOS MARIO GUTIERREZ ARRUBLA",
+     "partido": "Coalición por el Camino Correcto",
+     "partido_oficial": "COALICION POR EL CAMINO CORRECTO",
+     "familias": [],
+     "votos": 11538,
+     "porcentaje": 33.36,
+     "posicion": 1
+    },
+    {
+     "nombre": "Liliana María Ramírez Quintero",
+     "nombre_oficial": "LILIANA MARIA RAMIREZ QUINTERO",
+     "partido": "Una Estrella para Todos",
+     "partido_oficial": "UNA ESTRELLA PARA TODOS",
+     "familias": [],
+     "votos": 11512,
+     "porcentaje": 33.29,
+     "posicion": 2
+    },
+    {
+     "nombre": "Deimer Esneider Flórez Ocampo",
+     "nombre_oficial": "DEIMER ESNEIDER FLOREZ OCAMPO",
+     "partido": "Alianza Creo",
+     "partido_oficial": "ALIANZA CREO",
+     "familias": [],
+     "votos": 6203,
+     "porcentaje": 17.94,
+     "posicion": 3
+    },
+    {
+     "nombre": "Juan Camilo Ortiz Mejía",
+     "nombre_oficial": "JUAN CAMILO ORTIZ MEJIA",
+     "partido": "Partido Político Creemos",
+     "partido_oficial": "PARTIDO POLÍTICO CREEMOS",
+     "familias": [
+      "CREE"
+     ],
+     "votos": 1485,
+     "porcentaje": 4.29,
+     "posicion": 4
+    },
+    {
+     "nombre": "Andrés Felipe Villa Rodríguez",
+     "nombre_oficial": "ANDRES FELIPE VILLA RODRIGUEZ",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDÍGENAS DE COLOMBIA \"AICO\"",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 1143,
+     "porcentaje": 3.31,
+     "posicion": 5
+    },
+    {
+     "nombre": "María Cecilia Jaramillo Echavarría",
+     "nombre_oficial": "MARIA CECILIA JARAMILLO ECHAVARRIA",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRÁTICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 310,
+     "porcentaje": 0.9,
+     "posicion": 6
+    }
+   ],
+   "especiales": {
+    "VOTOS EN BLANCO": 2392,
+    "VOTOS NO MARCADOS": 1015,
+    "VOTOS NULOS": 663
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "LA ESTRELLA|01|01",
+   "nombre": "IE Seccion Jaime Arango Velásquez",
+   "nombre_oficial": "IE SECCION JAIME ARANGO VELASQUEZ",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.158525391,
+   "lon": -75.6428877299998,
+   "votos_total": 3043,
+   "votos_validos": 2857,
+   "ganador": "LILIANA MARIA RAMIREZ QUINTERO",
+   "empate": [],
+   "margen_puntos": 3.96,
+   "votos": {
+    "ANDRES FELIPE VILLA RODRIGUEZ": 43,
+    "CARLOS MARIO GUTIERREZ ARRUBLA": 896,
+    "DEIMER ESNEIDER FLOREZ OCAMPO": 627,
+    "JUAN CAMILO ORTIZ MEJIA": 118,
+    "LILIANA MARIA RAMIREZ QUINTERO": 1009,
+    "MARIA CECILIA JARAMILLO ECHAVARRIA": 25,
+    "VOTOS EN BLANCO": 139,
+    "VOTOS NO MARCADOS": 129,
+    "VOTOS NULOS": 57
+   }
+  },
+  {
+   "id": "LA ESTRELLA|01|02",
+   "nombre": "Casa para la Educación",
+   "nombre_oficial": "CASA PARA LA EDUCACION",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.162858628,
+   "lon": -75.6363611099998,
+   "votos_total": 3851,
+   "votos_validos": 3698,
+   "ganador": "LILIANA MARIA RAMIREZ QUINTERO",
+   "empate": [],
+   "margen_puntos": 1.16,
+   "votos": {
+    "ANDRES FELIPE VILLA RODRIGUEZ": 47,
+    "CARLOS MARIO GUTIERREZ ARRUBLA": 1206,
+    "DEIMER ESNEIDER FLOREZ OCAMPO": 884,
+    "JUAN CAMILO ORTIZ MEJIA": 110,
+    "LILIANA MARIA RAMIREZ QUINTERO": 1249,
+    "MARIA CECILIA JARAMILLO ECHAVARRIA": 31,
+    "VOTOS EN BLANCO": 171,
+    "VOTOS NO MARCADOS": 97,
+    "VOTOS NULOS": 56
+   }
+  },
+  {
+   "id": "LA ESTRELLA|01|03",
+   "nombre": "Secc Rafael Pombo",
+   "nombre_oficial": "SECC RAFAEL POMBO",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.138634668742986,
+   "lon": -75.6348180770873,
+   "votos_total": 5077,
+   "votos_validos": 4865,
+   "ganador": "LILIANA MARIA RAMIREZ QUINTERO",
+   "empate": [],
+   "margen_puntos": 2.26,
+   "votos": {
+    "ANDRES FELIPE VILLA RODRIGUEZ": 67,
+    "CARLOS MARIO GUTIERREZ ARRUBLA": 1530,
+    "DEIMER ESNEIDER FLOREZ OCAMPO": 1149,
+    "JUAN CAMILO ORTIZ MEJIA": 168,
+    "LILIANA MARIA RAMIREZ QUINTERO": 1640,
+    "MARIA CECILIA JARAMILLO ECHAVARRIA": 33,
+    "VOTOS EN BLANCO": 278,
+    "VOTOS NO MARCADOS": 133,
+    "VOTOS NULOS": 79
+   }
+  },
+  {
+   "id": "LA ESTRELLA|01|04",
+   "nombre": "COL. Divino Salvador",
+   "nombre_oficial": "COL. DIVINO SALVADOR",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.162730899999998,
+   "lon": -75.6368322999998,
+   "votos_total": 3906,
+   "votos_validos": 3757,
+   "ganador": "CARLOS MARIO GUTIERREZ ARRUBLA",
+   "empate": [],
+   "margen_puntos": 1.06,
+   "votos": {
+    "ANDRES FELIPE VILLA RODRIGUEZ": 52,
+    "CARLOS MARIO GUTIERREZ ARRUBLA": 1095,
+    "DEIMER ESNEIDER FLOREZ OCAMPO": 675,
+    "JUAN CAMILO ORTIZ MEJIA": 429,
+    "LILIANA MARIA RAMIREZ QUINTERO": 1055,
+    "MARIA CECILIA JARAMILLO ECHAVARRIA": 46,
+    "VOTOS EN BLANCO": 405,
+    "VOTOS NO MARCADOS": 88,
+    "VOTOS NULOS": 61
+   }
+  },
+  {
+   "id": "LA ESTRELLA|01|05",
+   "nombre": "SEC. Bto Ana Eva Escobar",
+   "nombre_oficial": "SEC.BTO ANA EVA ESCOBAR",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.1380486,
+   "lon": -75.64060870001,
+   "votos_total": 1769,
+   "votos_validos": 1693,
+   "ganador": "LILIANA MARIA RAMIREZ QUINTERO",
+   "empate": [],
+   "margen_puntos": 7.68,
+   "votos": {
+    "ANDRES FELIPE VILLA RODRIGUEZ": 37,
+    "CARLOS MARIO GUTIERREZ ARRUBLA": 597,
+    "DEIMER ESNEIDER FLOREZ OCAMPO": 192,
+    "JUAN CAMILO ORTIZ MEJIA": 60,
+    "LILIANA MARIA RAMIREZ QUINTERO": 727,
+    "MARIA CECILIA JARAMILLO ECHAVARRIA": 5,
+    "VOTOS EN BLANCO": 75,
+    "VOTOS NO MARCADOS": 40,
+    "VOTOS NULOS": 36
+   }
+  },
+  {
+   "id": "LA ESTRELLA|01|06",
+   "nombre": "Aula Ambiental",
+   "nombre_oficial": "AULA AMBIENTAL",
+   "zona": "01",
+   "rural": false,
+   "lat": 6.159709999999997,
+   "lon": -75.64379954232787,
+   "votos_total": 140,
+   "votos_validos": 138,
+   "ganador": "CARLOS MARIO GUTIERREZ ARRUBLA",
+   "empate": [],
+   "margen_puntos": 2.17,
+   "votos": {
+    "CARLOS MARIO GUTIERREZ ARRUBLA": 47,
+    "DEIMER ESNEIDER FLOREZ OCAMPO": 25,
+    "JUAN CAMILO ORTIZ MEJIA": 7,
+    "LILIANA MARIA RAMIREZ QUINTERO": 44,
+    "MARIA CECILIA JARAMILLO ECHAVARRIA": 1,
+    "VOTOS EN BLANCO": 14,
+    "VOTOS NO MARCADOS": 2
+   }
+  },
+  {
+   "id": "LA ESTRELLA|02|01",
+   "nombre": "Casa del Adulto Mayor",
+   "nombre_oficial": "CASA DEL ADULTO MAYOR",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.154665,
+   "lon": -75.634258,
+   "votos_total": 4006,
+   "votos_validos": 3840,
+   "ganador": "LILIANA MARIA RAMIREZ QUINTERO",
+   "empate": [],
+   "margen_puntos": 2.47,
+   "votos": {
+    "ANDRES FELIPE VILLA RODRIGUEZ": 52,
+    "CARLOS MARIO GUTIERREZ ARRUBLA": 1153,
+    "DEIMER ESNEIDER FLOREZ OCAMPO": 894,
+    "JUAN CAMILO ORTIZ MEJIA": 148,
+    "LILIANA MARIA RAMIREZ QUINTERO": 1248,
+    "MARIA CECILIA JARAMILLO ECHAVARRIA": 43,
+    "VOTOS EN BLANCO": 302,
+    "VOTOS NO MARCADOS": 92,
+    "VOTOS NULOS": 74
+   }
+  },
+  {
+   "id": "LA ESTRELLA|02|02",
+   "nombre": "INST. Educación Concejo Mpal",
+   "nombre_oficial": "INST. EDUCACION CONCEJO MPAL",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.151564,
+   "lon": -75.638647,
+   "votos_total": 4114,
+   "votos_validos": 3953,
+   "ganador": "LILIANA MARIA RAMIREZ QUINTERO",
+   "empate": [],
+   "margen_puntos": 0.96,
+   "votos": {
+    "ANDRES FELIPE VILLA RODRIGUEZ": 115,
+    "CARLOS MARIO GUTIERREZ ARRUBLA": 1259,
+    "DEIMER ESNEIDER FLOREZ OCAMPO": 693,
+    "JUAN CAMILO ORTIZ MEJIA": 188,
+    "LILIANA MARIA RAMIREZ QUINTERO": 1297,
+    "MARIA CECILIA JARAMILLO ECHAVARRIA": 35,
+    "VOTOS EN BLANCO": 366,
+    "VOTOS NO MARCADOS": 78,
+    "VOTOS NULOS": 83
+   }
+  },
+  {
+   "id": "LA ESTRELLA|02|03",
+   "nombre": "IE Seccion Tulio Ospina",
+   "nombre_oficial": "IE SECCION TULIO OSPINA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.118528089999999,
+   "lon": -75.63688856,
+   "votos_total": 6112,
+   "votos_validos": 5711,
+   "ganador": "CARLOS MARIO GUTIERREZ ARRUBLA",
+   "empate": [],
+   "margen_puntos": 7.25,
+   "votos": {
+    "ANDRES FELIPE VILLA RODRIGUEZ": 606,
+    "CARLOS MARIO GUTIERREZ ARRUBLA": 2264,
+    "DEIMER ESNEIDER FLOREZ OCAMPO": 489,
+    "JUAN CAMILO ORTIZ MEJIA": 129,
+    "LILIANA MARIA RAMIREZ QUINTERO": 1850,
+    "MARIA CECILIA JARAMILLO ECHAVARRIA": 54,
+    "VOTOS EN BLANCO": 319,
+    "VOTOS NO MARCADOS": 257,
+    "VOTOS NULOS": 144
+   }
+  },
+  {
+   "id": "LA ESTRELLA|02|04",
+   "nombre": "S la Inmaculada Fe y Alegria",
+   "nombre_oficial": "S LA INMACULADA FE Y ALEGRIA",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.139189368969391,
+   "lon": -75.636749267578,
+   "votos_total": 3195,
+   "votos_validos": 3070,
+   "ganador": "CARLOS MARIO GUTIERREZ ARRUBLA",
+   "empate": [],
+   "margen_puntos": 0.65,
+   "votos": {
+    "ANDRES FELIPE VILLA RODRIGUEZ": 86,
+    "CARLOS MARIO GUTIERREZ ARRUBLA": 1095,
+    "DEIMER ESNEIDER FLOREZ OCAMPO": 399,
+    "JUAN CAMILO ORTIZ MEJIA": 112,
+    "LILIANA MARIA RAMIREZ QUINTERO": 1075,
+    "MARIA CECILIA JARAMILLO ECHAVARRIA": 31,
+    "VOTOS EN BLANCO": 272,
+    "VOTOS NO MARCADOS": 68,
+    "VOTOS NULOS": 57
+   }
+  },
+  {
+   "id": "LA ESTRELLA|02|05",
+   "nombre": "Colegio José Antonio Galan",
+   "nombre_oficial": "COLEGIO JOSE ANTONIO GALAN",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.118707,
+   "lon": -75.63417434692364,
+   "votos_total": 419,
+   "votos_validos": 394,
+   "ganador": "CARLOS MARIO GUTIERREZ ARRUBLA",
+   "empate": [],
+   "margen_puntos": 14.47,
+   "votos": {
+    "ANDRES FELIPE VILLA RODRIGUEZ": 32,
+    "CARLOS MARIO GUTIERREZ ARRUBLA": 178,
+    "DEIMER ESNEIDER FLOREZ OCAMPO": 37,
+    "JUAN CAMILO ORTIZ MEJIA": 9,
+    "LILIANA MARIA RAMIREZ QUINTERO": 121,
+    "MARIA CECILIA JARAMILLO ECHAVARRIA": 2,
+    "VOTOS EN BLANCO": 15,
+    "VOTOS NO MARCADOS": 15,
+    "VOTOS NULOS": 10
+   }
+  },
+  {
+   "id": "LA ESTRELLA|02|06",
+   "nombre": "Escuela Manuela Beltrán",
+   "nombre_oficial": "ESCUELA MANUELA BELTRAN",
+   "zona": "02",
+   "rural": false,
+   "lat": 6.156363,
+   "lon": -75.643821,
+   "votos_total": 603,
+   "votos_validos": 583,
+   "ganador": "CARLOS MARIO GUTIERREZ ARRUBLA",
+   "empate": [],
+   "margen_puntos": 0.86,
+   "votos": {
+    "ANDRES FELIPE VILLA RODRIGUEZ": 4,
+    "CARLOS MARIO GUTIERREZ ARRUBLA": 201,
+    "DEIMER ESNEIDER FLOREZ OCAMPO": 138,
+    "JUAN CAMILO ORTIZ MEJIA": 6,
+    "LILIANA MARIA RAMIREZ QUINTERO": 196,
+    "MARIA CECILIA JARAMILLO ECHAVARRIA": 4,
+    "VOTOS EN BLANCO": 34,
+    "VOTOS NO MARCADOS": 14,
+    "VOTOS NULOS": 6
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel",
+   "nombre_oficial": "CARCEL",
+   "votos": 26,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "disponible"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

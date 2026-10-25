@@ -1,0 +1,258 @@
+{
+ "municipio": {
+  "cod_dane": "05145",
+  "cod_registraduria": "079",
+  "nombre": "Caramanta",
+  "subregion": "Suroeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 3067,
+   "votos_validos": 2965,
+   "margen_puntos": 38.31,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Julián Andrés Granada Restrepo",
+     "nombre_oficial": "JULIAN ANDRES GRANADA RESTREPO",
+     "partido": "Caramanta para Volver a Creer",
+     "partido_oficial": "CARAMANTA PARA VOLVER A CREER",
+     "familias": [],
+     "votos": 2003,
+     "porcentaje": 67.55,
+     "posicion": 1
+    },
+    {
+     "nombre": "José Fernando Aristizábal Cadavid",
+     "nombre_oficial": "JOSE FERNANDO ARISTIZABAL CADAVID",
+     "partido": "Partido Conservador Colombiano - Cambio Radical",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO - CAMBIO RADICAL",
+     "familias": [
+      "CONS",
+      "CR"
+     ],
+     "votos": 867,
+     "porcentaje": 29.24,
+     "posicion": 2
+    },
+    {
+     "nombre": "Adan Fernando González Ramírez",
+     "nombre_oficial": "ADAN FERNANDO GONZALEZ RAMIREZ",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 64,
+     "porcentaje": 2.16,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NULOS": 51,
+    "VOTOS NO MARCADOS": 51,
+    "VOTOS EN BLANCO": 31
+   }
+  },
+  "2023": {
+   "votos_depositados": 3019,
+   "votos_validos": 2941,
+   "margen_puntos": 23.84,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Juan Esteban Correa Cárdenas",
+     "nombre_oficial": "JUAN ESTEBAN CORREA CARDENAS",
+     "partido": "Caramanta Nuestra Pasion",
+     "partido_oficial": "CARAMANTA NUESTRA PASION",
+     "familias": [],
+     "votos": 1710,
+     "porcentaje": 58.14,
+     "posicion": 1
+    },
+    {
+     "nombre": "María Kelly Jojana Montoya Ossa",
+     "nombre_oficial": "MARIA KELLY JOJANA MONTOYA OSSA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1009,
+     "porcentaje": 34.31,
+     "posicion": 2
+    },
+    {
+     "nombre": "Johan Daniel Hernández Ramírez",
+     "nombre_oficial": "JOHAN DANIEL HERNANDEZ RAMIREZ",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE \"ASI\"",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 192,
+     "porcentaje": 6.53,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 50,
+    "VOTOS EN BLANCO": 30,
+    "VOTOS NULOS": 28
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "CARAMANTA|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 5.540581179884647,
+   "lon": -75.64340262688467,
+   "votos_total": 2311,
+   "votos_validos": 2258,
+   "ganador": "JUAN ESTEBAN CORREA CARDENAS",
+   "empate": [],
+   "margen_puntos": 25.78,
+   "votos": {
+    "JOHAN DANIEL HERNANDEZ RAMIREZ": 157,
+    "JUAN ESTEBAN CORREA CARDENAS": 1331,
+    "MARIA KELLY JOJANA MONTOYA OSSA": 749,
+    "VOTOS EN BLANCO": 21,
+    "VOTOS NO MARCADOS": 32,
+    "VOTOS NULOS": 21
+   }
+  },
+  {
+   "id": "CARAMANTA|99|03",
+   "nombre": "Alegrias",
+   "nombre_oficial": "ALEGRIAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.550156999999998,
+   "lon": -75.6101469999998,
+   "votos_total": 407,
+   "votos_validos": 394,
+   "ganador": "JUAN ESTEBAN CORREA CARDENAS",
+   "empate": [],
+   "margen_puntos": 3.81,
+   "votos": {
+    "JOHAN DANIEL HERNANDEZ RAMIREZ": 15,
+    "JUAN ESTEBAN CORREA CARDENAS": 194,
+    "MARIA KELLY JOJANA MONTOYA OSSA": 179,
+    "VOTOS EN BLANCO": 6,
+    "VOTOS NO MARCADOS": 11,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "CARAMANTA|99|07",
+   "nombre": "Barro Blanco",
+   "nombre_oficial": "BARRO BLANCO",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.580977361,
+   "lon": -75.6723758499998,
+   "votos_total": 99,
+   "votos_validos": 98,
+   "ganador": "JUAN ESTEBAN CORREA CARDENAS",
+   "empate": [],
+   "margen_puntos": 28.57,
+   "votos": {
+    "JOHAN DANIEL HERNANDEZ RAMIREZ": 2,
+    "JUAN ESTEBAN CORREA CARDENAS": 62,
+    "MARIA KELLY JOJANA MONTOYA OSSA": 34,
+    "VOTOS NO MARCADOS": 1
+   }
+  },
+  {
+   "id": "CARAMANTA|99|37",
+   "nombre": "Sucre",
+   "nombre_oficial": "SUCRE",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.579954711984193,
+   "lon": -75.6062475993115,
+   "votos_total": 202,
+   "votos_validos": 191,
+   "ganador": "JUAN ESTEBAN CORREA CARDENAS",
+   "empate": [],
+   "margen_puntos": 39.79,
+   "votos": {
+    "JOHAN DANIEL HERNANDEZ RAMIREZ": 18,
+    "JUAN ESTEBAN CORREA CARDENAS": 123,
+    "MARIA KELLY JOJANA MONTOYA OSSA": 47,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 5
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

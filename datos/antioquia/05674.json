@@ -1,0 +1,429 @@
+{
+ "municipio": {
+  "cod_dane": "05674",
+  "cod_registraduria": "244",
+  "nombre": "San Vicente",
+  "subregion": "Oriente",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 10891,
+   "votos_validos": 10602,
+   "margen_puntos": 2.33,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Yimi Arley Giraldo Marín",
+     "nombre_oficial": "YIMI ARLEY GIRALDO MARIN",
+     "partido": "Vive San Vicente",
+     "partido_oficial": "VIVE SAN VICENTE",
+     "familias": [],
+     "votos": 4825,
+     "porcentaje": 45.51,
+     "posicion": 1
+    },
+    {
+     "nombre": "Nelson de Jesús Henao Zapata",
+     "nombre_oficial": "NELSON DE JESUS HENAO ZAPATA",
+     "partido": "Coalición Partido Conservador - Partido de la U - AICO",
+     "partido_oficial": "COALICION PARTIDO CONSERVADOR - PARTIDO DE LA U - AICO",
+     "familias": [
+      "CONS",
+      "U",
+      "AICO"
+     ],
+     "votos": 4578,
+     "porcentaje": 43.18,
+     "posicion": 2
+    },
+    {
+     "nombre": "Diego Ferney Alzate López",
+     "nombre_oficial": "DIEGO FERNEY ALZATE LOPEZ",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 1064,
+     "porcentaje": 10.04,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NULOS": 153,
+    "VOTOS NO MARCADOS": 136,
+    "VOTOS EN BLANCO": 135
+   }
+  },
+  "2023": {
+   "votos_depositados": 11469,
+   "votos_validos": 11179,
+   "margen_puntos": 3.91,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Nelson de Jesús Henao Zapata",
+     "nombre_oficial": "NELSON DE JESUS HENAO ZAPATA",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 3992,
+     "porcentaje": 35.71,
+     "posicion": 1
+    },
+    {
+     "nombre": "Rolando Albeiro Castaño Vergara",
+     "nombre_oficial": "ROLANDO ALBEIRO CASTAÑO VERGARA",
+     "partido": "San Vicente Somos Todos",
+     "partido_oficial": "SAN VICENTE SOMOS TODOS",
+     "familias": [],
+     "votos": 3555,
+     "porcentaje": 31.8,
+     "posicion": 2
+    },
+    {
+     "nombre": "Diego Ferney Alzate López",
+     "nombre_oficial": "DIEGO FERNEY ALZATE LOPEZ",
+     "partido": "Construyamos de Corazón",
+     "partido_oficial": "CONSTRUYAMOS DE CORAZÓN",
+     "familias": [],
+     "votos": 3081,
+     "porcentaje": 27.56,
+     "posicion": 3
+    },
+    {
+     "nombre": "Darío Hernando Cardona Henao",
+     "nombre_oficial": "DARIO HERNANDO CARDONA HENAO",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 424,
+     "porcentaje": 3.79,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 180,
+    "VOTOS EN BLANCO": 127,
+    "VOTOS NULOS": 110
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [
+   "CONS"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SAN VICENTE|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.283306363336079,
+   "lon": -75.3317928314207,
+   "votos_total": 8117,
+   "votos_validos": 7909,
+   "ganador": "NELSON DE JESUS HENAO ZAPATA",
+   "empate": [],
+   "margen_puntos": 2.97,
+   "votos": {
+    "DARIO HERNANDO CARDONA HENAO": 139,
+    "DIEGO FERNEY ALZATE LOPEZ": 2297,
+    "NELSON DE JESUS HENAO ZAPATA": 2810,
+    "ROLANDO ALBEIRO CASTAÑO VERGARA": 2575,
+    "VOTOS EN BLANCO": 88,
+    "VOTOS NO MARCADOS": 117,
+    "VOTOS NULOS": 91
+   }
+  },
+  {
+   "id": "SAN VICENTE|99|02",
+   "nombre": "Campo Alegre",
+   "nombre_oficial": "CAMPO ALEGRE",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.251824143052587,
+   "lon": -75.3445816040039,
+   "votos_total": 234,
+   "votos_validos": 227,
+   "ganador": "NELSON DE JESUS HENAO ZAPATA",
+   "empate": [],
+   "margen_puntos": 11.01,
+   "votos": {
+    "DARIO HERNANDO CARDONA HENAO": 3,
+    "DIEGO FERNEY ALZATE LOPEZ": 70,
+    "NELSON DE JESUS HENAO ZAPATA": 95,
+    "ROLANDO ALBEIRO CASTAÑO VERGARA": 54,
+    "VOTOS EN BLANCO": 5,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "SAN VICENTE|99|03",
+   "nombre": "Corpoisabel",
+   "nombre_oficial": "CORPOISABEL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.311453004187158,
+   "lon": -75.25220044556649,
+   "votos_total": 169,
+   "votos_validos": 165,
+   "ganador": "ROLANDO ALBEIRO CASTAÑO VERGARA",
+   "empate": [],
+   "margen_puntos": 27.88,
+   "votos": {
+    "DARIO HERNANDO CARDONA HENAO": 2,
+    "DIEGO FERNEY ALZATE LOPEZ": 35,
+    "NELSON DE JESUS HENAO ZAPATA": 40,
+    "ROLANDO ALBEIRO CASTAÑO VERGARA": 86,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "SAN VICENTE|99|05",
+   "nombre": "El Divino Niño",
+   "nombre_oficial": "EL DIVINO NIÑO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.276471113103101,
+   "lon": -75.3018894195556,
+   "votos_total": 147,
+   "votos_validos": 143,
+   "ganador": "ROLANDO ALBEIRO CASTAÑO VERGARA",
+   "empate": [],
+   "margen_puntos": 0.7,
+   "votos": {
+    "DARIO HERNANDO CARDONA HENAO": 1,
+    "DIEGO FERNEY ALZATE LOPEZ": 42,
+    "NELSON DE JESUS HENAO ZAPATA": 49,
+    "ROLANDO ALBEIRO CASTAÑO VERGARA": 50,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 4
+   }
+  },
+  {
+   "id": "SAN VICENTE|99|06",
+   "nombre": "El Paraiso",
+   "nombre_oficial": "EL PARAISO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.246400363268103,
+   "lon": -75.36192857977561,
+   "votos_total": 197,
+   "votos_validos": 197,
+   "ganador": "NELSON DE JESUS HENAO ZAPATA",
+   "empate": [],
+   "margen_puntos": 51.27,
+   "votos": {
+    "DIEGO FERNEY ALZATE LOPEZ": 35,
+    "NELSON DE JESUS HENAO ZAPATA": 136,
+    "ROLANDO ALBEIRO CASTAÑO VERGARA": 23,
+    "VOTOS EN BLANCO": 3
+   }
+  },
+  {
+   "id": "SAN VICENTE|99|08",
+   "nombre": "La Magdalena",
+   "nombre_oficial": "LA MAGDALENA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.331518149697537,
+   "lon": -75.29385566711426,
+   "votos_total": 324,
+   "votos_validos": 316,
+   "ganador": "ROLANDO ALBEIRO CASTAÑO VERGARA",
+   "empate": [],
+   "margen_puntos": 3.8,
+   "votos": {
+    "DARIO HERNANDO CARDONA HENAO": 13,
+    "DIEGO FERNEY ALZATE LOPEZ": 93,
+    "NELSON DE JESUS HENAO ZAPATA": 97,
+    "ROLANDO ALBEIRO CASTAÑO VERGARA": 109,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 5,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "SAN VICENTE|99|09",
+   "nombre": "La Primavera",
+   "nombre_oficial": "LA PRIMAVERA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.291510077175441,
+   "lon": -75.35635794699814,
+   "votos_total": 272,
+   "votos_validos": 267,
+   "ganador": "NELSON DE JESUS HENAO ZAPATA",
+   "empate": [],
+   "margen_puntos": 19.85,
+   "votos": {
+    "DARIO HERNANDO CARDONA HENAO": 7,
+    "DIEGO FERNEY ALZATE LOPEZ": 43,
+    "NELSON DE JESUS HENAO ZAPATA": 134,
+    "ROLANDO ALBEIRO CASTAÑO VERGARA": 81,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 5
+   }
+  },
+  {
+   "id": "SAN VICENTE|99|11",
+   "nombre": "Las Minas",
+   "nombre_oficial": "LAS MINAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.310523959,
+   "lon": -75.3722030999998,
+   "votos_total": 306,
+   "votos_validos": 304,
+   "ganador": "NELSON DE JESUS HENAO ZAPATA",
+   "empate": [],
+   "margen_puntos": 5.26,
+   "votos": {
+    "DARIO HERNANDO CARDONA HENAO": 5,
+    "DIEGO FERNEY ALZATE LOPEZ": 82,
+    "NELSON DE JESUS HENAO ZAPATA": 113,
+    "ROLANDO ALBEIRO CASTAÑO VERGARA": 97,
+    "VOTOS EN BLANCO": 7,
+    "VOTOS NO MARCADOS": 2
+   }
+  },
+  {
+   "id": "SAN VICENTE|99|12",
+   "nombre": "Marco Tulio Torres",
+   "nombre_oficial": "MARCO TULIO TORRES",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.296789571999998,
+   "lon": -75.2786354799999,
+   "votos_total": 260,
+   "votos_validos": 253,
+   "ganador": "NELSON DE JESUS HENAO ZAPATA",
+   "empate": [],
+   "margen_puntos": 14.62,
+   "votos": {
+    "DARIO HERNANDO CARDONA HENAO": 6,
+    "DIEGO FERNEY ALZATE LOPEZ": 71,
+    "NELSON DE JESUS HENAO ZAPATA": 108,
+    "ROLANDO ALBEIRO CASTAÑO VERGARA": 67,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 6,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "SAN VICENTE|99|14",
+   "nombre": "I.E.R. Chaparral",
+   "nombre_oficial": "I.E.R. CHAPARRAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.263901,
+   "lon": -75.3741,
+   "votos_total": 1041,
+   "votos_validos": 1007,
+   "ganador": "NELSON DE JESUS HENAO ZAPATA",
+   "empate": [],
+   "margen_puntos": 0.3,
+   "votos": {
+    "DARIO HERNANDO CARDONA HENAO": 243,
+    "DIEGO FERNEY ALZATE LOPEZ": 213,
+    "NELSON DE JESUS HENAO ZAPATA": 270,
+    "ROLANDO ALBEIRO CASTAÑO VERGARA": 267,
+    "VOTOS EN BLANCO": 14,
+    "VOTOS NO MARCADOS": 28,
+    "VOTOS NULOS": 6
+   }
+  },
+  {
+   "id": "SAN VICENTE|99|40",
+   "nombre": "La Esperanza",
+   "nombre_oficial": "LA ESPERANZA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.354507329999998,
+   "lon": -75.38172615,
+   "votos_total": 402,
+   "votos_validos": 391,
+   "ganador": "ROLANDO ALBEIRO CASTAÑO VERGARA",
+   "empate": [],
+   "margen_puntos": 1.53,
+   "votos": {
+    "DARIO HERNANDO CARDONA HENAO": 5,
+    "DIEGO FERNEY ALZATE LOPEZ": 100,
+    "NELSON DE JESUS HENAO ZAPATA": 140,
+    "ROLANDO ALBEIRO CASTAÑO VERGARA": 146,
+    "VOTOS NO MARCADOS": 8,
+    "VOTOS NULOS": 3
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

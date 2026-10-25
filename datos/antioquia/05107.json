@@ -1,0 +1,341 @@
+{
+ "municipio": {
+  "cod_dane": "05107",
+  "cod_registraduria": "062",
+  "nombre": "Briceño",
+  "subregion": "Norte",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 4447,
+   "votos_validos": 4355,
+   "margen_puntos": 31.14,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Wilmar Moreno Monsalve",
+     "nombre_oficial": "WILMAR MORENO MONSALVE",
+     "partido": "Movilizando Ideas por Un Territorio Sostenible",
+     "partido_oficial": "MOVILIZANDO IDEAS POR UN TERRITORIO SOSTENIBLE",
+     "familias": [],
+     "votos": 2844,
+     "porcentaje": 65.3,
+     "posicion": 1
+    },
+    {
+     "nombre": "Noe de Jesús Espinosa Vásquez",
+     "nombre_oficial": "NOE DE JESUS ESPINOSA VASQUEZ",
+     "partido": "Coalición Alcaldia Briceño Ant",
+     "partido_oficial": "COALICION ALCALDIA BRICEÑO ANT",
+     "familias": [],
+     "votos": 1488,
+     "porcentaje": 34.17,
+     "posicion": 2
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 61,
+    "VOTOS NULOS": 31,
+    "VOTOS EN BLANCO": 23
+   }
+  },
+  "2023": {
+   "votos_depositados": 4684,
+   "votos_validos": 4561,
+   "margen_puntos": 50.91,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Noe de Jesús Espinosa Vásquez",
+     "nombre_oficial": "NOE DE JESUS ESPINOSA VASQUEZ",
+     "partido": "Agrupación Política en Marcha",
+     "partido_oficial": "AGRUPACIÓN POLÍTICA EN MARCHA",
+     "familias": [],
+     "votos": 3411,
+     "porcentaje": 74.79,
+     "posicion": 1
+    },
+    {
+     "nombre": "Álvaro Javier Mora Chavarria",
+     "nombre_oficial": "ALVARO JAVIER MORA CHAVARRIA",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 1089,
+     "porcentaje": 23.88,
+     "posicion": 2
+    },
+    {
+     "nombre": "Marta Leany Lopera Carrasquilla",
+     "nombre_oficial": "MARTA LEANY LOPERA CARRASQUILLA",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 38,
+     "porcentaje": 0.83,
+     "posicion": 3
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 70,
+    "VOTOS NULOS": 53,
+    "VOTOS EN BLANCO": 23
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "BRICENO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 7.111160796249724,
+   "lon": -75.55029489746404,
+   "votos_total": 3181,
+   "votos_validos": 3091,
+   "ganador": "NOE DE JESUS ESPINOSA VASQUEZ",
+   "empate": [],
+   "margen_puntos": 49.24,
+   "votos": {
+    "ALVARO JAVIER MORA CHAVARRIA": 762,
+    "MARTA LEANY LOPERA CARRASQUILLA": 31,
+    "NOE DE JESUS ESPINOSA VASQUEZ": 2284,
+    "VOTOS EN BLANCO": 14,
+    "VOTOS NO MARCADOS": 46,
+    "VOTOS NULOS": 44
+   }
+  },
+  {
+   "id": "BRICENO|99|17",
+   "nombre": "Buenavista",
+   "nombre_oficial": "BUENAVISTA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.047488926999999,
+   "lon": -75.65268643,
+   "votos_total": 135,
+   "votos_validos": 126,
+   "ganador": "NOE DE JESUS ESPINOSA VASQUEZ",
+   "empate": [],
+   "margen_puntos": 62.7,
+   "votos": {
+    "ALVARO JAVIER MORA CHAVARRIA": 22,
+    "NOE DE JESUS ESPINOSA VASQUEZ": 101,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "BRICENO|99|20",
+   "nombre": "Berlin",
+   "nombre_oficial": "BERLIN",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.070221505,
+   "lon": -75.6233569999998,
+   "votos_total": 187,
+   "votos_validos": 185,
+   "ganador": "NOE DE JESUS ESPINOSA VASQUEZ",
+   "empate": [],
+   "margen_puntos": 56.22,
+   "votos": {
+    "ALVARO JAVIER MORA CHAVARRIA": 40,
+    "MARTA LEANY LOPERA CARRASQUILLA": 1,
+    "NOE DE JESUS ESPINOSA VASQUEZ": 144,
+    "VOTOS NO MARCADOS": 1,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "BRICENO|99|22",
+   "nombre": "Chorrillos",
+   "nombre_oficial": "CHORRILLOS",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.083165,
+   "lon": -75.4955839999999,
+   "votos_total": 140,
+   "votos_validos": 139,
+   "ganador": "NOE DE JESUS ESPINOSA VASQUEZ",
+   "empate": [],
+   "margen_puntos": 48.2,
+   "votos": {
+    "ALVARO JAVIER MORA CHAVARRIA": 36,
+    "NOE DE JESUS ESPINOSA VASQUEZ": 103,
+    "VOTOS NULOS": 1
+   }
+  },
+  {
+   "id": "BRICENO|99|25",
+   "nombre": "El Anime",
+   "nombre_oficial": "EL ANIME",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.021111110999998,
+   "lon": -75.5283333299999,
+   "votos_total": 37,
+   "votos_validos": 37,
+   "ganador": "NOE DE JESUS ESPINOSA VASQUEZ",
+   "empate": [],
+   "margen_puntos": 40.54,
+   "votos": {
+    "ALVARO JAVIER MORA CHAVARRIA": 11,
+    "NOE DE JESUS ESPINOSA VASQUEZ": 26
+   }
+  },
+  {
+   "id": "BRICENO|99|30",
+   "nombre": "El Roblal",
+   "nombre_oficial": "EL ROBLAL",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.140204539,
+   "lon": -75.5928494099999,
+   "votos_total": 326,
+   "votos_validos": 320,
+   "ganador": "NOE DE JESUS ESPINOSA VASQUEZ",
+   "empate": [],
+   "margen_puntos": 31.88,
+   "votos": {
+    "ALVARO JAVIER MORA CHAVARRIA": 108,
+    "NOE DE JESUS ESPINOSA VASQUEZ": 210,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 3
+   }
+  },
+  {
+   "id": "BRICENO|99|40",
+   "nombre": "Chiri",
+   "nombre_oficial": "CHIRI",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.078710168999998,
+   "lon": -75.6708231599998,
+   "votos_total": 119,
+   "votos_validos": 118,
+   "ganador": "NOE DE JESUS ESPINOSA VASQUEZ",
+   "empate": [],
+   "margen_puntos": 65.25,
+   "votos": {
+    "ALVARO JAVIER MORA CHAVARRIA": 20,
+    "MARTA LEANY LOPERA CARRASQUILLA": 1,
+    "NOE DE JESUS ESPINOSA VASQUEZ": 97,
+    "VOTOS NO MARCADOS": 1
+   }
+  },
+  {
+   "id": "BRICENO|99|50",
+   "nombre": "Las Auras",
+   "nombre_oficial": "LAS AURAS",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.193743633999998,
+   "lon": -75.5151418099999,
+   "votos_total": 405,
+   "votos_validos": 392,
+   "ganador": "NOE DE JESUS ESPINOSA VASQUEZ",
+   "empate": [],
+   "margen_puntos": 68.11,
+   "votos": {
+    "ALVARO JAVIER MORA CHAVARRIA": 60,
+    "MARTA LEANY LOPERA CARRASQUILLA": 1,
+    "NOE DE JESUS ESPINOSA VASQUEZ": 327,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 11,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "BRICENO|99|60",
+   "nombre": "Moravia",
+   "nombre_oficial": "MORAVIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.064444444,
+   "lon": -75.5511111099998,
+   "votos_total": 154,
+   "votos_validos": 153,
+   "ganador": "NOE DE JESUS ESPINOSA VASQUEZ",
+   "empate": [],
+   "margen_puntos": 58.17,
+   "votos": {
+    "ALVARO JAVIER MORA CHAVARRIA": 30,
+    "MARTA LEANY LOPERA CARRASQUILLA": 4,
+    "NOE DE JESUS ESPINOSA VASQUEZ": 119,
+    "VOTOS NO MARCADOS": 1
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

@@ -1,0 +1,464 @@
+{
+ "municipio": {
+  "cod_dane": "05250",
+  "cod_registraduria": "117",
+  "nombre": "El Bagre",
+  "subregion": "Bajo Cauca",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 20527,
+   "votos_validos": 19355,
+   "margen_puntos": 8.64,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Faber Enrique Trespalacio",
+     "nombre_oficial": "FABER ENRIQUE TRESPALACIO",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRATICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 5181,
+     "porcentaje": 26.77,
+     "posicion": 1
+    },
+    {
+     "nombre": "Johe Alexi Borjas Miranda",
+     "nombre_oficial": "JOHE ALEXI BORJAS MIRANDA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 3509,
+     "porcentaje": 18.13,
+     "posicion": 2
+    },
+    {
+     "nombre": "Gumercindo Flórez Mendoza",
+     "nombre_oficial": "GUMERCINDO FLOREZ MENDOZA",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 3471,
+     "porcentaje": 17.93,
+     "posicion": 3
+    },
+    {
+     "nombre": "Germán Andrés Hoyos Meza",
+     "nombre_oficial": "GERMAN ANDRES HOYOS MEZA",
+     "partido": "Movimiento Alternativo Indigena y Social MAIS",
+     "partido_oficial": "MOVIMIENTO ALTERNATIVO INDIGENA Y SOCIAL MAIS",
+     "familias": [
+      "MAIS"
+     ],
+     "votos": 3440,
+     "porcentaje": 17.77,
+     "posicion": 4
+    },
+    {
+     "nombre": "Luis Gabriel Montero Rodríguez",
+     "nombre_oficial": "LUIS GABRIEL MONTERO RODRIGUEZ",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRATICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 2252,
+     "porcentaje": 11.64,
+     "posicion": 5
+    },
+    {
+     "nombre": "Judit María Fernández Ortega",
+     "nombre_oficial": "JUDIT MARIA FERNANDEZ ORTEGA",
+     "partido": "Partido Colombia Justa Libres",
+     "partido_oficial": "PARTIDO COLOMBIA JUSTA LIBRES",
+     "familias": [
+      "COL_JUSTA"
+     ],
+     "votos": 863,
+     "porcentaje": 4.46,
+     "posicion": 6
+    },
+    {
+     "nombre": "José Alexander Padilla Gil",
+     "nombre_oficial": "JOSE ALEXANDER PADILLA GIL",
+     "partido": "Partido Alianza Social Independiente ASI",
+     "partido_oficial": "PARTIDO ALIANZA SOCIAL INDEPENDIENTE ASI",
+     "familias": [
+      "ASI"
+     ],
+     "votos": 114,
+     "porcentaje": 0.59,
+     "posicion": 7
+    },
+    {
+     "nombre": "Roimir Eduardo Durán Maury",
+     "nombre_oficial": "ROIMIR EDUARDO DURAN MAURY",
+     "partido": "Partido de Reivindicacion Etnica Pre",
+     "partido_oficial": "PARTIDO DE REIVINDICACION ETNICA \"PRE\"",
+     "familias": [],
+     "votos": 107,
+     "porcentaje": 0.55,
+     "posicion": 8
+    },
+    {
+     "nombre": "John Fredy Mesa Rodríguez",
+     "nombre_oficial": "JOHN FREDY MESA RODRIGUEZ",
+     "partido": "Movimiento Autoridades Indígenas de Colombia AICO",
+     "partido_oficial": "MOVIMIENTO AUTORIDADES INDIGENAS DE COLOMBIA AICO",
+     "familias": [
+      "AICO"
+     ],
+     "votos": 34,
+     "porcentaje": 0.18,
+     "posicion": 9
+    },
+    {
+     "nombre": "Óscar Miguel Corcho Romero",
+     "nombre_oficial": "OSCAR MIGUEL CORCHO ROMERO",
+     "partido": "Colombia Humana - Unión Patriotica",
+     "partido_oficial": "COLOMBIA HUMANA - UNION PATRIOTICA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 33,
+     "porcentaje": 0.17,
+     "posicion": 10
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 644,
+    "VOTOS NULOS": 528,
+    "VOTOS EN BLANCO": 351
+   }
+  },
+  "2023": {
+   "votos_depositados": 22561,
+   "votos_validos": 21576,
+   "margen_puntos": 4.18,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Marco Fidel Trespalacio Bulloso",
+     "nombre_oficial": "MARCO FIDEL TRESPALACIO BULLOSO",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 8674,
+     "porcentaje": 40.2,
+     "posicion": 1
+    },
+    {
+     "nombre": "Aníbal Navarro Hernández",
+     "nombre_oficial": "ANIBAL NAVARRO HERNANDEZ",
+     "partido": "Comprometidos con el Bagre",
+     "partido_oficial": "COMPROMETIDOS CON EL BAGRE",
+     "familias": [],
+     "votos": 7772,
+     "porcentaje": 36.02,
+     "posicion": 2
+    },
+    {
+     "nombre": "Germán Andrés Hoyos Meza",
+     "nombre_oficial": "GERMAN ANDRES HOYOS MEZA",
+     "partido": "Movimiento Político Fuerza Ciudadana",
+     "partido_oficial": "MOVIMIENTO POLITICO FUERZA CIUDADANA",
+     "familias": [],
+     "votos": 4610,
+     "porcentaje": 21.37,
+     "posicion": 3
+    },
+    {
+     "nombre": "Johe Alexi Borjas Miranda",
+     "nombre_oficial": "JOHE ALEXI BORJAS MIRANDA",
+     "partido": "Partido Liberal Colombiano",
+     "partido_oficial": "PARTIDO LIBERAL COLOMBIANO",
+     "familias": [
+      "LIB"
+     ],
+     "votos": 73,
+     "porcentaje": 0.34,
+     "posicion": 4
+    },
+    {
+     "nombre": "Carlos Mario Pino Gil",
+     "nombre_oficial": "CARLOS MARIO PINO GIL",
+     "partido": "Nueva Fuerza Democrática",
+     "partido_oficial": "NUEVA FUERZA DEMOCRÁTICA",
+     "familias": [],
+     "votos": 66,
+     "porcentaje": 0.31,
+     "posicion": 5
+    },
+    {
+     "nombre": "Ellery Martínez Rojas",
+     "nombre_oficial": "ELLERY MARTINEZ ROJAS",
+     "partido": "Movimiento Político Colombia Humana",
+     "partido_oficial": "MOVIMIENTO POLÍTICO COLOMBIA HUMANA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 45,
+     "porcentaje": 0.21,
+     "posicion": 6
+    },
+    {
+     "nombre": "Jorge Eliecer Isaza Peña",
+     "nombre_oficial": "JORGE ELIECER ISAZA PEÑA",
+     "partido": "Partido Político Dignidad & Compromiso",
+     "partido_oficial": "PARTIDO POLÍTICO DIGNIDAD & COMPROMISO",
+     "familias": [],
+     "votos": 39,
+     "porcentaje": 0.18,
+     "posicion": 7
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 590,
+    "VOTOS NULOS": 395,
+    "VOTOS EN BLANCO": 297
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": false,
+  "motivo": "familias_de_partido",
+  "familias_2019": [
+   "CD"
+  ],
+  "familias_2023": [
+   "VERDE"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "EL BAGRE|01|01",
+   "nombre": "Ctro de FORM. Minero AMB. Sd Roldan Bl1",
+   "nombre_oficial": "CTRO DE FORM. MINERO AMB. SD ROLDAN BL1",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.58457422687925,
+   "lon": -74.81068333,
+   "votos_total": 5061,
+   "votos_validos": 4868,
+   "ganador": "MARCO FIDEL TRESPALACIO BULLOSO",
+   "empate": [],
+   "margen_puntos": 6.02,
+   "votos": {
+    "ANIBAL NAVARRO HERNANDEZ": 1719,
+    "CARLOS MARIO PINO GIL": 28,
+    "ELLERY MARTINEZ ROJAS": 8,
+    "GERMAN ANDRES HOYOS MEZA": 999,
+    "JOHE ALEXI BORJAS MIRANDA": 13,
+    "JORGE ELIECER ISAZA PEÑA": 8,
+    "MARCO FIDEL TRESPALACIO BULLOSO": 2012,
+    "VOTOS EN BLANCO": 81,
+    "VOTOS NO MARCADOS": 126,
+    "VOTOS NULOS": 67
+   }
+  },
+  {
+   "id": "EL BAGRE|01|02",
+   "nombre": "Colegio la Esmeralda",
+   "nombre_oficial": "COLEGIO LA ESMERALDA",
+   "zona": "01",
+   "rural": false,
+   "lat": 7.612325,
+   "lon": -74.8009861099998,
+   "votos_total": 3318,
+   "votos_validos": 3180,
+   "ganador": "MARCO FIDEL TRESPALACIO BULLOSO",
+   "empate": [],
+   "margen_puntos": 3.36,
+   "votos": {
+    "ANIBAL NAVARRO HERNANDEZ": 1128,
+    "CARLOS MARIO PINO GIL": 8,
+    "ELLERY MARTINEZ ROJAS": 5,
+    "GERMAN ANDRES HOYOS MEZA": 731,
+    "JOHE ALEXI BORJAS MIRANDA": 18,
+    "JORGE ELIECER ISAZA PEÑA": 6,
+    "MARCO FIDEL TRESPALACIO BULLOSO": 1235,
+    "VOTOS EN BLANCO": 49,
+    "VOTOS NO MARCADOS": 73,
+    "VOTOS NULOS": 65
+   }
+  },
+  {
+   "id": "EL BAGRE|02|01",
+   "nombre": "Escuela Portugal",
+   "nombre_oficial": "ESCUELA PORTUGAL",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.597591666999998,
+   "lon": -74.7975333299998,
+   "votos_total": 3160,
+   "votos_validos": 3023,
+   "ganador": "MARCO FIDEL TRESPALACIO BULLOSO",
+   "empate": [],
+   "margen_puntos": 16.97,
+   "votos": {
+    "ANIBAL NAVARRO HERNANDEZ": 889,
+    "CARLOS MARIO PINO GIL": 8,
+    "ELLERY MARTINEZ ROJAS": 2,
+    "GERMAN ANDRES HOYOS MEZA": 668,
+    "JOHE ALEXI BORJAS MIRANDA": 6,
+    "JORGE ELIECER ISAZA PEÑA": 4,
+    "MARCO FIDEL TRESPALACIO BULLOSO": 1402,
+    "VOTOS EN BLANCO": 44,
+    "VOTOS NO MARCADOS": 69,
+    "VOTOS NULOS": 68
+   }
+  },
+  {
+   "id": "EL BAGRE|02|02",
+   "nombre": "Colegio 20 de Julio",
+   "nombre_oficial": "COLEGIO 20 DE JULIO",
+   "zona": "02",
+   "rural": false,
+   "lat": 7.594833789909875,
+   "lon": -74.8028612136839,
+   "votos_total": 6376,
+   "votos_validos": 6127,
+   "ganador": "MARCO FIDEL TRESPALACIO BULLOSO",
+   "empate": [],
+   "margen_puntos": 13.35,
+   "votos": {
+    "ANIBAL NAVARRO HERNANDEZ": 2026,
+    "CARLOS MARIO PINO GIL": 8,
+    "ELLERY MARTINEZ ROJAS": 11,
+    "GERMAN ANDRES HOYOS MEZA": 1121,
+    "JOHE ALEXI BORJAS MIRANDA": 24,
+    "JORGE ELIECER ISAZA PEÑA": 13,
+    "MARCO FIDEL TRESPALACIO BULLOSO": 2844,
+    "VOTOS EN BLANCO": 80,
+    "VOTOS NO MARCADOS": 148,
+    "VOTOS NULOS": 101
+   }
+  },
+  {
+   "id": "EL BAGRE|99|60",
+   "nombre": "Puerto Claver",
+   "nombre_oficial": "PUERTO CLAVER",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.700444758302635,
+   "lon": -74.7351837158202,
+   "votos_total": 2799,
+   "votos_validos": 2628,
+   "ganador": "ANIBAL NAVARRO HERNANDEZ",
+   "empate": [],
+   "margen_puntos": 7.57,
+   "votos": {
+    "ANIBAL NAVARRO HERNANDEZ": 1021,
+    "CARLOS MARIO PINO GIL": 11,
+    "ELLERY MARTINEZ ROJAS": 11,
+    "GERMAN ANDRES HOYOS MEZA": 822,
+    "JOHE ALEXI BORJAS MIRANDA": 9,
+    "JORGE ELIECER ISAZA PEÑA": 7,
+    "MARCO FIDEL TRESPALACIO BULLOSO": 718,
+    "VOTOS EN BLANCO": 29,
+    "VOTOS NO MARCADOS": 117,
+    "VOTOS NULOS": 54
+   }
+  },
+  {
+   "id": "EL BAGRE|99|65",
+   "nombre": "Puerto López",
+   "nombre_oficial": "PUERTO LOPEZ",
+   "zona": "99",
+   "rural": true,
+   "lat": 7.43788330207481,
+   "lon": -74.6880626678462,
+   "votos_total": 1847,
+   "votos_validos": 1750,
+   "ganador": "ANIBAL NAVARRO HERNANDEZ",
+   "empate": [],
+   "margen_puntos": 30.06,
+   "votos": {
+    "ANIBAL NAVARRO HERNANDEZ": 989,
+    "CARLOS MARIO PINO GIL": 3,
+    "ELLERY MARTINEZ ROJAS": 8,
+    "GERMAN ANDRES HOYOS MEZA": 269,
+    "JOHE ALEXI BORJAS MIRANDA": 3,
+    "JORGE ELIECER ISAZA PEÑA": 1,
+    "MARCO FIDEL TRESPALACIO BULLOSO": 463,
+    "VOTOS EN BLANCO": 14,
+    "VOTOS NO MARCADOS": 57,
+    "VOTOS NULOS": 40
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel Municipal",
+   "nombre_oficial": "CARCEL MUNICIPAL",
+   "votos": 0,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

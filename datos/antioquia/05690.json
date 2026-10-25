@@ -1,0 +1,380 @@
+{
+ "municipio": {
+  "cod_dane": "05690",
+  "cod_registraduria": "253",
+  "nombre": "Santo Domingo",
+  "subregion": "Nordeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 6206,
+   "votos_validos": 5929,
+   "margen_puntos": 12.14,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Mario Alberto Monsalve Hernández",
+     "nombre_oficial": "MARIO ALBERTO MONSALVE HERNANDEZ",
+     "partido": "El Cambio Es Mario",
+     "partido_oficial": "EL CAMBIO ES MARIO",
+     "familias": [],
+     "votos": 2995,
+     "porcentaje": 50.51,
+     "posicion": 1
+    },
+    {
+     "nombre": "Fabio Ignacio MIRA Valencia",
+     "nombre_oficial": "FABIO IGNACIO MIRA VALENCIA",
+     "partido": "Partido Social de Unidad Nacional Partido de la U",
+     "partido_oficial": "PARTIDO SOCIAL DE UNIDAD NACIONAL  PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 2275,
+     "porcentaje": 38.37,
+     "posicion": 2
+    },
+    {
+     "nombre": "José Leo Dan Vásquez Castro",
+     "nombre_oficial": "JOSE LEO DAN VASQUEZ CASTRO",
+     "partido": "Partido Cambio Radical",
+     "partido_oficial": "PARTIDO CAMBIO RADICAL",
+     "familias": [
+      "CR"
+     ],
+     "votos": 481,
+     "porcentaje": 8.11,
+     "posicion": 3
+    },
+    {
+     "nombre": "Iván Ángel Monsalve Alzate",
+     "nombre_oficial": "IVAN ANGEL MONSALVE ALZATE",
+     "partido": "Partido Alianza Verde",
+     "partido_oficial": "PARTIDO ALIANZA VERDE",
+     "familias": [
+      "VERDE"
+     ],
+     "votos": 56,
+     "porcentaje": 0.94,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 160,
+    "VOTOS EN BLANCO": 122,
+    "VOTOS NULOS": 117
+   }
+  },
+  "2023": {
+   "votos_depositados": 6408,
+   "votos_validos": 6163,
+   "margen_puntos": 2.84,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Fabio Ignacio MIRA Valencia",
+     "nombre_oficial": "FABIO IGNACIO MIRA VALENCIA",
+     "partido": "Partido de la Unión por la Gente - Partido de la U",
+     "partido_oficial": "PARTIDO DE LA UNIÓN POR LA GENTE - PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 2165,
+     "porcentaje": 35.13,
+     "posicion": 1
+    },
+    {
+     "nombre": "Tiberio de Jesús Orrego Cortes",
+     "nombre_oficial": "TIBERIO DE JESUS ORREGO CORTES",
+     "partido": "Mejor Es Posible",
+     "partido_oficial": "MEJOR ES POSIBLE",
+     "familias": [],
+     "votos": 1990,
+     "porcentaje": 32.29,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jhon Dairo Valencia Galvis",
+     "nombre_oficial": "JHON DAIRO VALENCIA GALVIS",
+     "partido": "Partido Conservador Colombiano",
+     "partido_oficial": "PARTIDO CONSERVADOR COLOMBIANO",
+     "familias": [
+      "CONS"
+     ],
+     "votos": 1386,
+     "porcentaje": 22.49,
+     "posicion": 3
+    },
+    {
+     "nombre": "Rogelio Humberto Arias",
+     "nombre_oficial": "ROGELIO HUMBERTO ARIAS",
+     "partido": "Partido Centro Democrático",
+     "partido_oficial": "PARTIDO CENTRO DEMOCRÁTICO",
+     "familias": [
+      "CD"
+     ],
+     "votos": 497,
+     "porcentaje": 8.06,
+     "posicion": 4
+    },
+    {
+     "nombre": "Francisco Guillermo Monsalve Estrada",
+     "nombre_oficial": "FRANCISCO GUILLERMO MONSALVE ESTRADA",
+     "partido": "Movimiento Salvación Nacional",
+     "partido_oficial": "MOVIMIENTO SALVACIÓN NACIONAL",
+     "familias": [
+      "SALV"
+     ],
+     "votos": 19,
+     "porcentaje": 0.31,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 150,
+    "VOTOS EN BLANCO": 106,
+    "VOTOS NULOS": 95
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [
+   "U"
+  ],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "SANTO DOMINGO|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 6.473931992190471,
+   "lon": -75.16589820384979,
+   "votos_total": 3839,
+   "votos_validos": 3720,
+   "ganador": "FABIO IGNACIO MIRA VALENCIA",
+   "empate": [],
+   "margen_puntos": 0.56,
+   "votos": {
+    "FABIO IGNACIO MIRA VALENCIA": 1228,
+    "FRANCISCO GUILLERMO MONSALVE ESTRADA": 13,
+    "JHON DAIRO VALENCIA GALVIS": 761,
+    "ROGELIO HUMBERTO ARIAS": 441,
+    "TIBERIO DE JESUS ORREGO CORTES": 1207,
+    "VOTOS EN BLANCO": 70,
+    "VOTOS NO MARCADOS": 76,
+    "VOTOS NULOS": 43
+   }
+  },
+  {
+   "id": "SANTO DOMINGO|99|01",
+   "nombre": "Botero",
+   "nombre_oficial": "BOTERO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.539760155743003,
+   "lon": -75.23356201523461,
+   "votos_total": 539,
+   "votos_validos": 505,
+   "ganador": "FABIO IGNACIO MIRA VALENCIA",
+   "empate": [],
+   "margen_puntos": 7.33,
+   "votos": {
+    "FABIO IGNACIO MIRA VALENCIA": 212,
+    "JHON DAIRO VALENCIA GALVIS": 175,
+    "ROGELIO HUMBERTO ARIAS": 16,
+    "TIBERIO DE JESUS ORREGO CORTES": 93,
+    "VOTOS EN BLANCO": 9,
+    "VOTOS NO MARCADOS": 22,
+    "VOTOS NULOS": 12
+   }
+  },
+  {
+   "id": "SANTO DOMINGO|99|05",
+   "nombre": "El Limon",
+   "nombre_oficial": "EL LIMON",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.533861111685305,
+   "lon": -75.12283756145523,
+   "votos_total": 56,
+   "votos_validos": 52,
+   "ganador": "FABIO IGNACIO MIRA VALENCIA",
+   "empate": [],
+   "margen_puntos": 15.38,
+   "votos": {
+    "FABIO IGNACIO MIRA VALENCIA": 25,
+    "JHON DAIRO VALENCIA GALVIS": 17,
+    "ROGELIO HUMBERTO ARIAS": 1,
+    "TIBERIO DE JESUS ORREGO CORTES": 9,
+    "VOTOS NO MARCADOS": 2,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "SANTO DOMINGO|99|09",
+   "nombre": "Porcecito",
+   "nombre_oficial": "PORCECITO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.54642795819812,
+   "lon": -75.20699501037589,
+   "votos_total": 635,
+   "votos_validos": 605,
+   "ganador": "TIBERIO DE JESUS ORREGO CORTES",
+   "empate": [],
+   "margen_puntos": 1.65,
+   "votos": {
+    "FABIO IGNACIO MIRA VALENCIA": 202,
+    "FRANCISCO GUILLERMO MONSALVE ESTRADA": 2,
+    "JHON DAIRO VALENCIA GALVIS": 162,
+    "ROGELIO HUMBERTO ARIAS": 16,
+    "TIBERIO DE JESUS ORREGO CORTES": 212,
+    "VOTOS EN BLANCO": 11,
+    "VOTOS NO MARCADOS": 13,
+    "VOTOS NULOS": 17
+   }
+  },
+  {
+   "id": "SANTO DOMINGO|99|13",
+   "nombre": "Santiago",
+   "nombre_oficial": "SANTIAGO",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.541949875367841,
+   "lon": -75.15699863433832,
+   "votos_total": 556,
+   "votos_validos": 540,
+   "ganador": "TIBERIO DE JESUS ORREGO CORTES",
+   "empate": [],
+   "margen_puntos": 1.48,
+   "votos": {
+    "FABIO IGNACIO MIRA VALENCIA": 220,
+    "FRANCISCO GUILLERMO MONSALVE ESTRADA": 2,
+    "JHON DAIRO VALENCIA GALVIS": 80,
+    "ROGELIO HUMBERTO ARIAS": 6,
+    "TIBERIO DE JESUS ORREGO CORTES": 228,
+    "VOTOS EN BLANCO": 4,
+    "VOTOS NO MARCADOS": 12,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "SANTO DOMINGO|99|14",
+   "nombre": "Versalles",
+   "nombre_oficial": "VERSALLES",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.53676356277014,
+   "lon": -75.0919777000078,
+   "votos_total": 564,
+   "votos_validos": 535,
+   "ganador": "FABIO IGNACIO MIRA VALENCIA",
+   "empate": [],
+   "margen_puntos": 4.86,
+   "votos": {
+    "FABIO IGNACIO MIRA VALENCIA": 205,
+    "FRANCISCO GUILLERMO MONSALVE ESTRADA": 2,
+    "JHON DAIRO VALENCIA GALVIS": 131,
+    "ROGELIO HUMBERTO ARIAS": 8,
+    "TIBERIO DE JESUS ORREGO CORTES": 179,
+    "VOTOS EN BLANCO": 10,
+    "VOTOS NO MARCADOS": 16,
+    "VOTOS NULOS": 13
+   }
+  },
+  {
+   "id": "SANTO DOMINGO|99|40",
+   "nombre": "La Quiebra",
+   "nombre_oficial": "LA QUIEBRA",
+   "zona": "99",
+   "rural": true,
+   "lat": 6.534508361779535,
+   "lon": -75.14267759494194,
+   "votos_total": 195,
+   "votos_validos": 184,
+   "ganador": "FABIO IGNACIO MIRA VALENCIA",
+   "empate": [],
+   "margen_puntos": 4.35,
+   "votos": {
+    "FABIO IGNACIO MIRA VALENCIA": 67,
+    "JHON DAIRO VALENCIA GALVIS": 59,
+    "ROGELIO HUMBERTO ARIAS": 8,
+    "TIBERIO DE JESUS ORREGO CORTES": 49,
+    "VOTOS EN BLANCO": 1,
+    "VOTOS NO MARCADOS": 7,
+    "VOTOS NULOS": 4
+   }
+  }
+ ],
+ "puestos_excluidos": [
+  {
+   "puesto": "Carcel Nacional",
+   "nombre_oficial": "CARCEL NACIONAL",
+   "votos": 24,
+   "motivo": "zona 98: puesto carcelario"
+  }
+ ],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}

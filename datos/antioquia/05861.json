@@ -1,0 +1,337 @@
+{
+ "municipio": {
+  "cod_dane": "05861",
+  "cod_registraduria": "292",
+  "nombre": "Venecia",
+  "subregion": "Suroeste",
+  "departamento": "Antioquia"
+ },
+ "corte": "2026-10-25",
+ "fuentes": [
+  {
+   "id": "panel",
+   "nombre": "Registraduría, alcaldía 2019 y 2023 (panel CivisLab desde MMV)",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "9e910fc7b81e53de8bf84dc1f07244b8108b5ee86145d0a0d4123e9302a00e7c"
+  },
+  {
+   "id": "mmv2023",
+   "nombre": "Registraduría, MMV territoriales 2023 de Antioquia",
+   "url": "https://observatorio.registraduria.gov.co",
+   "sha256": "5f0deb8a96fc22556af44a5d7bca88c3d34685cddbf76dddb63d4246898e5114"
+  },
+  {
+   "id": "divipole",
+   "nombre": "Divipole 2023 georreferenciado (datos.gov.co mv2e-prx5)",
+   "url": "https://www.datos.gov.co/d/mv2e-prx5",
+   "sha256": "7e29e46deaef7f9deb1aab923bf3c850809720aec43a14fb94d25340c9513342"
+  }
+ ],
+ "licencia": {
+  "licencia": "CC BY 4.0",
+  "cita": "CivisLab, con datos de la Registraduría",
+  "rectificaciones": "info.civislab@gmail.com, respuesta en 5 días hábiles",
+  "aviso": "Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.",
+  "titulares": "Los titulares del radar son de cada medio: se enlazan, no se relicencian."
+ },
+ "elecciones": {
+  "2019": {
+   "votos_depositados": 6981,
+   "votos_validos": 6767,
+   "margen_puntos": 4.95,
+   "renida": true,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Óscar Andrés Sánchez Álvarez",
+     "nombre_oficial": "OSCAR ANDRES SANCHEZ ALVAREZ",
+     "partido": "Volemos Alto",
+     "partido_oficial": "VOLEMOS ALTO",
+     "familias": [],
+     "votos": 3227,
+     "porcentaje": 47.69,
+     "posicion": 1
+    },
+    {
+     "nombre": "Ana María Bedoya Ballesteros",
+     "nombre_oficial": "ANA MARIA BEDOYA BALLESTEROS",
+     "partido": "Amor por Venecia",
+     "partido_oficial": "AMOR POR VENECIA",
+     "familias": [],
+     "votos": 2892,
+     "porcentaje": 42.74,
+     "posicion": 2
+    },
+    {
+     "nombre": "Juan Camilo Chaverra Cano",
+     "nombre_oficial": "JUAN CAMILO CHAVERRA CANO",
+     "partido": "Compromiso Social por Venecia",
+     "partido_oficial": "COMPROMISO SOCIAL POR VENECIA",
+     "familias": [],
+     "votos": 530,
+     "porcentaje": 7.83,
+     "posicion": 3
+    },
+    {
+     "nombre": "William de Jesús Herrera Tirado",
+     "nombre_oficial": "WILLIAM DE JESUS HERRERA TIRADO",
+     "partido": "Partido Polo Democrático Alternativo",
+     "partido_oficial": "PARTIDO POLO DEMOCRATICO ALTERNATIVO",
+     "familias": [
+      "POLO"
+     ],
+     "votos": 54,
+     "porcentaje": 0.8,
+     "posicion": 4
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 112,
+    "VOTOS NULOS": 102,
+    "VOTOS EN BLANCO": 64
+   }
+  },
+  "2023": {
+   "votos_depositados": 6754,
+   "votos_validos": 6443,
+   "margen_puntos": 16.33,
+   "renida": false,
+   "candidatura_unica": false,
+   "candidaturas": [
+    {
+     "nombre": "Ferney Darío Fernández",
+     "nombre_oficial": "FERNEY DARIO FERNANDEZ",
+     "partido": "Venecia Nos Une y Nos Unirá",
+     "partido_oficial": "VENECIA NOS UNE Y NOS UNIRÁ",
+     "familias": [],
+     "votos": 3229,
+     "porcentaje": 50.12,
+     "posicion": 1
+    },
+    {
+     "nombre": "Carlos Enrique Vásquez Vargas",
+     "nombre_oficial": "CARLOS ENRIQUE VASQUEZ VARGAS",
+     "partido": "El Vuelo Continúa",
+     "partido_oficial": "EL VUELO CONTINÚA",
+     "familias": [],
+     "votos": 2177,
+     "porcentaje": 33.79,
+     "posicion": 2
+    },
+    {
+     "nombre": "Jorge Alexander Palacio Martínez",
+     "nombre_oficial": "JORGE ALEXANDER PALACIO MARTINEZ",
+     "partido": "Partido de la Unión por la Gente - Partido de la U",
+     "partido_oficial": "PARTIDO DE LA UNIÓN POR LA GENTE - PARTIDO DE LA U",
+     "familias": [
+      "U"
+     ],
+     "votos": 893,
+     "porcentaje": 13.86,
+     "posicion": 3
+    },
+    {
+     "nombre": "José René Velásquez Molina",
+     "nombre_oficial": "JOSE RENE VELASQUEZ MOLINA",
+     "partido": "Movimiento Político Colombia Humana",
+     "partido_oficial": "MOVIMIENTO POLÍTICO COLOMBIA HUMANA",
+     "familias": [
+      "CH"
+     ],
+     "votos": 36,
+     "porcentaje": 0.56,
+     "posicion": 4
+    },
+    {
+     "nombre": "Juan Yabrudy Flórez Higuita",
+     "nombre_oficial": "JUAN YABRUDY FLOREZ HIGUITA",
+     "partido": "Partido Nuevo Liberalismo",
+     "partido_oficial": "PARTIDO NUEVO LIBERALISMO",
+     "familias": [
+      "LIB",
+      "NL"
+     ],
+     "votos": 0,
+     "porcentaje": 0.0,
+     "posicion": 5
+    }
+   ],
+   "especiales": {
+    "VOTOS NO MARCADOS": 229,
+    "VOTOS EN BLANCO": 108,
+    "VOTOS NULOS": 82
+   }
+  }
+ },
+ "continuidad": {
+  "misma_familia": null,
+  "motivo": "movimiento_sin_familia",
+  "familias_2019": [],
+  "familias_2023": [],
+  "casa": {
+   "valor": null,
+   "estado": "sin_dato_publico"
+  }
+ },
+ "puestos": [
+  {
+   "id": "VENECIA|00|00",
+   "nombre": "Puesto Cabecera Municipal",
+   "nombre_oficial": "PUESTO CABECERA MUNICIPAL",
+   "zona": "00",
+   "rural": false,
+   "lat": 5.964222519509512,
+   "lon": -75.7356010530663,
+   "votos_total": 4629,
+   "votos_validos": 4424,
+   "ganador": "FERNEY DARIO FERNANDEZ",
+   "empate": [],
+   "margen_puntos": 22.85,
+   "votos": {
+    "CARLOS ENRIQUE VASQUEZ VARGAS": 1317,
+    "FERNEY DARIO FERNANDEZ": 2328,
+    "JORGE ALEXANDER PALACIO MARTINEZ": 659,
+    "JOSE RENE VELASQUEZ MOLINA": 34,
+    "JUAN YABRUDY FLOREZ HIGUITA": 0,
+    "VOTOS EN BLANCO": 86,
+    "VOTOS NO MARCADOS": 148,
+    "VOTOS NULOS": 57
+   }
+  },
+  {
+   "id": "VENECIA|99|01",
+   "nombre": "Arabia",
+   "nombre_oficial": "ARABIA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.936082902657363,
+   "lon": -75.73296546936021,
+   "votos_total": 224,
+   "votos_validos": 200,
+   "ganador": "FERNEY DARIO FERNANDEZ",
+   "empate": [],
+   "margen_puntos": 45.5,
+   "votos": {
+    "CARLOS ENRIQUE VASQUEZ VARGAS": 46,
+    "FERNEY DARIO FERNANDEZ": 137,
+    "JORGE ALEXANDER PALACIO MARTINEZ": 15,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 22,
+    "VOTOS NULOS": 2
+   }
+  },
+  {
+   "id": "VENECIA|99|05",
+   "nombre": "Bolombolo",
+   "nombre_oficial": "BOLOMBOLO",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.971580192563615,
+   "lon": -75.8371478319168,
+   "votos_total": 1232,
+   "votos_validos": 1174,
+   "ganador": "CARLOS ENRIQUE VASQUEZ VARGAS",
+   "empate": [],
+   "margen_puntos": 34.5,
+   "votos": {
+    "CARLOS ENRIQUE VASQUEZ VARGAS": 714,
+    "FERNEY DARIO FERNANDEZ": 309,
+    "JORGE ALEXANDER PALACIO MARTINEZ": 137,
+    "JOSE RENE VELASQUEZ MOLINA": 1,
+    "VOTOS EN BLANCO": 13,
+    "VOTOS NO MARCADOS": 44,
+    "VOTOS NULOS": 14
+   }
+  },
+  {
+   "id": "VENECIA|99|15",
+   "nombre": "El Cerro",
+   "nombre_oficial": "EL CERRO",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.954520349070681,
+   "lon": -75.70132592830008,
+   "votos_total": 131,
+   "votos_validos": 130,
+   "ganador": "FERNEY DARIO FERNANDEZ",
+   "empate": [],
+   "margen_puntos": 35.38,
+   "votos": {
+    "CARLOS ENRIQUE VASQUEZ VARGAS": 39,
+    "FERNEY DARIO FERNANDEZ": 85,
+    "JORGE ALEXANDER PALACIO MARTINEZ": 4,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 1
+   }
+  },
+  {
+   "id": "VENECIA|99|25",
+   "nombre": "La Mina",
+   "nombre_oficial": "LA MINA",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.927055069927302,
+   "lon": -75.74023962020868,
+   "votos_total": 203,
+   "votos_validos": 188,
+   "ganador": "FERNEY DARIO FERNANDEZ",
+   "empate": [],
+   "margen_puntos": 45.21,
+   "votos": {
+    "CARLOS ENRIQUE VASQUEZ VARGAS": 38,
+    "FERNEY DARIO FERNANDEZ": 123,
+    "JORGE ALEXANDER PALACIO MARTINEZ": 25,
+    "VOTOS EN BLANCO": 2,
+    "VOTOS NO MARCADOS": 11,
+    "VOTOS NULOS": 4
+   }
+  },
+  {
+   "id": "VENECIA|99|50",
+   "nombre": "Palenque",
+   "nombre_oficial": "PALENQUE",
+   "zona": "99",
+   "rural": true,
+   "lat": 5.975545312917297,
+   "lon": -75.70274322383149,
+   "votos_total": 335,
+   "votos_validos": 327,
+   "ganador": "FERNEY DARIO FERNANDEZ",
+   "empate": [],
+   "margen_puntos": 59.33,
+   "votos": {
+    "CARLOS ENRIQUE VASQUEZ VARGAS": 23,
+    "FERNEY DARIO FERNANDEZ": 247,
+    "JORGE ALEXANDER PALACIO MARTINEZ": 53,
+    "JOSE RENE VELASQUEZ MOLINA": 1,
+    "VOTOS EN BLANCO": 3,
+    "VOTOS NO MARCADOS": 3,
+    "VOTOS NULOS": 5
+   }
+  }
+ ],
+ "puestos_excluidos": [],
+ "radar": {
+  "cobertura": false,
+  "titulares": [],
+  "retirados_ley_2494": 0
+ },
+ "capas": {
+  "lo_que_paso": {
+   "nivel": "abierto",
+   "estado": "disponible"
+  },
+  "quien_organiza": {
+   "nivel": "suscripcion",
+   "estado": "solicitar_acceso"
+  },
+  "como_vive": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  },
+  "que_se_conversa": {
+   "nivel": "mixto",
+   "estado": "por_construir"
+  }
+ }
+}
