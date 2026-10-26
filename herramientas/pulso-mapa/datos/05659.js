@@ -1,0 +1,1 @@
+window.PULSO=window.PULSO||{};window.PULSO["05659"]={"cod":"05659","nombre":"San Juan de Urabá","vb":[0,0,600,640],"nivel":"municipio","areas":[{"id":"05659","n":"San Juan de Urabá","d":"M222.1,630L37.2,303.3L287.3,177.1L457.7,10L562.8,396.1L222.1,630Z","bb":[37.2,10.0,525.5,620.0],"c":[281.2,386.5],"corto":"San Juan"}]};

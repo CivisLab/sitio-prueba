@@ -27,7 +27,7 @@
 - Rutas relativas a la raíz del sitio, sin barra inicial.
 - Un JSON por municipio: datos/antioquia/<cod_dane>.json; índice: datos/antioquia/indice.json
 - CSV abierto: descargas/antioquia_alcaldias_2019_2023.csv
-- Corte: 2026-10-25. Contacto: info.civislab@gmail.com.
+- Corte: 2026-10-26. Contacto: info.civislab@gmail.com.
 - Rectificaciones: info.civislab@gmail.com, respuesta en 5 días hábiles.
 - Citar: «CivisLab, con datos de la Registraduría» (licencia CC BY 4.0).
 
