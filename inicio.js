@@ -1,23 +1,42 @@
-// CivisLab: portada de ciudades verdes. Sin movimiento si el sistema pide reducirlo.
+// CivisLab: portada en video. Las frases siguen los cortes del video; sin movimiento si el
+// sistema lo pide.
 (function () {
-  var raiz = document.querySelector(".portada-ciudades");
+  var raiz = document.querySelector(".portada-video");
   if (!raiz) return;
-  var fotos = raiz.querySelectorAll(".pc-diap"), frases = raiz.querySelectorAll(".pc-frase");
-  var boton = raiz.querySelector(".pc-pausa"), n = 0, reloj = null;
-  var quieto = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var video = raiz.querySelector(".pv-video"), frases = raiz.querySelectorAll(".pv-frase");
+  var boton = raiz.querySelector(".pv-pausa"), caja = raiz.querySelector(".pv-frases");
+  var tramos = JSON.parse(caja.getAttribute("data-tramos") || "[]"), actual = 0;
   function mostrar(i) {
-    fotos.forEach(function (f, k) { f.classList.toggle("activa", k === i % fotos.length); f.setAttribute("aria-hidden", k === i % fotos.length ? "false" : "true"); });
-    frases.forEach(function (f, k) { f.classList.toggle("activa", k === i % frases.length); });
+    if (i === actual) return;
+    actual = i;
+    frases.forEach(function (f, k) { f.classList.toggle("activa", k === i); });
   }
-  function seguir() { n += 1; mostrar(n); }
-  function andar() { if (!reloj) reloj = setInterval(seguir, 6000); boton.setAttribute("aria-pressed", "false"); boton.textContent = "Pausar"; }
-  function parar() { clearInterval(reloj); reloj = null; boton.setAttribute("aria-pressed", "true"); boton.textContent = "Reanudar"; }
-  if (quieto) {   // sin avance solo: el botón pasa a la siguiente foto y frase
-    boton.textContent = "Siguiente"; boton.removeAttribute("aria-pressed");
-    boton.addEventListener("click", seguir);
-  } else {
-    boton.addEventListener("click", function () { if (reloj) parar(); else { seguir(); andar(); } });
-    andar();
+  function frasePara(t) {
+    var i = 0;
+    tramos.forEach(function (x) { if (t >= x.desde) i = x.frase; });
+    return i;
   }
-  document.addEventListener("visibilitychange", function () { if (document.hidden && reloj) { clearInterval(reloj); reloj = null; } else if (!document.hidden && boton.getAttribute("aria-pressed") === "false" && !quieto) andar(); });
+  var quieto = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (quieto || !video) {   // solo el póster y la primera frase; el video ni se descarga
+    if (video) { video.pause(); video.removeAttribute("autoplay"); video.querySelectorAll("source").forEach(function (s) { s.remove(); }); video.load(); }
+    raiz.classList.add("quieta");
+    if (boton) boton.hidden = true;
+    return;
+  }
+  function seguir() { mostrar(frasePara(video.currentTime)); if (!video.paused) requestAnimationFrame(seguir); }
+  function estado() {
+    var pausado = video.paused;
+    boton.setAttribute("aria-pressed", pausado ? "true" : "false");
+    boton.textContent = pausado ? "Reproducir" : "Pausar";
+    raiz.classList.toggle("andando", !pausado);
+  }
+  video.addEventListener("play", function () { estado(); requestAnimationFrame(seguir); });
+  video.addEventListener("playing", function () { raiz.classList.add("andando"); });
+  video.addEventListener("pause", estado);
+  boton.addEventListener("click", function () { if (video.paused) video.play(); else video.pause(); });
+  video.addEventListener("timeupdate", function () { mostrar(frasePara(video.currentTime)); });   // respaldo
+  var intento = video.play();   // si el navegador no deja arrancar solo, queda el póster y el botón dice «Reproducir»
+  if (intento && intento.catch) intento.catch(estado);
+  estado();
+  if (!video.paused) { raiz.classList.add("andando"); requestAnimationFrame(seguir); }   // ya arrancó antes que este script
 })();
