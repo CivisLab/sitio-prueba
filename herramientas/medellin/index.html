@@ -82,6 +82,9 @@ tr.fila{cursor:pointer}tr.fila:hover{background:var(--superficie-2)}
 @media (max-width:820px){main{grid-template-columns:minmax(0,1fr);padding:0 12px 80px}header{padding:16px 12px 6px}.controles{padding:6px 12px 10px}
 h1{font-size:1.45rem}.cifras{grid-template-columns:repeat(2,minmax(0,1fr))}.mini{position:static;display:block;width:42%;margin:8px 0 0 auto}#mapa{max-height:58vh}}
 </style></head><body>
+<nav id="volver-civislab" aria-label="Volver al sitio" style="position:static;display:flex;align-items:center;padding:6px 16px;background:#2B4B48;margin:0"><a href="../../como-lo-hacemos/index.html#estudio" target="_top" style="display:inline-flex;align-items:center;gap:8px;min-height:40px;color:#fff;font:600 15px/1 'Montserrat',system-ui,sans-serif;text-decoration:none">← Volver a CivisLab</a></nav>
+<script>if (window.self !== window.top) document.getElementById('volver-civislab').remove();</script>
+
 <div class="marca">PRIVADO · NO PUBLICAR · Ley 2494</div>
 <header><p class="ante">Estudio de probabilidad electoral · Medellín</p>
 <h1>Ciudad, comuna y puesto</h1>
@@ -306,6 +309,4 @@ document.addEventListener('click',ev=>{const t=ev.target.closest('[data-a],[data
 addEventListener('keydown',ev=>{if(ev.key!=='Escape')return;if(S.puesto)ir({puesto:null});else if(S.loc)ir({loc:null})});  /* Esc sube un nivel */
 addEventListener('hashchange',()=>{leerHash();pintar()});leerHash();pintar();
 </script>
-<a href="../../como-lo-hacemos/index.html#estudio" target="_top" id="volver-civislab" style="position:fixed;left:16px;bottom:16px;z-index:9999;display:inline-flex;align-items:center;gap:8px;padding:10px 16px;min-height:44px;border-radius:999px;background:#2B4B48;color:#fff;font:600 15px/1 'Montserrat',system-ui,sans-serif;text-decoration:none;box-shadow:0 6px 20px rgba(0,0,0,.25)">← Volver a CivisLab</a>
-<script>if (window.self !== window.top) document.getElementById('volver-civislab').remove();</script>
 </body></html>

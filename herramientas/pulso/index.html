@@ -94,7 +94,10 @@ svg text{font-family:var(--font);fill:var(--tinta-2)}
 footer{margin-top:28px;color:var(--tinta-3);font-size:12px;line-height:1.5;max-width:90ch}
 @media (max-width:640px){.tema{grid-template-columns:1fr auto}.tema .pista{grid-column:1/-1;order:3}select{min-width:0;width:100%}}
 </style></head>
-<body><div class="marco">
+<body>
+<nav id="volver-civislab" aria-label="Volver al sitio" style="position:static;display:flex;align-items:center;padding:6px 16px;background:#2B4B48;margin:0"><a href="../../como-lo-hacemos/index.html#pulso" target="_top" style="display:inline-flex;align-items:center;gap:8px;min-height:40px;color:#fff;font:600 15px/1 'Montserrat',system-ui,sans-serif;text-decoration:none">← Volver a CivisLab</a></nav>
+<script>if (window.self !== window.top) document.getElementById('volver-civislab').remove();</script>
+<div class="marco">
 <header class="cab">
   <div><p class="ante">CivisLab · Pulso Territorial</p><h1>Qué se conversa en cada municipio</h1>
   <p class="lema">Escucha de medios por tema de necesidad, sin preguntar. Maqueta de la herramienta con los datos reales del modelo.</p></div>
@@ -260,6 +263,4 @@ function pintar(){
 }
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change',pintar);
 pintar();
-</script><a href="../../como-lo-hacemos/index.html#pulso" target="_top" id="volver-civislab" style="position:fixed;left:16px;bottom:16px;z-index:9999;display:inline-flex;align-items:center;gap:8px;padding:10px 16px;min-height:44px;border-radius:999px;background:#2B4B48;color:#fff;font:600 15px/1 'Montserrat',system-ui,sans-serif;text-decoration:none;box-shadow:0 6px 20px rgba(0,0,0,.25)">← Volver a CivisLab</a>
-<script>if (window.self !== window.top) document.getElementById('volver-civislab').remove();</script>
-</body></html>
+</script></body></html>
