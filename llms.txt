@@ -17,6 +17,7 @@
 - Quiénes somos: quienes-somos/index.html
 - Estratega: plataforma/index.html
 - Planes: planes/index.html
+- Académico: academico/index.html
 - Explorador de los municipios (mapa, buscador y lista): antioquia/index.html
 - Metodología y fuentes (cálculos y huellas sha256): metodologia/index.html
 - Aviso legal y rectificaciones: aviso-legal/index.html
