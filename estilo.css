@@ -568,10 +568,6 @@ footer.pie p{max-width:72ch;margin-top:16px}
   .viva iframe{height:78vh}
 }
 
-/* Crear cuenta simulada (versión del creador) */
-.cuenta-guardaria{display:grid;grid-template-columns:minmax(0,14em) minmax(0,1fr);gap:6px 16px;margin:12px 0;padding:14px 16px;border:1px solid var(--linea);border-radius:12px;background:var(--superficie);font-size:14.5px}
-.cuenta-guardaria dt{color:var(--tinta-3);font-weight:700}.cuenta-guardaria dd{margin:0;overflow-wrap:anywhere}
-@media (max-width:820px){.cuenta-guardaria{grid-template-columns:minmax(0,1fr)}.cuenta-guardaria dd{margin-bottom:6px}}
 .campo select{width:100%;font:inherit;font-size:16px;color:var(--tinta);background:var(--superficie);border:1.5px solid var(--linea-2);border-radius:var(--r-s);padding:11px 12px;min-height:48px}
 .campo select:focus{outline:none;border-color:var(--acento);box-shadow:0 0 0 3px var(--acento-suave)}
 
@@ -605,3 +601,53 @@ footer.pie p{max-width:72ch;margin-top:16px}
   .pv-pausa{left:16px;right:auto;bottom:24px}
 }
 @media (prefers-reduced-motion:reduce){.pv-video{display:none}.pv-frase{transition:none}}
+
+/* Estratega: ingreso real (versión del creador, sitio/estratega.py). Provisional, dentro de la
+   marca, hasta que Diseño entregue el suyo. */
+.ingreso{padding-bottom:8px}
+.ingreso-autoriza{margin-top:22px}
+.ingreso-autoriza .casilla{grid-template-columns:18px 1fr;gap:8px;font-size:13.5px;line-height:1.5;color:var(--tinta-2)}
+.ingreso-autoriza .casilla input{width:16px;height:16px;margin-top:2px}
+.ingreso-autoriza .casilla input[aria-invalid="true"]{outline:2px solid var(--error);outline-offset:2px}
+.ingreso-autoriza a{color:var(--acento);text-underline-offset:2px}
+.ingreso-autoriza-falta{margin:6px 0 0 26px;font-size:13px;font-weight:600;color:var(--error)}
+.ingreso-autoriza-nota{margin:6px 0 0 26px;font-size:12px;line-height:1.5;color:var(--tinta-3)}
+.ingreso-autoriza-nota strong{color:var(--tinta-2)}
+.ingreso-proveedores{display:grid;gap:12px;margin-top:24px}
+.boton.proveedor{width:100%;min-height:52px;background:var(--superficie);color:var(--tinta);border-color:var(--linea-2);font-size:15.5px;gap:12px}
+.boton.proveedor:hover:not(:disabled){background:var(--superficie-2);border-color:var(--tinta-3)}
+.boton.proveedor:disabled{opacity:.55;cursor:not-allowed}
+.boton:disabled{cursor:not-allowed}
+.logo-proveedor{width:20px;height:20px;flex:none}
+.ingreso-falta{margin-top:10px}
+.ingreso-o{display:flex;align-items:center;gap:14px;margin:28px 0 4px;color:var(--tinta-3);font-size:13.5px;font-weight:600}
+.ingreso-o::before,.ingreso-o::after{content:"";flex:1;height:1px;background:var(--linea)}
+form.ingreso-correo{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:end;margin:16px 0 0}
+form.ingreso-correo .boton{min-height:48px}
+.ingreso-mensaje{margin:18px 0 0;padding:12px 16px;border-radius:var(--r);background:var(--acento-suave);color:var(--tinta);font-size:14.5px}
+.ingreso-mensaje.error{background:var(--error-fondo);color:var(--error)}
+#ingreso-entrar{padding-bottom:64px}
+.ingreso-quien{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-top:14px;color:var(--tinta-2)}
+.ingreso-quien strong{color:var(--tinta);overflow-wrap:anywhere}
+.ingreso-nivel{display:inline-flex;align-items:center;gap:8px}
+.ingreso-h2{font-size:1.25rem;font-weight:800;margin:32px 0 12px}
+.herramientas-estratega,.conjuntos{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.herramientas-estratega{grid-template-columns:repeat(2,minmax(0,1fr))}
+.herramienta-estratega{display:flex;flex-direction:column;gap:4px;height:100%;padding:16px 18px;border:1px solid var(--linea);border-radius:var(--r);background:var(--superficie);color:var(--tinta);text-decoration:none;transition:border-color .15s var(--ease),transform .15s var(--ease)}
+a.herramienta-estratega:hover{border-color:var(--acento);transform:translateY(-1px)}
+.herramienta-estratega span{font-size:14px;color:var(--tinta-2)}
+.herramienta-estratega.pronto{background:transparent;border-style:dashed}
+.herramienta-estratega .sello{align-self:flex-start;margin-top:6px}
+.conjunto{padding:14px 16px;border:1px dashed var(--linea-2);border-radius:var(--r)}
+.conjunto.abierto{border-style:solid;border-color:var(--acento);background:var(--superficie)}
+.conjunto-cabeza{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px}
+.conjunto-estado{margin-top:6px}
+.conjunto table{width:100%;border-collapse:collapse;margin-top:10px;font-size:13.5px;font-variant-numeric:tabular-nums}
+.conjunto th,.conjunto td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--linea)}
+.conjunto th{color:var(--tinta-3);font-weight:700}
+@media (max-width:820px){
+  form.ingreso-correo{grid-template-columns:minmax(0,1fr)}
+  form.ingreso-correo .boton{width:100%}
+  .herramientas-estratega{grid-template-columns:minmax(0,1fr)}
+}
+@media (prefers-reduced-motion:reduce){.herramienta-estratega{transition:none}a.herramienta-estratega:hover{transform:none}}

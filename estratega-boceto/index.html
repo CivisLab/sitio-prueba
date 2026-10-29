@@ -1,0 +1,372 @@
+<!doctype html><html lang="es"><head><meta name="robots" content="noindex,nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Estratega, boceto</title>
+</head><body>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a software shell — tool bar on top, controls of the active tool on the left, the real map of Medellín in the middle, the comuna's combined card on the right. */
+:root{
+  --bg:#eef0ec; --panel:#ffffff; --ink:#17241f; --muted:#5d6b64; --line:#d6ddd8;
+  --brand:#24443c; --brand-ink:#ffffff; --sage:#9fbf94; --gold:#b08a2e; --soft:#e4eae5;
+  --ok:#2e8b57; --mid:#e08a1e; --bad:#c8402f; --none:#d3d9d5; --edge:#ffffff;
+  --vote-a:#3a6ea5; --vote-b:#8a5aa8; --lock:#8a948f;
+  --display:"Montserrat",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1714; --panel:#17221e; --ink:#e6ece8; --muted:#9aa9a1; --line:#2a3832;
+  --brand:#9fbf94; --brand-ink:#0f1714; --sage:#5f8257; --gold:#d3ad55; --soft:#1f2c27;
+  --ok:#3fae6e; --mid:#eb9a35; --bad:#e2604d; --none:#33413b; --edge:#0f1714; --vote-a:#5b93cf; --vote-b:#aa7fc8; --lock:#6f7b75; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1714; --panel:#17221e; --ink:#e6ece8; --muted:#9aa9a1; --line:#2a3832;
+  --brand:#9fbf94; --brand-ink:#0f1714; --sage:#5f8257; --gold:#d3ad55; --soft:#1f2c27;
+  --ok:#3fae6e; --mid:#eb9a35; --bad:#e2604d; --none:#33413b; --edge:#0f1714; --vote-a:#5b93cf; --vote-b:#aa7fc8; --lock:#6f7b75; color-scheme:dark}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--display);font-size:14px;line-height:1.45}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.app{min-height:100%;display:flex;flex-direction:column;gap:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:12px;max-width:1520px;margin:0 auto}
+.aviso{background:color-mix(in srgb,var(--gold) 14%,var(--panel));border:1px dashed var(--gold);border-radius:10px;padding:7px 12px;font-size:12.5px}
+.aviso b{color:var(--gold)}
+/* top bar */
+.barra{display:flex;align-items:stretch;gap:8px;background:var(--brand);color:var(--brand-ink);border-radius:14px;padding:6px;flex-wrap:wrap;position:relative}
+.marca{display:flex;align-items:center;gap:8px;padding:0 12px;font-weight:800;font-size:17px;letter-spacing:-.01em}
+.marca small{font-weight:500;font-size:10.5px;opacity:.75;text-transform:uppercase;letter-spacing:.08em}
+.herr{display:flex;gap:4px;flex:1;min-width:0;overflow-x:auto}
+.herr button{border:0;background:transparent;color:inherit;border-radius:10px;padding:8px 12px;display:flex;flex-direction:column;align-items:flex-start;gap:1px;min-width:150px;text-align:left;opacity:.82}
+.herr button b{font-size:12.5px;font-weight:700;line-height:1.2}
+.herr button span{font-size:10.5px;opacity:.85}
+.herr button[aria-pressed="true"]{background:var(--panel);color:var(--ink);opacity:1}
+.herr button .cand{display:inline-block;font-size:9.5px;border:1px solid currentColor;border-radius:999px;padding:0 6px;margin-left:4px;opacity:.9}
+.lado{display:flex;align-items:center;gap:6px;padding-right:4px}
+.lado select{font:600 12.5px var(--display);background:color-mix(in srgb,var(--brand-ink) 12%,transparent);color:inherit;border:1px solid color-mix(in srgb,var(--brand-ink) 30%,transparent);border-radius:9px;padding:7px 8px;max-width:220px}
+.lado select option{color:#17241f}
+.ico{width:38px;height:38px;border-radius:10px;border:1px solid color-mix(in srgb,var(--brand-ink) 30%,transparent);background:transparent;color:inherit;display:grid;place-items:center}
+.ico svg{width:18px;height:18px}
+.usr{display:flex;align-items:center;gap:8px;border:1px solid color-mix(in srgb,var(--brand-ink) 30%,transparent);background:transparent;color:inherit;border-radius:10px;padding:4px 10px 4px 4px}
+.usr .av{width:30px;height:30px;border-radius:8px;background:var(--gold);color:#fff;display:grid;place-items:center;font-weight:800}
+.usr span{display:flex;flex-direction:column;align-items:flex-start;line-height:1.1}
+.usr small{font-size:10.5px;opacity:.8}
+.menu{position:absolute;right:6px;top:calc(100% + 6px);width:340px;max-width:calc(100vw - 32px);background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,.18);padding:16px;z-index:20;display:flex;flex-direction:column;gap:12px}
+.menu h3{margin:0;font-size:16px}
+.menu .dato{display:flex;justify-content:space-between;gap:8px;font-size:12.5px;border-bottom:1px solid var(--line);padding:5px 0}
+.menu .dato span:first-child{color:var(--muted)}
+.planes{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.planes button{border:1px solid var(--line);background:var(--panel);border-radius:9px;padding:7px 4px;font-weight:700;font-size:12px}
+.planes button[aria-pressed="true"]{background:var(--brand);color:var(--brand-ink);border-color:var(--brand)}
+.incluye{margin:0;padding-left:18px;font-size:12.5px;display:flex;flex-direction:column;gap:3px}
+.incluye li.no{color:var(--muted);text-decoration:line-through}
+.menu .nota{font-size:11.5px;color:var(--muted);margin:0}
+.ajuste{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:13px;padding:4px 0}
+/* body */
+main{display:grid;grid-template-columns:240px minmax(0,1fr) 330px;gap:10px;flex:1;min-height:0}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px;min-width:0}
+h2{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 8px;font-weight:700}
+.ctrl{display:flex;flex-direction:column;gap:12px}
+.opc{display:flex;flex-direction:column;gap:6px}
+.opc button{border:1px solid var(--line);background:transparent;border-radius:10px;padding:8px 10px;text-align:left;font-size:12.5px;font-weight:600;display:flex;justify-content:space-between;gap:6px;align-items:center}
+.opc button[aria-pressed="true"]{background:var(--soft);border-color:var(--brand)}
+.opc button.bloq{color:var(--lock)}
+.candado{font-size:10px;font-weight:700;border:1px solid var(--lock);color:var(--lock);border-radius:999px;padding:0 6px;white-space:nowrap}
+.cruce label{display:flex;gap:8px;align-items:flex-start;font-size:12.5px}
+.cruce select{margin-top:6px;width:100%;font:12.5px var(--display);color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px}
+.centro{display:flex;flex-direction:column;gap:8px;position:relative}
+.cab{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;flex-wrap:wrap}
+.cab h1{font-size:18px;margin:0;font-weight:800;letter-spacing:-.01em;text-wrap:balance}
+.cab p{margin:2px 0 0;color:var(--muted);font-size:12px}
+.btn{border:1px solid var(--line);background:var(--panel);border-radius:9px;padding:6px 11px;font-weight:600;font-size:12.5px}
+.btn.prim{background:var(--brand);border-color:var(--brand);color:var(--brand-ink)}
+.lectura{font-size:16.5px;font-weight:700;line-height:1.3;margin:0;text-wrap:balance}
+.mapa{position:relative;flex:1;min-height:380px;background:var(--soft);border-radius:12px;overflow:hidden}
+.mapa svg{width:100%;height:100%;display:block}
+.mapa path{stroke:var(--edge);stroke-width:1.2;vector-effect:non-scaling-stroke;cursor:pointer;transition:fill .5s ease,opacity .3s}
+.mapa path:hover{opacity:.85}
+.mapa path.sel{stroke:var(--ink);stroke-width:3}
+.mapa path.sel2{stroke:var(--gold);stroke-width:3}
+.mapa path.bloq{fill:var(--none)!important;cursor:not-allowed}
+.mapa text{font-size:11px;font-weight:700;fill:#fff;paint-order:stroke;stroke:rgba(0,0,0,.45);stroke-width:2.5px;pointer-events:none;text-anchor:middle}
+.mapa .punto{stroke:#fff;stroke-width:2;pointer-events:none}
+.zoom{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:6px}
+.zoom button{width:34px;height:34px;border-radius:9px;border:1px solid var(--line);background:var(--panel);font-weight:800}
+.tip{position:absolute;pointer-events:none;background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:6px 9px;font-size:12px;box-shadow:0 6px 18px rgba(0,0,0,.15);white-space:nowrap}
+.fuente{position:absolute;left:10px;bottom:8px;font-size:10px;color:var(--muted)}
+.leyenda{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font-size:12px;color:var(--muted)}
+.leyenda span{display:inline-flex;align-items:center;gap:6px}
+.leyenda i{width:14px;height:14px;border-radius:4px;display:inline-block}
+.tiempo{display:flex;align-items:center;gap:12px;background:var(--soft);border-radius:12px;padding:7px 12px}
+.tiempo button{width:36px;height:36px;border-radius:50%;border:0;background:var(--brand);color:var(--brand-ink);flex:none}
+.tiempo input{flex:1;accent-color:var(--brand);min-width:0}
+.tiempo b{font-size:22px;font-weight:800;font-variant-numeric:tabular-nums;min-width:60px;text-align:right}
+.derecha{display:flex;flex-direction:column;gap:10px;overflow:auto}
+.ficha-cab h3{font-size:19px;margin:0;font-weight:800}
+.ficha-cab p{margin:2px 0 0;color:var(--muted);font-size:12px}
+.cruza{background:color-mix(in srgb,var(--gold) 13%,var(--panel));border-radius:10px;padding:10px 12px;font-size:13px}
+.cruza b{display:block;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
+.bloque{border-top:1px solid var(--line);padding-top:9px}
+.bloque h4{margin:0 0 5px;font-size:12px;font-weight:700;display:flex;align-items:center;gap:8px;justify-content:space-between}
+.fila{display:flex;justify-content:space-between;gap:8px;font-size:12.5px;padding:2px 0}
+.fila span:last-child{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.chip{display:inline-flex;align-items:center;font-size:10.5px;font-weight:700;padding:1px 7px;border-radius:999px;color:#fff}
+.velo{background:repeating-linear-gradient(135deg,var(--soft) 0 6px,transparent 6px 12px);border:1px dashed var(--lock);border-radius:10px;padding:10px;font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.mini{width:100%;height:44px;display:block}
+.acciones{display:flex;gap:8px;flex-wrap:wrap}
+.vacio{color:var(--muted);font-size:12.5px}
+.capa{position:absolute;inset:0;background:color-mix(in srgb,var(--panel) 93%,transparent);border-radius:12px;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;z-index:5}
+.capa div{max-width:440px}
+.capa h3{margin:0 0 8px;font-size:18px}
+.capa p{margin:0 0 10px;color:var(--muted)}
+@media (max-width:1150px){main{grid-template-columns:210px minmax(0,1fr)}.derecha{grid-column:1/-1}}
+@media (max-width:760px){
+  main{grid-template-columns:minmax(0,1fr)}
+  .ctrl .opc{flex-direction:row;overflow-x:auto}
+  .ctrl .opc button{min-width:170px}
+  .cruce{display:none}
+  .mapa{min-height:340px}
+  .herr button{min-width:132px}
+  .usr span{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="app">
+  <div class="aviso"><b>Boceto 2, para conversar.</b> El mapa es el real (límites del DANE). Las cifras son inventadas y los niveles de acceso son una propuesta para probar; los decides tú.</div>
+
+  <header class="barra">
+    <div class="marca">Estratega <small>CivisLab</small></div>
+    <nav class="herr" aria-label="Herramientas">
+      <button type="button" data-h="estudio" aria-pressed="true"><b>Estudio de Probabilidad Electoral</b><span>corre con IPET y el Cerebro</span></button>
+      <button type="button" data-h="atlas" aria-pressed="false"><b>Análisis Territorial Multidimensional</b><span>corre con Atlas</span></button>
+      <button type="button" data-h="escucha" aria-pressed="false"><b>Escucha Social Inteligente</b><span>corre con Pulso</span></button>
+      <button type="button" data-h="plaza" aria-pressed="false"><b>Plaza<i class="cand">en preparación</i></b><span>estudios con personas</span></button>
+    </nav>
+    <div class="lado">
+      <label for="espacio" class="sr" hidden>Espacio de trabajo</label>
+      <select id="espacio" aria-label="Espacio de trabajo">
+        <option>Medellín</option>
+        <option>Campaña Concejo de Bello 2027</option>
+        <option>Antioquia, 125 municipios</option>
+      </select>
+      <button type="button" class="ico" id="btnConf" aria-label="Configuración" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
+      <button type="button" class="usr" id="btnUsr" aria-expanded="false"><i class="av">C</i><span><b>Carlos</b><small id="usrPlan">Personalizado</small></span></button>
+    </div>
+    <div class="menu" id="menuUsr" hidden></div>
+    <div class="menu" id="menuConf" hidden></div>
+  </header>
+
+  <main>
+    <section class="panel ctrl" aria-label="Controles de la herramienta" id="ctrl"></section>
+
+    <section class="panel centro" aria-label="Mapa">
+      <div class="cab"><div><h1 id="titulo"></h1><p id="subt"></p></div><button type="button" class="btn" id="verCiudad" hidden>Ver toda la ciudad</button></div>
+      <p class="lectura" id="lectura" aria-live="polite"></p>
+      <div class="mapa" id="mapa">
+        <svg id="svg" role="img" aria-label="Mapa de Medellín por comunas y corregimientos"></svg>
+        <div class="zoom"><button type="button" id="zMas" aria-label="Acercar">+</button><button type="button" id="zMenos" aria-label="Alejar">−</button></div>
+        <div class="tip" id="tip" hidden></div>
+        <span class="fuente">Límites: DANE, Marco Geoestadístico Nacional, CC BY 4.0</span>
+      </div>
+      <div class="leyenda" id="leyenda"></div>
+      <div class="tiempo" id="tiempo">
+        <button type="button" id="play" aria-label="Reproducir los años">▶</button>
+        <input type="range" id="anio" min="0" max="5" step="1" value="5" aria-label="Año">
+        <b id="anioTxt">2023</b>
+      </div>
+    </section>
+
+    <aside class="panel derecha" id="derecha" aria-label="Ficha de la comuna"></aside>
+  </main>
+</div>
+
+<script>
+var GEO={"w":1000,"h":855.1,"f":[{"cod":"01","nombre":"Popular","tipo":"comuna","d":"M696.8 285.8L692.2 283.1L690.6 298.2L682.0 314.3L683.7 317.8L689.7 321.0L685.7 323.2L683.9 327.4L684.6 331.3L687.0 331.5L686.3 335.1L684.0 335.5L682.9 333.8L677.6 335.3L675.2 338.1L671.6 337.0L669.1 343.0L664.2 344.1L664.3 346.5L666.5 346.9L666.3 352.0L683.5 361.1L685.4 359.7L690.4 361.3L693.1 360.1L698.5 362.3L715.2 356.0L734.5 357.4L742.0 361.6L743.9 360.9L742.8 346.7L741.7 343.4L740.2 343.6L742.0 339.3L740.8 335.3L743.3 334.5L746.5 336.7L750.5 332.7L744.9 326.1L741.8 327.3L735.6 323.3L744.2 321.3L742.7 316.0L744.0 314.2L742.0 314.0L742.8 309.2L740.5 310.2L742.5 307.0L738.9 307.4L732.5 296.7L729.3 296.6L727.3 292.4L715.7 284.4L712.7 285.7L709.5 282.9L707.6 284.4L701.3 282.8L696.8 285.8Z","cx":715.1,"cy":327.7},{"cod":"02","nombre":"Santa Cruz","tipo":"comuna","d":"M701.5 277.1L697.0 278.1L689.5 276.4L687.1 273.1L666.4 267.6L661.4 263.8L661.3 260.9L656.3 259.1L656.6 289.1L644.6 316.2L635.4 324.3L631.4 334.1L643.4 337.6L645.9 344.2L659.5 344.8L661.8 345.6L661.7 343.9L669.1 343.0L671.6 337.0L675.2 338.1L677.6 335.3L682.9 333.8L684.0 335.5L686.3 335.1L687.0 331.5L684.6 331.3L683.9 327.4L685.7 323.2L689.7 321.0L683.7 317.8L682.0 314.3L690.6 298.2L692.4 282.8L696.8 285.8L700.7 282.8L707.6 284.4L708.0 282.7L701.5 277.1Z","cx":675.3,"cy":308.4},{"cod":"03","nombre":"Manrique","tipo":"comuna","d":"M715.4 356.1L698.5 362.3L693.1 360.1L690.4 361.3L685.4 359.7L683.5 361.1L674.7 356.3L674.7 377.5L662.7 454.0L660.0 457.6L662.1 459.3L665.2 454.9L666.1 458.8L670.4 459.6L680.1 452.4L690.7 455.5L692.2 458.8L697.2 459.1L699.0 454.5L701.6 453.9L706.1 456.8L717.1 458.6L721.3 459.0L722.1 456.8L724.5 456.8L725.8 459.2L728.5 455.2L729.4 446.6L735.0 447.3L735.8 449.4L739.5 450.3L742.9 448.4L743.6 443.6L746.8 443.9L751.8 440.8L750.2 437.7L754.8 438.0L755.7 434.0L754.6 431.7L753.1 432.3L755.0 428.9L748.9 425.7L748.5 419.7L743.9 414.8L744.6 407.0L740.7 408.4L737.3 405.1L735.7 407.4L734.4 404.7L736.3 403.0L743.4 402.1L743.1 400.0L745.2 399.9L745.2 397.7L747.7 398.6L748.5 394.2L751.7 391.1L749.0 385.7L745.5 387.6L744.3 382.1L742.3 382.7L742.9 380.8L738.7 379.2L739.3 371.8L735.0 370.4L740.6 361.5L735.3 357.5L715.4 356.1Z","cx":720.8,"cy":410.1},{"cod":"04","nombre":"Aranjuez","tipo":"comuna","d":"M664.2 344.1L661.7 343.9L661.8 345.6L646.0 344.3L643.5 337.7L640.3 336.6L631.4 334.1L622.7 345.9L619.2 359.7L611.3 367.9L610.7 377.3L595.9 442.3L654.0 451.0L652.3 453.7L661.2 457.2L674.9 376.1L674.7 356.3L666.3 352.0L666.5 346.9L664.3 346.5L664.2 344.1Z","cx":650.0,"cy":369.0},{"cod":"05","nombre":"Castilla","tipo":"comuna","d":"M621.6 248.9L610.3 250.4L605.8 255.8L599.1 257.5L596.3 277.0L598.2 277.0L598.2 280.5L608.1 280.4L609.3 288.7L600.8 302.9L595.5 302.7L592.9 305.5L593.6 309.3L580.0 348.0L571.0 344.9L562.5 361.9L570.9 367.0L573.0 364.8L581.8 374.0L587.8 376.3L595.0 378.4L594.8 380.1L587.3 378.1L586.1 381.6L582.5 384.2L587.6 388.6L583.6 393.1L575.2 386.6L569.2 393.3L571.3 395.3L564.2 410.6L565.2 413.7L579.5 424.1L576.8 430.7L580.0 437.4L583.5 440.2L595.9 442.3L610.7 377.3L611.3 367.9L619.8 358.6L622.7 345.9L630.5 336.4L635.4 324.3L644.6 316.2L657.3 286.7L655.6 261.2L659.7 254.3L652.0 250.5L627.5 252.0L621.6 248.9Z","cx":604.9,"cy":320.5},{"cod":"06","nombre":"Doce de Octubre","tipo":"comuna","d":"M596.5 255.8L588.1 256.8L578.2 254.4L557.5 263.9L535.1 259.5L539.9 263.1L537.6 269.2L533.7 270.6L534.3 272.0L540.9 270.9L538.6 272.9L541.4 274.5L541.1 279.9L545.3 283.0L546.3 287.4L543.7 290.6L540.5 290.5L538.0 295.5L532.4 292.5L530.1 295.8L532.2 298.9L535.9 301.9L534.2 305.9L537.5 307.8L539.3 314.1L533.0 321.4L534.6 326.3L545.5 330.7L538.4 335.4L536.7 344.1L545.0 351.9L547.1 351.7L548.0 357.0L561.1 363.6L571.0 344.9L580.0 348.0L593.6 309.3L592.9 305.5L595.5 302.7L600.8 302.9L609.3 288.7L608.1 280.4L598.2 280.5L598.2 277.0L596.3 277.0L599.2 257.7L596.5 255.8Z","cx":549.0,"cy":296.9},{"cod":"07","nombre":"Robledo","tipo":"comuna","d":"M382.6 372.6L385.2 380.1L383.9 384.5L388.8 386.7L392.0 391.8L396.2 392.1L395.0 400.7L396.8 405.0L404.3 410.2L409.2 410.4L409.8 412.3L406.5 412.2L404.3 418.7L400.4 422.1L407.8 422.1L421.4 417.7L431.0 417.9L441.3 411.8L448.0 412.7L451.3 403.8L453.5 402.3L452.1 397.9L453.8 393.7L467.0 398.6L472.9 398.1L485.2 402.0L497.6 409.9L504.0 410.1L523.1 433.2L535.4 441.4L533.6 444.3L545.1 458.7L556.7 466.2L563.5 468.3L564.0 466.9L572.4 467.8L583.5 465.2L588.2 457.9L589.7 459.9L595.9 442.3L583.5 440.2L580.0 437.4L576.8 430.7L579.5 424.1L564.4 411.9L564.4 408.2L568.6 402.9L571.3 395.3L569.2 393.3L575.2 386.6L583.6 393.1L587.6 388.6L582.5 384.2L586.1 381.6L587.3 378.1L594.8 380.1L595.0 378.4L589.5 377.7L584.4 373.9L581.8 374.0L573.0 364.8L570.9 367.0L548.0 357.0L547.1 351.7L545.0 351.9L539.4 347.0L536.3 342.3L538.4 335.4L545.5 330.7L535.1 326.9L533.5 322.6L529.5 326.4L520.1 316.6L516.1 319.5L506.1 310.5L499.8 311.3L495.3 298.7L484.7 304.1L483.4 311.2L485.8 314.2L487.7 314.0L488.6 318.4L491.8 319.5L491.0 322.3L493.1 324.2L486.8 328.9L487.3 331.3L483.8 335.1L478.2 337.5L477.1 332.1L462.6 337.9L458.2 328.1L447.2 327.6L442.4 330.7L440.4 326.8L429.3 339.9L426.4 347.2L419.5 350.3L420.2 354.1L417.5 357.5L407.8 361.2L393.4 360.4L391.5 364.8L387.5 366.8L381.3 365.8L382.6 372.6Z","cx":461.7,"cy":366.4},{"cod":"08","nombre":"Villa Hermosa","tipo":"comuna","d":"M713.5 457.9L706.1 456.8L701.6 453.9L699.0 454.5L697.2 459.1L692.2 458.8L690.7 455.5L680.1 452.4L670.4 459.6L666.1 458.8L665.2 454.9L661.9 459.4L656.4 457.7L641.9 480.3L666.4 497.5L666.3 505.5L669.8 506.2L661.6 520.6L662.4 521.9L667.0 525.3L670.7 532.0L688.0 533.9L693.8 537.4L697.5 543.0L704.4 544.7L709.3 555.9L717.6 559.6L720.2 565.3L724.4 567.9L729.9 576.1L734.5 575.0L742.0 578.8L746.9 576.5L759.1 585.6L768.6 584.7L773.1 582.5L779.5 586.1L788.7 588.2L787.8 583.0L793.6 586.8L795.7 586.0L795.4 581.7L773.1 580.0L772.5 578.7L776.1 577.5L778.7 578.8L787.2 573.2L789.5 568.8L788.4 567.1L786.4 567.7L791.5 554.9L788.8 560.1L785.2 561.6L784.0 560.3L785.3 558.1L781.9 552.2L777.4 549.9L779.0 545.2L777.0 542.6L772.6 548.2L771.7 546.8L770.9 543.4L766.8 545.1L765.9 542.0L763.4 541.4L762.5 546.0L753.1 549.1L749.5 552.8L743.2 553.0L745.1 549.4L740.3 544.4L736.3 546.1L735.7 540.0L728.5 533.8L729.3 528.3L725.7 530.0L724.0 528.4L726.4 516.1L736.8 508.4L733.1 504.3L734.8 504.8L736.9 501.3L742.9 504.2L737.8 498.8L738.3 491.1L734.8 489.3L736.6 486.6L735.4 483.8L738.9 483.1L737.3 481.6L741.0 479.6L738.7 476.0L731.9 477.5L730.2 475.7L725.5 476.4L718.2 473.0L714.4 466.8L713.5 457.9Z","cx":738.6,"cy":526.3},{"cod":"09","nombre":"Buenos Aires","tipo":"comuna","d":"M667.6 526.4L661.6 520.6L644.1 536.6L636.7 535.2L628.3 542.5L632.9 549.5L633.8 554.7L625.5 569.3L629.2 584.6L622.4 587.2L618.9 593.3L625.5 601.4L622.9 621.5L618.9 625.5L620.7 633.3L627.1 634.5L627.5 640.0L631.7 643.7L654.4 648.2L655.5 645.8L653.1 641.5L663.9 631.8L655.8 628.8L642.9 617.7L642.3 614.4L646.8 613.1L647.7 601.1L660.9 601.3L661.8 594.6L665.0 598.7L671.7 597.4L678.5 599.8L679.2 593.2L685.7 585.2L690.6 586.9L688.7 599.1L691.6 600.0L689.5 602.2L693.0 603.3L694.4 600.9L707.0 606.3L707.5 603.3L710.1 606.9L720.5 603.6L725.8 606.6L728.3 605.4L727.4 604.2L724.2 601.4L725.0 596.9L727.4 596.3L727.3 592.3L731.4 596.5L734.8 596.8L748.0 591.0L750.4 592.8L752.0 600.4L754.1 603.3L757.0 603.9L757.7 600.8L760.7 600.3L757.8 597.5L765.3 593.5L768.8 596.6L771.9 593.9L774.7 596.2L778.4 592.0L789.1 594.6L793.4 600.0L795.9 596.5L803.6 596.0L812.1 598.0L828.2 605.8L827.1 601.8L831.6 601.4L817.3 590.7L807.1 592.6L800.2 587.9L791.6 588.9L779.5 586.1L773.1 582.5L768.6 584.7L759.1 585.6L746.9 576.5L742.0 578.8L734.5 575.0L729.9 576.1L724.4 567.9L720.2 565.3L717.6 559.6L709.3 555.9L704.4 544.7L697.5 543.0L693.8 537.4L688.0 533.9L670.7 532.0L667.6 526.4Z","cx":714.8,"cy":595.3},{"cod":"10","nombre":"La Candelaria","tipo":"comuna","d":"M626.8 570.2L625.5 569.3L633.8 554.7L632.9 549.5L628.3 542.5L635.6 535.7L643.5 536.9L651.9 529.9L663.1 519.1L669.8 506.2L666.3 505.5L666.4 497.5L641.9 480.3L656.4 457.7L660.0 457.6L656.5 454.5L652.3 453.7L654.0 451.0L595.9 442.3L595.2 445.0L590.8 457.7L562.5 512.4L580.6 565.3L581.6 580.1L590.3 583.3L606.9 595.6L607.7 599.7L610.4 599.8L611.2 602.9L617.1 604.2L618.2 607.0L621.9 607.7L623.8 607.2L625.4 600.9L618.9 593.3L622.4 587.2L629.2 584.6L626.8 570.2Z","cx":623.3,"cy":547.1},{"cod":"11","nombre":"Laureles-Estadio","tipo":"comuna","d":"M559.0 467.1L545.1 458.7L533.6 444.3L535.4 441.4L523.1 433.2L507.6 414.8L502.8 420.5L487.4 486.2L497.6 483.6L495.5 503.6L473.8 501.6L471.8 531.6L455.4 527.8L451.4 537.0L435.0 534.6L435.2 537.9L428.3 544.3L426.5 543.3L425.0 548.2L428.4 552.3L430.8 559.2L432.4 556.1L440.5 554.2L442.9 547.5L453.3 555.3L483.7 554.1L482.0 549.5L573.9 546.2L562.5 512.3L589.7 459.9L588.2 457.9L583.5 465.2L577.1 467.1L559.0 467.1Z","cx":490.6,"cy":511.6},{"cod":"12","nombre":"La América","tipo":"comuna","d":"M502.0 414.9L491.2 415.5L491.1 420.6L489.0 421.2L487.0 426.1L485.1 421.4L477.8 418.0L475.1 425.4L466.4 429.6L461.4 437.4L464.7 442.5L462.7 445.6L463.5 453.1L474.0 452.7L476.8 448.7L479.0 450.2L481.0 465.5L475.0 460.6L454.1 470.0L443.1 471.1L437.5 470.9L432.4 479.1L428.3 478.7L426.9 480.1L429.1 481.5L419.3 488.3L411.6 490.0L408.4 494.9L410.3 496.7L414.4 492.4L417.4 491.9L425.7 498.5L425.2 501.8L417.5 508.9L417.1 511.9L419.8 515.4L414.5 521.8L418.3 526.2L417.3 541.9L428.3 544.3L435.2 537.9L435.0 534.6L451.4 537.0L455.4 527.8L471.8 531.6L473.8 501.6L495.5 503.6L497.6 483.6L487.4 486.2L503.5 418.8L502.0 414.9Z","cx":457.7,"cy":470.8},{"cod":"13","nombre":"San Javier","tipo":"comuna","d":"M367.3 347.5L364.1 347.7L365.4 351.8L361.7 354.4L356.4 354.8L354.4 361.1L352.4 360.6L345.1 367.0L345.4 370.1L341.2 362.3L334.3 365.0L336.2 372.0L333.4 374.6L328.1 369.2L321.5 366.9L319.7 361.9L318.5 363.0L315.8 360.7L314.6 362.7L313.0 361.2L311.3 363.6L309.1 362.1L306.2 364.0L302.7 367.7L303.5 370.3L298.7 367.3L296.4 368.2L297.3 372.8L302.4 375.6L303.7 378.6L308.7 379.5L300.5 381.8L301.1 385.4L306.0 391.7L322.8 402.2L329.2 401.2L330.5 402.7L329.1 406.1L331.1 411.7L332.5 411.7L332.2 415.0L329.8 419.4L326.4 420.3L323.6 423.9L322.6 428.1L330.3 427.3L336.4 433.7L337.8 432.0L341.4 433.5L341.5 431.7L344.5 433.6L347.6 433.0L355.6 443.1L356.5 447.6L362.6 445.7L368.2 447.9L366.2 452.8L367.3 458.0L364.2 457.0L362.4 458.6L358.2 466.7L352.8 465.9L353.9 471.3L357.0 471.9L357.9 474.2L360.8 473.2L363.6 474.8L361.8 476.2L367.1 483.4L365.2 485.5L360.5 481.6L355.3 481.7L350.0 489.5L357.9 495.4L363.5 494.7L364.3 500.0L356.5 503.4L347.7 499.2L339.3 500.7L335.9 496.6L331.4 495.1L324.2 496.8L323.0 499.9L316.9 503.6L318.6 508.7L320.8 507.1L325.6 508.2L325.3 505.1L329.2 500.2L331.3 501.8L330.3 511.9L327.5 516.1L322.8 517.1L320.6 520.8L325.9 526.0L327.6 522.2L326.6 518.6L329.6 514.9L330.5 516.5L337.8 517.2L335.7 521.0L339.7 522.9L342.7 520.3L360.8 517.9L367.3 518.9L368.4 522.7L372.6 523.6L378.7 519.2L383.8 521.2L385.6 519.4L389.1 520.7L389.5 523.8L386.9 525.3L392.4 531.2L389.8 534.2L397.2 542.7L402.9 538.1L417.3 541.9L418.3 526.2L414.5 521.8L419.8 515.4L417.1 511.9L417.5 508.9L425.2 501.8L425.7 498.5L417.2 491.9L409.4 496.7L409.3 492.8L411.6 490.0L419.3 488.3L428.8 481.7L426.9 480.1L430.0 477.7L432.4 479.1L437.5 470.9L454.1 470.0L475.0 460.6L481.0 465.5L479.0 450.2L476.8 448.7L474.0 452.7L463.5 453.1L462.7 445.6L464.7 442.5L461.4 437.4L466.4 429.6L475.1 425.4L478.0 417.9L485.1 421.4L487.0 426.1L489.0 421.2L491.1 420.6L492.0 414.9L494.4 416.1L501.8 414.2L503.5 418.8L507.6 414.8L504.0 410.1L497.6 409.9L485.2 402.0L472.9 398.1L467.0 398.6L453.8 393.7L452.1 397.9L453.5 402.3L451.3 403.8L448.0 412.7L441.3 411.8L431.0 417.9L421.4 417.7L407.8 422.1L400.5 422.1L404.3 418.7L406.5 412.2L409.8 412.3L409.2 410.4L404.3 410.2L396.8 405.0L395.0 400.7L396.0 391.7L392.0 391.8L388.8 386.7L383.9 384.5L385.2 380.1L382.0 371.8L382.1 367.1L378.5 365.5L379.4 363.2L376.7 355.0L369.4 356.7L366.5 368.8L372.2 370.8L371.7 372.4L366.1 375.1L363.7 373.9L362.6 375.7L362.6 372.2L357.7 370.4L360.3 368.8L360.3 364.6L363.4 359.5L367.0 359.3L367.4 354.0L373.1 353.7L372.2 351.7L374.1 348.7L367.3 347.5Z","cx":373.3,"cy":434.2},{"cod":"14","nombre":"El Poblado","tipo":"comuna","d":"M742.4 797.2L740.2 796.0L738.6 799.1L725.2 799.8L721.8 803.1L718.3 803.1L707.8 796.7L704.9 798.5L700.6 810.9L705.5 811.8L707.6 814.3L711.9 818.3L725.8 817.8L727.2 812.2L735.9 806.9L739.1 807.6L744.7 814.1L762.8 802.6L750.4 796.2L742.4 797.2ZM611.6 603.0L610.4 599.8L607.7 599.7L606.4 595.2L588.6 582.3L581.6 580.1L564.2 706.3L550.5 752.7L561.8 761.5L565.8 774.3L576.5 780.8L581.1 780.7L583.6 785.7L594.1 791.7L609.5 794.2L614.4 799.4L620.0 801.7L620.6 804.2L625.5 803.3L630.5 806.6L633.7 804.2L639.7 804.1L652.0 808.3L658.7 803.1L661.7 803.4L661.5 801.0L654.8 800.6L657.5 792.5L662.5 796.9L664.4 796.3L672.0 786.7L668.6 784.1L663.1 784.6L663.3 781.9L666.0 780.0L679.7 780.4L677.7 774.3L684.6 780.2L686.3 772.1L691.7 763.2L694.6 764.5L696.7 774.8L700.2 774.5L701.5 768.9L698.3 756.1L679.3 749.8L675.4 756.3L670.4 753.4L667.8 743.7L668.6 735.0L680.7 739.3L681.5 736.3L677.5 730.8L675.0 732.5L672.9 730.2L669.5 732.7L674.9 721.0L684.9 726.2L685.6 730.0L686.5 722.9L695.7 711.3L700.0 709.8L699.7 706.4L704.6 707.2L707.2 705.1L709.3 695.3L705.5 684.4L709.0 681.2L716.1 679.8L717.4 675.6L717.7 670.7L715.6 668.4L717.5 666.4L718.9 655.8L715.3 651.9L713.9 646.5L715.6 643.3L713.0 639.6L702.3 636.3L695.6 631.4L692.5 626.7L682.7 620.8L673.6 626.2L673.6 632.3L680.4 639.4L675.4 642.9L663.9 631.8L653.1 641.5L655.5 645.8L653.9 648.4L631.7 643.7L627.5 640.0L627.1 634.5L621.8 634.1L620.1 632.1L618.9 625.5L622.9 621.5L623.8 607.2L618.9 607.3L617.1 604.2L611.6 603.0Z","cx":654.7,"cy":720.9},{"cod":"15","nombre":"Guayabal","tipo":"comuna","d":"M581.6 580.1L573.8 577.8L573.6 575.1L553.1 572.1L552.8 578.3L522.7 580.1L520.7 586.7L517.9 589.1L518.2 599.8L506.4 661.8L496.2 666.3L492.4 665.1L491.4 667.4L491.8 681.9L494.1 685.7L491.3 689.1L487.3 689.8L491.2 694.4L483.1 707.2L488.6 708.0L492.0 714.3L495.6 715.5L496.4 713.9L501.8 719.1L504.7 716.9L514.5 721.7L515.3 731.7L517.5 735.9L529.3 728.9L533.7 720.2L549.5 725.0L559.9 721.1L564.2 706.3L581.6 580.1Z","cx":515.5,"cy":688.5},{"cod":"16","nombre":"Belén","tipo":"comuna","d":"M276.4 733.2L270.5 735.6L270.3 737.2L273.5 739.0L271.5 746.3L266.0 746.3L262.9 742.8L252.8 745.0L246.8 760.7L241.8 754.3L234.8 757.4L230.2 755.4L229.7 751.7L222.1 749.0L224.1 753.6L227.1 754.5L228.4 758.3L231.1 759.7L229.5 766.0L232.1 769.7L227.6 773.5L228.8 776.3L227.2 787.5L231.4 796.4L228.2 796.6L228.4 798.7L230.7 799.1L230.0 801.1L235.7 800.8L236.0 809.3L231.7 814.4L240.6 819.9L242.5 817.1L246.0 819.4L248.3 817.9L250.0 820.7L254.3 818.2L261.8 819.1L279.6 814.5L278.4 821.9L283.5 821.9L286.5 818.2L291.1 823.5L306.9 823.9L306.4 822.0L312.1 820.7L312.9 819.0L334.5 814.0L343.8 806.8L343.7 803.3L340.3 798.2L336.1 797.1L332.0 782.5L329.2 781.5L328.4 777.3L323.9 775.0L325.4 771.4L324.2 760.6L320.2 757.1L315.9 760.9L314.5 757.1L311.3 759.8L305.2 757.0L301.9 748.9L295.0 749.3L292.3 752.1L280.3 749.1L276.2 743.3L276.4 733.2ZM371.3 602.3L372.2 599.6L370.6 597.6L369.4 600.1L373.2 609.1L370.2 609.4L371.5 607.3L368.0 604.9L368.8 608.4L364.1 609.3L363.1 605.5L362.4 609.7L346.6 609.2L342.4 614.8L335.1 617.1L334.8 619.4L330.8 616.2L327.4 616.3L326.2 618.7L328.5 617.7L334.9 620.4L328.4 618.7L324.5 624.1L328.6 621.2L334.3 622.2L337.1 619.0L339.4 619.0L337.7 621.4L338.4 625.6L334.9 623.3L335.0 625.0L331.5 627.0L333.7 629.8L338.6 629.3L339.4 633.7L341.6 630.2L344.9 629.5L345.6 625.8L341.7 620.1L347.5 616.5L348.0 618.7L344.5 618.0L345.8 622.5L354.8 620.6L355.4 622.7L357.7 622.8L356.3 617.2L357.6 614.8L359.7 616.9L366.8 618.3L373.6 614.7L379.3 619.8L379.3 622.3L380.9 618.9L386.4 616.3L392.0 621.3L385.2 627.2L382.0 626.8L384.1 632.6L385.6 628.9L392.6 623.8L396.7 616.3L398.6 615.4L400.3 617.4L406.4 614.1L409.9 616.1L407.4 612.3L401.6 610.4L384.5 608.9L379.7 605.6L380.4 602.4L378.5 600.8L376.5 604.2L371.3 602.3ZM573.9 546.2L482.0 549.5L483.7 554.1L453.3 555.3L442.9 547.5L440.5 554.2L432.4 556.1L430.4 560.0L425.0 557.9L423.5 560.5L405.9 555.6L402.8 557.9L393.9 558.6L391.5 561.5L388.6 561.5L389.1 563.1L395.6 561.2L404.4 561.8L404.5 564.8L409.7 566.5L410.8 563.7L422.8 567.1L422.7 570.0L420.1 569.8L420.6 573.0L418.0 578.6L425.8 581.7L424.0 583.9L419.3 584.6L424.4 588.8L414.5 593.5L415.9 595.5L424.8 593.7L432.2 599.1L435.2 595.3L438.3 595.9L441.2 594.0L444.3 598.0L443.1 600.0L444.7 604.4L440.1 604.3L438.5 607.1L439.5 608.8L436.3 609.9L437.3 612.1L434.8 612.0L432.4 616.6L428.0 613.4L424.2 613.1L422.8 615.4L419.4 616.0L413.2 614.6L413.4 619.5L417.7 620.2L417.3 622.9L419.5 624.0L422.0 623.1L422.6 629.7L426.8 630.1L427.9 627.9L432.5 630.7L433.0 633.0L440.3 631.2L442.2 635.3L445.2 636.0L444.9 640.4L449.0 643.7L448.6 646.4L452.4 651.7L442.9 654.9L449.5 659.6L449.2 663.6L452.2 667.2L449.0 671.9L444.2 670.6L443.5 667.5L442.4 671.2L457.2 678.5L458.8 682.7L452.2 682.1L445.5 684.0L443.3 688.1L458.1 693.0L458.3 696.5L461.1 698.2L461.0 693.8L466.4 696.9L469.0 699.7L470.7 706.7L475.7 710.5L476.5 706.7L483.1 707.2L491.2 694.4L487.3 689.8L491.3 689.1L494.1 685.7L491.6 678.6L492.4 665.1L496.2 666.3L506.4 661.8L518.2 599.8L517.9 589.1L520.7 586.7L522.7 580.1L552.8 578.3L553.1 572.1L573.6 575.1L573.8 577.8L581.6 580.1L581.2 567.6L573.9 546.2Z","cx":281.5,"cy":780.2},{"cod":"50","nombre":"San Sebastián de Palmitas","tipo":"corregimiento","d":"M144.7 379.5L166.0 368.0L171.3 360.0L185.9 345.9L190.9 334.9L194.0 322.4L195.1 304.1L191.8 280.4L192.8 271.1L194.5 266.7L206.8 251.5L203.6 235.5L200.3 228.7L200.2 216.0L214.6 206.3L224.9 206.5L236.4 200.3L245.0 189.9L254.0 185.6L258.4 181.2L259.2 169.4L261.6 165.7L265.0 163.5L272.6 165.4L273.0 158.3L264.3 143.8L259.9 129.1L262.1 108.1L260.0 92.3L239.1 58.5L230.9 55.5L221.5 45.0L219.2 38.4L218.6 23.2L215.9 12.3L203.1 1.5L196.8 0.0L185.8 4.6L169.8 7.0L165.7 13.2L159.5 15.5L143.0 14.6L135.1 17.1L124.8 5.1L119.8 8.5L111.5 9.6L105.0 16.5L100.3 13.6L97.4 14.9L94.4 13.5L81.0 2.9L76.8 4.9L75.7 11.6L68.4 7.8L69.0 6.1L66.1 3.7L64.4 4.6L60.1 5.3L57.5 2.0L53.0 1.1L53.6 2.4L48.9 1.8L48.8 4.8L43.7 6.8L40.0 5.2L33.6 8.0L21.4 9.7L20.6 18.7L16.6 27.8L7.0 37.0L8.3 52.7L11.7 54.8L14.9 76.8L20.0 86.3L19.8 88.3L17.5 88.8L18.2 101.3L22.2 108.1L6.4 113.8L0.0 131.2L6.6 148.7L6.8 153.8L12.3 156.4L14.9 162.0L2.4 174.7L1.5 182.4L4.7 189.8L3.5 194.3L4.9 208.2L7.0 211.6L22.0 221.3L28.8 234.8L35.1 240.6L36.4 248.2L34.3 260.4L38.8 266.1L42.0 277.1L44.9 279.6L46.3 288.1L44.9 294.9L41.5 297.9L47.0 321.5L42.3 334.2L44.5 337.0L45.1 356.8L50.2 361.3L52.1 369.0L45.7 376.3L44.2 400.3L41.8 405.1L39.8 422.5L37.7 425.9L35.4 444.6L37.2 465.7L37.5 467.2L44.1 468.1L46.1 471.8L50.2 469.4L55.6 460.2L61.4 456.8L66.3 456.6L68.8 446.8L76.3 443.6L80.7 437.8L82.5 429.9L93.6 409.6L103.7 406.6L112.6 398.7L117.6 398.7L123.5 395.5L132.1 382.5L144.7 379.5Z","cx":109.4,"cy":140.0},{"cod":"60","nombre":"San Cristóbal","tipo":"corregimiento","d":"M361.6 494.9L357.9 495.4L350.0 489.5L355.3 481.7L360.5 481.6L365.2 485.5L367.1 483.4L361.8 476.2L363.6 474.8L360.8 473.2L357.9 474.2L357.0 471.9L353.9 471.3L352.8 465.9L358.2 466.7L362.4 458.6L364.2 457.0L367.3 458.0L366.2 452.8L367.7 447.0L362.5 445.7L356.8 447.8L355.6 443.1L347.6 433.0L344.5 433.6L341.5 431.7L341.4 433.5L337.8 432.0L336.4 433.7L330.3 427.3L322.6 428.1L323.6 423.9L326.4 420.3L329.8 419.4L332.2 415.0L332.5 411.7L331.1 411.7L329.1 406.1L330.5 402.7L329.2 401.2L322.8 402.2L306.0 391.7L301.1 385.4L300.5 381.8L308.7 379.5L303.7 378.6L302.4 375.6L297.3 372.8L296.7 367.6L303.5 370.3L302.7 367.7L306.2 364.0L309.1 362.1L311.3 363.6L313.0 361.2L314.6 362.7L315.8 360.7L318.5 363.0L319.7 361.9L321.5 366.9L328.1 369.2L333.4 374.6L336.2 372.0L334.3 365.0L341.2 362.3L345.4 370.1L345.1 367.0L352.4 360.6L354.4 361.1L356.4 354.8L361.7 354.4L365.4 351.8L364.1 347.7L372.4 347.4L374.4 349.2L372.2 351.7L373.1 353.7L367.4 354.0L367.0 359.3L363.4 359.5L360.3 364.6L360.3 368.8L357.7 370.3L362.6 372.2L362.6 375.7L363.5 374.0L366.5 375.0L372.0 371.7L366.5 368.8L369.5 356.5L376.7 355.0L379.4 363.2L378.5 365.5L385.4 367.1L391.3 365.0L393.4 360.4L407.8 361.2L417.5 357.5L420.2 354.1L419.5 350.3L426.4 347.2L429.3 339.9L440.4 326.8L442.4 330.7L447.2 327.6L458.2 328.1L461.9 337.2L477.1 332.1L478.2 337.5L486.1 332.9L486.8 328.9L493.1 324.2L491.0 322.3L491.8 319.5L488.4 318.2L487.7 314.0L485.3 313.8L483.1 309.9L484.8 308.5L484.7 304.1L495.3 298.7L499.8 311.3L506.1 310.5L516.1 319.5L520.1 316.6L529.5 326.4L533.9 322.3L536.4 315.6L539.3 314.1L537.5 307.8L534.2 305.9L535.9 301.9L532.3 299.4L530.2 294.8L533.1 291.9L538.0 295.5L540.5 290.5L543.7 290.6L546.3 287.4L545.3 283.0L541.1 279.9L541.4 274.5L538.6 272.9L540.9 270.9L534.3 272.0L533.7 270.6L537.6 269.2L540.0 261.8L533.2 260.2L525.9 263.6L491.2 272.2L479.7 265.9L466.6 265.2L452.8 252.6L449.7 245.4L440.2 244.8L434.6 239.9L417.1 246.3L395.7 242.4L389.1 239.3L378.0 245.4L366.1 236.5L342.6 229.4L331.8 212.9L321.7 212.5L316.6 210.5L300.0 188.2L285.9 173.8L281.0 173.8L269.6 164.0L264.7 163.6L260.5 166.7L258.4 181.2L254.0 185.6L245.0 189.9L237.7 199.4L224.9 206.5L214.6 206.3L200.9 214.8L200.2 227.7L206.8 251.5L194.5 266.7L192.8 271.1L191.8 280.4L195.1 304.1L194.0 322.4L190.9 334.9L185.9 345.9L171.3 360.0L166.0 368.0L144.7 379.5L159.2 409.6L167.7 421.4L174.5 425.2L179.7 432.5L180.5 440.8L185.7 448.0L187.5 456.5L198.7 469.0L202.0 479.4L210.8 483.2L213.1 488.2L220.5 492.2L229.4 473.5L239.3 471.1L251.3 460.2L256.5 459.4L265.1 462.1L278.8 459.8L286.2 466.0L294.9 480.1L300.1 485.0L310.7 488.7L327.7 488.4L356.5 503.4L364.3 500.0L363.7 494.9L361.6 494.9Z","cx":384.5,"cy":355.6},{"cod":"70","nombre":"Altavista","tipo":"corregimiento","d":"M363.4 723.2L374.0 720.7L381.8 722.9L396.6 723.4L413.8 720.2L428.8 713.0L444.3 710.9L454.2 715.5L460.5 713.2L468.1 715.2L474.7 709.2L470.7 706.7L469.0 699.7L466.4 696.9L461.0 693.8L461.1 698.2L458.3 696.5L458.1 693.0L443.3 688.1L445.5 684.0L452.2 682.1L458.8 682.7L457.2 678.5L442.4 671.2L443.5 667.5L444.2 670.6L449.0 671.9L452.3 666.3L449.2 663.6L449.5 659.6L442.9 654.9L452.4 651.7L448.6 646.4L448.7 643.1L444.9 640.4L445.0 635.8L442.2 635.3L440.3 631.2L433.0 633.0L432.5 630.7L427.9 627.9L426.8 630.1L422.6 629.7L422.0 623.1L419.5 624.0L417.3 622.9L417.7 620.2L413.3 619.3L413.2 614.6L419.4 616.0L422.8 615.4L424.2 613.1L428.0 613.4L432.4 616.6L434.8 612.0L437.3 612.1L436.3 609.9L439.5 608.8L438.5 607.1L440.1 604.3L444.7 604.4L443.1 600.0L444.3 598.0L441.2 594.0L438.3 595.9L435.2 595.3L434.5 598.1L432.0 599.1L424.8 593.7L415.9 595.5L414.3 593.7L424.4 588.8L419.3 584.6L424.0 583.9L425.8 581.7L418.0 578.6L420.6 573.0L420.1 569.8L422.7 570.0L422.8 567.1L410.8 563.7L409.7 566.5L404.5 564.8L404.4 561.8L387.7 562.3L391.5 561.5L393.9 558.6L402.8 557.9L405.7 555.6L423.5 560.5L425.0 557.9L430.4 560.0L430.0 557.8L430.3 554.7L425.0 548.2L426.5 543.3L418.8 543.3L415.0 540.4L403.2 538.1L399.0 542.0L395.7 541.9L389.8 534.2L392.4 531.2L386.9 525.3L389.9 522.1L385.6 519.4L383.8 521.2L378.7 519.2L372.6 523.6L368.4 522.7L367.3 518.9L357.2 517.7L342.6 520.3L340.2 523.0L335.7 521.0L337.8 517.2L330.5 516.5L329.6 514.9L326.6 518.6L327.6 522.2L325.9 526.0L320.6 520.8L322.8 517.1L327.5 516.1L330.3 511.9L331.3 501.8L329.2 500.2L327.7 501.5L325.4 508.3L320.8 507.1L318.6 508.7L316.9 503.6L323.0 499.9L323.9 496.9L331.0 495.1L335.9 496.6L339.3 500.7L348.3 499.3L334.7 490.8L326.3 488.0L310.7 488.7L299.6 484.7L286.2 466.0L278.8 459.8L265.1 462.1L256.5 459.4L251.3 460.2L239.3 471.1L229.4 473.5L220.5 492.2L217.7 502.9L220.9 518.8L219.4 528.6L236.4 540.4L243.5 547.5L237.5 555.9L241.3 572.4L249.2 580.4L250.3 587.3L255.9 595.2L257.1 600.9L264.3 609.5L263.0 616.0L269.9 640.3L265.9 647.5L267.5 666.9L273.5 674.3L314.1 674.8L324.1 677.6L330.3 681.8L335.5 693.6L345.9 702.8L352.1 703.8L359.6 711.0L363.4 723.2Z","cx":385.2,"cy":582.3},{"cod":"80","nombre":"San Antonio de Prado","tipo":"corregimiento","d":"M154.2 397.2L145.3 383.4L144.7 379.5L132.1 382.5L123.5 395.5L117.6 398.7L112.6 398.7L103.7 406.6L93.6 409.6L82.5 429.9L78.2 442.0L68.8 446.8L66.3 456.6L61.4 456.8L53.4 462.3L50.2 469.4L46.5 470.4L43.8 483.8L36.8 488.6L43.4 495.4L41.2 499.7L42.8 504.8L37.5 524.1L37.6 532.9L42.3 533.3L47.1 531.1L54.6 533.9L57.2 540.6L67.3 554.1L69.5 564.5L70.4 577.9L65.8 593.9L77.6 616.5L72.4 633.1L77.2 641.0L80.2 656.7L84.8 665.8L81.5 672.3L77.0 674.9L69.2 684.8L68.7 692.0L71.9 696.0L83.4 702.5L93.8 727.0L109.8 735.1L120.0 735.4L129.3 751.5L139.3 760.6L138.6 768.6L142.2 780.1L153.9 802.5L150.8 835.9L159.0 854.0L161.2 855.1L173.4 843.4L181.1 839.7L189.8 841.2L201.1 851.8L226.9 841.1L240.0 827.2L243.4 828.3L251.2 823.9L259.6 822.2L264.5 822.5L271.8 827.5L275.6 823.7L289.7 823.3L286.5 818.2L283.5 821.9L278.4 821.9L279.6 814.5L261.8 819.1L254.3 818.2L250.0 820.7L248.3 817.9L246.0 819.4L242.7 817.1L240.6 819.9L231.7 814.4L234.9 811.8L236.7 805.7L235.4 800.4L230.0 801.1L230.7 799.1L228.4 798.7L228.2 796.6L231.4 796.4L227.2 787.5L228.8 776.3L227.6 773.5L232.1 769.7L229.5 766.0L231.1 759.7L228.4 758.3L227.1 754.5L224.1 753.6L222.1 749.0L229.7 751.7L230.2 755.4L234.8 757.4L241.8 754.3L246.6 760.7L250.4 751.3L252.6 745.2L256.8 743.7L262.9 742.8L266.0 746.3L271.5 746.3L273.5 739.0L270.3 737.2L270.5 735.6L276.1 733.1L276.2 743.3L280.3 749.1L292.3 752.1L295.0 749.3L301.9 748.9L305.2 757.0L311.3 759.8L314.5 757.1L315.9 760.9L320.2 757.1L324.2 760.6L325.4 771.4L323.9 774.8L328.8 777.8L329.2 781.5L332.2 782.8L333.0 788.1L340.4 781.5L342.7 775.2L352.4 767.0L358.7 764.1L362.6 764.4L368.3 753.5L373.1 755.1L372.9 741.3L365.5 732.8L359.6 711.0L352.1 703.8L345.9 702.8L335.5 693.6L330.3 681.8L322.0 676.5L315.6 674.9L273.5 674.3L267.5 666.9L265.9 647.5L269.9 640.3L263.0 616.0L264.3 609.5L257.1 600.9L255.9 595.2L250.3 587.3L249.2 580.4L241.3 572.4L237.5 555.9L243.5 547.5L236.4 540.4L219.4 528.6L220.9 518.8L217.7 502.9L220.5 492.2L213.1 488.2L210.8 483.2L202.0 479.4L198.7 469.0L187.5 456.5L185.7 448.0L180.5 440.8L179.7 432.5L174.5 425.2L167.7 421.4L161.2 412.7L154.2 397.2Z","cx":240.6,"cy":708.9},{"cod":"90","nombre":"Santa Elena","tipo":"corregimiento","d":"M738.4 807.0L735.5 807.0L727.2 812.2L725.8 817.8L713.3 818.6L721.9 821.8L723.0 827.7L726.8 828.7L743.1 820.3L744.7 814.1L738.4 807.0ZM751.2 301.4L745.3 303.6L740.5 310.2L742.8 309.2L742.0 314.0L744.0 314.2L742.7 316.0L744.2 321.3L735.6 323.3L741.8 327.3L744.9 326.1L750.5 332.7L746.5 336.7L743.3 334.5L740.8 335.3L742.0 339.3L740.2 343.6L741.7 343.4L742.8 346.7L743.9 361.0L739.5 362.3L735.0 370.4L739.3 371.8L738.7 379.2L742.9 380.8L742.3 382.7L744.3 382.1L745.5 387.6L749.0 385.7L751.7 391.3L748.5 394.2L747.7 398.6L745.2 397.7L745.2 399.9L743.1 400.0L743.4 402.1L736.3 403.0L734.4 404.9L735.7 407.4L737.3 405.1L740.7 408.4L744.6 407.0L743.9 414.8L748.5 419.7L748.9 425.7L755.0 428.9L753.1 432.3L755.0 432.1L755.3 437.4L750.2 437.7L751.8 440.8L746.8 443.9L743.6 443.6L741.4 450.1L729.4 446.6L728.5 455.2L725.8 459.2L724.5 456.8L722.1 456.8L721.3 459.0L713.6 457.3L714.4 466.8L718.0 472.8L725.5 476.4L730.2 475.7L731.9 477.5L738.7 476.0L741.0 479.6L737.3 481.6L738.9 483.1L735.4 483.8L736.6 486.6L734.8 489.3L738.3 491.1L737.8 498.8L742.9 504.2L736.9 501.3L734.8 504.8L733.1 504.3L736.8 508.4L726.4 516.1L725.1 527.4L723.8 527.8L725.7 530.0L729.3 528.3L728.5 533.8L735.7 540.0L736.3 546.1L740.3 544.4L745.1 549.4L743.2 553.0L749.5 552.8L753.1 549.1L762.5 546.0L763.4 541.4L765.9 542.0L766.8 545.1L770.9 543.4L771.7 548.5L777.0 542.6L779.0 545.2L777.3 549.6L779.0 552.0L781.9 552.2L785.3 558.1L784.4 561.3L788.8 560.1L791.5 554.9L786.4 567.7L788.4 567.1L789.5 568.8L787.2 573.2L778.7 578.8L776.1 577.5L772.5 578.7L773.2 580.1L795.4 581.7L795.7 586.0L794.0 586.9L787.5 583.3L787.2 586.0L789.5 587.9L800.2 587.9L807.1 592.6L817.3 590.7L831.6 601.4L827.1 601.8L828.2 605.8L812.1 598.0L803.6 596.0L795.9 596.5L793.4 600.0L789.1 594.6L778.4 592.0L774.7 596.2L771.9 593.9L768.8 596.6L765.3 593.5L757.8 597.5L760.7 600.3L757.7 600.8L757.0 603.9L754.1 603.3L752.0 600.4L750.4 592.8L748.0 591.0L734.8 596.8L731.4 596.5L727.3 592.3L727.4 596.3L725.0 596.9L724.2 601.4L728.5 604.9L725.8 606.6L720.5 603.6L709.7 606.8L707.1 603.2L707.0 606.3L694.4 600.9L693.0 603.3L689.5 602.2L691.6 599.9L688.7 599.0L690.6 586.9L685.5 585.2L679.2 593.2L678.5 599.8L671.7 597.4L665.0 598.7L661.8 594.6L660.9 601.3L647.7 601.1L646.6 613.7L643.5 613.4L642.0 615.6L655.1 628.4L662.8 630.9L675.4 642.9L680.4 639.4L673.6 632.3L673.6 626.2L682.7 620.8L692.5 626.7L695.6 631.4L702.3 636.3L713.0 639.6L715.6 643.3L713.9 646.5L715.3 651.9L718.9 655.8L717.5 666.4L715.6 668.4L717.7 670.7L717.4 675.6L716.1 679.8L709.0 681.2L705.5 684.4L709.3 695.3L707.0 705.6L704.6 707.2L699.7 706.4L700.0 709.8L695.7 711.3L686.5 722.9L685.6 730.0L684.9 726.2L674.9 721.0L669.5 732.7L673.1 730.1L675.0 732.5L678.9 731.3L681.5 736.3L680.7 739.3L668.7 734.9L667.9 736.6L667.8 743.7L671.3 754.3L675.6 756.2L679.3 749.8L698.3 756.1L701.5 768.9L700.2 774.5L696.7 774.8L694.6 764.5L691.0 763.5L686.1 772.9L685.0 779.8L682.3 779.7L677.7 774.3L679.7 780.4L666.0 780.0L663.3 781.9L663.1 784.6L668.6 784.1L672.3 785.5L671.8 787.1L664.4 796.3L662.5 796.9L657.5 792.5L654.8 800.6L667.1 800.5L700.6 810.9L704.9 798.5L707.8 796.7L713.7 798.9L713.0 800.6L716.5 802.9L721.8 803.1L725.2 799.8L738.6 799.1L740.7 796.0L742.7 797.3L750.4 796.2L762.9 802.5L755.0 797.4L758.2 788.8L764.6 782.2L763.5 775.3L761.9 774.5L766.1 761.3L763.6 757.5L763.1 749.1L765.9 728.1L759.9 723.1L756.5 716.1L782.5 723.7L805.6 722.5L809.5 734.1L821.7 726.8L847.2 735.4L855.1 735.5L860.0 742.9L863.8 745.3L870.9 744.6L879.3 749.0L894.1 748.4L895.5 740.4L900.1 739.1L915.0 743.6L930.6 743.7L942.6 746.3L949.7 744.7L946.4 739.7L954.7 728.6L953.3 724.1L957.4 716.0L945.8 701.7L946.6 690.2L944.6 686.5L945.0 683.1L949.4 679.5L947.6 675.3L949.6 671.3L947.1 667.3L947.2 662.4L948.5 662.3L945.3 657.8L932.8 650.7L925.4 643.0L925.0 639.3L924.8 635.9L930.9 622.4L929.1 622.1L928.9 619.6L935.3 615.6L934.0 612.2L935.9 609.5L933.4 607.5L938.9 605.6L937.6 603.0L939.6 599.7L932.3 595.7L930.4 595.8L928.1 599.9L927.9 594.2L924.2 591.9L922.9 593.7L921.5 591.3L925.3 588.4L930.2 589.9L935.1 585.0L948.1 579.3L954.7 583.9L962.7 584.0L967.6 588.0L970.7 584.6L974.3 584.0L974.7 578.4L977.1 578.9L982.6 574.3L980.2 572.6L982.5 568.4L986.1 569.9L988.5 567.2L987.0 566.4L1000.0 560.9L994.6 545.7L996.4 539.0L995.1 536.1L981.2 526.7L969.5 510.1L960.6 507.6L962.7 501.9L948.7 495.2L944.0 487.9L947.6 482.9L943.0 473.8L929.0 462.9L924.6 457.3L924.3 451.5L926.2 447.4L920.0 439.4L917.0 431.0L913.6 427.4L904.6 423.8L903.0 420.7L906.1 414.0L913.4 410.2L918.8 397.0L911.2 388.0L906.8 386.8L909.8 381.9L908.6 373.7L905.5 368.6L904.9 363.2L902.8 362.5L900.1 365.1L895.8 346.9L889.5 347.6L884.7 340.2L884.0 335.8L889.4 329.8L886.6 325.7L891.7 320.8L891.1 319.5L888.2 320.9L883.3 313.7L878.6 317.0L871.1 316.8L860.8 305.3L849.9 304.7L836.9 299.4L830.7 295.7L830.8 291.7L825.7 298.8L812.3 306.5L809.4 310.7L804.6 326.1L801.7 328.6L802.9 333.7L799.7 341.8L800.3 347.4L787.1 349.5L783.1 352.7L774.8 342.3L773.1 334.3L766.5 326.6L767.8 315.9L763.6 306.1L754.0 299.8L751.2 301.4Z","cx":771.9,"cy":553.9}]};
+(function(){
+  var ANIOS=[2003,2007,2011,2015,2019,2023];
+  function rnd(s){var x=Math.sin(s*9301+49297)*233280;return x-Math.floor(x)}
+  function h(str){var s=0;for(var i=0;i<str.length;i++)s=(s*31+str.charCodeAt(i))%100000;return s}
+  var TEMAS=["movilidad","seguridad","servicios públicos","empleo","vivienda","medio ambiente"];
+  var D={};
+  GEO.f.forEach(function(g){
+    var k=h(g.nombre),d={nombre:g.nombre,corr:g.tipo==="corregimiento",a:[],part:[]};
+    ANIOS.forEach(function(y,i){d.a.push(Math.round(Math.max(18,Math.min(78,30+rnd(k+i)*40))));d.part.push(Math.round(38+rnd(k+i*7)*22))});
+    d.imcv=+(40+rnd(k+3)*25).toFixed(1);d.salud=Math.round(4+rnd(k+5)*8);d.educa=Math.round(240+rnd(k+8)*55);d.aire=Math.round(15+rnd(k+11)*20);
+    d.menc=Math.round(rnd(k+13)*180)+(g.nombre==="La Candelaria"?220:0);d.tono=Math.round(-40+rnd(k+17)*70);d.tema=TEMAS[Math.floor(rnd(k+19)*TEMAS.length)];
+    D[g.nombre]=d;
+  });
+  var CIUDAD={imcv:50.2,salud:7,educa:268,aire:24};
+  var H={
+    estudio:{titulo:"Estudio de Probabilidad Electoral",ops:{
+      a:{t:"Voto por la candidatura A",nivel:"libre"},part:{t:"Participación",nivel:"libre"},cambio:{t:"Cambio frente a la elección anterior",nivel:"suscripcion"},escen:{t:"Escenarios 2027",nivel:"contrato"}}},
+    atlas:{titulo:"Análisis Territorial Multidimensional Integrado",ops:{
+      imcv:{t:"Calidad de vida (IMCV)",nivel:"libre",mejor:"alto",u:""},salud:{t:"Hogares sin atención médica",nivel:"libre",mejor:"bajo",u:" %"},educa:{t:"Saber 11, puntaje global",nivel:"suscripcion",mejor:"alto",u:""},aire:{t:"Aire contaminado, según los hogares",nivel:"suscripcion",mejor:"bajo",u:" %"}}},
+    escucha:{titulo:"Escucha Social Inteligente",ops:{
+      menc:{t:"Menciones de la semana",nivel:"suscripcion"},tono:{t:"Tono de la conversación",nivel:"suscripcion"}}},
+    plaza:{titulo:"Plaza",ops:{}}
+  };
+  var NIV={libre:0,suscripcion:1,contrato:2},NOMNIV={libre:"Libre",suscripcion:"Profesional",contrato:"Personalizado"};
+  var S={h:"estudio",op:{estudio:"a",atlas:"imcv",escucha:"menc"},anio:5,sel:"La Candelaria",sel2:null,plan:"contrato",cruce:false,cruceH:"atlas",vb:[0,0,GEO.w,GEO.h],play:null,comparar:false,signos:true};
+  var $=function(id){return document.getElementById(id)};
+  function puede(n){return NIV[S.plan]>=NIV[n]}
+  function fmt(n){return (Math.round(n*10)/10).toString().replace(".",",")}
+  function mezcla(a,b,t){return "color-mix(in srgb,"+b+" "+Math.round(Math.max(0,Math.min(1,t))*100)+"%,"+a+")"}
+  function sem(k,d){var o=H.atlas.ops[k],v=d[k],c=CIUDAD[k],r=(v-c)/c,g=o.mejor==="alto"?r:-r;
+    return g>.1?{c:"var(--ok)",e:"mejor",s:"✓"}:g<-.1?{c:"var(--bad)",e:"peor",s:"!"}:{c:"var(--mid)",e:"parecido",s:"≈"}}
+  function color(hh,d,op){
+    op=op||S.op[hh];
+    if(hh==="atlas"){var s=sem(op,d);return {f:s.c,v:fmt(d[op])+H.atlas.ops[op].u,e:(S.signos?s.s+" ":"")+s.e}}
+    if(hh==="estudio"){
+      if(op==="a"){var v=d.a[S.anio];return {f:mezcla("var(--vote-b)","var(--vote-a)",(v-20)/60),v:v+" %",e:v>=50?"gana A":"gana B"}}
+      if(op==="part"){var p=d.part[S.anio];return {f:mezcla("var(--sage)","var(--brand)",.15+(p-38)/22*.85),v:p+" %",e:""}}
+      var c=S.anio?d.a[S.anio]-d.a[S.anio-1]:0;return {f:c>=0?mezcla("var(--none)","var(--vote-a)",.25+Math.abs(c)/20):mezcla("var(--none)","var(--vote-b)",.25+Math.abs(c)/20),v:(c>0?"+":"")+c+" pts",e:c>0?"hacia A":c<0?"hacia B":"igual"}
+    }
+    if(hh==="escucha"){
+      if(op==="menc")return {f:mezcla("var(--none)","var(--gold)",.15+d.menc/420),v:d.menc+"",e:d.tema};
+      return {f:d.tono>10?"var(--ok)":d.tono<-10?"var(--bad)":"var(--mid)",v:(d.tono>0?"+":"")+d.tono,e:d.tono>10?"favorable":d.tono<-10?"crítico":"mixto"};
+    }
+    return {f:"var(--none)",v:"",e:""};
+  }
+  /* map */
+  var svg=$("svg"),NS="http://www.w3.org/2000/svg",paths={},etiq={},puntos={};
+  svg.setAttribute("viewBox",S.vb.join(" "));
+  var gMap=document.createElementNS(NS,"g"),gTxt=document.createElementNS(NS,"g"),gPt=document.createElementNS(NS,"g");
+  svg.appendChild(gMap);svg.appendChild(gPt);svg.appendChild(gTxt);
+  GEO.f.forEach(function(g){
+    var p=document.createElementNS(NS,"path");p.setAttribute("d",g.d);p.setAttribute("tabindex","0");p.setAttribute("role","button");p.setAttribute("aria-label",g.nombre);
+    p.addEventListener("click",function(){elegir(g.nombre)});
+    p.addEventListener("keydown",function(ev){if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();elegir(g.nombre)}});
+    p.addEventListener("mousemove",function(ev){var r=$("mapa").getBoundingClientRect(),c=color(S.h,D[g.nombre]),t=$("tip");t.hidden=false;t.textContent=g.nombre+(S.h==="plaza"?"":" · "+c.v+(c.e?" · "+c.e:""));t.style.left=Math.min(ev.clientX-r.left+12,r.width-180)+"px";t.style.top=(ev.clientY-r.top+12)+"px"});
+    p.addEventListener("mouseleave",function(){$("tip").hidden=true});
+    gMap.appendChild(p);paths[g.nombre]=p;
+    var t=document.createElementNS(NS,"text");t.setAttribute("x",g.cx);t.setAttribute("y",g.cy);t.textContent=g.tipo==="comuna"?g.nombre.replace("Laureles-Estadio","Laureles").replace("Doce de Octubre","Doce de Oct."):"";gTxt.appendChild(t);etiq[g.nombre]=t;
+    var c=document.createElementNS(NS,"circle");c.setAttribute("cx",g.cx);c.setAttribute("cy",+g.cy+12);c.setAttribute("r",7);c.setAttribute("class","punto");gPt.appendChild(c);puntos[g.nombre]=c;
+  });
+  function bbox(n){return paths[n].getBBox()}
+  function animarVB(dest){
+    var ini=S.vb.slice(),t0=performance.now(),dur=matchMedia("(prefers-reduced-motion: reduce)").matches?0:550;
+    function paso(t){var k=dur?Math.min(1,(t-t0)/dur):1,e=1-Math.pow(1-k,3);S.vb=ini.map(function(v,i){return v+(dest[i]-v)*e});svg.setAttribute("viewBox",S.vb.join(" "));escalarTexto();if(k<1)requestAnimationFrame(paso)}
+    requestAnimationFrame(paso);
+  }
+  function escalarTexto(){var f=S.vb[2]/GEO.w;gTxt.querySelectorAll("text").forEach(function(t){t.style.fontSize=(13*f)+"px";t.style.strokeWidth=(2.5*f)+"px"});gPt.querySelectorAll("circle").forEach(function(c){c.setAttribute("r",7*f)})}
+  function acercarA(n){var b=bbox(n),m=Math.max(b.width,b.height)*.9+40,cx=b.x+b.width/2,cy=b.y+b.height/2,ar=GEO.w/GEO.h,w=Math.max(m,m*ar),hh=w/ar;animarVB([cx-w/2,cy-hh/2,w,hh]);$("verCiudad").hidden=false}
+  function ciudad(){animarVB([0,0,GEO.w,GEO.h]);$("verCiudad").hidden=true}
+  function zoomF(f){var c=[S.vb[0]+S.vb[2]/2,S.vb[1]+S.vb[3]/2],w=Math.min(GEO.w,S.vb[2]*f),hh=w*GEO.h/GEO.w;animarVB([c[0]-w/2,c[1]-hh/2,w,hh]);$("verCiudad").hidden=w>=GEO.w}
+  function elegir(n){
+    if(S.comparar&&S.sel&&S.sel!==n){S.sel2=n}else{S.sel=n;S.sel2=null;acercarA(n)}
+    pintar();
+  }
+  /* panels */
+  function ctrl(){
+    var c=$("ctrl"),hh=H[S.h],x='<h2>'+hh.titulo+'</h2>';
+    if(S.h==="plaza"){x+='<p class="vacio">Plaza está en preparación: grupos focales, sondeos sobre un nombre o un logo y estudios de comportamiento. Cuando exista, sus estudios aparecen aquí sobre el mismo mapa.</p>';c.innerHTML=x;return}
+    x+='<div class="opc">'+Object.keys(hh.ops).map(function(k){var o=hh.ops[k],ok=puede(o.nivel);return '<button type="button" data-op="'+k+'" aria-pressed="'+(S.op[S.h]===k)+'"'+(ok?'':' class="bloq"')+'><span>'+o.t+'</span>'+(ok?'':'<i class="candado">'+NOMNIV[o.nivel]+'</i>')+'</button>'}).join("")+'</div>';
+    x+='<div class="cruce"><h2>Cruzar con otra herramienta</h2><label for="cruce"><input type="checkbox" id="cruce"'+(S.cruce?" checked":"")+(puede("suscripcion")?"":" disabled")+'> Un punto en cada comuna con lo que dice otra herramienta'+(puede("suscripcion")?'':' <i class="candado">Profesional</i>')+'</label>'+
+      '<select id="cruceH" aria-label="Herramienta para cruzar">'+["estudio","atlas","escucha"].filter(function(k){return k!==S.h}).map(function(k){return '<option value="'+k+'"'+(S.cruceH===k?" selected":"")+'>'+H[k].titulo+'</option>'}).join("")+'</select></div>';
+    c.innerHTML=x;
+    c.querySelectorAll("[data-op]").forEach(function(b){b.onclick=function(){var o=H[S.h].ops[b.dataset.op];if(!puede(o.nivel)){pedirPlan(o.nivel,o.t);return}if(b.dataset.op==="escen"){escenarios();return}S.op[S.h]=b.dataset.op;pintar()}});
+    var cr=$("cruce");if(cr)cr.onchange=function(){S.cruce=cr.checked;pintar()};
+    var ch=$("cruceH");if(ch){if(S.cruceH===S.h)S.cruceH=ch.value;ch.onchange=function(){S.cruceH=ch.value;pintar()}}
+  }
+  function pedirPlan(n,t){
+    var m=$("mapa"),v=document.createElement("div");v.className="capa";
+    v.innerHTML='<div><h3>«'+t+'» es del plan '+NOMNIV[n]+'</h3><p>Con tu plan actual ('+NOMNIV[S.plan]+') ves la ciudad, pero no esta capa. Así se aplicarían las restricciones en Estratega.</p><button type="button" class="btn prim" id="cerrarCapa">Entendido</button></div>';
+    m.appendChild(v);$("cerrarCapa").onclick=function(){v.remove()};
+  }
+  function escenarios(){
+    var m=$("mapa"),v=document.createElement("div");v.className="capa";
+    v.innerHTML='<div><h3>Escenarios 2027</h3><p>Aquí viven los escenarios privados del Estudio: quién podría ganar en cada comuna y con qué margen. Solo con el plan Personalizado, y nunca se publican (Ley 2494 de 2025).</p><button type="button" class="btn prim" id="cerrarCapa">Volver al mapa</button></div>';
+    m.appendChild(v);$("cerrarCapa").onclick=function(){v.remove()};
+  }
+  function cabecera(){
+    var o=H[S.h].ops[S.op[S.h]];
+    $("titulo").textContent=S.h==="plaza"?"Plaza":o.t;
+    $("subt").textContent=S.h==="estudio"?"Concejo de Medellín · "+ANIOS[S.anio]:S.h==="atlas"?"Comparado con Medellín, mismo año y misma fuente":S.h==="escucha"?"Medios y cuentas públicas · semana del 20 al 26 de octubre":"Sin estudios todavía";
+    $("tiempo").hidden=S.h!=="estudio";
+    var d=D[S.sel],t="";
+    if(S.h==="estudio"){var k=S.op.estudio;t=k==="a"?"En "+ANIOS[S.anio]+", "+d.nombre+" le dio "+d.a[S.anio]+" % a la candidatura A.":k==="part"?"En "+ANIOS[S.anio]+" votó el "+d.part[S.anio]+" % de "+d.nombre+".":d.nombre+" se movió "+(S.anio?d.a[S.anio]-d.a[S.anio-1]:0)+" puntos frente a la elección anterior."}
+    if(S.h==="atlas"){var s=sem(S.op.atlas,d);t=d.nombre+" está "+(s.e==="parecido"?"parecida a la ciudad":s.e+" que la ciudad")+" en "+H.atlas.ops[S.op.atlas].t.toLowerCase()+"."}
+    if(S.h==="escucha")t=S.op.escucha==="menc"?"Esta semana, "+d.nombre+" tuvo "+d.menc+" menciones; pesa sobre todo "+d.tema+".":"El tono sobre "+d.nombre+" esta semana es "+(d.tono>10?"favorable":d.tono<-10?"crítico":"mixto")+".";
+    if(S.h==="plaza")t="Cuando Plaza tenga estudios, aquí se verá dónde se hicieron y qué encontraron.";
+    $("lectura").textContent=t;
+  }
+  function leyenda(){
+    var x="",op=S.op[S.h];
+    if(S.h==="atlas")x='<span><i style="background:var(--ok)"></i>✓ Mejor que Medellín</span><span><i style="background:var(--mid)"></i>≈ Parecido</span><span><i style="background:var(--bad)"></i>! Peor</span>';
+    else if(S.h==="estudio"&&op==="a")x='<span><i style="background:var(--vote-b)"></i>Más B</span><span><i style="background:var(--vote-a)"></i>Más A</span>';
+    else if(S.h==="estudio")x='<span><i style="background:var(--sage)"></i>Menos</span><span><i style="background:var(--brand)"></i>Más</span>';
+    else if(S.h==="escucha"&&op==="tono")x='<span><i style="background:var(--ok)"></i>Favorable</span><span><i style="background:var(--mid)"></i>Mixto</span><span><i style="background:var(--bad)"></i>Crítico</span>';
+    else if(S.h==="escucha")x='<span><i style="background:var(--none)"></i>Pocas menciones</span><span><i style="background:var(--gold)"></i>Muchas</span>';
+    if(S.cruce&&S.h!=="plaza")x+='<span><i style="border-radius:50%;background:var(--ink)"></i>Punto: '+H[S.cruceH].titulo+'</span>';
+    $("leyenda").innerHTML=x;
+  }
+  function mapa(){
+    var bloqueada=S.h!=="plaza"&&!puede(H[S.h].ops[S.op[S.h]].nivel);
+    GEO.f.forEach(function(g){
+      var p=paths[g.nombre],c=color(S.h,D[g.nombre]);
+      p.style.fill=bloqueada?"var(--none)":c.f;
+      p.classList.toggle("sel",S.sel===g.nombre);p.classList.toggle("sel2",S.sel2===g.nombre);
+      var pt=puntos[g.nombre];
+      if(S.cruce&&S.h!=="plaza"&&puede("suscripcion")){pt.style.display="";pt.style.fill=color(S.cruceH,D[g.nombre],S.op[S.cruceH]).f}else pt.style.display="none";
+    });
+  }
+  function curva(serie){
+    var w=280,hh=44,mn=Math.min.apply(null,serie),mx=Math.max.apply(null,serie),rg=(mx-mn)||1;
+    var pts=serie.map(function(v,i){return [8+i*(w-16)/(serie.length-1),hh-6-(v-mn)/rg*(hh-14)]});
+    return '<svg class="mini" viewBox="0 0 '+w+' '+hh+'" aria-hidden="true"><path d="'+pts.map(function(p,i){return (i?"L":"M")+p[0].toFixed(1)+" "+p[1].toFixed(1)}).join(" ")+'" fill="none" stroke="var(--vote-a)" stroke-width="2"/><circle cx="'+pts[5][0]+'" cy="'+pts[5][1]+'" r="3.5" fill="var(--vote-a)"/></svg>';
+  }
+  function velo(n,t){return '<div class="velo"><span>'+t+'</span><span class="candado">Plan '+NOMNIV[n]+'</span></div>'}
+  function derecha(){
+    var r=$("derecha"),d=D[S.sel];
+    if(S.comparar&&S.sel2){
+      var e=D[S.sel2];
+      r.innerHTML='<div class="ficha-cab"><h3>'+d.nombre+' y '+e.nombre+'</h3><p>Las mismas cifras, lado a lado.</p></div>'+
+        Object.keys(H.atlas.ops).map(function(k){var a=sem(k,d),b=sem(k,e);return '<div class="fila"><span>'+H.atlas.ops[k].t+'</span><span><span class="chip" style="background:'+a.c+'">'+fmt(d[k])+'</span> <span class="chip" style="background:'+b.c+'">'+fmt(e[k])+'</span></span></div>'}).join("")+
+        '<div class="fila"><span>Candidatura A, '+ANIOS[S.anio]+'</span><span>'+d.a[S.anio]+' % · '+e.a[S.anio]+' %</span></div>'+
+        '<div class="acciones"><button type="button" class="btn" id="finComp">Terminar de comparar</button></div>';
+      $("finComp").onclick=function(){S.comparar=false;S.sel2=null;pintar()};return;
+    }
+    var x='<div class="ficha-cab"><h3>'+d.nombre+'</h3><p>'+(d.corr?"Corregimiento":"Comuna")+' de Medellín · las cuatro herramientas juntas</p></div>';
+    x+=puede("suscripcion")?'<div class="cruza"><b>Lo que se cruza</b>'+d.nombre+' se movió '+(d.a[5]-d.a[4])+' puntos en la última elección, está '+sem("salud",d).e+(sem("salud",d).e==="parecido"?" a":" que")+' la ciudad en atención médica, y esta semana se habla sobre todo de '+d.tema+'.</div>':velo("suscripcion","El cruce entre voto, territorio y conversación es del plan Profesional.");
+    x+='<div class="bloque"><h4>Estudio de Probabilidad Electoral</h4><div class="fila"><span>Candidatura A, '+ANIOS[S.anio]+'</span><span>'+d.a[S.anio]+' %</span></div><div class="fila"><span>Participación</span><span>'+d.part[S.anio]+' %</span></div>'+curva(d.a)+'</div>';
+    x+='<div class="bloque"><h4>Análisis Territorial</h4>'+Object.keys(H.atlas.ops).map(function(k){var o=H.atlas.ops[k];if(!puede(o.nivel))return '<div class="fila"><span>'+o.t+'</span><span class="candado">'+NOMNIV[o.nivel]+'</span></div>';var s=sem(k,d);return '<div class="fila"><span>'+o.t+' <span class="chip" style="background:'+s.c+'">'+s.s+' '+s.e+'</span></span><span>'+fmt(d[k])+o.u+'</span></div>'}).join("")+'</div>';
+    x+='<div class="bloque"><h4>Escucha Social Inteligente</h4>'+(puede("suscripcion")?'<div class="fila"><span>Menciones de la semana</span><span>'+d.menc+'</span></div><div class="fila"><span>Tema que más pesa</span><span>'+d.tema+'</span></div>':velo("suscripcion","La conversación de la semana es del plan Profesional."))+'</div>';
+    x+='<div class="bloque"><h4>Plaza</h4><p class="vacio" style="margin:0">Sin estudios en esta comuna todavía.</p></div>';
+    x+='<div class="acciones"><button type="button" class="btn prim" id="comp">Comparar con otra</button>'+(puede("suscripcion")?'<button type="button" class="btn" id="inf">Guardar en el informe</button>':'')+'</div>'+(S.comparar?'<p class="vacio">Toca otra comuna en el mapa.</p>':'');
+    r.innerHTML=x;
+    $("comp").onclick=function(){S.comparar=true;pintar()};
+    var inf=$("inf");if(inf)inf.onclick=function(){inf.textContent="Guardada en el informe";inf.disabled=true};
+  }
+  /* menus */
+  function menuUsr(){
+    var m=$("menuUsr"),inc={libre:["Mapas de la ciudad y resultados por comuna","Indicadores abiertos del territorio","Sin cruces, sin conversación, sin escenarios"],suscripcion:["Todo lo de Libre","Todos los indicadores y la Escucha Social","Cruces entre herramientas e informes"],contrato:["Todo lo de Profesional","Escenarios 2027 privados (Ley 2494)","Datos por puesto y acompañamiento del equipo"]};
+    m.innerHTML='<h3>Carlos Calle</h3><div class="dato"><span>Correo</span><span>el de tu cuenta de Google</span></div><div class="dato"><span>Organización</span><span>CivisLab</span></div><div class="dato"><span>Plan</span><span><b>'+NOMNIV[S.plan]+'</b></span></div><div class="dato"><span>Vigente hasta</span><span>31 dic. 2026</span></div>'+
+      '<h2 style="margin:4px 0 0">Ver Estratega como</h2><div class="planes">'+["libre","suscripcion","contrato"].map(function(p){return '<button type="button" data-plan="'+p+'" aria-pressed="'+(S.plan===p)+'">'+NOMNIV[p]+'</button>'}).join("")+'</div>'+
+      '<ul class="incluye">'+inc[S.plan].map(function(t){return '<li>'+t+'</li>'}).join("")+'</ul><p class="nota">Esto es para probar cómo cambia la pantalla según el plan. En la versión real, el plan viene de la cuenta y lo controla Supabase.</p><div class="acciones"><button type="button" class="btn">Cerrar sesión</button></div>';
+    m.querySelectorAll("[data-plan]").forEach(function(b){b.onclick=function(){S.plan=b.dataset.plan;$("usrPlan").textContent=NOMNIV[S.plan];menuUsr();pintar()}});
+  }
+  function menuConf(){
+    var m=$("menuConf");
+    m.innerHTML='<h3>Configuración</h3><div class="ajuste"><label for="cfSig">Signos además del color (✓ ≈ !)</label><input type="checkbox" id="cfSig"'+(S.signos?" checked":"")+'></div><div class="ajuste"><label for="cfTema">Tema</label><select id="cfTema"><option value="">Como el sistema</option><option value="light">Claro</option><option value="dark">Oscuro</option></select></div><div class="ajuste"><span>Idioma</span><span class="vacio">Español</span></div><div class="ajuste"><span>Avisos por correo</span><span class="vacio">Alertas de la Escucha Social</span></div>';
+    $("cfSig").onchange=function(){S.signos=this.checked;pintar()};
+    var tm=$("cfTema");tm.value=document.documentElement.getAttribute("data-theme")||"";tm.onchange=function(){if(tm.value)document.documentElement.setAttribute("data-theme",tm.value);else document.documentElement.removeAttribute("data-theme")};
+  }
+  function abrir(btn,menu,fill,otro,otroBtn){var ab=menu.hidden;menu.hidden=!ab;btn.setAttribute("aria-expanded",ab);otro.hidden=true;otroBtn.setAttribute("aria-expanded","false");if(ab)fill()}
+  $("btnUsr").onclick=function(e){e.stopPropagation();abrir(this,$("menuUsr"),menuUsr,$("menuConf"),$("btnConf"))};
+  $("btnConf").onclick=function(e){e.stopPropagation();abrir(this,$("menuConf"),menuConf,$("menuUsr"),$("btnUsr"))};
+  document.addEventListener("click",function(e){["menuUsr","menuConf"].forEach(function(id){var m=$(id);if(!m.hidden&&!m.contains(e.target)){m.hidden=true}})});
+  /* wiring */
+  function pintar(){ctrl();cabecera();leyenda();mapa();derecha();$("anio").value=S.anio;$("anioTxt").textContent=ANIOS[S.anio]}
+  document.querySelectorAll(".herr button").forEach(function(b){b.onclick=function(){S.h=b.dataset.h;document.querySelectorAll(".herr button").forEach(function(x){x.setAttribute("aria-pressed",x===b)});parar();pintar()}});
+  $("anio").oninput=function(){S.anio=+this.value;pintar()};
+  $("verCiudad").onclick=ciudad;$("zMas").onclick=function(){zoomF(.7)};$("zMenos").onclick=function(){zoomF(1.4)};
+  $("espacio").onchange=function(){if(this.selectedIndex){$("lectura").textContent="En el boceto solo está armado Medellín. En la versión real, cada territorio o proyecto abre su propio espacio con las mismas herramientas.";this.selectedIndex=0}};
+  function parar(){if(S.play){clearInterval(S.play);S.play=null;$("play").textContent="▶"}}
+  $("play").onclick=function(){if(S.play){parar();return}if(S.anio>=5)S.anio=0;$("play").textContent="❚❚";pintar();S.play=setInterval(function(){if(S.anio>=5){parar();return}S.anio++;pintar()},1100)};
+  escalarTexto();pintar();
+})();
+</script>
+</body></html>
