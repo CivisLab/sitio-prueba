@@ -6,7 +6,7 @@
   if (!raiz) return;
   var URL_ = raiz.dataset.url, LLAVE = raiz.dataset.llave, VERSION = raiz.dataset.autorizacion;
   var SESION = "estratega.sesion", VERIFICADOR = "estratega.verificador", PENDIENTE = "estratega.autorizacion";
-  var NIVELES = { abierto: "Abierto", suscripcion: "Suscripción", contrato: "Contrato" };
+  var NIVELES = { abierto: "Libre", suscripcion: "Profesional", contrato: "Personalizado" };
   var entrar = document.getElementById("ingreso-entrar"), dentro = document.getElementById("ingreso-dentro");
   var casilla = document.getElementById("i-autoriza"), mensaje = document.getElementById("ingreso-mensaje");
   var form = document.getElementById("ingreso-correo"), regreso = location.origin + location.pathname;

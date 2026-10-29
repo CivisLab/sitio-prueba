@@ -82,13 +82,13 @@ tr.fila{cursor:pointer}tr.fila:hover{background:var(--superficie-2)}
 @media (max-width:820px){main{grid-template-columns:minmax(0,1fr);padding:0 12px 80px}header{padding:16px 12px 6px}.controles{padding:6px 12px 10px}
 h1{font-size:1.45rem}.cifras{grid-template-columns:repeat(2,minmax(0,1fr))}.mini{position:static;display:block;width:42%;margin:8px 0 0 auto}#mapa{max-height:58vh}}
 </style></head><body>
-<nav id="volver-civislab" aria-label="Volver al sitio" style="position:static;display:flex;align-items:center;padding:6px 16px;background:#2B4B48;margin:0"><a href="../../como-lo-hacemos/index.html#estudio" target="_top" style="display:inline-flex;align-items:center;gap:8px;min-height:40px;color:#fff;font:600 15px/1 'Montserrat',system-ui,sans-serif;text-decoration:none">← Volver a CivisLab</a></nav>
+<nav id="volver-civislab" aria-label="Volver al sitio" style="position:static;display:flex;align-items:center;padding:6px 16px;background:#2B4B48;margin:0"><a href="../../plataforma/index.html#estudio" target="_top" style="display:inline-flex;align-items:center;gap:8px;min-height:40px;color:#fff;font:600 15px/1 'Montserrat',system-ui,sans-serif;text-decoration:none">← Volver a CivisLab</a></nav>
 <script>if (window.self !== window.top) document.getElementById('volver-civislab').remove();</script>
 
 <div class="marca">PRIVADO · NO PUBLICAR · Ley 2494</div>
 <header><p class="ante">Estudio de probabilidad electoral · Bogotá D. C.</p>
 <h1>Ciudad, localidad y puesto</h1>
-<p><span class="nivel">Nivel: contrato</span> <span class="nota">Alcaldía mayor y Concejo. Escrutinio oficial (MMV) en 2019 y 2023; paquete oficial de la Registraduría en 2015. Datos con corte 2026-10-25.</span></p></header>
+<p><span class="nivel">Nivel: personalizado</span> <span class="nota">Alcaldía mayor y Concejo. Escrutinio oficial (MMV) en 2019 y 2023; paquete oficial de la Registraduría en 2015. Datos con corte 2026-10-25.</span></p></header>
 <div class="controles">
 <div class="grupo" id="anios" role="group" aria-label="Año"></div>
 <div class="grupo" id="corps" role="group" aria-label="Corporación"><button data-c="A">Alcaldía</button><button data-c="C">Concejo</button></div>
@@ -122,7 +122,7 @@ function concejo2027(k){if(!k||!k.listas)return '';
     return `<tr><td>${esc(l.partido_v||l.partido)}${l.alerta?`<br><span class="alerta-lista">⚠ ${esc(l.alerta)}</span>`:''}</td><td class="n">${l.curules_2023??'—'}</td><td class="n"><strong>${f(l.curules_esperadas)}</strong></td><td class="n">${l.curules_rango_80?l.curules_rango_80[0]+' a '+l.curules_rango_80[1]:'—'}</td><td class="n">${pc(l.p_pasa_umbral)}</td><td><div class="dist" aria-label="Probabilidad de cada número de curules">${barras}</div></td></tr>`}).join('');
   const v=k.validacion||{},m=(v.medidas_antioquia_125||{}).modelo||{};
   const crit=Object.entries(v.criterios||{}).map(([c,ok])=>`<p class="criterio">${ok?'✔':'✘'} ${esc(CRITERIOS[c]||c)}</p>`).join('');
-  return `<section class="tarjeta"><p class="ante">Concejo 2027 · nivel: contrato · ${esc(k.marca||'')}</p>
+  return `<section class="tarjeta"><p class="ante">Concejo 2027 · nivel: personalizado · ${esc(k.marca||'')}</p>
   <h2>Concejo 2027 <span class="estado-metodo">Método ${esc(k.estado_metodo||'sin estado')}</span></h2>
   <p class="nota">Modelo ${esc(k.modelo||'')} · corrida del ${esc(k.generado||'')}${k.preregistro?.sha256?` · sello ${esc(k.preregistro.sha256.slice(0,12))}`:''}</p>
   <p class="aviso"><strong>Supuesto:</strong> ${esc((k.supuestos||[])[0]||'se repiten las listas de 2023')}</p>
@@ -157,7 +157,7 @@ function nombreDe(id){const L=S.loc&&BOGOTA_LOC[S.loc];const f=(L?filas(bloque(L
 function modoSec(){return S.sec&&SEC&&S.corp==='A'&&!S.loc}
 function sectorTarjeta(){const x=V.sector;if(!x)return '';const v=x.validacion||{},g=v.gamma_1||v.gamma_0||{};
   const comp=Object.entries(x.componentes||{}).map(([k,e])=>`${esc(k.replace(/^[A-Z]_/,'').replace(/_/g,' '))}: ${esc(e)}`).join(' · ');
-  return `<section class="tarjeta"><p class="ante">2027 por ${esc(T.unidad)} · nivel: contrato · ${esc(x.marca||V.sello)}</p><h2>Dónde sería la más votada <span class="estado-metodo">${esc(x.estado||'experimental')}</span></h2>
+  return `<section class="tarjeta"><p class="ante">2027 por ${esc(T.unidad)} · nivel: personalizado · ${esc(x.marca||V.sello)}</p><h2>Dónde sería la más votada <span class="estado-metodo">${esc(x.estado||'experimental')}</span></h2>
   <p class="aviso">${esc(x.advertencia||'')}</p><p class="nota">Componentes: ${comp}. Prueba 2019 → 2023: líder acertado en ${g.lider_acertado??'—'} de ${g.partes??'—'}, error de cuota de ${g.error_cuota_pp!=null?Number(g.error_cuota_pp).toLocaleString('es-CO'):'—'} puntos.</p>
   <p><button class="boton-sec" data-sec="${S.sec?0:1}">${S.sec?'Volver a los resultados en el mapa':'Ver en el mapa'}</button></p></section>`}
 function sectorParte(cod){const p=SEC&&SEC[cod];if(!p||S.corp!=='A')return '';const max=Math.max(.01,...p.candidaturas.map(c=>c.cuota_media));
@@ -261,12 +261,12 @@ function vistaPuesto(){const L=BOGOTA_LOC[S.loc];if(!L)return vistaLocalidad();c
 
 let escHTML='';
 function escenarios(){const x=V.esc,el={set innerHTML(h){escHTML=h}};  /* se pinta arriba del panel de la ciudad */
-  if(!x){el.innerHTML=`<p class="ante">Escenarios 2027 · nivel: contrato</p><h2>Escenarios en preparación</h2><p class="aviso">Los escenarios 2027 de la alcaldía de ${esc(T.ciudad)} los prepara el equipo del Estudio. Cuando estén sellados aparecen aquí, con sus supuestos y sus fuentes. No se muestra nada antes.</p>`;return}
+  if(!x){el.innerHTML=`<p class="ante">Escenarios 2027 · nivel: personalizado</p><h2>Escenarios en preparación</h2><p class="aviso">Los escenarios 2027 de la alcaldía de ${esc(T.ciudad)} los prepara el equipo del Estudio. Cuando estén sellados aparecen aquí, con sus supuestos y sus fuentes. No se muestra nada antes.</p>`;return}
   const pr=v=>v==null?'—':p100(100*v);
   const asp=(x.aspirantes||[]).map(a=>`<div class="esc-asp">${avatar(a.nombre_v||a.nombre,V.fotos[a.clave],V.fotoRaiz)}<span><strong${a.sin_nombre?' style="font-style:italic"':''}>${esc(a.nombre_v||a.nombre)}</strong>${credito(V.fotos[a.clave])}${a.partido_v?`<br><span class="nota">${esc(a.partido_v)}</span>`:''}${a.estado?` <span class="fam">${esc(a.estado)}</span>`:''}${a.sin_nombre?'<br><span class="nota">Sin nombre: la fuente solo dice que el partido llevará candidato propio.</span>':''}</span><span class="num"><strong>${pr(a.p_ganar)}</strong>${a.rango?`<br><span class="nota">${pr(a.rango[0])} a ${pr(a.rango[1])}</span>`:''}</span>
   ${(a.fuentes||[]).length?`<span class="nota ultimo">${a.fuentes.map(f=>`<a href="${esc(f.url)}" target="_blank" rel="noopener noreferrer">${esc(f.texto||'fuente')}</a>`).join(' · ')}</span>`:''}</div>`).join('');
   const lista=(t,a)=>a&&a.length?`<h3>${t}</h3><ul class="nota">${a.map(s=>`<li>${esc(typeof s==='string'?s:(s.texto||JSON.stringify(s)))}</li>`).join('')}</ul>`:'';
-  el.innerHTML=`<p class="ante">Escenarios 2027 · nivel: contrato · ${esc(x.marca||V.sello)}</p><h2>${T.alcaldia} 2027</h2>
+  el.innerHTML=`<p class="ante">Escenarios 2027 · nivel: personalizado · ${esc(x.marca||V.sello)}</p><h2>${T.alcaldia} 2027</h2>
   <p class="nota">Modelo ${esc(x.modelo||'')} · corrida del ${esc(x.generado||'')}${x.preregistro?.sha256?` · sello ${esc(x.preregistro.sha256.slice(0,12))}`:''}</p>${x.advertencia?`<p class="aviso">${esc(x.advertencia)}</p>`:''}
   ${x.variante?`<p class="nota"><strong>Variante:</strong> ${esc(x.variante)}</p>`:''}
   ${asp||'<p class="nota">La corrida no trae aspirantes.</p>'}<p class="nota">La probabilidad es la media del modelo en sus réplicas y va siempre con su rango; no es una encuesta ni una intención de voto.</p>
@@ -280,7 +280,7 @@ function retro(r){if(!r||!r.length)return '';
 function concejoAritmetica(){const k=V.esc?.concejo;if(!k||S.corp!=='C')return '';
   const nom=id=>{const l=(C.elecciones['2023'].concejo.listas||[]).find(x=>x.id===id);return l?l.partido:id};
   const filas=(k.listas||[]).map(l=>`<tr><td>${esc(nom(l.id))}</td><td class="n">${fmt(l.votos_2023)}</td><td class="n">${fmt(l.curules)}</td><td class="n">${l.votos_para_una_curul_mas!=null?fmt(l.votos_para_una_curul_mas):'—'}</td><td class="n">${l.votos_para_el_umbral!=null?`faltan ${fmt(l.votos_para_el_umbral)} para el umbral`:(l.votos_que_puede_perder!=null?fmt(l.votos_que_puede_perder):'—')}</td></tr>`).join('');
-  return `<section class="tarjeta"><p class="ante">Estudio · nivel: contrato · ${esc(V.esc.marca||V.sello)}</p><h2>Concejo: aritmética de curules sobre 2023</h2>
+  return `<section class="tarjeta"><p class="ante">Estudio · nivel: personalizado · ${esc(V.esc.marca||V.sello)}</p><h2>Concejo: aritmética de curules sobre 2023</h2>
   <p class="aviso">${esc(k.tipo||'Aritmética, no probabilidad')}.</p>
   <div class="cifras"><div><strong>${fmt(k.umbral)}</strong><span>umbral</span></div><div><strong>${fmt(k.cifra_repartidora)}</strong><span>cifra repartidora</span></div><div><strong>${fmt(k.por_cifra_repartidora)} + 1</strong><span>curules (la ${fmt(k.curules)}, de la oposición)</span></div></div>
   <p class="nota">Última curul: ${esc(nom(k.ultima_curul?.id))}. Siguiente en la fila: ${esc(nom(k.siguiente_en_la_fila?.id))}${k.siguiente_en_la_fila?.cociente!=null?` (cociente ${fmt(k.siguiente_en_la_fila.cociente)})`:''}. ${esc(k.curul_oposicion||'')}</p>

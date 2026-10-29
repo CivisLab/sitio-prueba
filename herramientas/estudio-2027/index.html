@@ -153,13 +153,13 @@ table{border-collapse:collapse;width:100%;font-size:13.5px}th,td{text-align:left
 @media (max-width:900px){main{grid-template-columns:minmax(0,1fr);padding-left:12px;padding-right:12px}header,.filas{padding-left:12px;padding-right:12px}h1{font-size:1.4rem}
   .modos button{padding:10px 12px;font-size:14px}}
 </style></head><body>
-<nav id="volver-civislab" aria-label="Volver al sitio" style="position:static;display:flex;align-items:center;padding:6px 16px;background:#2B4B48;margin:0"><a href="../../como-lo-hacemos/index.html#estudio" target="_top" style="display:inline-flex;align-items:center;gap:8px;min-height:40px;color:#fff;font:600 15px/1 'Montserrat',system-ui,sans-serif;text-decoration:none">← Volver a CivisLab</a></nav>
+<nav id="volver-civislab" aria-label="Volver al sitio" style="position:static;display:flex;align-items:center;padding:6px 16px;background:#2B4B48;margin:0"><a href="../../plataforma/index.html#estudio" target="_top" style="display:inline-flex;align-items:center;gap:8px;min-height:40px;color:#fff;font:600 15px/1 'Montserrat',system-ui,sans-serif;text-decoration:none">← Volver a CivisLab</a></nav>
 <script>if (window.self !== window.top) document.getElementById('volver-civislab').remove();</script>
 
 <div class="marca">PRIVADO · NO PUBLICAR · Ley 2494</div>
 <header><p class="ante">Estudio de probabilidad electoral · Valle de Aburrá y Bogotá</p>
 <h1>El municipio en el mapa</h1>
-<p><span class="nivel">Nivel: contrato</span> <span class="nota">Toque una zona o un puesto para ver su detalle. «← volver», Esc o tocar fuera para salir.</span></p></header>
+<p><span class="nivel">Nivel: personalizado</span> <span class="nota">Toque una zona o un puesto para ver su detalle. «← volver», Esc o tocar fuera para salir.</span></p></header>
 <div class="filas">
 <nav class="fila" id="munis" aria-label="Municipio"></nav>
 <div class="fila"><div class="seg modos" id="modos" role="group" aria-label="Modo"><button data-modo="hist">Histórico electoral</button><button data-modo="p27">Probabilidad 2027</button></div></div>
@@ -193,7 +193,7 @@ function concejo2027(k){if(!k||!k.listas)return '';
     return `<tr><td>${esc(l.partido_v||l.partido)}${l.alerta?`<br><span class="alerta-lista">⚠ ${esc(l.alerta)}</span>`:''}</td><td class="n">${l.curules_2023??'—'}</td><td class="n"><strong>${f(l.curules_esperadas)}</strong></td><td class="n">${l.curules_rango_80?l.curules_rango_80[0]+' a '+l.curules_rango_80[1]:'—'}</td><td class="n">${pc(l.p_pasa_umbral)}</td><td><div class="dist" aria-label="Probabilidad de cada número de curules">${barras}</div></td></tr>`}).join('');
   const v=k.validacion||{},m=(v.medidas_antioquia_125||{}).modelo||{};
   const crit=Object.entries(v.criterios||{}).map(([c,ok])=>`<p class="criterio">${ok?'✔':'✘'} ${esc(CRITERIOS[c]||c)}</p>`).join('');
-  return `<section class="tarjeta"><p class="ante">Concejo 2027 · nivel: contrato · ${esc(k.marca||'')}</p>
+  return `<section class="tarjeta"><p class="ante">Concejo 2027 · nivel: personalizado · ${esc(k.marca||'')}</p>
   <h2>Concejo 2027 <span class="estado-metodo">Método ${esc(k.estado_metodo||'sin estado')}</span></h2>
   <p class="nota">Modelo ${esc(k.modelo||'')} · corrida del ${esc(k.generado||'')}${k.preregistro?.sha256?` · sello ${esc(k.preregistro.sha256.slice(0,12))}`:''}</p>
   <p class="aviso"><strong>Supuesto:</strong> ${esc((k.supuestos||[])[0]||'se repiten las listas de 2023')}</p>

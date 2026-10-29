@@ -46,7 +46,7 @@
     casillaSensible.addEventListener("change", sincroniza);
     sincroniza();
     // Lo que la persona pidió desde otra página (?municipio=…&plan=…&capa=…).
-    var PLANES = { suscripcion: "Plan Suscripción", personalizado: "Plan Personalizado" };
+    var PLANES = { suscripcion: "Plan Profesional", personalizado: "Plan Personalizado" };
     var CAPAS = { poder: "Radiografía de las casas políticas", series: "Resultados de alcaldía desde el año 2000",
                   atlas: "Reporte técnico de Atlas" };
     try {

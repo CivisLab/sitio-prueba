@@ -3,9 +3,9 @@
 > Laboratorio de datos sobre política y territorio. Resultados oficiales de alcaldía 2019 y 2023 de los 125 municipios de Antioquia, por municipio y por puesto de votación, con su fuente.
 
 ## Qué es
-- Plan abierto (gratis): resultados oficiales de la Registraduría, por municipio y puesto, con licencia CC BY 4.0. Porcentajes sobre votos válidos (candidaturas y voto en blanco). Atlas abierto (indicadores oficiales explicados) en los 10 municipios del Valle de Aburrá.
-- Suscripción: series desde el año 2000, radiografía de las casas políticas con prueba pública, reporte técnico de Atlas y Pulso semanal (a solicitud).
-- Personalizado: acompañamiento a una campaña en un municipio, bajo contrato de confidencialidad.
+- Plan Libre (gratis): resultados oficiales de la Registraduría, por municipio y puesto, con licencia CC BY 4.0. Porcentajes sobre votos válidos (candidaturas y voto en blanco). Atlas abierto (indicadores oficiales explicados) en los 10 municipios del Valle de Aburrá.
+- Plan Profesional: series desde el año 2000, radiografía de las casas políticas con prueba pública, reporte técnico de Atlas y Pulso semanal (a solicitud).
+- Plan Personalizado: acompañamiento a una campaña en un municipio, bajo contrato de confidencialidad.
 
 ## Qué NO es
 - No es una encuesta ni un sondeo. No publica intención de voto, probabilidades ni escenarios sobre candidaturas reales (Ley 2494 de 2025).
@@ -15,9 +15,8 @@
 ## Páginas
 - Inicio: index.html
 - Quiénes somos: quienes-somos/index.html
-- Qué hacemos: que-hacemos/index.html
-- Cómo lo hacemos: como-lo-hacemos/index.html
-- Servicios y planes: servicios/index.html, servicios/planes/index.html
+- Estratega: plataforma/index.html
+- Planes: planes/index.html
 - Explorador de los municipios (mapa, buscador y lista): antioquia/index.html
 - Metodología y fuentes (cálculos y huellas sha256): metodologia/index.html
 - Aviso legal y rectificaciones: aviso-legal/index.html
