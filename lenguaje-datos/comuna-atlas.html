@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Comuna en Atlas · prototipo</title><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#2B4B48">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.js"></script>
+<link rel="stylesheet" href="lenguaje.css">
+<style>
+.elegir{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;font-size:13.5px;color:var(--tinta-2)}
+.elegir select{font:600 14px var(--f);color:var(--tinta);background:var(--superficie);border:1px solid var(--linea-2);border-radius:8px;padding:7px 10px}
+.ind{display:grid;gap:6px;padding:14px 0;border-top:1px solid var(--linea)}
+.ind:first-of-type{border-top:0;padding-top:4px}
+.ind .q{font-size:14px;font-weight:700;line-height:1.3}
+.ind .fila{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 10px}
+.ind .v{font-size:2rem;font-weight:800;letter-spacing:-.02em;line-height:1}
+.ind .lect{font-size:13.5px;color:var(--tinta-2)}
+.ind button.ver{justify-self:start;border:0;background:none;padding:0;font-size:12.5px;font-weight:700;color:var(--acento);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.ind[aria-current="true"] .q::after{content:" · en el mapa";font-weight:600;color:var(--tinta-3);font-size:12px}
+.rango .refl::after{content:attr(data-et);position:absolute;top:-2px;left:5px;font-size:10.5px;font-weight:700;color:var(--tinta-3);white-space:nowrap}
+.eje-num{display:flex;justify-content:space-between;font-size:10.5px;color:var(--tinta-3);margin-top:2px}
+.grupo-orden{margin-top:12px}
+.grupo-orden h4{margin:0 0 6px;font-size:12px;display:flex;align-items:center;gap:8px}
+.grupo-orden h4 small{font-weight:500;color:var(--tinta-3)}
+.orden li{display:grid;grid-template-columns:minmax(0,8.5em) 1fr 3.2em;gap:8px;align-items:center;font-size:12.5px;padding:3px 0;cursor:pointer;border-radius:6px}
+.orden li:hover{background:var(--superficie-2)}
+.orden li[aria-current="true"]{font-weight:800}
+.orden li[aria-current="true"] .nom::before{content:"› "}
+.orden .nom{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.orden .val{text-align:right;font-weight:700}
+.orden .rango{height:14px}.orden .rango .eje{top:6px;height:1px}.orden .rango .banda{top:2px;height:10px}.orden .rango .punto{top:1px;height:12px;width:3px}
+.serie svg{display:block;width:100%;height:auto;overflow:visible}
+.serie .otra{fill:none;stroke:var(--resto);stroke-width:1.2;opacity:.7}
+.serie .esta{fill:none;stroke:var(--foco);stroke-width:2.5}
+.serie .pt{fill:var(--foco);stroke:var(--superficie);stroke-width:2}
+.serie text{font:600 10.5px var(--f);fill:var(--tinta-3)}
+.serie .hueco{stroke:var(--linea-2);stroke-dasharray:2 3}
+.anios{display:flex;align-items:center;gap:10px;margin-top:10px}
+.anios input{flex:1;accent-color:var(--acento)}
+.anios button{border:1px solid var(--linea-2);background:var(--superficie);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:700;cursor:pointer}
+.anios output{font-weight:800;font-size:1.1rem;min-width:3ch}
+.capa-mapa{position:absolute;left:10px;top:10px;z-index:3}
+.ley-mapa{position:absolute;right:10px;top:10px;z-index:3;margin:0;display:grid;gap:4px;justify-items:start;background:color-mix(in srgb,var(--superficie) 92%,transparent);border:1px solid var(--linea);border-radius:8px;padding:7px 9px;font-size:11.5px;max-width:46%}
+.ley-mapa .sem{font-size:11px;padding:1px 7px 1px 6px}
+.mapa .volver{top:auto;bottom:40px;right:48px}
+body.dir-a .capa-mapa{display:none}
+</style>
+</head><body>
+<nav class="revision" aria-label="Prototipos (no es parte del diseño)">
+  <a href="index.html" data-pagina>Inicio</a><a href="ficha-candidato.html" data-pagina>Ficha · Cerebro</a><a href="comuna-atlas.html" data-pagina aria-current="page">Comuna · Atlas</a><a href="estudio-2027.html" data-pagina>Estudio 2027</a>
+  <span class="grupo"><button data-dir="a">A · Relato</button><button data-dir="b">B · Tablero</button></span>
+  <span class="grupo"><button data-tema>Oscuro</button></span>
+</nav>
+<main class="pagina">
+  <header class="cabeza">
+    <span class="herr">Análisis Territorial Multidimensional Integrado · corre con el modelo Atlas</span>
+    <h1 id="titulo">¿Cómo está San Javier frente a Medellín?</h1>
+    <p class="sub">Tres cifras de la Encuesta de Calidad de Vida 2023 y el índice de condiciones de vida de 2014 a 2024. Una comuna es verde o roja solo si su diferencia con Medellín supera el margen de error; si no, no se distingue de la ciudad.</p>
+    <div class="elegir"><label for="sel">Comuna o corregimiento</label><select id="sel"></select><span>o toque una en el mapa</span></div>
+  </header>
+
+  <section class="relato">
+    <div class="mapa" id="mapa" aria-label="Mapa de Medellín por comuna">
+      <div class="capa-mapa toggle" role="group" aria-label="Qué muestra el mapa"><button data-capa="sem" aria-pressed="true">Semáforo 2023</button><button data-capa="imcv" aria-pressed="false">Índice por año</button></div>
+      <button class="volver" id="volver" hidden>← Medellín</button>
+    </div>
+    <div class="pasos">
+      <article class="paso" data-paso="ciudad">
+        <span class="ojo">1 · La ciudad</span>
+        <h2>El color aparece solo donde la diferencia es real</h2>
+        <p>El mapa pinta <b id="nomInd1">sin atención médica</b>. Con la regla del margen, la mayoría de las comunas queda en naranja: su diferencia con Medellín cabe en el margen de error de la encuesta.</p>
+        <div class="leyenda" id="leySem"></div>
+        <p class="fuente">El margen es 1,96 × √(p × (1 − p) / n), en puntos, con n los hogares encuestados en la comuna. Supone muestreo aleatorio simple dentro de la comuna.</p>
+      </article>
+      <article class="paso" data-paso="comuna">
+        <span class="ojo">2 · La comuna</span>
+        <h2 id="tComuna">San Javier, en tres preguntas</h2>
+        <div id="inds"></div>
+      </article>
+      <article class="paso medio" data-paso="orden">
+        <span class="ojo">3 · Contra las demás</span>
+        <h2 id="tOrden">¿Dónde falta más la atención médica?</h2>
+        <p class="ref">Ordenado por el valor de 2023, en tres bloques. Dentro de «no se distingue» el orden no dice nada: las diferencias caben en el margen.</p>
+        <div id="orden"></div>
+      </article>
+      <article class="paso medio" data-paso="anios">
+        <span class="ojo">4 · Los años</span>
+        <h2 id="tAnios">San Javier en el índice de condiciones de vida</h2>
+        <p class="ref" id="rAnios"></p>
+        <div class="serie" id="serie"></div>
+        <div class="anios"><button id="play" aria-label="Recorrer los años">▶ Recorrer</button><input type="range" id="anio" min="0" max="9" step="1" aria-label="Año"><output id="anioV">2024</output></div>
+        <p class="fuente">Índice oficial de la Alcaldía (IMCV, 15 dimensiones), de 0 a 100; más alto es mejor. Sin margen publicado: aquí no hay semáforo.</p>
+      </article>
+      <article class="paso ancho" data-paso="nodice">
+        <span class="ojo">5 · Lo que esto no dice</span>
+        <div class="no-decir" id="noDice"></div>
+        <p class="fuente" id="fuentes" style="margin-top:12px"></p>
+      </article>
+    </div>
+  </section>
+</main>
+<script src="datos/comunas.js"></script><script src="datos/atlas.js"></script><script src="lenguaje.js"></script>
+<script>
+(function () {
+  CL.barra();
+  const A = window.ATLAS, G = window.COMUNAS, url = new URLSearchParams(location.search);
+  const ECV = A.indicadores.filter((i) => i.clave !== "imcv15"), IMCV = A.indicadores.find((i) => i.clave === "imcv15");
+  const PREG = {
+    cuidados_no_satisfechos: ["¿Le falta la atención médica cuando la necesita?", "¿Dónde falta más la atención médica?", "sin atención médica"],
+    contaminacion_aire: ["¿Los hogares sienten el aire contaminado?", "¿Dónde sienten más el aire contaminado?", "aire contaminado, según los hogares"],
+    vias_buen_estado: ["¿Los hogares califican bien sus vías?", "¿Dónde califican mejor las vías?", "vías bien calificadas"],
+  };
+  const nombre = Object.fromEntries(G.features.map((f) => [f.properties.cod, f.properties.nombre]));
+  const tipo = Object.fromEntries(G.features.map((f) => [f.properties.cod, f.properties.tipo]));
+  const anios = IMCV.valores[0].serie.map((s) => s.anio);
+  const est = { cod: url.get("comuna") || "13", ind: ECV[0].clave, capa: "sem", anio: anios.length - 1 };
+
+  /* ── El semáforo por margen de error (la regla del tablero de Atlas, 29-oct) ── */
+  function juicio(ind, v) {
+    if (v.hogares < A.muestra_minima) return { s: "poca", e: null };
+    const p = v.valor / 100, P = ind.ciudad / 100, q = p === 0 || p === 1 ? P : p;
+    const e = 1.96 * Math.sqrt((q * (1 - q)) / v.hogares) * 100, d = v.valor - ind.ciudad;
+    if (Math.abs(d) <= e) return { s: "igual", e, d };
+    const mejor = ind.sentido === "mas_es_mejor" ? d > 0 : d < 0;
+    return { s: mejor ? "bien" : "mal", e, d };
+  }
+  const PAL = { bien: "Mejor que Medellín", igual: "No se distingue", mal: "Peor que Medellín", poca: "Muestra pequeña" };
+  const MARCA = { bien: "▲", igual: "●", mal: "▼", poca: "◌" };
+  const val = (ind, cod) => ind.valores.find((v) => v.cod === cod);
+  const nomCorto = (c) => (tipo[c] === "corregimiento" ? "" : "") + nombre[c];
+
+  /* ── Selector ── */
+  const sel = document.getElementById("sel");
+  sel.innerHTML = G.features.map((f) => `<option value="${f.properties.cod}">${CL.esc(f.properties.nombre)}${f.properties.tipo === "corregimiento" ? " (corregimiento)" : ""}</option>`).join("");
+  sel.addEventListener("change", () => elegir(sel.value, true));
+
+  /* ── Ficha de la comuna: tres preguntas ── */
+  function fichaComuna() {
+    const c = est.cod;
+    document.getElementById("titulo").textContent = `¿Cómo está ${nombre[c]} frente a Medellín?`;
+    document.getElementById("tComuna").textContent = `${nombre[c]}, en tres preguntas`;
+    sel.value = c;
+    document.getElementById("inds").innerHTML = ECV.map((ind) => {
+      const v = val(ind, c), j = juicio(ind, v);
+      const max = Math.max(...ind.valores.map((x) => { const k = juicio(ind, x); return k.e == null ? 0 : x.valor + k.e; })) * 1.05;
+      const x = (n) => Math.max(0, Math.min(100, (n / max) * 100));
+      let lect;
+      if (j.s === "poca") lect = `Con ${CL.n(v.hogares)} hogares encuestados la cifra es muestra pequeña: no se compara con la ciudad.`;
+      else if (j.s === "igual") lect = `La diferencia (${CL.pp(Math.abs(j.d), 0)}) no supera el margen de error de ${nombre[c]} (±${CL.n(j.e, 1)} puntos, 95 %): no alcanza a ser real.`;
+      else lect = `La diferencia (${CL.pp(Math.abs(j.d), 0)}) supera el margen de error de ${nombre[c]} (±${CL.n(j.e, 1)} puntos, 95 %): es real.`;
+      const banda = j.e == null ? "" : `<span class="banda" style="left:${x(v.valor - j.e)}%;width:${x(v.valor + j.e) - x(v.valor - j.e)}%"></span>`;
+      return `<div class="ind" aria-current="${ind.clave === est.ind}">
+        <div class="q">${PREG[ind.clave][0]}</div>
+        <div class="fila"><span class="v">${CL.n(v.valor)} %</span><span class="sem ${j.s}">${PAL[j.s]}</span><span class="ref">Medellín <strong>${CL.n(ind.ciudad)} %</strong></span></div>
+        <div class="rango" aria-hidden="true"><span class="eje"></span>${banda}<span class="punto" style="left:${x(v.valor)}%"></span><span class="refl" style="left:${x(ind.ciudad)}%" data-et="Medellín"></span></div>
+        <p class="lect">${lect}</p>
+        <p class="fuente">${CL.n(v.hogares)} hogares encuestados · ECV ${ind.anio}</p>
+        <button class="ver" data-ind="${ind.clave}">Ver en el mapa y en el orden</button>
+      </div>`;
+    }).join("");
+    document.querySelectorAll("#inds .ver").forEach((b) => b.addEventListener("click", () => { est.ind = b.dataset.ind; est.capa = "sem"; todo(); }));
+  }
+
+  /* ── El orden en tres bloques ── */
+  function orden() {
+    const ind = ECV.find((i) => i.clave === est.ind);
+    document.getElementById("tOrden").textContent = PREG[ind.clave][1];
+    document.getElementById("nomInd1").textContent = PREG[ind.clave][2];
+    const filas = ind.valores.map((v) => ({ v, j: juicio(ind, v) }));
+    const max = Math.max(...filas.filter((f) => f.j.e != null).map((f) => f.v.valor + f.j.e)) * 1.05;
+    const x = (n) => Math.max(0, Math.min(100, (n / max) * 100));
+    const peorArriba = ind.sentido === "mas_es_peor";
+    const bloques = ["mal", "igual", "bien", "poca"];
+    document.getElementById("orden").innerHTML = bloques.map((b) => {
+      const fs = filas.filter((f) => f.j.s === b).sort((a, c) => (peorArriba ? c.v.valor - a.v.valor : a.v.valor - c.v.valor));
+      if (!fs.length) return "";
+      return `<div class="grupo-orden"><h4><span class="sem ${b}">${PAL[b]}</span><small>${fs.length}</small></h4><ul class="filas orden">${fs.map(({ v, j }) =>
+        `<li data-cod="${v.cod}" aria-current="${v.cod === est.cod}"><span class="nom">${CL.esc(nombre[v.cod])}</span>
+        <span class="rango">${j.e != null ? `<span class="eje"></span><span class="banda" style="left:${x(v.valor - j.e)}%;width:${x(v.valor + j.e) - x(v.valor - j.e)}%"></span>` : '<span class="eje"></span>'}<span class="punto" style="left:${x(v.valor)}%"></span><span class="refl" style="left:${x(ind.ciudad)}%"></span></span>
+        <span class="val">${CL.n(v.valor)} %</span></li>`).join("")}</ul></div>`;
+    }).join("") + `<p class="fuente" style="margin-top:8px">La línea punteada es Medellín (${CL.n(ind.ciudad)} %). Cada banda, el margen de error al 95 % de la comuna.</p>`;
+    document.querySelectorAll("#orden li").forEach((li) => li.addEventListener("click", () => elegir(li.dataset.cod, true)));
+    document.getElementById("leySem").innerHTML = bloques.map((b) => `<span class="sem ${b}">${PAL[b]}</span>`).join("");
+  }
+
+  /* ── La serie del índice ── */
+  const W = 520, H = 170, M = { l: 26, r: 12, t: 10, b: 20 };
+  const todosIMCV = IMCV.valores.flatMap((v) => v.serie.map((s) => s.valor));
+  const yMin = Math.floor(Math.min(...todosIMCV) / 5) * 5, yMax = Math.ceil(Math.max(...todosIMCV) / 5) * 5;
+  const sx = (a) => M.l + ((a - anios[0]) / (anios[anios.length - 1] - anios[0])) * (W - M.l - M.r);
+  const sy = (v) => H - M.b - ((v - yMin) / (yMax - yMin)) * (H - M.t - M.b);
+  const camino = (serie) => { let d = "", prev = null; for (const s of serie) { d += (prev && s.anio - prev > 1 ? "M" : d ? "L" : "M") + sx(s.anio).toFixed(1) + " " + sy(s.valor).toFixed(1); prev = s.anio; } return d; };
+  function serie() {
+    const v = val(IMCV, est.cod), a = anios[est.anio], s = v.serie.find((x) => x.anio === a);
+    document.getElementById("tAnios").textContent = `${nombre[est.cod]} en el índice de condiciones de vida`;
+    const ini = v.serie[0], fin = v.serie[v.serie.length - 1];
+    document.getElementById("rAnios").innerHTML = `De <strong>${CL.n(ini.valor, 1)}</strong> en ${ini.anio} a <strong>${CL.n(fin.valor, 1)}</strong> en ${fin.anio}. En gris, las otras 20 comunas y corregimientos.`;
+    const ejes = [yMin, (yMin + yMax) / 2, yMax].map((y) => `<text x="${M.l - 6}" y="${sy(y) + 3}" text-anchor="end">${CL.n(y)}</text>`).join("");
+    const xs = [anios[0], 2019, anios[anios.length - 1]].map((y) => `<text x="${sx(y)}" y="${H - 4}" text-anchor="middle">${y}</text>`).join("");
+    const hueco = `<line class="hueco" x1="${sx(2020)}" x2="${sx(2020)}" y1="${M.t}" y2="${H - M.b}"/><text x="${sx(2020)}" y="${M.t + 8}" text-anchor="middle">sin 2020</text>`;
+    document.getElementById("serie").innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Índice de ${CL.esc(nombre[est.cod])} de ${ini.anio} a ${fin.anio}">${hueco}${ejes}${xs}
+      ${IMCV.valores.filter((x) => x.cod !== est.cod).map((x) => `<path class="otra" d="${camino(x.serie)}"/>`).join("")}
+      <path class="esta" d="${camino(v.serie)}"/>${s ? `<circle class="pt" cx="${sx(a)}" cy="${sy(s.valor)}" r="5"/><text x="${sx(a)}" y="${sy(s.valor) - 10}" text-anchor="middle" style="fill:var(--tinta);font-weight:800">${CL.n(s.valor, 1)}</text>` : ""}</svg>`;
+    document.getElementById("anio").value = est.anio;
+    document.getElementById("anioV").textContent = a;
+  }
+  document.getElementById("anio").addEventListener("input", (e) => { est.anio = +e.target.value; est.capa = "imcv"; serie(); pintarMapa(); capaBotones(); });
+  let juego = null;
+  document.getElementById("play").addEventListener("click", () => {
+    if (juego) { clearInterval(juego); juego = null; document.getElementById("play").textContent = "▶ Recorrer"; return; }
+    est.capa = "imcv"; est.anio = 0; capaBotones(); serie(); pintarMapa();
+    document.getElementById("play").textContent = "❚❚ Parar";
+    juego = setInterval(() => {
+      if (est.anio >= anios.length - 1) { clearInterval(juego); juego = null; document.getElementById("play").textContent = "▶ Recorrer"; return; }
+      est.anio++; serie(); pintarMapa();
+    }, CL.quieto() ? 1200 : 900);
+  });
+
+  function noDice() {
+    const ind = ECV.find((i) => i.clave === est.ind);
+    const items = ["El margen supone muestreo aleatorio simple: la ECV usa factor de expansión y no publica errores por comuna, así que el margen real puede ser algo mayor o menor.",
+      "No cuenta el error de la cifra de Medellín (unos 6.900 hogares, cerca de ±1 punto).", ...ind.no_se_puede_decir, ...IMCV.no_se_puede_decir];
+    document.getElementById("noDice").innerHTML = `<b>Lo que esto no dice</b><ul>${items.map((t) => `<li>${CL.esc(t)}</li>`).join("")}</ul>`;
+    document.getElementById("fuentes").textContent = `Fuentes: ${ECV[0].fuente}; ${IMCV.fuente}. Contrato ${A.contrato} del piloto de Atlas (huella ${A.huella}). Geometría: DANE.`;
+  }
+
+  /* ── El mapa ── */
+  let map = null, pintarEtiquetas = () => {}, foco = null;
+  const glob = CL.globo(document.getElementById("mapa"));
+  function color(cod) {
+    if (est.capa === "imcv") {
+      const s = val(IMCV, cod).serie.find((x) => x.anio === anios[est.anio]);
+      if (!s) return { c: CL.css("--resto-2"), poca: true };
+      const k = Math.min(4, Math.floor(((s.valor - yMin) / (yMax - yMin)) * 5));
+      return { c: CL.css("--r" + (k + 1)), poca: false };
+    }
+    const ind = ECV.find((i) => i.clave === est.ind), j = juicio(ind, val(ind, cod));
+    return { c: j.s === "poca" ? CL.css("--resto-2") : CL.css("--" + j.s), poca: j.s === "poca", s: j.s };
+  }
+  function pintarMapa() {
+    if (!map || !map.getSource("comunas")) return;
+    for (const f of G.features) {
+      const r = color(f.properties.cod);
+      map.setFeatureState({ source: "comunas", id: f.id }, { c: r.c, poca: r.poca, suave: r.s === "igual", foco: f.properties.cod === est.cod });
+    }
+    pintarEtiquetas();
+    leyendaMapa();
+  }
+  function leyendaMapa() {
+    let ley = document.getElementById("leyMapa");
+    if (!ley) { ley = document.createElement("div"); ley.id = "leyMapa"; ley.className = "leyenda ley-mapa"; document.getElementById("mapa").appendChild(ley); }
+    if (est.capa === "imcv") {
+      const pasos = [1, 2, 3, 4, 5].map((k) => `<i style="background:var(--r${k})"></i>`).join("");
+      ley.innerHTML = `<span>Índice ${anios[est.anio]}</span><span class="rampa">${pasos}</span><span>${CL.n(yMin)} → ${CL.n(yMax)}</span>`;
+    } else {
+      const ind = ECV.find((i) => i.clave === est.ind);
+      ley.innerHTML = `<b>${PREG[ind.clave][2]} · ${ind.anio}</b>` + ["bien", "igual", "mal", "poca"].map((b) => `<span class="sem ${b}">${PAL[b]}</span>`).join("");
+    }
+  }
+  function capaBotones() { document.querySelectorAll("[data-capa]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.capa === est.capa))); }
+  document.querySelectorAll("[data-capa]").forEach((b) => b.addEventListener("click", () => { est.capa = b.dataset.capa; capaBotones(); pintarMapa(); }));
+  const caja = (cod) => CL.caja(G.features.filter((f) => f.properties.cod === cod));
+  const volver = document.getElementById("volver");
+  function irComuna() { if (map) { CL.ir(map, caja(est.cod), { padding: 60, maxZoom: 14 }); volver.hidden = false; } }
+  function irCiudad() { if (map) { CL.ir(map, CL.URBANO, { padding: 20 }); volver.hidden = true; } }
+  volver.addEventListener("click", irCiudad);
+  addEventListener("keydown", (e) => { if (e.key === "Escape") irCiudad(); });
+
+  CL.mapa(document.getElementById("mapa"), {
+    alCargar(m, antes) {
+      map = m;
+      m.addSource("comunas", { type: "geojson", data: G });
+      CL.rayado(m);
+      m.addLayer({ id: "cl-relleno", type: "fill", source: "comunas", paint: { "fill-color": ["coalesce", ["feature-state", "c"], "#cccccc"], "fill-opacity": CL.opacidad(), "fill-color-transition": { duration: CL.quieto() ? 0 : 320 } } }, antes);
+      m.addLayer({ id: "cl-rayado", type: "fill", source: "comunas", paint: { "fill-pattern": "rayado", "fill-opacity": ["case", ["boolean", ["feature-state", "poca"], false], 0.9, 0] } }, antes);
+      m.addLayer({ id: "cl-borde", type: "line", source: "comunas", paint: { "line-color": CL.css("--mapa-borde"), "line-width": 1 } }, antes);
+      m.addLayer({ id: "cl-foco", type: "line", source: "comunas", paint: { "line-color": CL.css("--mapa-foco"), "line-width": 2.5, "line-opacity": ["case", ["boolean", ["feature-state", "foco"], false], 1, 0] } });
+      pintarEtiquetas = CL.etiquetas(m, G.features, (f, z) => {
+        const c = f.properties.cod, esFoco = c === est.cod, corr = f.properties.tipo === "corregimiento";
+        if (!esFoco && z < (corr ? 10.2 : 11.6)) return null;
+        const r = color(c), marca = est.capa === "sem" && r.s ? `<span class="marca ${r.s === "poca" ? "" : r.s}">${MARCA[r.s]}</span>` : "";
+        return { html: CL.esc(f.properties.nombre) + marca, foco: esFoco };
+      });
+      m.on("mousemove", "cl-relleno", (e) => {
+        const f = e.features[0], c = f.properties.cod;
+        let html;
+        if (est.capa === "imcv") { const s = val(IMCV, c).serie.find((x) => x.anio === anios[est.anio]); html = `<b>${CL.esc(f.properties.nombre)}</b><br>Índice ${anios[est.anio]}: ${s ? CL.n(s.valor, 1) : "sin dato"}`; }
+        else { const ind = ECV.find((i) => i.clave === est.ind), v = val(ind, c), j = juicio(ind, v); html = `<b>${CL.esc(f.properties.nombre)}</b><br>${CL.n(v.valor)} % · Medellín ${CL.n(ind.ciudad)} %<br>${MARCA[j.s]} ${PAL[j.s]}${j.e != null ? ` (±${CL.n(j.e, 1)})` : ""}`; }
+        glob.ver(e.point.x, e.point.y, html);
+        m.getCanvas().style.cursor = "pointer";
+      });
+      m.on("mouseleave", "cl-relleno", () => { glob.ocultar(); m.getCanvas().style.cursor = ""; });
+      m.on("click", "cl-relleno", (e) => elegir(e.features[0].properties.cod, true));
+      m.fitBounds(CL.URBANO, { padding: 20, animate: false });
+      pintarMapa();
+      if (CL.dir === "b" && url.get("comuna")) irComuna();
+    },
+    alCambiarTema(m) { m.setPaintProperty("cl-borde", "line-color", CL.css("--mapa-borde")); m.setPaintProperty("cl-foco", "line-color", CL.css("--mapa-foco")); CL.rayado(m); pintarMapa(); },
+  });
+
+  function elegir(cod, volar) {
+    est.cod = cod;
+    const u = new URL(location.href); u.searchParams.set("comuna", cod); history.replaceState(null, "", u);
+    fichaComuna(); orden(); serie(); pintarMapa();
+    if (volar) irComuna();
+  }
+  function todo() { fichaComuna(); orden(); serie(); noDice(); pintarMapa(); capaBotones(); }
+  todo();
+
+  /* Dirección A: cada paso mueve el mapa */
+  CL.pasos((p) => {
+    if (CL.dir !== "a") return;
+    if (p === "ciudad" || p === "orden") { est.capa = "sem"; irCiudad(); }
+    else if (p === "comuna") { est.capa = "sem"; irComuna(); }
+    else if (p === "anios") { est.capa = "imcv"; irCiudad(); }
+    capaBotones(); pintarMapa();
+  });
+})();
+</script>
+</body></html>

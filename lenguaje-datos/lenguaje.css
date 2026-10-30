@@ -1,0 +1,180 @@
+/* Lenguaje visual de los datos de CivisLab · tokens y piezas comunes de los prototipos.
+   Las reglas están en ../LENGUAJE.md. Los colores de datos pasaron el verificador de daltonismo
+   (validate_palette.js, OKLab, Machado 2009): ver la sección «Color» del lenguaje. */
+:root{
+  --papel:#F4F5F2;--superficie:#FFFFFF;--superficie-2:#EEF1EC;--linea:#D8DED6;--linea-2:#BFC9BE;
+  --tinta:#1D2422;--tinta-2:#4C5752;--tinta-3:#5F6A65;
+  --acento:#2B4B48;--acento-tinta:#FFFFFF;--acento-suave:#E2EBE0;--salvia:#96B483;
+  --f:'Montserrat',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --r:10px;--r-s:6px;
+  /* Datos: foco, contraste y resto. Solo lleva color aquello de lo que habla la frase. */
+  --foco:#146F46;--contraste:#C9892B;--resto:#B8C2BD;--resto-2:#D6DCD8;
+  /* Rampa de magnitud (un solo tono, de claro a oscuro). */
+  --r1:#7AB79C;--r2:#569D7F;--r3:#3C8367;--r4:#2B6850;--r5:#204E3C;
+  /* Semáforo: relleno del mapa y de las marcas. Siempre con marca (▲ ● ▼) y palabra. */
+  --bien:#2B8C6E;--igual:#D08316;--mal:#9E2F3C;
+  /* Semáforo: texto y fondo de la etiqueta (contraste de texto ≥ 4,5:1). */
+  --bien-t:#1F6450;--bien-f:#E0F0E8;--igual-t:#7A4F00;--igual-f:#FBEBC4;--mal-t:#8A2633;--mal-f:#F8E2E4;
+  --rayado:#8C9893;
+  --mapa-borde:#FFFFFF;--mapa-foco:#1D2422;
+  /* Movimiento */
+  --t-micro:120ms;--t-estado:200ms;--t-marca:320ms;
+  --salida:cubic-bezier(.2,.8,.2,1);--entre:cubic-bezier(.65,0,.35,1);
+  --sombra:0 1px 2px rgba(20,32,29,.06),0 8px 24px -12px rgba(20,32,29,.18);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --papel:#101716;--superficie:#172120;--superficie-2:#1E2A28;--linea:#2C3A38;--linea-2:#3A4A47;
+  --tinta:#E8EEEA;--tinta-2:#B6C3BD;--tinta-3:#93A39C;
+  --acento:#96B483;--acento-tinta:#10201D;--acento-suave:#22332F;
+  --foco:#4E9F73;--contraste:#C38323;--resto:#55665F;--resto-2:#33413E;
+  --r1:#335D47;--r2:#40785B;--r3:#529372;--r4:#6CAD8B;--r5:#8DC7A7;
+  --bien:#00AA95;--igual:#C18434;--mal:#9C4246;
+  --bien-t:#7FD9C4;--bien-f:#123A33;--igual-t:#F0C66B;--igual-f:#33280F;--mal-t:#F2A4A8;--mal-f:#3E1F22;
+  --rayado:#6F7E78;--mapa-borde:#101716;--mapa-foco:#E8EEEA;
+  --sombra:0 1px 2px rgba(0,0,0,.3),0 8px 24px -12px rgba(0,0,0,.6);
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --papel:#101716;--superficie:#172120;--superficie-2:#1E2A28;--linea:#2C3A38;--linea-2:#3A4A47;
+  --tinta:#E8EEEA;--tinta-2:#B6C3BD;--tinta-3:#93A39C;
+  --acento:#96B483;--acento-tinta:#10201D;--acento-suave:#22332F;
+  --foco:#4E9F73;--contraste:#C38323;--resto:#55665F;--resto-2:#33413E;
+  --r1:#335D47;--r2:#40785B;--r3:#529372;--r4:#6CAD8B;--r5:#8DC7A7;
+  --bien:#00AA95;--igual:#C18434;--mal:#9C4246;
+  --bien-t:#7FD9C4;--bien-f:#123A33;--igual-t:#F0C66B;--igual-f:#33280F;--mal-t:#F2A4A8;--mal-f:#3E1F22;
+  --rayado:#6F7E78;--mapa-borde:#101716;--mapa-foco:#E8EEEA;
+  --sombra:0 1px 2px rgba(0,0,0,.3),0 8px 24px -12px rgba(0,0,0,.6);
+  color-scheme:dark;
+}
+@media (prefers-reduced-motion:reduce){:root{--t-micro:0ms;--t-estado:0ms;--t-marca:0ms}}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--papel);color:var(--tinta);font:400 15px/1.5 var(--f);font-variant-numeric:tabular-nums}
+h1,h2,h3,p{margin:0}
+a{color:var(--acento)}
+button{font:inherit;color:inherit}
+.oculto{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* ── Barra de revisión (no es parte del diseño) ── */
+.revision{position:sticky;top:0;z-index:50;background:#111;color:#eee;font:600 12.5px/1.3 var(--f);display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;padding:7px 16px}
+.revision a{color:#fff;text-decoration:none;padding:4px 8px;border-radius:6px;white-space:nowrap}
+.revision a[aria-current="page"]{background:#fff;color:#111}
+.revision .grupo{display:flex;gap:4px;align-items:center;margin-left:auto}
+.revision .grupo+.grupo{margin-left:0}
+.revision button{background:#333;color:#fff;border:0;border-radius:6px;padding:4px 9px;cursor:pointer}
+.revision button[aria-pressed="true"]{background:#fff;color:#111}
+.captura .revision{display:none}
+
+/* ── Etiquetas ── */
+.sello{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 9px;border-radius:999px;background:var(--superficie-2);color:var(--tinta-2);border:1px solid var(--linea)}
+.sello.muestra{background:var(--igual-f);color:var(--igual-t);border-color:transparent}
+.sello.privado{background:var(--mal-f);color:var(--mal-t);border-color:transparent}
+.sello.revision-dato{background:var(--superficie-2);color:var(--tinta-2);border-style:dashed;border-color:var(--linea-2)}
+
+/* Semáforo: marca + palabra, nunca solo color */
+.sem{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;font-weight:700;padding:2px 9px 2px 7px;border-radius:999px;white-space:nowrap}
+.sem::before{font-size:10px;line-height:1}
+.sem.bien{background:var(--bien-f);color:var(--bien-t)}.sem.bien::before{content:"▲"}
+.sem.igual{background:var(--igual-f);color:var(--igual-t)}.sem.igual::before{content:"●"}
+.sem.mal{background:var(--mal-f);color:var(--mal-t)}.sem.mal::before{content:"▼"}
+.sem.poca{background:var(--superficie-2);color:var(--tinta-2);background-image:repeating-linear-gradient(135deg,transparent 0 4px,rgba(127,140,135,.22) 4px 6px)}.sem.poca::before{content:"◌";font-size:12px}
+
+/* ── Cifra principal ── */
+.cifra{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+.cifra strong{font-size:clamp(2.4rem,7vw,3.4rem);font-weight:800;letter-spacing:-.03em;line-height:1}
+.cifra span{font-size:14px;color:var(--tinta-2)}
+.ref{font-size:13.5px;color:var(--tinta-3)}
+.ref strong{color:var(--tinta-2);font-weight:700}
+
+/* ── Fuente, nota y «lo que no se puede decir» ── */
+.fuente{font-size:12px;color:var(--tinta-3);line-height:1.45}
+.no-decir{margin:0;padding:12px 14px 12px 16px;border-left:3px solid var(--linea-2);background:var(--superficie-2);border-radius:0 var(--r-s) var(--r-s) 0;font-size:13px;color:var(--tinta-2)}
+.no-decir b{display:block;font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--tinta-3);margin-bottom:4px}
+.no-decir ul{margin:0;padding-left:18px}
+
+/* ── Tarjeta ── */
+.tarjeta{background:var(--superficie);border:1px solid var(--linea);border-radius:var(--r);padding:18px 18px 16px}
+.tarjeta>h3{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--tinta-3);margin-bottom:10px}
+.vacio{border:1.5px dashed var(--linea-2);border-radius:var(--r);padding:18px;color:var(--tinta-3);font-size:13.5px;background:transparent}
+
+/* ── Mapa ── */
+.mapa{position:relative;background:var(--superficie-2);border-radius:var(--r);overflow:hidden;min-height:320px}
+.mapa .maplibregl-map{position:absolute;inset:0}
+.mapa .aviso-fondo{position:absolute;left:10px;bottom:30px;z-index:3;font-size:12px;background:var(--superficie);color:var(--tinta-2);border:1px solid var(--linea);border-radius:8px;padding:5px 9px;box-shadow:var(--sombra)}
+.mapa .credito{position:absolute;left:10px;bottom:8px;z-index:2;font-size:10.5px;color:var(--tinta-3);background:color-mix(in srgb,var(--superficie) 80%,transparent);padding:2px 6px;border-radius:4px;max-width:60%}
+.mapa .volver{position:absolute;right:10px;top:10px;z-index:3;border:1px solid var(--linea);background:var(--superficie);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:600;cursor:pointer;box-shadow:var(--sombra)}
+.mapa .volver[hidden]{display:none}
+.maplibregl-ctrl-attrib{font:10.5px var(--f)!important}
+.et-mapa{font:700 11px/1.1 var(--f);color:var(--tinta);text-shadow:0 0 3px var(--superficie),0 0 3px var(--superficie),0 0 2px var(--superficie);pointer-events:none;white-space:nowrap;text-align:center;transition:opacity var(--t-estado)}
+.et-mapa.corr{font-style:italic;font-weight:600;color:var(--tinta-2)}
+.et-mapa.foco{font-size:13px;font-weight:800}
+.et-mapa .marca{display:block;font-size:10px;margin-top:1px}
+.et-mapa .marca.bien{color:var(--bien-t)}.et-mapa .marca.igual{color:var(--igual-t)}.et-mapa .marca.mal{color:var(--mal-t)}
+.leyenda{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--tinta-2);margin-top:10px;align-items:center}
+.leyenda i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:-2px}
+.leyenda .rampa{display:inline-flex;gap:2px;vertical-align:-2px}.leyenda .rampa i{margin:0;width:16px}
+.globo{position:absolute;z-index:4;pointer-events:none;background:var(--superficie);color:var(--tinta);border:1px solid var(--linea);border-radius:8px;box-shadow:var(--sombra);padding:7px 10px;font-size:12.5px;line-height:1.35;max-width:240px;opacity:0;transform:translateY(4px);transition:opacity var(--t-micro),transform var(--t-micro)}
+.globo.ver{opacity:1;transform:none}
+.globo b{font-weight:700}
+
+/* ── Rango: el punto vive dentro de su rango ── */
+.rango{position:relative;height:22px}
+.rango .eje{position:absolute;left:0;right:0;top:10px;height:2px;background:var(--linea)}
+.rango .banda{position:absolute;top:5px;height:12px;border-radius:6px;background:color-mix(in srgb,var(--foco) 28%,transparent);transition:left var(--t-marca) var(--entre),width var(--t-marca) var(--entre)}
+.rango .punto{position:absolute;top:3px;width:4px;height:16px;margin-left:-2px;border-radius:2px;background:var(--foco);transition:left var(--t-marca) var(--entre)}
+.rango .refl{position:absolute;top:0;bottom:0;width:0;border-left:2px dashed var(--tinta-3)}
+
+/* ── Filas que se ordenan ── */
+.filas{list-style:none;margin:0;padding:0;position:relative}
+.filas li{transition:transform var(--t-marca) var(--entre)}
+.toggle{display:inline-flex;border:1px solid var(--linea);border-radius:999px;padding:2px;background:var(--superficie)}
+.toggle button{border:0;background:transparent;border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:600;color:var(--tinta-2);cursor:pointer;transition:background-color var(--t-micro),color var(--t-micro)}
+.toggle button[aria-pressed="true"]{background:var(--acento);color:var(--acento-tinta)}
+.toggle button:focus-visible,.revision button:focus-visible,a:focus-visible,select:focus-visible{outline:2px solid var(--acento);outline-offset:2px}
+
+/* ── Las dos direcciones ──
+   A · Relato: el mapa queda fijo y el texto pasa por encima en pasos; cada paso mueve el mapa.
+   B · Tablero: todo a la vista en una rejilla; el mapa es un módulo más y se toca. */
+.pagina{max-width:1240px;margin:0 auto;padding:22px 16px 60px}
+.cabeza{display:grid;gap:8px;margin-bottom:18px}
+.cabeza .herr{font-size:12.5px;font-weight:700;color:var(--acento);letter-spacing:.02em}
+.cabeza h1{font-size:clamp(1.7rem,4.6vw,2.6rem);font-weight:800;letter-spacing:-.025em;line-height:1.08}
+.cabeza .sub{color:var(--tinta-2);font-size:14.5px;max-width:62ch}
+.cabeza .sellos{display:flex;flex-wrap:wrap;gap:6px}
+
+body.dir-a .relato{display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);gap:28px;align-items:start}
+body.dir-a .relato .mapa{position:sticky;top:56px;height:calc(100vh - 76px);grid-column:2;grid-row:1}
+body.dir-a .relato .pasos{grid-column:1;grid-row:1;display:grid;gap:22vh;padding:6vh 0 30vh}
+body.dir-a .paso{background:var(--superficie);border:1px solid var(--linea);border-radius:var(--r);padding:18px;box-shadow:var(--sombra);opacity:.55;transition:opacity var(--t-estado)}
+body.dir-a .paso.activo{opacity:1}
+body.dir-a .solo-b{display:none}
+body.dir-b .solo-a{display:none}
+body.dir-b .relato{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:16px}
+body.dir-b .relato .mapa{grid-column:span 7;height:520px;grid-row:span 2}
+body.dir-b .relato .pasos{display:contents}
+body.dir-b .paso{grid-column:span 5;background:var(--superficie);border:1px solid var(--linea);border-radius:var(--r);padding:18px}
+body.dir-b .paso.ancho{grid-column:1/-1}
+body.dir-b .paso.medio{grid-column:span 6}
+@media (max-width:860px){
+  /* En el celular el mapa queda fijo arriba y el texto pasa por debajo de él: una tarjeta larga no lo tapa. */
+  .revision{position:static}
+  body.dir-a .relato{display:block}
+  body.dir-a .relato .mapa{position:sticky;top:0;height:42vh;min-height:260px;z-index:3;border-radius:0;margin:0 -16px;box-shadow:0 6px 12px -8px rgba(0,0,0,.25)}
+  body.dir-a .relato .pasos{position:relative;z-index:1;gap:16px;padding:16px 0 40vh}
+  body.dir-a .paso{opacity:1;box-shadow:none}
+  body.dir-a .paso.activo{border-color:var(--tinta-3)}
+  body.dir-b .relato{display:grid;grid-template-columns:minmax(0,1fr)}
+  body.dir-b .relato .mapa,body.dir-b .paso,body.dir-b .paso.medio{grid-column:1/-1;grid-row:auto}
+  body.dir-b .relato .mapa{height:62vh;min-height:320px}
+}
+.paso h2{font-size:1.15rem;font-weight:800;letter-spacing:-.01em;line-height:1.25;margin-bottom:8px}
+.paso p+p,.paso p+.fuente,.paso .cifra+p{margin-top:8px}
+.paso .ojo{font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--tinta-3);margin-bottom:6px;display:block}
+.pie{margin-top:36px;padding-top:18px;border-top:1px solid var(--linea);display:grid;gap:10px;max-width:80ch}
+@media (max-width:600px){
+  .mapa .leyenda{font-size:10px!important;padding:4px 7px!important;gap:2px!important;max-width:52%!important}
+  .mapa .leyenda .sem{font-size:9.5px;padding:0 6px 0 5px}
+  .mapa .leyenda .rampa i{width:11px;height:9px}
+}

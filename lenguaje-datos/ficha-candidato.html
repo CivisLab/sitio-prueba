@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ficha de candidato · prototipo</title><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#2B4B48">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.js"></script>
+<link rel="stylesheet" href="lenguaje.css">
+<style>
+.tl{position:relative;margin:18px 4px 6px;height:58px}
+.tl .linea{position:absolute;left:0;right:0;top:26px;height:2px;background:var(--linea)}
+.tl .anio{position:absolute;top:0;transform:translateX(-50%);text-align:center;font-size:10.5px;color:var(--tinta-3)}
+.tl .anio i{display:block;margin:20px auto 4px;width:2px;height:12px;background:var(--linea-2)}
+.tl .anio.nac i{height:8px;margin-top:22px;opacity:.6}
+.tl .anio.si{color:var(--tinta);font-weight:800}
+.tl .anio.si i{width:16px;height:16px;border-radius:50%;background:var(--foco);margin-top:18px;box-shadow:0 0 0 3px var(--superficie)}
+.cand{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;font-size:13.5px;margin-top:8px}
+.cand dt{color:var(--tinta-3)}.cand dd{margin:0;font-weight:600}
+.orden li{display:grid;grid-template-columns:minmax(0,9em) 1fr 4.6em;gap:8px;align-items:center;font-size:12.5px;padding:3px 0;cursor:pointer;border-radius:6px}
+.orden li:hover{background:var(--superficie-2)}
+.orden li[aria-current="true"]{font-weight:800}
+.orden .nom{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.orden .barra{position:relative;height:12px}
+.orden .barra b{position:absolute;left:0;top:1px;height:10px;border-radius:0 5px 5px 0;background:var(--foco);transition:width var(--t-marca) var(--entre)}
+.orden .barra .refl{position:absolute;top:-2px;bottom:-2px;border-left:2px dashed var(--tinta-3)}
+.orden li.poca .barra b{background:repeating-linear-gradient(135deg,var(--rayado) 0 2px,transparent 2px 5px);box-shadow:inset 0 0 0 1px var(--rayado)}
+.orden .val{text-align:right;font-weight:700}
+.frase{font-size:14.5px;border-left:3px solid var(--foco);padding:2px 0 2px 12px;margin:12px 0 6px}
+.mesas{display:flex;align-items:flex-end;gap:2px;height:70px;margin-top:10px}
+.mesas span{flex:1;min-width:2px;background:var(--foco);border-radius:2px 2px 0 0;position:relative}
+.mesas span.cero{background:var(--linea);height:2px!important}
+.mesas-eje{display:flex;justify-content:space-between;font-size:10.5px;color:var(--tinta-3);margin-top:3px}
+.puesto-nom{font-weight:800;font-size:15px}
+</style>
+</head><body>
+<nav class="revision" aria-label="Prototipos (no es parte del diseño)">
+  <a href="index.html" data-pagina>Inicio</a><a href="ficha-candidato.html" data-pagina aria-current="page">Ficha · Cerebro</a><a href="comuna-atlas.html" data-pagina>Comuna · Atlas</a><a href="estudio-2027.html" data-pagina>Estudio 2027</a>
+  <span class="grupo"><button data-dir="a">A · Relato</button><button data-dir="b">B · Tablero</button></span>
+  <span class="grupo"><button data-tema>Oscuro</button></span>
+</nav>
+<main class="pagina">
+  <header class="cabeza">
+    <span class="herr">Estudio de Probabilidad Electoral · Cerebro (histórico)</span>
+    <div class="sellos"><span class="sello muestra">Muestra · no es el contrato</span></div>
+    <h1 id="nombre">Carlos Calle Galvis</h1>
+    <p class="sub">Lo que hizo como candidato, con datos oficiales de la Registraduría: cuándo aspiró, con qué partido, cuántos votos sacó y dónde, hasta la mesa.</p>
+  </header>
+
+  <section class="relato">
+    <div class="mapa" id="mapa" aria-label="Mapa de sus votos por comuna y puesto"><button class="volver" id="volver" hidden>← Medellín</button></div>
+    <div class="pasos">
+      <article class="paso" data-paso="quien">
+        <span class="ojo">1 · La cifra</span>
+        <div class="cifra"><strong id="votos">1.916</strong><span>votos al Concejo de Medellín, 2019</span></div>
+        <p class="ref" id="refVotos"></p>
+        <dl class="cand" id="cand"></dl>
+      </article>
+      <article class="paso" data-paso="linea">
+        <span class="ojo">2 · Su trayectoria</span>
+        <h2 id="tLinea">Una candidatura registrada en Antioquia desde 2000</h2>
+        <div class="tl" id="tl" aria-hidden="true"><span class="linea"></span></div>
+        <p class="ref">Las marcas altas son elecciones de alcaldía, Concejo, gobernación y Asamblea; las bajas, de Congreso y Presidencia. El punto es donde aspiró.</p>
+      </article>
+      <article class="paso medio" data-paso="donde">
+        <span class="ojo">3 · Dónde le fue mejor y peor</span>
+        <h2>Sus votos, comuna por comuna</h2>
+        <div class="toggle" role="group" aria-label="Ordenar por"><button data-orden="pct" aria-pressed="true">% de los válidos</button><button data-orden="votos" aria-pressed="false">Votos</button></div>
+        <p class="frase" id="frase"></p>
+        <p class="fuente" id="fraseNota"></p>
+        <ul class="filas orden" id="orden" style="margin-top:10px"></ul>
+        <p class="fuente" id="ordenNota" style="margin-top:6px"></p>
+      </article>
+      <article class="paso medio" data-paso="puesto">
+        <span class="ojo">4 · Hasta la mesa</span>
+        <h2 id="tPuesto">El puesto donde más votos sacó</h2>
+        <p class="puesto-nom" id="pNom"></p>
+        <p class="ref" id="pRef"></p>
+        <div class="mesas" id="mesas" aria-hidden="true"></div>
+        <div class="mesas-eje"><span>mesa 1</span><span id="mesasFin"></span></div>
+        <p class="ref" id="pMesas" style="margin-top:8px"></p>
+        <p class="fuente">Toque cualquier puesto del mapa para verlo mesa por mesa.</p>
+      </article>
+      <article class="paso" data-paso="comparte">
+        <span class="ojo">5 · Con quién comparte territorio</span>
+        <div class="vacio" id="comparte"></div>
+        <h2 style="margin-top:18px;font-size:1rem">Perfil</h2>
+        <div class="vacio">Espacio de perfil: vacío hasta que Jurídica defina las reglas. El texto y la foto los aprueba la persona.</div>
+      </article>
+      <article class="paso ancho" data-paso="nodice">
+        <span class="ojo">6 · Lo que esto no dice</span>
+        <div class="no-decir" id="noDice"></div>
+        <p class="fuente" id="fuentes" style="margin-top:12px"></p>
+      </article>
+    </div>
+  </section>
+</main>
+<script src="datos/comunas.js"></script><script src="datos/ficha.js"></script><script src="lenguaje.js"></script>
+<script>
+(function () {
+  CL.barra();
+  const F = window.FICHA, G = window.COMUNAS, c = F.candidaturas.find((x) => x.puestos) || F.candidaturas[0];
+  const nombre = Object.fromEntries(G.features.map((f) => [f.properties.cod, f.properties.nombre]));
+  const pctCiudad = c.votos / c.validos_ciudad;
+  const propio = (s) => s.toLowerCase().replace(/(^|\s)(\S)/g, (m, a, b) => a + b.toUpperCase()).replace(/\b(De|Del|La|Las|Los|Y|E)\b/g, (m) => m.toLowerCase());
+  const puestos = c.puestos.slice().sort((a, b) => b.v - a.v);
+  let elegido = puestos[0], map = null;
+
+  /* ── 1 · La cifra ── */
+  document.getElementById("nombre").textContent = F.nombre;
+  document.getElementById("votos").textContent = CL.n(c.votos);
+  document.getElementById("refVotos").innerHTML = `<strong>${CL.pct(pctCiudad)}</strong> de los ${CL.n(c.validos_ciudad)} votos válidos al Concejo de la ciudad.`;
+  document.getElementById("cand").innerHTML = `<dt>Partido</dt><dd>${CL.esc(propio(c.partido))}</dd><dt>Elegido</dt><dd>Sin dato: llega con el contrato del IPET</dd><dt>Fuente</dt><dd>${CL.esc(c.fuente)}</dd>`;
+
+  /* ── 2 · La línea de tiempo ── */
+  const LOCALES = [2000, 2003, 2007, 2011, 2015, 2019, 2023], NAC = [2002, 2006, 2010, 2014, 2018, 2022];
+  const aspiro = new Set(F.candidaturas.map((x) => x.anio));
+  const x = (a) => ((a - 2000) / 23) * 100;
+  document.getElementById("tl").innerHTML += [...LOCALES.map((a) => [a, ""]), ...NAC.map((a) => [a, "nac"])].map(([a, k]) =>
+    `<span class="anio ${k} ${aspiro.has(a) ? "si" : ""}" style="left:${x(a)}%"><i></i>${LOCALES.includes(a) || aspiro.has(a) ? a : ""}</span>`).join("");
+  const n = F.candidaturas.length;
+  document.getElementById("tLinea").textContent = n === 1 ? "Una candidatura registrada en Antioquia desde 2000" : `${n} candidaturas registradas en Antioquia desde 2000`;
+
+  /* ── 3 · El orden por comuna ── */
+  const filas = Object.entries(c.comunas).map(([cod, d]) => ({ cod, ...d, poca: d.validos < F.base_pequena }));
+  let criterio = "pct";
+  const ul = document.getElementById("orden");
+  const maxPct = Math.max(...filas.map((f) => f.pct)), maxV = Math.max(...filas.map((f) => f.votos));
+  ul.innerHTML = filas.map((f) => `<li data-cod="${f.cod}" class="${f.poca ? "poca" : ""}"><span class="nom">${CL.esc(nombre[f.cod] || F.comunas_nombre[f.cod])}</span><span class="barra"><b></b><span class="refl"></span></span><span class="val"></span></li>`).join("");
+  function ordenar() {
+    const lis = [...ul.children];
+    const dato = Object.fromEntries(filas.map((f) => [f.cod, f]));
+    lis.sort((a, b) => (criterio === "pct" ? dato[b.dataset.cod].pct - dato[a.dataset.cod].pct : dato[b.dataset.cod].votos - dato[a.dataset.cod].votos));
+    for (const li of lis) {
+      const f = dato[li.dataset.cod];
+      li.querySelector("b").style.width = (criterio === "pct" ? f.pct / maxPct : f.votos / maxV) * 100 + "%";
+      li.querySelector(".refl").style.display = criterio === "pct" ? "" : "none";
+      li.querySelector(".refl").style.left = (pctCiudad * 100 / maxPct) * 100 + "%";
+      li.querySelector(".val").textContent = criterio === "pct" ? CL.n(f.pct, 2) + " %" : CL.n(f.votos);
+      li.title = `${f.votos} votos de ${CL.n(f.validos)} válidos${f.poca ? " · base pequeña" : ""}`;
+    }
+    CL.reordenar(ul, lis);
+    document.getElementById("ordenNota").textContent = criterio === "pct"
+      ? `Ordenado por la parte de los votos válidos al Concejo en los puestos de cada comuna. La línea punteada es su promedio en la ciudad (${CL.pct(pctCiudad)}). Rayado: menos de ${CL.n(F.base_pequena)} votos válidos.`
+      : "Ordenado por votos. Las comunas grandes pesan más: por eso el porcentaje es la otra mitad de la lectura.";
+  }
+  document.querySelectorAll("[data-orden]").forEach((b) => b.addEventListener("click", () => {
+    criterio = b.dataset.orden;
+    document.querySelectorAll("[data-orden]").forEach((o) => o.setAttribute("aria-pressed", String(o === b)));
+    ordenar();
+  }));
+  ul.addEventListener("click", (e) => { const li = e.target.closest("li"); if (li) irComuna(li.dataset.cod); });
+  ordenar();
+  // La frase del contrato, tal cual, y su nota: de dónde sale.
+  document.getElementById("frase").textContent = c.frases[0] || "";
+  const porPct = filas.slice().sort((a, b) => b.pct - a.pct), mejor = porPct[0], peor = porPct[porPct.length - 1];
+  const solidas = filas.filter((f) => !f.poca).sort((a, b) => b.pct - a.pct), sm = solidas[0], sp = solidas[solidas.length - 1];
+  const base = (f) => `${CL.esc(nombre[f.cod])} (${CL.n(f.votos)} de ${CL.n(f.validos)} válidos)`;
+  document.getElementById("fraseNota").innerHTML = mejor.poca || peor.poca
+    ? `Ojo: la frase del contrato sale de territorios con <b>base pequeña</b>: ${[mejor, peor].filter((f) => f.poca).map(base).join(" y ")}. Con base suficiente, le fue mejor en ${CL.esc(nombre[sm.cod])} (${CL.n(sm.pct, 2)} %) y peor en ${CL.esc(nombre[sp.cod])} (${CL.n(sp.pct, 2)} %).`
+    : "Frase del contrato del Cerebro (§3 de la spec).";
+
+  /* ── 4 · El puesto, mesa por mesa ── */
+  function verPuesto(p) {
+    elegido = p;
+    document.getElementById("tPuesto").textContent = p === puestos[0] ? "El puesto donde más votos sacó" : "El puesto que tocó";
+    document.getElementById("pNom").textContent = propio(p.n);
+    document.getElementById("pRef").innerHTML = `<strong>${CL.n(p.v)} votos</strong> de ${CL.n(p.val)} válidos al Concejo en el puesto (${CL.pct(p.v / p.val)}) · comuna ${CL.esc(nombre[p.z] || p.z)}`;
+    const total = p.mesas || Math.max(...Object.keys(p.m).map(Number));
+    const max = Math.max(...Object.values(p.m));
+    let html = "";
+    for (let i = 1; i <= total; i++) { const v = p.m[i] || 0; html += `<span class="${v ? "" : "cero"}" style="height:${(v / max) * 100}%" title="Mesa ${i}: ${v}"></span>`; }
+    document.getElementById("mesas").innerHTML = html;
+    document.getElementById("mesasFin").textContent = "mesa " + total;
+    const conVotos = Object.keys(p.m).length, top = Object.entries(p.m).sort((a, b) => b[1] - a[1])[0];
+    document.getElementById("pMesas").innerHTML = `Votos en ${conVotos} de sus ${total} mesas. La que más: mesa ${top[0]}, con ${top[1]} ${top[1] === 1 ? "voto" : "votos"}.`;
+    if (map) map.getSource("puestos") && pintarPuestos();
+  }
+  verPuesto(elegido);
+
+  /* ── 5 · Con quién comparte ── */
+  document.getElementById("comparte").textContent = c.comparte && c.comparte.length
+    ? c.comparte.map((p) => p.nombre).join(", ")
+    : "Nadie reparte sus votos por los puestos de forma parecida (parecido de 0,3 o más). Con un reparto tan disperso es lo esperable.";
+
+  /* ── 6 · Lo que no dice ── */
+  const fuera = c.votos - c.puestos.reduce((a, p) => a + p.v, 0);
+  document.getElementById("noDice").innerHTML = `<b>Lo que esto no dice</b><ul>${[...F.advertencias,
+    `${CL.n(fuera)} de sus votos están en puestos sin lugar en el mapa (censo y cárceles): cuentan en la ciudad, no en las comunas.`, F.aviso].map((t) => `<li>${CL.esc(t)}</li>`).join("")}</ul>`;
+  document.getElementById("fuentes").textContent = "Fuentes: " + F.fuentes.join(" ") + ` Muestra del ${F.generado} (huella ${F.huella}).`;
+
+  /* ── El mapa ── */
+  const conBase = filas.filter((f) => !f.poca).map((f) => f.pct).sort((a, b) => a - b);
+  const cortes = [0.2, 0.4, 0.6, 0.8].map((q) => conBase[Math.floor(q * (conBase.length - 1))]);
+  const clase = (pct) => cortes.filter((k) => pct > k).length;
+  const glob = CL.globo(document.getElementById("mapa"));
+  const volver = document.getElementById("volver");
+  const pg = { type: "FeatureCollection", features: c.puestos.map((p, i) => ({ type: "Feature", id: i, properties: { i, v: p.v }, geometry: { type: "Point", coordinates: [p.lon, p.lat] } })) };
+  function pintarComunas() {
+    for (const f of G.features) {
+      const d = c.comunas[f.properties.cod];
+      if (!d) continue;
+      const poca = d.validos < F.base_pequena;
+      map.setFeatureState({ source: "comunas", id: f.id }, { c: poca ? CL.css("--resto-2") : CL.css("--r" + (clase(d.pct) + 1)), poca });
+    }
+  }
+  function pintarPuestos() {
+    c.puestos.forEach((p, i) => map.setFeatureState({ source: "puestos", id: i }, { sel: p === elegido }));
+  }
+  function irComuna(cod) { if (!map) return; CL.ir(map, CL.caja(G.features.filter((f) => f.properties.cod === cod)), { padding: 50, maxZoom: 14.5 }); volver.hidden = false; }
+  function irPuesto(p) { if (!map) return; CL.ir(map, [[p.lon - 0.006, p.lat - 0.006], [p.lon + 0.006, p.lat + 0.006]], { maxZoom: 15 }); volver.hidden = false; }
+  function irCiudad() { if (!map) return; CL.ir(map, CL.URBANO, { padding: 20 }); volver.hidden = true; }
+  volver.addEventListener("click", irCiudad);
+  addEventListener("keydown", (e) => { if (e.key === "Escape") irCiudad(); });
+  function leyenda() {
+    const d = document.createElement("div");
+    d.className = "leyenda"; d.style.cssText = "position:absolute;right:10px;top:10px;z-index:3;margin:0;background:color-mix(in srgb,var(--superficie) 92%,transparent);border:1px solid var(--linea);border-radius:8px;padding:6px 9px;display:grid;gap:4px;font-size:11.5px";
+    d.innerHTML = `<b>% de los válidos, por comuna</b><span class="rampa">${[1, 2, 3, 4, 5].map((k) => `<i style="background:var(--r${k})"></i>`).join("")}</span><span>${CL.n(conBase[0], 2)} → ${CL.n(conBase[conBase.length - 1], 2)} %</span><span><i style="background:var(--foco);border-radius:50%;width:9px;height:9px"></i>Puesto: el tamaño son sus votos</span>`;
+    document.getElementById("mapa").appendChild(d);
+  }
+  CL.mapa(document.getElementById("mapa"), {
+    alCargar(m, antes) {
+      map = m;
+      m.addSource("comunas", { type: "geojson", data: G });
+      m.addSource("puestos", { type: "geojson", data: pg });
+      CL.rayado(m);
+      m.addLayer({ id: "cl-relleno", type: "fill", source: "comunas", paint: { "fill-color": ["coalesce", ["feature-state", "c"], "#cccccc"], "fill-opacity": CL.opacidad() } }, antes);
+      m.addLayer({ id: "cl-rayado", type: "fill", source: "comunas", paint: { "fill-pattern": "rayado", "fill-opacity": ["case", ["boolean", ["feature-state", "poca"], false], 0.9, 0] } }, antes);
+      m.addLayer({ id: "cl-borde", type: "line", source: "comunas", paint: { "line-color": CL.css("--mapa-borde"), "line-width": 1 } }, antes);
+      const radio = ["interpolate", ["linear"], ["zoom"], 11, ["+", 1.5, ["*", 0.5, ["sqrt", ["get", "v"]]]], 15, ["+", 3, ["*", 1.4, ["sqrt", ["get", "v"]]]]];
+      m.addLayer({ id: "cl-puestos", type: "circle", source: "puestos", paint: {
+        "circle-radius": radio, "circle-color": CL.css("--foco"), "circle-opacity": 0.85,
+        "circle-stroke-color": ["case", ["boolean", ["feature-state", "sel"], false], CL.css("--mapa-foco"), CL.css("--superficie")],
+        "circle-stroke-width": ["case", ["boolean", ["feature-state", "sel"], false], 2.5, 1] } });
+      CL.etiquetas(m, G.features, (f, z) => (z < (f.properties.tipo === "corregimiento" ? 10.2 : 11.8) ? null : { html: CL.esc(f.properties.nombre) }));
+      m.on("mousemove", "cl-puestos", (e) => {
+        const p = c.puestos[e.features[0].properties.i];
+        glob.ver(e.point.x, e.point.y, `<b>${CL.esc(propio(p.n))}</b><br>${CL.n(p.v)} votos · ${CL.pct(p.v / p.val)} de los válidos`);
+        m.getCanvas().style.cursor = "pointer";
+      });
+      m.on("mouseleave", "cl-puestos", () => { glob.ocultar(); m.getCanvas().style.cursor = ""; });
+      m.on("click", "cl-puestos", (e) => { verPuesto(c.puestos[e.features[0].properties.i]); if (CL.dir === "b") irPuesto(elegido); });
+      m.on("mousemove", "cl-relleno", (e) => {
+        if (m.queryRenderedFeatures(e.point, { layers: ["cl-puestos"] }).length) return;
+        const cod = e.features[0].properties.cod, d = c.comunas[cod];
+        if (d) glob.ver(e.point.x, e.point.y, `<b>${CL.esc(nombre[cod])}</b><br>${CL.n(d.votos)} votos · ${CL.n(d.pct, 2)} % de ${CL.n(d.validos)} válidos${d.validos < F.base_pequena ? "<br>◌ Base pequeña" : ""}`);
+      });
+      m.on("mouseleave", "cl-relleno", () => glob.ocultar());
+      m.fitBounds(CL.URBANO, { padding: 20, animate: false });
+      pintarComunas(); pintarPuestos(); leyenda();
+    },
+    alCambiarTema(m) {
+      m.setPaintProperty("cl-borde", "line-color", CL.css("--mapa-borde"));
+      m.setPaintProperty("cl-puestos", "circle-color", CL.css("--foco"));
+      m.setPaintProperty("cl-puestos", "circle-stroke-color", ["case", ["boolean", ["feature-state", "sel"], false], CL.css("--mapa-foco"), CL.css("--superficie")]);
+      CL.rayado(m); pintarComunas();
+    },
+  });
+
+  CL.pasos((p) => {
+    if (CL.dir !== "a") return;
+    if (p === "quien" || p === "linea" || p === "comparte") irCiudad();
+    else if (p === "donde") irCiudad();
+    else if (p === "puesto") irPuesto(elegido);
+  });
+})();
+</script>
+</body></html>

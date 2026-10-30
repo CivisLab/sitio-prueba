@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Estudio 2027 · prototipo</title><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#2B4B48">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.js"></script>
+<link rel="stylesheet" href="lenguaje.css">
+<style>
+.aviso-ley{font-size:13px;color:var(--tinta-2);background:var(--superficie-2);border:1px solid var(--linea);border-radius:8px;padding:8px 12px;max-width:72ch}
+.esc{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
+.esc .desc{font-size:13px;color:var(--tinta-3)}
+.respuesta{font-size:1.25rem;font-weight:800;line-height:1.25;letter-spacing:-.01em;margin:4px 0 10px}
+.asp{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.asp li{display:grid;grid-template-columns:7.6em 1fr 3.2em;gap:10px;align-items:center;padding:5px 6px;border-radius:8px;cursor:pointer;font-size:13px}
+.asp li:hover{background:var(--superficie-2)}
+.asp li[aria-current="true"]{background:var(--acento-suave)}
+.asp li[aria-current="true"] .n{font-weight:800}
+.asp .v{text-align:right;font-weight:800;font-size:15px}
+.asp .rango .banda{background:color-mix(in srgb,var(--resto) 60%,transparent)}
+.asp .rango .punto{background:var(--tinta-3)}
+.asp li.lider .rango .banda{background:color-mix(in srgb,var(--foco) 32%,transparent)}
+.asp li.lider .rango .punto{background:var(--foco)}
+.asp li.empate .rango .banda{background:color-mix(in srgb,var(--contraste) 35%,transparent)}
+.asp li.empate .rango .punto{background:var(--contraste)}
+.asp li.grupo-empate{display:block;font-size:11.5px;font-weight:700;color:var(--igual-t);background:var(--igual-f);border-radius:6px;padding:3px 8px;margin:6px 0 2px;justify-self:start;cursor:default}
+.escala{display:grid;grid-template-columns:7.6em 1fr 3.2em;gap:10px;font-size:10.5px;color:var(--tinta-3);padding:0 6px}
+.escala div{display:flex;justify-content:space-between}
+.cien{display:grid;grid-template-columns:repeat(20,1fr);gap:3px;max-width:300px;margin-top:10px}
+.cien i{aspect-ratio:1;border-radius:2px;background:var(--superficie-2);box-shadow:inset 0 0 0 1px var(--linea);transition:background-color var(--t-marca)}
+.cien i.si{background:var(--foco);box-shadow:none}
+.acierto{display:grid;grid-template-columns:repeat(25,1fr);gap:3px;max-width:340px;margin:10px 0 6px}
+.acierto i{aspect-ratio:1;border-radius:50%;box-shadow:inset 0 0 0 1.5px var(--linea-2)}
+.acierto i.si{background:var(--tinta-2);box-shadow:none}
+.datos-mod{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:13px;margin-top:10px}
+.datos-mod dt{color:var(--tinta-3)}.datos-mod dd{margin:0;font-weight:600}
+.glosa{border-bottom:1.5px dotted var(--tinta-3);cursor:help}
+</style>
+</head><body>
+<nav class="revision" aria-label="Prototipos (no es parte del diseño)">
+  <a href="index.html" data-pagina>Inicio</a><a href="ficha-candidato.html" data-pagina>Ficha · Cerebro</a><a href="comuna-atlas.html" data-pagina>Comuna · Atlas</a><a href="estudio-2027.html" data-pagina aria-current="page">Estudio 2027</a>
+  <span class="grupo"><button data-dir="a">A · Relato</button><button data-dir="b">B · Tablero</button></span>
+  <span class="grupo"><button data-tema>Oscuro</button></span>
+</nav>
+<main class="pagina">
+  <header class="cabeza">
+    <span class="herr">Estudio de Probabilidad Electoral · corre con el modelo IPET</span>
+    <div class="sellos"><span class="sello privado">Cifras simuladas</span><span class="sello">Nombres ocultos</span><span class="sello">Medellín · Alcaldía 2027</span></div>
+    <h1>¿Hay un favorito para la Alcaldía de Medellín en 2027?</h1>
+    <p class="aviso-ley"><b>Cifras simuladas para mostrar el diseño:</b> no salen del modelo ni son un pronóstico o una encuesta. Conservan la forma de un estudio real: en un escenario hay favorito y en el otro, empate. Las probabilidades con aspirantes reales solo se muestran en lo privado (Ley 2494).</p>
+    <div class="esc"><div class="toggle" role="group" aria-label="Escenario"><button data-esc="0" aria-pressed="true">Escenario 1</button><button data-esc="1" aria-pressed="false">Escenario 2</button></div><span class="desc" id="escDesc"></span></div>
+  </header>
+
+  <section class="relato">
+    <div class="mapa" id="mapa" aria-label="Mapa de la votación esperada por comuna"><button class="volver" id="volver" hidden>← Medellín</button></div>
+    <div class="pasos">
+      <article class="paso" data-paso="carrera">
+        <span class="ojo">1 · La carrera</span>
+        <p class="respuesta" id="respuesta"></p>
+        <div class="escala" aria-hidden="true"><span></span><div><span>0 %</span><span>20 %</span><span>40 %</span></div><span></span></div>
+        <ul class="asp" id="asp"></ul>
+        <p class="fuente" style="margin-top:8px">Probabilidad de ganar: el punto es la media del modelo y la banda su rango. Toque un aspirante para ver su mapa.</p>
+      </article>
+      <article class="paso" data-paso="frecuencia">
+        <span class="ojo">2 · Dicho en simulaciones</span>
+        <h2 id="tFrec"></h2>
+        <div class="cien" id="cien" aria-hidden="true"></div>
+        <p class="ref" id="rFrec" style="margin-top:8px"></p>
+      </article>
+      <article class="paso medio" data-paso="voto">
+        <span class="ojo">3 · Cuántos votos</span>
+        <h2 id="tVoto"></h2>
+        <div class="escala" aria-hidden="true"><span></span><div><span>0 %</span><span>25 %</span><span>50 %</span></div><span></span></div>
+        <ul class="asp" id="voto"></ul>
+        <p class="fuente" style="margin-top:8px">Votación esperada sobre los votos válidos: la banda va del percentil 5 al 95 de las simulaciones. Ganar y sacar más votos no son lo mismo: con seis aspirantes, el que más saca puede no llegar al 40 %.</p>
+      </article>
+      <article class="paso medio" data-paso="mapa">
+        <span class="ojo">4 · Dónde</span>
+        <h2 id="tMapa"></h2>
+        <p class="ref" id="rMapa"></p>
+        <p class="fuente" id="nMapa" style="margin-top:8px"></p>
+      </article>
+      <article class="paso medio" data-paso="confianza">
+        <span class="ojo">5 · Cuánto confiar</span>
+        <h2 id="tAcierto"></h2>
+        <div class="acierto" id="acierto" aria-hidden="true"></div>
+        <p class="ref">Cada punto es una carrera de alcaldía ya ocurrida; lleno, donde el favorito del modelo ganó. Es la misma pantalla de la probabilidad, no un anexo.</p>
+        <dl class="datos-mod" id="datosMod"></dl>
+      </article>
+      <article class="paso medio" data-paso="nodice">
+        <span class="ojo">6 · Lo que esto no dice</span>
+        <div class="no-decir" id="noDice"></div>
+      </article>
+    </div>
+  </section>
+</main>
+<script src="datos/comunas.js"></script><script src="datos/estudio.js"></script><script src="lenguaje.js"></script>
+<script>
+(function () {
+  CL.barra();
+  const E = window.ESTUDIO, G = window.COMUNAS, url = new URLSearchParams(location.search);
+  // Descripciones genéricas a propósito: los supuestos reales nombran personas y partidos.
+  const DESC = ["Supuesto base: A compite con la etiqueta que hoy se le conoce.", "Un solo supuesto cambia: A compite con otra etiqueta, que hoy no existe."];
+  const est = { esc: url.get("esc") === "2" ? 1 : 0, sel: "Aspirante A" };
+  const ids = E.escenarios[0].aspirantes.map((a) => a.id);
+  const pct = (x) => CL.n(Math.round(x * 100)) + " %";
+  const x = (v, max) => Math.max(0, Math.min(100, (v / max) * 100));
+
+  /* Filas de aspirantes: se crean una vez y se mueven entre escenarios (sin perder el lugar). */
+  function filas(ul, max, valor, rango) {
+    ul.innerHTML = ids.map((id) => `<li data-id="${id}"><span class="n">${id}</span><span class="rango"><span class="eje"></span><span class="banda"></span><span class="punto"></span></span><span class="v">0 %</span></li>`).join("");
+    ul.addEventListener("click", (e) => { const li = e.target.closest("li[data-id]"); if (li) { est.sel = li.dataset.id; todo(); } });
+    return function pintar(esc, antes) {
+      const as = Object.fromEntries(esc.aspirantes.map((a) => [a.id, a]));
+      const orden = ids.slice().sort((a, b) => valor(as[b]) - valor(as[a]));
+      // Los empatados van juntos, bajo su rótulo.
+      ul.querySelectorAll(".grupo-empate").forEach((g) => g.remove());
+      const lis = orden.map((id) => ul.querySelector(`li[data-id="${CSS.escape(id)}"]`));
+      // Empate es empate: mismos valores y mismo rango, mismo grupo (fuera del voto en blanco).
+      const grupos = {}, grupoDe = new Map();
+      for (const a of esc.aspirantes) if (!a.blanco) { const k = valor(a).toFixed(4) + "|" + rango(a).map((r) => r.toFixed(4)).join(); (grupos[k] = grupos[k] || []).push(a.id); }
+      for (const g of Object.values(grupos)) if (g.length > 1) g.forEach((id) => grupoDe.set(id, g));
+      for (const li of lis) {
+        const a = as[li.dataset.id], [lo, hi] = rango(a), v = valor(a);
+        li.querySelector(".banda").style.left = x(lo, max) + "%";
+        li.querySelector(".banda").style.width = x(hi, max) - x(lo, max) + "%";
+        li.querySelector(".punto").style.left = x(v, max) + "%";
+        const el = li.querySelector(".v"), de = antes ? valor(antes.aspirantes.find((b) => b.id === a.id)) : v;
+        CL.contar(el, de * 100, v * 100, (n) => CL.n(Math.round(n)) + " %");
+        li.classList.toggle("lider", esc.favorito === a.id);
+        li.classList.toggle("empate", grupoDe.has(a.id));
+        li.setAttribute("aria-current", String(a.id === est.sel));
+        li.title = `${a.id}: entre ${pct(lo)} y ${pct(hi)}`;
+      }
+      CL.reordenar(ul, lis);
+      const vistos = new Set();
+      for (const li of lis) {
+        const g = grupoDe.get(li.dataset.id);
+        if (!g || vistos.has(g)) continue;
+        vistos.add(g);
+        const r = document.createElement("li");
+        r.className = "grupo-empate"; r.setAttribute("aria-hidden", "true");
+        r.textContent = `${g.length} empatados: el modelo no los distingue`;
+        ul.insertBefore(r, li);
+      }
+    };
+  }
+  const pintarP = filas(document.getElementById("asp"), 0.4, (a) => a.p, (a) => a.rango);
+  const pintarV = filas(document.getElementById("voto"), 0.5, (a) => a.voto.media, (a) => [a.voto.p05, a.voto.p95]);
+
+  let anterior = null;
+  function todo() {
+    const esc = E.escenarios[est.esc];
+    document.querySelectorAll("[data-esc]").forEach((b) => b.setAttribute("aria-pressed", String(+b.dataset.esc === est.esc)));
+    document.getElementById("escDesc").textContent = DESC[est.esc];
+    const lider = esc.aspirantes.find((a) => a.id === esc.favorito);
+    const segundos = lider ? esc.aspirantes.filter((a) => a !== lider && !a.blanco).sort((a, b) => b.p - a.p) : [];
+    const atras = segundos.filter((a) => a.p === segundos[0].p);
+    document.getElementById("respuesta").textContent = lider
+      ? `Sí: ${lider.id} encabeza, entre ${pct(lider.rango[0])} y ${pct(lider.rango[1])} de probabilidad de ganar. Detrás, ${atras.length > 1 ? atras.length + " empatados" : atras[0].id}, con ${pct(atras[0].p)}${atras.length > 1 ? " cada uno" : ""}.`
+      : `No: ${esc.empatados.length} aspirantes empatan, cada uno con ${pct(esc.aspirantes.find((a) => esc.empatados.includes(a.id)).p)}. Cambió un solo supuesto sobre ${"Aspirante A"}.`;
+    pintarP(esc, anterior);
+    pintarV(esc, anterior);
+    const s = esc.aspirantes.find((a) => a.id === est.sel);
+    const k = Math.round(s.p * 100);
+    document.getElementById("tFrec").textContent = `${s.id} gana en ${k} de cada 100 simulaciones`;
+    document.getElementById("cien").innerHTML = Array.from({ length: 100 }, (_, i) => `<i class="${i < k ? "si" : ""}"></i>`).join("");
+    document.getElementById("rFrec").innerHTML = `Su rango va de ${pct(s.rango[0])} a ${pct(s.rango[1])}. <span class="glosa" title="En cuántos de los supuestos probados sigue siendo el favorito. No es una probabilidad de ganar.">Estabilidad del favorito</span>: ${CL.n(s.estab * 100)} %.`;
+    document.getElementById("tVoto").textContent = `${s.id} sacaría entre ${pct(s.voto.p05)} y ${pct(s.voto.p95)} de los votos`;
+    mapaTexto();
+    anterior = esc;
+    const u = new URL(location.href); u.searchParams.set("esc", est.esc + 1); history.replaceState(null, "", u);
+    pintarMapa();
+  }
+  document.querySelectorAll("[data-esc]").forEach((b) => b.addEventListener("click", () => { est.esc = +b.dataset.esc; todo(); }));
+
+  /* ── Confianza ── */
+  const [ac, de] = E.acierto, v = E.validacion_comunas;
+  document.getElementById("tAcierto").textContent = `El modelo acertó ${ac} de ${de} carreras ya ocurridas`;
+  document.getElementById("acierto").innerHTML = Array.from({ length: de }, (_, i) => `<i class="${i < ac ? "si" : ""}"></i>`).join("");
+  document.getElementById("datosMod").innerHTML = `<dt>Modelo</dt><dd>${E.modelo}, ${CL.n(E.simulaciones)} simulaciones por escenario (cifras simuladas)</dd>
+    <dt>Sellado</dt><dd>${E.sello_fecha.split("-").reverse().join("-")}, antes de la elección · aquí va la huella del sello</dd>
+    <dt>Por comuna</dt><dd>Probado con 2019 → 2023: error medio de ${CL.n(v.error_cuota_pp, 1)} puntos y la comuna líder acertada en ${v.lider_acertado} de ${v.partes}</dd>`;
+
+  document.getElementById("noDice").innerHTML = `<b>Lo que esto no dice</b><ul>${[
+    "No dice quién va a ganar: es la probabilidad bajo unos supuestos. Si cambia un supuesto, cambia la carrera (compare los dos escenarios).",
+    "Con qué etiqueta compite A: ninguna fuente lo define todavía.",
+    "Si otro aspirante del mismo bloque compite por aparte, o si dos bloques repiten una alianza.",
+    "El modelo es un logit: no ve la división del voto. Dos aspirantes del mismo bloque no se quitan votos entre sí.",
+    "Los aspirantes sin historia propia en la ciudad reciben el mismo reparto en todas las comunas: el mapa no sabe dónde son fuertes.",
+    "No usa encuestas, redes ni el tono de la conversación.",
+  ].map((t) => `<li>${CL.esc(t)}</li>`).join("")}</ul>`;
+
+  /* ── El mapa: la votación esperada de quien se toque, por comuna (solo escenario 1) ── */
+  const parte = Object.fromEntries(E.comunas.map((p) => [p.cod, p]));
+  const PASOS = [0.09, 0.18, 0.27, 0.36];   // escala fija para todos: así se ve quién no tiene geografía
+  const clase = (c) => PASOS.filter((k) => c > k).length;
+  function mapaTexto() {
+    const cs = E.comunas.map((p) => ({ p, c: p.c[est.sel][0] })).sort((a, b) => b.c - a.c);
+    const hay = est.esc === 0;
+    document.getElementById("tMapa").textContent = hay ? `Dónde sacaría más votos ${est.sel}` : "El reparto por comuna existe solo para el escenario 1";
+    const rango = cs[0].c - cs[cs.length - 1].c;
+    document.getElementById("rMapa").innerHTML = !hay ? "El modelo por comuna se corrió con el escenario 1. Para no inventar, el mapa del escenario 2 queda en gris."
+      : rango < 0.02 ? `${est.sel} no tiene historia propia en la ciudad: el modelo le da casi lo mismo en todas partes (de ${pct(cs[cs.length - 1].c)} a ${pct(cs[0].c)}). El mapa casi parejo es la respuesta honesta.`
+      : `Más en ${CL.esc(cs[0].p.nombre)} (${pct(cs[0].c)}) y menos en ${CL.esc(cs[cs.length - 1].p.nombre)} (${pct(cs[cs.length - 1].c)}). En el estudio real sale de la geografía de 2023 de su bloque; aquí está inventada.`;
+    document.getElementById("nMapa").textContent = E.nota_comunas + ` ${CL.n(E.simulaciones_comuna)} simulaciones.`;
+  }
+  let map = null;
+  const glob = CL.globo(document.getElementById("mapa"));
+  function pintarMapa() {
+    if (!map) return;
+    for (const f of G.features) {
+      const p = parte[f.properties.cod];
+      const c = p && est.esc === 0 ? p.c[est.sel][0] : null;
+      map.setFeatureState({ source: "comunas", id: f.id }, { c: c == null ? CL.css("--resto-2") : CL.css("--r" + (clase(c) + 1)) });
+    }
+    let ley = document.getElementById("leyMapa");
+    if (!ley) { ley = document.createElement("div"); ley.id = "leyMapa"; ley.className = "leyenda"; ley.style.cssText = "position:absolute;right:10px;top:10px;z-index:3;margin:0;background:color-mix(in srgb,var(--superficie) 92%,transparent);border:1px solid var(--linea);border-radius:8px;padding:6px 9px;display:grid;gap:4px;font-size:11.5px"; document.getElementById("mapa").appendChild(ley); }
+    ley.innerHTML = `<b>${CL.esc(est.sel)} · votación esperada</b><span class="rampa">${[1, 2, 3, 4, 5].map((k) => `<i style="background:var(--r${k})"></i>`).join("")}</span><span>0 → 45 %, la misma escala para todos</span>`;
+  }
+  CL.mapa(document.getElementById("mapa"), {
+    alCargar(m, antes) {
+      map = m;
+      m.addSource("comunas", { type: "geojson", data: G });
+      m.addLayer({ id: "cl-relleno", type: "fill", source: "comunas", paint: { "fill-color": ["coalesce", ["feature-state", "c"], "#cccccc"], "fill-opacity": CL.opacidad(), "fill-color-transition": { duration: CL.quieto() ? 0 : 320 } } }, antes);
+      m.addLayer({ id: "cl-borde", type: "line", source: "comunas", paint: { "line-color": CL.css("--mapa-borde"), "line-width": 1 } }, antes);
+      CL.etiquetas(m, G.features, (f, z) => (z < (f.properties.tipo === "corregimiento" ? 10.2 : 11.8) ? null : { html: CL.esc(f.properties.nombre) }));
+      m.on("mousemove", "cl-relleno", (e) => {
+        const p = parte[e.features[0].properties.cod];
+        if (!p || est.esc !== 0) return glob.ocultar();
+        const [c, mas] = p.c[est.sel];
+        glob.ver(e.point.x, e.point.y, `<b>${CL.esc(p.nombre)}</b><br>${CL.esc(est.sel)}: ${pct(c)} esperado<br>Más votado en ${CL.n(Math.round(mas * 100))} de cada 100 simulaciones`);
+      });
+      m.on("mouseleave", "cl-relleno", () => glob.ocultar());
+      m.fitBounds(CL.URBANO, { padding: 20, animate: false });
+      pintarMapa();
+    },
+    alCambiarTema(m) { m.setPaintProperty("cl-borde", "line-color", CL.css("--mapa-borde")); pintarMapa(); },
+  });
+  document.getElementById("volver").addEventListener("click", () => map && CL.ir(map, CL.URBANO, { padding: 20 }));
+  todo();
+  CL.pasos(() => {});
+})();
+</script>
+</body></html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Lenguaje de los datos</title><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#2B4B48">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="lenguaje.css">
+<style>
+.pagina{max-width:980px}
+.tres{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:22px 0 30px}
+.tres a{display:grid;gap:6px;text-decoration:none;color:inherit;background:var(--superficie);border:1px solid var(--linea);border-radius:var(--r);padding:16px;transition:border-color var(--t-micro)}
+.tres a:hover{border-color:var(--tinta-3)}
+.tres b{font-size:1.05rem;font-weight:800}
+.tres span{font-size:13.5px;color:var(--tinta-2)}
+.tres em{font-style:normal;font-size:12px;font-weight:700;color:var(--acento)}
+.dir{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:12px 0 30px}
+.dir div{background:var(--superficie);border:1px solid var(--linea);border-radius:var(--r);padding:16px;font-size:14px;color:var(--tinta-2)}
+.dir h3{font-size:1rem;color:var(--tinta);margin:0 0 6px}
+.dir .ver{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.dir .ver a{font-size:12.5px;font-weight:700}
+h2.sec{font-size:1.2rem;font-weight:800;margin-top:8px}
+.reglas{margin:10px 0 26px;padding-left:20px;display:grid;gap:6px;font-size:14.5px}
+.muestras{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 26px}
+.rampa-g{display:inline-flex;gap:2px}.rampa-g i{width:26px;height:16px;border-radius:3px}
+@media (max-width:760px){.tres,.dir{grid-template-columns:minmax(0,1fr)}}
+</style>
+</head><body>
+<nav class="revision" aria-label="Prototipos (no es parte del diseño)">
+  <a href="index.html" data-pagina aria-current="page">Inicio</a><a href="ficha-candidato.html" data-pagina>Ficha · Cerebro</a><a href="comuna-atlas.html" data-pagina>Comuna · Atlas</a><a href="estudio-2027.html" data-pagina>Estudio 2027</a>
+  <span class="grupo"><button data-dir="a">A · Relato</button><button data-dir="b">B · Tablero</button></span>
+  <span class="grupo"><button data-tema>Oscuro</button></span>
+</nav>
+<main class="pagina">
+  <header class="cabeza">
+    <span class="herr">CivisLab · Diseño · 30-oct-2026</span>
+    <h1>El lenguaje visual de los datos</h1>
+    <p class="sub">Tres prototipos con datos reales de Medellín, sobre MapLibre con el fondo Positron, que aplican el mismo lenguaje: una pregunta por vista, ningún número solo, la duda a la vista y el color solo donde hay algo que decir. Son maquetas: no están en el sitio.</p>
+  </header>
+
+  <div class="tres">
+    <a href="ficha-candidato.html" data-pagina><em>Cerebro · muestra</em><b>Ficha de candidato</b><span>Carlos Calle Galvis, Concejo 2019: la cifra, la trayectoria, el orden por comuna y el puesto mesa por mesa, con su fuente.</span></a>
+    <a href="comuna-atlas.html" data-pagina><em>Atlas · ECV 2023</em><b>Una comuna</b><span>San Javier frente a Medellín, con el semáforo por margen de error, el orden en tres bloques y el índice de 2014 a 2024.</span></a>
+    <a href="estudio-2027.html" data-pagina><em>Estudio · cifras simuladas</em><b>Alcaldía 2027</b><span>¿Hay favorito? Depende de un supuesto: en un escenario sí, en el otro cuatro aspirantes empatan. Con la confianza del modelo en la misma pantalla.</span></a>
+  </div>
+
+  <h2 class="sec">Dos direcciones para escoger</h2>
+  <div class="dir">
+    <div><h3>A · Relato</h3>El mapa queda fijo y el texto pasa por encima en pasos; cada paso mueve el mapa (se acerca a la comuna, al puesto). Se lee de arriba abajo, como una historia. Mejor para el celular y para mostrar en reunión.<div class="ver"><a href="ficha-candidato.html?dir=a">Ficha</a><a href="comuna-atlas.html?dir=a">Comuna</a><a href="estudio-2027.html?dir=a">Estudio</a></div></div>
+    <div><h3>B · Tablero</h3>Todo a la vista en una rejilla: el mapa es un módulo y se recorre tocando. Más rápido para quien ya sabe qué busca; en el celular queda como una columna de tarjetas.<div class="ver"><a href="ficha-candidato.html?dir=b">Ficha</a><a href="comuna-atlas.html?dir=b">Comuna</a><a href="estudio-2027.html?dir=b">Estudio</a></div></div>
+  </div>
+
+  <h2 class="sec">Las reglas, en corto</h2>
+  <ol class="reglas">
+    <li><b>Una pregunta por vista.</b> Arriba va la pregunta o la frase que la contesta, no el nombre del indicador.</li>
+    <li><b>Ningún número solo:</b> con su unidad, contra qué se compara, su fuente y su fecha.</li>
+    <li><b>La duda se ve:</b> margen (encuesta), rango (modelo) o «en revisión» (dato). Empate es empate.</li>
+    <li><b>El color se gana:</b> todo empieza en gris; verde o rojo solo cuando la diferencia supera el margen.</li>
+    <li><b>Lo que no se puede decir, se dice,</b> en cada vista.</li>
+  </ol>
+  <div class="muestras">
+    <span class="sem bien">Mejor que Medellín</span><span class="sem igual">No se distingue</span><span class="sem mal">Peor que Medellín</span><span class="sem poca">Muestra pequeña</span>
+    <span class="rampa-g" aria-label="Rampa de magnitud"><i style="background:var(--r1)"></i><i style="background:var(--r2)"></i><i style="background:var(--r3)"></i><i style="background:var(--r4)"></i><i style="background:var(--r5)"></i></span>
+  </div>
+  <p class="fuente">El documento completo (ocho patrones, color, movimiento, cifras e incertidumbre) está en la sede: <code>areas/diseno/lenguaje-datos/LENGUAJE.md</code>; la biblioteca de referencias, en <code>REFERENCIAS.md</code>. La barra negra de arriba no es parte del diseño: cambia de dirección y de tema.</p>
+</main>
+<script src="lenguaje.js"></script>
+<script>CL.barra();</script>
+</body></html>
