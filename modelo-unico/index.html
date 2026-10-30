@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Modelo único, etapa 4</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.css">
+<style>
+:root{--tinta:#17241f;--suave:#5d6b64;--linea:#d6ddd8;--fondo:#eef0ec;--panel:#fff;--marca:#24443c}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;display:flex;flex-direction:column;font:14px/1.45 system-ui,-apple-system,sans-serif;color:var(--tinta);background:var(--fondo)}
+header{padding:10px 16px;background:var(--panel);border-bottom:1px solid var(--linea);display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
+header h1{font-size:16px;margin:0}
+header .cifras{color:var(--suave);font-size:13px}
+.controles{display:flex;gap:6px;flex-wrap:wrap;margin-left:auto;align-items:center}
+.controles button{font:inherit;font-size:13px;padding:6px 11px;border-radius:999px;border:1px solid var(--linea);background:var(--panel);cursor:pointer;color:var(--tinta)}
+.controles button[aria-pressed=true]{background:var(--marca);color:#fff;border-color:var(--marca)}
+.controles input{font:inherit;font-size:13px;padding:6px 11px;border-radius:999px;border:1px solid var(--linea);width:190px;max-width:100%}
+main{flex:1;position:relative;min-height:0}
+#mapa{position:absolute;inset:0}
+.leyenda{position:absolute;left:12px;top:12px;background:var(--panel);border:1px solid var(--linea);border-radius:10px;padding:8px 10px;font-size:12.5px;z-index:2;max-width:250px}
+.leyenda i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.leyenda div{margin:2px 0}
+.ficha{position:absolute;right:12px;top:12px;bottom:28px;width:340px;max-width:calc(100% - 24px);background:var(--panel);border:1px solid var(--linea);border-radius:12px;padding:14px 16px;overflow:auto;z-index:3;font-size:13.5px}
+.ficha[hidden]{display:none}
+.ficha h2{margin:0 0 2px;font-size:18px}
+.ficha .sub{color:var(--suave);margin-bottom:10px}
+.ficha h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--suave);margin:14px 0 6px}
+.ficha table{width:100%;border-collapse:collapse}
+.ficha td{padding:3px 0;border-bottom:1px solid var(--linea);vertical-align:top}
+.ficha td:last-child{text-align:right;white-space:nowrap;padding-left:8px}
+.cerrar{position:absolute;right:10px;top:8px;border:0;background:none;font-size:20px;cursor:pointer;color:var(--suave)}
+.etiqueta{display:inline-block;font-size:12px;padding:1px 8px;border-radius:999px;color:#fff}
+.aviso{font-size:12px;color:var(--suave);margin-top:12px}
+@media (max-width:640px){
+  .ficha{top:auto;left:12px;right:12px;width:auto;max-height:58%}
+  .leyenda{font-size:11.5px}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Modelo único · etapa 4 (vista previa)</h1>
+  <span class="cifras" id="cifras">Cargando…</span>
+  <div class="controles">
+    <input id="buscar" list="nombres" placeholder="Buscar municipio" aria-label="Buscar municipio">
+    <datalist id="nombres"></datalist>
+    <button data-color="fase" aria-pressed="true">Por etapa</button>
+    <button data-color="part" aria-pressed="false">Participación 2023</button>
+  </div>
+</header>
+<main>
+  <div id="mapa"></div>
+  <div class="leyenda" id="leyenda"></div>
+  <aside class="ficha" id="ficha" hidden></aside>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.js"></script>
+<script>
+const FASES={1:["Etapa 1 · Bogotá y Valle de Aburrá","#24443c"],2:["Etapa 2 · resto de Antioquia","#5b8f7b"],3:["Etapa 3 · nueve departamentos","#b08a2e"],4:["Etapa 4 · los 22 que faltaban","#c2562f"]};
+const COLOR_FASE=["match",["get","fase"],1,FASES[1][1],2,FASES[2][1],3,FASES[3][1],FASES[4][1]];
+const COLOR_PART=["interpolate",["linear"],["get","part"],0.35,"#f1eef6",0.5,"#bdc9e1",0.6,"#74a9cf",0.7,"#2b8cbe",0.8,"#045a8d"];
+const pct=x=>x==null?"—":(x*100).toFixed(1).replace(".",",")+" %";
+const num=x=>x==null?"—":x.toLocaleString("es-CO");
+const dec=x=>x==null?"—":String(x).replace(".",",");
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let datos, porCod={}, modo="fase", elegido=null;
+const listos=fetch("municipios.json").then(r=>r.json());
+const mapa=new maplibregl.Map({container:"mapa",style:"https://tiles.openfreemap.org/styles/positron",bounds:[[-79.1,-4.3],[-66.8,12.6]],fitBoundsOptions:{padding:20},attributionControl:{compact:true}});
+mapa.addControl(new maplibregl.NavigationControl({showCompass:false}),"bottom-right");
+function leyenda(){
+  const L=document.getElementById("leyenda");
+  if(modo==="fase"){L.innerHTML=Object.values(FASES).map(([t,c])=>`<div><i style="background:${c}"></i>${t}</div>`).join("")+`<div style="color:var(--suave);margin-top:4px">Toca un municipio para ver su ficha.</div>`;}
+  else{L.innerHTML=[["35 %","#f1eef6"],["50 %","#bdc9e1"],["60 %","#74a9cf"],["70 %","#2b8cbe"],["80 % o más","#045a8d"]].map(([t,c])=>`<div><i style="background:${c}"></i>${t}</div>`).join("")+`<div style="color:var(--suave);margin-top:4px">Participación en la alcaldía 2023.</div>`;}
+}
+function primeraEtiqueta(){const c=mapa.getStyle().layers.find(l=>l.type==="symbol");return c&&c.id;}
+mapa.on("style.load",()=>listos.then(j=>{
+  datos=j; j.features.forEach(f=>porCod[f.properties.cod]=f);
+  const P=j.features.map(f=>f.properties), n4=P.filter(p=>p.fase===4).length;
+  const deptos=new Set(P.map(p=>p.depto));
+  document.getElementById("cifras").textContent=`${num(P.length)} municipios · ${deptos.size-1} departamentos y Bogotá · ${num(n4)} entran en la etapa 4`;
+  document.getElementById("nombres").innerHTML=P.map(p=>`<option value="${esc(p.nombre)} (${esc(p.depto)})">`).join("");
+  mapa.addSource("m",{type:"geojson",data:j,promoteId:"cod"});
+  const antes=primeraEtiqueta();
+  mapa.addLayer({id:"relleno",type:"fill",source:"m",paint:{"fill-color":COLOR_FASE,"fill-opacity":["interpolate",["linear"],["zoom"],5,0.78,9,0.5,12,0.25]}},antes);
+  mapa.addLayer({id:"borde",type:"line",source:"m",paint:{"line-color":"#ffffff","line-width":["interpolate",["linear"],["zoom"],5,0.3,9,1.2]}},antes);
+  mapa.addLayer({id:"elegido",type:"line",source:"m",filter:["==",["get","cod"],""],paint:{"line-color":"#17241f","line-width":2.5}});
+  leyenda();
+}));
+function ficha(p){
+  elegido=p.cod; mapa.setFilter("elegido",["==",["get","cod"],p.cod]);
+  const top=JSON.parse(p.top), hist=JSON.parse(p.hist);
+  const [tf,cf]=FASES[p.fase];
+  const F=document.getElementById("ficha"); F.hidden=false;
+  F.innerHTML=`<button class="cerrar" aria-label="Cerrar">×</button>
+  <h2>${esc(p.nombre)}</h2><div class="sub">${esc(p.depto)} · DIVIPOLA ${p.cod}</div>
+  <span class="etiqueta" style="background:${cf}">${tf}</span>
+  <h3>Alcaldía 2023</h3>
+  <table>${top.map((c,i)=>`<tr><td>${i+1}. ${esc(c.n)}<br><span style="color:var(--suave);font-size:12px">${esc(c.p)}</span></td><td>${dec(c.v)} %</td></tr>`).join("")}</table>
+  <table style="margin-top:6px">
+   <tr><td>Margen entre primero y segundo</td><td>${dec(p.margen?.toFixed(1))} puntos</td></tr>
+   <tr><td>Participación</td><td>${pct(p.part)}</td></tr>
+   <tr><td>Potencial electoral</td><td>${num(p.pot)}</td></tr>
+   <tr><td>Puestos de votación</td><td>${num(p.puestos)}</td></tr>
+   <tr><td>Sectores</td><td>${p.sector==="comuna"?"comunas y corregimientos":p.sector==="localidad"?"localidades":"zonas electorales"}</td></tr>
+   <tr><td>Escenario 2027</td><td>${p.estudio?"sí":"todavía no (faltan aspirantes con fuente)"}</td></tr>
+  </table>
+  <h3>Quién ganó la alcaldía</h3>
+  <table>${hist.slice().reverse().map(h=>`<tr><td>${h.a} · ${esc(h.g||"sin dato")}</td><td>${h.v==null?"":dec(h.v)+" %"}</td></tr>`).join("")}</table>
+  <div class="aviso">Datos oficiales de la Registraduría (2015–2023) y del CEDAE (2000–2011). Límites del DANE. Cifras de una vista previa: el sitio todavía no lee este formato.</div>`;
+  F.querySelector(".cerrar").onclick=()=>{F.hidden=true;mapa.setFilter("elegido",["==",["get","cod"],""]);};
+}
+mapa.on("click","relleno",e=>ficha(e.features[0].properties));
+mapa.on("mouseenter","relleno",()=>mapa.getCanvas().style.cursor="pointer");
+mapa.on("mouseleave","relleno",()=>mapa.getCanvas().style.cursor="");
+document.getElementById("buscar").addEventListener("change",e=>{
+  const v=e.target.value; const f=datos&&datos.features.find(f=>`${f.properties.nombre} (${f.properties.depto})`===v);
+  if(!f)return; const b=new maplibregl.LngLatBounds();
+  f.geometry.coordinates.flat(2).forEach(c=>b.extend(c));
+  mapa.fitBounds(b,{padding:60,maxZoom:11}); ficha(f.properties); e.target.blur();
+});
+document.querySelectorAll("[data-color]").forEach(b=>b.onclick=()=>{
+  modo=b.dataset.color; document.querySelectorAll("[data-color]").forEach(x=>x.setAttribute("aria-pressed",x===b));
+  mapa.setPaintProperty("relleno","fill-color",modo==="fase"?COLOR_FASE:COLOR_PART); leyenda();
+});
+</script>
+</body>
+</html>
