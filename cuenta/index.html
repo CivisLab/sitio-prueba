@@ -6,13 +6,13 @@
 <a class="saltar" href="#contenido">Saltar al contenido</a>
 <header class="top"><div class="ancho">
 <a class="marca" href="../index.html" aria-label="CivisLab, inicio"><img src="../recursos/logo-palabra.png" alt="CivisLab" width="640" height="148"></a>
-<nav class="nav" aria-label="Menú principal"><a href="../quienes-somos/index.html">Quiénes somos</a><a href="../plataforma/index.html">Estratega</a><a href="../planes/index.html">Planes</a><a href="../academico/index.html">Académico<span class="solo-lector">,</span> <span class="marca-borrador">Borrador</span></a></nav>
-<a class="boton secundario ingresar" href="../plataforma/index.html#ingreso">Ingresar</a>
+<nav class="nav" aria-label="Menú principal"><a href="../quienes-somos/index.html">Quiénes somos</a><a href="../plataforma/index.html">Herramientas</a><a href="../planes/index.html">Planes</a><a href="../academico/index.html">Académico<span class="solo-lector">,</span> <span class="marca-borrador">Borrador</span></a></nav>
+<a class="boton secundario ingresar" href="../cuenta/index.html">Entrar a Estratega</a>
 <a class="boton primario" href="../hablemos/index.html">Hablemos</a>
 </div></header>
 <main id="contenido">
 <div class="ancho estrecho ingreso" id="ingreso" data-url="https://iopyzfeoymrgmfksxjbj.supabase.co" data-llave="sb_publishable_qglt4LPq20oBIjWXsV6fug_hF9oemiS"
- data-autorizacion="provisional-2026-10-29" data-puerto="3000">
+ data-autorizacion="provisional-2026-10-29" data-puerto="3000" data-correo="info.civislab@gmail.com">
 <div class="aviso-prueba"><span class="sello renida"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4 3 19.5h18z"/><path d="M12 10v4.5M12 17.2v.1"/></svg>En prueba</span><p><strong>Solo entra el equipo de CivisLab</strong> mientras
 Jurídica prepara la política de tratamiento de datos. «Estratega» es un nombre de trabajo.</p></div>
 
@@ -53,15 +53,43 @@ Al entrar queda constancia de qué texto aceptó y cuándo.</p>
 <section id="ingreso-dentro" aria-labelledby="t-dentro" hidden>
 <div class="form-cabeza"><p class="ojo">CivisLab · Estratega</p><h1 id="t-dentro">Ya está en Estratega</h1>
 <p class="ingreso-quien">Entró como <strong id="ingreso-correo-actual"></strong>
-<span class="ingreso-nivel">Nivel: <span class="sello abierto" id="ingreso-nivel">…</span></span></p></div>
+<span class="ingreso-nivel">Plan: <span class="sello abierto" id="ingreso-nivel">…</span></span></p>
+<p class="fuente ingreso-vence" id="ingreso-vence" hidden></p>
+<div class="acciones" id="ingreso-pasar" hidden><a class="boton primario" href="../planes/index.html#profesional">Pasar a
+Profesional</a></div></div>
+<p class="ingreso-mensaje pago-estado" id="pago-estado" role="status" aria-live="polite" hidden></p>
+<div class="acciones" id="pago-reintentar" hidden><button class="boton secundario" type="button" data-muro="profesional">Intentar
+de nuevo</button></div>
 <h2 class="ingreso-h2">Sus herramientas</h2>
 <ul class="herramientas-estratega"><li><a class="herramienta-estratega" href="../herramientas/estudio-2027/index.html"><strong>Estudio de probabilidad electoral</strong><span>Quién gana dónde y qué puede pasar en 2027.</span></a></li><li><a class="herramienta-estratega" href="../herramientas/atlas/index.html"><strong>Atlas</strong><span>Cómo vive cada municipio, con su fuente.</span></a></li><li><a class="herramienta-estratega" href="../herramientas/pulso-mapa/index.html"><strong>Pulso</strong><span>De qué se habla en los medios de cada municipio.</span></a></li><li><div class="herramienta-estratega pronto"><strong>Taller de Opinión</strong><span>Sondeos de opinión: encuestas y grupos focales digitales.</span><span class="sello pronto"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" stroke-dasharray="3 2.6"/><path d="M12 8v4.3l2.7 1.7"/></svg>Pronto</span></div></li></ul>
 <h2 class="ingreso-h2">Prueba de permisos</h2>
 <p class="fuente" style="max-width:62ch">Estos dos conjuntos de ejemplo no están en esta página: viven en Supabase y solo
-llegan si su nivel alcanza. Sin datos reales.</p>
-<ul class="conjuntos" id="ingreso-conjuntos"><li class="conjunto" data-clave="ejemplo-suscripcion" data-nivel="suscripcion"><div class="conjunto-cabeza"><strong>Conjunto de ejemplo · profesional</strong><span class="sello susc"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="5.5" y="10.5" width="13" height="9.5" rx="2"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></svg>Requiere Profesional</span></div><p class="conjunto-estado fuente">Cargando…</p></li><li class="conjunto" data-clave="ejemplo-contrato" data-nivel="contrato"><div class="conjunto-cabeza"><strong>Conjunto de ejemplo · personalizado</strong><span class="sello susc"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="5.5" y="10.5" width="13" height="9.5" rx="2"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></svg>Requiere Personalizado</span></div><p class="conjunto-estado fuente">Cargando…</p></li></ul>
+llegan si su plan alcanza. Lo que su plan no alcanza se ve con su forma, sin el contenido. Sin datos reales.</p>
+<ul class="conjuntos" id="ingreso-conjuntos"><li class="conjunto" data-clave="ejemplo-profesional" data-plan="profesional"><div class="conjunto-cabeza"><strong>Conjunto de ejemplo · Profesional</strong><span class="sello susc"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="5.5" y="10.5" width="13" height="9.5" rx="2"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></svg>Plan Profesional</span></div><p class="conjunto-estado fuente">Cargando…</p><div class="conjunto-cuerpo"></div><button class="boton secundario conjunto-ver" type="button" hidden>Pasar a Profesional</button></li><li class="conjunto" data-clave="ejemplo-personalizado" data-plan="personalizado"><div class="conjunto-cabeza"><strong>Conjunto de ejemplo · Personalizado</strong><span class="sello susc"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="5.5" y="10.5" width="13" height="9.5" rx="2"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></svg>Plan Personalizado</span></div><p class="conjunto-estado fuente">Cargando…</p><div class="conjunto-cuerpo"></div><button class="boton secundario conjunto-ver" type="button" hidden>Ver los planes</button></li></ul>
+<div class="acciones" id="conjuntos-reintentar" hidden><button class="boton secundario" type="button">Reintentar</button></div>
 <div class="acciones" style="margin:28px 0 64px"><button class="boton secundario" type="button" id="ingreso-salir">Salir</button></div>
 </section>
+
+<dialog class="muro" id="muro" aria-labelledby="muro-titulo">
+<button class="muro-cerrar" type="button" id="muro-cerrar" aria-label="Cerrar"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg></button>
+<p class="ojo"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="5.5" y="10.5" width="13" height="9.5" rx="2"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></svg>Con candado</p>
+<h2 id="muro-titulo">Esto se ve con el plan Profesional</h2>
+<div id="muro-pro">
+<p>El plan Profesional trae:</p>
+<ul class="muro-trae" id="muro-trae"><li>Cargando…</li></ul>
+<button class="boton primario muro-pasar" type="button" id="muro-pasar" disabled>Pasar a Profesional</button>
+<p class="muro-condiciones" id="muro-condiciones">Es un pago único con Wompi. <strong>No se renueva solo:</strong> al vencer
+vuelve a Libre y, si quiere seguir, paga otro periodo. Nada que cancelar.</p>
+<p class="muro-nota"><strong>Texto provisional.</strong> Las condiciones definitivas las escribe Jurídica (Ley 1480 de 2011).
+<span id="muro-prueba">Modo de pruebas de Wompi: no se cobra dinero real; use una tarjeta de prueba de Wompi.</span></p>
+</div>
+<div id="muro-perso" hidden>
+<p>El plan Personalizado se contrata por municipio, con un equipo que trabaja para su campaña. No se compra en línea.</p>
+<a class="boton primario" href="../hablemos/index.html?plan=personalizado">Hablemos de su campaña</a>
+</div>
+<p class="ingreso-mensaje" id="muro-mensaje" role="status" aria-live="polite" hidden></p>
+<p class="muro-planes"><a href="../planes/index.html">Ver los tres planes</a></p>
+</dialog>
 </div>
 <script src="../ingreso.js" defer></script>
 </main>
@@ -71,7 +99,7 @@ llegan si su nivel alcanza. Sin datos reales.</p>
 <p>Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.</p></div>
 <nav aria-label="CivisLab"><strong>CivisLab</strong>
 <a href="../quienes-somos/index.html">Quiénes somos</a>
-<a href="../plataforma/index.html">Estratega</a>
+<a href="../plataforma/index.html">Herramientas</a>
 <a href="../planes/index.html">Planes</a>
 <a href="../academico/index.html">Académico<span class="solo-lector">,</span> <span class="marca-borrador">Borrador</span></a>
 <a href="../hablemos/index.html">Hablemos</a></nav>

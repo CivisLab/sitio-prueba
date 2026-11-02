@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>La cifra de probabilidad · tres formas</title><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#2B4B48">
+<meta name="description" content="Tres formas de mostrar la probabilidad de ganar en el Estudio de CivisLab, con las mismas cifras simuladas, para escoger una.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="lenguaje.css">
+<link rel="stylesheet" href="entorno.css">
+<style>
+body{display:block;overflow:auto;height:auto}
+.pagina{max-width:1240px}
+.tres-f{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:start;margin-top:18px}
+.opcion{background:var(--superficie);border:1px solid var(--linea);border-radius:var(--r);padding:18px;display:grid;gap:14px}
+.opcion h2{font-size:1.15rem;font-weight:800;letter-spacing:-.01em}
+.opcion h2 small{display:block;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--tinta-3);margin-bottom:2px}
+.opcion .porque,.opcion .fallos{font-size:13.5px;color:var(--tinta-2);display:grid;gap:4px}
+.opcion .porque b,.opcion .fallos b{font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--tinta-3)}
+.opcion ul{margin:0;padding-left:18px;display:grid;gap:3px}
+.opcion.recomendada{box-shadow:inset 0 0 0 2px var(--acento)}
+.marca-rec{justify-self:start}
+.respuesta-c{font-size:1.05rem;font-weight:700;line-height:1.35;max-width:70ch}
+.acierto{margin-top:4px}
+.comun{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;margin-top:16px}
+@media (max-width:980px){.tres-f,.comun{grid-template-columns:minmax(0,1fr)}}
+</style>
+</head><body>
+<nav class="revision" aria-label="Revisión del prototipo (no es parte del diseño)">
+  <a href="index.html" data-pagina>Entorno</a><a href="cifra.html" data-pagina aria-current="page">Las tres formas de la cifra</a><a href="reservado.html" data-pagina>El espacio reservado</a>
+  <span class="grupo"><button data-tema>Oscuro</button></span>
+</nav>
+<main class="pagina">
+  <header class="cabeza">
+    <span class="herr">Estudio de Probabilidad Electoral · la cifra de probabilidad</span>
+    <div class="sellos"><span class="sello alerta">Cifras simuladas</span><span class="sello">Aspirantes inventados</span><span class="sello muestra">Para escoger</span></div>
+    <h1>Tres formas de decir «34 de cada 100»</h1>
+    <p class="sub">Las mismas cifras simuladas en las tres. Todas cumplen el lenguaje de los datos: probabilidad entera y en frecuencia, el rango a la vista, los empates como empates y el acierto del modelo en la misma pantalla. Cambian en qué se ve primero. En el entorno se escoge arriba, en «Cifra 1 · 2 · 3».</p>
+    <div class="esc" style="display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center"><div class="toggle" role="group" aria-label="Escenario"><button data-esc="0" aria-pressed="true">Escenario 1 · hay favorito</button><button data-esc="1" aria-pressed="false">Escenario 2 · empate</button></div></div>
+    <p class="respuesta-c" id="resp"></p>
+  </header>
+  <section class="tres-f">
+    <article class="opcion recomendada"><span class="sello marca-rec" style="background:var(--acento);color:var(--acento-tinta);border-color:var(--acento)">Recomendada</span>
+      <h2><small>Forma 1</small>La recta</h2><div id="f1"></div>
+      <div class="porque"><b>Por qué</b><ul><li>Todos los aspirantes sobre un mismo eje, de 0 a 50 %: se ve de un vistazo quién se separa y quién no.</li><li>El rango manda: la franja es lo más grande y la media vive adentro (regla «el rango primero»).</li><li>Los empatados comparten una sola franja, así que el empate no se puede leer como un orden.</li><li>Cambia de escenario sin cambiar de escala: en el 2, A cae al montón y se ve.</li></ul></div>
+      <div class="fallos"><b>Fallos</b><ul><li>Sigue siendo una gráfica de franjas: si lo que no le gusta a Carlos es la forma de barra, esta es la que más se le parece.</li><li>Con rangos angostos (13 a 17) la franja es pequeña en el celular.</li></ul></div></article>
+    <article class="opcion"><h2><small>Forma 2</small>Las cien simulaciones</h2><div id="f2"></div>
+      <div class="porque"><b>Por qué</b><ul><li>«De cada 100» se ve, no solo se lee: 34 cuadros de 100. Es la forma que mejor entiende quien no es estadístico.</li><li>Se ve también lo que queda: 66 de cada 100 veces, A no gana.</li><li>Los empatados son un solo bloque: el modelo no sabe cuál de ellos se queda con cada cuadro.</li></ul></div>
+      <div class="fallos"><b>Fallos</b><ul><li>El rango queda en el texto, no en el dibujo: rompe en parte «el rango primero».</li><li>Con muchos aspirantes, los bloques chicos se confunden; por eso solo llevan color el favorito y el primer empate.</li></ul></div></article>
+    <article class="opcion"><h2><small>Forma 3</small>El marcador</h2><div id="f3"></div>
+      <div class="porque"><b>Por qué</b><ul><li>Ninguna gráfica: solo cifras grandes, como un marcador. Es la más sobria y la que mejor se lee en el celular y en un informe impreso.</li><li>El rango va en grande y la frecuencia debajo; las líneas separan lo que el modelo distingue.</li></ul></div>
+      <div class="fallos"><b>Fallos</b><ul><li>No se ve la distancia: hay que leer 27 a 41 y 13 a 17 para saber que no se tocan.</li><li>Sin dibujo, el empate depende de la palabra «empatados».</li></ul></div></article>
+  </section>
+  <section class="comun">
+    <div class="tarjeta"><h3>Va con las tres: cuánto confiar</h3><p><b>El modelo acertó 15 de 50 carreras ya ocurridas.</b></p><div class="acierto" id="acierto" aria-hidden="true"></div><p class="fuente" style="margin-top:6px">Cada punto es una alcaldía ya elegida; lleno, donde el favorito del modelo ganó. Cifras simuladas.</p></div>
+    <div class="tarjeta"><h3>Va con las tres: el aviso</h3><p class="aviso-ley"><b>Escenario bajo supuestos declarados; no es pronóstico ni encuesta.</b> Con aspirantes reales, va dentro de la suscripción, después de entrar y aceptar las condiciones (Ley 2494).</p></div>
+  </section>
+</main>
+<script src="datos/estudio.js"></script><script src="lenguaje.js"></script><script src="cifra.js"></script>
+<script>
+(function () {
+  CL.barra();
+  const E = window.ESTUDIO;
+  let esc = new URLSearchParams(location.search).get("esc") === "2" ? 1 : 0, sel = "Aspirante A";
+  function todo() {
+    const e = E.escenarios[esc];
+    document.querySelectorAll("[data-esc]").forEach((b) => b.setAttribute("aria-pressed", String(+b.dataset.esc === esc)));
+    document.getElementById("resp").textContent = CL.respuesta(e);
+    for (const f of [1, 2, 3]) CL.cifra(document.getElementById("f" + f), e, f, sel, (id) => { sel = id; todo(); });
+  }
+  document.querySelectorAll("[data-esc]").forEach((b) => b.addEventListener("click", () => { esc = +b.dataset.esc; todo(); }));
+  document.getElementById("acierto").innerHTML = Array.from({ length: E.acierto[1] }, (_, i) => `<i class="${i < E.acierto[0] ? "si" : ""}"></i>`).join("");
+  todo();
+})();
+</script>
+</body></html>

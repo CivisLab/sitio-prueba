@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>El espacio reservado · tres variantes</title><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#2B4B48">
+<meta name="description" content="El componente de Estratega para lo que va en la suscripción: tres variantes, con formas inventadas.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="lenguaje.css">
+<link rel="stylesheet" href="entorno.css">
+<style>
+body{display:block;overflow:auto;height:auto}
+.pagina{max-width:1240px}
+.tres-f{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:start;margin-top:18px}
+.opcion{background:var(--superficie);border:1px solid var(--linea);border-radius:var(--r);padding:18px;display:grid;gap:14px}
+.opcion h2{font-size:1.15rem;font-weight:800;letter-spacing:-.01em}
+.opcion h2 small{display:block;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--tinta-3);margin-bottom:2px}
+.opcion .porque{font-size:13.5px;color:var(--tinta-2);display:grid;gap:4px}
+.opcion .porque b{font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--tinta-3)}
+.opcion ul.l{margin:0;padding-left:18px;display:grid;gap:3px}
+.muestra-abierta{font-size:13.5px;display:grid;gap:4px;padding-bottom:6px}
+.muestra-lado{border:1px solid var(--linea);border-radius:10px;padding:8px;display:grid;gap:2px;background:var(--papel)}
+.muestra-botones{display:flex;flex-wrap:wrap;gap:8px;padding-top:4px}
+@media (max-width:980px){.tres-f{grid-template-columns:minmax(0,1fr)}}
+</style>
+</head><body>
+<nav class="revision" aria-label="Revisión del prototipo (no es parte del diseño)">
+  <a href="index.html" data-pagina>Entorno</a><a href="cifra.html" data-pagina>Las tres formas de la cifra</a><a href="reservado.html" data-pagina aria-current="page">El espacio reservado</a>
+  <span class="grupo"><button data-tema>Oscuro</button></span>
+</nav>
+<main class="pagina">
+  <header class="cabeza">
+    <span class="herr">Estratega · el espacio reservado</span>
+    <div class="sellos"><span class="sello">Formas inventadas</span><span class="sello muestra">Ajuste de Carlos, 2-nov</span></div>
+    <h1>Lo que va en la suscripción, a la vista</h1>
+    <p class="sub">Ninguna pantalla dice que algo es privado o que no se puede ver. Lo que pide suscripción se muestra con su forma, borrosa, y con lo que se gana al suscribirse. Es un solo componente con tres variantes, según dónde aparece. Las formas son inventadas: no sale ningún dato real en el dibujo.</p>
+  </header>
+  <section class="tres-f">
+    <article class="opcion"><h2><small>Variante 1 · un panel entero</small>Vista velada</h2>
+      <div id="v1"></div>
+      <div class="porque"><b>Dónde va</b><ul class="l"><li>Una capa entera que va en la suscripción, como «Probabilidad 2027»: el panel derecho y el mapa se ven borrosos.</li></ul>
+        <b>Por qué</b><ul class="l"><li>Se ve que hay algo, y de qué tamaño: la forma promete más que una frase.</li><li>La tarjeta dice qué se gana, en cuatro renglones, y «Ver un ejemplo» lleva al ejemplo con cifras inventadas.</li></ul></div></article>
+    <article class="opcion"><h2><small>Variante 2 · una lista</small>Lista que continúa</h2>
+      <div><div class="muestra-abierta"><b>Medellín · Concejo 2019</b><span>1.916 votos · 0,26 % de los válidos de la ciudad</span></div><div id="v2"></div></div>
+      <div class="porque"><b>Dónde va</b><ul class="l"><li>Cuando lo abierto es la ciudad y el detalle va en la suscripción: el Cerebro por comuna y puesto.</li></ul>
+        <b>Por qué</b><ul class="l"><li>La persona ve el primer renglón completo y sabe cuántos más hay («+ 21 comunas y 185 puestos más»).</li><li>El número es lo que convence: dice cuánto detalle falta, sin mostrarlo.</li></ul></div></article>
+    <article class="opcion"><h2><small>Variante 3 · un control</small>Insignia</h2>
+      <div class="muestra-lado"><button type="button" class="capa">Probabilidad 2027<span class="sus-chip">Suscripción</span></button><label class="cruzar"><input type="checkbox" id="cz"> Cruzar con Atlas<span class="sus-chip">Suscripción</span></label></div>
+      <div class="muestra-botones"><button type="button" class="boton chico" id="gd">Guardar en el informe<span class="sus-chip">Suscripción</span></button></div>
+      <div class="porque"><b>Dónde va</b><ul class="l"><li>En una capa de la barra lateral, en «Cruzar con» y en «Guardar» y «Comparar».</li></ul>
+        <b>Por qué</b><ul class="l"><li>El control se puede tocar; al tocarlo sale una invitación corta con lo que se gana y «Ver los planes». Nunca un error ni un candado.</li><li>La etiqueta va en el color de la marca, no en el rojo de una alerta.</li></ul></div></article>
+  </section>
+</main>
+<script src="lenguaje.js"></script><script src="reservado.js"></script>
+<script>
+(function () {
+  CL.barra();
+  const R = CL.reservado;
+  document.getElementById("v1").innerHTML = R.velo({ titulo: "Quién encabeza en 2027, y con cuánta duda", forma: "recta", ejemplo: "cifra.html", valor: ["La probabilidad de ganar de cada aspirante, con su rango", "Los empates, dichos como empates", "Dónde sacaría sus votos cada uno, comuna por comuna", "Cuánto ha acertado el modelo, en la misma pantalla"] });
+  document.getElementById("v2").innerHTML = R.lista({ mas: "21 comunas y 185 puestos más", que: "con los votos de cada persona y su peso en cada lugar.", semilla: 3 });
+  document.getElementById("cz").addEventListener("change", (e) => { e.target.checked = false; R.invitar({ titulo: "Cruzar el Estudio con Atlas", valor: "Un punto en cada comuna con lo que dice Atlas: la votación y la calidad de vida, juntas." }); });
+  document.getElementById("gd").addEventListener("click", () => R.invitar({ titulo: "Su informe, listo para el cliente", valor: "Junte mapa, frase y cifra, y descárguelo en PDF con su marca de agua." }));
+  // En esta página, «Ver los planes» lleva al entorno con la ventana de planes.
+  document.addEventListener("click", (e) => { if (e.target.closest("[data-abrir=planes]")) location.href = "index.html?plan=libre#h=estudio&capa=p27&plan=libre"; });
+})();
+</script>
+</body></html>

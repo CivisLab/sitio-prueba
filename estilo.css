@@ -557,6 +557,15 @@ footer.pie p{max-width:72ch;margin-top:16px}
   header.top .boton{padding:8px 10px}
   header.top .ancho{gap:0 8px}
 }
+/* «Entrar a Estratega» es más largo que el «Ingresar» de antes (2-nov): en el celular, logo y botones más angostos
+   para que los dos botones quepan junto al logo */
+@media (max-width:420px){
+  .marca img{height:22px}
+  header.top .boton{padding:8px 8px;font-size:13px}
+  header.top .ancho{gap:0 6px}
+}
+/* Más angosto que 375 px no caben: el logo va solo en su fila y los dos botones debajo, a la derecha */
+@media (max-width:374px){.marca{flex:0 0 100%}}
 @media (max-width:820px){
   .ancho{padding:0 16px}
   .hero{padding:36px 0 32px}
@@ -712,9 +721,140 @@ a.herramienta-estratega:hover{border-color:var(--acento);transform:translateY(-1
 .conjunto table{width:100%;border-collapse:collapse;margin-top:10px;font-size:13.5px;font-variant-numeric:tabular-nums}
 .conjunto th,.conjunto td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--linea)}
 .conjunto th{color:var(--tinta-3);font-weight:700}
+.conjunto-ver{margin-top:12px}
+.conjunto-forma{display:grid;gap:6px;margin-top:10px}
+.conjunto-forma span{display:block;height:28px;border-radius:6px;background:linear-gradient(90deg,var(--superficie-2),var(--linea) 55%,var(--superficie-2));filter:blur(2px);opacity:.9}
+.ingreso-vence{margin-top:6px}
+.pago-estado{margin-top:20px}
+.muro{width:min(520px,calc(100vw - 32px));max-height:calc(100dvh - 32px);overflow:auto;padding:28px 28px 24px;border:1px solid var(--linea);border-radius:16px;background:var(--papel);color:var(--tinta);box-shadow:var(--sombra)}
+.muro::backdrop{background:rgba(10,12,16,.55)}
+.muro .ojo{display:flex;align-items:center;gap:6px}
+.muro h2{font-size:1.375rem;font-weight:800;margin:6px 40px 12px 0}
+.muro p{color:var(--tinta-2);font-size:15px}
+.muro-cerrar{position:absolute;top:14px;right:14px;width:40px;height:40px;display:grid;place-items:center;border:0;border-radius:999px;background:transparent;color:var(--tinta-2);cursor:pointer}
+.muro-cerrar:hover{background:var(--superficie-2);color:var(--tinta)}
+.muro-trae{margin:8px 0 18px;padding-left:20px;color:var(--tinta);font-size:15px;display:grid;gap:4px}
+.muro-pasar{width:100%;min-height:52px;white-space:normal;text-align:center}
+.muro-condiciones{margin-top:14px}
+.muro-nota{margin-top:10px;font-size:12.5px !important;line-height:1.5;color:var(--tinta-3) !important}
+.muro-nota strong{color:var(--tinta-2)}
 @media (max-width:820px){
   form.ingreso-correo{grid-template-columns:minmax(0,1fr)}
   form.ingreso-correo .boton{width:100%}
   .herramientas-estratega{grid-template-columns:minmax(0,1fr)}
 }
 @media (prefers-reduced-motion:reduce){.herramienta-estratega{transition:none}a.herramienta-estratega:hover{transform:none}}
+
+/* ── Qué es Estratega, Planes lado a lado y el pago simulado (encargo de Tecnología del 2-nov) ── */
+.que-es-rejilla{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:40px;align-items:center}
+.que-se-hace{list-style:none;padding:0;margin:20px 0 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 18px}
+.que-se-hace li{display:grid;grid-template-columns:40px 1fr;gap:12px;align-items:start}
+.que-se-hace strong{display:block;font-size:15.5px}
+.que-se-hace span{display:block;color:var(--tinta-2);font-size:14px;margin-top:2px}
+.que-es .acciones{margin-top:24px}
+.entorno{margin:0}
+.entorno img{display:block;width:100%;height:auto;border-radius:16px;box-shadow:var(--sombra)}
+.entorno figcaption{margin-top:8px}
+.entorno-svg{display:block;width:100%;height:auto;filter:drop-shadow(0 10px 24px rgba(20,32,29,.14));font-family:var(--f)}
+.entorno-svg text{font-family:var(--f)}
+.en-marco{fill:var(--superficie);stroke:var(--linea)}
+.en-barra-sup{fill:var(--superficie-2)}
+.en-luz{fill:var(--linea-2)}
+.en-titulo{fill:var(--tinta-2);font-size:12px;font-weight:700;text-anchor:middle}
+.en-lado{fill:var(--verde-marca)}
+.en-lado-t{fill:#B9D3A6;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.en-item{fill:transparent}.en-item.activo{fill:rgba(255,255,255,.14)}
+.en-punto{fill:var(--salvia)}
+.en-lado text:not(.en-lado-t),.entorno-svg g text{fill:#EEF2EC;font-size:12.5px;font-weight:600}
+.en-plan{fill:#fff;font-size:13px;font-weight:800}
+.en-mapa{fill:var(--superficie-2)}
+.en-zona{stroke:var(--superficie);stroke-width:2}
+.en-zona.t1{fill:#B9D8C4}.en-zona.t2{fill:#7AB79C}.en-zona.t3{fill:#569D7F}.en-zona.t4{fill:#3C8367}.en-zona.t5{fill:#2B6850}
+.en-panel{fill:var(--superficie);stroke:var(--linea)}
+.en-panel-t{fill:var(--tinta);font-size:11px;font-weight:700}
+.en-linea{fill:var(--linea)}
+.en-barra{fill:var(--acento);opacity:.8}
+.carta .carta-precio{margin-top:10px;color:var(--tinta);font-weight:700;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+
+.tres-planes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:8px;align-items:start}
+.plan-c{background:var(--superficie);border:1px solid var(--linea);border-radius:16px;padding:24px 22px;display:flex;flex-direction:column;gap:10px;scroll-margin-top:96px}
+.plan-c.dest{border:2px solid var(--acento);box-shadow:var(--sombra)}
+.plan-c .para{font-size:12.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--tinta-3)}
+.plan-c h2{font-size:1.625rem;font-weight:800;letter-spacing:-.02em}
+.plan-c .precio{font-size:1.0625rem;color:var(--tinta-2)}
+.plan-c .precio strong{font-size:2rem;font-weight:800;color:var(--tinta);letter-spacing:-.02em;margin-right:4px}
+.plan-c .precio-nota{font-size:13.5px;color:var(--tinta-2);display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-height:2.6em}
+.plan-c .boton{margin:4px 0 6px;width:100%}
+.trae-t{font-size:13px;font-weight:700;color:var(--tinta-3);margin-top:4px}
+.trae{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.trae li{display:grid;grid-template-columns:18px 1fr;gap:8px;font-size:14.5px;line-height:1.45;color:var(--tinta-2)}
+.trae .ico{width:18px;height:18px;color:var(--acento);margin-top:1px}
+.trae-mas{font-size:14px;font-weight:600;margin-top:4px}
+.marca-provisional{display:inline-block;font-size:11.5px;font-weight:800;letter-spacing:.03em;text-transform:uppercase;background:var(--estrecho-fondo);color:var(--estrecho);box-shadow:inset 0 0 0 1px var(--estrecho-borde);border-radius:999px;padding:1px 8px;margin-right:4px}
+.muro-planes{margin-top:12px;font-size:14px}
+
+.pago-sim{padding-bottom:64px}
+.sim-sello{position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:center;gap:8px;margin:0 -32px;padding:10px 16px;background:var(--estrecho-fondo);color:var(--estrecho);border-bottom:1px solid var(--estrecho-borde);font-weight:800;font-size:14.5px;text-align:center}
+.sim-sello .ico{width:18px;height:18px}
+.sim-plan{margin-top:12px;font-size:15px;color:var(--tinta-2);display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.sim-pasos{list-style:none;padding:0;margin:20px 0 0;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;counter-reset:paso}
+.sim-pasos li{counter-increment:paso;font-size:13px;font-weight:700;color:var(--tinta-3);border-top:3px solid var(--linea);padding-top:8px}
+.sim-pasos li::before{content:counter(paso) ". "}
+.sim-pasos li[aria-current="step"]{color:var(--tinta);border-top-color:var(--acento)}
+.sim-pasos li.hecho{color:var(--tinta-2);border-top-color:var(--salvia)}
+.sim-paso{margin-top:28px}
+.sim-paso h2{font-size:1.5rem;font-weight:800;letter-spacing:-.01em}
+.sim-paso h2:focus{outline:none}
+.sim-pedido,.sim-ley,.sim-datos-caja{background:var(--superficie);border:1px solid var(--linea);border-radius:14px;padding:18px 20px;margin-top:16px}
+.sim-pedido .trae{margin-top:6px}
+.sim-pedido .fuente{margin-top:4px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.sim-fila{display:flex;justify-content:space-between;gap:16px;align-items:baseline}
+.sim-fila strong.num{font-size:1.25rem}
+.sim-total{border-top:1px solid var(--linea);margin-top:16px;padding-top:14px;font-weight:700}
+.sim-paso>.sim-total{border:0;margin-top:16px;padding:0 4px}
+.sim-ley h3{font-size:1.0625rem;font-weight:800}
+.sim-ley dl{margin:12px 0 0;display:grid;gap:12px}
+.sim-ley dt{font-weight:700;font-size:14.5px}
+.sim-ley dd{margin:2px 0 0;color:var(--tinta-2);font-size:14.5px}
+.sim-paso .casilla{margin-top:18px}
+.sim-falta{color:var(--error);font-weight:600;font-size:14px;margin-top:8px}
+.sim-paso .acciones{margin-top:20px;display:flex;flex-wrap:wrap;gap:10px}
+.sim-aviso{margin-top:8px}
+.sim-elige{border:0;padding:0;margin:20px 0 0}
+.sim-elige legend{font-weight:700;font-size:14.5px;padding:0;margin-bottom:8px}
+.sim-opciones{display:flex;flex-wrap:wrap;gap:8px}
+.sim-opciones label{position:relative;cursor:pointer}
+.sim-opciones input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.sim-opciones span{display:inline-flex;align-items:center;min-height:44px;padding:8px 16px;border-radius:999px;border:1.5px solid var(--linea-2);font-weight:700;font-size:14.5px;background:var(--superficie)}
+.sim-opciones input:checked+span{background:var(--acento);color:var(--acento-tinta);border-color:var(--acento)}
+.sim-opciones input:focus-visible+span{outline:2px solid var(--acento);outline-offset:2px}
+.sim-datos{margin-top:18px}
+.sim-medio{font-weight:800;font-size:1.0625rem}
+.sim-datos-caja{margin-top:10px;display:grid;gap:10px;background:var(--superficie-2)}
+.sim-dato{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:baseline;border-bottom:1px dashed var(--linea-2);padding-bottom:8px}
+.sim-et{font-size:14px;color:var(--tinta-2)}
+.sim-val{font-weight:800;font-size:1.0625rem;letter-spacing:.04em;user-select:all}
+.sim-fija{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--tinta-3)}
+.sim-datos .fuente{margin-top:10px}
+.sim-procesa{display:flex;align-items:center;gap:12px;font-weight:700;padding:28px 0}
+.sim-giro{width:22px;height:22px;border-radius:50%;border:3px solid var(--linea);border-top-color:var(--acento);animation:sim-giro .9s linear infinite}
+@keyframes sim-giro{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.sim-giro{animation:none}}
+.sim-resultado{border-radius:16px;padding:24px 22px;border:1px solid var(--linea);background:var(--superficie)}
+.sim-resultado p{margin-top:10px;color:var(--tinta-2)}
+.sim-icono{display:inline-grid;place-items:center;width:48px;height:48px;border-radius:50%;margin-bottom:10px}
+.sim-icono .ico{width:26px;height:26px;stroke-width:2.4}
+.sim-resultado.bien .sim-icono{background:var(--bien-fondo);color:var(--bien)}
+.sim-resultado.mal .sim-icono{background:var(--malo-fondo);color:var(--malo)}
+.sim-recibo{margin:14px 0 0;display:grid;gap:8px}
+.sim-recibo div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--linea);padding-bottom:6px;font-size:14.5px}
+.sim-recibo dt{color:var(--tinta-2)}.sim-recibo dd{margin:0;font-weight:700;text-align:right}
+@media (max-width:900px){
+  .que-es-rejilla{grid-template-columns:1fr;gap:28px}
+  .tres-planes{grid-template-columns:1fr}
+}
+@media (max-width:820px){.sim-sello{margin:0 -16px}}
+@media (max-width:520px){
+  .que-se-hace{grid-template-columns:1fr}
+  .sim-dato{grid-template-columns:1fr;gap:2px}
+}

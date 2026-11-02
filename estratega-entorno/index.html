@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Estratega · prototipo</title><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#2B4B48">
+<meta name="description" content="Prototipo de Diseño de CivisLab: Estratega como un solo entorno, con barra lateral, la ficha del aspirante y tres formas de la cifra de probabilidad. Cifras simuladas y aspirantes inventados.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.js"></script>
+<link rel="stylesheet" href="lenguaje.css">
+<link rel="stylesheet" href="entorno.css">
+</head><body>
+<nav class="revision" aria-label="Revisión del prototipo (no es parte del diseño)">
+  <a href="index.html" data-pagina aria-current="page">Entorno</a><a href="cifra.html" data-pagina>Las tres formas de la cifra</a><a href="reservado.html" data-pagina>El espacio reservado</a>
+  <span class="grupo">Plan <button data-plan="libre">Libre</button><button data-plan="profesional">Profesional</button><button data-plan="personalizado">Personalizado</button></span>
+  <span class="grupo">Cifra <button data-forma="1">1</button><button data-forma="2">2</button><button data-forma="3">3</button></span>
+  <span class="grupo"><button data-tema>Oscuro</button></span>
+</nav>
+<div class="app" id="app">
+  <aside class="lado" aria-label="Estratega">
+    <div class="lado-marca"><span class="placa"><img src="logo.svg" alt="CivisLab"></span><span class="prod">Estratega<small>Nombre de trabajo</small></span></div>
+    <div class="lado-cuerpo" id="ladoCuerpo"></div>
+    <div class="lado-pie" id="ladoPie"></div>
+  </aside>
+  <div class="trabajo">
+    <header class="arriba">
+      <button type="button" class="icob plegar" id="plegar" aria-label="Plegar o desplegar la barra lateral" title="Plegar la barra"></button>
+      <nav class="migas" id="migas" aria-label="Territorio"></nav>
+      <div class="buscar" role="search"><span id="buscarIco"></span><input id="buscar" type="search" placeholder="Domicilio: comuna, barrio o puesto" aria-label="Buscar un lugar por nombre" autocomplete="off"><ul class="sug" id="sug" hidden></ul></div>
+    </header>
+    <div class="centro">
+      <div class="mapa" id="mapa" aria-label="Mapa de Medellín por comuna">
+        <div class="chips-capas" id="chips" role="group" aria-label="Capas"></div>
+        <div class="mapa-ley" id="ley"></div>
+        <p class="mapa-nota" id="nota"></p>
+        <button class="volver" id="volver" hidden>← Medellín</button>
+      </div>
+      <aside class="der" id="der" aria-label="Lo que se cruza" aria-live="polite"></aside>
+    </div>
+    <footer class="tiempo" id="tiempo" aria-label="Línea de tiempo"></footer>
+  </div>
+  <section class="ficha" id="ficha" role="dialog" aria-labelledby="fichaT" aria-hidden="true"></section>
+  <div class="velo ficha-velo" id="fichaVelo" hidden></div>
+  <nav class="abajo" id="abajo" aria-label="Herramientas"></nav>
+</div>
+<div class="velo" id="velo" hidden></div>
+<div class="aviso-toast" id="aviso" role="status"></div>
+<script src="datos/comunas.js"></script><script src="datos/estudio.js"></script><script src="datos/atlas.js"></script><script src="datos/ficha.js"></script><script src="datos/perfiles.js"></script>
+<script src="lenguaje.js"></script><script src="cifra.js"></script><script src="reservado.js"></script><script src="entorno.js"></script>
+</body></html>
