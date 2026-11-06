@@ -764,6 +764,14 @@ a.herramienta-estratega:hover{border-color:var(--acento);transform:translateY(-1
 .entorno figcaption{margin-top:8px}
 .entorno-svg{display:block;width:100%;height:auto;filter:drop-shadow(0 10px 24px rgba(20,32,29,.14));font-family:var(--f)}
 .entorno-svg text{font-family:var(--f)}
+.maqueta-3d .maqueta-poster{position:relative;display:block;border-radius:16px}
+.maqueta-3d .maqueta-poster:focus-visible{outline:3px solid var(--acento);outline-offset:3px}
+.maqueta-activar{position:absolute;left:50%;bottom:16px;transform:translateX(-50%);background:rgba(16,32,29,.86);color:#fff;
+  font-weight:700;font-size:14px;padding:10px 16px;border-radius:999px;white-space:nowrap;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.maqueta-3d.sin-gl .maqueta-activar{display:none}
+.maqueta-marco{display:block;width:100%;aspect-ratio:1/1;min-height:440px;max-height:80vh;border:0;border-radius:16px;
+  box-shadow:var(--sombra);background:#DCE6EA center/cover no-repeat}
+@media (max-width:700px){.maqueta-marco{aspect-ratio:4/5;min-height:0}.maqueta-activar{font-size:13px;bottom:10px}}
 .en-marco{fill:var(--superficie);stroke:var(--linea)}
 .en-barra-sup{fill:var(--superficie-2)}
 .en-luz{fill:var(--linea-2)}

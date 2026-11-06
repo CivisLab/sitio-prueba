@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><title>Maqueta 3D de Montería · CivisLab</title>
+<meta name="description" content="Maqueta 3D de Montería a lado y lado del río Sinú: gírela, acérquela y recorra sus zonas.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap">
+<style>
+:root{--papel:#F4F5F2;--tinta:#1D2422;--tinta-2:#4C5752;--linea:#D8DED6;--boton:#FFFFFF;--acento:#2B4B48;--acento-t:#FFFFFF;
+  color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--papel:#101716;--tinta:#E8EEEA;--tinta-2:#B6C3BD;--linea:#2C3A38;--boton:#172120;
+  --acento:#96B483;--acento-t:#10201D;color-scheme:dark}}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--papel);color:var(--tinta);font:15px/1.4 Montserrat,system-ui,sans-serif;display:flex;flex-direction:column}
+.solo-lector{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.mq-incrustada .mq-pie{display:none}
+.mq{flex:1;display:flex;flex-direction:column;min-height:0}
+.mq-escena{position:relative;flex:1;min-height:300px;overflow:hidden;background:#DCE6EA}
+.mq-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.mq-lienzo{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:grab;touch-action:pan-y}
+.mq-lienzo.agarrando{cursor:grabbing}
+.mq-lista .mq-poster{display:none}
+.mq-hito,.mq-zona{position:absolute;left:0;top:0;visibility:hidden;white-space:nowrap;will-change:transform;z-index:1}
+.mq-zona{z-index:2}.mq-tarjeta,.mq-brujula{z-index:3}
+.mq-hito{pointer-events:none;font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:999px;background:rgba(255,255,255,.92);
+  color:#1B2430;box-shadow:0 2px 8px rgba(0,0,0,.18)}
+.mq-hito span{margin-right:4px}
+.mq-hito.agua{color:#1E4F86}.mq-hito.verde{color:#2E5A20}.mq-hito.via{background:#1B2430;color:#fff}
+.mq-zona{font:700 12.5px/1 Montserrat,system-ui,sans-serif;padding:7px 11px;min-height:32px;border-radius:10px;border:1px solid #1B2430;
+  background:#fff;color:#1B2430;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.2)}
+.mq-zona.alerta{border:2px solid #C25E12}
+.mq-zona[aria-pressed="true"]{border:3px solid #2346A8}
+.mq-brujula{position:absolute;right:12px;top:12px;background:rgba(255,255,255,.85);border-radius:50%;padding:4px;line-height:0}
+.mq-brujula svg{transition:none}
+.mq-tarjeta{position:absolute;left:12px;top:12px;max-width:min(330px,calc(100% - 80px));background:rgba(255,255,255,.94);
+  color:#1B2430;border-radius:12px;padding:10px 12px;box-shadow:0 6px 18px rgba(0,0,0,.18);font-size:13px}
+.mq-tarjeta strong{font-size:14.5px}
+.mq-tarjeta p{margin:4px 0 0}
+.mq-fuente{font-size:12px;color:#4A5565}.mq-fuente a{color:#2346A8}
+.mq-leyenda{display:flex;align-items:center;gap:6px;font-size:12px;color:#4A5565}
+.mq-anillo{width:12px;height:12px;border-radius:50%;border:2px dashed #E0701F;flex:none}
+.mq-aviso-gl{display:none;position:absolute;left:12px;right:12px;bottom:12px;background:rgba(255,255,255,.95);color:#1B2430;
+  border-radius:10px;padding:8px 12px;font-size:13px;margin:0}
+.mq-sin-gl .mq-aviso-gl{display:block}
+.mq-sin-gl .mq-lienzo,.mq-sin-gl .mq-hito,.mq-sin-gl .mq-zona,.mq-sin-gl .mq-brujula,.mq-sin-gl .mq-tarjeta,
+.mq-sin-gl .mq-controles{display:none}
+.mq-controles{display:flex;flex-wrap:wrap;gap:6px;padding:8px;border-top:1px solid var(--linea);background:var(--papel)}
+.mq-controles button{font:600 14px/1 Montserrat,system-ui,sans-serif;min-height:44px;min-width:44px;padding:0 14px;border-radius:10px;
+  border:1px solid var(--linea);background:var(--boton);color:var(--tinta);cursor:pointer}
+.mq-controles button.principal{background:var(--acento);color:var(--acento-t);border-color:var(--acento);margin-left:auto}
+.mq-controles button:focus-visible,.mq-zona:focus-visible{outline:3px solid #2346A8;outline-offset:2px}
+.mq-pie{margin:0;padding:6px 12px 10px;font-size:12.5px;color:var(--tinta-2)}
+.mq-incrustada .mq-tarjeta{max-width:min(270px,calc(100% - 70px));padding:8px 10px;font-size:12px}
+.mq-incrustada .mq-tarjeta strong{font-size:13px}
+@media (max-width:600px){.mq-hito.menor{display:none}.mq-tarjeta{font-size:12.5px}.mq-controles button{padding:0 10px}}
+.mq-corto{display:none}
+@media (max-width:460px){.mq-controles button.principal{margin-left:0;flex:1 1 100%}.mq-largo{display:none}
+  .mq-corto{display:block}}
+</style></head>
+<body>
+<nav id="volver-civislab" aria-label="Volver al sitio" style="position:static;display:flex;align-items:center;padding:6px 16px;background:#2B4B48;margin:0"><a href="../../plataforma/index.html#que-es-estratega" target="_top" style="display:inline-flex;align-items:center;gap:8px;min-height:40px;color:#fff;font:600 15px/1 'Montserrat',system-ui,sans-serif;text-decoration:none">← Volver a CivisLab</a></nav>
+<script>if (window.self !== window.top) document.getElementById('volver-civislab').remove();</script>
+<main class="mq">
+<h1 class="solo-lector">Maqueta 3D de Montería</h1>
+<div class="mq-escena" id="mq-escena">
+<img class="mq-poster" src="../../recursos/estratega-entorno.webp" alt="Maqueta 3D de Montería a lado y lado del río Sinú" width="1160" height="760">
+<canvas id="mq-lienzo" class="mq-lienzo" role="img" aria-label="Maqueta 3D de Montería a lado y lado del río Sinú, con el campo que la rodea. Cinco zonas: margen
+izquierda, zona rural, centro, norte y sur; las dos primeras, golpeadas por las lluvias de febrero de 2026."></canvas>
+<span class="mq-hito agua" id="mq-hito-rio" aria-hidden="true"><span>〰</span>Río Sinú</span><span class="mq-hito verde" id="mq-hito-ronda" aria-hidden="true"><span>🌴</span>Ronda del Sinú (parque)</span><span class="mq-hito " id="mq-hito-pte" aria-hidden="true"><span>🌉</span>Puentes a la margen izquierda</span><span class="mq-hito  menor" id="mq-hito-cat" aria-hidden="true"><span>⛪</span>Catedral · centro</span><span class="mq-hito  menor" id="mq-hito-mer" aria-hidden="true"><span>🛒</span>Mercado del Sur</span><span class="mq-hito verde menor" id="mq-hito-cam" aria-hidden="true"><span>🐄</span>Fincas y corregimientos</span><span class="mq-hito verde menor" id="mq-hito-lom" aria-hidden="true"><span>⛰</span>Lomas al oriente</span><span class="mq-hito via" id="mq-hito-cer" aria-hidden="true"><span>↑</span>Vía a Cereté · U. de Córdoba</span><span class="mq-hito via menor" id="mq-hito-pla" aria-hidden="true"><span>→</span>Vía a Planeta Rica</span><span class="mq-hito via menor" id="mq-hito-tie" aria-hidden="true"><span>↓</span>Vía a Tierralta</span><button type="button" class="mq-zona alerta" id="mq-zona-mi" aria-pressed="false" aria-label="Margen izquierda: acercar la maqueta a esta zona">Margen izquierda</button><button type="button" class="mq-zona alerta" id="mq-zona-ru" aria-pressed="false" aria-label="Zona rural: acercar la maqueta a esta zona">Zona rural</button><button type="button" class="mq-zona" id="mq-zona-ce" aria-pressed="false" aria-label="Centro: acercar la maqueta a esta zona">Centro</button><button type="button" class="mq-zona" id="mq-zona-no" aria-pressed="false" aria-label="Norte: acercar la maqueta a esta zona">Norte</button><button type="button" class="mq-zona" id="mq-zona-su" aria-pressed="false" aria-label="Sur: acercar la maqueta a esta zona">Sur</button>
+<div class="mq-brujula" aria-hidden="true"><svg id="mq-brujula" viewBox="0 0 40 40" width="40" height="40"><path
+ d="M20 4 L25 20 L20 17 L15 20 Z" fill="#8A2D2D"/><path d="M20 36 L25 20 L20 23 L15 20 Z" fill="#7D8796"/><text x="20"
+ y="13.5" text-anchor="middle" font-size="7.5" font-weight="800" fill="#FFFFFF">N</text></svg></div>
+<div class="mq-tarjeta" id="mq-general"><strong>Montería, Córdoba</strong><p class="mq-largo">Toque una zona para
+acercarla. Arrastre a lo ancho para girar; pellizque o use + y − para acercar.</p><p class="mq-corto">Arrastre para girar;
+pellizque para acercar.</p><p class="mq-leyenda"><span class="mq-anillo"></span>Zonas golpeadas por las lluvias de febrero
+de 2026</p></div>
+<div class="mq-tarjeta mq-ficha" data-zona="mi" hidden><strong>Margen izquierda</strong><p>Barrios al otro lado del río, más bajos que el Sinú cuando crece. El 8 de febrero de 2026 hubo evacuaciones en 13 barrios, entre ellos El Tambo, El Rosario y El Campano.</p><p class="mq-fuente">Dato real · <a href="https://www.elheraldo.co/cordoba/2026/02/08/desde-la-madrugada-de-este-domingo-se-registran-nuevas-evacuaciones-en-monteria/" target="_blank" rel="noopener">El Heraldo, 8 de febrero de 2026</a></p></div><div class="mq-tarjeta mq-ficha" data-zona="ru" hidden><strong>Zona rural</strong><p>Corregimientos y veredas, con fincas y potreros. El 1 de febrero de 2026, Loma Verde, Las Palomas, Santa Lucía y Leticia estuvieron en emergencia por inundaciones.</p><p class="mq-fuente">Dato real · <a href="https://www.elheraldo.co/cordoba/2026/02/01/activan-plan-de-atencion-de-emergencias-en-monteria-por-inundaciones-en-4-corregimientos/" target="_blank" rel="noopener">El Heraldo, 1 de febrero de 2026</a></p></div><div class="mq-tarjeta mq-ficha" data-zona="ce" hidden><strong>Centro</strong><p>El comercio, las oficinas y los edificios más altos, alrededor de la Catedral, en la orilla alta del río.</p></div><div class="mq-tarjeta mq-ficha" data-zona="no" hidden><strong>Norte</strong><p>Barrios de la orilla alta, hacia la salida a Cereté.</p></div><div class="mq-tarjeta mq-ficha" data-zona="su" hidden><strong>Sur</strong><p>Barrios de la orilla alta, alrededor del Mercado del Sur.</p></div>
+<p class="mq-aviso-gl">Este navegador no puede mostrar la maqueta en 3D: queda la imagen.</p>
+</div>
+<div class="mq-controles" role="group" aria-label="Controles de la maqueta">
+<button type="button" id="mq-vista">Vista general</button>
+<button type="button" id="mq-izq" aria-label="Girar a la izquierda">↺</button>
+<button type="button" id="mq-der" aria-label="Girar a la derecha">↻</button>
+<button type="button" id="mq-menos" aria-label="Alejar">−</button>
+<button type="button" id="mq-mas" aria-label="Acercar">+</button>
+<button type="button" id="mq-recorrer" class="principal">Recorrer zonas →</button>
+</div>
+<p class="mq-pie">Montería en 3D: así se lee el territorio en el plan Personalizado. Maqueta ilustrativa, no a escala. Maqueta: Sara Patiño Rojas, CivisLab.</p>
+</main>
+<script src="../vendor/three.r149.min.js"></script>
+<script src="maqueta.js"></script>
+</body></html>
