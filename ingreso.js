@@ -179,6 +179,8 @@
     if (d) return d[1] + (d[1] === "1" ? " día" : " días");
     return p || "";
   }
+  // Lo que va después del precio: «al mes» si es un mes; si no, «por» y el periodo (sitio/tabla_planes.por_periodo).
+  function porPeriodo(p) { return /^1 mons?$/.test(p || "") ? "al mes" : "por " + periodo(p); }
   function espera(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
 
   async function miPlan(s) {
@@ -192,7 +194,7 @@
     document.getElementById("ingreso-pasar").hidden = p.plan !== "libre";   // el botón hacia Planes, solo en Libre
     var porSuscripcion = p.plan === "profesional" && p.asignado !== "profesional" && p.vence;
     vence.hidden = !porSuscripcion;
-    if (porSuscripcion) vence.textContent = "Su plan Profesional va hasta el " + fecha(p.vence) + ". No se renueva solo.";
+    if (porSuscripcion) vence.textContent = "Su plan Profesional va hasta el " + fecha(p.vence) + ".";
   }
 
   // Cada conjunto llega si su plan alcanza; si no, se ve su forma (cuántas filas) con un candado y
@@ -246,7 +248,7 @@
       var trae = await pedir("/rest/v1/capacidades?plan_minimo=eq.profesional&publica=is.false&select=titulo&order=orden",
                              { token: s.access_token });
       if (!p) throw new Error("sin precio");
-      botonPasar.textContent = "Pasar a Profesional · " + pesos(p.precio_centavos) + " por " + periodo(p.periodo)
+      botonPasar.textContent = "Pasar a Profesional · " + pesos(p.precio_centavos) + " " + porPeriodo(p.periodo)
                                + (p.precio_de_prueba ? " (precio de prueba)" : "");
       botonPasar.disabled = false;
       var ul = document.getElementById("muro-trae"); ul.textContent = "";

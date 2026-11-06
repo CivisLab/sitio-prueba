@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>
+.campana .aviso-c{background:#1D2422;color:#fff;font-size:13.5px;padding:8px 16px;text-align:center}
+.pestanas-c{display:flex;flex-wrap:wrap;gap:4px 18px;align-items:center;padding:8px 16px;border-bottom:1px solid var(--linea);
+  background:var(--superficie);font-weight:600;font-size:14.5px}
+.pestanas-c a{color:var(--tinta);text-decoration:none;padding:6px 0;min-height:32px}
+.pestanas-c a[aria-current]{color:var(--acento);box-shadow:inset 0 -3px 0 var(--acento)}
+.pestanas-c .volver-c{color:var(--tinta-2);margin-right:8px}
+.pestanas-c .pronto-c{color:var(--tinta-3);font-weight:500}
+.cabeza-c{display:flex;flex-wrap:wrap;gap:20px 28px;align-items:center;padding-top:28px;padding-bottom:20px}
+.foto-c{margin:0;display:flex;flex-direction:column;align-items:center;gap:6px;max-width:150px;text-align:center}
+.foto-c span{width:96px;height:96px;border-radius:50%;background:var(--acento-suave);color:var(--acento);display:grid;
+  place-items:center;font-weight:800;font-size:30px}
+.foto-c figcaption{font-size:11.5px;color:var(--tinta-3);line-height:1.35}
+.quien-c{flex:999 1 24em;min-width:0}.quien-c h1{margin:4px 0 8px;font-size:clamp(26px,3.4vw,38px);line-height:1.1}
+.dias-c{flex:1 1 15em;display:flex;flex-direction:column;gap:6px}
+.cuerpo-c{display:flex;flex-direction:column;gap:28px;padding-bottom:64px}
+.cifra-v{font-size:26px;font-weight:800;line-height:1.1;font-variant-numeric:tabular-nums}
+.cifra-et{font-size:13.5px;color:var(--tinta-2)}
+.nota-c{font-size:13px;color:var(--tinta-3);display:block}
+.marca-c{display:inline-flex;flex-wrap:wrap;gap:6px;align-items:center;vertical-align:middle}
+.sello-c{display:inline-block;font-size:11.5px;font-weight:700;padding:0 7px;border-radius:4px;line-height:1.6;white-space:nowrap}
+.sello-c.real{border:1.5px solid var(--tinta)}
+.sello-c.simulado{border:1.5px dashed var(--tinta-3);color:var(--tinta-2)}
+.sello-c.hipotesis{border:1.5px dashed var(--estrecho);color:var(--estrecho)}
+.refs{font-size:12px}.refs a{color:var(--tinta-2)}
+.prioridad-c{background:var(--estrecho-fondo);border-radius:var(--r);padding:16px 20px}
+.prioridad-t{font-size:22px;font-weight:800;margin:2px 0}
+.sec-cabeza{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:6px 16px;margin-bottom:10px}
+.sec-cabeza h2{font-size:18px;margin:0}.sec-cabeza .ojo{margin:0}
+.sec-sellos{font-size:12px;font-weight:700;color:var(--tinta-2)}
+.signos,.cifras{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(13em,1fr));gap:12px}
+.signo,.cifra{border:1px solid var(--linea);border-radius:var(--r);padding:14px;display:flex;flex-direction:column;gap:6px;
+  background:var(--superficie)}
+.b-pista{position:relative;display:block;height:9px;background:var(--superficie-2);border-radius:3px;flex:1}
+.b-barra{position:absolute;left:0;top:0;bottom:0;background:var(--tinta-2);border-radius:3px}
+.b-ref{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--tinta-3)}
+.reservado-c{border:1.5px dashed var(--linea-2);border-radius:var(--r);padding:14px;background:transparent}
+.reservado-t{font-weight:800;color:var(--tinta-2)}
+.dos-c{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}
+.indice-c{flex:1 1 13em;border:1px solid var(--linea);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;
+  gap:12px;background:var(--superficie);position:sticky;top:12px}
+.indice-c p{margin:0;font-size:12.5px;font-weight:700;color:var(--tinta-2)}
+.indice-c a{display:block;color:var(--tinta);text-decoration:none;padding:3px 0;font-size:14.5px}
+.indice-c a:hover{text-decoration:underline}
+.roles{display:flex;flex-direction:column;gap:6px}
+.rol{min-height:40px;border:1px solid var(--linea-2);border-radius:8px;background:var(--superficie);color:var(--tinta);
+  font:inherit;font-size:14px;text-align:left;padding:4px 10px;cursor:pointer}
+.rol[aria-pressed="true"]{background:var(--acento);color:var(--acento-tinta);border-color:var(--acento)}
+.secciones-c{flex:999 1 36em;min-width:0;display:flex;flex-direction:column;gap:22px}
+.seccion-c{border:1px solid var(--linea);border-radius:14px;padding:20px;background:var(--superficie);display:flex;
+  flex-direction:column;gap:14px}
+.seccion-c h2{margin:0;font-size:20px}
+.titular{font-size:19px;line-height:1.3;margin:0}
+.barras{margin:0}.barras figcaption{font-weight:700;font-size:14.5px;margin-bottom:8px}
+.barras ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.barras li{display:grid;grid-template-columns:minmax(8em,15em) 1fr auto;gap:10px;align-items:center;font-size:14px}
+.barras li.alerta .b-n,.barras li.alerta .b-v{color:var(--estrecho);font-weight:700}
+.b-v{font-variant-numeric:tabular-nums;white-space:nowrap}
+.citas,.tarjetas-c,.zonas-c,.riesgos-c{display:grid;grid-template-columns:repeat(auto-fit,minmax(15em,1fr));gap:12px}
+.cita{margin:0;border-left:3px solid var(--acento);padding:4px 0 4px 14px}.cita p{margin:0 0 6px;font-weight:600}
+.cita footer{font-size:13px;color:var(--tinta-3)}
+.tarjeta-c,.zona-c,.riesgo-c,.lista-c{border:1px solid var(--linea);border-radius:var(--r);padding:14px}
+.tarjeta-c h4,.zona-c h4,.riesgo-c h4,.lista-c h4{margin:0 0 6px;font-size:16px}
+.t-et{margin:0;font-size:12.5px;font-weight:700;color:var(--tinta-2)}
+.pendientes{margin:6px 0;padding-left:18px;font-size:13.5px}
+.por-definir{color:var(--tinta-3);font-style:italic}
+.pendiente{margin:0;font-size:14px}
+.zona-c p,.riesgo-c p{margin:6px 0;font-size:14px}
+.nota-dato{margin:0;font-size:14.5px}
+.tareas ul{list-style:none;margin:0 0 8px;padding:0;display:flex;flex-direction:column;gap:8px}
+.tareas li{display:grid;grid-template-columns:4.5em 1fr;gap:10px}.t-dia{font-weight:700;color:var(--tinta-2)}
+.tabla-c{overflow-x:auto}.tabla-c table{border-collapse:collapse;font-size:13.5px;width:100%}
+.tabla-c th,.tabla-c td{padding:5px 8px;border-bottom:1px solid var(--linea);text-align:left;font-variant-numeric:tabular-nums}
+.tabla-c td.estrecho{color:var(--estrecho);font-weight:700}
+.comunas-c,.lluvias-c{margin:0}.comunas-c figcaption,.lluvias-c figcaption{font-weight:700;font-size:14.5px;margin-bottom:8px}
+.comunas-mapa{background:var(--m-fondo);border-radius:var(--r);padding:12px;margin-bottom:10px}
+.comunas-mapa svg{display:block;width:100%;max-width:520px;height:auto;margin:0 auto}
+.comunas-mapa .etq text{fill:#10201D;font:700 13px var(--f);text-anchor:middle;dominant-baseline:middle}
+.leyenda-c{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--m-texto-2);margin:8px 0 0}
+.leyenda-c .rampa{width:120px;height:9px;border-radius:3px;order:1}.leyenda-c span:last-child{order:2}
+.fuentes-c{font-size:13.5px;padding-left:22px;display:flex;flex-direction:column;gap:4px}
+.fuente-ipet{font-size:13.5px;margin:0}
+@media (max-width:700px){.barras li{grid-template-columns:1fr auto}.barras li .b-pista{grid-column:1/-1;order:3}
+  .indice-c{position:static}}
+</style><title>Campañas · Estratega</title><meta name="description" content="Los espacios de trabajo de campaña de Estratega."><meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#2B4B48"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"><link rel="stylesheet" href="../estilo.css"></head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="top"><div class="ancho">
+<a class="marca" href="../index.html" aria-label="CivisLab, inicio"><img src="../recursos/logo-palabra.png" alt="CivisLab" width="640" height="148"></a>
+<nav class="nav" aria-label="Menú principal"><a href="../quienes-somos/index.html">Quiénes somos</a><a href="../plataforma/index.html">Herramientas</a><a href="../planes/index.html">Planes</a><a href="../academico/index.html">Académico<span class="solo-lector">,</span> <span class="marca-borrador">Borrador</span></a></nav>
+<a class="boton secundario ingresar" href="../cuenta/index.html">Entrar a Estratega</a>
+<a class="boton primario" href="../hablemos/index.html">Hablemos</a>
+</div><p class="firma-entorno"><span class="ancho">Estratega · una herramienta de CivisLab</span></p></header>
+<main id="contenido">
+<div class="campana" data-campana="indice"><div class="aviso-c">Campaña de ejemplo. El aspirante y todo lo de su equipo son inventados («Simulado»); el territorio y los resultados de Bello son reales y públicos (Registraduría, vía IPET).</div>
+<div class="ancho estrecho pagina"><p class="ojo">Estratega · Campaña</p><h1>Campañas</h1>
+<p class="lede">El espacio de trabajo de cada candidato: entender el territorio, decidir el mensaje, actuar y cuidar la
+campaña. Cada cifra lleva su sello: «Dato real», «Simulado» o «Hipótesis».</p>
+<ul class="herramientas-estratega"><li><a class="herramienta-estratega" href="ejemplo/index.html"><strong>Aspirante A</strong><span>Aspirante inventado a la Alcaldía de Bello · elecciones locales de 2027</span></a></li></ul>
+<p><a href="../cuenta/index.html">← Volver a Estratega</a></p></div></div>
+</main>
+<footer class="pie"><div class="ancho">
+<div><a class="marca-pie" href="../index.html" aria-label="CivisLab, inicio"><img src="../recursos/logo-original.png"
+ alt="CivisLab · Información para la decisión pública" width="900" height="285"></a>
+<p>Datos oficiales de la Registraduría Nacional del Estado Civil. CivisLab no publica encuestas, sondeos ni pronósticos sobre candidaturas (Ley 2494 de 2025). Licencia CC BY 4.0: cite «CivisLab, con datos de la Registraduría». Para reportar un error escriba a info.civislab@gmail.com; se rectifica en 5 días hábiles.</p></div>
+<nav aria-label="CivisLab"><strong>CivisLab</strong>
+<a href="../quienes-somos/index.html">Quiénes somos</a>
+<a href="../plataforma/index.html">Herramientas</a>
+<a href="../planes/index.html">Planes</a>
+<a href="../academico/index.html">Académico<span class="solo-lector">,</span> <span class="marca-borrador">Borrador</span></a>
+<a href="../hablemos/index.html">Hablemos</a></nav>
+<nav aria-label="Datos y reglas"><strong>Datos y reglas</strong>
+<a href="../antioquia/index.html">Los 125 municipios de Antioquia</a>
+<a href="../metodologia/index.html">Metodología y fuentes</a>
+<a href="../descargas/antioquia_alcaldias_2019_2023.csv">Descargar los datos de Antioquia (CSV)</a>
+<a href="../aviso-legal/index.html">Aviso legal y rectificaciones</a>
+<a href="../llms.txt">Descripción para modelos de lenguaje (llms.txt)</a></nav>
+</div></footer>
+</body></html>

@@ -6,12 +6,16 @@
   if (!raiz) return;
   var $ = function (id) { return document.getElementById(id); };
   var DATOS = JSON.parse($("sim-datos-wompi").textContent);
-  var dias = parseInt(raiz.getAttribute("data-dias"), 10);
+  var dias = parseInt(raiz.getAttribute("data-dias"), 10), meses = parseInt(raiz.getAttribute("data-meses"), 10);
   var quieto = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   function fecha(d) { return d.toLocaleDateString("es-CO", { day: "numeric", month: "long", year: "numeric" }); }
   var vence = null;
-  if (dias) { vence = new Date(); vence.setDate(vence.getDate() + dias); $("sim-hasta").textContent = " hasta el " + fecha(vence); }
+  if (dias || meses) {
+    vence = new Date();
+    if (meses) vence.setMonth(vence.getMonth() + meses); else vence.setDate(vence.getDate() + dias);
+    $("sim-hasta").textContent = " hasta el " + fecha(vence);
+  }
 
   function paso(n) {
     [1, 2, 3].forEach(function (k) { $("paso-" + k).hidden = k !== n; });

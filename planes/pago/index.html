@@ -11,7 +11,8 @@
 <a class="boton primario" href="../../hablemos/index.html">Hablemos</a>
 </div></header>
 <main id="contenido">
-<div class="ancho estrecho pago-sim" id="pago-sim" data-dias="30">
+<div class="ancho estrecho pago-sim" id="pago-sim" data-dias=""
+ data-meses="1">
 <p class="sim-sello" role="note"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4 3 19.5h18z"/><path d="M12 10v4.5M12 17.2v.1"/></svg>Simulación: no se cobra nada</p>
 <header class="form-cabeza"><p class="ojo"><a href="../index.html">Planes</a> · Pasar a Profesional</p>
 <h1>Así se vería el pago con Wompi</h1>
@@ -24,21 +25,21 @@ la página no se conecta con Wompi ni con nadie y no guarda nada.</p></header>
 <section class="sim-paso" id="paso-1" aria-labelledby="p1-t">
 <h2 id="p1-t" tabindex="-1">Resumen del pedido</h2>
 <div class="sim-pedido">
-<div class="sim-fila"><span><strong>Plan Profesional</strong> · 30 días</span><strong class="num">$10.000</strong></div>
-<p class="fuente">Por 30 días, desde el día del pago<span id="sim-hasta"></span>.</p><p class="fuente"><span class="sello renida"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4 3 19.5h18z"/><path d="M12 10v4.5M12 17.2v.1"/></svg>Precio de ejemplo</span></p>
+<div class="sim-fila"><span><strong>Plan Profesional</strong> · 1 mes</span><strong class="num">$39.900</strong></div>
+<p class="fuente">Por 1 mes, desde el día del pago<span id="sim-hasta"></span>.</p><p class="fuente"></p>
 <p class="trae-t">Trae, además de lo de Libre</p><ul class="trae"><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>Embudo por sector y puesto</span></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>Memoria del Cerebro (2000–2026) por comuna y puesto</span></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>Cruzar herramientas y comparar territorios</span></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>Guardar en el informe y descargar, con marca de agua</span></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>Pulso: resumen de temas y menciones de la semana, por municipio</span></li></ul>
-<div class="sim-fila sim-total"><span>Total a pagar, con impuestos</span><strong class="num">$10.000</strong></div>
+<div class="sim-fila sim-total"><span>Total a pagar, con impuestos</span><strong class="num">$39.900</strong></div>
 </div>
 <div class="sim-ley"><h3>Antes de pagar</h3>
 <p class="fuente">Lo que la Ley 1480 de 2011 pide mostrar antes de un pago en línea. Los textos definitivos los escribe
 Jurídica.</p>
 <dl>
 <div><dt>Quién le vende</dt><dd><span class="marca-provisional">Texto provisional</span> ⟨Razón social, NIT y domicilio de la sociedad de CivisLab⟩</dd></div>
-<div><dt>Precio total</dt><dd>$10.000 por 30 días, con impuestos. <span class="marca-provisional">Texto provisional</span> ⟨Si lleva IVA y cuánto⟩</dd></div>
+<div><dt>Precio total</dt><dd>$39.900 al mes, con impuestos. <span class="marca-provisional">Texto provisional</span> ⟨Si lleva IVA y cuánto⟩</dd></div>
 <div><dt>Derecho de retracto</dt><dd><span class="marca-provisional">Texto provisional</span> ⟨Plazo y forma de retractarse de la compra, y cómo se devuelve el
 dinero⟩</dd></div>
-<div><dt>Condiciones</dt><dd>Es un pago único por 30 días. No se renueva solo: al vencer, su plan vuelve a Libre y,
-si quiere seguir, paga otro periodo. Nada que cancelar. <span class="marca-provisional">Texto provisional</span></dd></div>
+<div><dt>Condiciones</dt><dd>Es un pago único por 1 mes: al vencer, su plan vuelve a Libre y, si quiere
+seguir, paga otro periodo. Nada que cancelar. <span class="marca-provisional">Texto provisional</span></dd></div>
 </dl></div>
 <div class="casilla"><input type="checkbox" id="sim-acepto" aria-describedby="sim-falta"><label for="sim-acepto">Leí lo
 anterior y lo acepto (texto provisional).</label></div>
@@ -55,8 +56,8 @@ forma de CivisLab, de los pasos que vería.</p>
 <fieldset class="sim-elige"><legend>Medio de pago</legend><div class="sim-opciones"><label><input type="radio" name="medio" value="tarjeta" checked><span>Tarjeta</span></label><label><input type="radio" name="medio" value="pse"><span>PSE</span></label><label><input type="radio" name="medio" value="nequi"><span>Nequi</span></label></div></fieldset>
 <fieldset class="sim-elige"><legend>Qué quiere ver</legend><div class="sim-opciones"><label><input type="radio" name="resultado" value="aprobado" checked><span>Un pago aprobado</span></label><label><input type="radio" name="resultado" value="rechazado"><span>Un pago rechazado</span></label></div></fieldset>
 <div class="sim-datos" id="sim-datos" aria-live="polite"><p class="sim-medio">Tarjeta de crédito o débito</p><div class="sim-datos-caja"><div class="sim-dato"><span class="sim-et">Número de la tarjeta</span><span class="sim-val num">4242 4242 4242 4242</span></div><div class="sim-dato"><span class="sim-et">Vence</span><span class="sim-val num">12 / 30</span></div><div class="sim-dato"><span class="sim-et">Código de seguridad</span><span class="sim-val num">123</span></div><div class="sim-dato"><span class="sim-et">Cuotas</span><span class="sim-val num">1</span></div><p class="sim-fija"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="5.5" y="10.5" width="13" height="9.5" rx="2"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></svg>Ya escritos por la simulación: no se pueden cambiar.</p></div><p class="fuente">Son las tarjetas de prueba que publica Wompi: con la primera el pago se aprueba y con la segunda se rechaza. No sirven para comprar nada.</p></div>
-<div class="sim-fila sim-total"><span>Total</span><strong class="num">$10.000</strong></div>
-<div class="acciones"><button class="boton primario" type="button" id="sim-pagar">Pagar $10.000</button>
+<div class="sim-fila sim-total"><span>Total</span><strong class="num">$39.900</strong></div>
+<div class="acciones"><button class="boton primario" type="button" id="sim-pagar">Pagar $39.900</button>
 <button class="boton secundario" type="button" id="sim-atras">Volver al resumen</button></div>
 </section>
 
@@ -67,7 +68,7 @@ pago… (simulado)</div>
 <h2 id="p3-t" tabindex="-1">Pago aprobado</h2>
 <p>Ya está en el plan <strong>Profesional</strong><span id="sim-hasta-2"></span>. Lo que tenía candado se abre.</p>
 <dl class="sim-recibo"><div><dt>Referencia</dt><dd class="num" id="sim-ref">—</dd></div><div><dt>Medio</dt><dd id="sim-como">—</dd></div>
-<div><dt>Valor</dt><dd class="num">$10.000</dd></div></dl>
+<div><dt>Valor</dt><dd class="num">$39.900</dd></div></dl>
 <p class="fuente">En un pago real, el plan cambia cuando Wompi le confirma el pago a CivisLab, no antes. Aquí cambió solo en
 esta pantalla: si vuelve a abrirla, su plan es otra vez Libre.</p>
 <div class="acciones"><a class="boton primario" href="../index.html">Volver a los planes</a>
