@@ -192,6 +192,8 @@
     if (!p) { nivel.textContent = "No se pudo leer"; vence.hidden = true; document.getElementById("ingreso-pasar").hidden = true; return; }
     nivel.textContent = PLANES[p.plan] || p.plan || "Sin perfil";
     document.getElementById("ingreso-pasar").hidden = p.plan !== "libre";   // el botón hacia Planes, solo en Libre
+    var campana = document.getElementById("ingreso-campana");               // la campaña, solo en Personalizado
+    if (campana) campana.hidden = p.plan !== "personalizado";
     var porSuscripcion = p.plan === "profesional" && p.asignado !== "profesional" && p.vence;
     vence.hidden = !porSuscripcion;
     if (porSuscripcion) vence.textContent = "Su plan Profesional va hasta el " + fecha(p.vence) + ".";
